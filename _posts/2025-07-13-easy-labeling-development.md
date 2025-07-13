@@ -18,6 +18,8 @@ tags:
 excerpt: "YOLO 포맷을 완벽하게 지원하는 웹 기반 이미지 주석(Annotation) 및 라벨링(Labeling) 도구, Easy Labeling을 소개합니다. 설치 없이 브라우저에서 바로 실행하고, 로컬 파일을 직접 다루어 빠르고 안전합니다. 객체 탐지(Object Detection) 데이터셋 구축을 위한 최고의 선택입니다."
 ---
 
+<p><strong>Easy Labeling 프로젝트 페이지: <a href="https://mouseball54.github.io/easy_labeling/">https://mouseball54.github.io/easy_labeling/</a></strong></p>
+
 안녕하세요! MouseBall54's Toolbox의 첫 번째 게시물입니다.
 
 이 게시물에서는 제가 개발한 웹 기반 이미지 주석(Annotation) 및 라벨링(Labeling) 도구, **Easy Labeling**을 소개합니다. 특히 **YOLO 포맷** 데이터셋 생성을 목표로 하는 분들께 유용한 도구가 될 것입니다.

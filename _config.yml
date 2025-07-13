@@ -112,8 +112,8 @@ analytics:
 author:
   name: "MouseBall54"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "A current engineer with a Mechanical Engineering background, primarily working with computer vision and AI applications, and continuously learning and growing."
+  location         : "Hwaseong, South Korea"
   email            : poabc1472@gmail.com
   links:
     - label: "Email"

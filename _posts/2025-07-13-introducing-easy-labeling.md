@@ -17,6 +17,8 @@ tags:
 excerpt: "Introducing Easy Labeling, a powerful web-based image annotation tool with full support for the YOLO format. Run it directly in your browser with no installation. Work with local files for maximum speed and privacy. The perfect choice for building object detection datasets for your computer vision projects."
 ---
 
+<p><strong>Easy Labeling Project Page: <a href="https://mouseball54.github.io/easy_labeling/">https://mouseball54.github.io/easy_labeling/</a></strong></p>
+
 Hello and welcome to the first post on MouseBall54's Toolbox!
 
 In this post, I'm excited to introduce **Easy Labeling**, a web-based image annotation tool I developed to simplify the creation of datasets, especially for **YOLO format** object detection.
