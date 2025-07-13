@@ -24,3 +24,14 @@
 - 2025년 7월 14일: `_config.yml` 파일의 `author.name`을 "MouseBall54"로 업데이트 완료.
 - 2025년 7월 14일: `_posts/2025-07-13-easy-labeling-development.md` 게시물을 GitHub 페이지(`https://github.com/MouseBall54/easy_labeling`)를 참고하여 상세 내용으로 업데이트 완료.
 - 2025년 7월 14일: **규칙 추가:** 포스트 작성 시 항상 한글과 영어 버전을 함께 작성하여 업로드해야 합니다.
+- 2025년 7월 14일: `_posts/2025-07-13-introducing-easy-labeling.md` 파일 생성 및 영어 게시물 추가 (날짜 수정 포함).
+- 2025년 7월 14일: 한글 및 영어 게시물 SEO 최적화 (제목, excerpt, tags 보강, YOLO 키워드 강조).
+- 2025년 7월 14일: `index.markdown` 파일 삭제 (Jekyll 빌드 충돌 방지).
+- 2025년 7월 14일: 웹사이트 전체 폰트를 Google Fonts의 Noto Sans CJK로 변경 (`assets/css/main.scss` 수정).
+- 2025년 7월 14일: 기본 폰트 크기를 14px로 조정 (`_sass/minimal-mistakes/_variables.scss` 수정).
+- 2025년 7월 14일: 피드 설명 페이지 (`feed.html`) 생성 및 푸터의 FEED 링크를 해당 페이지로 연결.
+- 2025년 7월 14일: `_pages/categories.md` 및 `_pages/tags.md` 파일 생성 (카테고리/태그 아카이브 페이지 활성화).
+- 2025년 7월 14일: `_config.yml` 파일의 `author` 섹션 업데이트 (location: "Hwaseong, South Korea", bio: "A current engineer with a Mechanical Engineering background, primarily working with computer vision and AI applications, and continuously learning and growing.").
+- 2025년 7월 14일: `_config.yml` 파일에 검색 기능 활성화 (Lunr Search).
+- 2025년 7월 14일: `_config.yml` 파일에 댓글 기능 활성화 (Giscus, `repo_id`: R_kgDOPLxxSQ, `category_id`: DIC_kwDOPLxxSc4Cs5Ry).
+- 2025년 7월 14일: `_config.yml` 파일에 Google Analytics 활성화 (`tracking_id`: G-G08ZQQSY7P).
