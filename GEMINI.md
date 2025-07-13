@@ -23,3 +23,4 @@
 - 2025년 7월 13일: `_config.yml` 파일의 `url`을 `https://mouseball54.github.io`로, `baseurl`을 `""`로 업데이트 완료.
 - 2025년 7월 14일: `_config.yml` 파일의 `author.name`을 "MouseBall54"로 업데이트 완료.
 - 2025년 7월 14일: `_posts/2025-07-13-easy-labeling-development.md` 게시물을 GitHub 페이지(`https://github.com/MouseBall54/easy_labeling`)를 참고하여 상세 내용으로 업데이트 완료.
+- 2025년 7월 14일: **규칙 추가:** 포스트 작성 시 항상 한글과 영어 버전을 함께 작성하여 업로드해야 합니다.
