@@ -1,0 +1,23 @@
+# Gemini 작업 로그
+
+- 2025년 7월 13일: `GEMINI.md` 파일 생성 및 작업 기록 시작.
+- 2025년 7월 13일: Jekyll 테마 분석 완료. 주요 변경/설정 필요 항목 파악:
+    - `_config.yml` 파일 내 사이트 기본 정보 (제목, 설명, URL, 스킨, 언어 등) 설정.
+    - 댓글, 검색, 분석 도구 등 기능 활성화 및 설정.
+    - SEO 및 소셜 공유 메타데이터 설정.
+    - 저자 및 푸터 정보 업데이트.
+    - `index.html`, `about.markdown` 등 콘텐츠 파일 수정.
+    - `_data/navigation.yml`, `_data/ui-text.yml` 파일 내 네비게이션 및 UI 텍스트 커스터마이징.
+- 2025년 7월 13일: `_config.yml` 파일에 GitHub 정보 업데이트 완료.
+    - `repository` 필드: `MouseBall54/MouseBall54.github.io`
+    - `author` 섹션 GitHub 링크: `https://github.com/MouseBall54`
+    - `footer` 섹션 GitHub 링크: `https://github.com/MouseBall54`
+- 2025년 7월 13일: `_config.yml` 파일에 이메일 주소 업데이트 완료.
+    - `author.email` 필드: `poabc1472@gmail.com`
+    - `author` 섹션 Email 링크: `mailto:poabc1472@gmail.com`
+- 2025년 7월 13일: `_config.yml` 파일의 `title`을 "MouseBall54's Toolbox"로 업데이트 완료.
+- 2025년 7월 13일: `_config.yml` 파일에서 "Quick-Start Guide" 관련 주석 제거 완료.
+- 2025년 7월 13일: `_data/navigation.yml` 파일의 "Quick-Start Guide" 메뉴 항목을 "Easy Labeling"으로 변경하고 URL을 `https://mouseball54.github.io/easy_labeling/`으로 업데이트 완료.
+- 2025년 7월 13일: `_posts/2025-07-13-easy-labeling-development.md` 파일 생성 완료.
+- 2025년 7월 13일: `_config.yml` 파일의 `name` 필드를 "MouseBall54"로 업데이트 완료.
+- 2025년 7월 13일: `_config.yml` 파일의 `url`을 `https://mouseball54.github.io`로, `baseurl`을 `""`로 업데이트 완료.
