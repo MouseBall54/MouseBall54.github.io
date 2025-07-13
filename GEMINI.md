@@ -13,11 +13,13 @@
     - `author` 섹션 GitHub 링크: `https://github.com/MouseBall54`
     - `footer` 섹션 GitHub 링크: `https://github.com/MouseBall54`
 - 2025년 7월 13일: `_config.yml` 파일에 이메일 주소 업데이트 완료.
-    - `author.email` 필드: `poabc1472@gmail.com`
-    - `author` 섹션 Email 링크: `mailto:poabc1472@gmail.com`
+    - `author.email` 필드: `poabc1472<!-- Import failed: gmail.com` - Only .md files are supported -->
+    - `author` 섹션 Email 링크: `mailto:poabc1472<!-- Import failed: gmail.com` - Only .md files are supported -->
 - 2025년 7월 13일: `_config.yml` 파일의 `title`을 "MouseBall54's Toolbox"로 업데이트 완료.
 - 2025년 7월 13일: `_config.yml` 파일에서 "Quick-Start Guide" 관련 주석 제거 완료.
 - 2025년 7월 13일: `_data/navigation.yml` 파일의 "Quick-Start Guide" 메뉴 항목을 "Easy Labeling"으로 변경하고 URL을 `https://mouseball54.github.io/easy_labeling/`으로 업데이트 완료.
 - 2025년 7월 13일: `_posts/2025-07-13-easy-labeling-development.md` 파일 생성 완료.
 - 2025년 7월 13일: `_config.yml` 파일의 `name` 필드를 "MouseBall54"로 업데이트 완료.
 - 2025년 7월 13일: `_config.yml` 파일의 `url`을 `https://mouseball54.github.io`로, `baseurl`을 `""`로 업데이트 완료.
+- 2025년 7월 14일: `_config.yml` 파일의 `author.name`을 "MouseBall54"로 업데이트 완료.
+- 2025년 7월 14일: `_posts/2025-07-13-easy-labeling-development.md` 게시물을 GitHub 페이지(`https://github.com/MouseBall54/easy_labeling`)를 참고하여 상세 내용으로 업데이트 완료.
