@@ -2,6 +2,7 @@
 layout: single
 title: "Easy Labeling: YOLO 포맷 지원 웹 기반 이미지 라벨링 툴"
 date: 2025-07-13T15:00:00+09:00
+typora-root-url: ../
 categories:
   - Development
   - Easy Labeling
@@ -24,7 +25,7 @@ excerpt: "YOLO 포맷을 완벽하게 지원하는 웹 기반 이미지 주석(A
 
 이 게시물에서는 제가 개발한 웹 기반 이미지 주석(Annotation) 및 라벨링(Labeling) 도구, **Easy Labeling**을 소개합니다. 특히 **YOLO 포맷** 데이터셋 생성을 목표로 하는 분들께 유용한 도구가 될 것입니다.
 
-![image-20250714230716449](http://127.0.0.1:4000/images/2025-07-13-easy-labeling-development/image-20250714230716449.png)
+![image-20250715203036663](/images/2025-07-13-easy-labeling-development/image-20250715203036663.png)
 
 ## 프로젝트 소개: YOLO 데이터셋을 위한 최적의 솔루션
 

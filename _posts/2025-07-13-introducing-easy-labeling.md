@@ -2,6 +2,7 @@
 layout: single
 title: "Easy Labeling: A Web-Based Image Annotation Tool for YOLO Format"
 date: 2025-07-13T11:00:00+09:00
+typora-root-url: ../
 categories:
   - Development
   - Easy Labeling
@@ -23,7 +24,7 @@ Hello and welcome to the first post on MouseBall54's Toolbox!
 
 In this post, I'm excited to introduce **Easy Labeling**, a web-based image annotation tool I developed to simplify the creation of datasets, especially for **YOLO format** object detection.
 
-![image-20250714230726636](/images/2025-07-13-introducing-easy-labeling/image-20250714230726636.png)
+![image-20250715203044117](/images/2025-07-13-introducing-easy-labeling/image-20250715203044117.png)
 
 ## What is Easy Labeling? A Better Way to Build YOLO Datasets
 
