@@ -49,13 +49,7 @@ Easy Labeling은 객체 탐지(Object Detection) 모델, 특히 YOLO 계열 모�
     *   여러 개의 경계 상자 클래스를 한 번에 변경하는 등 대량 작업 지원
 *   **유연한 설정:** JPG, PNG, TIFF 등 다양한 이미지 형식과 자동 저장, 다크 모드 지원
 
-## 기술 스택
 
-Easy Labeling은 다음 기술을 기반으로 구축되었습니다.
-
-*   **JavaScript:** 73.3%
-*   **HTML:** 16.0%
-*   **CSS:** 10.7%
 
 ## 향후 계획
 

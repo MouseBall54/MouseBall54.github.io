@@ -48,13 +48,7 @@ The primary output of the tool is annotation files in the widely-used **YOLO tex
     *   Perform bulk actions, such as changing the class for multiple selected bounding boxes at once.
 *   **Flexible Configuration:** Supports various image formats (JPG, PNG, TIFF), an auto-save feature, and a persistent dark mode.
 
-## Technology Stack
 
-Easy Labeling is built with standard web technologies:
-
-*   **JavaScript:** 73.3%
-*   **HTML:** 16.0%
-*   **CSS:** 10.7%
 
 ## Future Plans
 
