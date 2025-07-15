@@ -66,7 +66,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : "pOn-NW_Euc6Gx86HXeedEnKKXgGn1NIQesAZ6Ilym80"
+google_site_verification :
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
@@ -79,7 +79,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "assets/images/DvHMD1750764566.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -98,10 +98,10 @@ analytics:
 # Site Author
 author:
   name: "MouseBall54"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A current engineer with a Mechanical Engineering background, primarily working with computer vision and AI applications, and continuously learning and growing."
-  location         : "Hwaseong, South Korea"
-  email            : poabc1472@gmail.com
+  avatar: "assets/images/profile_1.png"
+  bio              : "Engineer with a background in **Mechanical Engineering**, working in **computer vision and AI**, always learning and evolving."
+  location         : "Somewhere, South Korea"
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -143,7 +143,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-  since: "2013"
+  since: "2025"
 
 
 # Reading Files
@@ -213,7 +213,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Pagination with jekyll-paginate
@@ -276,16 +276,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
