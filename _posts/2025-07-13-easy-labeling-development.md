@@ -1,11 +1,12 @@
 ---
-layout: single
-title: "Easy Labeling: YOLO 포맷 지원 웹 기반 이미지 라벨링 툴"
-date: 2025-07-13T15:00:00+09:00
 typora-root-url: ../
+header:
+  teaser: ../images/2025-07-13-easy-labeling-development/image-20250715203036663.png
+layout: single
+title: "Easy Labeling(YOLO)"
+date: 2025-07-13T15:00:00+09:00
 categories:
   - Development
-  - Easy Labeling
 tags:
   - YOLO
   - Labeling

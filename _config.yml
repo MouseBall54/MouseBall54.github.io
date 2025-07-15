@@ -15,34 +15,35 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "MouseBall54's Toolbox"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+title_separator          : "|"
+subtitle                 : "easy_labeling"
 name                     : "MouseBall54"
-description              : "An amazing website."
+description              : "Mouseball’s Toolbox — Simple tools, powerful results"
 url                      : "https://mouseball54.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "MouseBall54/MouseBall54.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
-words_per_minute         : 200
-enable_copy_code_button  : # true, false (default)
+teaser                   : #"/assets/images/image-20250715203036663.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "assets/images/DvHMD1750764566.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : "Toolbox" # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs              : false #true, false (default)
+words_per_minute         : 150
+enable_copy_code_button  : true # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
-  provider               : giscus
+  provider               : "giscus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   giscus:
-    repo_id              : R_kgDOPLxxSQ
-    category_id          : DIC_kwDOPLxxSc4Cs5Ry
-    discussion_term      : pathname
-    reactions_enabled    : 1
-    theme                : preferred_color_scheme
-    strict               : 0
-    input_position       : bottom
-    emit_metadata        : 0
-    lang                 : ko
-    lazy                 : true
+    repo_id              : "R_kgDOPLxxSQ" # Shown during giscus setup at https://giscus.app
+    category_name        : "General" # Full text name of the category
+    category_id          : "DIC_kwDOPLxxSc4Cs5Ry" # Shown during giscus setup at https://giscus.app
+    discussion_term      : "pathname" # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : 1 # '1' for enabled (default), '0' for disabled
+    theme                : "preferred_color_scheme" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+    strict               : 0  # 1 for enabled, 0 for disabled (default)
+    input_position       : "bottom" # "top", "bottom" # The comment input box will be placed above or below the comments
+    emit_metadata        : 0 # 1 for enabled, 0 for disabled (default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
+    lang                 : "en" # "en" (default)
+    lazy                 : true  # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
 reCaptcha:
   siteKey                :
   secret                 :
@@ -305,6 +306,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
