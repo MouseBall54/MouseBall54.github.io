@@ -3,8 +3,8 @@ typora-root-url: ../
 header:
   teaser: ../images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235507837.png
 layout: single
-title: "Easy Labeling 주요 기능 상세 분석 (YOLO 지원)"
-excerpt: "AI 객체 탐지 모델 학습을 위한 필수 과정, 데이터 라벨링! Easy Labeling이 제공하는 강력하고 편리한 기능들을 통해 작업 효율을 극대화하는 방법을 알아보세요. 로컬 파일 직접 연동부터 다양한 단축키, 고급 라벨 관리까지 모든 것을 알려드립니다."
+title: "YOLO 라벨링 끝판왕, Easy Labeling 주요 기능 파헤치기"
+excerpt: "AI 객체 탐지를 위한 YOLO 데이터 라벨링, 아직도 힘드신가요? Easy Labeling의 강력한 기능으로 데이터셋 구축 시간을 단축하세요. 로컬 파일 연동, 고급 Annotation 기능, 효율적인 단축키 등 YOLO 라벨링 생산성을 극대화하는 모든 비법을 공개합니다."
 date: 2025-07-15T23:00:00+09:00
 categories:
   - Development
@@ -16,6 +16,8 @@ tags:
   - AI
   - Computer Vision
   - Annotation
+  - Workflow
+  - Productivity
 ---
 
 안녕하세요! 오늘은 객체 탐지(Object Detection) 데이터셋을 만드는 과정을 획기적으로 개선해 줄 강력한 이미지 주석(Annotation) 도구, **Easy Labeling**의 주요 기능들을 상세하게 소개해 드리고자 합니다.

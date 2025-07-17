@@ -3,7 +3,7 @@ typora-root-url: ../
 header:
   teaser: ../images/2025-07-13-easy-labeling-development/image-20250715203036663.png
 layout: single
-title: "Easy Labeling(YOLO)"
+title: "Introducing Easy Labeling: A Free Web-Based Tool for YOLO Object Detection"
 date: 2025-07-13T11:00:00+09:00
 categories:
   - Development
@@ -16,7 +16,11 @@ tags:
   - Computer Vision
   - Machine Learning
   - Dataset
-excerpt: "Introducing Easy Labeling, a powerful web-based image annotation tool with full support for the YOLO format. Run it directly in your browser with no installation. Work with local files for maximum speed and privacy. The perfect choice for building object detection datasets for your computer vision projects."
+  - Data Labeling
+  - AI
+  - Free Tool
+  - Web-Based
+excerpt: "Discover Easy Labeling, a free, web-based image annotation tool designed for YOLO object detection. Create high-quality datasets for computer vision projects with full YOLO format support, local file processing for speed and privacy, and no installation required."
 ---
 
 <p><strong>Easy Labeling Project Page: <a href="https://mouseball54.github.io/easy_labeling/">https://mouseball54.github.io/easy_labeling/</a></strong></p>

@@ -3,7 +3,7 @@ typora-root-url: ../
 header:
   teaser: ../images/2025-07-13-easy-labeling-development/image-20250715203036663.png
 layout: single
-title: "Easy Labeling(YOLO)"
+title: "YOLO 데이터 라벨링, 설치 없이 웹에서 바로! Easy Labeling 개발기"
 date: 2025-07-13T15:00:00+09:00
 categories:
   - Development
@@ -14,10 +14,10 @@ tags:
   - Object Detection
   - Data Augmentation
   - Bounding Box
-  - 라벨링
-  - 객체탐지
-  - 데이터셋
-excerpt: "YOLO 포맷을 완벽하게 지원하는 웹 기반 이미지 주석(Annotation) 및 라벨링(Labeling) 도구, Easy Labeling을 소개합니다. 설치 없이 브라우저에서 바로 실행하고, 로컬 파일을 직접 다루어 빠르고 안전합니다. 객체 탐지(Object Detection) 데이터셋 구축을 위한 최고의 선택입니다."
+  - AI
+  - Machine Learning
+  - Dataset
+excerpt: "YOLO 객체 탐지 모델 학습, 데이터 라벨링 때문에 힘드셨나요? 설치가 필요 없는 웹 기반 YOLO 라벨링 도구, Easy Labeling의 개발 과정과 주요 기능을 소개합니다. 로컬 파일을 직접 사용하여 빠르고 안전하게 인공지능 데이터셋을 구축하는 방법을 알아보세요."
 ---
 
 <p><strong>Easy Labeling 프로젝트 페이지: <a href="https://mouseball54.github.io/easy_labeling/">https://mouseball54.github.io/easy_labeling/</a></strong></p>
