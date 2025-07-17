@@ -16,9 +16,9 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "MouseBall54's Toolbox"
 title_separator          : "|"
-subtitle                 : "easy_labeling"
+subtitle                 : "Your source for AI, Computer Vision, and useful tools."
 name                     : "MouseBall54"
-description              : "Mouseball’s Toolbox — Simple tools, powerful results"
+description              : "An insightful development log and a collection of useful tools focusing on AI, computer vision, and various programming topics. Maintained by MouseBall54."
 url                      : "https://mouseball54.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "MouseBall54/MouseBall54.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -66,9 +66,9 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : "google9f07c74b6c700dd4"
 bing_site_verification   :
-naver_site_verification  :
+naver_site_verification  : "naverd5b063886ce7ad0003826269985e87ea"
 yandex_site_verification :
 baidu_site_verification  :
 
@@ -83,9 +83,10 @@ og_image                 : "assets/images/DvHMD1750764566.png" # Open Graph/Twit
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Person
+  name                   : "MouseBall54"
   links: # An array of links to social media profiles
+    - "https://github.com/MouseBall54"
 
 # Analytics
 analytics:
