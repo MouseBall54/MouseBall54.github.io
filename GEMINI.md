@@ -33,10 +33,13 @@
 - 2025년 7월 14일: `_config.yml` 파일에 검색 기능 활성화 (Lunr Search).
 - 2025년 7월 14일: `_config.yml` 파일에 댓글 기능 활성화 (Giscus, `repo_id`: R_kgDOPLxxSQ, `category_id`: DIC_kwDOPLxxSc4Cs5Ry).
 - 2025년 7월 14일: `_config.yml` 파일에 Google Analytics 활성화 (`tracking_id`: G-G08ZQQSY7P).
-- 2025년 7월 14일: `_posts/2025-07-13-introducing-easy-labeling.md` 파일 생성 및 영어 게시물 추가 (날짜 수정 포함).
+- 2025년 7월 14일: `_posts/2025-07-13-introducing-easy-labeling.md` 파일 생성 및 영어 게시�� 추가 (날짜 수정 포함).
 - 2025년 7월 14일: 한글 및 영어 게시물 SEO 최적화 (제목, excerpt, tags 보강, YOLO 키워드 강조).
 - 2025년 7월 14일: **규칙 추가:** 포스트 작성 시 항상 한글과 영어 버전을 함께 작성하여 업로드해야 합니다.
 - 2025년 7월 14일: **규칙 추가:** 모든 작업은 논리적 단위로 나누어 커밋하며, 커밋 전 사용자에게 항상 확인을 받습니다.
 - 2025년 7월 14일: **규칙 추가:** 커밋 메시지는 임시 파일로 생성하여 `git commit -F <file>` 명령으로 사용한 후, 해당 파일을 삭제하는 방식으로 진행합니다.
 - 2025년 7월 15일: 모든 포스트에 이미지 추천 코멘트 주석으로 추가 완료.
 - 2025년 7월 15일: Easy Labeling 기능 소개 포스트 (한/영) 신규 작성 완료 (`_posts/2025-07-15-easy-labeling-in-depth-features.md`, `_posts/2025-07-15-introducing-easy-labeling-in-depth-features.md`).
+- 2025년 7월 21일: Easy Labeling 가이드 (1) 포스트 (한/영) 신규 작성 및 SEO 최적화 완료 (`_posts/2025-07-20-easy-labeling-guide-1.md`, `_posts/2025-07-20-introducing-easy-labeling-guide-1.md`).
+- 2025년 7월 21일: 포스트 내 이미지 경로 수정 및 가독성 개선 작업 완료.
+---
