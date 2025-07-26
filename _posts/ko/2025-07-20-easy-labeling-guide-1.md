@@ -6,8 +6,13 @@ layout: single
 title: "Easy Labeling 가이드 (1) - 이미지와 라벨 불러오기"
 excerpt: "YOLO 라벨링 툴 Easy Labeling의 첫 번째 가이드입니다. PC에서 이미지 폴더와 라벨 파일을 불러오고, 클래스 파일을 활용하는 기본적인 방법을 안내합니다."
 date: 2025-07-20T22:00:00+09:00
+toc: true
+toc_sticky: true
+author_profile: false
+sidebar:
+  nav: "docs"
 categories:
-  - Development
+  - ko_easy_labeling
 tags:
   - Easy Labeling
   - Guide
@@ -86,7 +91,7 @@ tags:
 
 ---
 
-## ## 2. 이미지 전환 방법
+## 2. 이미지 전환 방법
 
 Easy Labeling은 빠른 작업을 위해 다양한 전환 방법을 제공합니다. 편하신 방법을 선택하여 효율성을 높이십시오.
 
@@ -138,7 +143,7 @@ Easy Labeling은 빠른 작업을 위해 다양한 전환 방법을 제공합니
   - <code>Save Labels</code> (<code>Ctrl + S</code>): 수동 저장  
   - <code>Download Class Template</code>: <code>custom-classes.yaml</code> 템플릿 다운로드  
 
-  ---
+---
 
 ## 4. 클래스 설명 파일 활용
 

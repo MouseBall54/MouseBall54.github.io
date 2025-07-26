@@ -5,8 +5,13 @@ header:
 layout: single
 title: "Introducing Easy Labeling: A Free Web-Based Tool for YOLO Object Detection"
 date: 2025-07-13T11:00:00+09:00
+toc: true
+toc_sticky: true
+author_profile: false
+sidebar:
+  nav: "docs"
 categories:
-  - Development
+  - en_easy_labeling
 tags:
   - YOLO
   - Labeling

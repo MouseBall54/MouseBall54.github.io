@@ -6,8 +6,13 @@ layout: single
 title: "Easy Labeling Guide (1) - Loading Images and Labels"
 excerpt: "This is the first guide for the YOLO labeling tool, Easy Labeling. It provides basic instructions on how to load image folders and label files from your PC and how to use class files."
 date: 2025-07-20T22:00:00+09:00
+toc: true
+toc_sticky: true
+author_profile: false
+sidebar:
+  nav: "docs"
 categories:
-  - Development
+  - en_easy_labeling
 tags:
   - Easy Labeling
   - Guide

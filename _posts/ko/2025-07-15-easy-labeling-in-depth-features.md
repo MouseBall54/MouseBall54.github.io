@@ -6,8 +6,13 @@ layout: single
 title: "YOLO 라벨링 끝판왕, Easy Labeling 주요 기능 파헤치기"
 excerpt: "AI 객체 탐지를 위한 YOLO 데이터 라벨링, 아직도 힘드신가요? Easy Labeling의 강력한 기능으로 데이터셋 구축 시간을 단축하세요. 로컬 파일 연동, 고급 Annotation 기능, 효율적인 단축키 등 YOLO 라벨링 생산성을 극대화하는 모든 비법을 공개합니다."
 date: 2025-07-15T23:00:00+09:00
+toc: true
+toc_sticky: true
+author_profile: false
+sidebar:
+  nav: "docs"
 categories:
-  - Development
+  - ko_easy_labeling
 tags:
   - Easy Labeling
   - Features
