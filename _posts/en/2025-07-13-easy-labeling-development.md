@@ -2,14 +2,8 @@
 typora-root-url: ../
 header:
   teaser: ../images/2025-07-13-easy-labeling-development/image-20250715203036663.png
-layout: single
 title: "Introducing Easy Labeling: A Free Web-Based Tool for YOLO Object Detection"
 date: 2025-07-13T11:00:00+09:00
-toc: true
-toc_sticky: true
-author_profile: false
-sidebar:
-  nav: "docs"
 categories:
   - en_easy_labeling
 tags:

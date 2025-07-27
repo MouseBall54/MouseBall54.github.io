@@ -6,11 +6,6 @@ layout: single
 title: "Easy Labeling 가이드 (1) - 이미지와 라벨 불러오기"
 excerpt: "YOLO 라벨링 툴 Easy Labeling의 첫 번째 가이드입니다. PC에서 이미지 폴더와 라벨 파일을 불러오고, 클래스 파일을 활용하는 기본적인 방법을 안내합니다."
 date: 2025-07-20T22:00:00+09:00
-toc: true
-toc_sticky: true
-author_profile: false
-sidebar:
-  nav: "docs"
 categories:
   - ko_easy_labeling
 tags:
@@ -24,13 +19,6 @@ tags:
   - Annotation
   - YOLO Annotation
 ---
-
-## 목차
-- [1. 이미지 불러오기](#1-이미지-불러오기)  
-- [2. 이미지 전환 방법](#2-이미지-전환-방법)  
-- [3. 라벨 데이터 불러오기 및 관리](#3-라벨-데이터-불러오기-및-관리)  
-- [4. 클래스 설명 파일 활용](#4-클래스-설명-파일-활용)  
-- [5. FAQ 및 팁](#5-faq-및-팁)  
 
 <p><strong>Easy Labeling 프로젝트 페이지: <a href="https://mouseball54.github.io/easy_labeling/">https://mouseball54.github.io/easy_labeling/</a></strong></p>
 

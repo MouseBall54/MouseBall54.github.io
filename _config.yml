@@ -304,9 +304,15 @@ defaults:
       path: ""
       type: posts
     values:
+      show_date: true
       layout: single
       author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
+      toc: true
+      toc_sticky: true
+      author_profile: false
+      sidebar:
+        nav: "docs"
