@@ -10,12 +10,15 @@ main:
   #   url: https://mouseball54.github.io/easy_labeling/
   # - title: "Easy Labeling"
 
-docs:
-  - title: "한국어"
+sidebar-category:
+  - title: "🇰🇷 한국어"
     children:
-      - title: "Easy_Labeling"
-        url: /categories/ko_easy_labeling/
-  - title: "English"
+      - title: "🏷️Easy_Labeling"
+        url: /ko_easy_labeling/
+        category: "ko_easy_labeling"
+
+  - title: "🇬🇧 English"
     children:
-      - title: "Easy_Labeling"
-        url: /categories/en_easy_labeling/
+      - title: "🏷️Easy_Labeling"
+        url: /en_easy_labeling/
+        category: "en_easy_labeling"

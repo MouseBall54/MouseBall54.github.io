@@ -60,10 +60,10 @@ $default-monospace: Monaco, Consolas, "Lucida Console", monospace;
 $emoji-native: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
 /* system typefaces */
-$serif: $default-serif !default;
+$serif: 'Noto Sans', 'Noto Sans KR', sans-serif !default;
 $sans-serif: $default-sans-serif !default;
 $sans-serif-narrow: $sans-serif !default;
-$monospace: $default-monospace !default;
+$monospace: 'Noto Sans', 'Noto Sans KR', monospace !default;
 
 $global-font-family: $sans-serif !default;
 $header-font-family: $sans-serif !default;

@@ -9,7 +9,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -18,12 +18,12 @@ title                    : "MouseBall54's Toolbox"
 title_separator          : "|"
 subtitle                 : "Your source for AI, Computer Vision, and useful tools."
 name                     : "MouseBall54"
-description              : "An insightful development log and a collection of useful tools focusing on AI, computer vision, and various programming topics. Maintained by MouseBall54."
+description              : "MouseBall54's blog sharing insights and tools on AI, vision, and development"
 url                      : "https://mouseball54.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "MouseBall54/MouseBall54.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : #"/assets/images/image-20250715203036663.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "assets/images/DvHMD1750764566.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "assets/images/DvHMD1750764566-Photoroom.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Toolbox" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : false #true, false (default)
 words_per_minute         : 150
@@ -100,8 +100,8 @@ analytics:
 author:
   name: "MouseBall54"
   avatar: "assets/images/profile_1.png"
-  bio              : "Engineer with a background in **Mechanical Engineering**, working in **computer vision and AI**, always learning and evolving."
-  location         : "Somewhere, South Korea"
+  bio              : "Mechanical engineering background, now working in **computer vision** and **AI**."
+  location         : "South Korea"
   email            :
   links:
     - label: "Email"
@@ -315,4 +315,4 @@ defaults:
       toc_sticky: true
       author_profile: false
       sidebar:
-        nav: "docs"
+          nav: "sidebar-category"
