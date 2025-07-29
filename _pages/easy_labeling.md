@@ -1,7 +1,7 @@
 ---
 title: "Easy Labeling"
 layout: single
-permalink: /easy_labeling/
+permalink: /easy_labeling_intro/
 header:
   overlay_image: /images/easy_labeling_sample.png
   overlay_filter: 0.6
