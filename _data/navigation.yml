@@ -16,9 +16,15 @@ sidebar-category:
       - title: "🏷️Easy_Labeling"
         url: /ko_easy_labeling/
         category: "ko_easy_labeling"
+      - title: "🔍Troubleshooting"
+        url: /ko_Troubleshooting/
+        category: "ko_Troubleshooting"
 
   - title: "🇬🇧 English"
     children:
       - title: "🏷️Easy_Labeling"
         url: /en_easy_labeling/
         category: "en_easy_labeling"
+      - title: "🔍Troubleshooting"
+        url: /en_Troubleshooting/
+        category: "en_Troubleshooting"
