@@ -1,7 +1,7 @@
 ---
 title: "easy_labeling"
 layout: archive
-permalink: /ko_easy_labeling
+permalink: /ko_easy_labeling/
 sidebar:
     nav: "sidebar-category"
 ---

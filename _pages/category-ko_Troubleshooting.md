@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting"
 layout: archive
-permalink: /ko_Troubleshooting
+permalink: /ko_Troubleshooting/
 sidebar:
     nav: "sidebar-category"
 ---

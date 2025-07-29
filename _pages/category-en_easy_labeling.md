@@ -1,7 +1,7 @@
 ---
 title: "easy_labeling"
 layout: archive
-permalink: /en_easy_labeling
+permalink: /en_easy_labeling/
 sidebar:
     nav: "sidebar-category"
 ---
