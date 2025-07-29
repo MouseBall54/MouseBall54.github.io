@@ -33,6 +33,36 @@ body {
   flex: 1 0 auto;
 }
 
+.page_wide {
+  @include breakpoint($large) {
+    float: inline-end;
+    width: calc(100%);
+    padding-inline-end: $right-sidebar-width-narrow;
+  }
+
+  @include breakpoint($x-large) {
+    width: calc(100%);
+    padding-inline-end: $right-sidebar-width;
+  }
+
+  .page__inner-wrap {
+    float: inline-start;
+    margin-top: 1em;
+    margin-inline: 0;
+    width: 100%;
+    clear: both;
+
+    .page__content,
+    .page__meta,
+    .page__share {
+      position: relative;
+      float: inline-start;
+      margin-inline: 0;
+      width: 100%;
+      clear: both;
+    }
+  }
+}
 .page {
   @include breakpoint($large) {
     float: inline-end;
