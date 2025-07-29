@@ -8,3 +8,26 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+// // 전체에 적용
+// body {
+//   font-family: "Noto Sans","Noto Sans KR", sans-serif;
+// }
+
+// // 헤더 영역
+// .site-header,
+// .site-title,
+// .site-title a,
+// .masthead,
+// .masthead__inner-wrap,
+// .masthead__menu,
+// .page__title,
+// .page__lead {
+//   font-family: "Noto Sans","Noto Sans KR", sans-serif !important;
+// }
+
+// 네비게이션 링크
+.masthead__menu a {
+  font-family: "Noto Sans","Noto Sans KR", sans-serif !important;
+}
