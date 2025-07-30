@@ -23,7 +23,7 @@ tags:
 요청할때 마다 한 주제에 대해서 글을 작성하고 아래에 작업이력을 기록해서 나중에 참고할수있게해줘. 
 프로그래밍 언어나 전용영어단어에 대해서는 한글 버전에서도 그대로 영어단어를 사용하는 식으로해서 혼동이없게해줘.
 작성 후에는 이상한 부분이 있는지 재확인하고 간결체(단문체)로 작성되었는지 다시 확인해.
-여러 분야를 골고루 작성할꺼니까 분야별로 진행도를 체크해가면서 다음에 뭘 할지 확인해줘.
+여러 분야를 골고루 작성할꺼니까 분야별로 진행도를 체크해가면서 균등하게 다음에 뭘 할지 확인해줘.
 하나의 주제에 대해 글을 작성한 후에는 git 커밋을 하는데 메시지를 파일에 저장한 후 git commit -F 명령을 사용 방식으로 진행해줘. 커밋을 진행할때는 한글로 써줘.
 
 작업이력
@@ -42,9 +42,10 @@ tags:
 - 2025년 7월 30일: "JavaScript Uncaught RangeError: Maximum call stack size exceeded" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 30일: "Python IndexError: list index out of range" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 30일: "JavaScript Uncaught SyntaxError: Unexpected token" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 30일: "Python KeyError: '...'" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
-  - Python : 5/30
+  - Python : 6/30
   - JavaScript : 5/30
   - Java : 2/30
   - Git : 2/30 
@@ -55,7 +56,7 @@ tags:
 3.  **NameError: name '...' is not defined** ✅: 변수 또는 함수가 정의되지 않았을 때 해결 방법.
 4.  **TypeError: can only concatenate str (not "int") to str** ✅: 문자열과 숫자 등 다른 타입의 객체를 합치려 할 때 해결 방법.
 5.  **IndexError: list index out of range** ✅: 리스트의 범위를 벗어난 인덱스에 접근할 때 해결 방법.
-6.  **KeyError: '...'**: 딕셔너리에 존재하지 않는 키에 접근할 때 해결 방법.
+6.  **KeyError: '...'** ✅: 딕셔너리에 존재하지 않는 키에 접근할 때 해결 방법.
 7.  **AttributeError: 'NoneType' object has no attribute '...'**: None을 반환하는 객체의 속성에 접근하려 할 때 해결 방법.
 8.  **FileNotFoundError: [Errno 2] No such file or directory**: 파일을 찾을 수 없을 때 경로 문제 해결 방법.
 9.  **ModuleNotFoundError: No module named '...'**: 설치되지 않았거나 잘못된 이름의 모듈을 임포트할 때 해결 방법.
