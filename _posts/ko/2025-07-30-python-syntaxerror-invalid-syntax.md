@@ -1,9 +1,9 @@
 ---
 typora-root-url: ../
 layout: single
-title: "파이썬 SyntaxError: invalid syntax 오류 완벽 가이드"
+title: "Python SyntaxError: invalid syntax 오류 완벽 가이드"
 date: 2025-07-30T10:00:00+09:00
-excerpt: "파이썬에서 가장 흔한 오류 중 하나인 SyntaxError: invalid syntax의 원인과 해결 방법을 쉽고 명확하게 설명합니다. 콜론 누락, 괄호 불일치 등 다양한 예시를 통해 문법 오류를 빠르게 해결하세요."
+excerpt: "Python에서 가장 흔한 오류 중 하나인 SyntaxError: invalid syntax의 원인과 해결 방법을 쉽고 명확하게 설명합니다. 콜론 누락, 괄호 불일치 등 다양한 예시를 통해 문법 오류를 빠르게 해결하세요."
 categories:
   - ko_Troubleshooting
 tags:
@@ -13,15 +13,15 @@ tags:
   - Beginner
 ---
 
-## 파이썬 `SyntaxError: invalid syntax` 오류란?
+## Python `SyntaxError: invalid syntax` 오류란?
 
-파이썬을 처음 배울 때 가장 먼저 마주치는 오류 중 하나는 바로 `SyntaxError: invalid syntax` 입니다. 이 오류는 작성한 코드가 파이썬의 문법 규칙을 따르지 않았을 때 발생합니다. 즉, 파이썬 인터프리터가 코드를 이해할 수 없다는 의미입니다.
+Python을 처음 배울 때 가장 먼저 마주치는 오류 중 하나는 바로 `SyntaxError: invalid syntax` 입니다. 이 오류는 작성한 코드가 Python의 문법 규칙을 따르지 않았을 때 발생합니다. 즉, Python 인터프리터가 코드를 이해할 수 없다는 의미입니다.
 
 이 오류는 매우 광범위한 원인으로 발생할 수 있지만, 대부분 간단한 실수에서 비롯됩니다. 이 가이드에서는 가장 흔한 원인과 해결 방법을 살펴보겠습니다.
 
 ### 1. 콜론(`:`) 누락
 
-파이썬에서는 `if`, `for`, `def`, `class` 등 코드 블록을 시작하는 구문 끝에 항상 콜론(`:`)을 붙여야 합니다. 이를 빠뜨리면 `SyntaxError`가 발생합니다.
+Python에서는 `if`, `for`, `def`, `class` 등 코드 블록을 시작하는 구문 끝에 항상 콜론(`:`)을 붙여야 합니다. 이를 빠뜨리면 `SyntaxError`가 발생합니다.
 
 **오류 발생 코드:**
 ```python
@@ -84,7 +84,7 @@ message = "안녕하세요"
 
 ### 5. 키워드 오타
 
-파이썬의 예약된 키워드(`if`, `for`, `while`, `def` 등)에 오타가 있으면 문법 오류로 이어집니다.
+Python의 예약된 키워드(`if`, `for`, `while`, `def` 등)에 오타가 있으면 문법 오류로 이어집니다.
 
 **오류 발생 코드:**
 ```python

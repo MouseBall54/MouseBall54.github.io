@@ -21,9 +21,15 @@ tags:
 ```
 
 앞으로 글이 300개가 될때까지는 Troubleshooting에 대한 주제로 글을 올릴꺼야.
+요청할때 마다 한 주제에 대해서 글을 작성하고 아래에 작업이력을 기록해서 나중에 참고할수있게해줘. 
+작성 후에는 이상한 부분이 있는지 재확인하고 간결체(단문체)로 작성되었는지 다시 확인해.
 
-자주 검색되는 Troubleshooting 이슈 300개에 대해서 먼저 정리하고 그것에 대한 작업 진행 목록을
-GEMINI.md 파일에 업데이트해줘.
+
+작업이력
+- 2025년 7월 30일: Python, JavaScript, Java, Git 관련 자주 발생하는 오류 120개 목록 생성 완료.
+- 2025년 7월 30일: "SyntaxError: invalid syntax" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 30일: "IndentationError: expected an indented block" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 30일: "Uncaught TypeError: Cannot read properties of null" 관련 한글 및 영어 포스트 작성 완료.
 
 ### Python (1-30)
 1.  **SyntaxError: invalid syntax**: 콜론(:) 누락, 괄호 불일치 등 기본 문법 오류 해결 방법.
@@ -151,4 +157,4 @@ GEMINI.md 파일에 업데이트해줘.
 117. **LF will be replaced by CRLF**: Windows와 macOS/Linux 간의 줄 바꿈 문자 차이 문제 해결.
 118. **error: RPC failed; curl 56 Recv failure**: 대용량 푸시/클론 시 네트워크 문제 해결.
 119. **fatal: early EOF**: 예기치 않게 서버 연결이 종료될 때 해결 방법.
-120. **`git bisect`**: 버그를 유발한 커밋을 자동으로 찾아내는 방법. 
+120. **`git bisect`**: 버그를 유발한 커밋을 자동으로 찾아내는 방법.
