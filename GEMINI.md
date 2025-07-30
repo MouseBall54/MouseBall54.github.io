@@ -35,6 +35,7 @@ tags:
 - 2025년 7월 30일: "java.lang.NullPointerException" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 30일: "NameError: name '...' is not defined" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 30일: "Uncaught TypeError: Cannot read properties of undefined" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 30일: "java.lang.ArrayIndexOutOfBoundsException" 관련 한글 및 영어 포스트 작성 완료.
 
 ### Python (1-30)
 1.  **SyntaxError: invalid syntax** ✅: 콜론(:) 누락, 괄호 불일치 등 기본 문법 오류 해결 방법.
@@ -102,6 +103,7 @@ tags:
 
 ### Java (61-90)
 61. **NullPointerException** ✅: `null` 참조를 가진 객체의 멤버에 접근할 때 해결 방법.
+62. **ArrayIndexOutOfBoundsException** ✅: 배열의 범위를 벗어난 인덱스에 접근할 때 해결 방법.
 62. **ArrayIndexOutOfBoundsException**: 배열의 범위를 벗어난 인덱스에 접근할 때 해결 방법.
 63. **FileNotFoundException**: 지정된 경로에서 파일을 찾을 수 없을 때 해결 방법.
 64. **ClassCastException**: 호환되지 않는 클래스 간에 객체를 형변환하려 할 때 해결 방법.
