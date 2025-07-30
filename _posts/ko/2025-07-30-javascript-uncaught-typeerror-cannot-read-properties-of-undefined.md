@@ -3,7 +3,7 @@ typora-root-url: ../
 layout: single
 title: "JavaScript 'undefined'의 속성을 읽을 수 없음(Uncaught TypeError) 오류 해결 방법"
 date: 2025-07-30T22:00:00+09:00
-excerpt: "자바스크립트에서 'Uncaught TypeError: Cannot read properties of undefined' 오류가 발생하는 원인을 파악하고, 효과적인 해결 방법을 알아봅니다."
+excerpt: "JavaScript에서 'Uncaught TypeError: Cannot read properties of undefined' 오류가 발생하는 원인을 파악하고, 효과적인 해결 방법을 알아봅니다."
 categories:
   - ko_Troubleshooting
 tags:
@@ -15,11 +15,11 @@ tags:
 
 ## 서론
 
-"Uncaught TypeError: Cannot read properties of undefined" 오류는 자바스크립트에서 가장 흔하게 발생하는 문제 중 하나다. 이 오류는 `undefined` 값을 가진 변수의 속성이나 메서드에 접근하려고 할 때 발생한다. 이 가이드는 주요 원인과 해결 방법을 설명한다.
+"Uncaught TypeError: Cannot read properties of undefined" 오류는 JavaScript에서 가장 흔하게 발생하는 문제 중 하나다. 이 오류는 `undefined` 값을 가진 변수의 속성이나 메서드에 접근하려고 할 때 발생한다. 이 가이드는 주요 원인과 해결 방법을 설명한다.
 
 ## 오류 발생 원인
 
-이 오류는 사용하려는 변수에 값이 할당되지 않았거나, 접근하려는 객체 속성이 존재하지 않기 때문에 발생한다. 자바스크립트 엔진은 `undefined`에서 속성을 읽을 수 없다.
+이 오류는 사용하려는 변수에 값이 할당되지 않았거나, 접근하려는 객체 속성이 존재하지 않기 때문에 발생한다. JavaScript 엔진은 `undefined`에서 속성을 읽을 수 없다.
 
 ### 주요 발생 시나리오
 
@@ -109,7 +109,7 @@ console.log(user.profile.address?.street); // undefined 출력, 오류 없음
 
 ### 4. DOM 요소 존재 여부 확인
 
-DOM 작업을 할 때, HTML이 완전히 로드되기 전에 자바스크립트 코드가 실행되면 이 오류가 자주 발생한다.
+DOM 작업을 할 때, HTML이 완전히 로드되기 전에 JavaScript 코드가 실행되면 이 오류가 자주 발생한다.
 
 **문제 코드:**
 ```html

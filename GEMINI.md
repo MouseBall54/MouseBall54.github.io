@@ -22,9 +22,10 @@ tags:
 
 앞으로 글이 300개가 될때까지는 Troubleshooting에 대한 주제로 글을 올릴꺼야.
 요청할때 마다 한 주제에 대해서 글을 작성하고 아래에 작업이력을 기록해서 나중에 참고할수있게해줘. 
+프로그래밍 언어나 전용영어단어에 대해서는 한글 버전에서도 그대로 영어단어를 사용하는 식으로해서 혼동이없게해줘.
 작성 후에는 이상한 부분이 있는지 재확인하고 간결체(단문체)로 작성되었는지 다시 확인해.
 여러 분야를 골고루 작성할꺼니까 분야별로 진행도를 체크해가면서 다음에 뭘 할지 확인해줘.
-하나의 주제에 대해 글을 작성한 후에는 git 커밋을 하는데 커밋메시지를 파일에 쓰고 활용하고 지우는 방식으로 진행해줘. 
+하나의 주제에 대해 글을 작성한 후에는 git 커밋을 하는데 메시지를 파일에 저장한 후 git commit -F 명령을 사용 방식으로 진행해줘. 커밋을 진행할때는 한글로 써줘.
 
 작업이력
 - 2025년 7월 30일: Python, JavaScript, Java, Git 관련 자주 발생하는 오류 120개 목록 생성 완료.
@@ -63,7 +64,7 @@ tags:
 25. **IsADirectoryError: [Errno 21] Is a directory**: 파일을 예상한 위치에 디렉터리가 있을 때 해결 방법.
 26. **NotADirectoryError: [Errno 20] Not a directory**: 디렉터리를 예상한 위치에 파일이 있을 때 해결 방법.
 27. **TypeError: unsupported operand type(s) for +: '...' and '...'**: 지원되지 않는 타입 간의 연산 시 해결 방법.
-28. **SystemError: <built-in function ...> returned NULL without setting an error**: 파이썬 인터프리터 내부 오류 발생 시 해결 방법.
+28. **SystemError: <built-in function ...> returned NULL without setting an error**: Python 인터프리터 내부 오류 발생 시 해결 방법.
 29. **FloatingPointError**: 부동 소수점 연산 오류 발생 시 해결 방법.
 30. **KeyboardInterrupt**: 사용자가 Ctrl+C를 눌러 프로그램을 중단시켰을 때 예외 처리 방법.
 

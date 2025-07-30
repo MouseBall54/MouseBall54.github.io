@@ -1,9 +1,9 @@
 ---
 typora-root-url: ../
 layout: single
-title: "파이썬 NameError: name '...' is not defined 오류 해결 방법"
+title: "Python NameError: name '...' is not defined 오류 해결 방법"
 date: 2025-07-30T22:00:00+09:00
-excerpt: "변수나 함수가 정의되기 전에 사용될 때 발생하는 파이썬 NameError의 원인과 해결 방법을 알아봅니다. 오타, 변수 범위 등 흔한 원인을 확인하세요."
+excerpt: "변수나 함수가 정의되기 전에 사용될 때 발생하는 Python NameError의 원인과 해결 방법을 알아봅니다. 오타, 변수 범위 등 흔한 원인을 확인하세요."
 categories:
   - ko_Troubleshooting
 tags:
@@ -15,7 +15,7 @@ tags:
 
 ## `NameError: name '...' is not defined`란?
 
-이 오류는 파이썬 인터프리터가 인식할 수 없는 이름(변수, 함수, 클래스 등)을 만났을 때 발생한다.
+이 오류는 Python 인터프리터가 인식할 수 없는 이름(변수, 함수, 클래스 등)을 만났을 때 발생한다.
 기본적으로, 아직 생성되거나 값이 할당되지 않은 것을 사용하려고 시도할 때 나타난다.
 초보자들이 가장 흔하게 겪는 오류 중 하나이다.
 
@@ -25,7 +25,7 @@ tags:
 
 ### 1. 변수 또는 함수 이름 오타
 
-가장 빈번한 원인은 단순한 오타다. 파이썬은 대소문자를 구분하므로 `myVariable`과 `myvariable`은 다르다.
+가장 빈번한 원인은 단순한 오타다. Python은 대소문자를 구분하므로 `myVariable`과 `myvariable`은 다르다.
 
 **오류 예시:**
 ```python
