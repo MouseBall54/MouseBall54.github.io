@@ -37,6 +37,7 @@ tags:
 - 2025년 7월 30일: "Uncaught TypeError: Cannot read properties of undefined" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 30일: "java.lang.ArrayIndexOutOfBoundsException" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 30일: "fatal: not a git repository" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 30일: "Uncaught ReferenceError: ... is not defined" 관련 한글 및 영어 포스트 작성 완료.
 
 ### Python (1-30)
 1.  **SyntaxError: invalid syntax** ✅: 콜론(:) 누락, 괄호 불일치 등 기본 문법 오류 해결 방법.
@@ -73,7 +74,7 @@ tags:
 ### JavaScript (31-60)
 31. **Uncaught TypeError: Cannot read properties of null (reading '...')** ✅: DOM 요소가 로드되기 전에 접근하려 할 때 해결 방법.
 32. **Uncaught TypeError: Cannot read properties of undefined (reading '...')** ✅: 정의되지 않은 객체의 속성에 접근하려 할 때 해결 방법.
-33. **Uncaught ReferenceError: ... is not defined**: 변수나 함수가 선언되지 않았거나 스코프 밖에 있을 때 해결 방법.
+33. **Uncaught ReferenceError: ... is not defined** ✅: 변수나 함수가 선언되지 않았거나 스코프 밖에 있을 때 해결 방법.
 34. **Uncaught SyntaxError: Unexpected token '...'**: 잘못된 문법이나 예상치 못한 토큰을 사용했을 때 해결 방법.
 35. **Uncaught RangeError: Maximum call stack size exceeded**: 무한 재귀 호출로 인해 스택이 가득 찼을 때 해결 방법.
 36. **Uncaught URIError: URI malformed**: `decodeURIComponent()` 등에서 잘못된 URI를 사용할 때 해결 방법.
