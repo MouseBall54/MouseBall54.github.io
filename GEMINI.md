@@ -36,6 +36,7 @@ tags:
 - 2025년 7월 30일: "NameError: name '...' is not defined" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 30일: "Uncaught TypeError: Cannot read properties of undefined" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 30일: "java.lang.ArrayIndexOutOfBoundsException" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 30일: "fatal: not a git repository" 관련 한글 및 영어 포스트 작성 완료.
 
 ### Python (1-30)
 1.  **SyntaxError: invalid syntax** ✅: 콜론(:) 누락, 괄호 불일치 등 기본 문법 오류 해결 방법.
@@ -135,7 +136,7 @@ tags:
 90. **Dependency Injection**: 의존성 주입을 통한 코드 결합도 낮추기 (Spring, Guice 등).
 
 ### Git (91-120)
-91.  **fatal: not a git repository**: Git 저장소가 아닌 디렉터리에서 Git 명령을 실행할 때 해결 방법.
+91.  **fatal: not a git repository** ✅: Git 저장소가 아닌 디렉터리에서 Git 명령을 실행할 때 해결 방법.
 92.  **fatal: remote origin already exists**: 원격 저장소 'origin'이 이미 존재할 때 해결 방법.
 93.  **error: failed to push some refs to '...'**: 원격 저장소에 로컬보다 최신 커밋이 있을 때 해결 방법 (`git pull`).
 94.  **Permission denied (publickey)**: SSH 키 인증 실패 시 해결 방법.
