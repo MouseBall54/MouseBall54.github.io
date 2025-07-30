@@ -1,4 +1,4 @@
-feat: "Uncaught ReferenceError: is not defined" 포스트 작성
+feat: "fatal: remote origin already exists" 포스트 작성
 
-- JavaScript 오류인 'Uncaught ReferenceError: ... is not defined'의 원인과 해결 방법을 다루는 한글 및 영어 포스트를 작성했습니다.
+- Git 오류인 'fatal: remote origin already exists'의 원인과 해결 방법을 다루는 한글 및 영어 포스트를 작성했습니다.
 - `GEMINI.md` 파일에 작업 이력을 업데이트했습니다.

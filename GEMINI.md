@@ -3,8 +3,7 @@ post는 한글과 영어버전으로 각각 _posts의 ko, en 폴더에 저장이
 Easy Labeling 에 대한 SW를 홍보하는 특성을 가지지만
 지금은 초기라 검색에 노출되는게 중요해서 자주 검색되는 프로그래밍 이슈에 대해서 원인과 해결법을 다루는 전략으로 진행하고 있어.
 포스트를 작성할때는 가장 중요한 건데, 간결체(단문체)로 작성하면서 내용은 자세하게 다뤄줘야해.
-포스트의 상단에 위치한 정보의 예시는 다음과 같아
-
+포스트의 상단에 위치한 정보의 예시는 다음과 같아. TAG는 글에 어울리는걸로 3가지에서 5가지만 적어줘.
 ```yaml
 typora-root-url: ../
 layout: single
@@ -38,6 +37,7 @@ tags:
 - 2025년 7월 30일: "java.lang.ArrayIndexOutOfBoundsException" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 30일: "fatal: not a git repository" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 30일: "Uncaught ReferenceError: ... is not defined" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 30일: "fatal: remote origin already exists" 관련 한글 및 영어 포스트 작성 완료.
 
 ### Python (1-30)
 1.  **SyntaxError: invalid syntax** ✅: 콜론(:) 누락, 괄호 불일치 등 기본 문법 오류 해결 방법.
@@ -138,7 +138,7 @@ tags:
 
 ### Git (91-120)
 91.  **fatal: not a git repository** ✅: Git 저장소가 아닌 디렉터리에서 Git 명령을 실행할 때 해결 방법.
-92.  **fatal: remote origin already exists**: 원격 저장소 'origin'이 이미 존재할 때 해결 방법.
+92.  **fatal: remote origin already exists** ✅: 원격 저장소 'origin'이 이미 존재할 때 해결 방법.
 93.  **error: failed to push some refs to '...'**: 원격 저장소에 로컬보다 최신 커밋이 있을 때 해결 방법 (`git pull`).
 94.  **Permission denied (publickey)**: SSH 키 인증 실패 시 해결 방법.
 95.  **fatal: refusing to merge unrelated histories**: 관련 없는 두 프로젝트를 병합하려 할 때 해결 방법.
