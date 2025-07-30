@@ -1,45 +1,154 @@
----
-# Gemini 작업 로그
+이 프로젝트는 github pages를 기반으로 한 블로그를 운영하는거야.
+post는 한글과 영어버전으로 각각 _posts의 ko, en 폴더에 저장이되고 있어.
+Easy Labeling 에 대한 SW를 홍보하는 특성을 가지지만
+지금은 초기라 검색에 노출되는게 중요해서 자주 검색되는 프로그래밍 이슈에 대해서 원인과 해결법을 다루는 전략으로 진행하고 있어.
+포스트를 작성할때는 가장 중요한 건데, 간결체(단문체)로 작성하면서 내용은 자세하게 다뤄줘야해.
+포스트의 상단에 위치한 정보의 예시는 다음과 같아
 
-- 2025년 7월 13일: `GEMINI.md` 파일 생성 및 작업 기록 시작.
-- 2025년 7월 13일: Jekyll 테마 분석 완료. 주요 변경/설정 필요 항목 파악:
-    - `_config.yml` 파일 내 사이트 기본 정보 (제목, 설명, URL, 스킨, 언어 등) 설정.
-    - 댓글, 검색, 분석 도구 등 기능 활성화 및 설정.
-    - SEO 및 소셜 공유 메타데이터 설정.
-    - 저자 및 푸터 정보 업데이트.
-    - `index.html`, `about.markdown` 등 콘텐츠 파일 수정.
-    - `_data/navigation.yml`, `_data/ui-text.yml` 파일 내 네비게이션 및 UI 텍스트 커스터마이징.
-- 2025년 7월 13일: `_config.yml` 파일에 GitHub 정보 업데이트 완료.
-    - `repository` 필드: `MouseBall54/MouseBall54.github.io`
-    - `author` 섹션 GitHub 링크: `https://github.com/MouseBall54`
-    - `footer` 섹션 GitHub 링크: `https://github.com/MouseBall54`
-- 2025년 7월 13일: `_config.yml` 파일에 이메일 주소 업데이트 완료.
-    - `author.email` 필드: `poabc1472<!-- Import failed: gmail.com` - Only .md files are supported -->
-    - `author` 섹션 Email 링크: `mailto:poabc1472<!-- Import failed: gmail.com` - Only .md files are supported -->
-- 2025년 7월 13일: `_config.yml` 파일의 `title`을 "MouseBall54's Toolbox"로 업데이트 완료.
-- 2025년 7월 13일: `_config.yml` 파일에서 "Quick-Start Guide" 관련 주석 제거 완료.
-- 2025년 7월 13일: `_data/navigation.yml` 파일의 "Quick-Start Guide" 메뉴 항목을 "Easy Labeling"으로 변경하고 URL을 `https://mouseball54.github.io/easy_labeling/`으로 업데이트 완료.
-- 2025년 7월 13일: `_posts/2025-07-13-easy-labeling-development.md` 파일 생성 완료.
-- 2025년 7월 13일: `_config.yml` 파일의 `name` 필드를 "MouseBall54"로 업데이트 완료.
-- 2025년 7월 13일: `_config.yml` 파일의 `url`을 `https://mouseball54.github.io`로, `baseurl`을 `""`로 업데이트 완료.
-- 2025년 7월 14일: `_config.yml` 파일의 `author.name`을 "MouseBall54"로 업데이트 완료.
-- 2025년 7월 14일: `_posts/2025-07-13-easy-labeling-development.md` 게시물을 GitHub 페이지(`https://github.com/MouseBall54/easy_labeling`)를 참고하여 상세 내용으로 업데이트 완료.
-- 2025년 7월 14일: `index.markdown` 파일 삭제 (Jekyll 빌드 충돌 방지).
-- 2025년 7월 14일: 웹사이트 전체 폰트를 Google Fonts의 Noto Sans CJK로 변경 (`assets/css/main.scss` 수정).
-- 2025년 7월 14일: 기본 폰트 크기를 14px로 조정 (`_sass/minimal-mistakes/_variables.scss` 수정).
-- 2025년 7월 14일: 피드 설명 페이지 (`feed.html`) 생성 및 푸터의 FEED 링크를 해당 페이지로 연결.
-- 2025년 7월 14일: `_pages/categories.md` 및 `_pages/tags.md` 파일 생성 (카테고리/태그 아카이브 페이지 활성화).
-- 2025년 7월 14일: `_config.yml` 파일의 `author` 섹션 업데이트 (location: "Hwaseong, South Korea", bio: "A current engineer with a Mechanical Engineering background, primarily working with computer vision and AI applications, and continuously learning and growing.").
-- 2025년 7월 14일: `_config.yml` 파일에 검색 기능 활성화 (Lunr Search).
-- 2025년 7월 14일: `_config.yml` 파일에 댓글 기능 활성화 (Giscus, `repo_id`: R_kgDOPLxxSQ, `category_id`: DIC_kwDOPLxxSc4Cs5Ry).
-- 2025년 7월 14일: `_config.yml` 파일에 Google Analytics 활성화 (`tracking_id`: G-G08ZQQSY7P).
-- 2025년 7월 14일: `_posts/2025-07-13-introducing-easy-labeling.md` 파일 생성 및 영어 게시�� 추가 (날짜 수정 포함).
-- 2025년 7월 14일: 한글 및 영어 게시물 SEO 최적화 (제목, excerpt, tags 보강, YOLO 키워드 강조).
-- 2025년 7월 14일: **규칙 추가:** 포스트 작성 시 항상 한글과 영어 버전을 함께 작성하여 업로드해야 합니다.
-- 2025년 7월 14일: **규칙 추가:** 모든 작업은 논리적 단위로 나누어 커밋하며, 커밋 전 사용자에게 항상 확인을 받습니다.
-- 2025년 7월 14일: **규칙 추가:** 커밋 메시지는 임시 파일로 생성하여 `git commit -F <file>` 명령으로 사용한 후, 해당 파일을 삭제하는 방식으로 진행합니다.
-- 2025년 7월 15일: 모든 포스트에 이미지 추천 코멘트 주석으로 추가 완료.
-- 2025년 7월 15일: Easy Labeling 기능 소개 포스트 (한/영) 신규 작성 완료 (`_posts/2025-07-15-easy-labeling-in-depth-features.md`, `_posts/2025-07-15-introducing-easy-labeling-in-depth-features.md`).
-- 2025년 7월 21일: Easy Labeling 가이드 (1) 포스트 (한/영) 신규 작성 및 SEO 최적화 완료 (`_posts/2025-07-20-easy-labeling-guide-1.md`, `_posts/2025-07-20-introducing-easy-labeling-guide-1.md`).
-- 2025년 7월 21일: 포스트 내 이미지 경로 수정 및 가독성 개선 작업 완료.
----
+```yaml
+typora-root-url: ../
+layout: single
+title: "How to Fix “Permission denied (publickey)” Error with Git on Windows"
+date: 2025-07-22T22:00:00+09:00
+excerpt: "Fix Git’s “Permission denied (publickey)” error on Windows by creating an SSH key, adding it to the SSH agent, and registering it with your Git host."
+categories:
+  - en_Troubleshooting
+tags:
+  - Git
+  - SSH
+  - Windows
+  - Authentication
+```
+
+앞으로 글이 300개가 될때까지는 Troubleshooting에 대한 주제로 글을 올릴꺼야.
+
+자주 검색되는 Troubleshooting 이슈 300개에 대해서 먼저 정리하고 그것에 대한 작업 진행 목록을
+GEMINI.md 파일에 업데이트해줘.
+
+### Python (1-30)
+1.  **SyntaxError: invalid syntax**: 콜론(:) 누락, 괄호 불일치 등 기본 문법 오류 해결 방법.
+2.  **IndentationError: expected an indented block**: 잘못된 들여쓰기 수정 및 탭 vs. 공백 문제 해결.
+3.  **NameError: name '...' is not defined**: 변수 또는 함수가 정의되지 않았을 때 해결 방법.
+4.  **TypeError: can only concatenate str (not "int") to str**: 문자열과 숫자 등 다른 타입의 객체를 합치려 할 때 해결 방법.
+5.  **IndexError: list index out of range**: 리스트의 범위를 벗어난 인덱스에 접근할 때 해결 방법.
+6.  **KeyError: '...'**: 딕셔너리에 존재하지 않는 키에 접근할 때 해결 방법.
+7.  **AttributeError: 'NoneType' object has no attribute '...'**: None을 반환하는 객체의 속성에 접근하려 할 때 해결 방법.
+8.  **FileNotFoundError: [Errno 2] No such file or directory**: 파일을 찾을 수 없을 때 경로 문제 해결 방법.
+9.  **ModuleNotFoundError: No module named '...'**: 설치되지 않았거나 잘못된 이름의 모듈을 임포트할 때 해결 방법.
+10. **ImportError: cannot import name '...' from '...'**: 순환 참조 또는 잘못된 임포트 구문 문제 해결.
+11. **ValueError: invalid literal for int() with base 10: '...'**: 정수로 변환할 수 없는 문자열을 변환하려 할 때 해결 방법.
+12. **ZeroDivisionError: division by zero**: 0으로 나누려고 할 때 발생하는 오류 해결 방법.
+13. **UnboundLocalError: local variable '...' referenced before assignment**: 함수 내에서 지역 변수가 할당되기 전에 참조될 때 해결 방법.
+14. **TabError: inconsistent use of tabs and spaces in indentation**: 탭과 공백을 혼용하여 들여쓰기했을 때 해결 방법.
+15. **UnicodeDecodeError: 'utf-8' codec can't decode byte ...**: 파일 읽기/쓰기 시 발생하는 인코딩 문제 해결 방법.
+16. **RuntimeError: dictionary changed size during iteration**: 딕셔너리 순회 중 크기가 변경될 때 해결 방법.
+17. **TypeError: '...' object is not iterable**: 반복 불가능한 객체를 순회하려고 할 때 해결 방법.
+18. **TypeError: missing 1 required positional argument: '...'**: 함수 호출 시 필수 인자가 누락되었을 때 해결 방법.
+19. **MemoryError**: 대용량 데이터 처리 시 메모리 부족 문제 해결 및 최적화 방법.
+20. **RecursionError: maximum recursion depth exceeded**: 재귀 호출이 너무 깊어질 때 해결 방법.
+21. **OSError: [Errno 28] No space left on device**: 디스크 공간 부족 시 발생하는 오류 해결 방법.
+22. **ConnectionError: [Errno 111] Connection refused**: 네트워크 연결이 거부될 때 방화벽 및 포트 문제 해결.
+23. **TimeoutError: [WinError 10060]**: 네트워크 작업 시간 초과 시 해결 방법.
+24. **PermissionError: [Errno 13] Permission denied**: 파일/디렉터리 접근 권한이 없을 때 해결 방법.
+25. **IsADirectoryError: [Errno 21] Is a directory**: 파일을 예상한 위치에 디렉터리가 있을 때 해결 방법.
+26. **NotADirectoryError: [Errno 20] Not a directory**: 디렉터리를 예상한 위치에 파일이 있을 때 해결 방법.
+27. **TypeError: unsupported operand type(s) for +: '...' and '...'**: 지원되지 않는 타입 간의 연산 시 해결 방법.
+28. **SystemError: <built-in function ...> returned NULL without setting an error**: 파이썬 인터프리터 내부 오류 발생 시 해결 방법.
+29. **FloatingPointError**: 부동 소수점 연산 오류 발생 시 해결 방법.
+30. **KeyboardInterrupt**: 사용자가 Ctrl+C를 눌러 프로그램을 중단시켰을 때 예외 처리 방법.
+
+### JavaScript (31-60)
+31. **Uncaught TypeError: Cannot read properties of null (reading '...')**: DOM 요소가 로드되기 전에 접근하려 할 때 해결 방법.
+32. **Uncaught TypeError: Cannot read properties of undefined (reading '...')**: 정의되지 않은 객체의 속성에 접근하려 할 때 해결 방법.
+33. **Uncaught ReferenceError: ... is not defined**: 변수나 함수가 선언되지 않았거나 스코프 밖에 있을 때 해결 방법.
+34. **Uncaught SyntaxError: Unexpected token '...'**: 잘못된 문법이나 예상치 못한 토큰을 사용했을 때 해결 방법.
+35. **Uncaught RangeError: Maximum call stack size exceeded**: 무한 재귀 호출로 인해 스택이 가득 찼을 때 해결 방법.
+36. **Uncaught URIError: URI malformed**: `decodeURIComponent()` 등에서 잘못된 URI를 사용할 때 해결 방법.
+37. **TypeError: '...' is not a function**: 함수가 아닌 것을 함수처럼 호출하려 할 때 해결 방법.
+38. **SyntaxError: Invalid or unexpected token**: 코드에 유효하지 않은 문자나 토큰이 포함되었을 때 해결 방법.
+39. **ReferenceError: assignment to undeclared variable "..."**: 선언되지 않은 변수에 값을 할당하려 할 때 해결 방법 (Strict Mode).
+40. **TypeError: Assignment to constant variable**: `const`로 선언된 변수에 재할당하려 할 때 해결 방법.
+41. **Cross-Origin Read Blocking (CORB)**: 다른 출처의 리소스를 차단할 때 CORS 정책 설정 방법.
+42. **Failed to fetch**: 네트워크 요청 실패 시 원인 분석 및 해결 (CORS, 네트워크 문제 등).
+43. **[Violation] 'click' handler took ...ms**: 긴 실행 시간으로 브라우저 반응성을 저해하는 이벤트 핸들러 최적화.
+44. **[Violation] Forced reflow while executing JavaScript**: 불필요한 레이아웃 재계산을 유발하는 코드 최적화.
+45. **Uncaught DOMException: Failed to execute '...' on '...': The node to be removed is not a child of this node.**: DOM에서 존재하지 않는 자식 노드를 제거하려 할 때 해결 방법.
+46. **Uncaught (in promise) ...**: 프로미스 체인에서 `catch`로 처리되지 않은 예외 해결 방법.
+47. **SyntaxError: Unexpected end of input**: 코드 블록이 제대로 닫히지 않았을 때 (괄호, 따옴표 등) 해결 방법.
+48. **SyntaxError: missing ) after argument list**: 함수 호출 시 괄호가 누락되었을 때 해결 방법.
+49. **SyntaxError: Unterminated string literal**: 문자열이 제대로 닫히지 않았을 때 해결 방법.
+50. **TypeError: Reduce of empty array with no initial value**: 초기값 없이 빈 배열에 `reduce()`를 호출할 때 해결 방법.
+51. **WebSocket connection to '...' failed**: 웹소켓 연결 실패 시 원인 분석 및 해결.
+52. **"this" is undefined**: 콜백 함수나 이벤트 핸들러에서 `this`가 `undefined`가 되는 문제 해결 (화살표 함수, `bind` 등).
+53. **Event listener leaks**: 이벤트 리스너가 제대로 제거되지 않아 발생하는 메모리 누수 문제 해결.
+54. **Insecure mixed content**: HTTPS 페이지에서 HTTP 리소스를 로드할 때 발생하는 보안 경고 해결.
+55. **jQuery is not defined**: jQuery가 로드되기 전에 사용하려 할 때 해결 방법.
+56. **`innerHTML` vs. `textContent`**: 보안 및 성능 측면에서 두 속성의 올바른 사용법.
+57. **`==` vs. `===`**: 느슨한 동등성과 엄격한 동등성의 차이 및 올바른 사용법.
+58. **`let`, `const`, `var`**: 변수 선언 키워드의 스코프 및 호이스팅 차이점.
+59. **`Promise.all` vs. `Promise.race`**: 여러 프로미스를 병렬로 처리하는 방법과 차이점.
+60. **`async/await` error handling**: `try...catch`를 사용한 비동기 코드의 예외 처리 방법.
+
+### Java (61-90)
+61. **NullPointerException**: `null` 참조를 가진 객체의 멤버에 접근할 때 해결 방법.
+62. **ArrayIndexOutOfBoundsException**: 배열의 범위를 벗어난 인덱스에 접근할 때 해결 방법.
+63. **FileNotFoundException**: 지정된 경로에서 파일을 찾을 수 없을 때 해결 방법.
+64. **ClassCastException**: 호환되지 않는 클래스 간에 객체를 형변환하려 할 때 해결 방법.
+65. **IOException**: 입출력 작업 실패 시 예외 처리 방법.
+66. **SQLException**: 데이터베이스 접근 오류 시 해결 방법.
+67. **NumberFormatException**: 숫자로 변환할 수 없는 문자열을 변환하려 할 때 해결 방법.
+68. **IllegalArgumentException**: 메서드에 부적절한 인수를 전달했을 때 해결 방법.
+69. **IllegalStateException**: 객체의 상태가 메서드 호출에 적합하지 않을 때 해결 방법.
+70. **OutOfMemoryError**: 힙 메모리 부족 시 해결 및 JVM 튜닝 방법.
+71. **StackOverflowError**: 무한 재귀 호출로 스택이 가득 찼을 때 해결 방법.
+72. **NoClassDefFoundError**: 런타임에 클래스를 찾을 수 없을 때 클래스패스 문제 해결.
+73. **UnsupportedOperationException**: 지원되지 않는 연산을 호출했을 때 해결 방법.
+74. **ConcurrentModificationException**: 컬렉션 순회 중 수정이 발생했을 때 해결 방법.
+75. **ArithmeticException: / by zero**: 정수를 0으로 나눌 때 해결 방법.
+76. **Error: a public class ... must be defined in a file called ... .java**: 클래스 이름과 파일 이름이 다를 때 해결 방법.
+77. **Error: cannot find symbol**: 변수, 메서드, 클래스를 찾을 수 없을 때 (오타, 임포트 누락 등) 해결 방법.
+78. **Error: ‘;’ expected**: 세미콜론이 누락되었을 때 해결 방법.
+79. **Error: incompatible types**: 호환되지 않는 타입 간의 할당 시 해결 방법.
+80. **Error: missing return statement**: 값을 반환해야 하는 메서드에 `return`문이 없을 때 해결 방법.
+81. **Error: variable ... might not have been initialized**: 초기화되지 않은 지역 변수를 사용하려 할 때 해결 방법.
+82. **Error: unreachable statement**: `return`문 뒤에 코드가 있어 실행될 수 없을 때 해결 방법.
+83. **`String` vs. `StringBuilder` vs. `StringBuffer`**: 문자열 처리 성능 최적화 방법.
+84. **`equals()` and `hashCode()`**: 두 메서드를 올바르게 오버라이딩하는 방법.
+85. **Checked vs. Unchecked Exceptions**: 예외 종류와 올바른 처리 전략.
+86. **`try-with-resources`**: 리소스 자동 해제를 통한 메모리 누수 방지.
+87. **Generics (`<>`)**: 타입 안정성을 높이는 제네릭 사용법.
+88. **Lambda Expressions**: 람다식을 활용한 간결한 코드 작성법.
+89. **Stream API**: 컬렉션 데이터를 효율적으로 처리하는 스트림 사용법.
+90. **Dependency Injection**: 의존성 주입을 통한 코드 결합도 낮추기 (Spring, Guice 등).
+
+### Git (91-120)
+91.  **fatal: not a git repository**: Git 저장소가 아닌 디렉터리에서 Git 명령을 실행할 때 해결 방법.
+92.  **fatal: remote origin already exists**: 원격 저장소 'origin'이 이미 존재할 때 해결 방법.
+93.  **error: failed to push some refs to '...'**: 원격 저장소에 로컬보다 최신 커밋이 있을 때 해결 방법 (`git pull`).
+94.  **Permission denied (publickey)**: SSH 키 인증 실패 시 해결 방법.
+95.  **fatal: refusing to merge unrelated histories**: 관련 없는 두 프로젝트를 병합하려 할 때 해결 방법.
+96.  **error: Your local changes to the following files would be overwritten by merge**: 커밋하지 않은 변경 사항이 병합으로 덮어쓰여질 위험이 있을 때 (`git stash`).
+97.  **fatal: pathspec '...' did not match any files**: `git add` 또는 `git rm` 등에서 파일 경로가 잘못되었을 때 해결 방법.
+98.  **The requested URL returned error: 403**: 원격 저장소에 접근할 권한이 없을 때 (HTTPS 인증).
+99.  **fatal: unable to access '...': The requested URL returned error: 404**: 원격 저장소 주소가 잘못되었을 때 해결 방법.
+100. **error: src refspec ... does not match any**: 푸시하려는 브랜치 이름이 로컬에 존재하지 않을 때 해결 방법.
+101. **fatal: A branch named '...' already exists**: 이미 존재하는 이름으로 브랜치를 생성하려 할 때 해결 방법.
+102. **Detached HEAD state**: 특정 커밋을 직접 체크아웃하여 '분리된 HEAD' 상태가 되었을 때 해결 방법.
+103. **fatal: bad object ...**: Git 개체 파일이 손상되었을 때 해결 방법.
+104. **error: object file ... is empty**: Git 개체 파일이 비어 있을 때 해결 방법.
+105. **fatal: index file corrupt**: 인덱스 파일(.git/index)이 손상되었을 때 해결 방법.
+106. **Reverting a commit**: 특정 커밋을 되돌리는 `git revert` 사용법.
+107. **Resetting a commit**: 특정 커밋으로 되돌아가는 `git reset`의 세 가지 옵션 (soft, mixed, hard).
+108. **Amending a commit**: 최신 커밋 메시지 또는 내용을 수정하는 `git commit --amend` 사용법.
+109. **Interactive rebase**: 여러 커밋을 합치거나 수정하는 `git rebase -i` 사용법.
+110. **Cherry-picking a commit**: 다른 브랜치의 특정 커밋만 현재 브랜치로 가져오는 `git cherry-pick` 사용법.
+111. **Resolving merge conflicts**: 병합 충돌 발생 시 수동으로 해결하는 방법.
+112. **Using `.gitignore`**: 특정 파일 및 디렉터리를 Git 추적에서 제외하는 방법.
+113. **Git LFS (Large File Storage)**: 대용량 파일을 효율적으로 관리하는 방법.
+114. **Git Submodules**: 다른 Git 저장소를 하위 디렉터리로 포함하는 방법.
+115. **Git hooks**: 특정 Git 이벤트(커밋, 푸시 등)에 자동으로 스크립트를 실행하는 방법.
+116. **fatal: could not read Username for 'https://...': terminal prompts disabled**: 터미널 프롬프트가 비활성화된 환경에서 인증 오류 발생 시 해결 방법.
+117. **LF will be replaced by CRLF**: Windows와 macOS/Linux 간의 줄 바꿈 문자 차이 문제 해결.
+118. **error: RPC failed; curl 56 Recv failure**: 대용량 푸시/클론 시 네트워크 문제 해결.
+119. **fatal: early EOF**: 예기치 않게 서버 연결이 종료될 때 해결 방법.
+120. **`git bisect`**: 버그를 유발한 커밋을 자동으로 찾아내는 방법. 
