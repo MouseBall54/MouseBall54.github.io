@@ -23,18 +23,22 @@ tags:
 앞으로 글이 300개가 될때까지는 Troubleshooting에 대한 주제로 글을 올릴꺼야.
 요청할때 마다 한 주제에 대해서 글을 작성하고 아래에 작업이력을 기록해서 나중에 참고할수있게해줘. 
 작성 후에는 이상한 부분이 있는지 재확인하고 간결체(단문체)로 작성되었는지 다시 확인해.
-
+여러 분야를 골고루 작성할꺼니까 분야별로 진행도를 체크해가면서 다음에 뭘 할지 확인해줘.
+하나의 주제에 대해 글을 작성한 후에는 git 커밋을 하는데 커밋메시지를 파일에 쓰고 활용하고 지우는 방식으로 진행해줘. 
 
 작업이력
 - 2025년 7월 30일: Python, JavaScript, Java, Git 관련 자주 발생하는 오류 120개 목록 생성 완료.
 - 2025년 7월 30일: "SyntaxError: invalid syntax" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 30일: "IndentationError: expected an indented block" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 30일: "Uncaught TypeError: Cannot read properties of null" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 30일: "java.lang.NullPointerException" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 30일: "NameError: name '...' is not defined" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 30일: "Uncaught TypeError: Cannot read properties of undefined" 관련 한글 및 영어 포스트 작성 완료.
 
 ### Python (1-30)
-1.  **SyntaxError: invalid syntax**: 콜론(:) 누락, 괄호 불일치 등 기본 문법 오류 해결 방법.
-2.  **IndentationError: expected an indented block**: 잘못된 들여쓰기 수정 및 탭 vs. 공백 문제 해결.
-3.  **NameError: name '...' is not defined**: 변수 또는 함수가 정의되지 않았을 때 해결 방법.
+1.  **SyntaxError: invalid syntax** ✅: 콜론(:) 누락, 괄호 불일치 등 기본 문법 오류 해결 방법.
+2.  **IndentationError: expected an indented block** ✅: 잘못된 들여쓰기 수정 및 탭 vs. 공백 문제 해결.
+3.  **NameError: name '...' is not defined** ✅: 변수 또는 함수가 정의되지 않았을 때 해결 방법.
 4.  **TypeError: can only concatenate str (not "int") to str**: 문자열과 숫자 등 다른 타입의 객체를 합치려 할 때 해결 방법.
 5.  **IndexError: list index out of range**: 리스트의 범위를 벗어난 인덱스에 접근할 때 해결 방법.
 6.  **KeyError: '...'**: 딕셔너리에 존재하지 않는 키에 접근할 때 해결 방법.
@@ -64,8 +68,8 @@ tags:
 30. **KeyboardInterrupt**: 사용자가 Ctrl+C를 눌러 프로그램을 중단시켰을 때 예외 처리 방법.
 
 ### JavaScript (31-60)
-31. **Uncaught TypeError: Cannot read properties of null (reading '...')**: DOM 요소가 로드되기 전에 접근하려 할 때 해결 방법.
-32. **Uncaught TypeError: Cannot read properties of undefined (reading '...')**: 정의되지 않은 객체의 속성에 접근하려 할 때 해결 방법.
+31. **Uncaught TypeError: Cannot read properties of null (reading '...')** ✅: DOM 요소가 로드되기 전에 접근하려 할 때 해결 방법.
+32. **Uncaught TypeError: Cannot read properties of undefined (reading '...')** ✅: 정의되지 않은 객체의 속성에 접근하려 할 때 해결 방법.
 33. **Uncaught ReferenceError: ... is not defined**: 변수나 함수가 선언되지 않았거나 스코프 밖에 있을 때 해결 방법.
 34. **Uncaught SyntaxError: Unexpected token '...'**: 잘못된 문법이나 예상치 못한 토큰을 사용했을 때 해결 방법.
 35. **Uncaught RangeError: Maximum call stack size exceeded**: 무한 재귀 호출로 인해 스택이 가득 찼을 때 해결 방법.
@@ -96,7 +100,7 @@ tags:
 60. **`async/await` error handling**: `try...catch`를 사용한 비동기 코드의 예외 처리 방법.
 
 ### Java (61-90)
-61. **NullPointerException**: `null` 참조를 가진 객체의 멤버에 접근할 때 해결 방법.
+61. **NullPointerException** ✅: `null` 참조를 가진 객체의 멤버에 접근할 때 해결 방법.
 62. **ArrayIndexOutOfBoundsException**: 배열의 범위를 벗어난 인덱스에 접근할 때 해결 방법.
 63. **FileNotFoundException**: 지정된 경로에서 파일을 찾을 수 없을 때 해결 방법.
 64. **ClassCastException**: 호환되지 않는 클래스 간에 객체를 형변환하려 할 때 해결 방법.
