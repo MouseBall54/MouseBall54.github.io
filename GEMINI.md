@@ -39,6 +39,7 @@ tags:
 - 2025년 7월 30일: "Uncaught ReferenceError: ... is not defined" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 30일: "fatal: remote origin already exists" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 30일: "Python TypeError: can only concatenate str (not 'int') to str" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 30일: "Python IndexError: list index out of range" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 30일: "JavaScript Uncaught SyntaxError: Unexpected token" 관련 한글 및 영어 포스트 작성 완료.
 
 ### Python (1-30)
@@ -46,7 +47,7 @@ tags:
 2.  **IndentationError: expected an indented block** ✅: 잘못된 들여쓰기 수정 및 탭 vs. 공백 문제 해결.
 3.  **NameError: name '...' is not defined** ✅: 변수 또는 함수가 정의되지 않았을 때 해결 방법.
 4.  **TypeError: can only concatenate str (not "int") to str** ✅: 문자열과 숫자 등 다른 타입의 객체를 합치려 할 때 해결 방법.
-5.  **IndexError: list index out of range**: 리스트의 범위를 벗어난 인덱스에 접근할 때 해결 방법.
+5.  **IndexError: list index out of range** ✅: 리스트의 범위를 벗어난 인덱스에 접근할 때 해결 방법.
 6.  **KeyError: '...'**: 딕셔너리에 존재하지 않는 키에 접근할 때 해결 방법.
 7.  **AttributeError: 'NoneType' object has no attribute '...'**: None을 반환하는 객체의 속성에 접근하려 할 때 해결 방법.
 8.  **FileNotFoundError: [Errno 2] No such file or directory**: 파일을 찾을 수 없을 때 경로 문제 해결 방법.
