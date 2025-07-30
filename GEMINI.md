@@ -45,9 +45,10 @@ tags:
 - 2025년 7월 30일: "Python KeyError: '...'" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 30일: "Python AttributeError: 'NoneType' object has no attribute '...'" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 30일: "Python FileNotFoundError" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 30일: "Python ModuleNotFoundError" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
-  - Python : 8/30
+  - Python : 9/30
   - JavaScript : 5/30
   - Java : 2/30
   - Git : 2/30 
@@ -61,7 +62,7 @@ tags:
 6.  **KeyError: '...'** ✅: 딕셔너리에 존재하지 않는 키에 접근할 때 해결 방법.
 7.  **AttributeError: 'NoneType' object has no attribute '...'** ✅: None을 반환하는 객체의 속성에 접근하려 할 때 해결 방법.
 8.  **FileNotFoundError: [Errno 2] No such file or directory** ✅: 파일을 찾을 수 없을 때 경로 문제 해결 방법.
-9.  **ModuleNotFoundError: No module named '...'**: 설치되지 않았거나 잘못된 이름의 모듈을 임포트할 때 해결 방법.
+9.  **ModuleNotFoundError: No module named '...'** ✅: 설치되지 않았거나 잘못된 이름의 모듈을 임포트할 때 해결 방법.
 10. **ImportError: cannot import name '...' from '...'**: 순환 참조 또는 잘못된 임포트 구문 문제 해결.
 11. **ValueError: invalid literal for int() with base 10: '...'**: 정수로 변환할 수 없는 문자열을 변환하려 할 때 해결 방법.
 12. **ZeroDivisionError: division by zero**: 0으로 나누려고 할 때 발생하는 오류 해결 방법.

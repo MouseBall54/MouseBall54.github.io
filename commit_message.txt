@@ -1,1 +1,1 @@
-docs: Python FileNotFoundError 포스트 추가
+docs: Python ModuleNotFoundError 포스트 추가
