@@ -19,14 +19,15 @@
    ```yaml
    typora-root-url: ../
    layout: single
-   title: "How to Fix “Permission denied (publickey)” Error with Git on Windows"
+   title: >
+      How to Fix "Permission denied (publickey)" Error with Git on Windows
    date: 2025-07-22T22:00:00+09:00
    header:
       teaser: /images/header_images/overlay_image_<언어>.png
       overlay_image: /images/header_images/overlay_image_<언어>.png
       overlay_filter: 0.5
    excerpt: >
-     Fix Git’s “Permission denied (publickey)” error on Windows by creating an SSH key,
+     Fix Git’s "Permission denied (publickey)" error on Windows by creating an SSH key,
      adding it to the SSH agent, and registering it with your Git host.
    categories:
      - en_Troubleshooting
@@ -138,9 +139,10 @@
 - 2025년 8월 1일: JavaScript "[Violation] 'click' handler took ...ms" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 1일: Java "UnsupportedOperationException" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 1일: Git "fatal: A branch named '...' already exists" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 8월 1일: Python "TabError: inconsistent use of tabs and spaces in indentation" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
-  - Python : 13/30
+  - Python : 14/30
   - JavaScript : 13/30
   - Java : 13/30
   - Git : 13/30 
@@ -159,7 +161,7 @@
 11. **ValueError: invalid literal for int() with base 10: '...'** ✅: 정수로 변환할 수 없는 문자열을 변환하려 할 때 해결 방법.
 12. **ZeroDivisionError: division by zero** ✅: 0으로 나누려고 할 때 발생하는 오류 해결 방법.
 13. **UnboundLocalError: local variable '...' referenced before assignment** ✅: 함수 내에서 지역 변수가 할당되기 전에 참조될 때 해결 방법.
-14. **TabError: inconsistent use of tabs and spaces in indentation**: 탭과 공백을 혼용하여 들여쓰기했을 때 해결 방법.
+14. **TabError: inconsistent use of tabs and spaces in indentation** ✅: 탭과 공백을 혼용하여 들여쓰기했을 때 해결 방법.
 15. **UnicodeDecodeError: 'utf-8' codec can't decode byte ...**: 파일 읽기/쓰기 시 발생하는 인코딩 문제 해결 방법.
 16. **RuntimeError: dictionary changed size during iteration**: 딕셔너리 순회 중 크기가 변경될 때 해결 방법.
 17. **TypeError: '...' object is not iterable**: 반복 불가능한 객체를 순회하려고 할 때 해결 방법.
