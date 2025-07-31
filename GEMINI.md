@@ -26,6 +26,7 @@ tags:
 여러 분야를 골고루 작성할꺼니까 분야별로 진행도를 체크해가면서 균등하게 다음에 뭘 할지 확인해줘.
 하나의 주제에 대해 글을 작성한 후에는 git 커밋을 하는데 메시지를 파일에 저장한 후 git commit -F 명령을 사용 방식으로 진행해줘. 커밋을 진행할때는 한글로 써줘.
 
+
 작업이력
 - 2025년 7월 30일: Python, JavaScript, Java, Git 관련 자주 발생하는 오류 120개 목록 생성 완료.
 - 2025년 7월 30일: "SyntaxError: invalid syntax" 관련 한글 및 영어 포스트 작성 완료.
@@ -46,11 +47,12 @@ tags:
 - 2025년 7월 30일: "Python AttributeError: 'NoneType' object has no attribute '...'" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 30일: "Python FileNotFoundError" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 30일: "Python ModuleNotFoundError" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 31일: "java.io.FileNotFoundException" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
   - Python : 9/30
   - JavaScript : 5/30
-  - Java : 2/30
+  - Java : 3/30
   - Git : 2/30 
 
 ### Python (1-30)
@@ -121,7 +123,7 @@ tags:
 61. **NullPointerException** ✅: `null` 참조를 가진 객체의 멤버에 접근할 때 해결 방법.
 62. **ArrayIndexOutOfBoundsException** ✅: 배열의 범위를 벗어난 인덱스에 접근할 때 해결 방법.
 62. **ArrayIndexOutOfBoundsException**: 배열의 범위를 벗어난 인덱스에 접근할 때 해결 방법.
-63. **FileNotFoundException**: 지정된 경로에서 파일을 찾을 수 없을 때 해결 방법.
+63. **FileNotFoundException** ✅: 지정된 경로에서 파일을 찾을 수 없을 때 해결 방법.
 64. **ClassCastException**: 호환되지 않는 클래스 간에 객체를 형변환하려 할 때 해결 방법.
 65. **IOException**: 입출력 작업 실패 시 예외 처리 방법.
 66. **SQLException**: 데이터베이스 접근 오류 시 해결 방법.
