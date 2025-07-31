@@ -51,12 +51,14 @@ tags:
 - 2025년 7월 31일: "error: failed to push some refs to '...'" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 31일: "Uncaught URIError: URI malformed" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 31일: "java.lang.ClassCastException" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 31일: "Permission denied (publickey)" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 31일: "fatal: refusing to merge unrelated histories" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
   - Python : 9/30
   - JavaScript : 6/30
   - Java : 4/30
-  - Git : 3/30 
+  - Git : 5/30 
 
 ### Python (1-30)
 1.  **SyntaxError: invalid syntax** ✅: 콜론(:) 누락, 괄호 불일치 등 기본 문법 오류 해결 방법.
@@ -105,7 +107,7 @@ tags:
 42. **Failed to fetch**: 네트워크 요청 실패 시 원인 분석 및 해결 (CORS, 네트워크 문제 등).
 43. **[Violation] 'click' handler took ...ms**: 긴 실행 시간으로 브라우저 반응성을 저해하는 이벤트 핸들러 최적화.
 44. **[Violation] Forced reflow while executing JavaScript**: 불필요한 레이아웃 재계산을 유발하는 코드 최적화.
-45. **Uncaught DOMException: Failed to execute '...' on '...': The node to be removed is not a child of this node.**: DOM에서 존재하지 않는 자식 노드를 제거하려 할 때 해결 방법.
+45. **Uncaught DOMException: Failed to execute '...' on '...'': The node to be removed is not a child of this node.**: DOM에서 존재하지 않는 자식 노드를 제거하려 할 때 해결 방법.
 46. **Uncaught (in promise) ...**: 프로미스 체인에서 `catch`로 처리되지 않은 예외 해결 방법.
 47. **SyntaxError: Unexpected end of input**: 코드 블록이 제대로 닫히지 않았을 때 (괄호, 따옴표 등) 해결 방법.
 48. **SyntaxError: missing ) after argument list**: 함수 호출 시 괄호가 누락되었을 때 해결 방법.
@@ -159,8 +161,8 @@ tags:
 91.  **fatal: not a git repository** ✅: Git 저장소가 아닌 디렉터리에서 Git 명령을 실행할 때 해결 방법.
 92.  **fatal: remote origin already exists** ✅: 원격 저장소 'origin'이 이미 존재할 때 해결 방법.
 93.  **error: failed to push some refs to '...'** ✅: 원격 저장소에 로컬보다 최신 커밋이 있을 때 해결 방법 (`git pull`).
-94.  **Permission denied (publickey)**: SSH 키 인증 실패 시 해결 방법.
-95.  **fatal: refusing to merge unrelated histories**: 관련 없는 두 프로젝트를 병합하려 할 때 해결 방법.
+94.  **Permission denied (publickey)** ✅: SSH 키 인증 실패 시 해결 방법.
+95.  **fatal: refusing to merge unrelated histories** ✅: 관련 없는 두 프로젝트를 병합하려 할 때 해결 방법.
 96.  **error: Your local changes to the following files would be overwritten by merge**: 커밋하지 않은 변경 사항이 병합으로 덮어쓰여질 위험이 있을 때 (`git stash`).
 97.  **fatal: pathspec '...' did not match any files**: `git add` 또는 `git rm` 등에서 파일 경로가 잘못되었을 때 해결 방법.
 98.  **The requested URL returned error: 403**: 원격 저장소에 접근할 권한이 없을 때 (HTTPS 인증).
