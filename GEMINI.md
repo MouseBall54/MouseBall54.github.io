@@ -48,12 +48,13 @@ tags:
 - 2025년 7월 30일: "Python FileNotFoundError" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 30일: "Python ModuleNotFoundError" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 31일: "java.io.FileNotFoundException" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 31일: "error: failed to push some refs to '...'" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
   - Python : 9/30
   - JavaScript : 5/30
   - Java : 3/30
-  - Git : 2/30 
+  - Git : 3/30 
 
 ### Python (1-30)
 1.  **SyntaxError: invalid syntax** ✅: 콜론(:) 누락, 괄호 불일치 등 기본 문법 오류 해결 방법.
@@ -155,7 +156,7 @@ tags:
 ### Git (91-120)
 91.  **fatal: not a git repository** ✅: Git 저장소가 아닌 디렉터리에서 Git 명령을 실행할 때 해결 방법.
 92.  **fatal: remote origin already exists** ✅: 원격 저장소 'origin'이 이미 존재할 때 해결 방법.
-93.  **error: failed to push some refs to '...'**: 원격 저장소에 로컬보다 최신 커밋이 있을 때 해결 방법 (`git pull`).
+93.  **error: failed to push some refs to '...'** ✅: 원격 저장소에 로컬보다 최신 커밋이 있을 때 해결 방법 (`git pull`).
 94.  **Permission denied (publickey)**: SSH 키 인증 실패 시 해결 방법.
 95.  **fatal: refusing to merge unrelated histories**: 관련 없는 두 프로젝트를 병합하려 할 때 해결 방법.
 96.  **error: Your local changes to the following files would be overwritten by merge**: 커밋하지 않은 변경 사항이 병합으로 덮어쓰여질 위험이 있을 때 (`git stash`).

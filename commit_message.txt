@@ -1,7 +1,8 @@
-docs: Java FileNotFoundException 포스트 추가
+docs: Git "failed to push some refs" 포스트 추가
 
-Java의 `java.io.FileNotFoundException`에 대한 한글 및 영어 버전의 문제 해결 포스트를 추가합니다.
+Git의 `error: failed to push some refs to '...'` 오류에 대한 한글 및 영어 버전의 문제 해결 포스트를 추가합니다.
 
-- `FileNotFoundException`의 원인 분석
-- 파일 경로, 권한 확인을 통한 해결 방법 제시
-- `try-with-resources`를 사용한 올바른 리소스 처리 방법 안내
+- 오류 발생 원인 분석 (로컬/원격 브랜치 차이)
+- `git pull`을 이용한 해결 방법 안내
+- 병합 충돌 해결 과정 설명
+- `git pull --rebase` 대안 제시
