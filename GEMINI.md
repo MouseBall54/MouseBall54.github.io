@@ -49,10 +49,11 @@ tags:
 - 2025년 7월 30일: "Python ModuleNotFoundError" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 31일: "java.io.FileNotFoundException" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 31일: "error: failed to push some refs to '...'" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 31일: "Uncaught URIError: URI malformed" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
   - Python : 9/30
-  - JavaScript : 5/30
+  - JavaScript : 6/30
   - Java : 3/30
   - Git : 3/30 
 
@@ -94,7 +95,7 @@ tags:
 33. **Uncaught ReferenceError: ... is not defined** ✅: 변수나 함수가 선언되지 않았거나 스코프 밖에 있을 때 해결 방법.
 34. **Uncaught SyntaxError: Unexpected token '...'** ✅: 잘못된 문법이나 예상치 못한 토큰을 사용했을 때 해결 방법.
 35. **Uncaught RangeError: Maximum call stack size exceeded** ✅: 무한 재귀 호출로 인해 스택이 가득 찼을 때 해결 방법.
-36. **Uncaught URIError: URI malformed**: `decodeURIComponent()` 등에서 잘못된 URI를 사용할 때 해결 방법.
+36. **Uncaught URIError: URI malformed** ✅: `decodeURIComponent()` 등에서 잘못된 URI를 사용할 때 해결 방법.
 37. **TypeError: '...' is not a function**: 함수가 아닌 것을 함수처럼 호출하려 할 때 해결 방법.
 38. **SyntaxError: Invalid or unexpected token**: 코드에 유효하지 않은 문자나 토큰이 포함되었을 때 해결 방법.
 39. **ReferenceError: assignment to undeclared variable "..."**: 선언되지 않은 변수에 값을 할당하려 할 때 해결 방법 (Strict Mode).
