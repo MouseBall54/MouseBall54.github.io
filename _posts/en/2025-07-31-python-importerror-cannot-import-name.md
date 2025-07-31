@@ -1,9 +1,11 @@
 ---
 typora-root-url: ../
 layout: single
-title: "How to Fix Python's \"ImportError: cannot import name '...' from '...'\""
+title: >
+  "How to Fix Python's \"ImportError: cannot import name '...' from '...'\""
 date: 2025-07-31T22:00:00+09:00
-excerpt: "Resolve Python's \"ImportError: cannot import name '...' from '...'\" by checking for circular imports, typos, and incorrect module paths."
+excerpt: >
+  "Resolve Python's \"ImportError: cannot import name '...' from '...'\" by checking for circular imports, typos, and incorrect module paths."
 categories:
   - en_Troubleshooting
 tags:

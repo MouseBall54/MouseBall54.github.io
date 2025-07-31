@@ -59,12 +59,13 @@ tags:
 - 2025년 7월 31일: Python "ImportError", JavaScript "TypeError: is not a function", Java "SQLException", Git "local changes overwritten" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 31일: JavaScript 3건, Java 2건, Git 2건의 트러블슈팅 포스트 추가 작성 완료.
 - 2025년 7월 31일: "java.lang.IllegalStateException" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 31일: Git "fatal: pathspec '...' did not match any files", "The requested URL returned error: 403", "fatal: unable to access '...': The requested URL returned error: 404" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
   - Python : 10/30
   - JavaScript : 10/30
   - Java : 9/30
-  - Git : 8/30 
+  - Git : 11/30 
 
 ### Python (1-30)
 1.  **SyntaxError: invalid syntax** ✅: 콜론(:) 누락, 괄호 불일치 등 기본 문법 오류 해결 방법.
@@ -172,7 +173,7 @@ tags:
 96.  **error: Your local changes to the following files would be overwritten by merge** ✅: 커밋하지 않은 변경 사항이 병합으로 덮어쓰여질 위험이 있을 때 (`git stash`).
 97.  **fatal: pathspec '...' did not match any files** ✅: `git add` 또는 `git rm` 등에서 파일 경로가 잘못되었을 때 해결 방법.
 98.  **The requested URL returned error: 403** ✅: 원격 저장소에 접근할 권한이 없을 때 (HTTPS 인증).
-99.  **fatal: unable to access '...': The requested URL returned error: 404**: 원격 저장소 주소가 잘못되었을 때 해결 방법.
+99.  **fatal: unable to access '...': The requested URL returned error: 404** ✅: 원격 저장소 주소가 잘못되었을 때 해결 방법.
 100. **error: src refspec ... does not match any**: 푸시하려는 브랜치 이름이 로컬에 존재하지 않을 때 해결 방법.
 101. **fatal: A branch named '...' already exists**: 이미 존재하는 이름으로 브랜치를 생성하려 할 때 해결 방법.
 102. **Detached HEAD state**: 특정 커밋을 직접 체크아웃하여 '분리된 HEAD' 상태가 되었을 때 해결 방법.
