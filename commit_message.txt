@@ -1,9 +1,9 @@
-docs: Java 관련 오류 포스트 3건 추가
+docs: Python 관련 오류 포스트 3건 추가
 
-Java 사용 중 자주 발생하는 오류 3가지에 대한 한글 및 영어 포스트를 추가합니다.
+Python 사용 중 자주 발생하는 오류 3가지에 대한 한글 및 영어 포스트를 추가합니다.
 
-- `OutOfMemoryError`
-- `StackOverflowError`
-- `NoClassDefFoundError`
+- `ValueError: invalid literal for int() with base 10`
+- `ZeroDivisionError: division by zero`
+- `UnboundLocalError: local variable referenced before assignment`
 
 관련 `GEMINI.md` 파일의 작업 이력과 진행도를 업데이트합니다.

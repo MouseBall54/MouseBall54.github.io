@@ -1,32 +1,66 @@
-이 프로젝트는 github pages를 기반으로 한 블로그를 운영하는거야.
-post는 한글과 영어버전으로 각각 _posts의 ko, en 폴더에 저장이되고 있어.
-Easy Labeling 에 대한 SW를 홍보하는 특성을 가지지만
-지금은 초기라 검색에 노출되는게 중요해서 자주 검색되는 프로그래밍 이슈에 대해서 원인과 해결법을 다루는 전략으로 진행하고 있어.
-포스트를 작성할때는 가장 중요한 건데, 간결체(단문체)로 작성하면서 내용은 자세하게 다뤄줘야해.
-포스트의 상단에 위치한 정보의 예시는 다음과 같아. TAG는 모두 영어로 글에 어울리는걸로 3가지에서 5가지만 적어줘.
-yaml 영역을 작성할때 블록 스칼라(> 또는 |) 사용해서 " 과 ' 에 대한 오류가 발생하지않게 작성해줘.
+## GEMINI.md 작성 지침
 
-```yaml
-typora-root-url: ../
-layout: single
-title: "How to Fix “Permission denied (publickey)” Error with Git on Windows"
-date: 2025-07-22T22:00:00+09:00
-excerpt: "Fix Git’s “Permission denied (publickey)” error on Windows by creating an SSH key, adding it to the SSH agent, and registering it with your Git host."
-categories:
-  - en_Troubleshooting
-tags:
-  - Git
-  - SSH
-  - Windows
-  - Authentication
-```
+1. **프로젝트 개요**
 
-앞으로 글이 300개가 될때까지는 Troubleshooting에 대한 주제로 글을 올릴꺼야.
-요청할때 마다 한 주제에 대해서 글을 작성하고 아래에 작업이력을 기록해서 나중에 참고할수있게해줘. 
-프로그래밍 언어나 전용영어단어에 대해서는 한글 버전에서도 그대로 영어단어를 사용하는 식으로해서 혼동이없게해줘.
-작성 후에는 이상한 부분이 있는지 재확인하고 간결체(단문체)로 작성되었는지 다시 확인해.
-여러 분야를 골고루 작성할꺼니까 분야별로 진행도를 체크해가면서 균등하게 다음에 뭘 할지 확인해줘.
-하나의 주제에 대해 글을 작성한 후에는 git 커밋을 하는데 메시지를 파일에 저장한 후 git commit -F 명령을 사용 방식으로 진행해줘. 커밋을 진행할때는 한글로 써줘.
+   * GitHub Pages 기반 블로그 운영.
+   * 포스트는 한글(/\_posts/ko)과 영어(/\_posts/en) 폴더에 저장.
+   * Easy Labeling SW 홍보가 주 목적이나,
+     초기에는 검색 노출을 위해 프로그래밍 이슈 해결 전략으로 진행.
+
+2. **포스트 작성 스타일**
+
+   * **단문체** 작성. 문장은 짧고 명확하게.
+   * 내용은 **자세**하게. 핵심은 간결하게.
+   * 한글 버전에도 프로그래밍 용어 및 전용 영어 단어는 영문 그대로 사용.
+   * AI 작성 흔적 제거: 자연스러운 사람 글투 유지.
+
+3. **YAML 헤더 구성 예시**
+
+   ```yaml
+   typora-root-url: ../
+   layout: single
+   title: "How to Fix “Permission denied (publickey)” Error with Git on Windows"
+   date: 2025-07-22T22:00:00+09:00
+   excerpt: >
+     Fix Git’s “Permission denied (publickey)” error on Windows by creating an SSH key,
+     adding it to the SSH agent, and registering it with your Git host.
+   categories:
+     - en_Troubleshooting
+   tags:
+     - Git
+     - SSH
+     - Windows
+     - Authentication
+   ```
+
+   * **블록 스칼라**(`>`, `|`) 사용. 따옴표(`"`, `'`) 충돌 방지.
+   * `tags`는 3\~5개. 모두 영어.
+
+4. **주제 및 분량**
+
+   * 첫 300개 포스트는 모두 `Troubleshooting` 주제로.
+   * 요청 시 주제당 1개 포스트 작성.
+
+5. **작업 이력 기록**
+
+   * 포스트 하단에 작업 이력 기록.
+   * 차후 참고용.
+
+6. **분야 균형 관리**
+
+   * 다양한 분야 골고루 다룸.
+   * 작성 후 다음 주제 분포 확인.
+
+7. **Git 커밋 절차**
+
+   * 글 작성 완료 후 커밋 메시지를 별도 파일에 저장.
+   * `git commit -F <파일명>` 형식으로 커밋.
+   * 커밋 메시지는 **한글**로 작성.
+
+8. **검토**
+
+   * 작성 후 이상한 부분 재확인.
+   * 단문체로 작성됐는지 최종 점검.
 
 
 작업이력
@@ -61,9 +95,10 @@ tags:
 - 2025년 7월 31일: "java.lang.IllegalStateException" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 31일: Git "fatal: pathspec '...' did not match any files", "The requested URL returned error: 403", "fatal: unable to access '...': The requested URL returned error: 404" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 31일: Java "OutOfMemoryError", "StackOverflowError", "NoClassDefFoundError" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 31일: Python "ValueError", "ZeroDivisionError", "UnboundLocalError" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
-  - Python : 10/30
+  - Python : 13/30
   - JavaScript : 10/30
   - Java : 12/30
   - Git : 11/30 
@@ -79,9 +114,9 @@ tags:
 8.  **FileNotFoundError: [Errno 2] No such file or directory** ✅: 파일을 찾을 수 없을 때 경로 문제 해결 방법.
 9.  **ModuleNotFoundError: No module named '...'** ✅: 설치되지 않았거나 잘못된 이름의 모듈을 임포트할 때 해결 방법.
 10. **ImportError: cannot import name '...' from '...'** ✅: 순환 참조 또는 잘못된 임포트 구문 문제 해결.
-11. **ValueError: invalid literal for int() with base 10: '...'**: 정수로 변환할 수 없는 문자열을 변환하려 할 때 해결 방법.
-12. **ZeroDivisionError: division by zero**: 0으로 나누려고 할 때 발생하는 오류 해결 방법.
-13. **UnboundLocalError: local variable '...' referenced before assignment**: 함수 내에서 지역 변수가 할당되기 전에 참조될 때 해결 방법.
+11. **ValueError: invalid literal for int() with base 10: '...'** ✅: 정수로 변환할 수 없는 문자열을 변환하려 할 때 해결 방법.
+12. **ZeroDivisionError: division by zero** ✅: 0으로 나누려고 할 때 발생하는 오류 해결 방법.
+13. **UnboundLocalError: local variable '...' referenced before assignment** ✅: 함수 내에서 지역 변수가 할당되기 전에 참조될 때 해결 방법.
 14. **TabError: inconsistent use of tabs and spaces in indentation**: 탭과 공백을 혼용하여 들여쓰기했을 때 해결 방법.
 15. **UnicodeDecodeError: 'utf-8' codec can't decode byte ...**: 파일 읽기/쓰기 시 발생하는 인코딩 문제 해결 방법.
 16. **RuntimeError: dictionary changed size during iteration**: 딕셔너리 순회 중 크기가 변경될 때 해결 방법.
