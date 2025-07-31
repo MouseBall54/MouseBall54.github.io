@@ -136,11 +136,12 @@
 - 2025년 7월 31일: Git "error: src refspec ... does not match any" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 1일: JavaScript "Failed to fetch" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 1일: JavaScript "[Violation] 'click' handler took ...ms" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 8월 1일: Java "UnsupportedOperationException" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
   - Python : 13/30
   - JavaScript : 13/30
-  - Java : 12/30
+  - Java : 13/30
   - Git : 12/30 
 
 ### Python (1-30)
@@ -221,7 +222,7 @@
 70. **OutOfMemoryError** ✅: 힙 메모리 부족 시 해결 및 JVM 튜닝 방법.
 71. **StackOverflowError** ✅: 무한 재귀 호출로 스택이 가득 찼을 때 해결 방법.
 72. **NoClassDefFoundError** ✅: 런타임에 클래스를 찾을 수 없을 때 클래스패스 문제 해결.
-73. **UnsupportedOperationException**: 지원되지 않는 연산을 호출했을 때 해결 방법.
+73. **UnsupportedOperationException** ✅: 지원되지 않는 연산을 호출했을 때 해결 방법.
 74. **ConcurrentModificationException**: 컬렉션 순회 중 수정이 발생했을 때 해결 방법.
 75. **ArithmeticException: / by zero**: 정수를 0으로 나눌 때 해결 방법.
 76. **Error: a public class ... must be defined in a file called ... .java**: 클래스 이름과 파일 이름이 다를 때 해결 방법.

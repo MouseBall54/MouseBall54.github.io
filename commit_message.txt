@@ -1,9 +1,9 @@
-feat: JavaScript "[Violation] 'click' handler took...ms" 포스트 추가
+feat: Java "UnsupportedOperationException" 포스트 추가
 
-- JavaScript에서 긴 실행 시간으로 인해 발생하는 "[Violation] 'click' handler took ...ms" 경고의 원인과 해결 방법을 다루는 한글 및 영어 트러블슈팅 포스트를 작성했습니다.
-- `setTimeout`, Web Worker 등을 사용하여 메인 스레드 차단을 방지하고 UI 응답성을 개선하는 방법을 안내합니다.
+- Java에서 수정 불가능한 컬렉션을 변경하려 할 때 발생하는 `UnsupportedOperationException`의 원인과 해결 방법을 다루는 한글 및 영어 트러블슈팅 포스트를 작성했습니다.
+- `Arrays.asList()`가 반환하는 고정 크기 리스트를 수정 가능한 `ArrayList`로 변환하여 문제를 해결하는 방법을 안내합니다.
 
 작업 내용:
-- `_posts/en/2025-08-01-javascript-violation-click-handler-took-too-long.md` 추가
-- `_posts/ko/2025-08-01-javascript-violation-click-handler-took-too-long.md` 추가
+- `_posts/en/2025-08-01-java-unsupportedoperationexception.md` 추가
+- `_posts/ko/2025-08-01-java-unsupportedoperationexception.md` 추가
 - `GEMINI.md` 진행도 업데이트
