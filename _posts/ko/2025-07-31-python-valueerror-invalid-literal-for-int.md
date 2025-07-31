@@ -7,7 +7,7 @@ excerpt: "변환하려는 문자열이 유효한 정수인지 확인하여 Pytho
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
-   overlay_filter: 0.3
+   overlay_filter: 0.5
 categories:
   - ko_Troubleshooting
 tags:

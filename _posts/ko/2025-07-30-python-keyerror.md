@@ -7,7 +7,7 @@ excerpt: "Python에서 존재하지 않는 딕셔너리 키에 접근할 때 발
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
-   overlay_filter: 0.3
+   overlay_filter: 0.5
 categories:
   - ko_Troubleshooting
 tags:

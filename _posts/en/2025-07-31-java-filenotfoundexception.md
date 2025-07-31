@@ -4,6 +4,10 @@ layout: single
 title: "How to Fix java.io.FileNotFoundException in Java"
 date: 2025-07-31T10:00:00+09:00
 excerpt: "Learn how to resolve the java.io.FileNotFoundException by checking file paths, permissions, and using proper resource handling techniques."
+header:
+   teaser: /images/header_images/overlay_image_java.png
+   overlay_image: /images/header_images/overlay_image_java.png
+   overlay_filter: 0.5
 categories:
   - en_Troubleshooting
 tags:

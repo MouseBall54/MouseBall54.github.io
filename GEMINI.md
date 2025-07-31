@@ -23,7 +23,7 @@
    date: 2025-07-22T22:00:00+09:00
    header:
       overlay_image: /images/header_images/overlay_image_<언어>.png
-      overlay_filter: 0.3
+      overlay_filter: 0.5
    excerpt: >
      Fix Git’s “Permission denied (publickey)” error on Windows by creating an SSH key,
      adding it to the SSH agent, and registering it with your Git host.

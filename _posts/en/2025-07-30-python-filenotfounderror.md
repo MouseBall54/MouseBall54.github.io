@@ -7,7 +7,7 @@ excerpt: "A detailed guide on how to handle the FileNotFoundError: [Errno 2] No 
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
-   overlay_filter: 0.3
+   overlay_filter: 0.5
 categories:
   - en_Troubleshooting
 tags:

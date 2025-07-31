@@ -7,7 +7,7 @@ excerpt: "Python에서 파일을 다룰 때 흔히 발생하는 FileNotFoundErro
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
-   overlay_filter: 0.3
+   overlay_filter: 0.5
 categories:
   - ko_Troubleshooting
 tags:

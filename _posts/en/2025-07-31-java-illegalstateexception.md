@@ -4,6 +4,10 @@ layout: single
 title: "How to Fix Java's IllegalStateException"
 date: 2025-07-31T11:00:00+09:00
 excerpt: "Understand and resolve Java's IllegalStateException by ensuring methods are called only when an object is in the appropriate state. Learn through practical examples."
+header:
+   teaser: /images/header_images/overlay_image_java.png
+   overlay_image: /images/header_images/overlay_image_java.png
+   overlay_filter: 0.5
 categories:
   - en_Troubleshooting
 tags:

@@ -4,6 +4,10 @@ layout: single
 title: "How to Fix java.lang.ClassCastException in Java"
 date: 2025-07-31T14:00:00+09:00
 excerpt: "Understand and prevent `java.lang.ClassCastException` by ensuring type safety with checks like `instanceof` before casting objects."
+header:
+   teaser: /images/header_images/overlay_image_java.png
+   overlay_image: /images/header_images/overlay_image_java.png
+   overlay_filter: 0.5
 categories:
   - en_Troubleshooting
 tags:

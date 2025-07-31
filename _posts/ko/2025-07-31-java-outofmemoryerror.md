@@ -4,6 +4,10 @@ layout: single
 title: "Java OutOfMemoryError 해결 방법"
 date: 2025-07-31T12:00:00+09:00
 excerpt: "메모리 누수나 불충분한 힙 크기와 같은 원인을 파악하여 Java의 OutOfMemoryError를 이해하고 해결합니다. 힙 덤프를 분석하고 JVM 설정을 조정하여 이 심각한 오류를 예방하는 방법을 배웁니다."
+header:
+   teaser: /images/header_images/overlay_image_java.png
+   overlay_image: /images/header_images/overlay_image_java.png
+   overlay_filter: 0.5
 categories:
   - ko_Troubleshooting
 tags:

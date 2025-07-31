@@ -7,7 +7,7 @@ excerpt: "변수 스코프를 이해하여 Python의 UnboundLocalError를 해결
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
-   overlay_filter: 0.3
+   overlay_filter: 0.5
 categories:
   - ko_Troubleshooting
 tags:

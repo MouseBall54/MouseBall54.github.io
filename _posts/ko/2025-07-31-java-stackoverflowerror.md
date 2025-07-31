@@ -4,6 +4,10 @@ layout: single
 title: "Java StackOverflowError 해결 방법"
 date: 2025-07-31T12:15:00+09:00
 excerpt: "코드에서 무한 재귀를 식별하여 Java의 StackOverflowError를 이해하고 해결합니다. 재귀 함수를 디버깅하고, 반복적인 해결책으로 리팩토링하며, 필요할 때 스레드 스택 크기를 늘리는 방법을 배웁니다."
+header:
+   teaser: /images/header_images/overlay_image_java.png
+   overlay_image: /images/header_images/overlay_image_java.png
+   overlay_filter: 0.5
 categories:
   - ko_Troubleshooting
 tags:

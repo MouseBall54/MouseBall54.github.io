@@ -7,7 +7,7 @@ excerpt: "나누기를 수행하기 전에 제수가 0인지 확인하여 Python
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
-   overlay_filter: 0.3
+   overlay_filter: 0.5
 categories:
   - ko_Troubleshooting
 tags:

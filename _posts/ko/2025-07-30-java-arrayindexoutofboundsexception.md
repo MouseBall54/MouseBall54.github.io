@@ -4,6 +4,10 @@ layout: single
 title: "java.lang.ArrayIndexOutOfBoundsException 해결 방법"
 date: 2025-07-30T10:00:00+09:00
 excerpt: "java.lang.ArrayIndexOutOfBoundsException은 배열의 유효한 인덱스 범위를 벗어나 접근할 때 발생하는 흔한 런타임 예외입니다. 이 글에서는 오류의 원인과 해결 방법을 자세히 알아봅니다."
+header:
+   teaser: /images/header_images/overlay_image_java.png
+   overlay_image: /images/header_images/overlay_image_java.png
+   overlay_filter: 0.5
 categories:
   - ko_Troubleshooting
 tags:

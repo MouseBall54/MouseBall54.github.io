@@ -7,7 +7,7 @@ excerpt: "변수나 함수가 정의되기 전에 사용될 때 발생하는 Pyt
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
-   overlay_filter: 0.3
+   overlay_filter: 0.5
 categories:
   - ko_Troubleshooting
 tags:

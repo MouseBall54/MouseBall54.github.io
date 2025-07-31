@@ -7,7 +7,7 @@ excerpt: "Python에서 자주 발생하는 오류인 AttributeError: 'NoneType' 
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
-   overlay_filter: 0.3
+   overlay_filter: 0.5
 categories:
   - ko_Troubleshooting
 tags:

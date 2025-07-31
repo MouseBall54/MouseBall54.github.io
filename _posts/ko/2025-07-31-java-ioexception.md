@@ -4,6 +4,10 @@ layout: single
 title: "Java에서 java.io.IOException 이해하고 처리하기"
 date: 2025-07-31T16:00:00+09:00
 excerpt: "`try-catch` 블록과 `try-with-resources`를 사용하여 I/O 작업이 실패하거나 중단되었음을 알리는 체크 예외 `java.io.IOException`을 처리하는 방법을 알아봅니다."
+header:
+   teaser: /images/header_images/overlay_image_java.png
+   overlay_image: /images/header_images/overlay_image_java.png
+   overlay_filter: 0.5
 categories:
   - ko_Troubleshooting
 tags:

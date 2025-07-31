@@ -7,7 +7,7 @@ excerpt: "Master Python's core syntax: indentation! Understand the causes of and
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
-   overlay_filter: 0.3
+   overlay_filter: 0.5
 categories:
   - en_Troubleshooting
 tags:

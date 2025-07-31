@@ -4,6 +4,10 @@ layout: single
 title: "Understanding and Handling java.io.IOException in Java"
 date: 2025-07-31T16:00:00+09:00
 excerpt: "Learn how to handle the checked exception `java.io.IOException`, which signals that an I/O operation has failed or been interrupted, by using `try-catch` blocks and `try-with-resources`."
+header:
+   teaser: /images/header_images/overlay_image_java.png
+   overlay_image: /images/header_images/overlay_image_java.png
+   overlay_filter: 0.5
 categories:
   - en_Troubleshooting
 tags:
