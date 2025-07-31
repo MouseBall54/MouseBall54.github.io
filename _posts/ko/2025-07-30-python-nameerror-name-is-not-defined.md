@@ -4,6 +4,10 @@ layout: single
 title: "Python NameError: name '...' is not defined 오류 해결 방법"
 date: 2025-07-30T22:00:00+09:00
 excerpt: "변수나 함수가 정의되기 전에 사용될 때 발생하는 Python NameError의 원인과 해결 방법을 알아봅니다. 오타, 변수 범위 등 흔한 원인을 확인하세요."
+header:
+   teaser: /images/header_images/overlay_image_python.png
+   overlay_image: /images/header_images/overlay_image_python.png
+   overlay_filter: 0.3
 categories:
   - ko_Troubleshooting
 tags:

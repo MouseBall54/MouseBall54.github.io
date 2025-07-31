@@ -4,6 +4,10 @@ layout: single
 title: "Python UnboundLocalError: local variable referenced before assignment 해결 방법"
 date: 2025-07-31T14:30:00+09:00
 excerpt: "변수 스코프를 이해하여 Python의 UnboundLocalError를 해결합니다. `global` 및 `nonlocal` 키워드를 사용하거나, 변수가 접근되기 전에 항상 함수 스코프 내에서 값이 할당되도록 하는 방법을 배웁니다."
+header:
+   teaser: /images/header_images/overlay_image_python.png
+   overlay_image: /images/header_images/overlay_image_python.png
+   overlay_filter: 0.3
 categories:
   - ko_Troubleshooting
 tags:

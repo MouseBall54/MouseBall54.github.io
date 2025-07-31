@@ -4,6 +4,10 @@ layout: single
 title: " How to Fix “ModuleNotFoundError: No module named '…'” in Python"
 date: 2025-07-23T22:00:00+09:00
 excerpt: "Learn to resolve Python’s `ModuleNotFoundError` by installing the correct package, activating the right environment, and checking your import paths."
+header:
+   teaser: /images/header_images/overlay_image_python.png
+   overlay_image: /images/header_images/overlay_image_python.png
+   overlay_filter: 0.3
 categories:
   - en_Troubleshooting
 tags:

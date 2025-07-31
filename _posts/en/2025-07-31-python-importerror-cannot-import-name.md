@@ -6,6 +6,10 @@ title: >
 date: 2025-07-31T22:00:00+09:00
 excerpt: >
   "Resolve Python's \"ImportError: cannot import name '...' from '...'\" by checking for circular imports, typos, and incorrect module paths."
+header:
+   teaser: /images/header_images/overlay_image_python.png
+   overlay_image: /images/header_images/overlay_image_python.png
+   overlay_filter: 0.3
 categories:
   - en_Troubleshooting
 tags:

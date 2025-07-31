@@ -4,6 +4,10 @@ layout: single
 title: "How to Fix Python's KeyError: '...'"
 date: 2025-07-30T22:00:00+09:00
 excerpt: "Learn how to fix the Python KeyError, which occurs when you try to access a key that does not exist in a dictionary. This guide covers several effective methods."
+header:
+   teaser: /images/header_images/overlay_image_python.png
+   overlay_image: /images/header_images/overlay_image_python.png
+   overlay_filter: 0.3
 categories:
   - en_Troubleshooting
 tags:

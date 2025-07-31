@@ -4,6 +4,10 @@ layout: single
 title: "How to Fix Python's UnboundLocalError: local variable referenced before assignment"
 date: 2025-07-31T14:30:00+09:00
 excerpt: "Resolve Python's UnboundLocalError by understanding variable scope. Learn to use the `global` and `nonlocal` keywords or ensure a variable is always assigned a value within a function's scope before it is accessed."
+header:
+   teaser: /images/header_images/overlay_image_python.png
+   overlay_image: /images/header_images/overlay_image_python.png
+   overlay_filter: 0.3
 categories:
   - en_Troubleshooting
 tags:

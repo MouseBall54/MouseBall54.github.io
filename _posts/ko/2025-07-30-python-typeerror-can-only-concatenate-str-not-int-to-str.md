@@ -4,6 +4,10 @@ layout: single
 title: "Python TypeError: can only concatenate str (not 'int') to str 해결 방법"
 date: 2025-07-30T14:00:00+09:00
 excerpt: "Python에서 'TypeError: can only concatenate str (not 'int') to str'는 문자열에 정수와 같은 다른 타입의 데이터를 직접 연결하려 할 때 발생합니다. 이 오류의 원인과 해결 방법을 알아봅니다."
+header:
+   teaser: /images/header_images/overlay_image_python.png
+   overlay_image: /images/header_images/overlay_image_python.png
+   overlay_filter: 0.3
 categories:
   - ko_Troubleshooting
 tags:

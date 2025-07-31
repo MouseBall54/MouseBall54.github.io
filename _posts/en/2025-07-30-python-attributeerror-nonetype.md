@@ -4,6 +4,10 @@ layout: single
 title: "How to Fix AttributeError: 'NoneType' object has no attribute '...'"
 date: 2025-07-30T22:00:00+09:00
 excerpt: "A comprehensive guide to understanding and fixing the common Python error: AttributeError: 'NoneType' object has no attribute '...'. Learn why it occurs and how to prevent it."
+header:
+   teaser: /images/header_images/overlay_image_python.png
+   overlay_image: /images/header_images/overlay_image_python.png
+   overlay_filter: 0.3
 categories:
   - en_Troubleshooting
 tags:

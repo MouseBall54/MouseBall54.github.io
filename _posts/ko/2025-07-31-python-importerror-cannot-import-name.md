@@ -6,6 +6,10 @@ title: >
 date: 2025-07-31T22:00:00+09:00
 excerpt: >
   "순환 참조, 오타, 잘못된 모듈 경로를 확인하여 Python의 "ImportError: cannot import name '...' from '...'" 오류를 해결하세요."
+header:
+   teaser: /images/header_images/overlay_image_python.png
+   overlay_image: /images/header_images/overlay_image_python.png
+   overlay_filter: 0.3
 categories:
   - ko_Troubleshooting
 tags:

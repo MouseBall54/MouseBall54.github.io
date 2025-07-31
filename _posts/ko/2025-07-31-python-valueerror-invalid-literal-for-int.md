@@ -4,6 +4,10 @@ layout: single
 title: "Python ValueError: invalid literal for int() with base 10 해결 방법"
 date: 2025-07-31T14:00:00+09:00
 excerpt: "변환하려는 문자열이 유효한 정수인지 확인하여 Python의 'ValueError: invalid literal for int()'를 해결합니다. 안전한 변환을 위해 try-except 블록을 사용하고, str.isdigit() 메서드로 유효성을 검사하는 법을 배웁니다."
+header:
+   teaser: /images/header_images/overlay_image_python.png
+   overlay_image: /images/header_images/overlay_image_python.png
+   overlay_filter: 0.3
 categories:
   - ko_Troubleshooting
 tags:

@@ -4,6 +4,10 @@ layout: single
 title: "How to Fix “SSL: CERTIFICATE_VERIFY_FAILED” Error in Python on Windows"
 date: 2025-07-21T22:00:00+09:00
 excerpt: "Learn to fix the SSL: CERTIFICATE_VERIFY_FAILED error in Python on Windows by installing certifi, setting REQUESTS_CA_BUNDLE or SSL_CERT_FILE, and using a proper CA bundle."
+header:
+   teaser: /images/header_images/overlay_image_python.png
+   overlay_image: /images/header_images/overlay_image_python.png
+   overlay_filter: 0.3
 categories:
   - en_Troubleshooting
 tags:
