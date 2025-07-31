@@ -1,9 +1,11 @@
 ---
 typora-root-url: ../
 layout: single
-title: "JavaScript "TypeError: '...' is not a function" 오류 해결 방법"
+title: >
+  "JavaScript "TypeError: '...' is not a function" 오류 해결 방법"
 date: 2025-07-31T22:00:00+09:00
-excerpt: "호출하려는 변수가 실제 함수인지 확인하고, 스코프 문제나 오타를 점검하여 JavaScript의 "TypeError: '...' is not a function" 오류를 해결하세요."
+excerpt: >
+  "호출하려는 변수가 실제 함수인지 확인하고, 스코프 문제나 오타를 점검하여 JavaScript의 "TypeError: '...' is not a function" 오류를 해결하세요."
 categories:
   - ko_Troubleshooting
 tags:
