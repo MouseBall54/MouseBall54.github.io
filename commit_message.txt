@@ -1,9 +1,9 @@
-feat: "Cross-Origin Read Blocking (CORB)" 관련 포스트 추가
+feat: Git "src refspec does not match any" 오류 포스트 추가
 
-- JavaScript의 "Cross-Origin Read Blocking (CORB)" 오류에 대한 원인과 해결 방법을 다루는 한글 및 영어 트러블슈팅 포스트를 작성했습니다.
-- 서버 측의 `Content-Type` 헤더 설정의 중요성을 강조하고, 올바른 CORS 정책 구성에 대해 안내합니다.
+- Git에서 브랜치 푸시 시 발생하는 "error: src refspec ... does not match any" 오류의 원인과 해결 방법을 다루는 한글 및 영어 트러블슈팅 포스트를 작성했습니다.
+- 로컬 브랜치 존재 여부 확인 및 이름 오타 수정을 통해 문제를 해결하는 방법을 안내합니다.
 
 작업 내용:
-- `_posts/en/2025-07-31-javascript-cross-origin-read-blocking.md` 추가
-- `_posts/ko/2025-07-31-javascript-cross-origin-read-blocking.md` 추가
-- `GEMINI.md` 진행도 업데이트
+- `_posts/en/2025-07-31-git-error-src-refspec-does-not-match-any.md` 추가
+- `_posts/ko/2025-07-31-git-error-src-refspec-does-not-match-any.md` 추가
+- `GEMINI.md` 진행도 및 YAML 헤더 예시 업데이트

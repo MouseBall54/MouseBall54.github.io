@@ -133,12 +133,13 @@
 - 2025년 7월 31일: Java "OutOfMemoryError", "StackOverflowError", "NoClassDefFoundError" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 31일: Python "ValueError", "ZeroDivisionError", "UnboundLocalError" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 31일: "Cross-Origin Read Blocking (CORB)" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 31일: Git "error: src refspec ... does not match any" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
   - Python : 13/30
   - JavaScript : 11/30
   - Java : 12/30
-  - Git : 11/30 
+  - Git : 12/30 
 
 ### Python (1-30)
 1.  **SyntaxError: invalid syntax** ✅: 콜론(:) 누락, 괄호 불일치 등 기본 문법 오류 해결 방법.
@@ -247,7 +248,7 @@
 97.  **fatal: pathspec '...' did not match any files** ✅: `git add` 또는 `git rm` 등에서 파일 경로가 잘못되었을 때 해결 방법.
 98.  **The requested URL returned error: 403** ✅: 원격 저장소에 접근할 권한이 없을 때 (HTTPS 인증).
 99.  **fatal: unable to access '...': The requested URL returned error: 404** ✅: 원격 저장소 주소가 잘못되었을 때 해결 방법.
-100. **error: src refspec ... does not match any**: 푸시하려는 브랜치 이름이 로컬에 존재하지 않을 때 해결 방법.
+100. **error: src refspec ... does not match any** ✅: 푸시하려는 브랜치 이름이 로컬에 존재하지 않을 때 해결 방법.
 101. **fatal: A branch named '...' already exists**: 이미 존재하는 이름으로 브랜치를 생성하려 할 때 해결 방법.
 102. **Detached HEAD state**: 특정 커밋을 직접 체크아웃하여 '분리된 HEAD' 상태가 되었을 때 해결 방법.
 103. **fatal: bad object ...**: Git 개체 파일이 손상되었을 때 해결 방법.
