@@ -13,8 +13,8 @@ categories:
 tags:
   - Python
   - IndexError
-  - 리스트
-  - 디버깅
+  - List
+  - Debugging
 ---
 
 ## `IndexError: list index out of range` 오류 이해하기

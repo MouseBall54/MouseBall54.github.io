@@ -13,8 +13,8 @@ categories:
 tags:
   - JavaScript
   - RangeError
-  - 콜 스택
-  - 재귀
+  - Call Stack
+  - Recursion
 ---
 
 ## "Uncaught RangeError: Maximum call stack size exceeded" 오류 이해하기

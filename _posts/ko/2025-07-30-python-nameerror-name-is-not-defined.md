@@ -13,8 +13,8 @@ categories:
 tags:
   - Python
   - NameError
-  - 프로그래밍
-  - 오류 처리
+  - Programming
+  - Troubleshooting
 ---
 
 ## `NameError: name '...' is not defined`란?
