@@ -55,12 +55,13 @@ tags:
 - 2025년 7월 31일: "fatal: refusing to merge unrelated histories" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 31일: "java.io.IOException" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 31일: Python "ImportError", JavaScript "TypeError: is not a function", Java "SQLException", Git "local changes overwritten" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 31일: JavaScript 3건, Java 2건, Git 2건의 트러블슈팅 포스트 추가 작성 완료.
 
 진행도
   - Python : 10/30
-  - JavaScript : 7/30
-  - Java : 6/30
-  - Git : 6/30 
+  - JavaScript : 10/30
+  - Java : 8/30
+  - Git : 8/30 
 
 ### Python (1-30)
 1.  **SyntaxError: invalid syntax** ✅: 콜론(:) 누락, 괄호 불일치 등 기본 문법 오류 해결 방법.
@@ -102,9 +103,9 @@ tags:
 35. **Uncaught RangeError: Maximum call stack size exceeded** ✅: 무한 재귀 호출로 인해 스택이 가득 찼을 때 해결 방법.
 36. **Uncaught URIError: URI malformed** ✅: `decodeURIComponent()` 등에서 잘못된 URI를 사용할 때 해결 방법.
 37. **TypeError: '...' is not a function** ✅: 함수가 아닌 것을 함수처럼 호출하려 할 때 해결 방법.
-38. **SyntaxError: Invalid or unexpected token**: 코드에 유효하지 않은 문자나 토큰이 포함되었을 때 해결 방법.
-39. **ReferenceError: assignment to undeclared variable "..."**: 선언되지 않은 변수에 값을 할당하려 할 때 해결 방법 (Strict Mode).
-40. **TypeError: Assignment to constant variable**: `const`로 선언된 변수에 재할당하려 할 때 해결 방법.
+38. **SyntaxError: Invalid or unexpected token** ✅: 코드에 유효하지 않은 문자나 토큰이 포함되었을 때 해결 방법.
+39. **ReferenceError: assignment to undeclared variable "..."** ✅: 선언되지 않은 변수에 값을 할당하려 할 때 해결 방법 (Strict Mode).
+40. **TypeError: Assignment to constant variable** ✅: `const`로 선언된 변수에 재할당하려 할 때 해결 방법.
 41. **Cross-Origin Read Blocking (CORB)**: 다른 출처의 리소스를 차단할 때 CORS 정책 설정 방법.
 42. **Failed to fetch**: 네트워크 요청 실패 시 원인 분석 및 해결 (CORS, 네트워크 문제 등).
 43. **[Violation] 'click' handler took ...ms**: 긴 실행 시간으로 브라우저 반응성을 저해하는 이벤트 핸들러 최적화.
@@ -134,8 +135,8 @@ tags:
 64. **ClassCastException** ✅: 호환되지 않는 클래스 간에 객체를 형변환하려 할 때 해결 방법.
 65. **IOException** ✅: 입출력 작업 실패 시 예외 처리 방법.
 66. **SQLException** ✅: 데이터베이스 접근 오류 시 해결 방법.
-67. **NumberFormatException**: 숫자로 변환할 수 없는 문자열을 변환하려 할 때 해결 방법.
-68. **IllegalArgumentException**: 메서드에 부적절한 인수를 전달했을 때 해결 방법.
+67. **NumberFormatException** ✅: 숫자로 변환할 수 없는 문자열을 변환하려 할 때 해결 방법.
+68. **IllegalArgumentException** ✅: 메서드에 부적절한 인수를 전달했을 때 해결 방법.
 69. **IllegalStateException**: 객체의 상태가 메서드 호출에 적합하지 않을 때 해결 방법.
 70. **OutOfMemoryError**: 힙 메모리 부족 시 해결 및 JVM 튜닝 방법.
 71. **StackOverflowError**: 무한 재귀 호출로 스택이 가득 찼을 때 해결 방법.
@@ -166,8 +167,8 @@ tags:
 94.  **Permission denied (publickey)** ✅: SSH 키 인증 실패 시 해결 방법.
 95.  **fatal: refusing to merge unrelated histories** ✅: 관련 없는 두 프로젝트를 병합하려 할 때 해결 방법.
 96.  **error: Your local changes to the following files would be overwritten by merge** ✅: 커밋하지 않은 변경 사항이 병합으로 덮어쓰여질 위험이 있을 때 (`git stash`).
-97.  **fatal: pathspec '...' did not match any files**: `git add` 또는 `git rm` 등에서 파일 경로가 잘못되었을 때 해결 방법.
-98.  **The requested URL returned error: 403**: 원격 저장소에 접근할 권한이 없을 때 (HTTPS 인증).
+97.  **fatal: pathspec '...' did not match any files** ✅: `git add` 또는 `git rm` 등에서 파일 경로가 잘못되었을 때 해결 방법.
+98.  **The requested URL returned error: 403** ✅: 원격 저장소에 접근할 권한이 없을 때 (HTTPS 인증).
 99.  **fatal: unable to access '...': The requested URL returned error: 404**: 원격 저장소 주소가 잘못되었을 때 해결 방법.
 100. **error: src refspec ... does not match any**: 푸시하려는 브랜치 이름이 로컬에 존재하지 않을 때 해결 방법.
 101. **fatal: A branch named '...' already exists**: 이미 존재하는 이름으로 브랜치를 생성하려 할 때 해결 방법.
