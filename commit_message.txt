@@ -1,9 +1,9 @@
-feat: Java "UnsupportedOperationException" 포스트 추가
+feat: Git "fatal: A branch named '...' already exists" 포스트 추가
 
-- Java에서 수정 불가능한 컬렉션을 변경하려 할 때 발생하는 `UnsupportedOperationException`의 원인과 해결 방법을 다루는 한글 및 영어 트러블슈팅 포스트를 작성했습니다.
-- `Arrays.asList()`가 반환하는 고정 크기 리스트를 수정 가능한 `ArrayList`로 변환하여 문제를 해결하는 방법을 안내합니다.
+- Git에서 브랜치 생성 시 발생하는 "fatal: A branch named '...' already exists" 오류의 원인과 해결 방법을 다루는 한글 및 영어 트러블슈팅 포스트를 작성했습니다.
+- 다른 이름 사용, 기존 브랜치 체크아웃, 이전 브랜치 삭제 등 상황에 맞는 해결책을 안내합니다.
 
 작업 내용:
-- `_posts/en/2025-08-01-java-unsupportedoperationexception.md` 추가
-- `_posts/ko/2025-08-01-java-unsupportedoperationexception.md` 추가
+- `_posts/en/2025-08-01-git-fatal-branch-already-exists.md` 추가
+- `_posts/ko/2025-08-01-git-fatal-branch-already-exists.md` 추가
 - `GEMINI.md` 진행도 업데이트
