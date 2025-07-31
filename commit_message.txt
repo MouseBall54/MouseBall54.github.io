@@ -1,7 +1,7 @@
-docs: JavaScript Uncaught URIError 포스트 추가
+docs: Java ClassCastException 포스트 추가
 
-JavaScript의 `Uncaught URIError: URI malformed` 오류에 대한 한글 및 영어 버전의 문제 해결 포스트를 추가합니다.
+Java의 `java.lang.ClassCastException` 오류에 대한 한글 및 영어 버전의 문제 해결 포스트를 추가합니다.
 
-- 오류 발생 원인 분석 (잘못된 퍼센트 인코딩 등)
-- `encodeURIComponent`를 사용한 예방 방법 안내
-- `try...catch`를 이용한 오류 처리 방법 설명
+- 오류 발생 원인 분석 (잘못된 다운캐스팅 등)
+- `instanceof` 연산자를 사용한 예방 방법 안내
+- 제네릭을 사용한 타입 안전 컬렉션의 중요성 강조
