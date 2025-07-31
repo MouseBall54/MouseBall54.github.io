@@ -22,6 +22,7 @@
    title: "How to Fix “Permission denied (publickey)” Error with Git on Windows"
    date: 2025-07-22T22:00:00+09:00
    header:
+      teaser: /images/header_images/overlay_image_<언어>.png
       overlay_image: /images/header_images/overlay_image_<언어>.png
       overlay_filter: 0.5
    excerpt: >
@@ -131,10 +132,11 @@
 - 2025년 7월 31일: Git "fatal: pathspec '...' did not match any files", "The requested URL returned error: 403", "fatal: unable to access '...': The requested URL returned error: 404" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 31일: Java "OutOfMemoryError", "StackOverflowError", "NoClassDefFoundError" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 31일: Python "ValueError", "ZeroDivisionError", "UnboundLocalError" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 31일: "Cross-Origin Read Blocking (CORB)" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
   - Python : 13/30
-  - JavaScript : 10/30
+  - JavaScript : 11/30
   - Java : 12/30
   - Git : 11/30 
 
@@ -181,7 +183,7 @@
 38. **SyntaxError: Invalid or unexpected token** ✅: 코드에 유효하지 않은 문자나 토큰이 포함되었을 때 해결 방법.
 39. **ReferenceError: assignment to undeclared variable "..."** ✅: 선언되지 않은 변수에 값을 할당하려 할 때 해결 방법 (Strict Mode).
 40. **TypeError: Assignment to constant variable** ✅: `const`로 선언된 변수에 재할당하려 할 때 해결 방법.
-41. **Cross-Origin Read Blocking (CORB)**: 다른 출처의 리소스를 차단할 때 CORS 정책 설정 방법.
+41. **Cross-Origin Read Blocking (CORB)** ✅: 다른 출처의 리소스를 차단할 때 CORS 정책 설정 방법.
 42. **Failed to fetch**: 네트워크 요청 실패 시 원인 분석 및 해결 (CORS, 네트워크 문제 등).
 43. **[Violation] 'click' handler took ...ms**: 긴 실행 시간으로 브라우저 반응성을 저해하는 이벤트 핸들러 최적화.
 44. **[Violation] Forced reflow while executing JavaScript**: 불필요한 레이아웃 재계산을 유발하는 코드 최적화.
