@@ -4,6 +4,10 @@ layout: single
 title: "JavaScript에서 Uncaught URIError: URI malformed 오류 해결 방법"
 date: 2025-07-31T12:00:00+09:00
 excerpt: "URI 디코딩 함수를 사용하기 전에 문자열이 올바르게 형식화되었는지 확인하여 JavaScript의 'Uncaught URIError: URI malformed' 오류를 이해하고 해결합니다."
+header:
+   teaser: /images/header_images/overlay_image_js.png
+   overlay_image: /images/header_images/overlay_image_js.png
+   overlay_filter: 0.5
 categories:
   - ko_Troubleshooting
 tags:

@@ -4,6 +4,10 @@ layout: single
 title: "JavaScript \"TypeError: Assignment to constant variable\" 오류 해결 방법"
 date: 2025-07-31T22:12:00+09:00
 excerpt: "`const`의 속성을 배우고, 재할당이 필요한 변수에는 `let`을 사용하여 JavaScript의 \"TypeError: Assignment to constant variable\" 오류를 이해하고 해결하세요."
+header:
+   teaser: /images/header_images/overlay_image_js.png
+   overlay_image: /images/header_images/overlay_image_js.png
+   overlay_filter: 0.5
 categories:
   - ko_Troubleshooting
 tags:

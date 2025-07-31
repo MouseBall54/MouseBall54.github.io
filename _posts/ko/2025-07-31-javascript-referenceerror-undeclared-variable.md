@@ -4,6 +4,10 @@ layout: single
 title: "JavaScript \"ReferenceError: assignment to undeclared variable\" 오류 해결 방법"
 date: 2025-07-31T22:11:00+09:00
 excerpt: "값을 할당하기 전에 `let`, `const` 또는 `var`로 변수를 올바르게 선언하여 JavaScript의 strict mode에서 발생하는 \"ReferenceError: assignment to undeclared variable\" 오류를 해결하세요."
+header:
+   teaser: /images/header_images/overlay_image_js.png
+   overlay_image: /images/header_images/overlay_image_js.png
+   overlay_filter: 0.5
 categories:
   - ko_Troubleshooting
 tags:

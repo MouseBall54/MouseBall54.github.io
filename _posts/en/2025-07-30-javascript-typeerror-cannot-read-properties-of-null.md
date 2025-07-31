@@ -4,6 +4,10 @@ layout: single
 title: "How to Fix JavaScript's TypeError: Cannot read properties of null"
 date: 2025-07-30T14:00:00+09:00
 excerpt: "Every JavaScript developer encounters 'Cannot read properties of null'. Clearly understand its cause and learn how to effectively fix it by managing DOM loading times and using conditional access."
+header:
+   teaser: /images/header_images/overlay_image_js.png
+   overlay_image: /images/header_images/overlay_image_js.png
+   overlay_filter: 0.5
 categories:
   - en_Troubleshooting
 tags:

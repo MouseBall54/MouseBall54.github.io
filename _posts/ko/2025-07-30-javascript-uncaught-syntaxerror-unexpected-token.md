@@ -4,6 +4,10 @@ layout: single
 title: "JavaScript 오류 'Uncaught SyntaxError: Unexpected token' 해결 방법"
 date: 2025-07-30T14:10:00+09:00
 excerpt: "'Uncaught SyntaxError: Unexpected token'은 JavaScript 엔진이 문법적으로 예상치 못한 토큰을 만났을 때 발생하는 구문 오류입니다. 이 오류의 일반적인 원인과 해결책을 알아봅니다."
+header:
+   teaser: /images/header_images/overlay_image_js.png
+   overlay_image: /images/header_images/overlay_image_js.png
+   overlay_filter: 0.5
 categories:
   - ko_Troubleshooting
 tags:

@@ -4,6 +4,10 @@ layout: single
 title: "How to Fix 'Maximum call stack size exceeded' in JavaScript"
 date: 2025-07-30T11:00:00+09:00
 excerpt: "Resolve the 'Uncaught RangeError: Maximum call stack size exceeded' in JavaScript by identifying infinite recursion and implementing proper base cases in your functions."
+header:
+   teaser: /images/header_images/overlay_image_js.png
+   overlay_image: /images/header_images/overlay_image_js.png
+   overlay_filter: 0.5
 categories:
   - en_Troubleshooting
 tags:

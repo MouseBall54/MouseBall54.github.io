@@ -4,6 +4,10 @@ layout: single
 title: "How to Fix “TypeError: undefined is not a function” in JavaScript"
 date: 2025-07-24T22:00:00+09:00
 excerpt: '“TypeError: undefined is not a function” occurs when code attempts to call a value that isn’t a function. Learn to identify the root cause—such as typos, load order issues, or incorrect imports—and apply targeted fixes.'
+header:
+   teaser: /images/header_images/overlay_image_js.png
+   overlay_image: /images/header_images/overlay_image_js.png
+   overlay_filter: 0.5
 categories:
   - en_Troubleshooting
 tags:

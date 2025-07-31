@@ -4,6 +4,10 @@ layout: single
 title: "How to Fix \"SyntaxError: Invalid or unexpected token\" in JavaScript"
 date: 2025-07-31T22:10:00+09:00
 excerpt: "Resolve the \"SyntaxError: Invalid or unexpected token\" in JavaScript by checking for typos, missing characters like commas or parentheses, and incorrect syntax."
+header:
+   teaser: /images/header_images/overlay_image_js.png
+   overlay_image: /images/header_images/overlay_image_js.png
+   overlay_filter: 0.5
 categories:
   - en_Troubleshooting
 tags:

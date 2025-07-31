@@ -4,6 +4,10 @@ layout: single
 title: "How to Fix 'Uncaught ReferenceError: is not defined' in JavaScript"
 date: 2025-07-30T12:00:00+09:00
 excerpt: "'Uncaught ReferenceError: ... is not defined' is a common error in JavaScript that occurs when a variable or function is not declared or is outside the accessible scope. Let's explore its causes and solutions."
+header:
+   teaser: /images/header_images/overlay_image_js.png
+   overlay_image: /images/header_images/overlay_image_js.png
+   overlay_filter: 0.5
 categories:
   - en_Troubleshooting
 tags:

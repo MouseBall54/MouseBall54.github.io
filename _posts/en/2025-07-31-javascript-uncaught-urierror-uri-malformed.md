@@ -4,6 +4,10 @@ layout: single
 title: "How to Fix Uncaught URIError: URI malformed in JavaScript"
 date: 2025-07-31T12:00:00+09:00
 excerpt: "Understand and resolve the JavaScript 'Uncaught URIError: URI malformed' by ensuring strings are correctly formatted before using URI decoding functions."
+header:
+   teaser: /images/header_images/overlay_image_js.png
+   overlay_image: /images/header_images/overlay_image_js.png
+   overlay_filter: 0.5
 categories:
   - en_Troubleshooting
 tags:

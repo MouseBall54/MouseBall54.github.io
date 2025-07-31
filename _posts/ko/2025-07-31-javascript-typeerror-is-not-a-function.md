@@ -6,6 +6,10 @@ title: >
 date: 2025-07-31T22:00:00+09:00
 excerpt: >
   "호출하려는 변수가 실제 함수인지 확인하고, 스코프 문제나 오타를 점검하여 JavaScript의 "TypeError: '...' is not a function" 오류를 해결하세요."
+  header:
+   teaser: /images/header_images/overlay_image_js.png
+   overlay_image: /images/header_images/overlay_image_js.png
+   overlay_filter: 0.5
 categories:
   - ko_Troubleshooting
 tags:
