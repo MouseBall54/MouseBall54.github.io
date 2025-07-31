@@ -135,10 +135,11 @@
 - 2025년 7월 31일: "Cross-Origin Read Blocking (CORB)" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 31일: Git "error: src refspec ... does not match any" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 1일: JavaScript "Failed to fetch" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 8월 1일: JavaScript "[Violation] 'click' handler took ...ms" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
   - Python : 13/30
-  - JavaScript : 12/30
+  - JavaScript : 13/30
   - Java : 12/30
   - Git : 12/30 
 
@@ -187,7 +188,7 @@
 40. **TypeError: Assignment to constant variable** ✅: `const`로 선언된 변수에 재할당하려 할 때 해결 방법.
 41. **Cross-Origin Read Blocking (CORB)** ✅: 다른 출처의 리소스를 차단할 때 CORS 정책 설정 방법.
 42. **Failed to fetch** ✅: 네트워크 요청 실패 시 원인 분석 및 해결 (CORS, 네트워크 문제 등).
-43. **[Violation] 'click' handler took ...ms**: 긴 실행 시간으로 브라우저 반응성을 저해하는 이벤트 핸들러 최적화.
+43. **[Violation] 'click' handler took ...ms** ✅: 긴 실행 시간으로 브라우저 반응성을 저해하는 이벤트 핸들러 최적화.
 44. **[Violation] Forced reflow while executing JavaScript**: 불필요한 레이아웃 재계산을 유발하는 코드 최적화.
 45. **Uncaught DOMException: Failed to execute '...' on '...'': The node to be removed is not a child of this node.**: DOM에서 존재하지 않는 자식 노드를 제거하려 할 때 해결 방법.
 46. **Uncaught (in promise) ...**: 프로미스 체인에서 `catch`로 처리되지 않은 예외 해결 방법.

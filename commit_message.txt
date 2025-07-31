@@ -1,9 +1,9 @@
-feat: JavaScript "Failed to fetch" 오류 포스트 추가
+feat: JavaScript "[Violation] 'click' handler took...ms" 포스트 추가
 
-- JavaScript의 Fetch API 사용 시 발생하는 "Failed to fetch" 오류의 원인과 해결 방법을 다루는 한글 및 영어 트러블슈팅 포스트를 작성했습니다.
-- 네트워크 연결, CORS 정책, URL 오타 등 주요 원인을 체계적으로 점검하는 방법을 안내합니다.
+- JavaScript에서 긴 실행 시간으로 인해 발생하는 "[Violation] 'click' handler took ...ms" 경고의 원인과 해결 방법을 다루는 한글 및 영어 트러블슈팅 포스트를 작성했습니다.
+- `setTimeout`, Web Worker 등을 사용하여 메인 스레드 차단을 방지하고 UI 응답성을 개선하는 방법을 안내합니다.
 
 작업 내용:
-- `_posts/en/2025-08-01-javascript-failed-to-fetch.md` 추가
-- `_posts/ko/2025-08-01-javascript-failed-to-fetch.md` 추가
+- `_posts/en/2025-08-01-javascript-violation-click-handler-took-too-long.md` 추가
+- `_posts/ko/2025-08-01-javascript-violation-click-handler-took-too-long.md` 추가
 - `GEMINI.md` 진행도 업데이트
