@@ -21,6 +21,9 @@
    layout: single
    title: "How to Fix “Permission denied (publickey)” Error with Git on Windows"
    date: 2025-07-22T22:00:00+09:00
+   header:
+      overlay_image: /images/header_images/overlay_image_<언어>.png
+      overlay_filter: 0.3
    excerpt: >
      Fix Git’s “Permission denied (publickey)” error on Windows by creating an SSH key,
      adding it to the SSH agent, and registering it with your Git host.
@@ -35,7 +38,13 @@
 
    * **블록 스칼라**(`>`, `|`) 사용. 따옴표(`"`, `'`) 충돌 방지.
    * `tags`는 3\~5개. 모두 영어.
+   * **헤더 이미지 설정**: Troubleshooting 카테고리 내 언어/툴별 YAML `overlay_image` 값
 
+     * python: `images/header_images/overlay_image_python.png`
+     * java:   `images/header_images/overlay_image_java.png`
+     * js:     `images/header_images/overlay_image_js.png`
+     * git:    `images/header_images/overlay_image_git.png`
+  
 4. **주제 및 분량**
 
    * 첫 300개 포스트는 모두 `Troubleshooting` 주제로.
@@ -58,6 +67,32 @@
    * 커밋 메시지는 **한글**로 작성.
 
 8. **검토**
+
+   * 작성 후 이상한 부분 재확인.
+   * 단문체로 작성됐는지 최종 점검.
+
+9. **주제 및 분량**
+
+   * 첫 300개 포스트는 모두 `Troubleshooting` 주제로.
+   * 요청 시 주제당 1개 포스트 작성.
+
+10. **작업 이력 기록**
+
+   * 포스트 하단에 작업 이력 기록.
+   * 차후 참고용.
+
+11. **분야 균형 관리**
+
+   * 다양한 분야 골고루 다룸.
+   * 작성 후 다음 주제 분포 확인.
+
+12. **Git 커밋 절차**
+
+   * 글 작성 완료 후 커밋 메시지를 별도 파일에 저장.
+   * `git commit -F <파일명>` 형식으로 커밋.
+   * 커밋 메시지는 **한글**로 작성.
+
+13. **검토**
 
    * 작성 후 이상한 부분 재확인.
    * 단문체로 작성됐는지 최종 점검.
