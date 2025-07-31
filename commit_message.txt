@@ -1,7 +1,10 @@
-docs: Java IOException 포스트 추가
+feat: 4개 분야 트러블슈팅 포스트 추가
 
-Java의 `java.io.IOException` 오류에 대한 한글 및 영어 버전의 문제 해결 포스트를 추가합니다.
+Python, JavaScript, Java, Git 각 분야에 대한 새로운 트러블슈팅 포스트를 한글과 영어로 각각 작성하여 추가함.
 
-- `IOException`의 일반적인 원인 분석
-- `try-catch` 및 `try-with-resources`를 사용한 예외 처리 방법 안내
-- `throws`를 이용한 예외 위임 방법 설명
+- Python: ImportError: cannot import name '...' from '...'
+- JavaScript: TypeError: '...' is not a function
+- Java: SQLException
+- Git: error: Your local changes to the following files would be overwritten by merge
+
+`GEMINI.md`에 작업 내역과 진행도를 업데이트함.

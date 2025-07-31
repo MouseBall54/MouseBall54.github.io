@@ -54,12 +54,13 @@ tags:
 - 2025년 7월 31일: "Permission denied (publickey)" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 31일: "fatal: refusing to merge unrelated histories" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 31일: "java.io.IOException" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 31일: Python "ImportError", JavaScript "TypeError: is not a function", Java "SQLException", Git "local changes overwritten" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
-  - Python : 9/30
-  - JavaScript : 6/30
-  - Java : 5/30
-  - Git : 5/30 
+  - Python : 10/30
+  - JavaScript : 7/30
+  - Java : 6/30
+  - Git : 6/30 
 
 ### Python (1-30)
 1.  **SyntaxError: invalid syntax** ✅: 콜론(:) 누락, 괄호 불일치 등 기본 문법 오류 해결 방법.
@@ -71,7 +72,7 @@ tags:
 7.  **AttributeError: 'NoneType' object has no attribute '...'** ✅: None을 반환하는 객체의 속성에 접근하려 할 때 해결 방법.
 8.  **FileNotFoundError: [Errno 2] No such file or directory** ✅: 파일을 찾을 수 없을 때 경로 문제 해결 방법.
 9.  **ModuleNotFoundError: No module named '...'** ✅: 설치되지 않았거나 잘못된 이름의 모듈을 임포트할 때 해결 방법.
-10. **ImportError: cannot import name '...' from '...'**: 순환 참조 또는 잘못된 임포트 구문 문제 해결.
+10. **ImportError: cannot import name '...' from '...'** ✅: 순환 참조 또는 잘못된 임포트 구문 문제 해결.
 11. **ValueError: invalid literal for int() with base 10: '...'**: 정수로 변환할 수 없는 문자열을 변환하려 할 때 해결 방법.
 12. **ZeroDivisionError: division by zero**: 0으로 나누려고 할 때 발생하는 오류 해결 방법.
 13. **UnboundLocalError: local variable '...' referenced before assignment**: 함수 내에서 지역 변수가 할당되기 전에 참조될 때 해결 방법.
@@ -100,7 +101,7 @@ tags:
 34. **Uncaught SyntaxError: Unexpected token '...'** ✅: 잘못된 문법이나 예상치 못한 토큰을 사용했을 때 해결 방법.
 35. **Uncaught RangeError: Maximum call stack size exceeded** ✅: 무한 재귀 호출로 인해 스택이 가득 찼을 때 해결 방법.
 36. **Uncaught URIError: URI malformed** ✅: `decodeURIComponent()` 등에서 잘못된 URI를 사용할 때 해결 방법.
-37. **TypeError: '...' is not a function**: 함수가 아닌 것을 함수처럼 호출하려 할 때 해결 방법.
+37. **TypeError: '...' is not a function** ✅: 함수가 아닌 것을 함수처럼 호출하려 할 때 해결 방법.
 38. **SyntaxError: Invalid or unexpected token**: 코드에 유효하지 않은 문자나 토큰이 포함되었을 때 해결 방법.
 39. **ReferenceError: assignment to undeclared variable "..."**: 선언되지 않은 변수에 값을 할당하려 할 때 해결 방법 (Strict Mode).
 40. **TypeError: Assignment to constant variable**: `const`로 선언된 변수에 재할당하려 할 때 해결 방법.
@@ -132,7 +133,7 @@ tags:
 63. **FileNotFoundException** ✅: 지정된 경로에서 파일을 찾을 수 없을 때 해결 방법.
 64. **ClassCastException** ✅: 호환되지 않는 클래스 간에 객체를 형변환하려 할 때 해결 방법.
 65. **IOException** ✅: 입출력 작업 실패 시 예외 처리 방법.
-66. **SQLException**: 데이터베이스 접근 오류 시 해결 방법.
+66. **SQLException** ✅: 데이터베이스 접근 오류 시 해결 방법.
 67. **NumberFormatException**: 숫자로 변환할 수 없는 문자열을 변환하려 할 때 해결 방법.
 68. **IllegalArgumentException**: 메서드에 부적절한 인수를 전달했을 때 해결 방법.
 69. **IllegalStateException**: 객체의 상태가 메서드 호출에 적합하지 않을 때 해결 방법.
@@ -164,7 +165,7 @@ tags:
 93.  **error: failed to push some refs to '...'** ✅: 원격 저장소에 로컬보다 최신 커밋이 있을 때 해결 방법 (`git pull`).
 94.  **Permission denied (publickey)** ✅: SSH 키 인증 실패 시 해결 방법.
 95.  **fatal: refusing to merge unrelated histories** ✅: 관련 없는 두 프로젝트를 병합하려 할 때 해결 방법.
-96.  **error: Your local changes to the following files would be overwritten by merge**: 커밋하지 않은 변경 사항이 병합으로 덮어쓰여질 위험이 있을 때 (`git stash`).
+96.  **error: Your local changes to the following files would be overwritten by merge** ✅: 커밋하지 않은 변경 사항이 병합으로 덮어쓰여질 위험이 있을 때 (`git stash`).
 97.  **fatal: pathspec '...' did not match any files**: `git add` 또는 `git rm` 등에서 파일 경로가 잘못되었을 때 해결 방법.
 98.  **The requested URL returned error: 403**: 원격 저장소에 접근할 권한이 없을 때 (HTTPS 인증).
 99.  **fatal: unable to access '...': The requested URL returned error: 404**: 원격 저장소 주소가 잘못되었을 때 해결 방법.
