@@ -1,9 +1,7 @@
-docs: Git 관련 포스트 2개 추가
+docs: Java IOException 포스트 추가
 
-Git의 다음 두 가지 오류에 대한 한글 및 영어 버전의 문제 해결 포스트를 추가합니다.
+Java의 `java.io.IOException` 오류에 대한 한글 및 영어 버전의 문제 해결 포스트를 추가합니다.
 
-1.  `Permission denied (publickey)`
-    - SSH 키 생성, 에이전트 추가, Git 호스트 등록을 통한 해결 과정 안내
-
-2.  `fatal: refusing to merge unrelated histories`
-    - `--allow-unrelated-histories` 플래그 사용법 및 병합 충돌 해결 방법 설명
+- `IOException`의 일반적인 원인 분석
+- `try-catch` 및 `try-with-resources`를 사용한 예외 처리 방법 안내
+- `throws`를 이용한 예외 위임 방법 설명

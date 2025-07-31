@@ -53,11 +53,12 @@ tags:
 - 2025년 7월 31일: "java.lang.ClassCastException" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 31일: "Permission denied (publickey)" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 7월 31일: "fatal: refusing to merge unrelated histories" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 7월 31일: "java.io.IOException" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
   - Python : 9/30
   - JavaScript : 6/30
-  - Java : 4/30
+  - Java : 5/30
   - Git : 5/30 
 
 ### Python (1-30)
@@ -130,7 +131,7 @@ tags:
 62. **ArrayIndexOutOfBoundsException**: 배열의 범위를 벗어난 인덱스에 접근할 때 해결 방법.
 63. **FileNotFoundException** ✅: 지정된 경로에서 파일을 찾을 수 없을 때 해결 방법.
 64. **ClassCastException** ✅: 호환되지 않는 클래스 간에 객체를 형변환하려 할 때 해결 방법.
-65. **IOException**: 입출력 작업 실패 시 예외 처리 방법.
+65. **IOException** ✅: 입출력 작업 실패 시 예외 처리 방법.
 66. **SQLException**: 데이터베이스 접근 오류 시 해결 방법.
 67. **NumberFormatException**: 숫자로 변환할 수 없는 문자열을 변환하려 할 때 해결 방법.
 68. **IllegalArgumentException**: 메서드에 부적절한 인수를 전달했을 때 해결 방법.
