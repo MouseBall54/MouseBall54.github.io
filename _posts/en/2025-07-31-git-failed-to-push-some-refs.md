@@ -4,6 +4,10 @@ layout: single
 title: "How to Fix 'error: failed to push some refs to' in Git"
 date: 2025-07-31T11:00:00+09:00
 excerpt: "Resolve the Git error 'failed to push some refs' by fetching the latest changes from the remote repository before pushing your own."
+header:
+   teaser: /images/header_images/overlay_image_git.png
+   overlay_image: /images/header_images/overlay_image_git.png
+   overlay_filter: 0.5
 categories:
   - en_Troubleshooting
 tags:

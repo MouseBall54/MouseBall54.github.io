@@ -4,6 +4,10 @@ layout: single
 title: "How to Fix 'fatal: refusing to merge unrelated histories' in Git"
 date: 2025-07-31T15:10:00+09:00
 excerpt: "Learn how to resolve the 'fatal: refusing to merge unrelated histories' error in Git by using the `--allow-unrelated-histories` flag when two projects have different commit histories."
+header:
+   teaser: /images/header_images/overlay_image_git.png
+   overlay_image: /images/header_images/overlay_image_git.png
+   overlay_filter: 0.5
 categories:
   - en_Troubleshooting
 tags:

@@ -4,6 +4,10 @@ layout: single
 title: "How to Fix Git Error: The requested URL returned error: 403"
 date: 2025-07-31T11:30:00+09:00
 excerpt: "Resolve Git's '403 Forbidden' error by updating your credentials, using a personal access token (PAT), or checking your repository permissions. Learn the steps to fix this common authentication issue."
+header:
+   teaser: /images/header_images/overlay_image_git.png
+   overlay_image: /images/header_images/overlay_image_git.png
+   overlay_filter: 0.5
 categories:
   - en_Troubleshooting
 tags:

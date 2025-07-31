@@ -4,6 +4,10 @@ layout: single
 title: "How to Fix \"error: Your local changes to the following files would be overwritten by merge\" in Git"
 date: 2025-07-31T22:00:00+09:00
 excerpt: "Resolve the Git merge error by stashing, committing, or discarding your local changes before pulling or merging."
+header:
+   teaser: /images/header_images/overlay_image_git.png
+   overlay_image: /images/header_images/overlay_image_git.png
+   overlay_filter: 0.5
 categories:
   - en_Troubleshooting
 tags:

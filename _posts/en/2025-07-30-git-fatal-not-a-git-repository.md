@@ -4,6 +4,10 @@ layout: single
 title: "How to Fix 'fatal: not a git repository' Error"
 date: 2025-07-30T11:00:00+09:00
 excerpt: "The 'fatal: not a git repository' error is a common issue that occurs when you run a Git command in a directory that is not a Git repository. This article explains the causes and how to fix it."
+header:
+   teaser: /images/header_images/overlay_image_git.png
+   overlay_image: /images/header_images/overlay_image_git.png
+   overlay_filter: 0.5
 categories:
   - en_Troubleshooting
 tags:

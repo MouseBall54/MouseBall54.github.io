@@ -4,6 +4,10 @@ layout: single
 title: "How to Fix \"fatal: pathspec '...' did not match any files\" in Git"
 date: 2025-07-31T22:15:00+09:00
 excerpt: "Resolve the Git error \"fatal: pathspec '...' did not match any files\" by checking for typos, correct file paths, and ensuring the file is tracked by Git when necessary."
+header:
+   teaser: /images/header_images/overlay_image_git.png
+   overlay_image: /images/header_images/overlay_image_git.png
+   overlay_filter: 0.5
 categories:
   - en_Troubleshooting
 tags:
