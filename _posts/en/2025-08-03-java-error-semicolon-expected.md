@@ -2,95 +2,115 @@
 typora-root-url: ../
 layout: single
 title: >
-    How to Fix Java Error: ';' expected (A Fundamental Mistake)
-date: 2025-08-03T11:40:00+09:00
+    How to Fix "Error: ';' expected" in Java
+date: 2025-08-03T14:40:00+09:00
 header:
-   teaser: /images/header_images/overlay_image_java.png
-   overlay_image: /images/header_images/overlay_image_java.png
-   overlay_filter: 0.5
+    teaser: /images/header_images/overlay_image_java.png
+    overlay_image: /images/header_images/overlay_image_java.png
+    overlay_filter: 0.5
 excerpt: >
-    Learn how to fix the basic `Error: ';' expected` compile error in Java, which occurs when you forget to terminate a statement with a semicolon (;).
+    In Java, "';' expected" is a basic compilation error that occurs when a semicolon is missing at the end of a statement. This article explains the cause of the error and how to fix it.
 categories:
-  - en_Troubleshooting
+    - en_Troubleshooting
 tags:
-  - Java
-  - Compilation Error
-  - SyntaxError
+    - Java
+    - Compilation Error
+    - Syntax
 ---
 
-## The Problem
+## What is "Error: ';' expected" in Java?
 
-The `Error: ';' expected` is one of the most common compilation errors, especially for those new to Java. The meaning of this error is straightforward: the Java compiler **expected a semicolon (`;`) at a certain point in the code but did not find one.**
+`Error: ';' expected` is a syntax error that occurs when the Java compiler does not find a semicolon (`;`) where it syntactically expects a statement to end. In Java, the semicolon is a crucial piece of syntax that signals the end of each command or declaration.
 
-In Java, the semicolon is a crucial piece of syntax that marks the end of a statement. Most statements—such as variable declarations, value assignments, method calls, and `return` statements—must be terminated with a semicolon.
+This error usually means that a semicolon is missing on the line where the error occurred or on the line immediately preceding it.
 
-## Examples of Error-Prone Code
-
-The most common cause is simply forgetting a semicolon at the end of a line.
-
-### 1. Missing Semicolon in a Variable Declaration
-
+**Error Example:**
 ```java
-public class Main {
+public class SemicolonTest {
     public static void main(String[] args) {
-        String message = "Hello, World!" // Semicolon is missing.
-        System.out.println(message);
+        int number = 10 // Missing semicolon
+        System.out.println("The number is: " + number)
     }
 }
 ```
 
-The compiler expects a semicolon after the statement `String message = "Hello, World!"`. When it instead encounters `System.out.println(message)` on the next line, it reports an error. The error message will look something like this:
-
+**Compilation Error:**
 ```
-Main.java:4: error: ';' expected
-        System.out.println(message)
-                                   ^
+SemicolonTest.java:4: error: ';' expected
+        int number = 10
+                       ^
+SemicolonTest.java:5: error: ';' expected
+        System.out.println("The number is: " + number)
+                                                     ^
 ```
-Note that the error is often reported at the beginning of the *next* line, as that's where the compiler realized something was wrong.
+The compiler detects that a semicolon is missing on the `int number = 10` line and reports an error. As a result of this error, it becomes syntactically confused on the next line, `System.out.println(...)`, and may report additional errors.
 
-### 2. Missing Semicolon in a Method Call
+## Common Causes and Solutions for "';' expected"
 
-```java
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello") // Semicolon is missing.
+### 1. Missing Semicolon at the End of a Statement
+
+This is the most common cause. Every statement, including variable declarations, method calls, and value assignments, must end with a semicolon.
+
+- **Solution**: Add a semicolon at the end of the statement.
+    ```java
+    // Before
+    int x = 5
+
+    // After
+    int x = 5;
+    ```
+
+### 2. Syntax Error in a `for` Loop
+
+This can happen if you use a comma (`,`) instead of a semicolon or omit a semicolon when separating the initialization, condition, and increment parts of a `for` loop.
+
+- **Solution**: Each part of the `for` loop must be separated by a semicolon.
+    ```java
+    // Incorrect
+    // for (int i = 0, i < 10, i++) {}
+
+    // Correct
+    for (int i = 0; i < 10; i++) {}
+    ```
+
+### 3. Error in Method Declaration
+
+If you accidentally add a semicolon after a method signature, the compiler will assume the method declaration ends there and treat the method body (`{}`) as a syntax error, which can lead to this error.
+
+- **Solution**: Do not put a semicolon after the method signature (name and parameter list). The exceptions are abstract methods or methods in an interface.
+    ```java
+    // Incorrect
+    // public void myMethod(); {
+    //     System.out.println("Hello");
+    // }
+
+    // Correct
+    public void myMethod() {
+        System.out.println("Hello");
     }
-}
-```
+    ```
 
-## The Solution
+### 4. Error in Array Initialization Syntax
 
-This is a purely syntactical error, so there is only one way to fix it.
+This occurs when you forget the semicolon after the closing brace (`}`) of an array initializer.
 
-### Add a Semicolon (`;`)
+- **Solution**: Add a semicolon at the end of the array initialization statement.
+    ```java
+    // Before
+    // int[] numbers = {1, 2, 3}
 
-Check the location indicated by the compiler and add the missing semicolon at the end of the preceding statement.
+    // After
+    int[] numbers = {1, 2, 3};
+    ```
 
-```java
-// Corrected Code
-public class Main {
-    public static void main(String[] args) {
-        String message = "Hello, World!"; // Semicolon added.
-        System.out.println(message);
-    }
-}
-```
+## Tips for Reading the Error Message
 
-### When Not to Use a Semicolon
-
-For clarity, it's worth noting that not every line in Java ends with a semicolon. You do not use them in the following cases:
-
--   **Class or method declarations:** `public class Main { ... }` or `public void myMethod() { ... }`
--   **Control flow statements (the declaration part):** `if (condition) { ... }` or `for (int i=0; i<5; i++) { ... }`
--   **Package and import statements:** These are statements and *do* end with a semicolon, e.g., `package com.example;` and `import java.util.List;`.
-
-A good rule of thumb is that you **do not place a semicolon after a closing curly brace `}`** that defines a code block.
+When you encounter a `';' expected` error, pay close attention to the location pointed to by the compiler (`^` symbol). In most cases, a semicolon is needed at or just before the reported location. Sometimes, a single missing semicolon can cause a cascade of multiple `';' expected` or other syntax errors, so it is always best to start by fixing the first error message.
 
 ## Conclusion
 
-The `Error: ';' expected` occurs when you break one of the most fundamental syntax rules in Java. When you see this error:
+`Error: ';' expected` occurs when you violate one of the most basic syntax rules in Java. When you face this error, don't panic. It is important to get into the habit of carefully checking that every statement ends with a semicolon, focusing on the location the compiler provides.
 
-1.  Look at the line the compiler points to, or the line directly above it.
-2.  Check if the statement is properly terminated with a semicolon and add one if it's missing.
-
-Most modern Integrated Development Environments (IDEs) will detect and highlight this mistake in real-time, making it much easier to catch before you even compile.
+---
+*Work History*
+- *2025-08-03: Initial draft created*

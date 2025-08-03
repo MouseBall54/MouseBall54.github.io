@@ -144,12 +144,16 @@
 - 2025년 8월 3일: Python "UnicodeDecodeError", JS "ReferenceError", Java "ConcurrentModificationException", Git "fatal: bad object" 관련 포스트 4건 작성 완료.
 - 2025년 8월 3일: Python 2건, JavaScript 2건, Java 2건, Git 2건의 트러블슈팅 포스트 추가 작성 완료.
 - 2025년 8월 3일: Python, JS, Java, Git 트러블슈팅 포스트 각 1건씩 추가 작성 완료.
+- 2025년 8월 3일: Python "MemoryError", "RecursionError", "OSError" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 8월 3일: JavaScript "WebSocket connection failed", "this is undefined", "Event listener leaks" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 8월 3일: Java "public class in wrong file", "cannot find symbol", "';' expected" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 8월 3일: Git "object file is empty", "index file corrupt", "Resetting a commit" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
-  - Python : 18/30
-  - JavaScript : 18/30
-  - Java : 18/30
-  - Git : 18/30 
+  - Python : 21/30
+  - JavaScript : 21/30
+  - Java : 21/30
+  - Git : 21/30 
 
 ### Python (1-30)
 1.  **SyntaxError: invalid syntax** ✅: 콜론(:) 누락, 괄호 불일치 등 기본 문법 오류 해결 방법.
@@ -170,9 +174,9 @@
 16. **RuntimeError: dictionary changed size during iteration** ✅: 딕셔너리 순회 중 크기가 변경될 때 해결 방법.
 17. **TypeError: '...' object is not iterable** ✅: 반복 불가능한 객체를 순회하려고 할 때 해결 방법.
 18. **TypeError: missing 1 required positional argument: '...'** ✅: 함수 호출 시 필수 인자가 누락되었을 때 해결 방법.
-19. **MemoryError**: 대용량 데이터 처리 시 메모리 부족 문제 해결 및 최적화 방법.
-20. **RecursionError: maximum recursion depth exceeded**: 재귀 호출이 너무 깊어질 때 해결 방법.
-21. **OSError: [Errno 28] No space left on device**: 디스크 공간 부족 시 발생하는 오류 해결 방법.
+19. **MemoryError** ✅: 대용량 데이터 처리 시 메모리 부족 문제 해결 및 최적화 방법.
+20. **RecursionError: maximum recursion depth exceeded** ✅: 재귀 호출이 너무 깊어질 때 해결 방법.
+21. **OSError: [Errno 28] No space left on device** ✅: 디스크 공간 부족 시 발생하는 오류 해결 방법.
 22. **ConnectionError: [Errno 111] Connection refused**: 네트워크 연결이 거부될 때 방화벽 및 포트 문제 해결.
 23. **TimeoutError: [WinError 10060]**: 네트워크 작업 시간 초과 시 해결 방법.
 24. **PermissionError: [Errno 13] Permission denied**: 파일/디렉터리 접근 권한이 없을 때 해결 방법.
@@ -204,9 +208,9 @@
 48. **SyntaxError: missing ) after argument list** ✅: 함수 호출 시 괄호가 누락되었을 때 해결 방법.
 49. **SyntaxError: Unterminated string literal**: 문자열이 제대로 닫히지 않았을 때 해결 방법.
 50. **TypeError: Reduce of empty array with no initial value**: 초기값 없이 빈 배열에 `reduce()`를 호출할 때 해결 방법.
-51. **WebSocket connection to '...' failed**: 웹소켓 연결 실패 시 원인 분석 및 해결.
-52. **"this" is undefined**: 콜백 함수나 이벤트 핸들러에서 `this`가 `undefined`가 되는 문제 해결 (화살표 함수, `bind` 등).
-53. **Event listener leaks**: 이벤트 리스너가 제대로 제거되지 않아 발생하는 메모리 누수 문제 해결.
+51. **WebSocket connection to '...' failed** ✅: 웹소켓 연결 실패 시 원인 분석 및 해결.
+52. **"this" is undefined** ✅: 콜백 함수나 이벤트 핸들러에서 `this`가 `undefined`가 되는 문제 해결 (화살표 함수, `bind` 등).
+53. **Event listener leaks** ✅: 이벤트 리스너가 제대로 제거되지 않아 발생하는 메모리 누수 문제 해결.
 54. **Insecure mixed content**: HTTPS 페이지에서 HTTP 리소스를 로드할 때 발생하는 보안 경고 해결.
 55. **jQuery is not defined**: jQuery가 로드되기 전에 사용하려 할 때 해결 방법.
 56. **`innerHTML` vs. `textContent`**: 보안 및 성능 측면에서 두 속성의 올바른 사용법.
@@ -263,8 +267,8 @@
 103. **fatal: bad object ...** ✅: Git 개체 파일이 손상되었을 때 해결 방법.
 104. **error: object file ... is empty** ✅: Git 개체 파일이 비어 있을 때 해결 방법.
 105. **fatal: index file corrupt** ✅: 인덱스 파일(.git/index)이 손상되었을 때 해결 방법.
-106. **Reverting a commit** ✅: 특정 커밋을 되돌리는 `git revert` 사용법.
-107. **Resetting a commit**: 특정 커밋으로 되돌아가는 `git reset`의 세 가지 옵션 (soft, mixed, hard).
+106. **Reverting a commit**: 특정 커밋을 되돌리는 `git revert` 사용법.
+107. **Resetting a commit** ✅: 특정 커밋으로 되돌아가는 `git reset`의 세 가지 옵션 (soft, mixed, hard).
 108. **Amending a commit**: 최신 커밋 메시지 또는 내용을 수정하는 `git commit --amend` 사용법.
 109. **Interactive rebase**: 여러 커밋을 합치거나 수정하는 `git rebase -i` 사용법.
 110. **Cherry-picking a commit**: 다른 브랜치의 특정 커밋만 현재 브랜치로 가져오는 `git cherry-pick` 사용법.

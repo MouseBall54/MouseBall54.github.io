@@ -2,123 +2,119 @@
 typora-root-url: ../
 layout: single
 title: >
-    How to Fix Java Error: cannot find symbol (A Common Error)
-date: 2025-08-03T10:50:00+09:00
+    How to Fix "Error: cannot find symbol" in Java
+date: 2025-08-03T14:35:00+09:00
 header:
-   teaser: /images/header_images/overlay_image_java.png
-   overlay_image: /images/header_images/overlay_image_java.png
-   overlay_filter: 0.5
+    teaser: /images/header_images/overlay_image_java.png
+    overlay_image: /images/header_images/overlay_image_java.png
+    overlay_filter: 0.5
 excerpt: >
-    Explore the common causes of the `cannot find symbol` compile error in Java, including typos, missing imports, and scope issues, and learn how to fix them.
+    In Java, "cannot find symbol" is a very common compilation error that occurs when the compiler cannot find the identifier (variable, method, class, etc.) used in the code. This article explains its causes and solutions.
 categories:
-  - en_Troubleshooting
+    - en_Troubleshooting
 tags:
-  - Java
-  - Compilation Error
-  - cannot find symbol
-  - import
-  - scope
+    - Java
+    - Compilation Error
+    - Symbol
 ---
 
-## The Problem
+## What is "Error: cannot find symbol" in Java?
 
-The `Error: cannot find symbol` is one of the most common compilation errors a Java developer will encounter. This error occurs when the compiler doesn't know what an identifier in your code refers to. In this context, a 'symbol' can be a variable, method, class, or interface name.
+The `cannot find symbol` error means that the Java compiler does not recognize the declaration for an identifier (a symbol) in your code. A "symbol" here refers to any name a developer defines and uses, such as a variable name, method name, class name, or interface name. The error is the compiler's way of saying, "I don't know what '...' is or where it is defined."
 
-If the compiler cannot find the declaration for a given symbol, it doesn't know its type or where it's defined, making it impossible to translate your code into bytecode. The error message typically looks like this:
+The error message usually consists of three parts:
+- **symbol**: The name of the symbol that cannot be found.
+- **location**: The location (class or method) where the error occurred.
+- **(optional) variable ... of type ...**: The context in which the symbol was used.
 
-```
-<FileName>.java:<LineNumber>: error: cannot find symbol
-  symbol:   <symbol_type> <symbol_name>
-  location: <location_where_error_occurred>
-```
-
-## Causes and Solutions
-
-This error can have several causes, but most are due to simple mistakes.
-
-### 1. Typos
-
-This is the most frequent cause. You may have misspelled the name of a variable, method, or class. Remember that Java is case-sensitive.
-
--   **Error Code:**
-    ```java
-    public class Main {
-        public static void main(String[] args) {
-            String myMessage = "Hello";
-            System.out.println(myMssage); // Misspelled 'myMessage' as 'myMssage'
-        }
+**Error Example:**
+```java
+public class SymbolTest {
+    public static void main(String[] args) {
+        Strng message = "Hello, World!"; // Typo: String -> Strng
+        System.out.println(mesage); // Typo: message -> mesage
     }
-    ```
--   **Solution:** Correct the typo from `myMssage` to `myMessage`. Double-check the spelling and case of your symbols.
+}
+```
 
-### 2. Missing Class Import
+**Compilation Error:**
+```
+SymbolTest.java:3: error: cannot find symbol
+        Strng message = "Hello, World!";
+        ^
+  symbol:   class Strng
+  location: class SymbolTest
+SymbolTest.java:4: error: cannot find symbol
+        System.out.println(mesage);
+                           ^
+  symbol:   variable mesage
+  location: class SymbolTest
+```
 
-You are trying to use a class from another package without adding the necessary `import` statement.
+## Common Causes and Solutions for "cannot find symbol"
 
--   **Error Code:**
+### 1. Typo
+
+This is the most frequent cause. It happens when the spelling of a variable, method, or class name differs between its declaration and its use. Remember that Java is case-sensitive.
+
+- **Solution**: Correct the name of the symbol to be consistent in both the declaration and usage. In the example above, changing `Strng` to `String` and `mesage` to `message` will fix the error.
+
+### 2. Missing `import` Statement
+
+This occurs when you use a class from another package without importing it. For example, to use `ArrayList`, you must import `java.util.ArrayList`.
+
+- **Solution**: Add an `import` statement for the required class at the top of your source file.
     ```java
-    public class Main {
+    import java.util.ArrayList;
+
+    public class MyClass {
         public static void main(String[] args) {
-            // ArrayList is in the java.util package, but it's not imported.
             ArrayList<String> list = new ArrayList<>();
-            list.add("test");
         }
     }
     ```
--   **Solution:** Add an import statement for the required class at the top of your file.
+
+### 3. Incorrect Variable Scope
+
+This happens when you try to access a variable outside of the scope (block) in which it was declared. For instance, a variable declared inside a `for` loop cannot be used outside the loop.
+
+- **Solution**: Declare the variable in a wider scope that includes the code block where you intend to use it.
     ```java
-    import java.util.ArrayList; // Add this line
-    
-    public class Main {
-        // ...
-    }
-    ```
-    Most IDEs provide a shortcut (like `Alt+Enter` or `Ctrl+Space`) to automatically add imports.
-
-### 3. Variable Scope Issues
-
-This happens when you try to access a variable outside of the code block (`{ }`) where it was declared.
-
--   **Error Code:**
-    ```java
-    public class Main {
-        public static void main(String[] args) {
+    public class ScopeTest {
+        public void test() {
+            int myVar = 0; // Declared outside the block
             for (int i = 0; i < 5; i++) {
-                String message = "Count: " + i;
+                myVar = i;
             }
-            // The 'message' variable is only visible inside the for loop.
-            System.out.println(message); // 'message' cannot be found here.
-        }
-    }
-    ```
--   **Solution:** Declare the variable in a wider scope that covers all places where it's used.
-    ```java
-    public class Main {
-        public static void main(String[] args) {
-            String message = ""; // Declared in the main method's scope
-            for (int i = 0; i < 5; i++) {
-                message = "Count: " + i;
-            }
-            System.out.println(message);
+            System.out.println(myVar); // Works correctly
         }
     }
     ```
 
-### 4. Incorrect Library/Classpath Configuration
+### 4. Incorrect Method Call
 
-If you are using an external library (a `.jar` file), this error can occur if you haven't added the library to your project's classpath.
+This occurs when you try to call a method that does not exist or call a method with a different number or type of parameters.
 
--   **Solution:**
-    -   **For Maven/Gradle users:** Ensure the dependency is correctly added to your `pom.xml` or `build.gradle` file and rebuild the project.
-    -   **For IDE users:** Check your project settings to make sure the `.jar` file is included in the build path or libraries section.
+- **Solution**: Check that the method signature (name and parameters) you are calling matches the one defined in the class.
+
+### 5. Library/Classpath Issues
+
+This happens when you use an external library (.jar file) but do not include it in the classpath during compilation.
+
+- **Solution**: Use the `-cp` or `-classpath` option in the `javac` command to specify the path to the library. If you are using an IDE (like Eclipse or IntelliJ), you need to add the library to the project's build path.
+    ```bash
+    javac -cp "/path/to/library.jar;." MyProgram.java
+    ```
 
 ## Conclusion
 
-The `cannot find symbol` error can be frustrating, but its cause is usually straightforward. When you encounter it, check the following in order:
+The `cannot find symbol` error usually stems from a minor mistake. By carefully examining the symbol and location indicated in the error message and checking the following points in order, you can easily resolve it:
+1.  Is there a typo in the name?
+2.  Have I imported the necessary classes?
+3.  Is the variable's scope correct?
+4.  Does the method signature match?
+5.  Is the external library included in the classpath?
 
-1.  **Check for Typos**: Verify the spelling and case of your variable, method, and class names.
-2.  **Check `import` Statements**: Make sure you have imported all the classes you are using.
-3.  **Check the Scope**: Ensure you are not trying to access a variable outside of its declaration block.
-4.  **Check Library Configuration**: If using external libraries, confirm they are correctly added to your project's build path.
-
-By checking these basic points, you can resolve most `cannot find symbol` errors.
+---
+*Work History*
+- *2025-08-03: Initial draft created*
