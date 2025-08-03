@@ -1,8 +1,8 @@
-feat: Python, JS, Java, Git 트러블슈팅 포스트 4건 추가
+feat: 4개 분야 트러블슈팅 포스트 8건 추가
 
-- Python: "UnicodeDecodeError" 오류 해결 방법 포스트 추가
-- JavaScript: "ReferenceError: assignment to undeclared variable" 오류 해결 방법 포스트 추가
-- Java: "ConcurrentModificationException" 예외 처리 방법 포스트 추가
-- Git: "fatal: bad object" 오류 해결 방법 포스트 추가
-- 각 주제에 대한 한글 및 영어 포스트 작성 완료
-- GEMINI.md 진행도 및 작업 이력 업데이트
+- Python, JavaScript, Java, Git 각 2건씩 포스트 작성
+- Python: RuntimeError, TypeError(not iterable)
+- JavaScript: Uncaught (in promise), SyntaxError(unexpected end)
+- Java: public class, cannot find symbol
+- Git: object file empty, index file corrupt
+- GEMINI.md 작업 내역 및 진행도 업데이트

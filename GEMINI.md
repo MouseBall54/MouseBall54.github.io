@@ -142,12 +142,13 @@
 - 2025년 8월 1일: Python "TabError: inconsistent use of tabs and spaces in indentation" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 3일: JavaScript "SyntaxError: Invalid or unexpected token", Java "NumberFormatException", Git "Detached HEAD state" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 3일: Python "UnicodeDecodeError", JS "ReferenceError", Java "ConcurrentModificationException", Git "fatal: bad object" 관련 포스트 4건 작성 완료.
+- 2025년 8월 3일: Python 2건, JavaScript 2건, Java 2건, Git 2건의 트러블슈팅 포스트 추가 작성 완료.
 
 진행도
-  - Python : 15/30
-  - JavaScript : 15/30
-  - Java : 15/30
-  - Git : 15/30 
+  - Python : 17/30
+  - JavaScript : 17/30
+  - Java : 17/30
+  - Git : 17/30 
 
 ### Python (1-30)
 1.  **SyntaxError: invalid syntax** ✅: 콜론(:) 누락, 괄호 불일치 등 기본 문법 오류 해결 방법.
@@ -165,8 +166,8 @@
 13. **UnboundLocalError: local variable '...' referenced before assignment** ✅: 함수 내에서 지역 변수가 할당되기 전에 참조될 때 해결 방법.
 14. **TabError: inconsistent use of tabs and spaces in indentation** ✅: 탭과 공백을 혼용하여 들여쓰기했을 때 해결 방법.
 15. **UnicodeDecodeError: 'utf-8' codec can't decode byte ...** ✅: 파일 읽기/쓰기 시 발생하는 인코딩 문제 해결 방법.
-16. **RuntimeError: dictionary changed size during iteration**: 딕셔너리 순회 중 크기가 변경될 때 해결 방법.
-17. **TypeError: '...' object is not iterable**: 반복 불가능한 객체를 순회하려고 할 때 해결 방법.
+16. **RuntimeError: dictionary changed size during iteration** ✅: 딕셔너리 순회 중 크기가 변경될 때 해결 방법.
+17. **TypeError: '...' object is not iterable** ✅: 반복 불가능한 객체를 순회하려고 할 때 해결 방법.
 18. **TypeError: missing 1 required positional argument: '...'**: 함수 호출 시 필수 인자가 누락되었을 때 해결 방법.
 19. **MemoryError**: 대용량 데이터 처리 시 메모리 부족 문제 해결 및 최적화 방법.
 20. **RecursionError: maximum recursion depth exceeded**: 재귀 호출이 너무 깊어질 때 해결 방법.
@@ -195,10 +196,10 @@
 41. **Cross-Origin Read Blocking (CORB)** ✅: 다른 출처의 리소스를 차단할 때 CORS 정책 설정 방법.
 42. **Failed to fetch** ✅: 네트워크 요청 실패 시 원인 분석 및 해결 (CORS, 네트워크 문제 등).
 43. **[Violation] 'click' handler took ...ms** ✅: 긴 실행 시간으로 브라우저 반응성을 저해하는 이벤트 핸들러 최적화.
-44. **[Violation] Forced reflow while executing JavaScript**: 불필요한 레이아웃 재계산을 유발하는 코드 최적화.
-45. **Uncaught DOMException: Failed to execute '...' on '...'': The node to be removed is not a child of this node.**: DOM에서 존재하지 않는 자식 노드를 제거하려 할 때 해결 방법.
-46. **Uncaught (in promise) ...**: 프로미스 체인에서 `catch`로 처리되지 않은 예외 해결 방법.
-47. **SyntaxError: Unexpected end of input**: 코드 블록이 제대로 닫히지 않았을 때 (괄호, 따옴표 등) 해결 방법.
+44. **[Violation] Forced reflow while executing JavaScript** ✅: 불필요한 레이아웃 재계산을 유발하는 코드 최적화.
+45. **Uncaught DOMException: Failed to execute '...' on '...'': The node to be removed is not a child of this node.** ✅: DOM에서 존재하지 않는 자식 노드를 제거하려 할 때 해결 방법.
+46. **Uncaught (in promise) ...** ✅: 프로미스 체인에서 `catch`로 처리되지 않은 예외 해결 방법.
+47. **SyntaxError: Unexpected end of input** ✅: 코드 블록이 제대로 닫히지 않았을 때 (괄호, 따옴표 등) 해결 방법.
 48. **SyntaxError: missing ) after argument list**: 함수 호출 시 괄호가 누락되었을 때 해결 방법.
 49. **SyntaxError: Unterminated string literal**: 문자열이 제대로 닫히지 않았을 때 해결 방법.
 50. **TypeError: Reduce of empty array with no initial value**: 초기값 없이 빈 배열에 `reduce()`를 호출할 때 해결 방법.
@@ -216,7 +217,6 @@
 ### Java (61-90)
 61. **NullPointerException** ✅: `null` 참조를 가진 객체의 멤버에 접근할 때 해결 방법.
 62. **ArrayIndexOutOfBoundsException** ✅: 배열의 범위를 벗어난 인덱스에 접근할 때 해결 방법.
-62. **ArrayIndexOutOfBoundsException**: 배열의 범위를 벗어난 인덱스에 접근할 때 해결 방법.
 63. **FileNotFoundException** ✅: 지정된 경로에서 파일을 찾을 수 없을 때 해결 방법.
 64. **ClassCastException** ✅: 호환되지 않는 클래스 간에 객체를 형변환하려 할 때 해결 방법.
 65. **IOException** ✅: 입출력 작업 실패 시 예외 처리 방법.
@@ -229,9 +229,9 @@
 72. **NoClassDefFoundError** ✅: 런타임에 클래스를 찾을 수 없을 때 클래스패스 문제 해결.
 73. **UnsupportedOperationException** ✅: 지원되지 않는 연산을 호출했을 때 해결 방법.
 74. **ConcurrentModificationException** ✅: 컬렉션 순회 중 수정이 발생했을 때 해결 방법.
-75. **ArithmeticException: / by zero**: 정수를 0으로 나눌 때 해결 방법.
-76. **Error: a public class ... must be defined in a file called ... .java**: 클래스 이름과 파일 이름이 다를 때 해결 방법.
-77. **Error: cannot find symbol**: 변수, 메서드, 클래스를 찾을 수 없을 때 (오타, 임포트 누락 등) 해결 방법.
+75. **ArithmeticException: / by zero** ✅: 정수를 0으로 나눌 때 해결 방법.
+76. **Error: a public class ... must be defined in a file called ... .java** ✅: 클래스 이름과 파일 이름이 다를 때 해결 방법.
+77. **Error: cannot find symbol** ✅: 변수, 메서드, 클래스를 찾을 수 없을 때 (오타, 임포트 누락 등) 해결 방법.
 78. **Error: ‘;’ expected**: 세미콜론이 누락되었을 때 해결 방법.
 79. **Error: incompatible types**: 호환되지 않는 타입 간의 할당 시 해결 방법.
 80. **Error: missing return statement**: 값을 반환해야 하는 메서드에 `return`문이 없을 때 해결 방법.
@@ -260,8 +260,8 @@
 101. **fatal: A branch named '...' already exists** ✅: 이미 존재하는 이름으로 브랜치를 생성하려 할 때 해결 방법.
 102. **Detached HEAD state** ✅: 특정 커밋을 직접 체크아웃하여 '분리된 HEAD' 상태가 되었을 때 해결 방법.
 103. **fatal: bad object ...** ✅: Git 개체 파일이 손상되었을 때 해결 방법.
-104. **error: object file ... is empty**: Git 개체 파일이 비어 있을 때 해결 방법.
-105. **fatal: index file corrupt**: 인덱스 파일(.git/index)이 손상되었을 때 해결 방법.
+104. **error: object file ... is empty** ✅: Git 개체 파일이 비어 있을 때 해결 방법.
+105. **fatal: index file corrupt** ✅: 인덱스 파일(.git/index)이 손상되었을 때 해결 방법.
 106. **Reverting a commit**: 특정 커밋을 되돌리는 `git revert` 사용법.
 107. **Resetting a commit**: 특정 커밋으로 되돌아가는 `git reset`의 세 가지 옵션 (soft, mixed, hard).
 108. **Amending a commit**: 최신 커밋 메시지 또는 내용을 수정하는 `git commit --amend` 사용법.
