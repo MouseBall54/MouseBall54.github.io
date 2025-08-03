@@ -1,8 +1,8 @@
-feat: 4개 분야 트러블슈팅 포스트 8건 추가
+feat: 4개 분야 트러블슈팅 포스트 각 1건씩 추가
 
-- Python, JavaScript, Java, Git 각 2건씩 포스트 작성
-- Python: RuntimeError, TypeError(not iterable)
-- JavaScript: Uncaught (in promise), SyntaxError(unexpected end)
-- Java: public class, cannot find symbol
-- Git: object file empty, index file corrupt
+- Python, JavaScript, Java, Git 각 1건씩 포스트 작성
+- Python: TypeError(missing argument)
+- JavaScript: SyntaxError(missing parenthesis)
+- Java: Error(';' expected)
+- Git: Reverting a commit
 - GEMINI.md 작업 내역 및 진행도 업데이트
