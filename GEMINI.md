@@ -140,12 +140,13 @@
 - 2025년 8월 1일: Java "UnsupportedOperationException" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 1일: Git "fatal: A branch named '...' already exists" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 1일: Python "TabError: inconsistent use of tabs and spaces in indentation" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 8월 3일: JavaScript "SyntaxError: Invalid or unexpected token", Java "NumberFormatException", Git "Detached HEAD state" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
   - Python : 14/30
-  - JavaScript : 13/30
-  - Java : 13/30
-  - Git : 13/30 
+  - JavaScript : 14/30
+  - Java : 14/30
+  - Git : 14/30 
 
 ### Python (1-30)
 1.  **SyntaxError: invalid syntax** ✅: 콜론(:) 누락, 괄호 불일치 등 기본 문법 오류 해결 방법.
@@ -256,7 +257,7 @@
 99.  **fatal: unable to access '...': The requested URL returned error: 404** ✅: 원격 저장소 주소가 잘못되었을 때 해결 방법.
 100. **error: src refspec ... does not match any** ✅: 푸시하려는 브랜치 이름이 로컬에 존재하지 않을 때 해결 방법.
 101. **fatal: A branch named '...' already exists** ✅: 이미 존재하는 이름으로 브랜치를 생성하려 할 때 해결 방법.
-102. **Detached HEAD state**: 특정 커밋을 직접 체크아웃하여 '분리된 HEAD' 상태가 되었을 때 해결 방법.
+102. **Detached HEAD state** ✅: 특정 커밋을 직접 체크아웃하여 '분리된 HEAD' 상태가 되었을 때 해결 방법.
 103. **fatal: bad object ...**: Git 개체 파일이 손상되었을 때 해결 방법.
 104. **error: object file ... is empty**: Git 개체 파일이 비어 있을 때 해결 방법.
 105. **fatal: index file corrupt**: 인덱스 파일(.git/index)이 손상되었을 때 해결 방법.

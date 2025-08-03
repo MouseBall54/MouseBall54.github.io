@@ -1,9 +1,7 @@
-feat: Python "TabError" 포스트 추가
+feat: JS, Java, Git 트러블슈팅 포스트 3건 추가
 
-- Python에서 탭과 공백의 혼용으로 발생하는 "TabError: inconsistent use of tabs and spaces in indentation" 오류의 원인과 해결 방법을 다루는 한글 및 영어 트러블슈팅 포스트를 작성했습니다.
-- 에디터 설정, 기존 코드 변환, 린터 사용 등 예방 및 해결책을 안내합니다.
-
-작업 내용:
-- `_posts/en/2025-08-01-python-taberror-inconsistent-use-of-tabs-and-spaces.md` 추가
-- `_posts/ko/2025-08-01-python-taberror-inconsistent-use-of-tabs-and-spaces.md` 추가
-- `GEMINI.md` 진행도 업데이트
+- JavaScript: "SyntaxError: Invalid or unexpected token" 오류 해결 방법 포스트 추가
+- Java: "NumberFormatException" 예외 처리 방법 포스트 추가
+- Git: "Detached HEAD" 상태 해결 방법 포스트 추가
+- 각 주제에 대한 한글 및 영어 포스트 작성 완료
+- GEMINI.md 진행도 및 작업 이력 업데이트
