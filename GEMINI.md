@@ -141,12 +141,13 @@
 - 2025년 8월 1일: Git "fatal: A branch named '...' already exists" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 1일: Python "TabError: inconsistent use of tabs and spaces in indentation" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 3일: JavaScript "SyntaxError: Invalid or unexpected token", Java "NumberFormatException", Git "Detached HEAD state" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 8월 3일: Python "UnicodeDecodeError", JS "ReferenceError", Java "ConcurrentModificationException", Git "fatal: bad object" 관련 포스트 4건 작성 완료.
 
 진행도
-  - Python : 14/30
-  - JavaScript : 14/30
-  - Java : 14/30
-  - Git : 14/30 
+  - Python : 15/30
+  - JavaScript : 15/30
+  - Java : 15/30
+  - Git : 15/30 
 
 ### Python (1-30)
 1.  **SyntaxError: invalid syntax** ✅: 콜론(:) 누락, 괄호 불일치 등 기본 문법 오류 해결 방법.
@@ -163,7 +164,7 @@
 12. **ZeroDivisionError: division by zero** ✅: 0으로 나누려고 할 때 발생하는 오류 해결 방법.
 13. **UnboundLocalError: local variable '...' referenced before assignment** ✅: 함수 내에서 지역 변수가 할당되기 전에 참조될 때 해결 방법.
 14. **TabError: inconsistent use of tabs and spaces in indentation** ✅: 탭과 공백을 혼용하여 들여쓰기했을 때 해결 방법.
-15. **UnicodeDecodeError: 'utf-8' codec can't decode byte ...**: 파일 읽기/쓰기 시 발생하는 인코딩 문제 해결 방법.
+15. **UnicodeDecodeError: 'utf-8' codec can't decode byte ...** ✅: 파일 읽기/쓰기 시 발생하는 인코딩 문제 해결 방법.
 16. **RuntimeError: dictionary changed size during iteration**: 딕셔너리 순회 중 크기가 변경될 때 해결 방법.
 17. **TypeError: '...' object is not iterable**: 반복 불가능한 객체를 순회하려고 할 때 해결 방법.
 18. **TypeError: missing 1 required positional argument: '...'**: 함수 호출 시 필수 인자가 누락되었을 때 해결 방법.
@@ -227,7 +228,7 @@
 71. **StackOverflowError** ✅: 무한 재귀 호출로 스택이 가득 찼을 때 해결 방법.
 72. **NoClassDefFoundError** ✅: 런타임에 클래스를 찾을 수 없을 때 클래스패스 문제 해결.
 73. **UnsupportedOperationException** ✅: 지원되지 않는 연산을 호출했을 때 해결 방법.
-74. **ConcurrentModificationException**: 컬렉션 순회 중 수정이 발생했을 때 해결 방법.
+74. **ConcurrentModificationException** ✅: 컬렉션 순회 중 수정이 발생했을 때 해결 방법.
 75. **ArithmeticException: / by zero**: 정수를 0으로 나눌 때 해결 방법.
 76. **Error: a public class ... must be defined in a file called ... .java**: 클래스 이름과 파일 이름이 다를 때 해결 방법.
 77. **Error: cannot find symbol**: 변수, 메서드, 클래스를 찾을 수 없을 때 (오타, 임포트 누락 등) 해결 방법.
@@ -258,7 +259,7 @@
 100. **error: src refspec ... does not match any** ✅: 푸시하려는 브랜치 이름이 로컬에 존재하지 않을 때 해결 방법.
 101. **fatal: A branch named '...' already exists** ✅: 이미 존재하는 이름으로 브랜치를 생성하려 할 때 해결 방법.
 102. **Detached HEAD state** ✅: 특정 커밋을 직접 체크아웃하여 '분리된 HEAD' 상태가 되었을 때 해결 방법.
-103. **fatal: bad object ...**: Git 개체 파일이 손상되었을 때 해결 방법.
+103. **fatal: bad object ...** ✅: Git 개체 파일이 손상되었을 때 해결 방법.
 104. **error: object file ... is empty**: Git 개체 파일이 비어 있을 때 해결 방법.
 105. **fatal: index file corrupt**: 인덱스 파일(.git/index)이 손상되었을 때 해결 방법.
 106. **Reverting a commit**: 특정 커밋을 되돌리는 `git revert` 사용법.

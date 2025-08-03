@@ -1,7 +1,8 @@
-feat: JS, Java, Git 트러블슈팅 포스트 3건 추가
+feat: Python, JS, Java, Git 트러블슈팅 포스트 4건 추가
 
-- JavaScript: "SyntaxError: Invalid or unexpected token" 오류 해결 방법 포스트 추가
-- Java: "NumberFormatException" 예외 처리 방법 포스트 추가
-- Git: "Detached HEAD" 상태 해결 방법 포스트 추가
+- Python: "UnicodeDecodeError" 오류 해결 방법 포스트 추가
+- JavaScript: "ReferenceError: assignment to undeclared variable" 오류 해결 방법 포스트 추가
+- Java: "ConcurrentModificationException" 예외 처리 방법 포스트 추가
+- Git: "fatal: bad object" 오류 해결 방법 포스트 추가
 - 각 주제에 대한 한글 및 영어 포스트 작성 완료
 - GEMINI.md 진행도 및 작업 이력 업데이트
