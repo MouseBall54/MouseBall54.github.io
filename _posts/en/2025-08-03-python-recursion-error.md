@@ -99,7 +99,3 @@ def factorial_iterative(n):
 ## Conclusion
 
 A `RecursionError` is most often caused by a problem with the base case of a recursive function. Always start by debugging the termination condition. Only increase the recursion limit if you are certain the algorithm requires it. The best solution is often to convert the recursive algorithm into an iterative one, freeing it from stack depth limitations.
-
----
-*Work History*
-- *2025-08-03: Initial draft created*

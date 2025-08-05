@@ -96,7 +96,3 @@ git reset --hard HEAD~
 
 -   `git reset` is an operation that changes the local repository's commit history. If you reset a commit that has already been pushed to a remote repository, you will need the `--force` option to push it again. This can cause conflicts with your teammates' history, so it is safer to use `git revert` on shared branches.
 -   `git reset --hard` is an irreversible operation, so it is a good idea to double-check your current status with `git status` or `git log` before running it.
-
----
-*Work History*
-- *2025-08-03: Initial draft created*

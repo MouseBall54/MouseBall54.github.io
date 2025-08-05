@@ -123,6 +123,3 @@ TypeTest.java:4: error: incompatible types: String cannot be converted to int
 
 `Error: incompatible types`는 Java의 강력한 타입 시스템 덕분에 런타임이 아닌 컴파일 시점에 잠재적인 버그를 잡을 수 있도록 도와주는 유용한 오류입니다. 이 오류를 만나면 컴파일러가 알려주는 "required" 타입과 "found" 타입을 주의 깊게 살펴보고, 두 타입이 호환되도록 코드를 수정해야 합니다. 값의 타입을 바꾸거나, 변수의 타입을 바꾸거나, 혹은 명시적인 형변환을 통해 문제를 해결할 수 있습니다.
 
----
-*작업 이력*
-- *2025년 8월 3일: 포스트 초안 작성*

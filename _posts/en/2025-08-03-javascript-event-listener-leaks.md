@@ -139,6 +139,3 @@ document.getElementById('parent-list').addEventListener('click', (event) => {
 
 Event listener leaks are easy to overlook but can have a serious impact on application performance. It is crucial to understand the component lifecycle and make it a habit to remove registered listeners via `removeEventListener` or `AbortController` when an element is destroyed. The event delegation pattern is also an excellent alternative for simplifying listener management.
 
----
-*Work History*
-- *2025-08-03: Initial draft created*

@@ -110,7 +110,3 @@ When you encounter a `';' expected` error, pay close attention to the location p
 ## Conclusion
 
 `Error: ';' expected` occurs when you violate one of the most basic syntax rules in Java. When you face this error, don't panic. It is important to get into the habit of carefully checking that every statement ends with a semicolon, focusing on the location the compiler provides.
-
----
-*Work History*
-- *2025-08-03: Initial draft created*

@@ -99,6 +99,3 @@ public class AnotherClass {
 
 Java의 "public class ... must be defined in a file called ... .java" 오류는 Java의 기본 규칙을 따르지 않았을 때 발생합니다. 이 규칙은 코드를 체계적으로 구성하고, 컴파일러와 JVM이 클래스를 쉽게 찾을 수 있도록 돕기 위해 존재합니다. 문제를 해결하려면 파일 이름과 `public` 클래스 이름이 항상 대소문자까지 정확히 일치하는지 확인하는 습관을 들이는 것이 중요합니다.
 
----
-*작업 이력*
-- *2025년 8월 3일: 포스트 초안 작성*

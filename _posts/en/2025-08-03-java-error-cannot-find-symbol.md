@@ -115,6 +115,3 @@ The `cannot find symbol` error usually stems from a minor mistake. By carefully 
 4.  Does the method signature match?
 5.  Is the external library included in the classpath?
 
----
-*Work History*
-- *2025-08-03: Initial draft created*
