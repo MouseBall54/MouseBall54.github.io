@@ -21,17 +21,12 @@
    layout: single
    title: >
       How to Fix "Permission denied (publickey)" Error with Git on Windows
-   seo_title: >
-      How to Fix "Permission denied (publickey)" Error with Git on Windows
    date: 2025-07-22T22:00:00+09:00
    header:
       teaser: /images/header_images/overlay_image_<언어>.png
       overlay_image: /images/header_images/overlay_image_<언어>.png
       overlay_filter: 0.5
    excerpt: >
-     Fix Git's "Permission denied (publickey)" error on Windows by creating an SSH key,
-     adding it to the SSH agent, and registering it with your Git host.
-   seo_description: >
      Fix Git's "Permission denied (publickey)" error on Windows by creating an SSH key,
      adding it to the SSH agent, and registering it with your Git host.
    categories:
@@ -160,10 +155,10 @@
 - 2025년 8월 5일: Java "try-with-resources", "Generics", "Lambda Expressions", "Stream API", "Dependency Injection" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
-  - Python : 28/30
-  - JavaScript : 28/30
+  - Python : 30/30
+  - JavaScript : 30/30
   - Java : 30/30
-  - Git : 22/30 
+  - Git : 23/30 
 
 ### Python (1-30)
 1.  **SyntaxError: invalid syntax** ✅: 콜론(:) 누락, 괄호 불일치 등 기본 문법 오류 해결 방법.
@@ -194,8 +189,8 @@
 26. **NotADirectoryError: [Errno 20] Not a directory** ✅: 디렉터리를 예상한 위치에 파일이 있을 때 해결 방법.
 27. **TypeError: unsupported operand type(s) for +: '...' and '...'** ✅: 지원되지 않는 타입 간의 연산 시 해결 방법.
 28. **SystemError: <built-in function ...> returned NULL without setting an error** ✅: Python 인터프리터 내부 오류 발생 시 해결 방법.
-29. **FloatingPointError**: 부동 소수점 연산 오류 발생 시 해결 방법.
-30. **KeyboardInterrupt**: 사용자가 Ctrl+C를 눌러 프로그램을 중단시켰을 때 예외 처리 방법.
+29. **FloatingPointError** ✅: 부동 소수점 연산 오류 발생 시 해결 방법.
+30. **KeyboardInterrupt** ✅: 사용자가 Ctrl+C를 눌러 프로그램을 중단시켰을 때 예외 처리 방법.
 
 ### JavaScript (31-60)
 31. **Uncaught TypeError: Cannot read properties of null (reading '...')** ✅: DOM 요소가 로드되기 전에 접근하려 할 때 해결 방법.
@@ -216,8 +211,8 @@
 46. **Uncaught (in promise) ...** ✅: 프로미스 체인에서 `catch`로 처리되지 않은 예외 해결 방법.
 47. **SyntaxError: Unexpected end of input** ✅: 코드 블록이 제대로 닫히지 않았을 때 (괄호, 따옴표 등) 해결 방법.
 48. **SyntaxError: missing ) after argument list** ✅: 함수 호출 시 괄호가 누락되었을 때 해결 방법.
-49. **SyntaxError: Unterminated string literal**: 문자열이 제대로 닫히지 않았을 때 해결 방법.
-50. **TypeError: Reduce of empty array with no initial value**: 초기값 없이 빈 배열에 `reduce()`를 호출할 때 해결 방법.
+49. **SyntaxError: Unterminated string literal** ✅: 문자열이 제대로 닫히지 않았을 때 해결 방법.
+50. **TypeError: Reduce of empty array with no initial value** ✅: 초기값 없이 빈 배열에 `reduce()`를 호출할 때 해결 방법.
 51. **WebSocket connection to '...' failed** ✅: 웹소켓 연결 실패 시 원인 분석 및 해결.
 52. **"this" is undefined** ✅: 콜백 함수나 이벤트 핸들러에서 `this`가 `undefined`가 되는 문제 해결 (화살표 함수, `bind` 등).
 53. **Event listener leaks** ✅: 이벤트 리스너가 제대로 제거되지 않아 발생하는 메모리 누수 문제 해결.
@@ -277,7 +272,7 @@
 103. **fatal: bad object ...** ✅: Git 개체 파일이 손상되었을 때 해결 방법.
 104. **error: object file ... is empty** ✅: Git 개체 파일이 비어 있을 때 해결 방법.
 105. **fatal: index file corrupt** ✅: 인덱스 파일(.git/index)이 손상되었을 때 해결 방법.
-106. **Reverting a commit**: 특정 커밋을 되돌리는 `git revert` 사용법.
+106. **Reverting a commit** ✅: 특정 커밋을 되돌리는 `git revert` 사용법.
 107. **Resetting a commit** ✅: 특정 커밋으로 되돌아가는 `git reset`의 세 가지 옵션 (soft, mixed, hard).
 108. **Amending a commit** ✅: 최신 커밋 메시지 또는 내용을 수정하는 `git commit --amend` 사용법.
 109. **Interactive rebase**: 여러 커밋을 합치거나 수정하는 `git rebase -i` 사용법.
