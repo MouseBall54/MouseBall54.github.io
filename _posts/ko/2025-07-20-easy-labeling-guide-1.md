@@ -1,7 +1,7 @@
 ---
 typora-root-url: ../
 header:
-  teaser: /images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png
+  teaser: /blog/images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png
 layout: single
 title: "Easy Labeling 가이드 (1) - 이미지와 라벨 불러오기"
 excerpt: "YOLO 라벨링 툴 Easy Labeling의 첫 번째 가이드입니다. PC에서 이미지 폴더와 라벨 파일을 불러오고, 클래스 파일을 활용하는 기본적인 방법을 안내합니다."
@@ -41,7 +41,7 @@ tags:
 웹 브라우저에서 Easy Labeling 프로젝트 페이지([https://mouseball54.github.io/easy_labeling/](https://mouseball54.github.io/easy_labeling/))로 접속합니다.
 
 <figure>
-  <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250720230233737.png" alt="Easy Labeling 초기 화면">
+  <img src="/blog/images/2025-07-20-easy-labeling-guide-1/image-20250720230233737.png" alt="Easy Labeling 초기 화면">
   <figcaption>Figure 1. Easy Labeling 초기 화면. 좌측 상단의 <code>Load Image Folder</code> 버튼을 클릭합니다.</figcaption>
 </figure>
 
@@ -54,7 +54,7 @@ tags:
 > **(참고)** Easy Labeling은 서버 없이 사용자의 브라우저에서 직접 실행되는 웹 프로그램입니다. 따라서 이미지나 라벨 데이터가 외부로 전송되거나 유출될 걱정 없이 안전하게 사용할 수 있습니다.
 
 <figure>
-  <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250720232309611.png" alt="이미지 폴더 선택 화면">
+  <img src="/blog/images/2025-07-20-easy-labeling-guide-1/image-20250720232309611.png" alt="이미지 폴더 선택 화면">
   <figcaption>Figure 2. 이미지 폴더 선택 화면.</figcaption>
 </figure>
 
@@ -66,12 +66,12 @@ tags:
 - “확인”을 누르면 자동으로 <code>label</code> 폴더가 생성되고, 향후 라벨 데이터가 해당 폴더에 저장됩니다.
 
 <figure>
-  <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250720230951821.png" alt="label 폴더 생성 확인">
+  <img src="/blog/images/2025-07-20-easy-labeling-guide-1/image-20250720230951821.png" alt="label 폴더 생성 확인">
   <figcaption>Figure 3. <code>label</code> 폴더 생성 확인 창.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250720231126118.png" alt="이미지 및 라벨 폴더 로딩 완료">
+  <img src="/blog/images/2025-07-20-easy-labeling-guide-1/image-20250720231126118.png" alt="이미지 및 라벨 폴더 로딩 완료">
   <figcaption>Figure 4. 이미지 및 라벨 폴더 로딩 완료. 버튼이 <code>label (created)</code>로 변경됩니다.</figcaption>
 </figure>
 
@@ -84,7 +84,7 @@ tags:
 Easy Labeling은 빠른 작업을 위해 다양한 전환 방법을 제공합니다. 편하신 방법을 선택하여 효율성을 높이십시오.
 
 <figure>
-  <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250720235716476.png" alt="다양한 이미지 전환 방법">
+  <img src="/blog/images/2025-07-20-easy-labeling-guide-1/image-20250720235716476.png" alt="다양한 이미지 전환 방법">
   <figcaption>Figure 5. 다양한 이미지 전환 방법.</figcaption>
 </figure>
 
@@ -106,7 +106,7 @@ Easy Labeling은 빠른 작업을 위해 다양한 전환 방법을 제공합니
   3. 수동 지정: <code>Load Label Folder</code> 버튼 클릭
 
   <figure>
-    <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png" alt="수동으로 라벨 폴더 지정하기">
+    <img src="/blog/images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png" alt="수동으로 라벨 폴더 지정하기">
     <figcaption>Figure 6. 수동으로 라벨 폴더 지정 화면.</figcaption>
   </figure>
 
@@ -115,14 +115,14 @@ Easy Labeling은 빠른 작업을 위해 다양한 전환 방법을 제공합니
   - <code>Labeled</code> / <code>Unlabeled</code> 필터로 라벨 유무별로 분류  
 
   <figure>
-    <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250720233244263.png" alt="Labeled 필터 적용 화면">
+    <img src="/blog/images/2025-07-20-easy-labeling-guide-1/image-20250720233244263.png" alt="Labeled 필터 적용 화면">
     <figcaption>Figure 7. <code>Labeled</code> 필터 적용 화면.</figcaption>
   </figure>
 
 
   ### 3.2 라벨 데이터 관리 기능
   <figure>
-    <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250721010743987.png" alt="라벨 데이터 관리 기능">
+    <img src="/blog/images/2025-07-20-easy-labeling-guide-1/image-20250721010743987.png" alt="라벨 데이터 관리 기능">
     <figcaption>Figure 8. 라벨 데이터 관리 메뉴 (<code>Auto Save</code>, <code>Save Labels</code>, <code>Download Class Template</code>).</figcaption>
   </figure>
 

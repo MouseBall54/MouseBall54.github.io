@@ -1,7 +1,7 @@
 ---
 typora-root-url: ../
 header:
-  teaser: ../images/2025-07-13-easy-labeling-development/image-20250715203036663.png
+  teaser: ../blog/images/2025-07-13-easy-labeling-development/image-20250715203036663.png
 title: "YOLO 데이터 라벨링, 설치 없이 웹에서 바로! Easy Labeling 개발기"
 date: 2025-07-13T15:00:00+09:00
 categories:
@@ -26,7 +26,7 @@ excerpt: "YOLO 객체 탐지 모델 학습, 데이터 라벨링 때문에 힘드
 
 이 게시물에서는 제가 개발한 웹 기반 이미지 주석(Annotation) 및 라벨링(Labeling) 도구, **Easy Labeling**을 소개합니다. 특히 **YOLO 포맷** 데이터셋 생성을 목표로 하는 분들께 유용한 도구가 될 것입니다.
 
-![image-20250715203036663](/images/2025-07-13-easy-labeling-development/image-20250715203036663.png)
+![image-20250715203036663](/blog/images/2025-07-13-easy-labeling-development/image-20250715203036663.png)
 
 ## 프로젝트 소개: YOLO 데이터셋을 위한 최적의 솔루션
 

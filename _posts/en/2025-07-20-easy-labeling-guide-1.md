@@ -1,7 +1,7 @@
 ---
 typora-root-url: ../
 header:
-  teaser: /images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png
+  teaser: /blog/images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png
 title: "Easy Labeling Guide (1) - Loading Images and Labels"
 excerpt: "This is the first guide for the YOLO labeling tool, Easy Labeling. It provides basic instructions on how to load image folders and label files from your PC and how to use class files."
 date: 2025-07-20T22:00:00+09:00
@@ -40,7 +40,7 @@ We recommend using the following environment:
 Access the Easy Labeling project page ([https://mouseball54.github.io/easy_labeling/](https://mouseball54.github.io/easy_labeling/)) in your web browser.
 
 <figure>
-  <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250720230233737.png" alt="Easy Labeling initial screen">
+  <img src="/blog/images/2025-07-20-easy-labeling-guide-1/image-20250720230233737.png" alt="Easy Labeling initial screen">
   <figcaption>Figure 1. Easy Labeling initial screen. Click the <code>Load Image Folder</code> button in the top left corner.</figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ Access the Easy Labeling project page ([https://mouseball54.github.io/easy_label
 > **(Note)** Easy Labeling is a web program that runs directly in your browser without a server. Therefore, you can use it safely without worrying about your images or label data being transmitted or leaked externally.
 
 <figure>
-  <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250720232309611.png" alt="Image folder selection screen">
+  <img src="/blog/images/2025-07-20-easy-labeling-guide-1/image-20250720232309611.png" alt="Image folder selection screen">
   <figcaption>Figure 2. Image folder selection screen.</figcaption>
 </figure>
 
@@ -65,12 +65,12 @@ Access the Easy Labeling project page ([https://mouseball54.github.io/easy_label
 - Click "OK" to automatically create the <code>label</code> folder, where your label data will be stored in the future.
 
 <figure>
-  <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250720230951821.png" alt="Confirm label folder creation">
+  <img src="/blog/images/2025-07-20-easy-labeling-guide-1/image-20250720230951821.png" alt="Confirm label folder creation">
   <figcaption>Figure 3. <code>label</code> folder creation confirmation window.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250720231126118.png" alt="Image and label folders loaded successfully">
+  <img src="/blog/images/2025-07-20-easy-labeling-guide-1/image-20250720231126118.png" alt="Image and label folders loaded successfully">
   <figcaption>Figure 4. Image and label folders loaded successfully. The button changes to <code>label (created)</code>.</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ Access the Easy Labeling project page ([https://mouseball54.github.io/easy_label
 Easy Labeling provides various methods for quick navigation. Choose the method that is most convenient for you to increase your efficiency.
 
 <figure>
-  <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250720235716476.png" alt="Various ways to switch images">
+  <img src="/blog/images/2025-07-20-easy-labeling-guide-1/image-20250720235716476.png" alt="Various ways to switch images">
   <figcaption>Figure 5. Various ways to switch images.</figcaption>
 </figure>
 
@@ -105,7 +105,7 @@ Refer to the following methods to load existing label data or use a folder from 
 3. Manual selection: Click the <code>Load Label Folder</code> button.
 
 <figure>
-  <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png" alt="Manually specifying the label folder">
+  <img src="/blog/images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png" alt="Manually specifying the label folder">
   <figcaption>Figure 6. Screen for manually specifying the label folder.</figcaption>
 </figure>
 
@@ -114,14 +114,14 @@ Refer to the following methods to load existing label data or use a folder from 
 - <code>Labeled</code> / <code>Unlabeled</code> filter: Classify files based on whether they have labels.  
 
 <figure>
-  <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250720233244263.png" alt="Labeled filter applied screen">
+  <img src="/blog/images/2025-07-20-easy-labeling-guide-1/image-20250720233244263.png" alt="Labeled filter applied screen">
   <figcaption>Figure 7. Screen with the <code>Labeled</code> filter applied.</figcaption>
 </figure>
 
 
 ### 3.2 Label Data Management Features
 <figure>
-  <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250721010743987.png" alt="Label data management features">
+  <img src="/blog/images/2025-07-20-easy-labeling-guide-1/image-20250721010743987.png" alt="Label data management features">
   <figcaption>Figure 8. Label data management menu (<code>Auto Save</code>, <code>Save Labels</code>, <code>Download Class Template</code>).</figcaption>
 </figure>
 
