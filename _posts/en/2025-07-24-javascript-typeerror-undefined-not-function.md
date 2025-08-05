@@ -1,9 +1,11 @@
 ---
 typora-root-url: ../
 layout: single
-title: "How to Fix “TypeError: undefined is not a function” in JavaScript"
+title: >
+  How to Fix "TypeError: undefined is not a function" in JavaScript
 date: 2025-07-24T22:00:00+09:00
-excerpt: '“TypeError: undefined is not a function” occurs when code attempts to call a value that isn’t a function. Learn to identify the root cause—such as typos, load order issues, or incorrect imports—and apply targeted fixes.'
+excerpt: >
+  "TypeError: undefined is not a function" occurs when code attempts to call a value that isn't a function. Learn to identify the root cause—such as typos, load order issues, or incorrect imports—and apply targeted fixes.
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
@@ -122,5 +124,5 @@ button.addEventListener('click', () => this.method());
 
 ## Conclusion
 
-“TypeError: undefined is not a function” is usually a simple fix—correct names, load scripts in order, use proper imports, and ensure correct context. Following these guidelines prevents the error and keeps your JavaScript running smoothly.
+"TypeError: undefined is not a function" is usually a simple fix—correct names, load scripts in order, use proper imports, and ensure correct context. Following these guidelines prevents the error and keeps your JavaScript running smoothly.
 

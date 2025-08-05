@@ -1,9 +1,11 @@
 ---
 typora-root-url: ../
 layout: single
-title: "How to Fix “NullPointerException” Error in Java"
+title: >
+  How to Fix "NullPointerException" Error in Java
 date: 2025-07-24T22:00:00+09:00
-excerpt: "NullPointerException happens when code accesses a null reference. Prevent it with null checks, proper initialization, Optional, and nullability annotations."
+excerpt: >
+  NullPointerException happens when code accesses a null reference. Prevent it with null checks, proper initialization, Optional, and nullability annotations.
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

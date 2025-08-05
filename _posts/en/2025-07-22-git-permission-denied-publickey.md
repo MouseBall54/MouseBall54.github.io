@@ -1,9 +1,11 @@
 ---
 typora-root-url: ../
 layout: single
-title: "How to Fix “Permission denied (publickey)” Error with Git on Windows"
+title: >
+  How to Fix "Permission denied (publickey)" Error with Git on Windows
 date: 2025-07-22T22:00:00+09:00
-excerpt: "Fix Git’s “Permission denied (publickey)” error on Windows by creating an SSH key, adding it to the SSH agent, and registering it with your Git host."
+excerpt: >
+  Fix Git's "Permission denied (publickey)" error on Windows by creating an SSH key, adding it to the SSH agent, and registering it with your Git host.
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
@@ -118,5 +120,5 @@ Hi <username>! You've successfully authenticated.
 
 ## Conclusion
 
-Generating an SSH key, adding it to the agent, and registering it with your Git host resolves “Permission denied (publickey)” errors. Follow each step carefully on Windows.
+Generating an SSH key, adding it to the agent, and registering it with your Git host resolves "Permission denied (publickey)" errors. Follow each step carefully on Windows.
 

@@ -27,7 +27,7 @@
       overlay_image: /images/header_images/overlay_image_<언어>.png
       overlay_filter: 0.5
    excerpt: >
-     Fix Git’s "Permission denied (publickey)" error on Windows by creating an SSH key,
+     Fix Git's "Permission denied (publickey)" error on Windows by creating an SSH key,
      adding it to the SSH agent, and registering it with your Git host.
    categories:
      - en_Troubleshooting
@@ -242,7 +242,7 @@
 75. **ArithmeticException: / by zero** ✅: 정수를 0으로 나눌 때 해결 방법.
 76. **Error: a public class ... must be defined in a file called ... .java** ✅: 클래스 이름과 파일 이름이 다를 때 해결 방법.
 77. **Error: cannot find symbol** ✅: 변수, 메서드, 클래스를 찾을 수 없을 때 (오타, 임포트 누락 등) 해결 방법.
-78. **Error: ‘;’ expected** ✅: 세미콜론이 누락되었을 때 해결 방법.
+78. **Error: ';' expected** ✅: 세미콜론이 누락되었을 때 해결 방법.
 79. **Error: incompatible types** ✅: 호환되지 않는 타입 간의 할당 시 해결 방법.
 80. **Error: missing return statement** ✅: 값을 반환해야 하는 메서드에 `return`문이 없을 때 해결 방법.
 81. **Error: variable ... might not have been initialized** ✅: 초기화되지 않은 지역 변수를 사용하려 할 때 해결 방법.
