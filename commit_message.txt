@@ -1,10 +1,8 @@
-docs: JavaScript 트러블슈팅 포스트 6건 추가
+docs: Java 트러블슈팅 포스트 6건 추가
 
-- jQuery is not defined
-- innerHTML vs. textContent
-- == vs. ===
-- let, const, var
-- Promise.all vs. Promise.race
-- async/await error handling
-
-각 주제에 대한 한글 및 영어 포스트를 작성하고, 관련 내용을 GEMINI.md에 업데이트했습니다.
+- "error: missing return statement" 관련 포스트 작성
+- "error: variable ... might not have been initialized" 관련 포스트 작성
+- "error: unreachable statement" 관련 포스트 작성
+- "String vs. StringBuilder vs. StringBuffer" 관련 포스트 작성
+- "equals() and hashCode()" 관련 포스트 작성
+- "Checked vs. Unchecked Exceptions" 관련 포스트 작성

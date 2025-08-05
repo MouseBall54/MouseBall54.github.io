@@ -152,11 +152,12 @@
 - 2025년 8월 5일: Python "TimeoutError", "PermissionError", "IsADirectoryError", "NotADirectoryError", "TypeError", "SystemError" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 5일: JavaScript "jQuery is not defined", "innerHTML vs. textContent", "== vs. ===", "let, const, var", "Promise.all vs. Promise.race", "async/await error handling" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 5일: Java "missing return statement", "variable not initialized", "unreachable statement", "String vs StringBuilder", "equals/hashCode", "Checked vs Unchecked" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 8월 5일: Java "try-with-resources", "Generics", "Lambda Expressions", "Stream API", "Dependency Injection" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
   - Python : 28/30
   - JavaScript : 28/30
-  - Java : 28/30
+  - Java : 30/30
   - Git : 22/30 
 
 ### Python (1-30)
@@ -249,11 +250,11 @@
 83. **`String` vs. `StringBuilder` vs. `StringBuffer`** ✅: 문자열 처리 성능 최적화 방법.
 84. **`equals()` and `hashCode()`** ✅: 두 메서드를 올바르게 오버라이딩하는 방법.
 85. **Checked vs. Unchecked Exceptions** ✅: 예외 종류와 올바른 처리 전략.
-86. **`try-with-resources`**: 리소스 자동 해제를 통한 메모리 누수 방지.
-87. **Generics (`<>`)**: 타입 안정성을 높이는 제네릭 사용법.
-88. **Lambda Expressions**: 람다식을 활용한 간결한 코드 작성법.
-89. **Stream API**: 컬렉션 데이터를 효율적으로 처리하는 스트림 사용법.
-90. **Dependency Injection**: 의존성 주입을 통한 코드 결합도 낮추기 (Spring, Guice 등).
+86. **`try-with-resources`** ✅: 리소스 자동 해제를 통한 메모리 누수 방지.
+87. **Generics (`<>`)** ✅: 타입 안정성을 높이는 제네릭 사용법.
+88. **Lambda Expressions** ✅: 람다식을 활용한 간결한 코드 작성법.
+89. **Stream API** ✅: 컬렉션 데이터를 효율적으로 처리하는 스트림 사용법.
+90. **Dependency Injection** ✅: 의존성 주입을 통한 코드 결합도 낮추기 (Spring, Guice 등).
 
 ### Git (91-120)
 91.  **fatal: not a git repository** ✅: Git 저장소가 아닌 디렉터리에서 Git 명령을 실행할 때 해결 방법.
