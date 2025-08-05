@@ -1,8 +1,10 @@
-feat: 각 분야별 트러블슈팅 포스트 1개씩 추가
+docs: Python 트러블슈팅 포스트 6건 추가
 
-- Python, JavaScript, Java, Git 각 분야에 대해 1개씩 총 4개의 트러블슈팅 포스트(한글/영어)를 작성하고 추가함.
-- Python: ConnectionError: [Errno 111] Connection refused
-- JavaScript: Insecure mixed content
-- Java: Error: incompatible types
-- Git: Amending a commit
-- GEMINI.md 파일에 작업 내역 및 진행도 업데이트.
+- TimeoutError: [WinError 10060]
+- PermissionError: [Errno 13] Permission denied
+- IsADirectoryError: [Errno 21] Is a directory
+- NotADirectoryError: [Errno 20] Not a directory
+- TypeError: unsupported operand type(s) for +
+- SystemError: <built-in function ...> returned NULL without setting an error
+
+각 오류에 대한 한글 및 영어 포스트를 작성하고, 관련 내용을 GEMINI.md에 업데이트했습니다.

@@ -150,10 +150,11 @@
 - 2025년 8월 3일: Git "object file is empty", "index file corrupt", "Resetting a commit" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 3일: Python "ConnectionError", JS "Insecure mixed content", Java "incompatible types", Git "Amending a commit" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 5일: Python "TimeoutError", "PermissionError", "IsADirectoryError", "NotADirectoryError", "TypeError", "SystemError" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 8월 5일: JavaScript "jQuery is not defined", "innerHTML vs. textContent", "== vs. ===", "let, const, var", "Promise.all vs. Promise.race", "async/await error handling" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
   - Python : 28/30
-  - JavaScript : 22/30
+  - JavaScript : 28/30
   - Java : 22/30
   - Git : 22/30 
 
@@ -214,12 +215,12 @@
 52. **"this" is undefined** ✅: 콜백 함수나 이벤트 핸들러에서 `this`가 `undefined`가 되는 문제 해결 (화살표 함수, `bind` 등).
 53. **Event listener leaks** ✅: 이벤트 리스너가 제대로 제거되지 않아 발생하는 메모리 누수 문제 해결.
 54. **Insecure mixed content** ✅: HTTPS 페이지에서 HTTP 리소스를 로드할 때 발생하는 보안 경고 해결.
-55. **jQuery is not defined**: jQuery가 로드되기 전에 사용하려 할 때 해결 방법.
-56. **`innerHTML` vs. `textContent`**: 보안 및 성능 측면에서 두 속성의 올바른 사용법.
-57. **`==` vs. `===`**: 느슨한 동등성과 엄격한 동등성의 차이 및 올바른 사용법.
-58. **`let`, `const`, `var`**: 변수 선언 키워드의 스코프 및 호이스팅 차이점.
-59. **`Promise.all` vs. `Promise.race`**: 여러 프로미스를 병렬로 처리하는 방법과 차이점.
-60. **`async/await` error handling**: `try...catch`를 사용한 비동기 코드의 예외 처리 방법.
+55. **jQuery is not defined** ✅: jQuery가 로드되기 전에 사용하려 할 때 해결 방법.
+56. **`innerHTML` vs. `textContent`** ✅: 보안 및 성능 측면에서 두 속성의 올바른 사용법.
+57. **`==` vs. `===`** ✅: 느슨한 동등성과 엄격한 동등성의 차이 및 올바른 사용법.
+58. **`let`, `const`, `var`** ✅: 변수 선언 키워드의 스코프 및 호이스팅 차이점.
+59. **`Promise.all` vs. `Promise.race`** ✅: 여러 프로미스를 병렬로 처리하는 방법과 차이점.
+60. **`async/await` error handling** ✅: `try...catch`를 사용한 비동기 코드의 예외 처리 방법.
 
 ### Java (61-90)
 61. **NullPointerException** ✅: `null` 참조를 가진 객체의 멤버에 접근할 때 해결 방법.
