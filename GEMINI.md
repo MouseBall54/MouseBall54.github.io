@@ -149,9 +149,10 @@
 - 2025년 8월 3일: Java "public class in wrong file", "cannot find symbol", "';' expected" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 3일: Git "object file is empty", "index file corrupt", "Resetting a commit" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 3일: Python "ConnectionError", JS "Insecure mixed content", Java "incompatible types", Git "Amending a commit" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 8월 5일: Python "TimeoutError", "PermissionError", "IsADirectoryError", "NotADirectoryError", "TypeError", "SystemError" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
-  - Python : 22/30
+  - Python : 28/30
   - JavaScript : 22/30
   - Java : 22/30
   - Git : 22/30 
@@ -179,12 +180,12 @@
 20. **RecursionError: maximum recursion depth exceeded** ✅: 재귀 호출이 너무 깊어질 때 해결 방법.
 21. **OSError: [Errno 28] No space left on device** ✅: 디스크 공간 부족 시 발생하는 오류 해결 방법.
 22. **ConnectionError: [Errno 111] Connection refused** ✅: 네트워크 연결이 거부될 때 방화벽 및 포트 문제 해결.
-23. **TimeoutError: [WinError 10060]**: 네트워크 작업 시간 초과 시 해결 방법.
-24. **PermissionError: [Errno 13] Permission denied**: 파일/디렉터리 접근 권한이 없을 때 해결 방법.
-25. **IsADirectoryError: [Errno 21] Is a directory**: 파일을 예상한 위치에 디렉터리가 있을 때 해결 방법.
-26. **NotADirectoryError: [Errno 20] Not a directory**: 디렉터리를 예상한 위치에 파일이 있을 때 해결 방법.
-27. **TypeError: unsupported operand type(s) for +: '...' and '...'**: 지원되지 않는 타입 간의 연산 시 해결 방법.
-28. **SystemError: <built-in function ...> returned NULL without setting an error**: Python 인터프리터 내부 오류 발생 시 해결 방법.
+23. **TimeoutError: [WinError 10060]** ✅: 네트워크 작업 시간 초과 시 해결 방법.
+24. **PermissionError: [Errno 13] Permission denied** ✅: 파일/디렉터리 접근 권한이 없을 때 해결 방법.
+25. **IsADirectoryError: [Errno 21] Is a directory** ✅: 파일을 예상한 위치에 디렉터리가 있을 때 해결 방법.
+26. **NotADirectoryError: [Errno 20] Not a directory** ✅: 디렉터리를 예상한 위치에 파일이 있을 때 해결 방법.
+27. **TypeError: unsupported operand type(s) for +: '...' and '...'** ✅: 지원되지 않는 타입 간의 연산 시 해결 방법.
+28. **SystemError: <built-in function ...> returned NULL without setting an error** ✅: Python 인터프리터 내부 오류 발생 시 해결 방법.
 29. **FloatingPointError**: 부동 소수점 연산 오류 발생 시 해결 방법.
 30. **KeyboardInterrupt**: 사용자가 Ctrl+C를 눌러 프로그램을 중단시켰을 때 예외 처리 방법.
 
