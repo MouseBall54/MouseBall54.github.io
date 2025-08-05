@@ -1,10 +1,10 @@
-docs: Python 트러블슈팅 포스트 6건 추가
+docs: JavaScript 트러블슈팅 포스트 6건 추가
 
-- TimeoutError: [WinError 10060]
-- PermissionError: [Errno 13] Permission denied
-- IsADirectoryError: [Errno 21] Is a directory
-- NotADirectoryError: [Errno 20] Not a directory
-- TypeError: unsupported operand type(s) for +
-- SystemError: <built-in function ...> returned NULL without setting an error
+- jQuery is not defined
+- innerHTML vs. textContent
+- == vs. ===
+- let, const, var
+- Promise.all vs. Promise.race
+- async/await error handling
 
-각 오류에 대한 한글 및 영어 포스트를 작성하고, 관련 내용을 GEMINI.md에 업데이트했습니다.
+각 주제에 대한 한글 및 영어 포스트를 작성하고, 관련 내용을 GEMINI.md에 업데이트했습니다.

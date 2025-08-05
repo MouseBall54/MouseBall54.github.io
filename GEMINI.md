@@ -151,11 +151,12 @@
 - 2025년 8월 3일: Python "ConnectionError", JS "Insecure mixed content", Java "incompatible types", Git "Amending a commit" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 5일: Python "TimeoutError", "PermissionError", "IsADirectoryError", "NotADirectoryError", "TypeError", "SystemError" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 5일: JavaScript "jQuery is not defined", "innerHTML vs. textContent", "== vs. ===", "let, const, var", "Promise.all vs. Promise.race", "async/await error handling" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 8월 5일: Java "missing return statement", "variable not initialized", "unreachable statement", "String vs StringBuilder", "equals/hashCode", "Checked vs Unchecked" 관련 한글 및 영어 포스트 작성 완료.
 
 진행도
   - Python : 28/30
   - JavaScript : 28/30
-  - Java : 22/30
+  - Java : 28/30
   - Git : 22/30 
 
 ### Python (1-30)
@@ -242,12 +243,12 @@
 77. **Error: cannot find symbol** ✅: 변수, 메서드, 클래스를 찾을 수 없을 때 (오타, 임포트 누락 등) 해결 방법.
 78. **Error: ‘;’ expected** ✅: 세미콜론이 누락되었을 때 해결 방법.
 79. **Error: incompatible types** ✅: 호환되지 않는 타입 간의 할당 시 해결 방법.
-80. **Error: missing return statement**: 값을 반환해야 하는 메서드에 `return`문이 없을 때 해결 방법.
-81. **Error: variable ... might not have been initialized**: 초기화되지 않은 지역 변수를 사용하려 할 때 해결 방법.
-82. **Error: unreachable statement**: `return`문 뒤에 코드가 있어 실행될 수 없을 때 해결 방법.
-83. **`String` vs. `StringBuilder` vs. `StringBuffer`**: 문자열 처리 성능 최적화 방법.
-84. **`equals()` and `hashCode()`**: 두 메서드를 올바르게 오버라이딩하는 방법.
-85. **Checked vs. Unchecked Exceptions**: 예외 종류와 올바른 처리 전략.
+80. **Error: missing return statement** ✅: 값을 반환해야 하는 메서드에 `return`문이 없을 때 해결 방법.
+81. **Error: variable ... might not have been initialized** ✅: 초기화되지 않은 지역 변수를 사용하려 할 때 해결 방법.
+82. **Error: unreachable statement** ✅: `return`문 뒤에 코드가 있어 실행될 수 없을 때 해결 방법.
+83. **`String` vs. `StringBuilder` vs. `StringBuffer`** ✅: 문자열 처리 성능 최적화 방법.
+84. **`equals()` and `hashCode()`** ✅: 두 메서드를 올바르게 오버라이딩하는 방법.
+85. **Checked vs. Unchecked Exceptions** ✅: 예외 종류와 올바른 처리 전략.
 86. **`try-with-resources`**: 리소스 자동 해제를 통한 메모리 누수 방지.
 87. **Generics (`<>`)**: 타입 안정성을 높이는 제네릭 사용법.
 88. **Lambda Expressions**: 람다식을 활용한 간결한 코드 작성법.
