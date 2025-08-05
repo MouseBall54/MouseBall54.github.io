@@ -1,7 +1,7 @@
 - title: "Easy Labeling"
   excerpt: "YOLO, PyTorch 환경을 위한 이미지 라벨링 작업을 간소화하고 자동화하는 강력한 도구입니다."
   url: "https://mouseball54.github.io/easy_labeling/"
-  image_path: "/blog/images/2025-07-15-easy-labeling-in-depth-features/image-20250715235317783.png"
+  image_path: "/images/2025-07-15-easy-labeling-in-depth-features/image-20250715235317783.png"
   btn_label: "자세히 보기"
   btn_class: "btn--primary"
 

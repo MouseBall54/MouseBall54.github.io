@@ -1,7 +1,7 @@
 ---
 typora-root-url: ../
 header:
-  teaser: ../blog/images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235507837.png
+  teaser: ../images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235507837.png
 title: "A Deep Dive into Easy Labeling's Features for YOLO Data Labeling"
 excerpt: "Unlock maximum efficiency in your YOLO data labeling workflow. This guide explores Easy Labeling's powerful features, from local file access and advanced annotation tools to smart label management for object detection. Everything you need for efficient dataset creation is here."
 date: 2025-07-15T23:00:00+09:00
@@ -24,7 +24,7 @@ Hello! Today, I want to take you on a deep dive into the key features of **Easy 
 
 Optimized especially for the YOLO format, Easy Labeling focuses on streamlining the user's workflow with a rich set of features that make the repetitive task of labeling faster, easier, and more accurate.
 
-![image-20250715235317783](/blog/images/2025-07-15-easy-labeling-in-depth-features/image-20250715235317783.png)
+![image-20250715235317783](/images/2025-07-15-easy-labeling-in-depth-features/image-20250715235317783.png)
 
 ## 1. Seamless Local Environment with No Server Needed
 
@@ -43,7 +43,7 @@ Easy Labeling is equipped with all the essential tools for precise and rapid ann
 -   **Precision Control:** Freely zoom in and out, pan across the image to examine details, and get real-time coordinate displays for high-precision work.
 -   **Drawing/Edit Mode Toggling:** Boost your efficiency by quickly switching between drawing and editing modes with the `Ctrl+Q` shortcut.
 
-![image-20250715235507837](/blog/images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235507837.png)
+![image-20250715235507837](/images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235507837.png)
 
 ## 3. UI/UX Designed for an Efficient Workflow
 
@@ -54,9 +54,9 @@ The interface is intelligently designed to help you focus purely on the task at 
 -   **Real-Time Sync:** Selecting a box on the canvas highlights the corresponding label in the side panel, and vice versa, keeping your view perfectly synchronized.
 -   **Powerful Filtering:** Systematically work through your dataset by filtering images that are unlabeled or contain specific classes.
 
-![image-20250715235602498](/blog/images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235602498.png)
+![image-20250715235602498](/images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235602498.png)
 
-![image-20250715235649892](/blog/images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235649892.png)
+![image-20250715235649892](/images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235649892.png)
 
 
 
@@ -67,9 +67,9 @@ Go beyond simple annotation with advanced features for managing your dataset sys
 -   **Load Class Names from YAML:** Import a class definition file (like `data.yaml`) to manage labels with human-readable names such as 'car' or 'person' instead of numeric IDs like '0' or '1'.
 -   **Bulk Actions:** Minimize repetitive tasks by selecting all boxes of a specific class at once or changing the class of multiple selected boxes simultaneously.
 
-![image-20250715235526521](/blog/images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235526521.png)
+![image-20250715235526521](/images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235526521.png)
 
-![image-20250715235802994](/blog/images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235802994.png)
+![image-20250715235802994](/images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235802994.png)
 
 ## 5. Productivity-Boosting Convenience Features
 
@@ -77,7 +77,7 @@ Go beyond simple annotation with advanced features for managing your dataset sys
 -   **Auto-Save:** Your progress is automatically saved to prevent any accidental data loss.
 -   **Extensive Shortcuts:** Maximize your speed with a wide range of keyboard shortcuts for actions like navigating images (A/D), copy/paste (Ctrl+C/V), and more.
 
-![image-20250715235825197](/blog/images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235825197.png)
+![image-20250715235825197](/images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235825197.png)
 
 ## Try It Now!
 
