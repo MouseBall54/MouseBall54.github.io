@@ -20,7 +20,7 @@ subtitle                 : "Your source for AI, Computer Vision, and useful tool
 name                     : "MouseBall54"
 description              : "MouseBall54's blog sharing insights and tools on AI, vision, and development"
 url                      : "https://mouseball54.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "MouseBall54/MouseBall54.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : #"/assets/images/image-20250715203036663.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/DvHMD1750764566-Photoroom.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
