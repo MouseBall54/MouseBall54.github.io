@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     How to Fix Python TypeError: missing 1 required positional argument
-date: 2025-08-03T11:20:00+09:00
+
+lang: en
+translation_id: python-typeerror-missing-required-positional-argument
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

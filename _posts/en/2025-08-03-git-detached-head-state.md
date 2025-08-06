@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     How to Fix Git "Detached HEAD" State
-date: 2025-08-03T10:10:00+09:00
+
+lang: en
+translation_id: git-detached-head-state
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

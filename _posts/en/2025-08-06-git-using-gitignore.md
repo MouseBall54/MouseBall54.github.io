@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    How to Use .gitignore to Exclude Files from Git Tracking
-date: 2025-08-06T10:15:00+09:00
+
+lang: en
+translation_id: git-using-gitignore
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

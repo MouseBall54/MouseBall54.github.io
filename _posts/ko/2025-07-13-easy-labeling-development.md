@@ -3,7 +3,9 @@ typora-root-url: ../
 header:
   teaser: ../images/2025-07-13-easy-labeling-development/image-20250715203036663.png
 title: "YOLO 데이터 라벨링, 설치 없이 웹에서 바로! Easy Labeling 개발기"
-date: 2025-07-13T15:00:00+09:00
+
+lang: ko
+translation_id: easy-labeling-development
 categories:
   - ko_easy_labeling
 tags:

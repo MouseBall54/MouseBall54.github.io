@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "Java NumberFormatException 예외 처리 방법"
-date: 2025-07-31T22:13:00+09:00
+
+lang: ko
+translation_id: java-numberformatexception
 excerpt: "파싱 전 문자열을 검증하고, 안전한 숫자 변환을 위해 try-catch 블록을 사용하여 Java의 NumberFormatException을 예방하고 처리하는 방법을 배웁니다."
 header:
    teaser: /images/header_images/overlay_image_java.png

@@ -5,6 +5,8 @@ title: >
   How to Fix "ModuleNotFoundError: No module named '…'" in Python
 date: 2025-07-24T22:00:00+09:00
 excerpt: "NullPointerException은 null 참조 접근 시 발생. null 검사, Optional, 초기화, 어노테이션 사용으로 예방."
+lang: ko
+translation_id: java-nullpointerexception-java
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

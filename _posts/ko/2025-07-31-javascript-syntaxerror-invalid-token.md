@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "JavaScript \"SyntaxError: Invalid or unexpected token\" 오류 해결 방법"
-date: 2025-07-31T22:10:00+09:00
+
+lang: ko
+translation_id: javascript-syntaxerror-invalid-token
 excerpt: "오타, 쉼표나 괄호와 같은 문자 누락, 잘못된 구문을 확인하여 JavaScript의 \"SyntaxError: Invalid or unexpected token\" 오류를 해결하세요."
 header:
    teaser: /images/header_images/overlay_image_js.png

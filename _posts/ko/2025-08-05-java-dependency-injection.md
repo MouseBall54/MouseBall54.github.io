@@ -2,7 +2,9 @@ typora-root-url: ../
 layout: single
 title: >
    Java 의존성 주입(Dependency Injection)으로 결합도 낮추기
-date: 2025-08-05T11:20:00+09:00
+
+lang: ko
+translation_id: java-dependency-injection
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

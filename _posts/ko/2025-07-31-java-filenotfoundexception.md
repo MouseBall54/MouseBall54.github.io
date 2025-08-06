@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "Java `java.io.FileNotFoundException` 해결 방법"
-date: 2025-07-31T10:00:00+09:00
+
+lang: ko
+translation_id: java-filenotfoundexception
 excerpt: "파일 경로, 권한을 확인하고 올바른 리소스 처리 방법을 사용하여 `java.io.FileNotFoundException`을 해결하는 방법을 알아봅니다."
 header:
    teaser: /images/header_images/overlay_image_java.png

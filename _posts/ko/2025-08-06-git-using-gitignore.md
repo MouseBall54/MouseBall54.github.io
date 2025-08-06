@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    .gitignore 파일을 사용하여 Git 추적에서 파일 제외하는 방법
-date: 2025-08-06T10:15:00+09:00
+
+lang: ko
+translation_id: git-using-gitignore
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

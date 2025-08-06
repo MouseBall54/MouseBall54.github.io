@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "Git 오류 해결: The requested URL returned error: 403"
-date: 2025-07-31T11:30:00+09:00
+
+lang: ko
+translation_id: git-the-requested-url-returned-error-403
 excerpt: "Git의 '403 Forbidden' 오류를 자격 증명 업데이트, 개인용 액세스 토큰(PAT) 사용, 또는 저장소 권한 확인을 통해 해결하세요. 이 흔한 인증 문제를 해결하는 단계를 배웁니다."
 header:
    teaser: /images/header_images/overlay_image_git.png

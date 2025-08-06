@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "A Complete Guide to Conquering Java's NullPointerException (NPE)"
-date: 2025-07-30T15:00:00+09:00
+
+lang: en
+translation_id: java-nullpointerexception-npe
 excerpt: "Explore the causes of Java's infamous NullPointerException (NPE) and learn practical, effective methods to prevent and handle it gracefully using null checks, Optional, annotations, and more."
 header:
    teaser: /images/header_images/overlay_image_java.png

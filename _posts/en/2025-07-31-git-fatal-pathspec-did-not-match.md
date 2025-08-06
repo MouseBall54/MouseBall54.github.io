@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "How to Fix \"fatal: pathspec '...' did not match any files\" in Git"
-date: 2025-07-31T22:15:00+09:00
+
+lang: en
+translation_id: git-fatal-pathspec-did-not-match
 excerpt: "Resolve the Git error \"fatal: pathspec '...' did not match any files\" by checking for typos, correct file paths, and ensuring the file is tracked by Git when necessary."
 header:
    teaser: /images/header_images/overlay_image_git.png

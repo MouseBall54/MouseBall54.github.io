@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    JavaScript async/await 오류 처리 마스터하기
-date: 2025-08-05T11:25:00+09:00
+
+lang: ko
+translation_id: javascript-async-await-error-handling
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

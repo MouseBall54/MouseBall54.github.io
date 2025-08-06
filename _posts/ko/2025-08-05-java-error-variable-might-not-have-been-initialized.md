@@ -2,7 +2,9 @@ typora-root-url: ../
 layout: single
 title: >
    Java "error: variable ... might not have been initialized" 해결 방법
-date: 2025-08-05T10:05:00+09:00
+
+lang: ko
+translation_id: java-error-variable-might-not-have-been-initialized
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

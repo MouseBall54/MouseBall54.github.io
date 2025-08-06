@@ -6,6 +6,8 @@ title: >
 date: 2025-07-23T22:00:00+09:00
 excerpt: >
   "Learn to resolve Python's 'ModuleNotFoundError' by installing the correct package, activating the right environment, and checking your import paths.
+lang: en
+translation_id: python-modulenotfounderror-no-module-named
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

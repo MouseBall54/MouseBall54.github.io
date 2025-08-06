@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    Mastering async/await Error Handling in JavaScript
-date: 2025-08-05T11:25:00+09:00
+
+lang: en
+translation_id: javascript-async-await-error-handling
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

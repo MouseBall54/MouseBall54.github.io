@@ -2,7 +2,9 @@ typora-root-url: ../
 layout: single
 title: >
    Processing Data with Java Stream API
-date: 2025-08-05T11:15:00+09:00
+
+lang: en
+translation_id: java-stream-api
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

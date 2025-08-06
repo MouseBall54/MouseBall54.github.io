@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "How to Fix 'TabError: inconsistent use of tabs and spaces in indentation' in Python"
-date: 2025-08-01T14:00:00+09:00
+
+lang: en
+translation_id: python-taberror-inconsistent-use-of-tabs-and-spaces
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

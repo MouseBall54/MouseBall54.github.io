@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     How to Fix "MemoryError" in Python
-date: 2025-08-03T14:00:00+09:00
+
+lang: en
+translation_id: python-memory-error
 header:
     teaser: /images/header_images/overlay_image_python.png
     overlay_image: /images/header_images/overlay_image_python.png

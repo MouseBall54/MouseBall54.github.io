@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "How to Fix Java's NoClassDefFoundError"
-date: 2025-07-31T12:30:00+09:00
+
+lang: en
+translation_id: java-noclassdeffounderror
 excerpt: "Resolve Java's NoClassDefFoundError by understanding its cause: a class that was present at compile time is missing at runtime. Learn to check your classpath, manage dependencies, and fix static initializer failures."
 header:
    teaser: /images/header_images/overlay_image_java.png

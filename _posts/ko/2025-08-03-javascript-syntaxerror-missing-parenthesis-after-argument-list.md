@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     자바스크립트 SyntaxError: missing ) after argument list 해결 방법
-date: 2025-08-03T11:30:00+09:00
+
+lang: ko
+translation_id: javascript-syntaxerror-missing-parenthesis-after-argument-list
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

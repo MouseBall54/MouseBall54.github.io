@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "How to Fix Python's IndentationError: expected an indented block"
-date: 2025-07-30T11:00:00+09:00
+
+lang: en
+translation_id: python-indentationerror-expected-an-indented-block
 excerpt: "Master Python's core syntax: indentation! Understand the causes of and solutions for IndentationError, fix mixed tabs and spaces, and learn to write clean, error-free code."
 header:
    teaser: /images/header_images/overlay_image_python.png

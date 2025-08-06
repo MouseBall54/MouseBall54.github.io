@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    Git 서브모듈(Submodule)로 프로젝트 의존성 관리하기
-date: 2025-08-06T10:25:00+09:00
+
+lang: ko
+translation_id: git-submodules
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

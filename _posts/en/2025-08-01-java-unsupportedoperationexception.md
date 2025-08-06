@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "How to Handle java.lang.UnsupportedOperationException"
-date: 2025-08-01T12:00:00+09:00
+
+lang: en
+translation_id: java-unsupportedoperationexception
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

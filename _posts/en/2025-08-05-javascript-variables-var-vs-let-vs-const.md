@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    JavaScript Variables: The Difference Between var, let, and const
-date: 2025-08-05T11:15:00+09:00
+
+lang: en
+translation_id: javascript-variables-var-vs-let-vs-const
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

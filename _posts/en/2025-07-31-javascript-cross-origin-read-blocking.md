@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "How to Fix Cross-Origin Read Blocking (CORB) Errors"
-date: 2025-07-31T22:00:00+09:00
+
+lang: en
+translation_id: javascript-cross-origin-read-blocking
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "How to Fix \"TypeError: '...' is not a function\" in JavaScript"
-date: 2025-07-31T22:00:00+09:00
+
+lang: en
+translation_id: javascript-typeerror-is-not-a-function
 excerpt: "Fix the \"TypeError: '...' is not a function\" in JavaScript by ensuring the variable you are calling is actually a function and checking for scope issues or typos."
 header:
    teaser: /images/header_images/overlay_image_js.png

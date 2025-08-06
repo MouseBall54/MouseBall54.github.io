@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    How to Use Git Interactive Rebase to Modify Commits
-date: 2025-08-06T10:00:00+09:00
+
+lang: en
+translation_id: git-interactive-rebase
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

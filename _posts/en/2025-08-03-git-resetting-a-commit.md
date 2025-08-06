@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     Undoing a Commit in Git: A Complete Guide to the Three Options of git reset (soft, mixed, hard)
-date: 2025-08-03T14:55:00+09:00
+
+lang: en
+translation_id: git-resetting-a-commit
 header:
     teaser: /images/header_images/overlay_image_git.png
     overlay_image: /images/header_images/overlay_image_git.png

@@ -4,7 +4,9 @@ title: >
     Git에서 커밋을 되돌리는 방법 (git revert)
 seo_title: >
     Git에서 커밋을 되돌리는 방법 (git revert)
-date: 2025-08-05T21:40:00+09:00
+
+lang: ko
+translation_id: git-reverting-a-commit
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

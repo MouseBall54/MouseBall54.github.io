@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     How to Fix "OSError: [Errno 28] No space left on device" in Python
-date: 2025-08-03T14:10:00+09:00
+
+lang: en
+translation_id: python-os-error-no-space-left
 header:
     teaser: /images/header_images/overlay_image_python.png
     overlay_image: /images/header_images/overlay_image_python.png

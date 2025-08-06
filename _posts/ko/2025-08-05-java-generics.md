@@ -2,7 +2,9 @@ typora-root-url: ../
 layout: single
 title: >
    Java 제네릭(Generics)을 사용한 타입 안정성 확보
-date: 2025-08-05T11:05:00+09:00
+
+lang: ko
+translation_id: java-generics
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

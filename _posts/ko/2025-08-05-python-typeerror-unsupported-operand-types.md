@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    Python TypeError: unsupported operand type(s) for + 오류 해결 방법
-date: 2025-08-05T10:20:00+09:00
+
+lang: ko
+translation_id: python-typeerror-unsupported-operand-types
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

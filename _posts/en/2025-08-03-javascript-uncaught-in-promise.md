@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     How to Fix JavaScript Uncaught (in promise) Error
-date: 2025-08-03T10:20:00+09:00
+
+lang: en
+translation_id: javascript-uncaught-in-promise
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

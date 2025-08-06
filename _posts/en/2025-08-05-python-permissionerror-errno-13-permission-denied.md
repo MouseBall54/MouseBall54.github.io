@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    How to Fix Python PermissionError: [Errno 13] Permission denied
-date: 2025-08-05T10:05:00+09:00
+
+lang: en
+translation_id: python-permissionerror-errno-13-permission-denied
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

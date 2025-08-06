@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "A Complete Guide to Python's SyntaxError: invalid syntax"
-date: 2025-07-30T10:00:00+09:00
+
+lang: en
+translation_id: python-syntaxerror-invalid-syntax
 excerpt: "Clearly understand and resolve one of Python's most common errors: SyntaxError: invalid syntax. Learn to fix issues like missing colons, mismatched parentheses, and more with simple examples."
 header:
    teaser: /images/header_images/overlay_image_python.png

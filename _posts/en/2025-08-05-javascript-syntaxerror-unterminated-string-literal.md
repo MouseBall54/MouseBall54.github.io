@@ -4,7 +4,9 @@ title: >
     How to Fix JavaScript SyntaxError: Unterminated string literal
 seo_title: >
     How to Fix JavaScript SyntaxError: Unterminated string literal
-date: 2025-08-05T21:20:00+09:00
+
+lang: en
+translation_id: javascript-syntaxerror-unterminated-string-literal
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

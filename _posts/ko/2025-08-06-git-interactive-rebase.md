@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    Git Interactive Rebase로 커밋 수정하는 방법
-date: 2025-08-06T10:00:00+09:00
+
+lang: ko
+translation_id: git-interactive-rebase
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

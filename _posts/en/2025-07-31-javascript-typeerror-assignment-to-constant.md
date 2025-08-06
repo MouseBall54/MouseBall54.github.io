@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "How to Fix \"TypeError: Assignment to constant variable\" in JavaScript"
-date: 2025-07-31T22:12:00+09:00
+
+lang: en
+translation_id: javascript-typeerror-assignment-to-constant
 excerpt: "Understand and fix the \"TypeError: Assignment to constant variable\" in JavaScript by learning the properties of `const` and using `let` for variables that need to be reassigned."
 header:
    teaser: /images/header_images/overlay_image_js.png

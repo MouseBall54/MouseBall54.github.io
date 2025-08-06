@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     JavaScript "SyntaxError: Invalid or unexpected token" 오류 해결 방법
-date: 2025-08-03T10:00:00+09:00
+
+lang: ko
+translation_id: javascript-syntaxerror-invalid-or-unexpected-token
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

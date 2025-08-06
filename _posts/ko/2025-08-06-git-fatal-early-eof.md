@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    Git 오류 해결: "fatal: early EOF"
-date: 2025-08-06T10:50:00+09:00
+
+lang: ko
+translation_id: git-fatal-early-eof
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

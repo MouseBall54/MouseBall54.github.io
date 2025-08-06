@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    Python SystemError: <built-in function ...> returned NULL without setting an error 오류 해결 방법
-date: 2025-08-05T10:25:00+09:00
+
+lang: ko
+translation_id: python-systemerror-returned-null-without-setting-error
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

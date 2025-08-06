@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    JavaScript Equality: == vs. === (Loose vs. Strict)
-date: 2025-08-05T11:10:00+09:00
+
+lang: en
+translation_id: javascript-equality-double-vs-triple-equals
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

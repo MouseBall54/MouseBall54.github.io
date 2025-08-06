@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     How to Fix JavaScript Event Listener Leaks
-date: 2025-08-03T14:25:00+09:00
+
+lang: en
+translation_id: javascript-event-listener-leaks
 header:
     teaser: /images/header_images/overlay_image_js.png
     overlay_image: /images/header_images/overlay_image_js.png

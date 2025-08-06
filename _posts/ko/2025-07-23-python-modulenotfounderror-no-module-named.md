@@ -4,6 +4,8 @@ layout: single
 title: " ModuleNotFoundError: No module named ‘…’ 오류 해결 방법"
 date: 2025-07-23T22:00:00+09:00
 excerpt: "Python에서 모듈을 찾지 못해 발생하는 `ModuleNotFoundError`의 주요 원인과 해결책을 정리. 패키지 설치, 가상환경 활성화, 경로 설정, 이름 충돌 방지 방법 안내."
+lang: ko
+translation_id: python-modulenotfounderror-no-module-named
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

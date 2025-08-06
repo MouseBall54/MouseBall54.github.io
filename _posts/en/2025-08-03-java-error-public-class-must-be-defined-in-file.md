@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     How to Fix Java Error: a public class ... must be defined in a file called ... .java
-date: 2025-08-03T10:40:00+09:00
+
+lang: en
+translation_id: java-error-public-class-must-be-defined-in-file
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

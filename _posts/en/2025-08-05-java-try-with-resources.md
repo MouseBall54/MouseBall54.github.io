@@ -2,7 +2,9 @@ typora-root-url: ../
 layout: single
 title: >
    Prevent Memory Leaks with try-with-resources in Java
-date: 2025-08-05T11:00:00+09:00
+
+lang: en
+translation_id: java-try-with-resources
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

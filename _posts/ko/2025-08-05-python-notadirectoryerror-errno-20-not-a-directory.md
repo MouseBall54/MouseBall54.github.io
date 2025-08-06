@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    Python NotADirectoryError: [Errno 20] Not a directory 오류 해결 방법
-date: 2025-08-05T10:15:00+09:00
+
+lang: ko
+translation_id: python-notadirectoryerror-errno-20-not-a-directory
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

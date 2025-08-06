@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     How to Fix "ReferenceError: assignment to undeclared variable" in JavaScript
-date: 2025-08-03T11:05:00+09:00
+
+lang: en
+translation_id: javascript-referenceerror-assignment-to-undeclared-variable
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

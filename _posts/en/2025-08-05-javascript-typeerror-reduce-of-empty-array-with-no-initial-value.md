@@ -4,7 +4,9 @@ title: >
     How to Fix JavaScript TypeError: Reduce of empty array with no initial value
 seo_title: >
     How to Fix JavaScript TypeError: Reduce of empty array with no initial value
-date: 2025-08-05T21:30:00+09:00
+
+lang: en
+translation_id: javascript-typeerror-reduce-of-empty-array-with-no-initial-value
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     파이썬 RuntimeError: dictionary changed size during iteration 해결 방법
-date: 2025-08-03T10:00:00+09:00
+
+lang: ko
+translation_id: python-runtimeerror-dictionary-changed-size-during-iteration
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

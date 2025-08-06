@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     Git 커밋 되돌리기: git revert 사용법
-date: 2025-08-03T11:50:00+09:00
+
+lang: ko
+translation_id: git-reverting-a-commit
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

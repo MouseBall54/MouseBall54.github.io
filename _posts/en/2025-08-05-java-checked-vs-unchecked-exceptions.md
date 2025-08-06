@@ -2,7 +2,9 @@ typora-root-url: ../
 layout: single
 title: >
    Java Exceptions: Checked vs. Unchecked
-date: 2025-08-05T10:25:00+09:00
+
+lang: en
+translation_id: java-checked-vs-unchecked-exceptions
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

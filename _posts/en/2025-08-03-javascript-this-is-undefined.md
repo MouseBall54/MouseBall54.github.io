@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     How to Fix "this is undefined" in JavaScript
-date: 2025-08-03T14:20:00+09:00
+
+lang: en
+translation_id: javascript-this-is-undefined
 header:
     teaser: /images/header_images/overlay_image_js.png
     overlay_image: /images/header_images/overlay_image_js.png

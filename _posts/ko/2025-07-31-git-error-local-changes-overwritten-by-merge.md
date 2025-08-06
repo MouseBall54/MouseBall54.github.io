@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     "Git "error: Your local changes... would be overwritten by merge" 오류 해결 방법"
-date: 2025-07-31T22:00:00+09:00
+
+lang: ko
+translation_id: git-error-local-changes-overwritten-by-merge
 excerpt: "pull 또는 merge 전에 로컬 변경 사항을 스태시, 커밋 또는 폐기하여 Git 병합 오류를 해결하세요."
 header:
    teaser: /images/header_images/overlay_image_git.png

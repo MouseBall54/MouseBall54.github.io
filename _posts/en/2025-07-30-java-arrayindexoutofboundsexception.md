@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "How to Fix java.lang.ArrayIndexOutOfBoundsException"
-date: 2025-07-30T10:00:00+09:00
+
+lang: en
+translation_id: java-arrayindexoutofboundsexception
 excerpt: "java.lang.ArrayIndexOutOfBoundsException is a common runtime exception that occurs when you try to access an array with an invalid index. This article explains the causes of the error and how to fix it."
 header:
    teaser: /images/header_images/overlay_image_java.png

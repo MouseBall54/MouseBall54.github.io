@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    JavaScript 프로미스: Promise.all vs. Promise.race
-date: 2025-08-05T11:20:00+09:00
+
+lang: ko
+translation_id: javascript-promise-all-vs-promise-race
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

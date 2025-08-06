@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "Git 오류 해결: pathspec '...' did not match any files"
-date: 2025-07-31T11:15:00+09:00
+
+lang: ko
+translation_id: git-fatal-pathspec-did-not-match-any-files
 excerpt: "Git의 'pathspec did not match any files' 오류를 오타 확인, 파일 경로 검증, 특수 문자 처리 방법 이해를 통해 해결하세요. 이 흔한 문제를 진단하고 고치는 법을 배웁니다."
 header:
    teaser: /images/header_images/overlay_image_git.png

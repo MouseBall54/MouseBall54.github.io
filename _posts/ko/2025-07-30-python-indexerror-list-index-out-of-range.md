@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "Python 'IndexError: list index out of range' 오류 해결 방법"
-date: 2025-07-30T10:00:00+09:00
+
+lang: ko
+translation_id: python-indexerror-list-index-out-of-range
 excerpt: "Python의 'IndexError: list index out of range' 오류의 원인과 해결책을 알아봅니다. 리스트 길이 확인, 올바른 반복문 사용 등 오류를 방지하는 방법을 확인하세요."
 header:
    teaser: /images/header_images/overlay_image_python.png

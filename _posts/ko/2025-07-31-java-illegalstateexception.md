@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "Java IllegalStateException 해결 방법"
-date: 2025-07-31T11:00:00+09:00
+
+lang: ko
+translation_id: java-illegalstateexception
 excerpt: "Java의 IllegalStateException의 원인을 이해하고 객체가 올바른 상태에 있을 때만 메서드를 호출하여 해결하는 방법을 배웁니다. 실용적인 예제를 통해 확인하세요."
 header:
    teaser: /images/header_images/overlay_image_java.png

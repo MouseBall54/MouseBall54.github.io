@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "How to Fix Java's OutOfMemoryError"
-date: 2025-07-31T12:00:00+09:00
+
+lang: en
+translation_id: java-outofmemoryerror
 excerpt: "Understand and resolve Java's OutOfMemoryError by identifying its causes, such as memory leaks or insufficient heap size. Learn how to analyze heap dumps and tune JVM settings to prevent this critical error."
 header:
    teaser: /images/header_images/overlay_image_java.png

@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "How to Handle IllegalArgumentException in Java"
-date: 2025-07-31T22:14:00+09:00
+
+lang: en
+translation_id: java-illegalargumentexception
 excerpt: "Learn to use and handle Java's IllegalArgumentException effectively by performing explicit checks at the beginning of your methods to ensure arguments are valid."
 header:
    teaser: /images/header_images/overlay_image_java.png

@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "Git 오류 해결: unable to access '...': The requested URL returned error: 404"
-date: 2025-07-31T11:45:00+09:00
+
+lang: ko
+translation_id: git-fatal-unable-to-access-url-returned-error-404
 excerpt: "Git의 '404 Not Found' 오류를 원격 URL의 오타 확인, 저장소 존재 및 권한 검증, 올바른 인증을 통해 해결하세요. 이 흔한 URL 관련 문제를 해결하는 방법을 배웁니다."
 header:
    teaser: /images/header_images/overlay_image_git.png

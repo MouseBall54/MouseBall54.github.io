@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     How to Fix "Insecure mixed content" Error in JavaScript
-date: 2025-08-03T16:05:00+09:00
+
+lang: en
+translation_id: javascript-insecure-mixed-content
 header:
     teaser: /images/header_images/overlay_image_js.png
     overlay_image: /images/header_images/overlay_image_js.png

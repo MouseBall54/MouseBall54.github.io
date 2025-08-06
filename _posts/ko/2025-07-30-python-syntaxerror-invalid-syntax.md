@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "Python SyntaxError: invalid syntax 오류 완벽 가이드"
-date: 2025-07-30T10:00:00+09:00
+
+lang: ko
+translation_id: python-syntaxerror-invalid-syntax
 excerpt: "Python에서 가장 흔한 오류 중 하나인 SyntaxError: invalid syntax의 원인과 해결 방법을 쉽고 명확하게 설명합니다. 콜론 누락, 괄호 불일치 등 다양한 예시를 통해 문법 오류를 빠르게 해결하세요."
 header:
    teaser: /images/header_images/overlay_image_python.png

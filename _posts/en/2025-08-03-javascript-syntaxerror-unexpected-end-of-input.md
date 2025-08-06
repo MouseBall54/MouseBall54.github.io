@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     How to Fix JavaScript SyntaxError: Unexpected end of input
-date: 2025-08-03T10:30:00+09:00
+
+lang: en
+translation_id: javascript-syntaxerror-unexpected-end-of-input
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "JavaScript 오류 'Uncaught ReferenceError: is not defined' 해결 방법"
-date: 2025-07-30T12:00:00+09:00
+
+lang: ko
+translation_id: javascript-uncaught-referenceerror-is-not-defined
 excerpt: "'Uncaught ReferenceError: ... is not defined'는 JavaScript에서 변수나 함수가 선언되지 않았거나 접근할 수 없는 스코프에 있을 때 발생하는 흔한 오류입니다. 원인과 해결 방법을 알아봅니다."
 header:
    teaser: /images/header_images/overlay_image_js.png

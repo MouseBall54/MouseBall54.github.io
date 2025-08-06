@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     How to Fix "WebSocket connection to '...' failed" in JavaScript
-date: 2025-08-03T14:15:00+09:00
+
+lang: en
+translation_id: javascript-websocket-connection-failed
 header:
     teaser: /images/header_images/overlay_image_js.png
     overlay_image: /images/header_images/overlay_image_js.png

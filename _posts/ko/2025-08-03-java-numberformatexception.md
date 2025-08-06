@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     java.lang.NumberFormatException 해결 방법
-date: 2025-08-03T10:05:00+09:00
+
+lang: ko
+translation_id: java-numberformatexception
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

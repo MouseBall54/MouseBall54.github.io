@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    How to Fix Python IsADirectoryError: [Errno 21] Is a directory
-date: 2025-08-05T10:10:00+09:00
+
+lang: en
+translation_id: python-isadirectoryerror-errno-21-is-a-directory
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     How to Revert a Commit in Git: A Guide to `git revert`
-date: 2025-08-03T11:50:00+09:00
+
+lang: en
+translation_id: git-reverting-a-commit
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     How to Fix "fatal: index file corrupt" in Git
-date: 2025-08-03T14:50:00+09:00
+
+lang: en
+translation_id: git-fatal-index-file-corrupt
 header:
     teaser: /images/header_images/overlay_image_git.png
     overlay_image: /images/header_images/overlay_image_git.png

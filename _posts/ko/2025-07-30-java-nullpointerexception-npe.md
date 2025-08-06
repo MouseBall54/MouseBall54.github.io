@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "자바 NullPointerException (NPE) 완벽 정복 가이드"
-date: 2025-07-30T15:00:00+09:00
+
+lang: ko
+translation_id: java-nullpointerexception-npe
 excerpt: "자바 개발자의 영원한 숙제, NullPointerException(NPE)의 발생 원인을 알아보고, null 체크, Optional, 어노테이션 등 NPE를 방지하고 우아하게 처리하는 다양한 실용적인 방법을 배워보세요."
 header:
    teaser: /images/header_images/overlay_image_java.png

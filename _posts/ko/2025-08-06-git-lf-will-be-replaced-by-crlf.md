@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    Git 경고 해결: "LF will be replaced by CRLF"
-date: 2025-08-06T10:40:00+09:00
+
+lang: ko
+translation_id: git-lf-will-be-replaced-by-crlf
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

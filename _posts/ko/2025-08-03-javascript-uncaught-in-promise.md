@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     자바스크립트 Uncaught (in promise) 오류 해결 방법
-date: 2025-08-03T10:20:00+09:00
+
+lang: ko
+translation_id: javascript-uncaught-in-promise
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

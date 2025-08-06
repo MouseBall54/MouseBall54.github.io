@@ -2,7 +2,9 @@ typora-root-url: ../
 layout: single
 title: >
    Java try-with-resources로 메모리 누수 방지하기
-date: 2025-08-05T11:00:00+09:00
+
+lang: ko
+translation_id: java-try-with-resources
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

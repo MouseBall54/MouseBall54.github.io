@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     How to Fix "Error: cannot find symbol" in Java
-date: 2025-08-03T14:35:00+09:00
+
+lang: en
+translation_id: java-error-cannot-find-symbol
 header:
     teaser: /images/header_images/overlay_image_java.png
     overlay_image: /images/header_images/overlay_image_java.png

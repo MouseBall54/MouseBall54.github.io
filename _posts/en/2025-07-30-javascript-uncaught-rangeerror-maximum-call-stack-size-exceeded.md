@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "How to Fix 'Maximum call stack size exceeded' in JavaScript"
-date: 2025-07-30T11:00:00+09:00
+
+lang: en
+translation_id: javascript-uncaught-rangeerror-maximum-call-stack-size-exceeded
 excerpt: "Resolve the 'Uncaught RangeError: Maximum call stack size exceeded' in JavaScript by identifying infinite recursion and implementing proper base cases in your functions."
 header:
    teaser: /images/header_images/overlay_image_js.png

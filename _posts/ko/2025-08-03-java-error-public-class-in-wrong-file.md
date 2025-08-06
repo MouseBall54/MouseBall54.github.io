@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     Java "Error: a public class ... must be defined in a file called ... .java" 해결 방법
-date: 2025-08-03T14:30:00+09:00
+
+lang: ko
+translation_id: java-error-public-class-in-wrong-file
 header:
     teaser: /images/header_images/overlay_image_java.png
     overlay_image: /images/header_images/overlay_image_java.png

@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    How to Cherry-Pick a Commit from Another Branch in Git
-date: 2025-08-06T10:05:00+09:00
+
+lang: en
+translation_id: git-cherry-pick
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

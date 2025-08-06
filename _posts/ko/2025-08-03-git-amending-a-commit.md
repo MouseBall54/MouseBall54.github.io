@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     Git 최신 커밋 수정하기: git commit --amend 완벽 가이드
-date: 2025-08-03T16:15:00+09:00
+
+lang: ko
+translation_id: git-amending-a-commit
 header:
     teaser: /images/header_images/overlay_image_git.png
     overlay_image: /images/header_images/overlay_image_git.png

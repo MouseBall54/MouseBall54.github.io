@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     How to Fix "fatal: bad object" Error in Git
-date: 2025-08-03T11:15:00+09:00
+
+lang: en
+translation_id: git-fatal-bad-object
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

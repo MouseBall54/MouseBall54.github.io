@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "How to Fix \"The requested URL returned error: 403\" in Git"
-date: 2025-07-31T22:16:00+09:00
+
+lang: en
+translation_id: git-error-403-forbidden
 excerpt: "Resolve the Git 403 Forbidden error by updating your credentials, using a personal access token (PAT), or switching to SSH authentication for more secure access."
 header:
    teaser: /images/header_images/overlay_image_git.png

@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "How to Handle java.sql.SQLException in Java"
-date: 2025-07-31T22:00:00+09:00
+
+lang: en
+translation_id: java-sqlexception
 excerpt: "Learn to handle java.sql.SQLException by properly managing database connections, statements, and using try-catch-finally blocks to ensure resources are closed."
 header:
    teaser: /images/header_images/overlay_image_java.png

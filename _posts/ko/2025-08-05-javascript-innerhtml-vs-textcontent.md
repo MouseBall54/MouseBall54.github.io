@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    JavaScript innerHTML vs. textContent: 어느 것을 사용해야 할까요?
-date: 2025-08-05T11:05:00+09:00
+
+lang: ko
+translation_id: javascript-innerhtml-vs-textcontent
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

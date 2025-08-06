@@ -6,6 +6,8 @@ title: >
 date: 2025-07-24T22:00:00+09:00
 excerpt: >
   NullPointerException happens when code accesses a null reference. Prevent it with null checks, proper initialization, Optional, and nullability annotations.
+lang: en
+translation_id: java-nullpointerexception-java
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

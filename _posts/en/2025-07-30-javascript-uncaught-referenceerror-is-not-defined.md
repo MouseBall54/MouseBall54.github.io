@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "How to Fix 'Uncaught ReferenceError: is not defined' in JavaScript"
-date: 2025-07-30T12:00:00+09:00
+
+lang: en
+translation_id: javascript-uncaught-referenceerror-is-not-defined
 excerpt: "'Uncaught ReferenceError: ... is not defined' is a common error in JavaScript that occurs when a variable or function is not declared or is outside the accessible scope. Let's explore its causes and solutions."
 header:
    teaser: /images/header_images/overlay_image_js.png

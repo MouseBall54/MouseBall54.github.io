@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "Git 오류 'fatal: not a git repository' 해결 방법"
-date: 2025-07-30T11:00:00+09:00
+
+lang: ko
+translation_id: git-fatal-not-a-git-repository
 excerpt: "'fatal: not a git repository'는 Git 명령을 Git 저장소가 아닌 디렉터리에서 실행했을 때 발생하는 일반적인 오류입니다. 이 글에서는 원인과 해결 방법을 알아봅니다."
 header:
    teaser: /images/header_images/overlay_image_git.png

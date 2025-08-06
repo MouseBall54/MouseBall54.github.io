@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     Git "error: object file ... is empty" 해결 방법
-date: 2025-08-03T14:45:00+09:00
+
+lang: ko
+translation_id: git-error-object-file-is-empty
 header:
     teaser: /images/header_images/overlay_image_git.png
     overlay_image: /images/header_images/overlay_image_git.png

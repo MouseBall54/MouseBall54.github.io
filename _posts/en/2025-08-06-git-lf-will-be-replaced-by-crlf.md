@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    How to Fix "LF will be replaced by CRLF" Warning in Git
-date: 2025-08-06T10:40:00+09:00
+
+lang: en
+translation_id: git-lf-will-be-replaced-by-crlf
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

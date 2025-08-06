@@ -4,7 +4,9 @@ title: >
     Python FloatingPointError 해결 방법
 seo_title: >
     Python FloatingPointError 해결 방법
-date: 2025-08-05T21:00:00+09:00
+
+lang: ko
+translation_id: python-floatingpointerror
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

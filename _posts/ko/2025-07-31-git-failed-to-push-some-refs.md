@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "Git에서 'error: failed to push some refs to' 오류 해결 방법"
-date: 2025-07-31T11:00:00+09:00
+
+lang: ko
+translation_id: git-failed-to-push-some-refs
 excerpt: "원격 저장소의 최신 변경 사항을 가져온 후 자신의 변경 사항을 푸시하여 Git의 'failed to push some refs' 오류를 해결합니다."
 header:
    teaser: /images/header_images/overlay_image_git.png

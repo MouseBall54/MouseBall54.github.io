@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "How to Fix FileNotFoundError in Python"
-date: 2025-07-30T22:00:00+09:00
+
+lang: en
+translation_id: python-filenotfounderror
 excerpt: "A detailed guide on how to handle the FileNotFoundError: [Errno 2] No such file or directory in Python. Learn the common causes and effective solutions."
 header:
    teaser: /images/header_images/overlay_image_python.png

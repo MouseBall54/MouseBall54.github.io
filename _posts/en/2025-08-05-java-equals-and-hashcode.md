@@ -2,7 +2,9 @@ typora-root-url: ../
 layout: single
 title: >
    Understanding equals() and hashCode() in Java
-date: 2025-08-05T10:20:00+09:00
+
+lang: en
+translation_id: java-equals-and-hashcode
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

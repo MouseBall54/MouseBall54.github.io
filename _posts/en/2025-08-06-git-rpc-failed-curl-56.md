@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    How to Fix "error: RPC failed; curl 56 Recv failure" in Git
-date: 2025-08-06T10:45:00+09:00
+
+lang: en
+translation_id: git-rpc-failed-curl-56
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

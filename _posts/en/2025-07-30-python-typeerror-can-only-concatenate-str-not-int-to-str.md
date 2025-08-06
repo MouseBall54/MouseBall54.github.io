@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "How to Fix Python TypeError: can only concatenate str (not 'int') to str"
-date: 2025-07-30T14:00:00+09:00
+
+lang: en
+translation_id: python-typeerror-can-only-concatenate-str-not-int-to-str
 excerpt: "The 'TypeError: can only concatenate str (not 'int') to str' in Python occurs when you try to concatenate a string with a non-string type, like an integer. This article explains the cause and how to fix it."
 header:
    teaser: /images/header_images/overlay_image_python.png

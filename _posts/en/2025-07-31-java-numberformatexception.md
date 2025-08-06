@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "How to Handle NumberFormatException in Java"
-date: 2025-07-31T22:13:00+09:00
+
+lang: en
+translation_id: java-numberformatexception
 excerpt: "Learn to prevent and handle Java's NumberFormatException by validating strings before parsing and using try-catch blocks for safe numeric conversion."
 header:
    teaser: /images/header_images/overlay_image_java.png

@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    How to Fix "jQuery is not defined" Error in JavaScript
-date: 2025-08-05T11:00:00+09:00
+
+lang: en
+translation_id: javascript-jquery-is-not-defined
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

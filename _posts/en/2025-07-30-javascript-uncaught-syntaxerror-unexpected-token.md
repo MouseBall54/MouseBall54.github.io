@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "How to Fix 'Uncaught SyntaxError: Unexpected token' in JavaScript"
-date: 2025-07-30T14:10:00+09:00
+
+lang: en
+translation_id: javascript-uncaught-syntaxerror-unexpected-token
 excerpt: "'Uncaught SyntaxError: Unexpected token' is a syntax error that occurs when the JavaScript engine encounters a token that it does not expect grammatically. This article explores the common causes and solutions for this error."
 header:
    teaser: /images/header_images/overlay_image_js.png

@@ -4,7 +4,9 @@ title: >
     How to Handle KeyboardInterrupt in Python
 seo_title: >
     How to Handle KeyboardInterrupt in Python
-date: 2025-08-05T21:10:00+09:00
+
+lang: en
+translation_id: python-keyboardinterrupt
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

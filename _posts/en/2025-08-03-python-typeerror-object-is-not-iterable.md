@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
     How to Fix Python TypeError: '...' object is not iterable
-date: 2025-08-03T10:10:00+09:00
+
+lang: en
+translation_id: python-typeerror-object-is-not-iterable
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

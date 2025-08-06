@@ -2,7 +2,9 @@
 typora-root-url: ../
 layout: single
 title: "Java에서 java.lang.ClassCastException 해결 방법"
-date: 2025-07-31T14:00:00+09:00
+
+lang: ko
+translation_id: java-classcastexception
 excerpt: "객체를 캐스팅하기 전에 `instanceof`와 같은 검사를 통해 타입 안전성을 확보하여 `java.lang.ClassCastException`을 이해하고 예방하는 방법을 알아봅니다."
 header:
    teaser: /images/header_images/overlay_image_java.png

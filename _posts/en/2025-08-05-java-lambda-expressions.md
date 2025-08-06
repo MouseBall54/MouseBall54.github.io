@@ -2,7 +2,9 @@ typora-root-url: ../
 layout: single
 title: >
    Writing Concise Code with Lambda Expressions in Java
-date: 2025-08-05T11:10:00+09:00
+
+lang: en
+translation_id: java-lambda-expressions
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

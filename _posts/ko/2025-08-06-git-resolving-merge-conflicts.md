@@ -3,7 +3,9 @@ typora-root-url: ../
 layout: single
 title: >
    Git 병합 충돌(Merge Conflict) 해결하는 방법
-date: 2025-08-06T10:10:00+09:00
+
+lang: ko
+translation_id: git-resolving-merge-conflicts
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

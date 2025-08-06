@@ -2,7 +2,9 @@ typora-root-url: ../
 layout: single
 title: >
    Using Generics in Java for Type Safety
-date: 2025-08-05T11:05:00+09:00
+
+lang: en
+translation_id: java-generics
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
