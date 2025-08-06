@@ -2,6 +2,14 @@
 
 {% include seo.html %}
 
+{% if page.layout == 'single' and page.translation_id %}
+  {% for post in site.posts %}
+    {% if post.translation_id == page.translation_id %}
+      <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url | absolute_url }}">
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
 {% unless site.atom_feed.hide %}
   <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 {% endunless %}
