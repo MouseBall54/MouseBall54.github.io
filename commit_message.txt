@@ -1,7 +1,16 @@
-docs: Java 트러블슈팅 포스트 5건 추가 및 Java 30개 포스트 작성 완료
+docs: Git 트러블슈팅 관련 포스트 7건 추가 (14개 파일)
 
-- "try-with-resources" 관련 포스트 작성
-- "Generics" 관련 포스트 작성
-- "Lambda Expressions" 관련 포스트 작성
-- "Stream API" 관련 포스트 작성
-- "Dependency Injection" 관련 포스트 작성
+- Interactive rebase
+- Cherry-picking a commit
+- Resolving merge conflicts
+- Using .gitignore
+- Git LFS (Large File Storage)
+- Git Submodules
+- Git hooks
+- fatal: could not read Username for 'https://...': terminal prompts disabled
+- LF will be replaced by CRLF
+- error: RPC failed; curl 56 Recv failure
+- fatal: early EOF
+- `git bisect`
+
+- Git 관련 모든 주제 (30개) 포스팅 완료.

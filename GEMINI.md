@@ -153,12 +153,13 @@
 - 2025년 8월 5일: JavaScript "jQuery is not defined", "innerHTML vs. textContent", "== vs. ===", "let, const, var", "Promise.all vs. Promise.race", "async/await error handling" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 5일: Java "missing return statement", "variable not initialized", "unreachable statement", "String vs StringBuilder", "equals/hashCode", "Checked vs Unchecked" 관련 한글 및 영어 포스트 작성 완료.
 - 2025년 8월 5일: Java "try-with-resources", "Generics", "Lambda Expressions", "Stream API", "Dependency Injection" 관련 한글 및 영어 포스트 작성 완료.
+- 2025년 8월 6일: Git 관련 남은 주제 7개 ("Interactive rebase" ~ "`git bisect`")에 대한 한글 및 영어 포스트 작성 완료.
 
 진행도
   - Python : 30/30
   - JavaScript : 30/30
   - Java : 30/30
-  - Git : 23/30 
+  - Git : 30/30 
 
 ### Python (1-30)
 1.  **SyntaxError: invalid syntax** ✅: 콜론(:) 누락, 괄호 불일치 등 기본 문법 오류 해결 방법.
@@ -275,15 +276,15 @@
 106. **Reverting a commit** ✅: 특정 커밋을 되돌리는 `git revert` 사용법.
 107. **Resetting a commit** ✅: 특정 커밋으로 되돌아가는 `git reset`의 세 가지 옵션 (soft, mixed, hard).
 108. **Amending a commit** ✅: 최신 커밋 메시지 또는 내용을 수정하는 `git commit --amend` 사용법.
-109. **Interactive rebase**: 여러 커밋을 합치거나 수정하는 `git rebase -i` 사용법.
-110. **Cherry-picking a commit**: 다른 브랜치의 특정 커밋만 현재 브랜치로 가져오는 `git cherry-pick` 사용법.
-111. **Resolving merge conflicts**: 병합 충돌 발생 시 수동으로 해결하는 방법.
-112. **Using `.gitignore`**: 특정 파일 및 디렉터리를 Git 추적에서 제외하는 방법.
-113. **Git LFS (Large File Storage)**: 대용량 파일을 효율적으로 관리하는 방법.
-114. **Git Submodules**: 다른 Git 저장소를 하위 디렉터리로 포함하는 방법.
-115. **Git hooks**: 특정 Git 이벤트(커밋, 푸시 등)에 자동으로 스크립트를 실행하는 방법.
-116. **fatal: could not read Username for 'https://...': terminal prompts disabled**: 터미널 프롬프트가 비활성화된 환경에서 인증 오류 발생 시 해결 방법.
-117. **LF will be replaced by CRLF**: Windows와 macOS/Linux 간의 줄 바꿈 문자 차이 문제 해결.
-118. **error: RPC failed; curl 56 Recv failure**: 대용량 푸시/클론 시 네트워크 문제 해결.
-119. **fatal: early EOF**: 예기치 않게 서버 연결이 종료될 때 해결 방법.
-120. **`git bisect`**: 버그를 유발한 커밋을 자동으로 찾아내는 방법.
+109. **Interactive rebase** ✅: 여러 커밋을 합치거나 수정하는 `git rebase -i` 사용법.
+110. **Cherry-picking a commit** ✅: 다른 브랜치의 특정 커밋만 현재 브랜치로 가져오는 `git cherry-pick` 사용법.
+111. **Resolving merge conflicts** ✅: 병합 충돌 발생 시 수동으로 해결하는 방법.
+112. **Using `.gitignore`** ✅: 특정 파일 및 디렉터리를 Git 추적에서 제외하는 방법.
+113. **Git LFS (Large File Storage)** ✅: 대용량 파일을 효율적으로 관리하는 방법.
+114. **Git Submodules** ✅: 다른 Git 저장소를 하위 디렉터리로 포함하는 방법.
+115. **Git hooks** ✅: 특정 Git 이벤트(커밋, 푸시 등)에 자동으로 스크립트를 실행하는 방법.
+116. **fatal: could not read Username for 'https://...': terminal prompts disabled** ✅: 터미널 프롬프트가 비활성화된 환경에서 인증 오류 발생 시 해결 방법.
+117. **LF will be replaced by CRLF** ✅: Windows와 macOS/Linux 간의 줄 바꿈 문자 차이 문제 해결.
+118. **error: RPC failed; curl 56 Recv failure** ✅: 대용량 푸시/클론 시 네트워크 문제 해결.
+119. **fatal: early EOF** ✅: 예기치 않게 서버 연결이 종료될 때 해결 방법.
+120. **`git bisect`** ✅: 버그를 유발한 커밋을 자동으로 찾아내는 방법.
