@@ -29,6 +29,8 @@
    excerpt: >
      Fix Git's "Permission denied (publickey)" error on Windows by creating an SSH key,
      adding it to the SSH agent, and registering it with your Git host.
+   lang: en
+   translation_id: git-permission-denied-publickey
    categories:
      - en_Troubleshooting
    tags:
