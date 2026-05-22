@@ -15,6 +15,8 @@ const campaignPostIdsByLang = {
 };
 const postCategories = new Set();
 const adEligiblePosts = [];
+const siteUrls = new Map();
+const internalLinksToCheck = [];
 
 function readText(relativePath) {
   return fs.readFileSync(path.join(root, relativePath), "utf8");
@@ -54,6 +56,18 @@ function isCampaignPost(relativePath) {
 function normalizeInternalPostUrl(url) {
   const cleanUrl = url.split("#")[0].split("?")[0];
   return cleanUrl.endsWith("/") ? cleanUrl : `${cleanUrl}/`;
+}
+
+function collectInternalLinks(relativePath, text) {
+  [...text.matchAll(/\]\((\/[A-Za-z0-9_~./%-]+\/?(?:#[^) \t]+)?)\)/g)].forEach((match) => {
+    const url = match[1];
+    if (url.startsWith("/images/") || url.startsWith("/assets/")) return;
+
+    internalLinksToCheck.push({
+      source: relativePath,
+      target: normalizeInternalPostUrl(url),
+    });
+  });
 }
 
 function listMarkdownFiles(relativeDir) {
@@ -365,7 +379,10 @@ function validatePosts() {
         errors.push(`${relativePath}: output URL collides with ${outputUrls.get(outputUrl)} at ${outputUrl}`);
       }
       outputUrls.set(outputUrl, relativePath);
+      siteUrls.set(outputUrl, relativePath);
     }
+
+    collectInternalLinks(relativePath, text);
 
     const headerImagePaths = [...text.matchAll(/^\s*(?:teaser|overlay_image):\s*(\/images\/[^\s#]+)/gm)].map(
       (match) => match[1],
@@ -511,6 +528,28 @@ function validatePosts() {
   });
 }
 
+function validatePages() {
+  listMarkdownFiles("_pages").forEach((relativePath) => {
+    const frontMatter = parseFrontMatter(relativePath);
+    if (!frontMatter) return;
+
+    const permalink = normalizeYamlValue(frontMatter.permalink);
+    if (permalink) {
+      siteUrls.set(normalizeInternalPostUrl(permalink), relativePath);
+    }
+
+    collectInternalLinks(relativePath, readText(relativePath));
+  });
+}
+
+function validateInternalLinks() {
+  internalLinksToCheck.forEach(({ source, target }) => {
+    if (!siteUrls.has(target)) {
+      errors.push(`${source}: internal link does not resolve to a known site URL: ${target}`);
+    }
+  });
+}
+
 function validateCategoryNavigation() {
   requireFile("_data/navigation.yml");
   if (errors.length > 0) return;
@@ -632,8 +671,10 @@ function validateAdsense() {
 
 validatePlanningDocs();
 validatePosts();
+validatePages();
 validateQueuePostState();
 validateCategoryNavigation();
+validateInternalLinks();
 validateAdsense();
 
 warnings.slice(0, 20).forEach((warning) => {
