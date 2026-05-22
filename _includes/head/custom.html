@@ -1,5 +1,15 @@
 <!-- start custom head snippets -->
 
+{% assign adsense_script_required = false %}
+{% if site.adsense.auto_ads or site.adsense.in_article_slot or site.adsense.post_bottom_slot %}
+  {% assign adsense_script_required = true %}
+{% endif %}
+
+{% if site.adsense.enabled and site.adsense.client and adsense_script_required %}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense.client }}"
+          crossorigin="anonymous"></script>
+{% endif %}
+
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 <!-- end custom head snippets -->

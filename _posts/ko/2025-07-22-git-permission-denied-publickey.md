@@ -7,7 +7,8 @@ date: 2025-07-22T22:00:00+09:00
 excerpt: >
   Git SSH 연결 시 발생하는 “Permission denied (publickey) 오류를 SSH 키 생성, 에이전트 등록, 공개키 업로드로 해결하는 방법.
 lang: ko
-translation_id: git-permission-denied-publickey
+translation_id: git-permission-denied-publickey-windows
+permalink: /ko_Troubleshooting/git-permission-denied-publickey-windows/
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

@@ -1,25 +1,29 @@
 {
-  "name": "minimal-mistakes",
+  "name": "mouseball54-toolbox",
   "private": true,
-  "version": "4.27.1",
-  "description": "Minimal Mistakes 2 column Jekyll theme.",
+  "version": "1.0.0",
+  "description": "Jekyll site assets for MouseBall54's Toolbox.",
+  "scripts": {
+    "validate:content-plan": "node tools/validate-content-plan.js"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mmistakes/minimal-mistakes.git"
+    "url": "https://github.com/MouseBall54/MouseBall54.github.io.git"
   },
   "keywords": [
     "jekyll",
-    "theme",
-    "minimal"
+    "github-pages",
+    "blog",
+    "tools"
   ],
-  "author": "Michael Rose",
+  "author": "MouseBall54",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
+    "url": "https://github.com/MouseBall54/MouseBall54.github.io/issues"
   },
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
+  "homepage": "https://mouseball54.github.io/",
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 18"
   },
   "devDependencies": {
     "uglify-js": "^3.17.4"

@@ -8,7 +8,7 @@
 # Theme Settings
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+# remote_theme           :
 minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -21,7 +21,7 @@ name                     : "MouseBall54"
 description              : "MouseBall54's blog sharing insights and tools on AI, vision, and development"
 url                      : "https://mouseball54.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "MouseBall54/MouseBall54.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "MouseBall54/MouseBall54.github.io" # GitHub username/repo-name
 teaser                   : #"/assets/images/image-20250715203036663.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/DvHMD1750764566-Photoroom.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Toolbox" # overrides the website title displayed in the masthead, use " " for no title
@@ -95,6 +95,16 @@ analytics:
     tracking_id          : G-G08ZQQSY7P
     anonymize_ip         : # true, false (default)
 
+# AdSense
+# Manual ad units render only when enabled is true and slot IDs are set.
+adsense:
+  enabled                : false
+  client                 : "ca-pub-2983974324971673"
+  auto_ads               : false
+  in_article_slot        :
+  post_bottom_slot       :
+  min_words_for_ads      : 700
+
 
 # Site Author
 author:
@@ -163,22 +173,18 @@ exclude:
   - assets/js/_main.js
   - assets/js/vendor
   - Capfile
-  - CHANGELOG
   - config
   - Gemfile
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
   - log
-  - minimal-mistakes-jekyll.gemspec
   - node_modules
   - package.json
   - package-lock.json
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn

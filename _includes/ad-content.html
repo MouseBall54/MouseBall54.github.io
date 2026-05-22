@@ -1,0 +1,24 @@
+{% assign adsense = site.adsense %}
+{% assign min_words_for_ads = adsense.min_words_for_ads | default: 700 %}
+{% assign content_word_count = content | strip_html | number_of_words %}
+{% assign can_show_ads = false %}
+
+{% if adsense.enabled and page.ads != false and page.id and content_word_count >= min_words_for_ads %}
+  {% assign can_show_ads = true %}
+{% endif %}
+
+{% assign h2_parts = content | split: '</h2>' %}
+
+{% if can_show_ads and adsense.in_article_slot and h2_parts.size > 1 %}
+  {{ h2_parts[0] }}</h2>
+  {% include ad-inarticle.html slot=adsense.in_article_slot placement="after-first-h2" %}
+  {% for h2_part in h2_parts offset: 1 %}
+    {{ h2_part }}{% unless forloop.last %}</h2>{% endunless %}
+  {% endfor %}
+{% else %}
+  {{ content }}
+{% endif %}
+
+{% if can_show_ads and adsense.post_bottom_slot %}
+  {% include ad-inarticle.html slot=adsense.post_bottom_slot placement="post-bottom" %}
+{% endif %}

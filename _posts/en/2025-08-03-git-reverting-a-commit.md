@@ -2,16 +2,17 @@
 typora-root-url: ../
 layout: single
 title: >
-    How to Revert a Commit in Git: A Guide to `git revert`
+    Git revert vs reset: How to Safely Undo a Commit
 
 lang: en
-translation_id: git-reverting-a-commit
+translation_id: git-revert-vs-reset-safe-undo
+permalink: /en_Troubleshooting/git-revert-vs-reset-safe-undo/
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
 excerpt: >
-    Learn how to safely undo the changes from a specific commit using the `git revert` command and understand its difference from `git reset`.
+    Learn when to use git revert instead of git reset so you can safely undo a commit without rewriting shared history.
 categories:
   - en_Troubleshooting
 tags:

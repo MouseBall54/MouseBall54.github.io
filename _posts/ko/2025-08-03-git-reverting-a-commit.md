@@ -2,16 +2,17 @@
 typora-root-url: ../
 layout: single
 title: >
-    Git 커밋 되돌리기: git revert 사용법
+    Git revert와 reset 차이: 안전하게 커밋 되돌리기
 
 lang: ko
-translation_id: git-reverting-a-commit
+translation_id: git-revert-vs-reset-safe-undo
+permalink: /ko_Troubleshooting/git-revert-vs-reset-safe-undo/
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
 excerpt: >
-    Git에서 특정 커밋의 변경 사항을 안전하게 취소하는 `git revert` 명령어의 사용법과 `git reset`과의 차이점을 알아봅니다.
+    공유 브랜치에서 Git 커밋을 되돌릴 때 git revert와 git reset 중 무엇을 써야 하는지, 안전한 선택 기준을 정리합니다.
 categories:
   - ko_Troubleshooting
 tags:

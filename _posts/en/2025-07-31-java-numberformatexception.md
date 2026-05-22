@@ -4,7 +4,8 @@ layout: single
 title: "How to Handle NumberFormatException in Java"
 
 lang: en
-translation_id: java-numberformatexception
+translation_id: java-numberformatexception-handling
+permalink: /en_Troubleshooting/java-numberformatexception-handling/
 excerpt: "Learn to prevent and handle Java's NumberFormatException by validating strings before parsing and using try-catch blocks for safe numeric conversion."
 header:
    teaser: /images/header_images/overlay_image_java.png

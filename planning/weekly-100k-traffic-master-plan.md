@@ -1,0 +1,364 @@
+# MouseBall54's Toolbox 주간 10만 조회 성장 마스터플랜
+
+작성일: 2026-05-23  
+목표: 주간 조회 수 100,000회 이상, 검색 유입 기반의 안정적 성장, Google AdSense 수익화 준비
+
+## 1. 목표와 기준
+
+주간 100,000 조회는 하루 평균 약 14,300 조회다. 이 사이트는 단일 대형 글보다 개발자가 검색창에 그대로 입력하는 오류 메시지, 명령어, 도구 비교, 설정 문제를 폭넓게 잡는 구조가 적합하다.
+
+현실적인 목표 모델은 다음과 같다.
+
+| 단계 | 글 수 | 글당 주간 평균 조회 | 주간 조회 목표 |
+| --- | ---: | ---: | ---: |
+| 1차 | 200개 | 100회 | 20,000회 |
+| 2차 | 350개 | 150회 | 52,500회 |
+| 3차 | 500개 | 200회 | 100,000회 |
+
+핵심 전제:
+
+- 대량 생산보다, 검색 의도가 분명한 글을 꾸준히 누적한다.
+- 한국어와 영어 글을 항상 함께 작성한다.
+- AI로 초안을 만들 수는 있지만, 실행 결과, 버전 차이, 실패 사례, 검증 절차를 사람이 보강한다.
+- 광고는 본문 탐색을 방해하지 않는 선에서 표준화한다.
+
+## 2. 현재 저장소 기준 콘텐츠 현황
+
+현재 `_posts/ko`와 `_posts/en`에는 각각 133개 글이 있다. 영어 글 기준 주제 분포는 다음과 같다.
+
+| 주제 | 영어 글 수 | 한국어 글 수 | 판단 |
+| --- | ---: | ---: | --- |
+| Git | 34 | 34 | 강점. GitHub Actions, GitHub Pages, 인증, LFS, rebase 심화로 확장 |
+| Java | 33 | 33 | 기본 예외 중심. Spring Boot, Gradle, Maven, JDK 버전 문제로 확장 |
+| Python | 32 | 32 | 강점. uv, pip, venv, FastAPI, Pydantic, PyTorch 설치 문제로 확장 |
+| JavaScript | 31 | 31 | 강점. TypeScript, React, Next.js, Node.js, npm/pnpm 문제로 확장 |
+| Easy Labeling | 3 | 3 | 대표 도구. 사용 사례, 데이터셋 라벨링 워크플로우, YOLO 포맷 글 필요 |
+
+추가 기술 메모:
+
+- `ads.txt`에는 AdSense publisher 항목이 있다.
+- `_includes/after-content.html`은 비어 있어 본문 하단 광고 또는 관련 CTA를 넣을 여지가 있다.
+- `_includes/head/custom.html`도 비어 있어 AdSense script를 넣을 위치가 있다.
+- 샘플로 확인한 일부 최근 글은 front matter처럼 보이는 값이 첫 줄부터 시작하고, opening `---`가 보이지 않는다. 새 글 작성 전 `bundle exec jekyll build --trace`와 실제 생성 HTML 확인을 품질 게이트에 포함해야 한다.
+
+## 3. 시장 근거
+
+이 계획은 다음 근거를 기준으로 한다.
+
+- Google Search Central은 사람에게 도움이 되는 신뢰 가능한 콘텐츠와 좋은 페이지 경험을 우선하라고 안내한다. 출처: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+- Google의 spam policies는 검색 순위 조작 목적의 대량 저가치 콘텐츠를 위험 신호로 본다. 출처: https://developers.google.com/search/docs/essentials/spam-policies
+- Stack Overflow 2025 Developer Survey는 JavaScript, HTML/CSS, SQL, Python이 여전히 대규모 개발자 수요를 가진다고 보여준다. Python은 AI, data science, backend 수요와 함께 성장했다. 출처: https://survey.stackoverflow.co/2025/
+- GitHub Octoverse 2025는 TypeScript가 GitHub에서 가장 많이 쓰이는 언어로 올라섰고, Python은 AI와 data science에서 계속 강하다고 설명한다. 출처: https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/
+- AdSense는 사용자 경험, 광고와 콘텐츠의 구분, 과도한 광고 회피, genuine user interest를 강조한다. 출처: https://support.google.com/adsense/answer/1282097, https://support.google.com/adsense/answer/48182
+
+## 4. 콘텐츠 전략
+
+### 4.1 우선순위 원칙
+
+1. 오류 메시지 그대로 검색하는 키워드를 우선한다.
+2. 설치, 버전, 경로, 인증, CORS, permission, build failure처럼 즉시 해결 욕구가 강한 문제를 우선한다.
+3. 한 글은 하나의 문제만 해결한다.
+4. 한국어 글은 자연스러운 설명을 쓰되, 오류명과 명령어는 영어 원문을 유지한다.
+5. 영어 글은 짧은 문장, 명확한 heading, 복사 가능한 명령어, verification section을 고정한다.
+
+### 4.2 핵심 주제 축
+
+| 축 | 목적 | 대표 키워드 |
+| --- | --- | --- |
+| Python 실무 오류 | 기존 강점 확장, AI/데이터 입문 유입 | pip install error, uv, venv, ModuleNotFoundError, PyTorch CUDA, FastAPI, Pydantic |
+| JavaScript/TypeScript 오류 | GitHub/Stack Overflow 수요 반영 | TypeScript error, tsconfig, npm ERR, pnpm, Vite, React, Next.js |
+| Git/GitHub 작업 오류 | 이미 글 수가 많고 검색 의도 명확 | GitHub Actions failed, deploy key, branch protection, GitHub Pages build, rebase conflict |
+| Java/Spring Boot 오류 | Java 기본 예외에서 실무 프레임워크로 확장 | Spring Boot error, Gradle, Maven, JDK, Lombok, port 8080 |
+| 개발 환경 문제 | 초보자와 실무자 모두 검색 | VS Code, WSL, Docker, Windows PATH, PowerShell, Homebrew |
+| AI 개발 워크플로우 | 2025-2026 수요 확장 | OpenAI API, RAG, LangChain, Ollama, vector database, Pydantic AI |
+| Easy Labeling | 대표 도구 브랜딩과 제품 유입 | YOLO labeling tool, image annotation, local labeling, custom-classes.yaml |
+
+## 5. 키워드 마스터 리스트
+
+아래 목록은 검색량 수치가 아니라 작성 우선순위다. 실제 순위는 Google Search Console, Google Trends, Ahrefs/Semrush 같은 외부 데이터가 확보되면 조정한다.
+
+### 5.1 Python
+
+| 우선순위 | 한국어 제목 방향 | English title direction | Primary keyword |
+| --- | --- | --- | --- |
+| P0 | Python `pip install` 실패 해결 | How to Fix pip install Failed in Python | pip install failed |
+| P0 | `No module named pip` 해결 | How to Fix No module named pip | No module named pip |
+| P0 | Python 가상환경이 활성화되지 않을 때 | Python venv Not Activating | python venv not activating |
+| P0 | Windows에서 `python` 명령어가 안 될 때 | Python Command Not Found on Windows | python command not found windows |
+| P0 | `externally-managed-environment` 해결 | Fix externally-managed-environment in Python | externally-managed-environment |
+| P1 | `uv` 설치와 기존 pip 차이 | uv vs pip for Python Projects | uv python package manager |
+| P1 | FastAPI `422 Unprocessable Entity` 해결 | Fix FastAPI 422 Unprocessable Entity | FastAPI 422 |
+| P1 | Pydantic validation error 읽는 법 | How to Read Pydantic ValidationError | Pydantic ValidationError |
+| P1 | PyTorch CUDA 설치 오류 해결 | Fix PyTorch CUDA Installation Errors | PyTorch CUDA install error |
+| P2 | `UnicodeEncodeError`와 터미널 인코딩 | Fix UnicodeEncodeError in Python Terminal | UnicodeEncodeError |
+
+### 5.2 JavaScript and TypeScript
+
+| 우선순위 | 한국어 제목 방향 | English title direction | Primary keyword |
+| --- | --- | --- | --- |
+| P0 | `npm ERR! ERESOLVE` 해결 | How to Fix npm ERR ERESOLVE | npm ERR ERESOLVE |
+| P0 | `Cannot find module` 해결 | Fix Cannot Find Module in Node.js | Cannot find module node |
+| P0 | TypeScript `Cannot find name` 해결 | Fix TypeScript Cannot Find Name | TypeScript Cannot find name |
+| P0 | `Property does not exist on type` 해결 | Fix Property Does Not Exist on Type | Property does not exist on type |
+| P0 | `tsconfig` paths가 동작하지 않을 때 | tsconfig Paths Not Working | tsconfig paths not working |
+| P1 | Vite dev server가 뜨지 않을 때 | Vite Dev Server Not Starting | Vite dev server not starting |
+| P1 | React `useEffect` 무한 반복 해결 | Fix React useEffect Infinite Loop | React useEffect infinite loop |
+| P1 | Next.js hydration error 해결 | Fix Next.js Hydration Error | Next.js hydration error |
+| P1 | pnpm lockfile 오류 해결 | Fix pnpm Lockfile Errors | pnpm lockfile error |
+| P2 | CORS preflight 오류 해결 | Fix CORS Preflight Error | CORS preflight error |
+
+### 5.3 Git and GitHub
+
+| 우선순위 | 한국어 제목 방향 | English title direction | Primary keyword |
+| --- | --- | --- | --- |
+| P0 | GitHub Actions build failed 해결 | How to Fix GitHub Actions Build Failed | GitHub Actions build failed |
+| P0 | GitHub Pages Jekyll build 실패 | Fix GitHub Pages Jekyll Build Failed | GitHub Pages Jekyll build failed |
+| P0 | `fatal: authentication failed` 해결 | Fix Git fatal authentication failed | git fatal authentication failed |
+| P0 | `GH006 protected branch hook declined` 해결 | Fix GH006 Protected Branch Hook Declined | GH006 protected branch |
+| P1 | rebase conflict 안전하게 해결 | How to Resolve Git Rebase Conflicts | git rebase conflict |
+| P1 | `non-fast-forward` push rejected 해결 | Fix Git Non-Fast-Forward Push Rejected | git non-fast-forward |
+| P1 | Git LFS quota exceeded 해결 | Fix Git LFS Quota Exceeded | Git LFS quota exceeded |
+| P1 | GitHub token permission 오류 | Fix GitHub Token Permission Errors | GitHub token permission |
+| P2 | `safe.directory` 오류 해결 | Fix Git safe.directory Error | git safe.directory |
+| P2 | `.gitignore`가 적용되지 않을 때 | Gitignore Not Working | gitignore not working |
+
+### 5.4 Java and Spring Boot
+
+| 우선순위 | 한국어 제목 방향 | English title direction | Primary keyword |
+| --- | --- | --- | --- |
+| P0 | Spring Boot port 8080 already in use 해결 | Fix Spring Boot Port 8080 Already in Use | Spring Boot port 8080 already in use |
+| P0 | Gradle build failed 해결 | How to Fix Gradle Build Failed | Gradle build failed |
+| P0 | Maven dependency not found 해결 | Fix Maven Dependency Not Found | Maven dependency not found |
+| P0 | Unsupported class file major version 해결 | Fix Unsupported Class File Major Version | unsupported class file major version |
+| P1 | Lombok이 IDE에서 동작하지 않을 때 | Lombok Not Working in IntelliJ | Lombok not working IntelliJ |
+| P1 | Spring Boot bean could not be found 해결 | Fix Spring Boot Bean Could Not Be Found | Spring Boot bean could not be found |
+| P1 | JPA lazy initialization exception 해결 | Fix LazyInitializationException in JPA | LazyInitializationException |
+| P1 | `Cannot resolve symbol` 해결 | Fix Cannot Resolve Symbol in IntelliJ | IntelliJ cannot resolve symbol |
+| P2 | Java heap space와 GC 로그 확인 | Fix Java Heap Space Error | Java heap space |
+| P2 | `Connection refused` in Spring Boot | Fix Spring Boot Connection Refused | Spring Boot connection refused |
+
+### 5.5 개발 환경, Docker, WSL
+
+| 우선순위 | 한국어 제목 방향 | English title direction | Primary keyword |
+| --- | --- | --- | --- |
+| P0 | VS Code Python interpreter 선택 문제 | VS Code Python Interpreter Not Showing | VS Code Python interpreter not showing |
+| P0 | Windows PATH 설정 오류 해결 | Fix Windows PATH Not Working | Windows PATH not working |
+| P0 | Docker daemon not running 해결 | Fix Docker Daemon Not Running | Docker daemon not running |
+| P0 | WSL `network unreachable` 해결 | Fix WSL Network Unreachable | WSL network unreachable |
+| P1 | Docker port already allocated 해결 | Fix Docker Port Is Already Allocated | Docker port already allocated |
+| P1 | Docker compose env file 적용 문제 | Docker Compose env File Not Working | docker compose env file |
+| P1 | PowerShell execution policy 오류 | Fix PowerShell Execution Policy Error | PowerShell execution policy |
+| P1 | Homebrew command not found 해결 | Fix Homebrew Command Not Found | brew command not found |
+| P2 | VS Code terminal encoding 문제 | Fix VS Code Terminal Encoding | VS Code terminal encoding |
+| P2 | SSH config permission 오류 | Fix SSH Config Permission Error | SSH config permission |
+
+### 5.6 AI 개발 and Computer Vision
+
+| 우선순위 | 한국어 제목 방향 | English title direction | Primary keyword |
+| --- | --- | --- | --- |
+| P0 | OpenAI API key 환경변수 설정 | How to Set OPENAI_API_KEY | OPENAI_API_KEY |
+| P0 | OpenAI API rate limit 해결 | Fix OpenAI API Rate Limit Error | OpenAI API rate limit |
+| P0 | Ollama 모델 다운로드 오류 해결 | Fix Ollama Model Download Error | Ollama model download error |
+| P1 | LangChain import 오류 해결 | Fix LangChain Import Errors | LangChain import error |
+| P1 | RAG 벡터 검색이 빈 결과를 줄 때 | RAG Vector Search Returns No Results | RAG vector search no results |
+| P1 | YOLO label format 읽는 법 | How to Read YOLO Label Format | YOLO label format |
+| P1 | COCO to YOLO 변환 실수 | COCO to YOLO Conversion Mistakes | COCO to YOLO |
+| P2 | 이미지 라벨링 클래스 관리법 | How to Manage Classes for Image Labeling | image labeling classes |
+| P2 | Roboflow vs local labeling workflow | Roboflow vs Local Labeling Workflow | local image labeling |
+| P2 | Easy Labeling으로 YOLO 데이터셋 만들기 | Build a YOLO Dataset with Easy Labeling | Easy Labeling YOLO |
+
+## 6. 콘텐츠 생산 로드맵
+
+### Phase 0: 기반 정리, 1주
+
+- `bundle exec jekyll build --trace`로 현재 build 상태 확인
+- 최근 글 front matter 유효성 점검
+- Search Console sitemap 제출 상태 확인
+- GA4, Search Console, AdSense의 동일 URL 기준 추적표 작성
+- AdSense script 위치와 수동 광고 include 설계
+
+### Phase 1: 빠른 검색 유입 확보, 4주
+
+목표:
+
+- P0 글 40쌍 작성: 한국어 40개, 영어 40개
+- Python, JavaScript/TypeScript, Git/GitHub, Java/Spring Boot에서 각 10쌍
+- 모든 글에 `How to verify`와 `Common mistakes` 포함
+
+운영 기준:
+
+- 하루 2쌍 이하로 발행한다.
+- 작성한 글은 최소 한 번 로컬 build로 확인한다.
+- 기존 글에서 같은 주제의 내부 링크 2개 이상을 추가한다.
+
+### Phase 2: 클러스터 강화, 8주
+
+목표:
+
+- P1 글 80쌍 작성
+- pillar page 8개 작성
+- category별 상위 글에서 관련 글 링크 구조 정리
+
+필수 pillar page:
+
+- Python Errors and Environment Setup
+- JavaScript and TypeScript Troubleshooting
+- Git and GitHub Troubleshooting
+- Java and Spring Boot Troubleshooting
+- Docker and WSL Developer Setup
+- AI Developer Workflow Notes
+- Computer Vision Dataset Labeling
+- Easy Labeling Guide Hub
+
+### Phase 3: 수익화 최적화, 12주 이후
+
+목표:
+
+- Search Console에서 impressions가 높고 CTR이 낮은 글의 title/excerpt 개선
+- AdSense에서 RPM이 높은 category를 기준으로 광고 밀도 실험
+- 30일 단위로 글 업데이트, 내부 링크 추가, FAQ 보강
+- Easy Labeling 관련 글에서 launch link와 실사용 화면 강화
+
+## 7. 글 작성 표준
+
+모든 트러블슈팅 글은 다음 구조를 따른다.
+
+1. 문제 요약: 오류 메시지와 재현 상황을 첫 3문장 안에 넣는다.
+2. 원인: 버전, 경로, 권한, dependency, network, config 중 어디에 속하는지 설명한다.
+3. 빠른 해결: 가장 안전한 해결책부터 제시한다.
+4. 명령어 또는 코드: 복사 가능한 block으로 작성한다.
+5. 검증 방법: 사용자가 문제가 해결됐는지 확인할 명령어를 제공한다.
+6. 흔한 실수: 같은 오류를 다시 만들 수 있는 실수를 정리한다.
+7. 관련 글: 같은 category 안에서 2-4개 링크한다.
+
+품질 기준:
+
+- 제목에는 실제 검색어를 포함한다.
+- excerpt는 120-160자 안팎으로 문제와 해결을 함께 말한다.
+- 글 하나에 해결 대상은 하나만 둔다.
+- 명령어는 Windows, macOS/Linux 차이가 있으면 분리한다.
+- 버전 의존적인 내용은 작성일 또는 확인 버전을 적는다.
+- 자동 생성 문장처럼 보이는 결론은 쓰지 않는다.
+
+## 8. 내부 링크 전략
+
+링크 구조:
+
+- 오류 글 -> 상위 pillar page
+- 오류 글 -> 같은 도구의 관련 오류 2개
+- pillar page -> 관련 오류 글 목록
+- Easy Labeling 글 -> `https://mouseball54.github.io/easy_labeling/`
+
+예시:
+
+- `npm ERR ERESOLVE` -> `Cannot find module`, `pnpm lockfile error`, JavaScript/TypeScript pillar
+- `GitHub Pages Jekyll build failed` -> `GitHub Actions build failed`, front matter troubleshooting, Git/GitHub pillar
+- `YOLO label format` -> Easy Labeling guide, COCO to YOLO, image labeling classes
+
+## 9. AdSense 배치 계획
+
+현재 상태:
+
+- `ads.txt`는 존재한다.
+- 본문 광고 include는 아직 없다.
+- head custom include가 비어 있어 AdSense script를 넣을 수 있다.
+
+권장 구현:
+
+1. `_includes/head/custom.html`에 AdSense script를 넣는다.
+2. `_includes/ad-inarticle.html`을 새로 만들고, responsive in-article unit을 사용한다.
+3. `_layouts/single.html` 또는 안전한 include 지점에 광고 위치를 넣는다.
+4. 글 길이에 따라 광고 수를 제한한다.
+5. 검색, 태그, 카테고리, 짧은 static page에는 광고를 넣지 않거나 Auto ads excluded pages로 관리한다.
+
+초기 배치:
+
+| 위치 | 조건 | 목적 |
+| --- | --- | --- |
+| 본문 첫 번째 H2 이후 | 800단어 이상 글 | 초반 이탈 전 수익화 |
+| 본문 중간 | 1,400단어 이상 글 | 긴 글 수익화 |
+| 본문 끝, 관련 글 전 | 모든 충분한 길이의 글 | 검색 문제 해결 후 자연스러운 노출 |
+| sidebar 또는 side rail | desktop only, UX 확인 후 | desktop 추가 수익 |
+
+제한:
+
+- 광고가 콘텐츠보다 많아 보이면 안 된다.
+- 광고 위 label은 `Advertisements` 또는 `Sponsored links`만 사용한다.
+- "광고를 클릭해 주세요" 같은 문구를 절대 쓰지 않는다.
+- 다운로드 버튼, navigation, code copy button 근처에는 광고를 배치하지 않는다.
+- 본인 광고 클릭과 자동/반복 노출 유도는 금지한다.
+
+Auto ads 운영:
+
+- 첫 2주는 Auto ads를 낮은 밀도로 켜고 Search Console/GA4 체류 지표를 본다.
+- anchor ads는 mobile UX를 실제 기기에서 확인한 뒤 유지 여부를 결정한다.
+- vignette ads는 개발 문서 탐색 흐름을 끊을 수 있으므로 기본 off로 시작한다.
+- 수동 광고와 Auto ads를 함께 쓸 경우 중복 과밀 배치가 생기지 않는지 확인한다.
+
+## 10. 측정 지표
+
+주간 체크:
+
+- Search Console clicks, impressions, CTR, average position
+- GA4 page views, engaged sessions, country, device
+- AdSense page RPM, impression RPM, viewability, invalid traffic warnings
+- 상위 20개 글의 검색어
+- impression은 높지만 CTR이 낮은 글
+- position 8-20 사이에 있는 글
+
+성장 기준:
+
+| 기준 | 조치 |
+| --- | --- |
+| impression 높고 CTR 낮음 | title, excerpt, 첫 문단 개선 |
+| position 8-20 | 예시, FAQ, 내부 링크 보강 |
+| traffic 높고 RPM 낮음 | 광고 위치 A/B, 관련 글 연결 |
+| bounce 높음 | quick fix 위치 상향, code block 개선 |
+| 한국어만 유입 | 영어 제목과 slug 재점검 |
+
+## 11. 실행 체크리스트
+
+콘텐츠:
+
+- [x] P0 40쌍 작성 후보를 이 문서에서 issue 또는 작업 목록으로 분리: `planning/p0-content-queue.md`
+- [x] 신규 글 작성 템플릿과 품질 체크리스트 작성: `planning/post-production-template.md`
+- [x] 첫 번째 작성 스프린트용 P0 브리프 10개 작성: `planning/p0-content-briefs.md`
+- [x] P0 브리프 기반 첫 포스트 쌍 작성: `python-pip-install-failed`
+- [x] P0 브리프 기반 두 번째 포스트 쌍 작성: `python-no-module-named-pip`
+- [x] P0 브리프 기반 세 번째 포스트 쌍 작성: `python-venv-not-activating`
+- [x] P0 브리프 기반 네 번째 포스트 쌍 작성: `python-command-not-found-windows`
+- [x] P0 브리프 기반 다섯 번째 포스트 쌍 작성: `python-externally-managed-environment`
+- [x] P0 브리프 기반 여섯 번째 포스트 쌍 작성: `javascript-npm-err-eresolve`
+- [x] P0 브리프 기반 일곱 번째 포스트 쌍 작성: `node-cannot-find-module`
+- [x] P0 브리프 기반 여덟 번째 포스트 쌍 작성: `typescript-cannot-find-name`
+- [x] P0 브리프 기반 아홉 번째 포스트 쌍 작성: `typescript-property-does-not-exist`
+- [x] P0 브리프 기반 열 번째 포스트 쌍 작성: `typescript-tsconfig-paths-not-working`
+- [x] 각 글에 `lang`, `translation_id`, category, English tags 확인: `npm run validate:content-plan`
+- [ ] 신규 글마다 내부 링크 최소 2개 추가
+- [ ] Easy Labeling 글은 실제 화면과 launch link 포함
+
+기술:
+
+- [ ] 현재 build 오류 여부 확인
+- [x] 최근 글 front matter delimiter 점검 및 opening delimiter 누락 포스트 보정
+- [x] sitemap과 robots.txt 확인: `jekyll-sitemap` 설정 및 `robots.txt` 파일 존재 확인
+- [x] AdSense script include 추가: `_includes/head/custom.html`
+- [x] in-article ad include 추가: `_includes/ad-content.html`, `_includes/ad-inarticle.html`
+- [x] 광고가 짧은 글과 archive page에 과도하게 나오지 않게 제한: posts only, `min_words_for_ads`, `page.ads != false`
+- [x] 콘텐츠/광고/계획 검증 스크립트 추가: `npm run validate:content-plan`
+
+운영:
+
+- [x] Search Console 성과표 작성: `planning/weekly-performance-review-template.md`
+- [x] AdSense 활성화 체크리스트 작성: `planning/adsense-rollout-checklist.md`
+- [ ] 2주 단위로 키워드 우선순위 재정렬
+- [ ] 4주 단위로 title/excerpt 개선
+- [ ] 8주 단위로 pillar page 보강
+
+## 12. 다음 작업 순서
+
+1. 현재 Jekyll build를 먼저 확인한다.
+2. front matter가 유효하지 않은 글이 있으면 새 글 작성 전에 수정 기준을 만든다.
+3. AdSense script와 in-article include를 작은 변경으로 추가한다.
+4. P0 키워드 중 5쌍을 먼저 작성해 품질 표준을 확정한다.
+5. Search Console 데이터가 쌓이면 P0/P1 우선순위를 실제 query 기준으로 다시 정렬한다.

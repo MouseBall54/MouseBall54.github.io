@@ -34,6 +34,10 @@ Each troubleshooting post is structured for clarity:
 
 Beyond troubleshooting and our current software, we plan to expand this site into a broader platform for developer tools and resources. Stay tuned for future projects!
 
+The current traffic and monetization roadmap is documented in [planning/weekly-100k-traffic-master-plan.md](planning/weekly-100k-traffic-master-plan.md).
+
+Run `npm run validate:content-plan` to check paired posts, planning files, and AdSense setup before publishing new content.
+
 ---
 
 We hope you find our content and tools valuable. Happy coding!

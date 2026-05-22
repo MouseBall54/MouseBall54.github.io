@@ -1,0 +1,17 @@
+{% assign adsense = site.adsense %}
+{% assign ad_slot = include.slot %}
+
+{% if adsense.enabled and adsense.client and ad_slot and page.ads != false %}
+  <div class="ad-slot ad-slot--{{ include.placement | default: 'in-article' }}" aria-label="Advertisements">
+    <span class="ad-slot__label">Advertisements</span>
+    <ins class="adsbygoogle"
+         style="display:block; text-align:center;"
+         data-ad-client="{{ adsense.client }}"
+         data-ad-slot="{{ ad_slot }}"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+  </div>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+{% endif %}
