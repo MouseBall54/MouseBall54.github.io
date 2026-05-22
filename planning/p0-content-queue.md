@@ -19,7 +19,7 @@ Status values:
 | review | python-venv-not-activating | python venv not activating | Python 가상환경이 활성화되지 않을 때 | Python venv Not Activating |
 | review | python-command-not-found-windows | python command not found windows | Windows에서 `python` 명령어가 안 될 때 | Python Command Not Found on Windows |
 | review | python-externally-managed-environment | externally-managed-environment | `externally-managed-environment` 해결 | Fix externally-managed-environment in Python |
-| todo | python-vscode-interpreter-not-showing | VS Code Python interpreter not showing | VS Code Python interpreter 선택 문제 | VS Code Python Interpreter Not Showing |
+| review | vscode-python-interpreter-not-showing | VS Code Python interpreter not showing | VS Code Python interpreter 선택 문제 | VS Code Python Interpreter Not Showing |
 | todo | python-pytorch-cuda-install-error | PyTorch CUDA install error | PyTorch CUDA 설치 오류 해결 | Fix PyTorch CUDA Installation Errors |
 | todo | python-fastapi-422 | FastAPI 422 | FastAPI `422 Unprocessable Entity` 해결 | Fix FastAPI 422 Unprocessable Entity |
 | todo | python-pydantic-validationerror | Pydantic ValidationError | Pydantic validation error 읽는 법 | How to Read Pydantic ValidationError |
@@ -46,8 +46,8 @@ Status values:
 | --- | --- | --- | --- | --- |
 | review | github-actions-build-failed | GitHub Actions build failed | GitHub Actions build failed 해결 | How to Fix GitHub Actions Build Failed |
 | review | github-pages-jekyll-build-failed | GitHub Pages Jekyll build failed | GitHub Pages Jekyll build 실패 | Fix GitHub Pages Jekyll Build Failed |
-| todo | git-fatal-authentication-failed | git fatal authentication failed | `fatal: authentication failed` 해결 | Fix Git fatal authentication failed |
-| todo | git-gh006-protected-branch | GH006 protected branch | `GH006 protected branch hook declined` 해결 | Fix GH006 Protected Branch Hook Declined |
+| review | git-fatal-authentication-failed | git fatal authentication failed | `fatal: authentication failed` 해결 | Fix Git fatal authentication failed |
+| review | git-gh006-protected-branch | GH006 protected branch | `GH006 protected branch hook declined` 해결 | Fix GH006 Protected Branch Hook Declined |
 | todo | git-rebase-conflict | git rebase conflict | rebase conflict 안전하게 해결 | How to Resolve Git Rebase Conflicts |
 | todo | git-non-fast-forward | git non-fast-forward | `non-fast-forward` push rejected 해결 | Fix Git Non-Fast-Forward Push Rejected |
 | todo | git-lfs-quota-exceeded | Git LFS quota exceeded | Git LFS quota exceeded 해결 | Fix Git LFS Quota Exceeded |
@@ -59,10 +59,10 @@ Status values:
 
 | Status | Translation ID | Primary keyword | Korean title direction | English title direction |
 | --- | --- | --- | --- | --- |
-| todo | spring-boot-port-8080-already-in-use | Spring Boot port 8080 already in use | Spring Boot port 8080 already in use 해결 | Fix Spring Boot Port 8080 Already in Use |
-| todo | gradle-build-failed | Gradle build failed | Gradle build failed 해결 | How to Fix Gradle Build Failed |
-| todo | maven-dependency-not-found | Maven dependency not found | Maven dependency not found 해결 | Fix Maven Dependency Not Found |
-| todo | java-unsupported-class-file-major-version | unsupported class file major version | Unsupported class file major version 해결 | Fix Unsupported Class File Major Version |
+| review | spring-boot-port-8080-already-in-use | Spring Boot port 8080 already in use | Spring Boot port 8080 already in use 해결 | Fix Spring Boot Port 8080 Already in Use |
+| review | gradle-build-failed | Gradle build failed | Gradle build failed 해결 | How to Fix Gradle Build Failed |
+| review | maven-dependency-not-found | Maven dependency not found | Maven dependency not found 해결 | Fix Maven Dependency Not Found |
+| review | java-unsupported-class-file-major-version | unsupported class file major version | Unsupported class file major version 해결 | Fix Unsupported Class File Major Version |
 | todo | lombok-not-working-intellij | Lombok not working IntelliJ | Lombok이 IDE에서 동작하지 않을 때 | Lombok Not Working in IntelliJ |
 | todo | spring-boot-bean-could-not-be-found | Spring Boot bean could not be found | Spring Boot bean could not be found 해결 | Fix Spring Boot Bean Could Not Be Found |
 | todo | jpa-lazyinitializationexception | LazyInitializationException | JPA lazy initialization exception 해결 | Fix LazyInitializationException in JPA |
@@ -74,8 +74,8 @@ Status values:
 
 | Status | Translation ID | Primary keyword | Korean title direction | English title direction |
 | --- | --- | --- | --- | --- |
-| todo | yolo-label-format | YOLO label format | YOLO label format 읽는 법 | How to Read YOLO Label Format |
-| todo | coco-to-yolo-conversion | COCO to YOLO | COCO to YOLO 변환 실수 | COCO to YOLO Conversion Mistakes |
-| todo | image-labeling-classes | image labeling classes | 이미지 라벨링 클래스 관리법 | How to Manage Classes for Image Labeling |
-| todo | local-image-labeling-workflow | local image labeling | 로컬 이미지 라벨링 워크플로우 | Local Image Labeling Workflow |
-| todo | easy-labeling-yolo-dataset | Easy Labeling YOLO | Easy Labeling으로 YOLO 데이터셋 만들기 | Build a YOLO Dataset with Easy Labeling |
+| review | yolo-label-format | YOLO label format | YOLO label format 읽는 법 | How to Read YOLO Label Format |
+| review | coco-to-yolo-conversion | COCO to YOLO | COCO to YOLO 변환 실수 | COCO to YOLO Conversion Mistakes |
+| review | image-labeling-classes | image labeling classes | 이미지 라벨링 클래스 관리법 | How to Manage Classes for Image Labeling |
+| review | local-image-labeling-workflow | local image labeling | 로컬 이미지 라벨링 워크플로우 | Local Image Labeling Workflow |
+| review | easy-labeling-yolo-dataset | Easy Labeling YOLO | Easy Labeling으로 YOLO 데이터셋 만들기 | Build a YOLO Dataset with Easy Labeling |

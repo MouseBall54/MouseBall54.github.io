@@ -87,13 +87,14 @@ Check each item before enabling ads broadly:
 
 ## Auto Ads Policy
 
-Start with manual ads. Test Auto ads only after manual placements are stable.
+Auto ads are currently enabled with the provided publisher code because manual slot IDs are not available yet.
+Keep density conservative until manual page review is complete.
 
 Recommended first Auto ads test:
 
 - Auto ads: on
 - In-page formats: low density
-- Anchor ads: mobile only after manual review
+- Anchor ads: off until mobile reading is reviewed
 - Vignette ads: off at first
 - Side rail ads: desktop only, if it does not cover reading
 

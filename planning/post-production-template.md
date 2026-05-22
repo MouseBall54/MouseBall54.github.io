@@ -139,11 +139,13 @@ Start with the safest fix.
 - [ ] The fix is verified with a command or observable result.
 - [ ] Related posts include 2-4 internal links.
 - [ ] Images have meaningful alt text if images are used.
-- [ ] Build is checked with `bundle exec jekyll build --trace` when Bundler is available.
+- [ ] `npm run validate:content-plan` passes.
+- [ ] Full Jekyll build is skipped during bulk writing unless explicitly requested.
 
 ## Ad Placement Notes
 
 - Manual in-article ads are controlled by `_includes/ad-content.html`.
-- Ads render only when `site.adsense.enabled` is true and slot IDs exist in `_config.yml`.
+- Auto ads load when `site.adsense.enabled` and `site.adsense.auto_ads` are true.
+- Manual in-article ads render only when slot IDs exist in `_config.yml`.
 - Set `ads: false` in front matter for short posts, legal pages, search pages, or pages where ads would interrupt the task.
 - Do not place ads near download links, navigation links, or code copy buttons.
