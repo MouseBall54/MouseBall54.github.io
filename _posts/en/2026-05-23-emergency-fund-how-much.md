@@ -6,6 +6,7 @@ title: >
 seo_title: >
   How Much Emergency Fund Do You Need?
 date: 2026-05-23T23:59:55+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: en
 translation_id: emergency-fund-how-much
 header:

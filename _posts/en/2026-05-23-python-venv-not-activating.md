@@ -6,6 +6,7 @@ title: >
 seo_title: >
   Python venv Not Activating: How to Fix It
 date: 2026-05-23T11:00:00+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: en
 translation_id: python-venv-not-activating
 header:

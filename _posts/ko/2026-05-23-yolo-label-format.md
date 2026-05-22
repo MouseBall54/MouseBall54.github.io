@@ -6,6 +6,7 @@ title: >
 seo_title: >
   YOLO Label Format 읽는 법
 date: 2026-05-23T23:59:59+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: yolo-label-format
 header:

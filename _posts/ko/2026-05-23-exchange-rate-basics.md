@@ -6,6 +6,7 @@ title: >
 seo_title: >
   환율이 오르면 생기는 일
 date: 2026-05-23T23:59:59+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: exchange-rate-basics
 header:

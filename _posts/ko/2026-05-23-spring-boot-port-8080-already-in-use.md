@@ -6,6 +6,7 @@ title: >
 seo_title: >
   Spring Boot port 8080 already in use 해결
 date: 2026-05-23T23:59:57+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: spring-boot-port-8080-already-in-use
 header:

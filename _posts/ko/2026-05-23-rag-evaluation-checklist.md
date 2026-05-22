@@ -6,6 +6,7 @@ title: >
 seo_title: >
   RAG 답변 품질 평가 체크리스트
 date: 2026-05-23T23:59:56+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: rag-evaluation-checklist
 header:

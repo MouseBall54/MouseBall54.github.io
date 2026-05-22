@@ -6,6 +6,7 @@ title: >
 seo_title: >
   Fix Git fatal Authentication failed
 date: 2026-05-23T23:59:56+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: en
 translation_id: git-fatal-authentication-failed
 header:

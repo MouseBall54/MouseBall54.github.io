@@ -6,6 +6,7 @@ title: >
 seo_title: >
   How to Fix npm ERR ERESOLVE
 date: 2026-05-23T14:00:00+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: en
 translation_id: javascript-npm-err-eresolve
 header:

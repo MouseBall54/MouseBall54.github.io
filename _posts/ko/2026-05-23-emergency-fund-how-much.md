@@ -6,6 +6,7 @@ title: >
 seo_title: >
   비상금은 얼마가 적당할까?
 date: 2026-05-23T23:59:55+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: emergency-fund-how-much
 header:

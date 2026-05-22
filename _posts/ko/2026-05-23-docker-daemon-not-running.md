@@ -6,6 +6,7 @@ title: >
 seo_title: >
   Docker daemon not running 해결
 date: 2026-05-23T23:59:58+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: docker-daemon-not-running
 header:

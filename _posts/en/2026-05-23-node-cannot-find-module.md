@@ -6,6 +6,7 @@ title: >
 seo_title: >
   Fix Cannot Find Module in Node.js
 date: 2026-05-23T15:00:00+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: en
 translation_id: node-cannot-find-module
 header:

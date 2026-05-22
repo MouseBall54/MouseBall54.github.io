@@ -6,6 +6,7 @@ title: >
 seo_title: >
   오답노트 시스템 만드는 법
 date: 2026-05-23T23:59:50+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: exam-mistake-note-system
 header:

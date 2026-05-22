@@ -6,6 +6,7 @@ title: >
 seo_title: >
   tsconfig Paths Not Working: How to Fix Path Aliases
 date: 2026-05-23T18:00:00+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: en
 translation_id: typescript-tsconfig-paths-not-working
 header:

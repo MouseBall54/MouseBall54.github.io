@@ -6,6 +6,7 @@ title: >
 seo_title: >
   AI agent workflow 2026: 자동화보다 검증이 먼저입니다
 date: 2026-05-23T23:00:00+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: ai-agent-workflow-2026
 header:

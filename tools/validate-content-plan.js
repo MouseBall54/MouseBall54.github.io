@@ -470,6 +470,18 @@ function validatePosts() {
         errors.push(`${relativePath}: campaign post must include seo_title`);
       }
 
+      if (!("last_modified_at" in frontMatter)) {
+        errors.push(`${relativePath}: campaign post must include last_modified_at`);
+      } else {
+        const publishedAt = Date.parse(normalizeYamlValue(frontMatter.date));
+        const modifiedAt = Date.parse(normalizeYamlValue(frontMatter.last_modified_at));
+        if (Number.isNaN(modifiedAt)) {
+          errors.push(`${relativePath}: campaign last_modified_at should be a valid ISO date`);
+        } else if (!Number.isNaN(publishedAt) && modifiedAt < publishedAt) {
+          errors.push(`${relativePath}: campaign last_modified_at should not be earlier than date`);
+        }
+      }
+
       const seoTitle = extractYamlScalarOrBlock(frontMatterText, "seo_title");
       const seoDescription = extractYamlScalarOrBlock(frontMatterText, "seo_description");
       const seoTitleMin = expectedLang === "ko" ? 10 : 20;

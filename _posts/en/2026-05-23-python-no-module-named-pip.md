@@ -6,6 +6,7 @@ title: >
 seo_title: >
   How to Fix No module named pip in Python
 date: 2026-05-23T10:00:00+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: en
 translation_id: python-no-module-named-pip
 header:

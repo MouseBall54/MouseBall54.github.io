@@ -6,6 +6,7 @@ title: >
 seo_title: >
   Unsupported Class File Major Version
 date: 2026-05-23T23:59:59+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: en
 translation_id: java-unsupported-class-file-major-version
 header:

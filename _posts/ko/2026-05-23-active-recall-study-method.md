@@ -6,6 +6,7 @@ title: >
 seo_title: >
   Active recall 공부법: 다시 읽는 시간을 줄이고 더 오래 기억하는 방법
 date: 2026-05-23T23:20:00+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: active-recall-study-method
 header:

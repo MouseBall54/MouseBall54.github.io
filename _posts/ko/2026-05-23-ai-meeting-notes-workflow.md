@@ -6,6 +6,7 @@ title: >
 seo_title: >
   AI 회의록 자동화 워크플로우
 date: 2026-05-23T23:59:59+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: ai-meeting-notes-workflow
 header:

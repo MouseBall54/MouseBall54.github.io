@@ -6,6 +6,7 @@ title: >
 seo_title: >
   Windows에서 python 명령어가 안 될 때 해결 방법
 date: 2026-05-23T12:00:00+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: python-command-not-found-windows
 header:

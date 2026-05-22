@@ -6,6 +6,7 @@ title: >
 seo_title: >
   Active Recall Study Method: How to Remember More with Less Rereading
 date: 2026-05-23T23:20:00+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: en
 translation_id: active-recall-study-method
 header:

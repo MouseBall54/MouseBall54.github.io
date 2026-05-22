@@ -6,6 +6,7 @@ title: >
 seo_title: >
   Maven dependency not found 해결
 date: 2026-05-23T23:59:59+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: maven-dependency-not-found
 header:

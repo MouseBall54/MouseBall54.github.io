@@ -6,6 +6,7 @@ title: >
 seo_title: >
   Fix Property Does Not Exist on Type
 date: 2026-05-23T17:00:00+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: en
 translation_id: typescript-property-does-not-exist
 header:

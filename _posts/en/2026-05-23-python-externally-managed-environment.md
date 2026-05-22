@@ -6,6 +6,7 @@ title: >
 seo_title: >
   How to Fix externally-managed-environment in Python
 date: 2026-05-23T13:00:00+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: en
 translation_id: python-externally-managed-environment
 header:

@@ -6,6 +6,7 @@ title: >
 seo_title: >
   Recession Indicators Explained
 date: 2026-05-23T23:59:40+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: en
 translation_id: recession-indicators-basics
 header:

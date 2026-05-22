@@ -6,6 +6,7 @@ title: >
 seo_title: >
   복리 계산 예시: 돈이 돈을 버는 구조를 숫자로 이해하기
 date: 2026-05-23T23:40:00+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: compound-interest-example
 header:

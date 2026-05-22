@@ -6,6 +6,7 @@ title: >
 seo_title: >
   ETF와 펀드 차이: 초보자용 비교
 date: 2026-05-23T23:59:00+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: etf-vs-mutual-fund
 header:

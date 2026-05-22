@@ -6,6 +6,7 @@ title: >
 seo_title: >
   Prompt engineering 체크리스트
 date: 2026-05-23T23:59:10+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: prompt-engineering-checklist
 header:

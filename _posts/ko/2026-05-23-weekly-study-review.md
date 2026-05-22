@@ -6,6 +6,7 @@ title: >
 seo_title: >
   주간 공부 회고 템플릿
 date: 2026-05-23T23:59:30+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: weekly-study-review
 header:

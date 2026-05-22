@@ -6,6 +6,7 @@ title: >
 seo_title: >
   Spaced repetition 복습 일정
 date: 2026-05-23T23:58:00+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: spaced-repetition-schedule
 header:

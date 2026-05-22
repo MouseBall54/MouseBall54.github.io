@@ -6,6 +6,7 @@ title: >
 seo_title: >
   AI 검색 시대의 글 작성 기준
 date: 2026-05-23T23:59:50+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: ai-search-optimization
 header:

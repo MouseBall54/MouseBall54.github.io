@@ -6,6 +6,7 @@ title: >
 seo_title: >
   TypeScript Property does not exist on type 오류 해결 방법
 date: 2026-05-23T17:00:00+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: typescript-property-does-not-exist
 header:

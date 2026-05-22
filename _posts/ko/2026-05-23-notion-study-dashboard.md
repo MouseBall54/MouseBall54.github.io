@@ -6,6 +6,7 @@ title: >
 seo_title: >
   Notion 공부 대시보드 구성
 date: 2026-05-23T23:59:55+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: notion-study-dashboard
 header:

@@ -6,6 +6,7 @@ title: >
 seo_title: >
   Build a YOLO Dataset with Easy Labeling
 date: 2026-05-23T23:59:59+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: en
 translation_id: easy-labeling-yolo-dataset
 header:

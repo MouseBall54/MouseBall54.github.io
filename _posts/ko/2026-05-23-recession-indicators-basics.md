@@ -6,6 +6,7 @@ title: >
 seo_title: >
   경기 침체 지표 쉽게 읽기
 date: 2026-05-23T23:59:40+09:00
+last_modified_at: 2026-05-23T23:59:59+09:00
 lang: ko
 translation_id: recession-indicators-basics
 header:
