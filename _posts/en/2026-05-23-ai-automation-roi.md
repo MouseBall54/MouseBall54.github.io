@@ -193,3 +193,17 @@ Start with high frequency, high verification, low risk.
 
 The best AI automation ROI comes from repeatable work with clear verification.
 If you cannot measure the baseline or the output quality, build a smaller pilot first.
+
+## FAQ
+
+### When should I use this guide?
+
+Use it before adopting a new AI workflow, especially when the task is repeated often and the output can be reviewed against a clear standard.
+
+### What should beginners verify first?
+
+Start with the input data, evaluation rule, failure mode, and human review path. A useful AI workflow needs verification before scale.
+
+### Which keywords should I search next?
+
+Search for "How to Calculate AI Automation ROI Before You Build the Workflow" together with evaluation, workflow, guardrail, structured output, and agent design keywords.

@@ -225,3 +225,17 @@ Before you let an AI coding agent work on a real repository, confirm this:
 AI coding agents are not a replacement for engineering judgment.
 They are a way to move routine implementation faster while making review evidence easier to produce.
 The teams that benefit most are the teams that make the agent's work small, observable, and reversible.
+
+## FAQ
+
+### When should I use this guide?
+
+Use it before adopting a new AI workflow, especially when the task is repeated often and the output can be reviewed against a clear standard.
+
+### What should beginners verify first?
+
+Start with the input data, evaluation rule, failure mode, and human review path. A useful AI workflow needs verification before scale.
+
+### Which keywords should I search next?
+
+Search for "AI Coding Agent Workflow: How to Use Agents Without Losing Code Quality" together with evaluation, workflow, guardrail, structured output, and agent design keywords.

@@ -111,6 +111,20 @@ If you have future expenses in another currency, track exchange rate risk early.
 - [ETF vs Mutual Fund](/en_Economy/etf-vs-mutual-fund/)
 - [Emergency Fund Guide](/en_Economy/emergency-fund-how-much/)
 
+## FAQ
+
+### When should I use this guide?
+
+Use it to understand a personal finance concept before making a budget, savings plan, or comparison. This article is educational and is not personal financial advice.
+
+### What should beginners verify first?
+
+Start by writing the assumptions: time horizon, cash flow, fees, taxes, inflation, and risk tolerance. The conclusion changes when those assumptions change.
+
+### Which keywords should I search next?
+
+Search for "Exchange Rate Basics: Why Currencies Rise and Fall" together with personal finance, interest rate, inflation, budget, risk, and calculator keywords.
+
 ## Sources
 
 - Bank of England, What is an exchange rate?: https://www.bankofengland.co.uk/explainers/what-is-an-exchange-rate

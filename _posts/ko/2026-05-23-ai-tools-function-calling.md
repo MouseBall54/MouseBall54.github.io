@@ -204,6 +204,20 @@ Review gate는 customer experience를 보호합니다.
 - [AI agent workflow 2026](/ko_AI_Trends/ai-agent-workflow-2026/)
 - [Prompt engineering 체크리스트](/ko_AI_Trends/prompt-engineering-checklist/)
 
+## 자주 묻는 질문
+
+### 이 글은 언제 먼저 적용하면 좋나요?
+
+새 도구를 바로 도입하기 전, 반복 업무와 검증 기준이 이미 있는지 확인할 때 먼저 적용하면 좋습니다.
+
+### 초보자가 가장 먼저 확인할 부분은 무엇인가요?
+
+처음에는 모델 성능보다 입력 데이터, 검증 기준, 실패 시 복구 방법을 먼저 정하세요. AI workflow는 자동화보다 검증 설계가 먼저입니다.
+
+### 더 찾아볼 때 어떤 키워드를 쓰면 좋나요?
+
+추가 검색할 때는 "AI tool calling과 function calling 차이: 개발자가 알아야 할 실전 기준" 같은 핵심 문구와 evaluation, workflow, guardrail, structured output, agent 같은 실무 키워드를 조합해 보세요.
+
 ## 참고 자료
 
 - OpenAI tools guide: https://developers.openai.com/api/docs/guides/tools

@@ -138,6 +138,20 @@ If you have variable-rate debt, rising rates matter differently than if you have
 - [Emergency Fund Guide](/en_Economy/emergency-fund-how-much/)
 - [Compound Interest Example](/en_Economy/compound-interest-example/)
 
+## FAQ
+
+### When should I use this guide?
+
+Use it to understand a personal finance concept before making a budget, savings plan, or comparison. This article is educational and is not personal financial advice.
+
+### What should beginners verify first?
+
+Start by writing the assumptions: time horizon, cash flow, fees, taxes, inflation, and risk tolerance. The conclusion changes when those assumptions change.
+
+### Which keywords should I search next?
+
+Search for "Interest Rates and Inflation Explained: Why Central Banks Raise or Cut Rates" together with personal finance, interest rate, inflation, budget, risk, and calculator keywords.
+
 ## Sources
 
 - Federal Reserve, Monetary Policy: https://www.federalreserve.gov/monetarypolicy.htm

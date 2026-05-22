@@ -209,3 +209,17 @@ The screen below shows the basic flow: open an image, draw a box, and assign a c
 
 COCO to YOLO conversion is simple only when the mapping is explicit.
 Make the class map and box formula visible, then validate with real images.
+
+## FAQ
+
+### When should I use this guide?
+
+Use it when you need a repeatable labeling workflow, cleaner dataset handoff, or clearer review rules for image annotation.
+
+### What should beginners verify first?
+
+Start with class definitions, positive and negative examples, review criteria, and export format. The tool works best when the labeling rule is explicit.
+
+### Which keywords should I search next?
+
+Search for "COCO to YOLO Conversion Mistakes: How to Avoid Broken Object Detection Labels" together with image labeling, dataset annotation, YOLO, COCO, review workflow, and labeling quality keywords.

@@ -138,6 +138,20 @@ Keep the template short enough that you can apply it repeatedly.
 - [AI Tool Calling vs Function Calling](/en_AI_Trends/ai-tools-function-calling/)
 - [OpenAI Responses API Practical Guide](/en_AI_Trends/openai-responses-api-guide/)
 
+## FAQ
+
+### When should I use this guide?
+
+Use it before adopting a new AI workflow, especially when the task is repeated often and the output can be reviewed against a clear standard.
+
+### What should beginners verify first?
+
+Start with the input data, evaluation rule, failure mode, and human review path. A useful AI workflow needs verification before scale.
+
+### Which keywords should I search next?
+
+Search for "RAG Evaluation Checklist: How to Measure Retrieval and Answer Quality" together with evaluation, workflow, guardrail, structured output, and agent design keywords.
+
 ## Sources
 
 - OpenAI Evals guide: https://platform.openai.com/docs/guides/evals

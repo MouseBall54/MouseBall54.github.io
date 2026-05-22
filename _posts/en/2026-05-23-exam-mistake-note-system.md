@@ -167,6 +167,20 @@ Related technical posts:
 - Keeping solved mistakes in the active list.
 - Waiting until exam week to build the system.
 
+## FAQ
+
+### When should I use this guide?
+
+Use it when you need to turn reading or watching into output you can recall, explain, or solve later.
+
+### What should beginners verify first?
+
+Start with one measurable output: a solved problem, a recalled definition, a short explanation, or a corrected mistake note.
+
+### Which keywords should I search next?
+
+Search for "How to Build a Mistake Note System for Exams and Skill Practice" together with active recall, spaced repetition, study plan, mistake note, and exam preparation keywords.
+
 ## Sources
 
 - Dunlosky et al., *Improving Students' Learning With Effective Learning Techniques*: https://pubmed.ncbi.nlm.nih.gov/26173288/

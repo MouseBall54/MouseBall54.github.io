@@ -241,6 +241,20 @@ If you are building agents, connect this with the broader workflow design:
 - [Active Recall Study Method](/en_Study/active-recall-study-method/)
 - [How to Fix GitHub Actions Build Failed](/en_Troubleshooting/github-actions-build-failed/)
 
+## FAQ
+
+### When should I use this guide?
+
+Use it before adopting a new AI workflow, especially when the task is repeated often and the output can be reviewed against a clear standard.
+
+### What should beginners verify first?
+
+Start with the input data, evaluation rule, failure mode, and human review path. A useful AI workflow needs verification before scale.
+
+### Which keywords should I search next?
+
+Search for "OpenAI Responses API Practical Guide: Inputs, Tools, and Structured Outputs" together with evaluation, workflow, guardrail, structured output, and agent design keywords.
+
 ## Sources
 
 - OpenAI Responses API reference: https://platform.openai.com/docs/api-reference/responses

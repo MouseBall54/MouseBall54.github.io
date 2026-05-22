@@ -193,6 +193,20 @@ Review note: add weak cards to tomorrow's list.
 - [Spaced Repetition Schedule](/en_Study/spaced-repetition-schedule/)
 - [Prompt Engineering Checklist](/en_AI_Trends/prompt-engineering-checklist/)
 
+## FAQ
+
+### When should I use this guide?
+
+Use it when you need to turn reading or watching into output you can recall, explain, or solve later.
+
+### What should beginners verify first?
+
+Start with one measurable output: a solved problem, a recalled definition, a short explanation, or a corrected mistake note.
+
+### Which keywords should I search next?
+
+Search for "Pomodoro vs Deep Work: How to Use Focus Blocks Without Burning Out" together with active recall, spaced repetition, study plan, mistake note, and exam preparation keywords.
+
 ## Sources
 
 - The Pomodoro Technique official site: https://www.pomodorotechnique.com/

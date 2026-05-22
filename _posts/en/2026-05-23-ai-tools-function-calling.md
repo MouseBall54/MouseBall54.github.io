@@ -201,6 +201,20 @@ The review gate protects the customer experience.
 - [AI Agent Workflow 2026](/en_AI_Trends/ai-agent-workflow-2026/)
 - [Prompt Engineering Checklist](/en_AI_Trends/prompt-engineering-checklist/)
 
+## FAQ
+
+### When should I use this guide?
+
+Use it before adopting a new AI workflow, especially when the task is repeated often and the output can be reviewed against a clear standard.
+
+### What should beginners verify first?
+
+Start with the input data, evaluation rule, failure mode, and human review path. A useful AI workflow needs verification before scale.
+
+### Which keywords should I search next?
+
+Search for "AI Tool Calling vs Function Calling: What Developers Should Know" together with evaluation, workflow, guardrail, structured output, and agent design keywords.
+
 ## Sources
 
 - OpenAI tools guide: https://developers.openai.com/api/docs/guides/tools

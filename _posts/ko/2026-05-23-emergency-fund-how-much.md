@@ -202,6 +202,20 @@ Time needed: 6 months
 - [복리 계산 예시](/ko_Economy/compound-interest-example/)
 - [ETF와 펀드 차이](/ko_Economy/etf-vs-mutual-fund/)
 
+## 자주 묻는 질문
+
+### 이 글은 언제 먼저 적용하면 좋나요?
+
+개인 재무 개념을 정리하거나 가계 예산, 금리, 환율, 복리 같은 기초 판단 기준을 세울 때 참고하기 좋습니다. 이 글은 교육용이며 투자 권유가 아닙니다.
+
+### 초보자가 가장 먼저 확인할 부분은 무엇인가요?
+
+처음에는 기대수익률보다 현금흐름, 기간, 위험 감내도, 수수료, 세금 같은 가정을 먼저 적어야 합니다.
+
+### 더 찾아볼 때 어떤 키워드를 쓰면 좋나요?
+
+추가 검색할 때는 "비상금은 얼마가 적당할까? 현실적인 Emergency Fund 기준" 같은 핵심 문구와 personal finance, interest rate, inflation, budget, risk 같은 기초 키워드를 조합해 보세요.
+
 ## 참고 자료
 
 - Consumer.gov, Saving Money: https://consumer.gov/managing-your-money/saving-money

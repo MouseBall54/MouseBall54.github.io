@@ -220,3 +220,17 @@ names:
 
 좋은 YOLO dataset은 image가 많이 들어 있는 folder가 아닙니다.
 첫 image부터 training run까지 class definition, label file, export folder가 일관되게 유지되는 반복 가능한 labeling process입니다.
+
+## 자주 묻는 질문
+
+### 이 글은 언제 먼저 적용하면 좋나요?
+
+데이터셋을 만들거나 라벨 품질을 일정하게 유지해야 할 때 먼저 적용하면 좋습니다.
+
+### 초보자가 가장 먼저 확인할 부분은 무엇인가요?
+
+처음에는 클래스 정의, 예시 이미지, 검수 기준, 파일 내보내기 형식을 먼저 정하세요. 도구보다 라벨 기준이 먼저입니다.
+
+### 더 찾아볼 때 어떤 키워드를 쓰면 좋나요?
+
+추가 검색할 때는 "Easy Labeling으로 YOLO 데이터셋 만들기: 이미지에서 학습 폴더까지" 같은 핵심 문구와 image labeling, dataset, annotation workflow, YOLO, COCO 같은 키워드를 붙이면 도움이 됩니다.

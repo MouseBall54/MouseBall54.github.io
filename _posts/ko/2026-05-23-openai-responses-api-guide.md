@@ -240,6 +240,20 @@ Agent workflow를 만든다면 아래 글과 함께 보는 것이 좋습니다.
 - [Active recall 공부법](/ko_Study/active-recall-study-method/)
 - [GitHub Actions build failed 해결 방법](/ko_Troubleshooting/github-actions-build-failed/)
 
+## 자주 묻는 질문
+
+### 이 글은 언제 먼저 적용하면 좋나요?
+
+새 도구를 바로 도입하기 전, 반복 업무와 검증 기준이 이미 있는지 확인할 때 먼저 적용하면 좋습니다.
+
+### 초보자가 가장 먼저 확인할 부분은 무엇인가요?
+
+처음에는 모델 성능보다 입력 데이터, 검증 기준, 실패 시 복구 방법을 먼저 정하세요. AI workflow는 자동화보다 검증 설계가 먼저입니다.
+
+### 더 찾아볼 때 어떤 키워드를 쓰면 좋나요?
+
+추가 검색할 때는 "OpenAI Responses API 사용 흐름: input, tools, structured output 정리" 같은 핵심 문구와 evaluation, workflow, guardrail, structured output, agent 같은 실무 키워드를 조합해 보세요.
+
 ## 참고 자료
 
 - OpenAI Responses API reference: https://platform.openai.com/docs/api-reference/responses

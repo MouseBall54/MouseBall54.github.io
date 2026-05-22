@@ -190,6 +190,20 @@ Most people are surprised by one category the first time they track it.
 - [ETF vs Mutual Fund](/en_Economy/etf-vs-mutual-fund/)
 - [Pomodoro vs Deep Work](/en_Study/pomodoro-deep-work/)
 
+## FAQ
+
+### When should I use this guide?
+
+Use it to understand a personal finance concept before making a budget, savings plan, or comparison. This article is educational and is not personal financial advice.
+
+### What should beginners verify first?
+
+Start by writing the assumptions: time horizon, cash flow, fees, taxes, inflation, and risk tolerance. The conclusion changes when those assumptions change.
+
+### Which keywords should I search next?
+
+Search for "50/30/20 Budget Rule: A Simple Way to Split Monthly Income" together with personal finance, interest rate, inflation, budget, risk, and calculator keywords.
+
 ## Sources
 
 - Consumer.gov, Making a Budget: https://consumer.gov/managing-your-money/making-budget

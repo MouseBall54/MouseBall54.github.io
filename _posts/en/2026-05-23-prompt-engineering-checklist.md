@@ -260,6 +260,20 @@ Related posts:
 - [AI Agent Workflow 2026](/en_AI_Trends/ai-agent-workflow-2026/)
 - [Spaced Repetition Schedule](/en_Study/spaced-repetition-schedule/)
 
+## FAQ
+
+### When should I use this guide?
+
+Use it before adopting a new AI workflow, especially when the task is repeated often and the output can be reviewed against a clear standard.
+
+### What should beginners verify first?
+
+Start with the input data, evaluation rule, failure mode, and human review path. A useful AI workflow needs verification before scale.
+
+### Which keywords should I search next?
+
+Search for "Prompt Engineering Checklist: Write Better AI Prompts with a Repeatable Structure" together with evaluation, workflow, guardrail, structured output, and agent design keywords.
+
 ## Sources
 
 - OpenAI Prompt engineering guide: https://developers.openai.com/api/docs/guides/prompt-engineering

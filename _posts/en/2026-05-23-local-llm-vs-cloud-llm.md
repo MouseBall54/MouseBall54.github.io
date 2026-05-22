@@ -154,6 +154,20 @@ Use a task-specific test set.
 - [RAG Evaluation Checklist](/en_AI_Trends/rag-evaluation-checklist/)
 - [AI Tool Calling vs Function Calling](/en_AI_Trends/ai-tools-function-calling/)
 
+## FAQ
+
+### When should I use this guide?
+
+Use it before adopting a new AI workflow, especially when the task is repeated often and the output can be reviewed against a clear standard.
+
+### What should beginners verify first?
+
+Start with the input data, evaluation rule, failure mode, and human review path. A useful AI workflow needs verification before scale.
+
+### Which keywords should I search next?
+
+Search for "Local LLM vs Cloud LLM: How to Choose the Right AI Deployment" together with evaluation, workflow, guardrail, structured output, and agent design keywords.
+
 ## Sources
 
 - NIST AI Risk Management Framework: https://www.nist.gov/itl/ai-risk-management-framework

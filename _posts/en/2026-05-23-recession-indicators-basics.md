@@ -219,3 +219,17 @@ When you read recession news, ask:
 The best recession analysis is calm.
 It does not ignore warning signs, but it also does not turn every weak chart into a crisis.
 Read the dashboard, compare signals, and update your view as the data changes.
+
+## FAQ
+
+### When should I use this guide?
+
+Use it to understand a personal finance concept before making a budget, savings plan, or comparison. This article is educational and is not personal financial advice.
+
+### What should beginners verify first?
+
+Start by writing the assumptions: time horizon, cash flow, fees, taxes, inflation, and risk tolerance. The conclusion changes when those assumptions change.
+
+### Which keywords should I search next?
+
+Search for "Recession Indicators Explained: How to Read the Economy Without Overreacting" together with personal finance, interest rate, inflation, budget, risk, and calculator keywords.

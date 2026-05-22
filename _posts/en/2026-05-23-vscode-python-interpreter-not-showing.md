@@ -193,3 +193,17 @@ Check `sys.executable` to know what is actually running.
 
 When auto-detection fails, manual interpreter selection is the fastest reliable fix.
 After that, verify with `sys.executable`, not only the status bar.
+
+## FAQ
+
+### When should I use this guide?
+
+Use it when you can reproduce the error and need a practical order for checking commands, versions, paths, permissions, and logs.
+
+### What should beginners verify first?
+
+Start with the exact error message, the command you ran, the operating system, and the tool version. These details usually narrow the cause faster than changing many settings at once.
+
+### Which keywords should I search next?
+
+Search for "VS Code Python Interpreter Not Showing: How to Find and Select the Right Environment" together with the exact error text, version, operating system, and tool name used in your environment.

@@ -234,3 +234,17 @@ The order is class id, center x, center y, width, height.
 The box values are normalized, not pixels.
 
 If you remember those rules and verify visually before training, you avoid many object detection dataset problems.
+
+## FAQ
+
+### When should I use this guide?
+
+Use it when you need a repeatable labeling workflow, cleaner dataset handoff, or clearer review rules for image annotation.
+
+### What should beginners verify first?
+
+Start with class definitions, positive and negative examples, review criteria, and export format. The tool works best when the labeling rule is explicit.
+
+### Which keywords should I search next?
+
+Search for "YOLO Label Format: How to Read Class, Center X, Center Y, Width, and Height" together with image labeling, dataset annotation, YOLO, COCO, review workflow, and labeling quality keywords.

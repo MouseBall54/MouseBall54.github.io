@@ -256,3 +256,17 @@ Before using the dashboard, confirm:
 
 A good Notion study dashboard is quiet and useful.
 It should show the next action, not create another place to procrastinate.
+
+## FAQ
+
+### When should I use this guide?
+
+Use it when you need to turn reading or watching into output you can recall, explain, or solve later.
+
+### What should beginners verify first?
+
+Start with one measurable output: a solved problem, a recalled definition, a short explanation, or a corrected mistake note.
+
+### Which keywords should I search next?
+
+Search for "Notion Study Dashboard: A Practical Layout for Classes, Reviews, and Exams" together with active recall, spaced repetition, study plan, mistake note, and exam preparation keywords.

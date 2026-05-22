@@ -260,6 +260,20 @@ That is fine, but do not treat it as production automation.
 - [Python venv Not Activating](/en_Troubleshooting/python-venv-not-activating/)
 - [How to Fix GitHub Actions Build Failed](/en_Troubleshooting/github-actions-build-failed/)
 
+## FAQ
+
+### When should I use this guide?
+
+Use it before adopting a new AI workflow, especially when the task is repeated often and the output can be reviewed against a clear standard.
+
+### What should beginners verify first?
+
+Start with the input data, evaluation rule, failure mode, and human review path. A useful AI workflow needs verification before scale.
+
+### Which keywords should I search next?
+
+Search for "AI Agent Workflow 2026: Build for Verification First" together with evaluation, workflow, guardrail, structured output, and agent design keywords.
+
 ## Sources
 
 - OpenAI Agents guide: https://platform.openai.com/docs/guides/agents

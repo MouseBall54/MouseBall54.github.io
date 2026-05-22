@@ -254,3 +254,17 @@ The fix is complete only when TypeScript, the bundler, and the runtime or test c
 - [How to Fix "jQuery is not defined" Error in JavaScript](/en_Troubleshooting/javascript-jquery-is-not-defined/)
 - [JavaScript var vs let vs const: What's the Difference?](/en_Troubleshooting/javascript-variables-var-vs-let-vs-const/)
 - [How to Fix "TypeError: '...' is not a function" in JavaScript](/en_Troubleshooting/javascript-typeerror-is-not-a-function/)
+
+## FAQ
+
+### When should I use this guide?
+
+Use it when you can reproduce the error and need a practical order for checking commands, versions, paths, permissions, and logs.
+
+### What should beginners verify first?
+
+Start with the exact error message, the command you ran, the operating system, and the tool version. These details usually narrow the cause faster than changing many settings at once.
+
+### Which keywords should I search next?
+
+Search for "tsconfig Paths Not Working: How to Fix Path Aliases" together with the exact error text, version, operating system, and tool name used in your environment.

@@ -192,3 +192,17 @@ Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 
 자동 탐지가 실패하면 manual interpreter selection이 가장 빠른 해결책입니다.
 그 다음 status bar만 보지 말고 `sys.executable`로 실제 실행 경로를 확인하세요.
+
+## 자주 묻는 질문
+
+### 이 글은 언제 먼저 적용하면 좋나요?
+
+오류 메시지, 실행한 명령, 사용 중인 OS와 버전을 먼저 기록한 뒤 이 글의 원인별 순서대로 확인하는 것이 좋습니다.
+
+### 초보자가 가장 먼저 확인할 부분은 무엇인가요?
+
+처음에는 환경 변수, 설치 경로, 권한, 캐시처럼 재현 가능성이 높은 항목부터 확인하세요. 그다음 로그와 설정 파일을 비교하면 원인을 좁히기 쉽습니다.
+
+### 더 찾아볼 때 어떤 키워드를 쓰면 좋나요?
+
+추가 검색할 때는 "VS Code Python Interpreter가 보이지 않을 때 해결 방법" 같은 핵심 문구와 error message, version, Windows, GitHub Pages, Jekyll 같은 실제 환경 키워드를 붙이면 더 정확한 결과를 얻기 쉽습니다.

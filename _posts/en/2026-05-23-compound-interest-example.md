@@ -265,6 +265,20 @@ Run several conservative scenarios before making a decision.
 - [Interest Rates and Inflation Explained](/en_Economy/interest-rate-inflation-basics/)
 - [How Much Emergency Fund Do You Need](/en_Economy/emergency-fund-how-much/)
 
+## FAQ
+
+### When should I use this guide?
+
+Use it to understand a personal finance concept before making a budget, savings plan, or comparison. This article is educational and is not personal financial advice.
+
+### What should beginners verify first?
+
+Start by writing the assumptions: time horizon, cash flow, fees, taxes, inflation, and risk tolerance. The conclusion changes when those assumptions change.
+
+### Which keywords should I search next?
+
+Search for "Compound Interest Example: How Money Grows on Money" together with personal finance, interest rate, inflation, budget, risk, and calculator keywords.
+
 ## Sources
 
 - Investor.gov, Compound Interest: https://www.investor.gov/index.php/introduction-investing/investing-basics/glossary/compound-interest

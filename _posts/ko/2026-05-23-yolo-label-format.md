@@ -232,3 +232,17 @@ YOLO label format은 단순하지만 엄격합니다.
 box 값은 pixel이 아니라 normalized value입니다.
 
 이 규칙을 기억하고 training 전에 시각적으로 확인하면 object detection dataset 문제를 많이 줄일 수 있습니다.
+
+## 자주 묻는 질문
+
+### 이 글은 언제 먼저 적용하면 좋나요?
+
+데이터셋을 만들거나 라벨 품질을 일정하게 유지해야 할 때 먼저 적용하면 좋습니다.
+
+### 초보자가 가장 먼저 확인할 부분은 무엇인가요?
+
+처음에는 클래스 정의, 예시 이미지, 검수 기준, 파일 내보내기 형식을 먼저 정하세요. 도구보다 라벨 기준이 먼저입니다.
+
+### 더 찾아볼 때 어떤 키워드를 쓰면 좋나요?
+
+추가 검색할 때는 "YOLO Label Format 읽는 법: class, center x, center y, width, height 이해하기" 같은 핵심 문구와 image labeling, dataset, annotation workflow, YOLO, COCO 같은 키워드를 붙이면 도움이 됩니다.

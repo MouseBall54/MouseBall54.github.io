@@ -198,3 +198,16 @@ For example, `opencv-python` is imported as `cv2`.
 - [Python venv Not Activating: How to Fix It](/en_Troubleshooting/python-venv-not-activating/)
 - [How to Fix No module named pip in Python](/en_Troubleshooting/python-no-module-named-pip/)
 
+## FAQ
+
+### When should I use this guide?
+
+Use it when you can reproduce the error and need a practical order for checking commands, versions, paths, permissions, and logs.
+
+### What should beginners verify first?
+
+Start with the exact error message, the command you ran, the operating system, and the tool version. These details usually narrow the cause faster than changing many settings at once.
+
+### Which keywords should I search next?
+
+Search for "How to Fix externally-managed-environment in Python" together with the exact error text, version, operating system, and tool name used in your environment.

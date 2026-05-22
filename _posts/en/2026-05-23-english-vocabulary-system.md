@@ -145,6 +145,20 @@ It makes room for words that matter more.
 - [Spaced Repetition Schedule](/en_Study/spaced-repetition-schedule/)
 - [Mistake Note System](/en_Study/exam-mistake-note-system/)
 
+## FAQ
+
+### When should I use this guide?
+
+Use it when you need to turn reading or watching into output you can recall, explain, or solve later.
+
+### What should beginners verify first?
+
+Start with one measurable output: a solved problem, a recalled definition, a short explanation, or a corrected mistake note.
+
+### Which keywords should I search next?
+
+Search for "Vocabulary Study System: How to Remember Words with Context and Review" together with active recall, spaced repetition, study plan, mistake note, and exam preparation keywords.
+
 ## Sources
 
 - Dunlosky et al., *Improving Students' Learning With Effective Learning Techniques*: https://pubmed.ncbi.nlm.nih.gov/26173288/

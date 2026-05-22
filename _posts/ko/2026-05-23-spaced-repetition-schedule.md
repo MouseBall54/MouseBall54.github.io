@@ -194,6 +194,20 @@ Card 자체를 고칩니다.
 - 유지하기 어려울 정도로 엄격한 schedule을 씁니다.
 - 실제 시험 성과가 좋아지는지 확인하지 않습니다.
 
+## 자주 묻는 질문
+
+### 이 글은 언제 먼저 적용하면 좋나요?
+
+시험 준비, 개발 공부, 언어 학습처럼 배운 내용을 실제로 꺼내 써야 하는 상황에서 가장 효과적입니다.
+
+### 초보자가 가장 먼저 확인할 부분은 무엇인가요?
+
+처음에는 공부 시간을 늘리기보다 오늘 설명할 수 있는 내용, 풀 수 있는 문제, 다시 틀린 부분을 기록하세요.
+
+### 더 찾아볼 때 어떤 키워드를 쓰면 좋나요?
+
+추가 검색할 때는 "Spaced repetition 복습 일정: 실제로 유지할 수 있는 반복 학습 계획" 같은 핵심 문구와 active recall, spaced repetition, study plan, mistake note 같은 학습 키워드를 붙이면 좋습니다.
+
 ## 참고 자료
 
 - Dunlosky et al., *Improving Students' Learning With Effective Learning Techniques*: https://pubmed.ncbi.nlm.nih.gov/26173288/

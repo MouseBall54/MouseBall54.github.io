@@ -225,3 +225,17 @@ The screen below shows the basic flow: open an image, draw a box, and assign a c
 
 Good labeling starts before the first box is drawn.
 Define the classes, freeze the IDs, and review ambiguity early.
+
+## FAQ
+
+### When should I use this guide?
+
+Use it when you need a repeatable labeling workflow, cleaner dataset handoff, or clearer review rules for image annotation.
+
+### What should beginners verify first?
+
+Start with class definitions, positive and negative examples, review criteria, and export format. The tool works best when the labeling rule is explicit.
+
+### Which keywords should I search next?
+
+Search for "Image Labeling Classes: How to Manage Class Names, IDs, and Dataset Consistency" together with image labeling, dataset annotation, YOLO, COCO, review workflow, and labeling quality keywords.

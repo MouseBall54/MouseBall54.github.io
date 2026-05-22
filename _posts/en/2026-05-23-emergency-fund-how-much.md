@@ -199,6 +199,20 @@ A small automatic transfer is often better than a large plan you forget.
 - [Compound Interest Example](/en_Economy/compound-interest-example/)
 - [ETF vs Mutual Fund](/en_Economy/etf-vs-mutual-fund/)
 
+## FAQ
+
+### When should I use this guide?
+
+Use it to understand a personal finance concept before making a budget, savings plan, or comparison. This article is educational and is not personal financial advice.
+
+### What should beginners verify first?
+
+Start by writing the assumptions: time horizon, cash flow, fees, taxes, inflation, and risk tolerance. The conclusion changes when those assumptions change.
+
+### Which keywords should I search next?
+
+Search for "How Much Emergency Fund Do You Need? A Practical Starter Guide" together with personal finance, interest rate, inflation, budget, risk, and calculator keywords.
+
 ## Sources
 
 - Consumer.gov, Saving Money: https://consumer.gov/managing-your-money/saving-money

@@ -144,6 +144,20 @@ A small finished project beats a large unfinished one.
 - Not writing README files.
 - Measuring progress only by course hours.
 
+## FAQ
+
+### When should I use this guide?
+
+Use it when you need to turn reading or watching into output you can recall, explain, or solve later.
+
+### What should beginners verify first?
+
+Start with one measurable output: a solved problem, a recalled definition, a short explanation, or a corrected mistake note.
+
+### Which keywords should I search next?
+
+Search for "Coding Study Roadmap: A Practical Path from Basics to Portfolio Projects" together with active recall, spaced repetition, study plan, mistake note, and exam preparation keywords.
+
 ## Sources
 
 - roadmap.sh developer roadmaps: https://roadmap.sh/

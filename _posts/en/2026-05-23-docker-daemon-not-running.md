@@ -246,3 +246,17 @@ The client may be trying to connect somewhere other than your local machine.
 
 Fix the daemon connection first.
 Only debug Dockerfiles, Compose files, and port mappings after the client can talk to the engine.
+
+## FAQ
+
+### When should I use this guide?
+
+Use it when you can reproduce the error and need a practical order for checking commands, versions, paths, permissions, and logs.
+
+### What should beginners verify first?
+
+Start with the exact error message, the command you ran, the operating system, and the tool version. These details usually narrow the cause faster than changing many settings at once.
+
+### Which keywords should I search next?
+
+Search for "Docker Daemon Not Running: How to Fix Cannot Connect to the Docker Daemon" together with the exact error text, version, operating system, and tool name used in your environment.

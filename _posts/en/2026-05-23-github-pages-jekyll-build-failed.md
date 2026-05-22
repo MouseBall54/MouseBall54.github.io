@@ -285,3 +285,17 @@ GitHub Pages publishing may take several minutes after a successful build.
 - [How to Fix GitHub Actions Build Failed](/en_Troubleshooting/github-actions-build-failed/)
 - [How to Fix fatal: not a git repository Error](/en_Troubleshooting/git-fatal-not-a-git-repository/)
 - [How to Use Gitignore Correctly](/en_Troubleshooting/git-using-gitignore/)
+
+## FAQ
+
+### When should I use this guide?
+
+Use it when you can reproduce the error and need a practical order for checking commands, versions, paths, permissions, and logs.
+
+### What should beginners verify first?
+
+Start with the exact error message, the command you ran, the operating system, and the tool version. These details usually narrow the cause faster than changing many settings at once.
+
+### Which keywords should I search next?
+
+Search for "Fix GitHub Pages Jekyll Build Failed" together with the exact error text, version, operating system, and tool name used in your environment.

@@ -240,3 +240,17 @@ It should show you what you studied, what you remember, what you missed, and wha
 If you review every week, you stop treating exams as surprises.
 You build a feedback loop.
 That feedback loop is what turns study time into learning progress.
+
+## FAQ
+
+### When should I use this guide?
+
+Use it when you need to turn reading or watching into output you can recall, explain, or solve later.
+
+### What should beginners verify first?
+
+Start with one measurable output: a solved problem, a recalled definition, a short explanation, or a corrected mistake note.
+
+### Which keywords should I search next?
+
+Search for "Weekly Study Review Template: Turn One Week of Study into a Better Next Week" together with active recall, spaced repetition, study plan, mistake note, and exam preparation keywords.

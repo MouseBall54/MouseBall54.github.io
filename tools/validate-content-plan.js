@@ -485,6 +485,21 @@ function validatePosts() {
         );
       }
 
+      const faqHeading = expectedLang === "ko" ? "자주 묻는 질문" : "FAQ";
+      const faqHeadingMatch = text.match(new RegExp(`^##\\s+${faqHeading}\\s*$`, "m"));
+      if (!faqHeadingMatch) {
+        errors.push(`${relativePath}: campaign post must include a ${faqHeading} section`);
+      } else {
+        const faqStart = faqHeadingMatch.index + faqHeadingMatch[0].length;
+        const remainingText = text.slice(faqStart);
+        const nextHeadingMatch = remainingText.match(/\n##\s+/);
+        const faqText = nextHeadingMatch ? remainingText.slice(0, nextHeadingMatch.index) : remainingText;
+        const faqQuestionCount = [...faqText.matchAll(/^###\s+/gm)].length;
+        if (faqQuestionCount < 3) {
+          errors.push(`${relativePath}: campaign ${faqHeading} section should include at least three questions`);
+        }
+      }
+
       const campaignHeaderImagePaths = headerImagePaths.filter((imagePath) => imagePath.startsWith("/images/2026-05-23-"));
       const campaignBodyImagePaths = bodyImagePaths.filter((imagePath) => imagePath.startsWith("/images/2026-05-23-"));
 

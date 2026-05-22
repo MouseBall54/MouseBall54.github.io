@@ -176,3 +176,17 @@ The value of meeting notes is realized after the meeting.
 
 AI meeting notes are valuable when they reduce follow-up confusion.
 Treat the summary as a draft, and treat the decision and task lists as reviewable records.
+
+## FAQ
+
+### When should I use this guide?
+
+Use it before adopting a new AI workflow, especially when the task is repeated often and the output can be reviewed against a clear standard.
+
+### What should beginners verify first?
+
+Start with the input data, evaluation rule, failure mode, and human review path. A useful AI workflow needs verification before scale.
+
+### Which keywords should I search next?
+
+Search for "AI Meeting Notes Workflow: Turn Calls into Decisions, Tasks, and Follow-Up" together with evaluation, workflow, guardrail, structured output, and agent design keywords.

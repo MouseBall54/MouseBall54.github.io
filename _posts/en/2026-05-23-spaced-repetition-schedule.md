@@ -196,6 +196,20 @@ Related guide:
 - Using a schedule that is too strict to maintain.
 - Never checking whether the system improves real test performance.
 
+## FAQ
+
+### When should I use this guide?
+
+Use it when you need to turn reading or watching into output you can recall, explain, or solve later.
+
+### What should beginners verify first?
+
+Start with one measurable output: a solved problem, a recalled definition, a short explanation, or a corrected mistake note.
+
+### Which keywords should I search next?
+
+Search for "Spaced Repetition Schedule: A Simple Review Plan You Can Actually Keep" together with active recall, spaced repetition, study plan, mistake note, and exam preparation keywords.
+
 ## Sources
 
 - Dunlosky et al., *Improving Students' Learning With Effective Learning Techniques*: https://pubmed.ncbi.nlm.nih.gov/26173288/
