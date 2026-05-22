@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
    Python에서 디렉터리를 파일처럼 다루려고 할 때 발생하는 IsADirectoryError: [Errno 21] Is a directory 오류를 해결하는 방법을 배우세요. 이 가이드는 경로를 확인하고 올바른 파일 작업을 사용하는 방법을 보여줍니다.
+seo_description: >
+   Python에서 디렉터리를 파일처럼 다루려고 할 때 발생하는 IsADirectoryError: [Errno 21] Is a directory 오류를 해결하는 방법을 배우세요. 이 가이드는 경로를 확인하고 올바른 파일 작업을 사용하는 방법을 보여줍니다.
 categories:
    - ko_Troubleshooting
 tags:

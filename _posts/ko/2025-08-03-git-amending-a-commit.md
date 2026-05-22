@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     git commit --amend는 가장 최근의 커밋을 수정할 수 있는 유용한 명령어입니다. 커밋 메시지를 변경하거나, 빠뜨린 파일을 추가하는 등 마지막 커밋을 보완할 때 사용합니다.
+seo_description: >
+    git commit --amend는 가장 최근의 커밋을 수정할 수 있는 유용한 명령어입니다. 커밋 메시지를 변경하거나, 빠뜨린 파일을 추가하는 등 마지막 커밋을 보완할 때 사용합니다.
 categories:
     - ko_Troubleshooting
 tags:

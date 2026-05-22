@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Resolve the Git error "fatal: could not read Username for 'https://...': terminal prompts disabled" by using a credential helper or switching to SSH authentication.
+seo_description: >
+    Resolve the Git error "fatal: could not read Username for 'https://...': terminal prompts disabled" by using a credential helper or switching to SSH authentication.
 categories:
   - en_Troubleshooting
 tags:

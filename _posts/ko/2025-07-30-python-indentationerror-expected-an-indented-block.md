@@ -6,6 +6,7 @@ title: "Python IndentationError: expected an indented block 오류 해결법"
 lang: ko
 translation_id: python-indentationerror-expected-an-indented-block
 excerpt: "Python의 핵심 문법인 들여쓰기! IndentationError의 원인과 해결 방법을 명확히 알아보고, 탭과 공백 혼용 문제를 해결하여 깔끔한 코드를 작성하는 방법을 배워보세요."
+seo_description: "Python의 핵심 문법인 들여쓰기! IndentationError의 원인과 해결 방법을 명확히 알아보고, 탭과 공백 혼용 문제를 해결하여 깔끔한 코드를 작성하는 방법을 배워보세요."
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

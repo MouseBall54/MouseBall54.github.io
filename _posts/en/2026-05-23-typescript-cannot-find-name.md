@@ -9,8 +9,8 @@ date: 2026-05-23T16:00:00+09:00
 lang: en
 translation_id: typescript-cannot-find-name
 header:
-   teaser: /images/header_images/overlay_image_js.png
-   overlay_image: /images/header_images/overlay_image_js.png
+   teaser: /images/2026-05-23-typescript-cannot-find-name/typescript-cannot-find-name-hero.png
+   overlay_image: /images/2026-05-23-typescript-cannot-find-name/typescript-cannot-find-name-hero.png
    overlay_filter: 0.5
 excerpt: >
   Fix TS2304 Cannot find name in TypeScript by checking imports, type packages, tsconfig lib and types settings, globals, and the correct project config.
@@ -28,6 +28,8 @@ tags:
 ## Problem
 
 TypeScript shows an error like this:
+
+![Fix TypeScript Cannot Find Name explanatory image](/images/2026-05-23-typescript-cannot-find-name/typescript-cannot-find-name-hero.png)
 
 ```text
 TS2304: Cannot find name 'process'.

@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     `git submodule`을 사용하여 외부 저장소를 메인 프로젝트의 하위 디렉터리로 포함하고 관리하는 방법을 알아보세요.
+seo_description: >
+    `git submodule`을 사용하여 외부 저장소를 메인 프로젝트의 하위 디렉터리로 포함하고 관리하는 방법을 알아보세요.
 categories:
   - ko_Troubleshooting
 tags:

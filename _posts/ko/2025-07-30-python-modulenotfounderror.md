@@ -6,6 +6,7 @@ title: "Python ModuleNotFoundError 해결 방법"
 lang: ko
 translation_id: python-modulenotfounderror
 excerpt: "Python에서 발생하는 ModuleNotFoundError: No module named '...' 오류의 원인을 파악하고, 이를 해결하기 위한 다양한 방법을 알아봅니다."
+seo_description: "Python에서 발생하는 ModuleNotFoundError: No module named '...' 오류의 원인을 파악하고, 이를 해결하기 위한 다양한 방법을 알아봅니다."
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

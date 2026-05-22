@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Java에서 "error: missing return statement" 오류는 반환 타입이 명시된 메서드의 모든 코드 경로가 값을 반환하도록 보장하지 않을 때 발생합니다. 이 문제를 해결하는 방법을 알아보세요.
+seo_description: >
+    Java에서 "error: missing return statement" 오류는 반환 타입이 명시된 메서드의 모든 코드 경로가 값을 반환하도록 보장하지 않을 때 발생합니다. 이 문제를 해결하는 방법을 알아보세요.
 categories:
   - ko_Troubleshooting
 tags:

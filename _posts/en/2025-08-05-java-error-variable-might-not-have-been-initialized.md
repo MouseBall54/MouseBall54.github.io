@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Resolve the "variable might not have been initialized" error in Java by ensuring every local variable has a value before it is accessed.
+seo_description: >
+    Resolve the "variable might not have been initialized" error in Java by ensuring every local variable has a value before it is accessed.
 categories:
   - en_Troubleshooting
 tags:

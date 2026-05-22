@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     `git rebase -i`를 사용하여 이전 커밋들을 합치거나, 수정하거나, 삭제하는 방법을 배워보세요. 프로젝트 히스토리를 더 깔끔하고 이해하기 쉽게 만들 수 있습니다.
+seo_description: >
+    `git rebase -i`를 사용하여 이전 커밋들을 합치거나, 수정하거나, 삭제하는 방법을 배워보세요. 프로젝트 히스토리를 더 깔끔하고 이해하기 쉽게 만들 수 있습니다.
 categories:
   - ko_Troubleshooting
 tags:

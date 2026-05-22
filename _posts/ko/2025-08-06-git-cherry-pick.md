@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     `git cherry-pick`을 사용하여 브랜치 전체를 병합하지 않고 다른 브랜치에 있는 특정 커밋만 현재 브랜치에 적용하는 방법을 알아보세요.
+seo_description: >
+    `git cherry-pick`을 사용하여 브랜치 전체를 병합하지 않고 다른 브랜치에 있는 특정 커밋만 현재 브랜치에 적용하는 방법을 알아보세요.
 categories:
   - ko_Troubleshooting
 tags:

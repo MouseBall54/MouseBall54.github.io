@@ -11,6 +11,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
   `Arrays.asList()`와 같이 수정 불가능한 컬렉션을 수정하려고 할 때 주로 발생하는 `UnsupportedOperationException`을 이해하고 해결하는 방법을 알아봅니다.
+seo_description: >
+  `Arrays.asList()`와 같이 수정 불가능한 컬렉션을 수정하려고 할 때 주로 발생하는 `UnsupportedOperationException`을 이해하고 해결하는 방법을 알아봅니다.
 categories:
   - ko_Troubleshooting
 tags:

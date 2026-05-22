@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     파이썬에서 반복 불가능한(non-iterable) 객체를 순회하려고 할 때 발생하는 `TypeError: '...' object is not iterable` 오류의 원인과 해결 방법을 알아봅니다.
+seo_description: >
+    파이썬에서 반복 불가능한(non-iterable) 객체를 순회하려고 할 때 발생하는 `TypeError: '...' object is not iterable` 오류의 원인과 해결 방법을 알아봅니다.
 categories:
   - ko_Troubleshooting
 tags:

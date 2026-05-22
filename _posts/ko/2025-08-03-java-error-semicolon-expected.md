@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     Java에서 "';' expected"는 문장의 끝을 나타내는 세미콜론이 누락되었을 때 발생하는 기본적인 컴파일 오류입니다. 이 글에서는 오류의 원인과 해결 방법을 알아봅니다.
+seo_description: >
+    Java에서 "';' expected"는 문장의 끝을 나타내는 세미콜론이 누락되었을 때 발생하는 기본적인 컴파일 오류입니다. 이 글에서는 오류의 원인과 해결 방법을 알아봅니다.
 categories:
     - ko_Troubleshooting
 tags:

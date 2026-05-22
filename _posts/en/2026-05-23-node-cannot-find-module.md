@@ -9,8 +9,8 @@ date: 2026-05-23T15:00:00+09:00
 lang: en
 translation_id: node-cannot-find-module
 header:
-   teaser: /images/header_images/overlay_image_js.png
-   overlay_image: /images/header_images/overlay_image_js.png
+   teaser: /images/2026-05-23-node-cannot-find-module/node-cannot-find-module-hero.png
+   overlay_image: /images/2026-05-23-node-cannot-find-module/node-cannot-find-module-hero.png
    overlay_filter: 0.5
 excerpt: >
   Fix Node.js Cannot find module errors by checking missing packages, relative paths, working directory, CommonJS and ESM syntax, and package export paths.
@@ -28,6 +28,8 @@ tags:
 ## Problem
 
 You run a Node.js script and see an error like this:
+
+![Fix Cannot Find Module in Node.js explanatory image](/images/2026-05-23-node-cannot-find-module/node-cannot-find-module-hero.png)
 
 ```text
 Error: Cannot find module 'package-name'

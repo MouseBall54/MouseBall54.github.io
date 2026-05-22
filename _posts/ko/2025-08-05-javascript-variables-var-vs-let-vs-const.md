@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
    JavaScript에서 var, let, const의 차이점을 깊이 알아보세요. 스코프, 호이스팅, 재할당 규칙을 이해하여 더 깨끗하고 예측 가능하며 현대적인 JS 코드를 작성하세요.
+seo_description: >
+   JavaScript에서 var, let, const의 차이점을 깊이 알아보세요. 스코프, 호이스팅, 재할당 규칙을 이해하여 더 깨끗하고 예측 가능하며 현대적인 JS 코드를 작성하세요.
 categories:
    - ko_Troubleshooting
 tags:

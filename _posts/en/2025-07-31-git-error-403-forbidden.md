@@ -6,6 +6,7 @@ title: "How to Fix \"The requested URL returned error: 403\" in Git"
 lang: en
 translation_id: git-error-403-forbidden
 excerpt: "Resolve the Git 403 Forbidden error by updating your credentials, using a personal access token (PAT), or switching to SSH authentication for more secure access."
+seo_description: "Resolve the Git 403 Forbidden error by updating your credentials, using a personal access token (PAT), or switching to SSH authentication for more secure access."
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

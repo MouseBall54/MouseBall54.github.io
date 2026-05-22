@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Learn how to fix the `TypeError: '...' object is not iterable` in Python, which occurs when you try to loop over a non-iterable object like an integer or None.
+seo_description: >
+    Learn how to fix the `TypeError: '...' object is not iterable` in Python, which occurs when you try to loop over a non-iterable object like an integer or None.
 categories:
   - en_Troubleshooting
 tags:

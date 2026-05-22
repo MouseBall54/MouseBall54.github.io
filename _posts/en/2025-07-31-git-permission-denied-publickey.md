@@ -6,6 +6,7 @@ title: "How to Fix Git Error: Permission Denied (publickey)"
 lang: en
 translation_id: git-permission-denied-publickey
 excerpt: "Resolve the 'Permission denied (publickey)' error in Git by correctly generating an SSH key, adding it to the ssh-agent, and registering it with your Git hosting provider."
+seo_description: "Resolve the 'Permission denied (publickey)' error in Git by correctly generating an SSH key, adding it to the ssh-agent, and registering it with your Git hosting provider."
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

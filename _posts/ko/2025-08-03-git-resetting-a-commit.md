@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     git reset은 특정 커밋으로 프로젝트의 상태를 되돌리는 강력한 명령어입니다. 이 글에서는 git reset의 세 가지 주요 옵션인 --soft, --mixed, --hard의 차이점과 사용법을 알아봅니다.
+seo_description: >
+    git reset은 특정 커밋으로 프로젝트의 상태를 되돌리는 강력한 명령어입니다. 이 글에서는 git reset의 세 가지 주요 옵션인 --soft, --mixed, --hard의 차이점과 사용법을 알아봅니다.
 categories:
     - ko_Troubleshooting
 tags:

@@ -6,6 +6,7 @@ title: "How to Fix \"TypeError: Assignment to constant variable\" in JavaScript"
 lang: en
 translation_id: javascript-typeerror-assignment-to-constant
 excerpt: "Understand and fix the \"TypeError: Assignment to constant variable\" in JavaScript by learning the properties of `const` and using `let` for variables that need to be reassigned."
+seo_description: "Understand and fix the \"TypeError: Assignment to constant variable\" in JavaScript by learning the properties of `const` and using `let` for variables that need to be reassigned."
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

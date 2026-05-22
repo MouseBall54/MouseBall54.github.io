@@ -6,6 +6,7 @@ title: "How to Fix Git Error: The requested URL returned error: 403"
 lang: en
 translation_id: git-the-requested-url-returned-error-403
 excerpt: "Resolve Git's '403 Forbidden' error by updating your credentials, using a personal access token (PAT), or checking your repository permissions. Learn the steps to fix this common authentication issue."
+seo_description: "Resolve Git's '403 Forbidden' error by updating your credentials, using a personal access token (PAT), or checking your repository permissions. Learn the steps to fix this common authentication issue."
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

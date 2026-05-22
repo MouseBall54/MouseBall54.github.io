@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Learn how to diagnose and fix the "fatal: early EOF" error in Git, which usually indicates an incomplete data transfer from the remote server.
+seo_description: >
+    Learn how to diagnose and fix the "fatal: early EOF" error in Git, which usually indicates an incomplete data transfer from the remote server.
 categories:
   - en_Troubleshooting
 tags:

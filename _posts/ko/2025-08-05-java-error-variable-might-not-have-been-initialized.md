@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Java에서 "variable might not have been initialized" 오류는 지역 변수가 사용되기 전에 값이 할당되었음을 보장할 수 없을 때 발생합니다. 이 문제를 해결하는 방법을 알아보세요.
+seo_description: >
+    Java에서 "variable might not have been initialized" 오류는 지역 변수가 사용되기 전에 값이 할당되었음을 보장할 수 없을 때 발생합니다. 이 문제를 해결하는 방법을 알아보세요.
 categories:
   - ko_Troubleshooting
 tags:

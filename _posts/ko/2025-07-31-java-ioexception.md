@@ -6,6 +6,7 @@ title: "Java에서 java.io.IOException 이해하고 처리하기"
 lang: ko
 translation_id: java-ioexception
 excerpt: "`try-catch` 블록과 `try-with-resources`를 사용하여 I/O 작업이 실패하거나 중단되었음을 알리는 체크 예외 `java.io.IOException`을 처리하는 방법을 알아봅니다."
+seo_description: "`try-catch` 블록과 `try-with-resources`를 사용하여 I/O 작업이 실패하거나 중단되었음을 알리는 체크 예외 `java.io.IOException`을 처리하는 방법을 알아봅니다."
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

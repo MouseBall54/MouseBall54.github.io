@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Learn how to resolve the "error: missing return statement" in Java by ensuring all code paths in a method that declares a return type actually return a value.
+seo_description: >
+    Learn how to resolve the "error: missing return statement" in Java by ensuring all code paths in a method that declares a return type actually return a value.
 categories:
   - en_Troubleshooting
 tags:

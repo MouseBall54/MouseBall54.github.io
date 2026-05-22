@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
    Python에서 파일 권한을 올바르게 관리하여 PermissionError: [Errno 13] Permission denied 오류를 해결하세요. 이 가이드는 원인을 설명하고 Windows, macOS, Linux용 해결책을 제공합니다.
+seo_description: >
+   Python에서 파일 권한을 올바르게 관리하여 PermissionError: [Errno 13] Permission denied 오류를 해결하세요. 이 가이드는 원인을 설명하고 Windows, macOS, Linux용 해결책을 제공합니다.
 categories:
    - ko_Troubleshooting
 tags:

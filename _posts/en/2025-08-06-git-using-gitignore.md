@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Learn how to create and use a `.gitignore` file to prevent specific files and directories from being added to your Git repository.
+seo_description: >
+    Learn how to create and use a `.gitignore` file to prevent specific files and directories from being added to your Git repository.
 categories:
   - en_Troubleshooting
 tags:

@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     This guide explains how to resolve the "fatal: bad object" error in Git, which indicates a corrupted or missing object in the Git repository.
+seo_description: >
+    This guide explains how to resolve the "fatal: bad object" error in Git, which indicates a corrupted or missing object in the Git repository.
 categories:
   - en_Troubleshooting
 tags:

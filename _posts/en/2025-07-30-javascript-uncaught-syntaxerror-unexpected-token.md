@@ -6,6 +6,7 @@ title: "How to Fix 'Uncaught SyntaxError: Unexpected token' in JavaScript"
 lang: en
 translation_id: javascript-uncaught-syntaxerror-unexpected-token
 excerpt: "'Uncaught SyntaxError: Unexpected token' is a syntax error that occurs when the JavaScript engine encounters a token that it does not expect grammatically. This article explores the common causes and solutions for this error."
+seo_description: "'Uncaught SyntaxError: Unexpected token' is a syntax error that occurs when the JavaScript engine encounters a token that it does not expect grammatically. This article explores the common causes and solutions for this error."
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

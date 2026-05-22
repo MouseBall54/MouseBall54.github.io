@@ -11,6 +11,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
   에디터를 설정하여 들여쓰기에 공백을 사용하고 기존 탭을 공백으로 변환하여 파이썬의 "TabError: inconsistent use of tabs and spaces in indentation" 오류를 해결하는 방법을 알아봅니다.
+seo_description: >
+  에디터를 설정하여 들여쓰기에 공백을 사용하고 기존 탭을 공백으로 변환하여 파이썬의 "TabError: inconsistent use of tabs and spaces in indentation" 오류를 해결하는 방법을 알아봅니다.
 categories:
   - ko_Troubleshooting
 tags:

@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     git reset is a powerful command for reverting a project's state to a specific commit. This article explains the differences and usage of the three main options of git reset: --soft, --mixed, and --hard.
+seo_description: >
+    git reset is a powerful command for reverting a project's state to a specific commit. This article explains the differences and usage of the three main options of git reset: --soft, --mixed, and --hard.
 categories:
     - en_Troubleshooting
 tags:

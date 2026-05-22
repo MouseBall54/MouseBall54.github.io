@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Understand and resolve the "LF will be replaced by CRLF" warning in Git by configuring line ending normalization for cross-platform projects.
+seo_description: >
+    Understand and resolve the "LF will be replaced by CRLF" warning in Git by configuring line ending normalization for cross-platform projects.
 categories:
   - en_Troubleshooting
 tags:

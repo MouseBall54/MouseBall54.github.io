@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     이벤트 리스너를 제거하지 않으면 메모리 누수가 발생하여 애플리케이션 성능이 저하될 수 있습니다. 이 글에서는 JavaScript에서 이벤트 리스너 누수의 원인과 해결 방법을 알아봅니다.
+seo_description: >
+    이벤트 리스너를 제거하지 않으면 메모리 누수가 발생하여 애플리케이션 성능이 저하될 수 있습니다. 이 글에서는 JavaScript에서 이벤트 리스너 누수의 원인과 해결 방법을 알아봅니다.
 categories:
     - ko_Troubleshooting
 tags:

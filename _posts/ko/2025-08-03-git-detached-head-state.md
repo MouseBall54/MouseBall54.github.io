@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Git의 "Detached HEAD" 상태가 무엇인지, 왜 발생하는지, 그리고 작업을 잃지 않고 안전하게 브랜치로 돌아가는 방법을 이해합니다.
+seo_description: >
+    Git의 "Detached HEAD" 상태가 무엇인지, 왜 발생하는지, 그리고 작업을 잃지 않고 안전하게 브랜치로 돌아가는 방법을 이해합니다.
 categories:
   - ko_Troubleshooting
 tags:

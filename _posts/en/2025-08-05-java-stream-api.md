@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Discover the power of the Java Stream API for processing collections of data. Learn how to use streams to write declarative, efficient, and readable code for complex data manipulations.
+seo_description: >
+    Discover the power of the Java Stream API for processing collections of data. Learn how to use streams to write declarative, efficient, and readable code for complex data manipulations.
 categories:
   - en_Troubleshooting
 tags:

@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     This post explains how to resolve the "SyntaxError: Invalid or unexpected token" in JavaScript, which occurs when the JavaScript engine encounters code that violates the language's syntax rules.
+seo_description: >
+    This post explains how to resolve the "SyntaxError: Invalid or unexpected token" in JavaScript, which occurs when the JavaScript engine encounters code that violates the language's syntax rules.
 categories:
   - en_Troubleshooting
 tags:

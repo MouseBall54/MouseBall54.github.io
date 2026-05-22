@@ -6,6 +6,7 @@ title: "Java NoClassDefFoundError 해결 방법"
 lang: ko
 translation_id: java-noclassdeffounderror
 excerpt: "컴파일 시점에는 있었지만 런타임에 누락된 클래스로 인해 발생하는 Java의 NoClassDefFoundError의 원인을 이해하고 해결합니다. 클래스패스를 확인하고, 의존성을 관리하며, 정적 초기화 실패를 수정하는 방법을 배웁니다."
+seo_description: "컴파일 시점에는 있었지만 런타임에 누락된 클래스로 인해 발생하는 Java의 NoClassDefFoundError의 원인을 이해하고 해결합니다. 클래스패스를 확인하고, 의존성을 관리하며, 정적 초기화 실패를 수정하는 방법을 배웁니다."
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

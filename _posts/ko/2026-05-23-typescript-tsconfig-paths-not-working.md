@@ -9,8 +9,8 @@ date: 2026-05-23T18:00:00+09:00
 lang: ko
 translation_id: typescript-tsconfig-paths-not-working
 header:
-   teaser: /images/header_images/overlay_image_js.png
-   overlay_image: /images/header_images/overlay_image_js.png
+   teaser: /images/2026-05-23-typescript-tsconfig-paths-not-working/typescript-tsconfig-paths-not-working-hero.png
+   overlay_image: /images/2026-05-23-typescript-tsconfig-paths-not-working/typescript-tsconfig-paths-not-working-hero.png
    overlay_filter: 0.5
 excerpt: >
   tsconfig paths가 동작하지 않을 때 baseUrl, paths pattern, 실제 tsconfig, Vite alias, test runner alias, Node runtime resolution을 확인하는 방법입니다.
@@ -28,6 +28,8 @@ tags:
 ## 문제 상황
 
 `tsconfig.json`에 path alias를 설정했는데 import가 계속 실패할 수 있습니다.
+
+![tsconfig paths가 동작하지 않을 때 해결 방법 설명 이미지](/images/2026-05-23-typescript-tsconfig-paths-not-working/typescript-tsconfig-paths-not-working-hero.png)
 
 ```ts
 import Button from "@/components/Button";

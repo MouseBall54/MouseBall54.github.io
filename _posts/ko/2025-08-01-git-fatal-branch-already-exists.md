@@ -11,6 +11,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
   다른 이름을 선택하거나, 이전 브랜치를 삭제하거나, 기존 브랜치로 체크아웃하여 Git의 "fatal: A branch named '...' already exists" 오류를 해결하는 방법을 알아봅니다.
+seo_description: >
+  다른 이름을 선택하거나, 이전 브랜치를 삭제하거나, 기존 브랜치로 체크아웃하여 Git의 "fatal: A branch named '...' already exists" 오류를 해결하는 방법을 알아봅니다.
 categories:
   - ko_Troubleshooting
 tags:

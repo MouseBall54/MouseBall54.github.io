@@ -9,8 +9,8 @@ date: 2026-05-23T20:00:00+09:00
 lang: ko
 translation_id: github-pages-jekyll-build-failed
 header:
-   teaser: /images/header_images/overlay_image_git.png
-   overlay_image: /images/header_images/overlay_image_git.png
+   teaser: /images/2026-05-23-github-pages-jekyll-build-failed/github-pages-jekyll-build-failed-hero.png
+   overlay_image: /images/2026-05-23-github-pages-jekyll-build-failed/github-pages-jekyll-build-failed-hero.png
    overlay_filter: 0.5
 excerpt: >
   GitHub Pages Jekyll build failed 오류를 Pages workflow log, _config.yml YAML, front matter date, include, plugin, Sass, local Jekyll build 기준으로 해결하는 방법입니다.
@@ -28,6 +28,8 @@ tags:
 ## 문제 상황
 
 GitHub Pages가 Jekyll site를 publish하지 못하고 실패할 수 있습니다.
+
+![GitHub Pages Jekyll build failed 해결 방법 설명 이미지](/images/2026-05-23-github-pages-jekyll-build-failed/github-pages-jekyll-build-failed-hero.png)
 
 ```text
 Pages build and deployment failed

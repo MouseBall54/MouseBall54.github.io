@@ -9,8 +9,8 @@ date: 2026-05-23T10:00:00+09:00
 lang: ko
 translation_id: python-no-module-named-pip
 header:
-   teaser: /images/header_images/overlay_image_python.png
-   overlay_image: /images/header_images/overlay_image_python.png
+   teaser: /images/2026-05-23-python-no-module-named-pip/python-no-module-named-pip-hero.png
+   overlay_image: /images/2026-05-23-python-no-module-named-pip/python-no-module-named-pip-hero.png
    overlay_filter: 0.5
 excerpt: >
   Python의 No module named pip 오류를 ensurepip 실행, 현재 인터프리터 확인, 가상환경 복구로 해결하는 방법입니다.
@@ -28,6 +28,8 @@ tags:
 ## 문제 상황
 
 `pip`를 실행하려고 했는데 Python이 `pip` 모듈을 찾지 못하는 경우가 있습니다.
+
+![Python No module named pip 오류 해결 방법 설명 이미지](/images/2026-05-23-python-no-module-named-pip/python-no-module-named-pip-hero.png)
 
 오류는 보통 다음처럼 나타납니다.
 

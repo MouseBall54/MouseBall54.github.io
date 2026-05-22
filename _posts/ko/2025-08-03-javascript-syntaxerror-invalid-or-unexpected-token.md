@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     이 포스트에서는 JavaScript 엔진이 언어의 구문 규칙을 위반하는 코드를 만났을 때 발생하는 "SyntaxError: Invalid or unexpected token" 오류의 해결 방법을 설명합니다.
+seo_description: >
+    이 포스트에서는 JavaScript 엔진이 언어의 구문 규칙을 위반하는 코드를 만났을 때 발생하는 "SyntaxError: Invalid or unexpected token" 오류의 해결 방법을 설명합니다.
 categories:
   - ko_Troubleshooting
 tags:

@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Discover how Java Generics work, how they provide type safety at compile time, and how to use them to create flexible and reusable code with collections and custom classes.
+seo_description: >
+    Discover how Java Generics work, how they provide type safety at compile time, and how to use them to create flexible and reusable code with collections and custom classes.
 categories:
   - en_Troubleshooting
 tags:

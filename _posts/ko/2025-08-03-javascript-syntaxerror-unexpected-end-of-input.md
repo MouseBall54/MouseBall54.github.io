@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     자바스크립트 코드를 파싱하는 동안 엔진이 코드 블록의 끝을 예상치 못하게 만났을 때 발생하는 `SyntaxError: Unexpected end of input` 오류의 일반적인 원인과 해결책을 알아봅니다.
+seo_description: >
+    자바스크립트 코드를 파싱하는 동안 엔진이 코드 블록의 끝을 예상치 못하게 만났을 때 발생하는 `SyntaxError: Unexpected end of input` 오류의 일반적인 원인과 해결책을 알아봅니다.
 categories:
   - ko_Troubleshooting
 tags:

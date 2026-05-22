@@ -6,6 +6,7 @@ title: "How to Fix Java's OutOfMemoryError"
 lang: en
 translation_id: java-outofmemoryerror
 excerpt: "Understand and resolve Java's OutOfMemoryError by identifying its causes, such as memory leaks or insufficient heap size. Learn how to analyze heap dumps and tune JVM settings to prevent this critical error."
+seo_description: "Understand and resolve Java's OutOfMemoryError by identifying its causes, such as memory leaks or insufficient heap size. Learn how to analyze heap dumps and tune JVM settings to prevent this critical error."
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

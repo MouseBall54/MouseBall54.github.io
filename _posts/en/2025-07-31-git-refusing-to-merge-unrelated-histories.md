@@ -6,6 +6,7 @@ title: "How to Fix 'fatal: refusing to merge unrelated histories' in Git"
 lang: en
 translation_id: git-refusing-to-merge-unrelated-histories
 excerpt: "Learn how to resolve the 'fatal: refusing to merge unrelated histories' error in Git by using the `--allow-unrelated-histories` flag when two projects have different commit histories."
+seo_description: "Learn how to resolve the 'fatal: refusing to merge unrelated histories' error in Git by using the `--allow-unrelated-histories` flag when two projects have different commit histories."
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

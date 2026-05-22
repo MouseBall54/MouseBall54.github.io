@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     git commit --amend is a useful command for modifying the most recent commit. It is used to fix the last commit, such as changing the commit message or adding forgotten files.
+seo_description: >
+    git commit --amend is a useful command for modifying the most recent commit. It is used to fix the last commit, such as changing the commit message or adding forgotten files.
 categories:
     - en_Troubleshooting
 tags:

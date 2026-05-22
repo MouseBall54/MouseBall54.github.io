@@ -6,6 +6,7 @@ title: "How to Fix Python's KeyError: '...'"
 lang: en
 translation_id: python-keyerror
 excerpt: "Learn how to fix the Python KeyError, which occurs when you try to access a key that does not exist in a dictionary. This guide covers several effective methods."
+seo_description: "Learn how to fix the Python KeyError, which occurs when you try to access a key that does not exist in a dictionary. This guide covers several effective methods."
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

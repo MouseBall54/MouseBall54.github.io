@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Learn how to fix the `SyntaxError: missing ) after argument list` in JavaScript, a common error caused by forgetting to add a closing parenthesis `)` after a function's argument list.
+seo_description: >
+    Learn how to fix the `SyntaxError: missing ) after argument list` in JavaScript, a common error caused by forgetting to add a closing parenthesis `)` after a function's argument list.
 categories:
   - en_Troubleshooting
 tags:

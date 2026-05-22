@@ -6,6 +6,7 @@ title: "JavaScript 'Maximum call stack size exceeded' 오류 해결 방법"
 lang: ko
 translation_id: javascript-uncaught-rangeerror-maximum-call-stack-size-exceeded
 excerpt: "JavaScript에서 'Uncaught RangeError: Maximum call stack size exceeded' 오류가 발생하는 원인인 무한 재귀를 파악하고, 함수에 올바른 종료 조건을 구현하여 문제를 해결하는 방법을 알아봅니다."
+seo_description: "JavaScript에서 'Uncaught RangeError: Maximum call stack size exceeded' 오류가 발생하는 원인인 무한 재귀를 파악하고, 함수에 올바른 종료 조건을 구현하여 문제를 해결하는 방법을 알아봅니다."
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

@@ -6,6 +6,7 @@ title: "How to Fix Git Error: pathspec '...' did not match any files"
 lang: en
 translation_id: git-fatal-pathspec-did-not-match-any-files
 excerpt: "Resolve the Git error 'pathspec did not match any files' by checking for typos, verifying file paths, and understanding how Git handles special characters. Learn to troubleshoot and fix this common issue."
+seo_description: "Resolve the Git error 'pathspec did not match any files' by checking for typos, verifying file paths, and understanding how Git handles special characters. Learn to troubleshoot and fix this common issue."
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

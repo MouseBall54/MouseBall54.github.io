@@ -11,6 +11,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
   Understand and resolve `UnsupportedOperationException` in Java, which typically occurs when trying to modify unmodifiable collections like those from `Arrays.asList()`.
+seo_description: >
+  Understand and resolve `UnsupportedOperationException` in Java, which typically occurs when trying to modify unmodifiable collections like those from `Arrays.asList()`.
 categories:
   - en_Troubleshooting
 tags:

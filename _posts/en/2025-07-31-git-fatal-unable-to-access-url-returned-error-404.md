@@ -6,6 +6,7 @@ title: "How to Fix Git Error: unable to access '...': The requested URL returned
 lang: en
 translation_id: git-fatal-unable-to-access-url-returned-error-404
 excerpt: "Resolve Git's '404 Not Found' error by checking the remote URL for typos, verifying repository existence and permissions, and ensuring you are authenticated correctly. Learn to fix this common URL-related issue."
+seo_description: "Resolve Git's '404 Not Found' error by checking the remote URL for typos, verifying repository existence and permissions, and ensuring you are authenticated correctly. Learn to fix this common URL-related issue."
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

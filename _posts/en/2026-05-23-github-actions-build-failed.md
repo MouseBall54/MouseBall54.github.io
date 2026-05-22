@@ -9,8 +9,8 @@ date: 2026-05-23T19:00:00+09:00
 lang: en
 translation_id: github-actions-build-failed
 header:
-   teaser: /images/header_images/overlay_image_git.png
-   overlay_image: /images/header_images/overlay_image_git.png
+   teaser: /images/2026-05-23-github-actions-build-failed/github-actions-build-failed-hero.png
+   overlay_image: /images/2026-05-23-github-actions-build-failed/github-actions-build-failed-hero.png
    overlay_filter: 0.5
 excerpt: >
   Fix GitHub Actions build failed errors by reading the failed step log, checking workflow YAML, dependency install commands, runner versions, secrets, and branch triggers.
@@ -28,6 +28,8 @@ tags:
 ## Problem
 
 A pull request or push shows a failed GitHub Actions check:
+
+![How to Fix GitHub Actions Build Failed explanatory image](/images/2026-05-23-github-actions-build-failed/github-actions-build-failed-hero.png)
 
 ```text
 build failed

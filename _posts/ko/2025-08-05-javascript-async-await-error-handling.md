@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
    JavaScript에서 try...catch 블록을 사용하여 async/await 함수의 오류를 올바르게 처리하는 방법을 배우세요. 처리되지 않은 프로미스 거부를 피하고, 견고하고 신뢰할 수 있는 비동기 코드를 작성하세요.
+seo_description: >
+   JavaScript에서 try...catch 블록을 사용하여 async/await 함수의 오류를 올바르게 처리하는 방법을 배우세요. 처리되지 않은 프로미스 거부를 피하고, 견고하고 신뢰할 수 있는 비동기 코드를 작성하세요.
 categories:
    - ko_Troubleshooting
 tags:

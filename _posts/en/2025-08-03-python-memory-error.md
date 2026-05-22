@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     In Python, a MemoryError occurs when the program exhausts the available system memory. This article explains the causes of MemoryError and how to fix it.
+seo_description: >
+    In Python, a MemoryError occurs when the program exhausts the available system memory. This article explains the causes of MemoryError and how to fix it.
 categories:
     - en_Troubleshooting
 tags:

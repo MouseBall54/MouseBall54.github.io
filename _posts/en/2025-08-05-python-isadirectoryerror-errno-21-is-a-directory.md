@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
    Learn to fix the IsADirectoryError: [Errno 21] Is a directory in Python. This error occurs when you try to treat a directory as a file. This guide shows you how to check paths and use the correct file operations.
+seo_description: >
+   Learn to fix the IsADirectoryError: [Errno 21] Is a directory in Python. This error occurs when you try to treat a directory as a file. This guide shows you how to check paths and use the correct file operations.
 categories:
    - en_Troubleshooting
 tags:

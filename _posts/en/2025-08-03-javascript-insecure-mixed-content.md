@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     "Insecure mixed content" is a browser security warning that occurs when an HTTPS page loads insecure HTTP resources. This article explains the cause and how to fix it.
+seo_description: >
+    "Insecure mixed content" is a browser security warning that occurs when an HTTPS page loads insecure HTTP resources. This article explains the cause and how to fix it.
 categories:
     - en_Troubleshooting
 tags:

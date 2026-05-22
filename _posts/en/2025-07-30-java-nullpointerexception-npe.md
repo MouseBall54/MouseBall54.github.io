@@ -6,6 +6,7 @@ title: "A Complete Guide to Conquering Java's NullPointerException (NPE)"
 lang: en
 translation_id: java-nullpointerexception-npe
 excerpt: "Explore the causes of Java's infamous NullPointerException (NPE) and learn practical, effective methods to prevent and handle it gracefully using null checks, Optional, annotations, and more."
+seo_description: "Explore the causes of Java's infamous NullPointerException (NPE) and learn practical, effective methods to prevent and handle it gracefully using null checks, Optional, annotations, and more."
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

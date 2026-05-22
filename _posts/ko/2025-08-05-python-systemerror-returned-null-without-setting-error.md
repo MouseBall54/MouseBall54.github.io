@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
    드물지만 혼란스러운 Python SystemError: <built-in function ...> returned NULL without setting an error 오류를 해결하세요. 이 가이드는 C 확장 모듈 문제나 손상된 설치와 같은 잠재적 원인을 탐색합니다.
+seo_description: >
+   드물지만 혼란스러운 Python SystemError: <built-in function ...> returned NULL without setting an error 오류를 해결하세요. 이 가이드는 C 확장 모듈 문제나 손상된 설치와 같은 잠재적 원인을 탐색합니다.
 categories:
    - ko_Troubleshooting
 tags:

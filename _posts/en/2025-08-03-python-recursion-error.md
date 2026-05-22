@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     In Python, a RecursionError occurs when the depth of recursive calls exceeds the maximum limit. This article explains the cause of the error and how to fix it.
+seo_description: >
+    In Python, a RecursionError occurs when the depth of recursive calls exceeds the maximum limit. This article explains the cause of the error and how to fix it.
 categories:
     - en_Troubleshooting
 tags:

@@ -11,6 +11,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
   `setTimeout`, Web Worker, `requestAnimationFrame`과 같은 기술을 사용하여 무거운 작업을 지연시켜 오래 실행되는 'click' 핸들러를 최적화하고 브라우저 응답성을 개선합니다.
+seo_description: >
+  `setTimeout`, Web Worker, `requestAnimationFrame`과 같은 기술을 사용하여 무거운 작업을 지연시켜 오래 실행되는 'click' 핸들러를 최적화하고 브라우저 응답성을 개선합니다.
 categories:
   - ko_Troubleshooting
 tags:

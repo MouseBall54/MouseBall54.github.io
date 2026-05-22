@@ -13,6 +13,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     공유 브랜치에서 Git 커밋을 되돌릴 때 git revert와 git reset 중 무엇을 써야 하는지, 안전한 선택 기준을 정리합니다.
+seo_description: >
+    공유 브랜치에서 Git 커밋을 되돌릴 때 git revert와 git reset 중 무엇을 써야 하는지, 안전한 선택 기준을 정리합니다.
 categories:
   - ko_Troubleshooting
 tags:

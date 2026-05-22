@@ -13,6 +13,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Learn when to use git revert instead of git reset so you can safely undo a commit without rewriting shared history.
+seo_description: >
+    Learn when to use git revert instead of git reset so you can safely undo a commit without rewriting shared history.
 categories:
   - en_Troubleshooting
 tags:

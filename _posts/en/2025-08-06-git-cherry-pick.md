@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Learn how to use `git cherry-pick` to apply a specific commit from one branch to another without merging the entire branch.
+seo_description: >
+    Learn how to use `git cherry-pick` to apply a specific commit from one branch to another without merging the entire branch.
 categories:
   - en_Troubleshooting
 tags:

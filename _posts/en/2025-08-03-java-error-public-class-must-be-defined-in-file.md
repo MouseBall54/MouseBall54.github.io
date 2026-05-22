@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Understand and resolve the Java compile error that occurs when the name of a `public` class does not match the name of its `.java` file.
+seo_description: >
+    Understand and resolve the Java compile error that occurs when the name of a `public` class does not match the name of its `.java` file.
 categories:
   - en_Troubleshooting
 tags:

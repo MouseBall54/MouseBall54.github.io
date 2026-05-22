@@ -96,11 +96,12 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 # AdSense
+# Auto ads render when enabled and auto_ads are true.
 # Manual ad units render only when enabled is true and slot IDs are set.
 adsense:
-  enabled                : false
+  enabled                : true
   client                 : "ca-pub-2983974324971673"
-  auto_ads               : false
+  auto_ads               : true
   in_article_slot        :
   post_bottom_slot       :
   min_words_for_ads      : 700

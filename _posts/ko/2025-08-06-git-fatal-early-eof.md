@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     일반적으로 원격 서버로부터의 불완전한 데이터 전송을 나타내는 Git의 "fatal: early EOF" 오류를 진단하고 수정하는 방법을 알아보세요.
+seo_description: >
+    일반적으로 원격 서버로부터의 불완전한 데이터 전송을 나타내는 Git의 "fatal: early EOF" 오류를 진단하고 수정하는 방법을 알아보세요.
 categories:
   - ko_Troubleshooting
 tags:

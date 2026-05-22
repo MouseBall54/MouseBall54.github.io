@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
    흔한 "Uncaught ReferenceError: jQuery is not defined" 오류는 스크립트가 jQuery를 사용하기 전에 라이브러리가 올바르게 로드되었는지 확인하여 해결할 수 있습니다. 이 가이드는 원인과 해결책을 다룹니다.
+seo_description: >
+   흔한 "Uncaught ReferenceError: jQuery is not defined" 오류는 스크립트가 jQuery를 사용하기 전에 라이브러리가 올바르게 로드되었는지 확인하여 해결할 수 있습니다. 이 가이드는 원인과 해결책을 다룹니다.
 categories:
    - ko_Troubleshooting
 tags:

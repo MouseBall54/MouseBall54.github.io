@@ -9,8 +9,8 @@ date: 2026-05-23T11:00:00+09:00
 lang: en
 translation_id: python-venv-not-activating
 header:
-   teaser: /images/header_images/overlay_image_python.png
-   overlay_image: /images/header_images/overlay_image_python.png
+   teaser: /images/2026-05-23-python-venv-not-activating/python-venv-not-activating-hero.png
+   overlay_image: /images/2026-05-23-python-venv-not-activating/python-venv-not-activating-hero.png
    overlay_filter: 0.5
 excerpt: >
   Fix Python venv activation problems by using the right shell command, checking PowerShell policy, and verifying the active interpreter path.
@@ -29,6 +29,8 @@ tags:
 
 You created a Python virtual environment with `python -m venv .venv`, but it does not seem to activate.
 The terminal prompt may not change, `pip install` may still install globally, or VS Code may keep using a different Python interpreter.
+
+![Python venv Not Activating: How to Fix It explanatory image](/images/2026-05-23-python-venv-not-activating/python-venv-not-activating-hero.png)
 
 The confusing part is that prompt changes are only a visual clue.
 The real test is whether `python` and `pip` now point inside the virtual environment.

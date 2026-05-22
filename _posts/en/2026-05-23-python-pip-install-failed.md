@@ -9,8 +9,8 @@ date: 2026-05-23T09:00:00+09:00
 lang: en
 translation_id: python-pip-install-failed
 header:
-   teaser: /images/header_images/overlay_image_python.png
-   overlay_image: /images/header_images/overlay_image_python.png
+   teaser: /images/2026-05-23-python-pip-install-failed/python-pip-install-failed-hero.png
+   overlay_image: /images/2026-05-23-python-pip-install-failed/python-pip-install-failed-hero.png
    overlay_filter: 0.5
 excerpt: >
   Fix pip install failed errors by checking the active Python environment, upgrading pip, using a virtual environment, and reading the exact install error.
@@ -29,6 +29,8 @@ tags:
 
 You run `pip install package-name`, but the installation fails.
 The error may look different depending on the package and your environment.
+
+![How to Fix pip install Failed in Python explanatory image](/images/2026-05-23-python-pip-install-failed/python-pip-install-failed-hero.png)
 
 Common examples include:
 

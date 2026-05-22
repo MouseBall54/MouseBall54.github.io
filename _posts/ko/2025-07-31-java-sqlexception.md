@@ -6,6 +6,7 @@ title: "Java \"java.sql.SQLException\" 예외 처리 방법"
 lang: ko
 translation_id: java-sqlexception
 excerpt: "데이터베이스 연결, 구문을 올바르게 관리하고 try-catch-finally 블록을 사용하여 리소스가 닫히도록 보장함으로써 java.sql.SQLException을 처리하는 방법을 배웁니다."
+seo_description: "데이터베이스 연결, 구문을 올바르게 관리하고 try-catch-finally 블록을 사용하여 리소스가 닫히도록 보장함으로써 java.sql.SQLException을 처리하는 방법을 배웁니다."
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

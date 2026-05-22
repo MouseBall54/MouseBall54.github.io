@@ -276,14 +276,15 @@
 현재 상태:
 
 - `ads.txt`는 존재한다.
-- `_includes/head/custom.html`에 AdSense script가 있다.
+- `_includes/head/custom.html`에 AdSense script가 있고, 현재 `auto_ads: true`로 Auto ads script가 로드된다.
 - `_includes/ad-content.html`과 `_includes/ad-inarticle.html`이 있다.
 - `_config.yml`에서 `adsense.enabled`, `in_article_slot`, `post_bottom_slot`, `min_words_for_ads`로 렌더링을 제어한다.
+- 수동 본문/하단 광고는 AdSense slot ID가 들어오기 전까지 비활성이다.
 
 권장 구현:
 
 1. AdSense에서 manual ad unit을 만든 뒤 `in_article_slot`과 `post_bottom_slot`을 설정한다.
-2. 설정이 끝나면 `adsense.enabled: true`로 live ads를 켠다.
+2. Auto ads는 현재 켜져 있으므로, 수동 광고 단위가 준비되면 slot ID를 추가해 본문 중간/하단 배치를 보강한다.
 3. 글 길이에 따라 광고 수를 제한한다.
 4. 검색, 태그, 카테고리, 짧은 static page에는 광고를 넣지 않거나 Auto ads excluded pages로 관리한다.
 5. 이미지와 광고가 연속으로 붙어 콘텐츠 흐름을 끊지 않게 한다.
@@ -354,6 +355,14 @@ Auto ads 운영:
 - [x] P0 브리프 기반 열 번째 포스트 쌍 작성: `typescript-tsconfig-paths-not-working`
 - [x] Git/GitHub P0 포스트 쌍 작성: `github-actions-build-failed`
 - [x] Git/GitHub P0 포스트 쌍 작성: `github-pages-jekyll-build-failed`
+- [x] Troubleshooting 이미지 포함 포스트 쌍 작성: `git-fatal-authentication-failed`
+- [x] Troubleshooting 이미지 포함 포스트 쌍 작성: `git-gh006-protected-branch`
+- [x] Troubleshooting 이미지 포함 포스트 쌍 작성: `spring-boot-port-8080-already-in-use`
+- [x] Troubleshooting 이미지 포함 포스트 쌍 작성: `docker-daemon-not-running`
+- [x] Troubleshooting 이미지 포함 포스트 쌍 작성: `gradle-build-failed`
+- [x] Troubleshooting 이미지 포함 포스트 쌍 작성: `maven-dependency-not-found`
+- [x] Troubleshooting 이미지 포함 포스트 쌍 작성: `java-unsupported-class-file-major-version`
+- [x] Troubleshooting 이미지 포함 포스트 쌍 작성: `vscode-python-interpreter-not-showing`
 - [x] AI Trends 이미지 포함 포스트 쌍 작성: `ai-agent-workflow-2026`
 - [x] AI Trends 이미지 포함 포스트 쌍 작성: `openai-responses-api-guide`
 - [x] AI Trends 이미지 포함 포스트 쌍 작성: `ai-tools-function-calling`
@@ -361,6 +370,9 @@ Auto ads 운영:
 - [x] AI Trends 이미지 포함 포스트 쌍 작성: `local-llm-vs-cloud-llm`
 - [x] AI Trends 이미지 포함 포스트 쌍 작성: `prompt-engineering-checklist`
 - [x] AI Trends 이미지 포함 포스트 쌍 작성: `ai-coding-agent-workflow`
+- [x] AI Trends 이미지 포함 포스트 쌍 작성: `ai-search-optimization`
+- [x] AI Trends 이미지 포함 포스트 쌍 작성: `ai-automation-roi`
+- [x] AI Trends 이미지 포함 포스트 쌍 작성: `ai-meeting-notes-workflow`
 - [x] Study 이미지 포함 포스트 쌍 작성: `active-recall-study-method`
 - [x] Study 이미지 포함 포스트 쌍 작성: `spaced-repetition-schedule`
 - [x] Study 이미지 포함 포스트 쌍 작성: `pomodoro-deep-work`
@@ -368,6 +380,7 @@ Auto ads 운영:
 - [x] Study 이미지 포함 포스트 쌍 작성: `coding-study-roadmap`
 - [x] Study 이미지 포함 포스트 쌍 작성: `english-vocabulary-system`
 - [x] Study 이미지 포함 포스트 쌍 작성: `weekly-study-review`
+- [x] Study 이미지 포함 포스트 쌍 작성: `notion-study-dashboard`
 - [x] Economy 이미지 포함 포스트 쌍 작성: `compound-interest-example`
 - [x] Economy 이미지 포함 포스트 쌍 작성: `etf-vs-mutual-fund`
 - [x] Economy 이미지 포함 포스트 쌍 작성: `household-budget-50-30-20`
@@ -375,9 +388,14 @@ Auto ads 운영:
 - [x] Economy 이미지 포함 포스트 쌍 작성: `interest-rate-inflation-basics`
 - [x] Economy 이미지 포함 포스트 쌍 작성: `exchange-rate-basics`
 - [x] Economy 이미지 포함 포스트 쌍 작성: `recession-indicators-basics`
+- [x] Easy Labeling 이미지 포함 포스트 쌍 작성: `yolo-label-format`
+- [x] Easy Labeling 이미지 포함 포스트 쌍 작성: `coco-to-yolo-conversion`
+- [x] Easy Labeling 이미지 포함 포스트 쌍 작성: `image-labeling-classes`
+- [x] Easy Labeling 이미지 포함 포스트 쌍 작성: `local-image-labeling-workflow`
+- [x] Easy Labeling 이미지 포함 포스트 쌍 작성: `easy-labeling-yolo-dataset`
 - [x] 각 글에 `lang`, `translation_id`, category, English tags 확인: `npm run validate:content-plan`
-- [ ] 신규 글마다 내부 링크 최소 2개 추가
-- [ ] Easy Labeling 글은 실제 화면과 launch link 포함
+- [x] 신규 글마다 내부 링크 최소 2개 추가
+- [x] Easy Labeling 글은 실제 화면과 launch link 포함
 
 기술:
 
@@ -401,6 +419,6 @@ Auto ads 운영:
 
 1. `planning/100-post-multidomain-queue.md` 기준으로 50개 주제 쌍을 순차 작성한다.
 2. 각 주제마다 이미지 prompt, 저장 경로, alt text를 함께 관리한다.
-3. AdSense slot ID가 준비되면 `_config.yml`에 반영하고 `adsense.enabled: true`로 전환한다.
+3. AdSense slot ID가 준비되면 `_config.yml`의 `in_article_slot`, `post_bottom_slot`에 반영한다.
 4. 신규 글마다 `npm run validate:content-plan`을 실행한다.
 5. Search Console 데이터가 쌓이면 P0/P1 우선순위를 실제 query 기준으로 다시 정렬한다.

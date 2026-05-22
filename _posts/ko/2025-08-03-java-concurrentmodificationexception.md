@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Java에서 ConcurrentModificationException을 해결하는 방법을 배웁니다. 이 예외는 컬렉션을 반복하는 동안 수정될 때 발생합니다.
+seo_description: >
+    Java에서 ConcurrentModificationException을 해결하는 방법을 배웁니다. 이 예외는 컬렉션을 반복하는 동안 수정될 때 발생합니다.
 categories:
   - ko_Troubleshooting
 tags:

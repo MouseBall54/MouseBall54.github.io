@@ -6,6 +6,7 @@ title: "How to Fix Python's IndexError: list index out of range"
 lang: en
 translation_id: python-indexerror-list-index-out-of-range
 excerpt: "Learn how to fix the 'IndexError: list index out of range' in Python. This guide covers common causes and solutions, including checking list length and using loops correctly."
+seo_description: "Learn how to fix the 'IndexError: list index out of range' in Python. This guide covers common causes and solutions, including checking list length and using loops correctly."
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

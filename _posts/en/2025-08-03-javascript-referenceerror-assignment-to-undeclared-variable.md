@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     This post explains how to fix the "ReferenceError: assignment to undeclared variable" in JavaScript, which occurs in strict mode when you assign a value to a variable that has not been declared.
+seo_description: >
+    This post explains how to fix the "ReferenceError: assignment to undeclared variable" in JavaScript, which occurs in strict mode when you assign a value to a variable that has not been declared.
 categories:
   - en_Troubleshooting
 tags:

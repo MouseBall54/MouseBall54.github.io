@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     이 포스트는 JavaScript의 엄격 모드(strict mode)에서 선언되지 않은 변수에 값을 할당할 때 발생하는 "ReferenceError: assignment to undeclared variable" 오류를 해결하는 방법을 설명합니다.
+seo_description: >
+    이 포스트는 JavaScript의 엄격 모드(strict mode)에서 선언되지 않은 변수에 값을 할당할 때 발생하는 "ReferenceError: assignment to undeclared variable" 오류를 해결하는 방법을 설명합니다.
 categories:
   - ko_Troubleshooting
 tags:

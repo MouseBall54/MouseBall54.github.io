@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     In Git, "error: object file ... is empty" occurs when a Git object file is corrupted and has no content. This article explains the cause of the error and how to fix it.
+seo_description: >
+    In Git, "error: object file ... is empty" occurs when a Git object file is corrupted and has no content. This article explains the cause of the error and how to fix it.
 categories:
     - en_Troubleshooting
 tags:

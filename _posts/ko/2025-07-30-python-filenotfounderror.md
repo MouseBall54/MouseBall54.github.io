@@ -6,6 +6,7 @@ title: "Python FileNotFoundError 해결 방법"
 lang: ko
 translation_id: python-filenotfounderror
 excerpt: "Python에서 파일을 다룰 때 흔히 발생하는 FileNotFoundError: [Errno 2] No such file or directory 오류의 원인과 해결책을 상세히 알아봅니다."
+seo_description: "Python에서 파일을 다룰 때 흔히 발생하는 FileNotFoundError: [Errno 2] No such file or directory 오류의 원인과 해결책을 상세히 알아봅니다."
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

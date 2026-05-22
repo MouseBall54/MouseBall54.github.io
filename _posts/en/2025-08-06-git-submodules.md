@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Learn how to use `git submodule` to include and manage external repositories as subdirectories within your main project.
+seo_description: >
+    Learn how to use `git submodule` to include and manage external repositories as subdirectories within your main project.
 categories:
   - en_Troubleshooting
 tags:

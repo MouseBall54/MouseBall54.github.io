@@ -11,6 +11,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
   JavaScript 코드에서 네트워크 문제, CORS 정책, 잘못된 요청 URL을 확인하여 "Failed to fetch" 오류를 해결하고 문제를 해결하는 방법을 알아봅니다.
+seo_description: >
+  JavaScript 코드에서 네트워크 문제, CORS 정책, 잘못된 요청 URL을 확인하여 "Failed to fetch" 오류를 해결하고 문제를 해결하는 방법을 알아봅니다.
 categories:
   - ko_Troubleshooting
 tags:

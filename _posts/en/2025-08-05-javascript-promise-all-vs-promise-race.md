@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
    Learn the difference between Promise.all and Promise.race in JavaScript for handling multiple asynchronous operations. Understand when to wait for all promises to complete and when to act on the first one that settles.
+seo_description: >
+   Learn the difference between Promise.all and Promise.race in JavaScript for handling multiple asynchronous operations. Understand when to wait for all promises to complete and when to act on the first one that settles.
 categories:
    - en_Troubleshooting
 tags:

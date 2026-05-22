@@ -6,6 +6,7 @@ title: "How to Handle java.sql.SQLException in Java"
 lang: en
 translation_id: java-sqlexception
 excerpt: "Learn to handle java.sql.SQLException by properly managing database connections, statements, and using try-catch-finally blocks to ensure resources are closed."
+seo_description: "Learn to handle java.sql.SQLException by properly managing database connections, statements, and using try-catch-finally blocks to ensure resources are closed."
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

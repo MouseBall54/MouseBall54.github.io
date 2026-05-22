@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     Java에서 "incompatible types" 오류는 서로 호환되지 않는 타입의 값을 변수에 할당하거나 메서드에 전달하려고 할 때 발생하는 컴파일 오류입니다. 이 글에서는 원인과 해결 방법을 알아봅니다.
+seo_description: >
+    Java에서 "incompatible types" 오류는 서로 호환되지 않는 타입의 값을 변수에 할당하거나 메서드에 전달하려고 할 때 발생하는 컴파일 오류입니다. 이 글에서는 원인과 해결 방법을 알아봅니다.
 categories:
     - ko_Troubleshooting
 tags:

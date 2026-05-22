@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
    Resolve the common "Uncaught ReferenceError: jQuery is not defined" by ensuring the jQuery library is loaded correctly before your script attempts to use it. This guide covers the causes and solutions.
+seo_description: >
+   Resolve the common "Uncaught ReferenceError: jQuery is not defined" by ensuring the jQuery library is loaded correctly before your script attempts to use it. This guide covers the causes and solutions.
 categories:
    - en_Troubleshooting
 tags:

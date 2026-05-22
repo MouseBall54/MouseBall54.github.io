@@ -6,6 +6,7 @@ title: "Git에서 'error: failed to push some refs to' 오류 해결 방법"
 lang: ko
 translation_id: git-failed-to-push-some-refs
 excerpt: "원격 저장소의 최신 변경 사항을 가져온 후 자신의 변경 사항을 푸시하여 Git의 'failed to push some refs' 오류를 해결합니다."
+seo_description: "원격 저장소의 최신 변경 사항을 가져온 후 자신의 변경 사항을 푸시하여 Git의 'failed to push some refs' 오류를 해결합니다."
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

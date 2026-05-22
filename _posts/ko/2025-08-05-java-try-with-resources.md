@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Java의 try-with-resources 구문을 사용하여 스트림이나 커넥션과 같은 리소스를 자동으로 닫고, 흔한 메모리 누수를 방지하며 코드를 더 깔끔하게 만드는 방법을 알아보세요.
+seo_description: >
+    Java의 try-with-resources 구문을 사용하여 스트림이나 커넥션과 같은 리소스를 자동으로 닫고, 흔한 메모리 누수를 방지하며 코드를 더 깔끔하게 만드는 방법을 알아보세요.
 categories:
   - ko_Troubleshooting
 tags:

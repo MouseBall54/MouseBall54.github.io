@@ -9,8 +9,8 @@ date: 2026-05-23T13:00:00+09:00
 lang: ko
 translation_id: python-externally-managed-environment
 header:
-   teaser: /images/header_images/overlay_image_python.png
-   overlay_image: /images/header_images/overlay_image_python.png
+   teaser: /images/2026-05-23-python-externally-managed-environment/python-externally-managed-environment-hero.png
+   overlay_image: /images/2026-05-23-python-externally-managed-environment/python-externally-managed-environment-hero.png
    overlay_filter: 0.5
 excerpt: >
   Python externally-managed-environment 오류를 시스템 Python을 건드리지 않고 가상환경, pipx, package manager로 안전하게 해결하는 방법입니다.
@@ -28,6 +28,8 @@ tags:
 ## 문제 상황
 
 `pip install package-name`을 실행했는데 Python이 다음과 같은 오류로 설치를 중단할 수 있습니다.
+
+![Python externally-managed-environment 오류 해결 방법 설명 이미지](/images/2026-05-23-python-externally-managed-environment/python-externally-managed-environment-hero.png)
 
 ```text
 error: externally-managed-environment

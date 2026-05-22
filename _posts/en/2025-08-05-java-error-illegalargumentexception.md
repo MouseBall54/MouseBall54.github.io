@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Learn what IllegalArgumentException is, why it's thrown, and how to use it effectively to validate method arguments and improve code robustness.
+seo_description: >
+    Learn what IllegalArgumentException is, why it's thrown, and how to use it effectively to validate method arguments and improve code robustness.
 categories:
   - en_Troubleshooting
 tags:

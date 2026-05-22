@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     In Java, the "incompatible types" error is a compilation error that occurs when you try to assign a value of an incompatible type to a variable or pass it to a method. This article explains its causes and solutions.
+seo_description: >
+    In Java, the "incompatible types" error is a compilation error that occurs when you try to assign a value of an incompatible type to a variable or pass it to a method. This article explains its causes and solutions.
 categories:
     - en_Troubleshooting
 tags:

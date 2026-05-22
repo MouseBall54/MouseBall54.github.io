@@ -11,6 +11,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
   Resolve the Git error "src refspec ... does not match any" by ensuring the branch you are trying to push exists locally and the name is spelled correctly.
+seo_description: >
+  Resolve the Git error "src refspec ... does not match any" by ensuring the branch you are trying to push exists locally and the name is spelled correctly.
 categories:
   - en_Troubleshooting
 tags:

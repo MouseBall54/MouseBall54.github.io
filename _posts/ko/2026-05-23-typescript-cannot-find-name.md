@@ -9,8 +9,8 @@ date: 2026-05-23T16:00:00+09:00
 lang: ko
 translation_id: typescript-cannot-find-name
 header:
-   teaser: /images/header_images/overlay_image_js.png
-   overlay_image: /images/header_images/overlay_image_js.png
+   teaser: /images/2026-05-23-typescript-cannot-find-name/typescript-cannot-find-name-hero.png
+   overlay_image: /images/2026-05-23-typescript-cannot-find-name/typescript-cannot-find-name-hero.png
    overlay_filter: 0.5
 excerpt: >
   TypeScript TS2304 Cannot find name 오류를 import, type package, tsconfig lib와 types 설정, global name, 실제 config 기준으로 해결하는 방법입니다.
@@ -28,6 +28,8 @@ tags:
 ## 문제 상황
 
 TypeScript에서 다음과 같은 오류가 표시될 수 있습니다.
+
+![TypeScript Cannot find name 오류 해결 방법 설명 이미지](/images/2026-05-23-typescript-cannot-find-name/typescript-cannot-find-name-hero.png)
 
 ```text
 TS2304: Cannot find name 'process'.

@@ -9,8 +9,8 @@ date: 2026-05-23T13:00:00+09:00
 lang: en
 translation_id: python-externally-managed-environment
 header:
-   teaser: /images/header_images/overlay_image_python.png
-   overlay_image: /images/header_images/overlay_image_python.png
+   teaser: /images/2026-05-23-python-externally-managed-environment/python-externally-managed-environment-hero.png
+   overlay_image: /images/2026-05-23-python-externally-managed-environment/python-externally-managed-environment-hero.png
    overlay_filter: 0.5
 excerpt: >
   Fix Python's externally-managed-environment error safely by using a virtual environment, pipx, or the system package manager instead of breaking system Python.
@@ -28,6 +28,8 @@ tags:
 ## Problem
 
 You run `pip install package-name`, but Python stops with an error like this:
+
+![How to Fix externally-managed-environment in Python explanatory image](/images/2026-05-23-python-externally-managed-environment/python-externally-managed-environment-hero.png)
 
 ```text
 error: externally-managed-environment

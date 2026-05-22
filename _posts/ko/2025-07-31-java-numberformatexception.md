@@ -7,6 +7,7 @@ lang: ko
 translation_id: java-numberformatexception-handling
 permalink: /ko_Troubleshooting/java-numberformatexception-handling/
 excerpt: "파싱 전 문자열을 검증하고, 안전한 숫자 변환을 위해 try-catch 블록을 사용하여 Java의 NumberFormatException을 예방하고 처리하는 방법을 배웁니다."
+seo_description: "파싱 전 문자열을 검증하고, 안전한 숫자 변환을 위해 try-catch 블록을 사용하여 Java의 NumberFormatException을 예방하고 처리하는 방법을 배웁니다."
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

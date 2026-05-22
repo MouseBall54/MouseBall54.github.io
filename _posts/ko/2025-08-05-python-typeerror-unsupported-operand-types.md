@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
    Python에서 호환되지 않는 타입으로 연산을 시도할 때 발생하는 TypeError: unsupported operand type(s) for + 오류를 해결하세요. 이 가이드는 숫자, 문자열 및 기타 객체에 대한 타입 변환을 처리하는 방법을 설명합니다.
+seo_description: >
+   Python에서 호환되지 않는 타입으로 연산을 시도할 때 발생하는 TypeError: unsupported operand type(s) for + 오류를 해결하세요. 이 가이드는 숫자, 문자열 및 기타 객체에 대한 타입 변환을 처리하는 방법을 설명합니다.
 categories:
    - ko_Troubleshooting
 tags:

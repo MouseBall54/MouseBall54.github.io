@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
    Understand the key differences between innerHTML and textContent in JavaScript. Learn when to use each property for better security, performance, and predictability in your web applications.
+seo_description: >
+   Understand the key differences between innerHTML and textContent in JavaScript. Learn when to use each property for better security, performance, and predictability in your web applications.
 categories:
    - en_Troubleshooting
 tags:

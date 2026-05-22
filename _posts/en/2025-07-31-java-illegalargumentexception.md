@@ -6,6 +6,7 @@ title: "How to Handle IllegalArgumentException in Java"
 lang: en
 translation_id: java-illegalargumentexception
 excerpt: "Learn to use and handle Java's IllegalArgumentException effectively by performing explicit checks at the beginning of your methods to ensure arguments are valid."
+seo_description: "Learn to use and handle Java's IllegalArgumentException effectively by performing explicit checks at the beginning of your methods to ensure arguments are valid."
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

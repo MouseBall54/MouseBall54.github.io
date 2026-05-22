@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     Java에서 이 컴파일 오류는 public 클래스의 이름과 소스 파일의 이름이 일치하지 않을 때 발생합니다. 이 글에서는 오류의 원인과 해결 방법을 알아봅니다.
+seo_description: >
+    Java에서 이 컴파일 오류는 public 클래스의 이름과 소스 파일의 이름이 일치하지 않을 때 발생합니다. 이 글에서는 오류의 원인과 해결 방법을 알아봅니다.
 categories:
     - ko_Troubleshooting
 tags:

@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     `.gitignore` 파일을 생성하고 사용하여 특정 파일 및 디렉터리가 Git 저장소에 추가되는 것을 방지하는 방법을 알아보세요.
+seo_description: >
+    `.gitignore` 파일을 생성하고 사용하여 특정 파일 및 디렉터리가 Git 저장소에 추가되는 것을 방지하는 방법을 알아보세요.
 categories:
   - ko_Troubleshooting
 tags:

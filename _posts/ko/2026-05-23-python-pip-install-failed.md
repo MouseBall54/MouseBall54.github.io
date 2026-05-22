@@ -9,8 +9,8 @@ date: 2026-05-23T09:00:00+09:00
 lang: ko
 translation_id: python-pip-install-failed
 header:
-   teaser: /images/header_images/overlay_image_python.png
-   overlay_image: /images/header_images/overlay_image_python.png
+   teaser: /images/2026-05-23-python-pip-install-failed/python-pip-install-failed-hero.png
+   overlay_image: /images/2026-05-23-python-pip-install-failed/python-pip-install-failed-hero.png
    overlay_filter: 0.5
 excerpt: >
   pip install 실패 오류를 현재 Python 환경 확인, pip 업그레이드, 가상환경 사용, 정확한 오류 메시지 분석으로 해결하는 방법입니다.
@@ -29,6 +29,8 @@ tags:
 
 `pip install package-name`을 실행했는데 패키지 설치가 실패하는 경우가 있습니다.
 패키지와 환경에 따라 오류 메시지는 조금씩 다릅니다.
+
+![Python pip install 실패 해결 방법 설명 이미지](/images/2026-05-23-python-pip-install-failed/python-pip-install-failed-hero.png)
 
 대표적인 예시는 다음과 같습니다.
 

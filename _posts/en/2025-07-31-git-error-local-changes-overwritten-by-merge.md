@@ -6,6 +6,7 @@ title: "How to Fix \"error: Your local changes to the following files would be o
 lang: en
 translation_id: git-error-local-changes-overwritten-by-merge
 excerpt: "Resolve the Git merge error by stashing, committing, or discarding your local changes before pulling or merging."
+seo_description: "Resolve the Git merge error by stashing, committing, or discarding your local changes before pulling or merging."
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     A step-by-step guide on using `git bisect` to perform a binary search on your commit history and quickly pinpoint the exact commit that caused a bug.
+seo_description: >
+    A step-by-step guide on using `git bisect` to perform a binary search on your commit history and quickly pinpoint the exact commit that caused a bug.
 categories:
   - en_Troubleshooting
 tags:

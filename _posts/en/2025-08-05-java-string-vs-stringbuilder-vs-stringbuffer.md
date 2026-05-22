@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Understand the key differences between String, StringBuilder, and StringBuffer in Java to write more efficient and optimized code for string manipulation.
+seo_description: >
+    Understand the key differences between String, StringBuilder, and StringBuffer in Java to write more efficient and optimized code for string manipulation.
 categories:
   - en_Troubleshooting
 tags:

@@ -22,6 +22,7 @@ tags:
   - Free Tool
   - Web-Based
 excerpt: "Discover Easy Labeling, a free, web-based image annotation tool designed for YOLO object detection. Create high-quality datasets for computer vision projects with full YOLO format support, local file processing for speed and privacy, and no installation required."
+seo_description: "Discover Easy Labeling, a free, web-based image annotation tool designed for YOLO object detection. Create high-quality datasets for computer vision projects with full YOLO format support, local file processing for speed and privacy, and no installation required."
 ---
 
 <p><strong>Easy Labeling Project Page: <a href="https://mouseball54.github.io/easy_labeling/">https://mouseball54.github.io/easy_labeling/</a></strong></p>

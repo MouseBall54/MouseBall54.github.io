@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Learn why you must always override hashCode() if you override equals() in Java. Understand the contract between these two methods and how they work with hash-based collections.
+seo_description: >
+    Learn why you must always override hashCode() if you override equals() in Java. Understand the contract between these two methods and how they work with hash-based collections.
 categories:
   - en_Troubleshooting
 tags:

@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     A WebSocket connection failure in JavaScript can occur for various reasons. This article explores the common causes of the "WebSocket connection to '...' failed" error and how to resolve it.
+seo_description: >
+    A WebSocket connection failure in JavaScript can occur for various reasons. This article explores the common causes of the "WebSocket connection to '...' failed" error and how to resolve it.
 categories:
     - en_Troubleshooting
 tags:

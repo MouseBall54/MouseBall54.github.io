@@ -9,8 +9,8 @@ date: 2026-05-23T12:00:00+09:00
 lang: en
 translation_id: python-command-not-found-windows
 header:
-   teaser: /images/header_images/overlay_image_python.png
-   overlay_image: /images/header_images/overlay_image_python.png
+   teaser: /images/2026-05-23-python-command-not-found-windows/python-command-not-found-windows-hero.png
+   overlay_image: /images/2026-05-23-python-command-not-found-windows/python-command-not-found-windows-hero.png
    overlay_filter: 0.5
 excerpt: >
   Fix python command not found on Windows by checking the py launcher, PATH, App Execution Aliases, and the active Python installation.
@@ -28,6 +28,8 @@ tags:
 ## Problem
 
 You open PowerShell or Command Prompt on Windows and run:
+
+![Python Command Not Found on Windows: How to Fix It explanatory image](/images/2026-05-23-python-command-not-found-windows/python-command-not-found-windows-hero.png)
 
 ```powershell
 python --version

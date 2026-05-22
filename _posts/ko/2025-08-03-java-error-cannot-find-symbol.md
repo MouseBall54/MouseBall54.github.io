@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     Java에서 "cannot find symbol"은 컴파일러가 코드에서 사용된 식별자(변수, 메서드, 클래스 등)를 찾을 수 없을 때 발생하는 매우 흔한 컴파일 오류입니다. 이 글에서는 원인과 해결 방법을 알아봅니다.
+seo_description: >
+    Java에서 "cannot find symbol"은 컴파일러가 코드에서 사용된 식별자(변수, 메서드, 클래스 등)를 찾을 수 없을 때 발생하는 매우 흔한 컴파일 오류입니다. 이 글에서는 원인과 해결 방법을 알아봅니다.
 categories:
     - ko_Troubleshooting
 tags:

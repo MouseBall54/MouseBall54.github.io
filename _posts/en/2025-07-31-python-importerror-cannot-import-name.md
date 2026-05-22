@@ -8,6 +8,8 @@ lang: en
 translation_id: python-importerror-cannot-import-name
 excerpt: >
   "Resolve Python's \"ImportError: cannot import name '...' from '...'\" by checking for circular imports, typos, and incorrect module paths."
+seo_description: >
+  "Resolve Python's \"ImportError: cannot import name '...' from '...'\" by checking for circular imports, typos, and incorrect module paths."
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

@@ -6,6 +6,7 @@ title: "How to Fix \"ReferenceError: assignment to undeclared variable\" in Java
 lang: en
 translation_id: javascript-referenceerror-undeclared-variable
 excerpt: "Resolve the \"ReferenceError: assignment to undeclared variable\" in JavaScript's strict mode by properly declaring variables with `let`, `const`, or `var` before assigning values."
+seo_description: "Resolve the \"ReferenceError: assignment to undeclared variable\" in JavaScript's strict mode by properly declaring variables with `let`, `const`, or `var` before assigning values."
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

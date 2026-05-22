@@ -6,6 +6,7 @@ title: "How to Fix Java's StackOverflowError"
 lang: en
 translation_id: java-stackoverflowerror
 excerpt: "Understand and resolve Java's StackOverflowError by identifying infinite recursion in your code. Learn how to debug recursive functions, refactor them into iterative solutions, and increase the thread stack size when necessary."
+seo_description: "Understand and resolve Java's StackOverflowError by identifying infinite recursion in your code. Learn how to debug recursive functions, refactor them into iterative solutions, and increase the thread stack size when necessary."
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

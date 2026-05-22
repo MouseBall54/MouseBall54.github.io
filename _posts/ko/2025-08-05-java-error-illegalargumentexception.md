@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     IllegalArgumentException이 무엇인지, 왜 발생하는지, 그리고 메서드 인자를 검증하고 코드의 견고성을 향상시키기 위해 효과적으로 사용하는 방법을 알아보세요.
+seo_description: >
+    IllegalArgumentException이 무엇인지, 왜 발생하는지, 그리고 메서드 인자를 검증하고 코드의 견고성을 향상시키기 위해 효과적으로 사용하는 방법을 알아보세요.
 categories:
   - ko_Troubleshooting
 tags:

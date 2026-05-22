@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
    Learn how to properly handle errors in async/await functions using try...catch blocks in JavaScript. Avoid unhandled promise rejections and write robust, reliable asynchronous code.
+seo_description: >
+   Learn how to properly handle errors in async/await functions using try...catch blocks in JavaScript. Avoid unhandled promise rejections and write robust, reliable asynchronous code.
 categories:
    - en_Troubleshooting
 tags:

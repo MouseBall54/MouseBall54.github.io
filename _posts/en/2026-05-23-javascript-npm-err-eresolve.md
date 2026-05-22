@@ -9,8 +9,8 @@ date: 2026-05-23T14:00:00+09:00
 lang: en
 translation_id: javascript-npm-err-eresolve
 header:
-   teaser: /images/header_images/overlay_image_js.png
-   overlay_image: /images/header_images/overlay_image_js.png
+   teaser: /images/2026-05-23-javascript-npm-err-eresolve/javascript-npm-err-eresolve-hero.png
+   overlay_image: /images/2026-05-23-javascript-npm-err-eresolve/javascript-npm-err-eresolve-hero.png
    overlay_filter: 0.5
 excerpt: >
   Fix npm ERR ERESOLVE by identifying the peer dependency conflict, aligning package versions, refreshing the lockfile, and using legacy-peer-deps only when needed.
@@ -28,6 +28,8 @@ tags:
 ## Problem
 
 You run `npm install`, but npm stops with an error like this:
+
+![How to Fix npm ERR ERESOLVE explanatory image](/images/2026-05-23-javascript-npm-err-eresolve/javascript-npm-err-eresolve-hero.png)
 
 ```text
 npm ERR! ERESOLVE unable to resolve dependency tree

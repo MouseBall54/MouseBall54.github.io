@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Resolve the "UnicodeDecodeError" in Python. This error occurs when reading a file with an encoding that doesn't match the default 'utf-8' codec.
+seo_description: >
+    Resolve the "UnicodeDecodeError" in Python. This error occurs when reading a file with an encoding that doesn't match the default 'utf-8' codec.
 categories:
   - en_Troubleshooting
 tags:

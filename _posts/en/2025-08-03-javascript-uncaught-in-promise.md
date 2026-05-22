@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Learn how to resolve the `Uncaught (in promise)` error in JavaScript, which appears when a Promise rejection is not handled by a `.catch()` block or a try...catch statement.
+seo_description: >
+    Learn how to resolve the `Uncaught (in promise)` error in JavaScript, which appears when a Promise rejection is not handled by a `.catch()` block or a try...catch statement.
 categories:
   - en_Troubleshooting
 tags:

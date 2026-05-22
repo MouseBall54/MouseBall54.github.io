@@ -11,6 +11,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
   Resolve the "fatal: A branch named '...' already exists" error in Git by choosing a different name, deleting the old branch, or checking out the existing one.
+seo_description: >
+  Resolve the "fatal: A branch named '...' already exists" error in Git by choosing a different name, deleting the old branch, or checking out the existing one.
 categories:
   - en_Troubleshooting
 tags:

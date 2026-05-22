@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Java 람다 표현식이 무엇인지, 함수형 인터페이스의 사용을 어떻게 단순화하는지, 그리고 더 깔끔하고 표현력 있는 코드를 작성하기 위해 사용하는 방법을 알아보세요.
+seo_description: >
+    Java 람다 표현식이 무엇인지, 함수형 인터페이스의 사용을 어떻게 단순화하는지, 그리고 더 깔끔하고 표현력 있는 코드를 작성하기 위해 사용하는 방법을 알아보세요.
 categories:
   - ko_Troubleshooting
 tags:

@@ -43,14 +43,14 @@ The list keeps the existing troubleshooting strength, then adds study, economy, 
 | review | typescript-tsconfig-paths-not-working | tsconfig paths not working | `tsconfig` paths가 동작하지 않을 때 | tsconfig Paths Not Working | tsconfig path alias map |
 | review | github-actions-build-failed | GitHub Actions build failed | GitHub Actions build failed 해결 | How to Fix GitHub Actions Build Failed | CI pipeline failure |
 | review | github-pages-jekyll-build-failed | GitHub Pages Jekyll build failed | GitHub Pages Jekyll build 실패 | Fix GitHub Pages Jekyll Build Failed | Jekyll build pipeline |
-| todo | git-fatal-authentication-failed | git fatal authentication failed | `fatal: authentication failed` 해결 | Fix Git fatal authentication failed | credential flow |
-| todo | git-gh006-protected-branch | GH006 protected branch | `GH006 protected branch hook declined` 해결 | Fix GH006 Protected Branch Hook Declined | protected branch gate |
-| todo | spring-boot-port-8080-already-in-use | Spring Boot port 8080 already in use | Spring Boot port 8080 already in use 해결 | Fix Spring Boot Port 8080 Already in Use | port conflict map |
-| todo | gradle-build-failed | Gradle build failed | Gradle build failed 해결 | How to Fix Gradle Build Failed | Gradle task pipeline |
-| todo | maven-dependency-not-found | Maven dependency not found | Maven dependency not found 해결 | Fix Maven Dependency Not Found | Maven repository lookup |
-| todo | java-unsupported-class-file-major-version | unsupported class file major version | Unsupported class file major version 해결 | Fix Unsupported Class File Major Version | JDK version ladder |
-| todo | docker-daemon-not-running | Docker daemon not running | Docker daemon not running 해결 | Fix Docker Daemon Not Running | Docker client/server |
-| todo | vscode-python-interpreter-not-showing | VS Code Python interpreter not showing | VS Code Python interpreter 선택 문제 | VS Code Python Interpreter Not Showing | VS Code interpreter picker |
+| review | git-fatal-authentication-failed | git fatal authentication failed | `fatal: authentication failed` 해결 | Fix Git fatal authentication failed | credential flow |
+| review | git-gh006-protected-branch | GH006 protected branch | `GH006 protected branch hook declined` 해결 | Fix GH006 Protected Branch Hook Declined | protected branch gate |
+| review | spring-boot-port-8080-already-in-use | Spring Boot port 8080 already in use | Spring Boot port 8080 already in use 해결 | Fix Spring Boot Port 8080 Already in Use | port conflict map |
+| review | gradle-build-failed | Gradle build failed | Gradle build failed 해결 | How to Fix Gradle Build Failed | Gradle task pipeline |
+| review | maven-dependency-not-found | Maven dependency not found | Maven dependency not found 해결 | Fix Maven Dependency Not Found | Maven repository lookup |
+| review | java-unsupported-class-file-major-version | unsupported class file major version | Unsupported class file major version 해결 | Fix Unsupported Class File Major Version | JDK version ladder |
+| review | docker-daemon-not-running | Docker daemon not running | Docker daemon not running 해결 | Fix Docker Daemon Not Running | Docker client/server |
+| review | vscode-python-interpreter-not-showing | VS Code Python interpreter not showing | VS Code Python interpreter 선택 문제 | VS Code Python Interpreter Not Showing | VS Code interpreter picker |
 
 ## AI Trends and Workflow: 10 Topic Pairs
 
@@ -62,10 +62,10 @@ The list keeps the existing troubleshooting strength, then adds study, economy, 
 | review | rag-evaluation-checklist | RAG evaluation checklist | RAG 답변 품질 평가 체크리스트 | RAG Evaluation Checklist | retrieval and answer scoring |
 | review | local-llm-vs-cloud-llm | local LLM vs cloud LLM | Local LLM과 Cloud LLM 선택 기준 | Local LLM vs Cloud LLM | tradeoff matrix |
 | review | ai-coding-agent-workflow | AI coding agent workflow | AI coding agent를 안전하게 쓰는 워크플로우 | AI Coding Agent Workflow | coding review loop |
-| todo | ai-search-optimization | AI search optimization | AI 검색 시대의 글 작성 기준 | How to Write for AI Search | content answer blocks |
+| review | ai-search-optimization | AI search optimization | AI 검색 시대의 글 작성 기준 | How to Write for AI Search | content answer blocks |
 | review | prompt-engineering-checklist | prompt engineering checklist | Prompt engineering 실무 체크리스트 | Prompt Engineering Checklist | prompt structure board |
-| todo | ai-automation-roi | AI automation ROI | AI 자동화 ROI 계산법 | How to Calculate AI Automation ROI | process cost chart |
-| todo | ai-meeting-notes-workflow | AI meeting notes workflow | AI 회의록 자동화 워크플로우 | AI Meeting Notes Workflow | meeting to action pipeline |
+| review | ai-automation-roi | AI automation ROI | AI 자동화 ROI 계산법 | How to Calculate AI Automation ROI | process cost chart |
+| review | ai-meeting-notes-workflow | AI meeting notes workflow | AI 회의록 자동화 워크플로우 | AI Meeting Notes Workflow | meeting to action pipeline |
 
 ## Study and Productivity: 8 Topic Pairs
 
@@ -77,7 +77,7 @@ The list keeps the existing troubleshooting strength, then adds study, economy, 
 | review | exam-mistake-note-system | mistake note study | 오답노트 시스템 만드는 법 | How to Build a Mistake Note System | correction workflow |
 | review | coding-study-roadmap | coding study roadmap | 코딩 공부 로드맵 세우는 법 | Coding Study Roadmap | roadmap board |
 | review | english-vocabulary-system | vocabulary study system | 영어 단어장 반복 시스템 | Vocabulary Study System | flashcard workflow |
-| todo | notion-study-dashboard | Notion study dashboard | Notion 공부 대시보드 구성 | Notion Study Dashboard | dashboard mockup |
+| review | notion-study-dashboard | Notion study dashboard | Notion 공부 대시보드 구성 | Notion Study Dashboard | dashboard mockup |
 | review | weekly-study-review | weekly study review | 주간 공부 회고 템플릿 | Weekly Study Review Template | weekly review sheet |
 
 ## Economy and Money Basics: 7 Topic Pairs
@@ -96,11 +96,11 @@ The list keeps the existing troubleshooting strength, then adds study, economy, 
 
 | Status | Translation ID | Primary keyword | Korean title direction | English title direction | Image direction |
 | --- | --- | --- | --- | --- | --- |
-| todo | yolo-label-format | YOLO label format | YOLO label format 읽는 법 | How to Read YOLO Label Format | labeled bounding box |
-| todo | coco-to-yolo-conversion | COCO to YOLO | COCO to YOLO 변환 실수 | COCO to YOLO Conversion Mistakes | format conversion |
-| todo | image-labeling-classes | image labeling classes | 이미지 라벨링 클래스 관리법 | How to Manage Classes for Image Labeling | class taxonomy |
-| todo | local-image-labeling-workflow | local image labeling | 로컬 이미지 라벨링 워크플로우 | Local Image Labeling Workflow | local folder flow |
-| todo | easy-labeling-yolo-dataset | Easy Labeling YOLO | Easy Labeling으로 YOLO 데이터셋 만들기 | Build a YOLO Dataset with Easy Labeling | Easy Labeling screen flow |
+| review | yolo-label-format | YOLO label format | YOLO label format 읽는 법 | How to Read YOLO Label Format | labeled bounding box |
+| review | coco-to-yolo-conversion | COCO to YOLO | COCO to YOLO 변환 실수 | COCO to YOLO Conversion Mistakes | format conversion |
+| review | image-labeling-classes | image labeling classes | 이미지 라벨링 클래스 관리법 | How to Manage Classes for Image Labeling | class taxonomy |
+| review | local-image-labeling-workflow | local image labeling | 로컬 이미지 라벨링 워크플로우 | Local Image Labeling Workflow | local folder flow |
+| review | easy-labeling-yolo-dataset | Easy Labeling YOLO | Easy Labeling으로 YOLO 데이터셋 만들기 | Build a YOLO Dataset with Easy Labeling | Easy Labeling screen flow |
 
 ## Image Checklist
 

@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     In Git, "fatal: index file corrupt" occurs when the index file, which tracks the staging area, is damaged. This article explains the cause of the error and how to fix it.
+seo_description: >
+    In Git, "fatal: index file corrupt" occurs when the index file, which tracks the staging area, is damaged. This article explains the cause of the error and how to fix it.
 categories:
     - en_Troubleshooting
 tags:

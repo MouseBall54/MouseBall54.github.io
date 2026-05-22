@@ -6,6 +6,7 @@ title: "JavaScript TypeError: Cannot read properties of null 오류 해결하기
 lang: ko
 translation_id: javascript-typeerror-cannot-read-properties-of-null
 excerpt: "JavaScript 개발자라면 누구나 한 번쯤 마주치는 'Cannot read properties of null' 오류. 이 오류의 원인을 명확히 이해하고, DOM 로딩 시점과 조건부 접근을 통해 효과적으로 해결하는 방법을 알아봅니다."
+seo_description: "JavaScript 개발자라면 누구나 한 번쯤 마주치는 'Cannot read properties of null' 오류. 이 오류의 원인을 명확히 이해하고, DOM 로딩 시점과 조건부 접근을 통해 효과적으로 해결하는 방법을 알아봅니다."
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
    Learn how to resolve the Python TimeoutError: [WinError 10060], which occurs when a network connection times out. This guide covers causes like firewalls, incorrect addresses, and server issues, providing clear solutions.
+seo_description: >
+   Learn how to resolve the Python TimeoutError: [WinError 10060], which occurs when a network connection times out. This guide covers causes like firewalls, incorrect addresses, and server issues, providing clear solutions.
 categories:
    - en_Troubleshooting
 tags:

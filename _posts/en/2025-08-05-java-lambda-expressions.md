@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Learn what Java Lambda Expressions are, how they simplify the use of functional interfaces, and how to use them to write cleaner, more expressive code.
+seo_description: >
+    Learn what Java Lambda Expressions are, how they simplify the use of functional interfaces, and how to use them to write cleaner, more expressive code.
 categories:
   - en_Troubleshooting
 tags:

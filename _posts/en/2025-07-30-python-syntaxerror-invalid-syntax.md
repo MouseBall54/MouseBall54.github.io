@@ -6,6 +6,7 @@ title: "A Complete Guide to Python's SyntaxError: invalid syntax"
 lang: en
 translation_id: python-syntaxerror-invalid-syntax
 excerpt: "Clearly understand and resolve one of Python's most common errors: SyntaxError: invalid syntax. Learn to fix issues like missing colons, mismatched parentheses, and more with simple examples."
+seo_description: "Clearly understand and resolve one of Python's most common errors: SyntaxError: invalid syntax. Learn to fix issues like missing colons, mismatched parentheses, and more with simple examples."
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     Git에서 "fatal: index file corrupt"는 스테이징 영역의 상태를 추적하는 인덱스 파일이 손상되었을 때 발생합니다. 이 글에서는 오류의 원인과 해결 방법을 알아봅니다.
+seo_description: >
+    Git에서 "fatal: index file corrupt"는 스테이징 영역의 상태를 추적하는 인덱스 파일이 손상되었을 때 발생합니다. 이 글에서는 오류의 원인과 해결 방법을 알아봅니다.
 categories:
     - ko_Troubleshooting
 tags:

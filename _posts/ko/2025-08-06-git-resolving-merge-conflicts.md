@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Git에서 브랜치를 합칠 때 발생하는 병합 충돌을 이해하고 해결하는 단계별 가이드입니다.
+seo_description: >
+    Git에서 브랜치를 합칠 때 발생하는 병합 충돌을 이해하고 해결하는 단계별 가이드입니다.
 categories:
   - ko_Troubleshooting
 tags:

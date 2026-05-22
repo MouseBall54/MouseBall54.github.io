@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
    Dive into the differences between var, let, and const in JavaScript. Understand scope, hoisting, and reassignment rules to write cleaner, more predictable, and modern JS code.
+seo_description: >
+   Dive into the differences between var, let, and const in JavaScript. Understand scope, hoisting, and reassignment rules to write cleaner, more predictable, and modern JS code.
 categories:
    - en_Troubleshooting
 tags:

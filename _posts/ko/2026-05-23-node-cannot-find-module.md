@@ -9,8 +9,8 @@ date: 2026-05-23T15:00:00+09:00
 lang: ko
 translation_id: node-cannot-find-module
 header:
-   teaser: /images/header_images/overlay_image_js.png
-   overlay_image: /images/header_images/overlay_image_js.png
+   teaser: /images/2026-05-23-node-cannot-find-module/node-cannot-find-module-hero.png
+   overlay_image: /images/2026-05-23-node-cannot-find-module/node-cannot-find-module-hero.png
    overlay_filter: 0.5
 excerpt: >
   Node.js Cannot find module 오류를 패키지 설치, 상대 경로, 실행 위치, CommonJS와 ESM 문법, package exports 기준으로 해결하는 방법입니다.
@@ -28,6 +28,8 @@ tags:
 ## 문제 상황
 
 Node.js 스크립트를 실행했는데 다음과 같은 오류가 날 수 있습니다.
+
+![Node.js Cannot find module 오류 해결 방법 설명 이미지](/images/2026-05-23-node-cannot-find-module/node-cannot-find-module-hero.png)
 
 ```text
 Error: Cannot find module 'package-name'

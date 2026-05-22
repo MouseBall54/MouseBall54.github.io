@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Learn how to fix the `SyntaxError: Unexpected end of input` in JavaScript, which typically occurs when the parser unexpectedly reaches the end of the script due to missing brackets or braces.
+seo_description: >
+    Learn how to fix the `SyntaxError: Unexpected end of input` in JavaScript, which typically occurs when the parser unexpectedly reaches the end of the script due to missing brackets or braces.
 categories:
   - en_Troubleshooting
 tags:

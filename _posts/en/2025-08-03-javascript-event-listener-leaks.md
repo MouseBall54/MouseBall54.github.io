@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     Failing to remove event listeners can cause memory leaks and degrade application performance. This article explains the causes of event listener leaks in JavaScript and how to fix them.
+seo_description: >
+    Failing to remove event listeners can cause memory leaks and degrade application performance. This article explains the causes of event listener leaks in JavaScript and how to fix them.
 categories:
     - en_Troubleshooting
 tags:

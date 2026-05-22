@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     자바스크립트에서 함수를 호출할 때 인자 목록 뒤에 닫는 괄호 `)`를 빠뜨려 발생하는 `SyntaxError: missing ) after argument list` 오류의 원인과 해결책을 알아봅니다.
+seo_description: >
+    자바스크립트에서 함수를 호출할 때 인자 목록 뒤에 닫는 괄호 `)`를 빠뜨려 발생하는 `SyntaxError: missing ) after argument list` 오류의 원인과 해결책을 알아봅니다.
 categories:
   - ko_Troubleshooting
 tags:

@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
    Understand and fix the NotADirectoryError: [Errno 20] Not a directory in Python. This error appears when a file path is used where a directory path is expected. Learn to validate paths and avoid this common issue.
+seo_description: >
+   Understand and fix the NotADirectoryError: [Errno 20] Not a directory in Python. This error appears when a file path is used where a directory path is expected. Learn to validate paths and avoid this common issue.
 categories:
    - en_Troubleshooting
 tags:

@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     This compilation error in Java occurs when the name of a public class does not match the name of its source file. This article explains the cause of the error and how to fix it.
+seo_description: >
+    This compilation error in Java occurs when the name of a public class does not match the name of its source file. This article explains the cause of the error and how to fix it.
 categories:
     - en_Troubleshooting
 tags:

@@ -9,8 +9,8 @@ date: 2026-05-23T19:00:00+09:00
 lang: ko
 translation_id: github-actions-build-failed
 header:
-   teaser: /images/header_images/overlay_image_git.png
-   overlay_image: /images/header_images/overlay_image_git.png
+   teaser: /images/2026-05-23-github-actions-build-failed/github-actions-build-failed-hero.png
+   overlay_image: /images/2026-05-23-github-actions-build-failed/github-actions-build-failed-hero.png
    overlay_filter: 0.5
 excerpt: >
   GitHub Actions build failed 오류를 실패한 step log, workflow YAML, dependency install command, runner version, secret, branch trigger 기준으로 해결하는 방법입니다.
@@ -28,6 +28,8 @@ tags:
 ## 문제 상황
 
 Pull request 또는 push 후 GitHub Actions check가 실패할 수 있습니다.
+
+![GitHub Actions build failed 해결 방법 설명 이미지](/images/2026-05-23-github-actions-build-failed/github-actions-build-failed-hero.png)
 
 ```text
 build failed

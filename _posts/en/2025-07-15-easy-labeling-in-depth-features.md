@@ -5,6 +5,7 @@ header:
 title: "A Deep Dive into Easy Labeling's Features for YOLO Data Labeling"
 excerpt: "Unlock maximum efficiency in your YOLO data labeling workflow. This guide explores Easy Labeling's powerful features, from local file access and advanced annotation tools to smart label management for object detection. Everything you need for efficient dataset creation is here."
 
+seo_description: "Unlock maximum efficiency in your YOLO data labeling workflow. This guide explores Easy Labeling's powerful features, from local file access and advanced annotation tools to smart label management for object detection. Everything you need for efficient dataset creation is here."
 lang: en
 translation_id: easy-labeling-in-depth-features
 categories:

@@ -11,6 +11,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
   Troubleshoot and fix the "Failed to fetch" error by checking for network issues, CORS policies, and incorrect request URLs in your JavaScript code.
+seo_description: >
+  Troubleshoot and fix the "Failed to fetch" error by checking for network issues, CORS policies, and incorrect request URLs in your JavaScript code.
 categories:
   - en_Troubleshooting
 tags:

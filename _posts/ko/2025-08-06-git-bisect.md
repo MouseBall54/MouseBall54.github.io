@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     `git bisect`를 사용하여 커밋 히스토리에서 이진 검색을 수행하고 버그를 유발한 정확한 커밋을 신속하게 찾아내는 방법에 대한 단계별 가이드입니다.
+seo_description: >
+    `git bisect`를 사용하여 커밋 히스토리에서 이진 검색을 수행하고 버그를 유발한 정확한 커밋을 신속하게 찾아내는 방법에 대한 단계별 가이드입니다.
 categories:
   - ko_Troubleshooting
 tags:

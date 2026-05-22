@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Java에서 equals()를 오버라이드할 때 왜 항상 hashCode()도 오버라이드해야 하는지 알아보세요. 이 두 메서드 간의 규약을 이해하고 해시 기반 컬렉션에서 어떻게 동작하는지 확인합니다.
+seo_description: >
+    Java에서 equals()를 오버라이드할 때 왜 항상 hashCode()도 오버라이드해야 하는지 알아보세요. 이 두 메서드 간의 규약을 이해하고 해시 기반 컬렉션에서 어떻게 동작하는지 확인합니다.
 categories:
   - ko_Troubleshooting
 tags:

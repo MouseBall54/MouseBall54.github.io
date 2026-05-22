@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
    Troubleshoot the rare but confusing SystemError: <built-in function ...> returned NULL without setting an error in Python. This guide explores potential causes, such as issues with C extensions or corrupted installations.
+seo_description: >
+   Troubleshoot the rare but confusing SystemError: <built-in function ...> returned NULL without setting an error in Python. This guide explores potential causes, such as issues with C extensions or corrupted installations.
 categories:
    - en_Troubleshooting
 tags:

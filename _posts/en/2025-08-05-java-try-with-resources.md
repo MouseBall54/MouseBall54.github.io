@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Learn how to use the try-with-resources statement in Java to automatically close resources like streams and connections, preventing common memory leaks and making your code cleaner.
+seo_description: >
+    Learn how to use the try-with-resources statement in Java to automatically close resources like streams and connections, preventing common memory leaks and making your code cleaner.
 categories:
   - en_Troubleshooting
 tags:

@@ -6,6 +6,7 @@ title: "How to Fix java.lang.ArrayIndexOutOfBoundsException"
 lang: en
 translation_id: java-arrayindexoutofboundsexception
 excerpt: "java.lang.ArrayIndexOutOfBoundsException is a common runtime exception that occurs when you try to access an array with an invalid index. This article explains the causes of the error and how to fix it."
+seo_description: "java.lang.ArrayIndexOutOfBoundsException is a common runtime exception that occurs when you try to access an array with an invalid index. This article explains the causes of the error and how to fix it."
 header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png

@@ -11,6 +11,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
   Resolve Cross-Origin Read Blocking (CORB) warnings in your browser by ensuring the server sends the correct Content-Type and CORS headers for your API requests.
+seo_description: >
+  Resolve Cross-Origin Read Blocking (CORB) warnings in your browser by ensuring the server sends the correct Content-Type and CORS headers for your API requests.
 categories:
   - en_Troubleshooting
 tags:

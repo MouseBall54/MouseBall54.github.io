@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     In Java, "';' expected" is a basic compilation error that occurs when a semicolon is missing at the end of a statement. This article explains the cause of the error and how to fix it.
+seo_description: >
+    In Java, "';' expected" is a basic compilation error that occurs when a semicolon is missing at the end of a statement. This article explains the cause of the error and how to fix it.
 categories:
     - en_Troubleshooting
 tags:

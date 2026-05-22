@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     파이썬의 "UnicodeDecodeError"를 해결합니다. 이 오류는 기본 'utf-8' 코덱과 일치하지 않는 인코딩으로 파일을 읽을 때 발생합니다.
+seo_description: >
+    파이썬의 "UnicodeDecodeError"를 해결합니다. 이 오류는 기본 'utf-8' 코덱과 일치하지 않는 인코딩으로 파일을 읽을 때 발생합니다.
 categories:
   - ko_Troubleshooting
 tags:

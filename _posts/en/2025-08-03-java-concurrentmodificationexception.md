@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Learn how to fix ConcurrentModificationException in Java. This exception occurs when a collection is modified while it is being iterated over.
+seo_description: >
+    Learn how to fix ConcurrentModificationException in Java. This exception occurs when a collection is modified while it is being iterated over.
 categories:
   - en_Troubleshooting
 tags:

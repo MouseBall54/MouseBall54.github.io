@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     파이썬에서 함수나 메서드를 호출할 때 필수적인 위치 인자(positional argument)를 전달하지 않아 발생하는 `TypeError: missing 1 required positional argument` 오류의 원인과 해결책을 알아봅니다.
+seo_description: >
+    파이썬에서 함수나 메서드를 호출할 때 필수적인 위치 인자(positional argument)를 전달하지 않아 발생하는 `TypeError: missing 1 required positional argument` 오류의 원인과 해결책을 알아봅니다.
 categories:
   - ko_Troubleshooting
 tags:

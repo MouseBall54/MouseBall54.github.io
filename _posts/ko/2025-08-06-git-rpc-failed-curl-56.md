@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     네트워크 문제나 대용량 저장소 크기로 인해 자주 발생하는 Git의 "error: RPC failed; curl 56 Recv failure" 오류를 해결하고 수정하는 방법을 알아보세요.
+seo_description: >
+    네트워크 문제나 대용량 저장소 크기로 인해 자주 발생하는 Git의 "error: RPC failed; curl 56 Recv failure" 오류를 해결하고 수정하는 방법을 알아보세요.
 categories:
   - ko_Troubleshooting
 tags:

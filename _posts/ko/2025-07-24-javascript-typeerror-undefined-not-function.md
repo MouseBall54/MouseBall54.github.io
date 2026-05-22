@@ -4,6 +4,7 @@ layout: single
 title: "TypeError: undefined is not a function 오류 해결 방법 (JavaScript)"
 date: 2025-07-24T22:00:00+09:00
 excerpt: "TypeError: undefined is not a function 오류 원인과 해결책을 다룬다."
+seo_description: "TypeError: undefined is not a function 오류 원인과 해결책을 다룬다."
 lang: ko
 translation_id: javascript-typeerror-undefined-not-function
 header:

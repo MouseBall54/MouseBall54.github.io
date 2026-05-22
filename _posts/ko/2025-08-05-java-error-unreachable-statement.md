@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     절대 실행될 수 없는 코드가 있을 때 발생하는 Java의 "unreachable statement" 컴파일 시간 오류의 원인을 이해하고 해결하는 방법을 알아보세요.
+seo_description: >
+    절대 실행될 수 없는 코드가 있을 때 발생하는 Java의 "unreachable statement" 컴파일 시간 오류의 원인을 이해하고 해결하는 방법을 알아보세요.
 categories:
   - ko_Troubleshooting
 tags:

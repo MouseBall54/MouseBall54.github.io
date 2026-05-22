@@ -11,6 +11,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
   푸시하려는 브랜치가 로컬에 존재하고 이름이 올바르게 입력되었는지 확인하여 Git "src refspec ... does not match any" 오류를 해결하는 방법을 알아봅니다.
+seo_description: >
+  푸시하려는 브랜치가 로컬에 존재하고 이름이 올바르게 입력되었는지 확인하여 Git "src refspec ... does not match any" 오류를 해결하는 방법을 알아봅니다.
 categories:
   - ko_Troubleshooting
 tags:

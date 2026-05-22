@@ -11,6 +11,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
   Resolve Python's "TabError: inconsistent use of tabs and spaces in indentation" by configuring your editor to use spaces for indentation and converting existing tabs to spaces.
+seo_description: >
+  Resolve Python's "TabError: inconsistent use of tabs and spaces in indentation" by configuring your editor to use spaces for indentation and converting existing tabs to spaces.
 categories:
   - en_Troubleshooting
 tags:

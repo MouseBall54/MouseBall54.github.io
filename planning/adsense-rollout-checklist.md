@@ -11,20 +11,20 @@ Use this checklist before turning on ads for production posts.
 - Post layout hook: `_layouts/single.html`
 - Styles: `_sass/minimal-mistakes/_page.scss`
 
-Ads are disabled by default:
+Auto ads are enabled with the publisher code that is currently available:
 
 ```yaml
 adsense:
-  enabled: false
+  enabled: true
   client: "ca-pub-2983974324971673"
-  auto_ads: false
+  auto_ads: true
   in_article_slot:
   post_bottom_slot:
   min_words_for_ads: 700
 ```
 
-With this default configuration, ad markup is wired into every post layout but no live ad is rendered yet.
-Ads start rendering only after `enabled: true` and both manual slot IDs are set.
+With this configuration, the AdSense script loads for Auto ads.
+Manual in-article and post-bottom units are wired into every post layout, but those manual units render only after both slot IDs are set.
 
 Automatic post eligibility:
 
@@ -34,27 +34,27 @@ Automatic post eligibility:
 - The first in-article unit is inserted after the first `h2`.
 - The bottom unit is inserted after the post content.
 
-## Activation Steps
+## Manual Slot Activation Steps
 
 1. Create a responsive in-article ad unit in AdSense.
 2. Put the slot ID in `adsense.in_article_slot`.
 3. Create a second responsive display or in-article unit for post bottom placement.
 4. Put the slot ID in `adsense.post_bottom_slot`.
-5. Keep `adsense.auto_ads: false` for the first rollout unless testing Auto ads intentionally.
-6. Set `adsense.enabled: true`.
+5. Keep `adsense.enabled: true`.
+6. Set `adsense.auto_ads: false` only if you want manual units to be the only ad path.
 7. Run `npm run validate:content-plan`.
-8. Confirm the validator does not report empty ad slot errors.
-9. Run `bundle exec jekyll build --trace` when Ruby/Bundler is available.
+8. Confirm the validator does not report empty manual slot errors.
+9. Run `bundle exec jekyll build --trace` when Ruby/Bundler is available and the long build is acceptable.
 10. Inspect at least five representative posts on desktop and mobile.
 
-Expected inactive-mode validator warning:
+Expected Auto ads validator warning while manual slots are empty:
 
 ```text
-WARN AdSense is disabled or slot IDs are empty; ads will not render on posts until enabled and slots are configured
+WARN AdSense Auto ads are enabled; manual post ad slots remain inactive until slot IDs are configured
 ```
 
-This warning is acceptable before AdSense slots are created.
-After activation, the warning should disappear.
+This warning is acceptable before manual AdSense slots are created.
+After manual slot activation, the warning should disappear.
 
 ## Page-Level Controls
 

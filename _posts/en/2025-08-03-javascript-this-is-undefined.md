@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     In JavaScript, 'this' is dynamically determined by the calling context. This often leads to issues where 'this' becomes undefined in callback functions or event handlers. This article explains why this happens and how to fix it.
+seo_description: >
+    In JavaScript, 'this' is dynamically determined by the calling context. This often leads to issues where 'this' becomes undefined in callback functions or event handlers. This article explains why this happens and how to fix it.
 categories:
     - en_Troubleshooting
 tags:

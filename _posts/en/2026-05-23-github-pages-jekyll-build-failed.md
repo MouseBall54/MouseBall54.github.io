@@ -9,8 +9,8 @@ date: 2026-05-23T20:00:00+09:00
 lang: en
 translation_id: github-pages-jekyll-build-failed
 header:
-   teaser: /images/header_images/overlay_image_git.png
-   overlay_image: /images/header_images/overlay_image_git.png
+   teaser: /images/2026-05-23-github-pages-jekyll-build-failed/github-pages-jekyll-build-failed-hero.png
+   overlay_image: /images/2026-05-23-github-pages-jekyll-build-failed/github-pages-jekyll-build-failed-hero.png
    overlay_filter: 0.5
 excerpt: >
   Fix GitHub Pages Jekyll build failed errors by checking Pages workflow logs, _config.yml YAML, front matter dates, includes, plugins, Sass, and local Jekyll builds.
@@ -28,6 +28,8 @@ tags:
 ## Problem
 
 GitHub Pages fails to publish a Jekyll site:
+
+![Fix GitHub Pages Jekyll Build Failed explanatory image](/images/2026-05-23-github-pages-jekyll-build-failed/github-pages-jekyll-build-failed-hero.png)
 
 ```text
 Pages build and deployment failed

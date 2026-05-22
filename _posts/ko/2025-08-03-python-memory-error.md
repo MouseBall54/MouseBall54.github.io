@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     Python에서 MemoryError는 프로그램이 시스템의 가용 메모리를 모두 소진했을 때 발생합니다. 이 글에서는 MemoryError의 원인과 해결 방법을 알아봅니다.
+seo_description: >
+    Python에서 MemoryError는 프로그램이 시스템의 가용 메모리를 모두 소진했을 때 발생합니다. 이 글에서는 MemoryError의 원인과 해결 방법을 알아봅니다.
 categories:
     - ko_Troubleshooting
 tags:

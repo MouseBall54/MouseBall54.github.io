@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     A step-by-step guide to understanding and resolving merge conflicts that occur when combining branches in Git.
+seo_description: >
+    A step-by-step guide to understanding and resolving merge conflicts that occur when combining branches in Git.
 categories:
   - en_Troubleshooting
 tags:

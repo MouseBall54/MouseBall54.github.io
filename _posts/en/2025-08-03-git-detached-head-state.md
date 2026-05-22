@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Understand what a "Detached HEAD" state in Git is, why it happens, and how to safely get back to a branch without losing your work.
+seo_description: >
+    Understand what a "Detached HEAD" state in Git is, why it happens, and how to safely get back to a branch without losing your work.
 categories:
   - en_Troubleshooting
 tags:

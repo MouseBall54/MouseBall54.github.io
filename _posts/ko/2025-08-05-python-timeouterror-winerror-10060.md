@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
    네트워크 연결 시간 초과 시 발생하는 Python TimeoutError: [WinError 10060] 오류를 해결하는 방법을 알아보세요. 이 가이드는 방화벽, 잘못된 주소, 서버 문제 등 원인을 다루고 명확한 해결책을 제공합니다.
+seo_description: >
+   네트워크 연결 시간 초과 시 발생하는 Python TimeoutError: [WinError 10060] 오류를 해결하는 방법을 알아보세요. 이 가이드는 방화벽, 잘못된 주소, 서버 문제 등 원인을 다루고 명확한 해결책을 제공합니다.
 categories:
    - ko_Troubleshooting
 tags:

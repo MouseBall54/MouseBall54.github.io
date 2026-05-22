@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Learn how to fix the java.lang.NumberFormatException, which occurs when you try to convert a string with an improper format into a numeric value.
+seo_description: >
+    Learn how to fix the java.lang.NumberFormatException, which occurs when you try to convert a string with an improper format into a numeric value.
 categories:
   - en_Troubleshooting
 tags:

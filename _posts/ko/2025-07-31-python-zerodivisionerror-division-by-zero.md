@@ -6,6 +6,7 @@ title: "Python ZeroDivisionError: division by zero 해결 방법"
 lang: ko
 translation_id: python-zerodivisionerror-division-by-zero
 excerpt: "나누기를 수행하기 전에 제수가 0인지 확인하여 Python의 'ZeroDivisionError: division by zero'를 예방합니다. 견고한 오류 처리를 위해 조건문과 try-except 블록을 사용하는 방법을 배웁니다."
+seo_description: "나누기를 수행하기 전에 제수가 0인지 확인하여 Python의 'ZeroDivisionError: division by zero'를 예방합니다. 견고한 오류 처리를 위해 조건문과 try-except 블록을 사용하는 방법을 배웁니다."
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

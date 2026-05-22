@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Understand and fix the "unreachable statement" compile-time error in Java, which occurs when a piece of code can never be executed.
+seo_description: >
+    Understand and fix the "unreachable statement" compile-time error in Java, which occurs when a piece of code can never be executed.
 categories:
   - en_Troubleshooting
 tags:

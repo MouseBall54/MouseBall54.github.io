@@ -6,6 +6,7 @@ title: "How to Fix \"TypeError: '...' is not a function\" in JavaScript"
 lang: en
 translation_id: javascript-typeerror-is-not-a-function
 excerpt: "Fix the \"TypeError: '...' is not a function\" in JavaScript by ensuring the variable you are calling is actually a function and checking for scope issues or typos."
+seo_description: "Fix the \"TypeError: '...' is not a function\" in JavaScript by ensuring the variable you are calling is actually a function and checking for scope issues or typos."
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

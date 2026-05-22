@@ -5,6 +5,7 @@ header:
 title: "Easy Labeling Guide (1) - Loading Images and Labels"
 excerpt: "This is the first guide for the YOLO labeling tool, Easy Labeling. It provides basic instructions on how to load image folders and label files from your PC and how to use class files."
 
+seo_description: "This is the first guide for the YOLO labeling tool, Easy Labeling. It provides basic instructions on how to load image folders and label files from your PC and how to use class files."
 lang: en
 translation_id: easy-labeling-guide-1
 categories:

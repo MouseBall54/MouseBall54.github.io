@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Java에서 문자열을 다루는 세 가지 주요 클래스인 String, StringBuilder, StringBuffer의 핵심 차이점을 이해하여 더 효율적이고 최적화된 코드를 작성하는 방법을 알아보세요.
+seo_description: >
+    Java에서 문자열을 다루는 세 가지 주요 클래스인 String, StringBuilder, StringBuffer의 핵심 차이점을 이해하여 더 효율적이고 최적화된 코드를 작성하는 방법을 알아보세요.
 categories:
   - ko_Troubleshooting
 tags:

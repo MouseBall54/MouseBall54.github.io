@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     In Python, a "Connection refused" error occurs when a network connection is rejected by the target server. This article explains the causes of the error and how to fix it.
+seo_description: >
+    In Python, a "Connection refused" error occurs when a network connection is rejected by the target server. This article explains the causes of the error and how to fix it.
 categories:
     - en_Troubleshooting
 tags:

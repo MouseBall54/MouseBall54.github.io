@@ -6,6 +6,7 @@ title: "Git 오류 해결: Permission Denied (publickey)"
 lang: ko
 translation_id: git-permission-denied-publickey
 excerpt: "SSH 키를 올바르게 생성하고, ssh-agent에 추가하고, Git 호스팅 제공업체에 등록하여 Git의 'Permission denied (publickey)' 오류를 해결하는 방법을 알아봅니다."
+seo_description: "SSH 키를 올바르게 생성하고, ssh-agent에 추가하고, Git 호스팅 제공업체에 등록하여 Git의 'Permission denied (publickey)' 오류를 해결하는 방법을 알아봅니다."
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

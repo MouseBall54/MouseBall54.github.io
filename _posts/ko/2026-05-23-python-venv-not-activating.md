@@ -9,8 +9,8 @@ date: 2026-05-23T11:00:00+09:00
 lang: ko
 translation_id: python-venv-not-activating
 header:
-   teaser: /images/header_images/overlay_image_python.png
-   overlay_image: /images/header_images/overlay_image_python.png
+   teaser: /images/2026-05-23-python-venv-not-activating/python-venv-not-activating-hero.png
+   overlay_image: /images/2026-05-23-python-venv-not-activating/python-venv-not-activating-hero.png
    overlay_filter: 0.5
 excerpt: >
   Python venv 활성화 문제를 shell별 명령 확인, PowerShell 실행 정책 수정, 현재 인터프리터 경로 검증으로 해결하는 방법입니다.
@@ -29,6 +29,8 @@ tags:
 
 `python -m venv .venv`로 Python 가상환경을 만들었는데 활성화되지 않는 것처럼 보일 수 있습니다.
 터미널 프롬프트가 바뀌지 않거나, `pip install`이 여전히 전역 환경에 설치되거나, VS Code가 다른 Python interpreter를 계속 사용할 수 있습니다.
+
+![Python venv가 활성화되지 않을 때 해결 방법 설명 이미지](/images/2026-05-23-python-venv-not-activating/python-venv-not-activating-hero.png)
 
 헷갈리는 부분은 프롬프트 변화가 단지 시각적인 단서일 뿐이라는 점입니다.
 진짜 확인 기준은 `python`과 `pip`가 가상환경 내부를 가리키는지입니다.

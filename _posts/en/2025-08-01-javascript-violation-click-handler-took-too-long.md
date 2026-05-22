@@ -11,6 +11,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
   Optimize long-running 'click' handlers and improve browser responsiveness by deferring heavy tasks with techniques like `setTimeout`, Web Workers, and `requestAnimationFrame`.
+seo_description: >
+  Optimize long-running 'click' handlers and improve browser responsiveness by deferring heavy tasks with techniques like `setTimeout`, Web Workers, and `requestAnimationFrame`.
 categories:
   - en_Troubleshooting
 tags:

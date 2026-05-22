@@ -6,6 +6,7 @@ title: "How to Fix Uncaught TypeError: Cannot read properties of undefined"
 lang: en
 translation_id: javascript-uncaught-typeerror-cannot-read-properties-of-undefined
 excerpt: "Learn how to resolve the 'Uncaught TypeError: Cannot read properties of undefined' error in JavaScript by identifying its causes and applying effective solutions."
+seo_description: "Learn how to resolve the 'Uncaught TypeError: Cannot read properties of undefined' error in JavaScript by identifying its causes and applying effective solutions."
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

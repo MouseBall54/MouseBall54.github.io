@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
    여러 비동기 작업을 처리하기 위한 JavaScript의 Promise.all과 Promise.race의 차이점을 알아보세요. 모든 프로미스가 완료될 때까지 기다려야 하는 경우와 가장 먼저 완료된 프로미스에 따라 행동해야 하는 경우를 이해하세요.
+seo_description: >
+   여러 비동기 작업을 처리하기 위한 JavaScript의 Promise.all과 Promise.race의 차이점을 알아보세요. 모든 프로미스가 완료될 때까지 기다려야 하는 경우와 가장 먼저 완료된 프로미스에 따라 행동해야 하는 경우를 이해하세요.
 categories:
    - ko_Troubleshooting
 tags:

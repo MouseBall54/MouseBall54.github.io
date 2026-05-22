@@ -6,6 +6,7 @@ title: "JavaScript 'undefined'의 속성을 읽을 수 없음(Uncaught TypeError
 lang: ko
 translation_id: javascript-uncaught-typeerror-cannot-read-properties-of-undefined
 excerpt: "JavaScript에서 'Uncaught TypeError: Cannot read properties of undefined' 오류가 발생하는 원인을 파악하고, 효과적인 해결 방법을 알아봅니다."
+seo_description: "JavaScript에서 'Uncaught TypeError: Cannot read properties of undefined' 오류가 발생하는 원인을 파악하고, 효과적인 해결 방법을 알아봅니다."
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

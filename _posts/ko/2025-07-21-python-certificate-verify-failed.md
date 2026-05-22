@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)"
 excerpt: "Windows Python에서 SSL: CERTIFICATE_VERIFY_FAILED 오류를 certifi 설치, REQUESTS_CA_BUNDLE/SSL_CERT_FILE 설정, 올바른 CA 번들 사용으로 해결하는 방법."
+seo_description: "Windows Python에서 SSL: CERTIFICATE_VERIFY_FAILED 오류를 certifi 설치, REQUESTS_CA_BUNDLE/SSL_CERT_FILE 설정, 올바른 CA 번들 사용으로 해결하는 방법."
 lang: ko
 translation_id: python-certificate-verify-failed
 date: 2025-07-21T22:00:00+09:00

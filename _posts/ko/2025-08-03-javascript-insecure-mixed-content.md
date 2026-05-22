@@ -12,6 +12,8 @@ header:
     overlay_filter: 0.5
 excerpt: >
     "Insecure mixed content"는 HTTPS 페이지에서 안전하지 않은 HTTP 리소스를 로드할 때 발생하는 브라우저 보안 경고입니다. 이 글에서는 원인과 해결 방법을 알아봅니다.
+seo_description: >
+    "Insecure mixed content"는 HTTPS 페이지에서 안전하지 않은 HTTP 리소스를 로드할 때 발생하는 브라우저 보안 경고입니다. 이 글에서는 원인과 해결 방법을 알아봅니다.
 categories:
     - ko_Troubleshooting
 tags:

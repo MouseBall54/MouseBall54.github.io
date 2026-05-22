@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     크로스 플랫폼 프로젝트를 위한 줄 바꿈 정규화를 구성하여 Git의 "LF will be replaced by CRLF" 경고를 이해하고 해결하는 방법을 알아보세요.
+seo_description: >
+    크로스 플랫폼 프로젝트를 위한 줄 바꿈 정규화를 구성하여 Git의 "LF will be replaced by CRLF" 경고를 이해하고 해결하는 방법을 알아보세요.
 categories:
   - ko_Troubleshooting
 tags:

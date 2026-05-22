@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     이 가이드는 Git 저장소의 객체가 손상되거나 누락되었음을 나타내는 "fatal: bad object" 오류를 해결하는 방법을 설명합니다.
+seo_description: >
+    이 가이드는 Git 저장소의 객체가 손상되거나 누락되었음을 나타내는 "fatal: bad object" 오류를 해결하는 방법을 설명합니다.
 categories:
   - ko_Troubleshooting
 tags:

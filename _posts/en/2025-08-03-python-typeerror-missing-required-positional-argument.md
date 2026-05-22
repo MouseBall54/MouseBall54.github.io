@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Learn how to fix the `TypeError: missing 1 required positional argument` in Python, which occurs when you call a function or method without providing a mandatory positional argument.
+seo_description: >
+    Learn how to fix the `TypeError: missing 1 required positional argument` in Python, which occurs when you call a function or method without providing a mandatory positional argument.
 categories:
   - en_Troubleshooting
 tags:

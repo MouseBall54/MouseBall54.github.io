@@ -9,8 +9,8 @@ date: 2026-05-23T18:00:00+09:00
 lang: en
 translation_id: typescript-tsconfig-paths-not-working
 header:
-   teaser: /images/header_images/overlay_image_js.png
-   overlay_image: /images/header_images/overlay_image_js.png
+   teaser: /images/2026-05-23-typescript-tsconfig-paths-not-working/typescript-tsconfig-paths-not-working-hero.png
+   overlay_image: /images/2026-05-23-typescript-tsconfig-paths-not-working/typescript-tsconfig-paths-not-working-hero.png
    overlay_filter: 0.5
 excerpt: >
   Fix tsconfig paths not working by checking baseUrl, paths patterns, active tsconfig files, Vite aliases, test runner aliases, and Node runtime resolution.
@@ -28,6 +28,8 @@ tags:
 ## Problem
 
 You configured a path alias in `tsconfig.json`, but imports still fail:
+
+![tsconfig Paths Not Working: How to Fix Path Aliases explanatory image](/images/2026-05-23-typescript-tsconfig-paths-not-working/typescript-tsconfig-paths-not-working-hero.png)
 
 ```ts
 import Button from "@/components/Button";

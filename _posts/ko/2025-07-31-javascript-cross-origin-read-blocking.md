@@ -11,6 +11,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
   서버가 올바른 Content-Type 및 CORS 헤더를 전송하도록 하여 브라우저의 Cross-Origin Read Blocking (CORB) 경고를 해결하는 방법을 알아봅니다.
+seo_description: >
+  서버가 올바른 Content-Type 및 CORS 헤더를 전송하도록 하여 브라우저의 Cross-Origin Read Blocking (CORB) 경고를 해결하는 방법을 알아봅니다.
 categories:
   - ko_Troubleshooting
 tags:

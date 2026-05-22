@@ -6,6 +6,7 @@ title: "Python AttributeError: 'NoneType' object has no attribute '...' 해결 �
 lang: ko
 translation_id: python-attributeerror-nonetype
 excerpt: "Python에서 자주 발생하는 오류인 AttributeError: 'NoneType' object has no attribute '...'의 원인을 파악하고 이를 방지하는 방법을 상세히 알아봅니다."
+seo_description: "Python에서 자주 발생하는 오류인 AttributeError: 'NoneType' object has no attribute '...'의 원인을 파악하고 이를 방지하는 방법을 상세히 알아봅니다."
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

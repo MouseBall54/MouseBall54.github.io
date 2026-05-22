@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
    Learn the critical difference between loose equality (==) and strict equality (===) in JavaScript. Understand how type coercion works and why you should almost always use === to avoid common bugs.
+seo_description: >
+   Learn the critical difference between loose equality (==) and strict equality (===) in JavaScript. Understand how type coercion works and why you should almost always use === to avoid common bugs.
 categories:
    - en_Troubleshooting
 tags:

@@ -259,6 +259,12 @@ Use compound interest examples for planning questions:
 The best use is comparison.
 Run several conservative scenarios before making a decision.
 
+## Related Reading
+
+- [50/30/20 Budget Rule](/en_Economy/household-budget-50-30-20/)
+- [Interest Rates and Inflation Explained](/en_Economy/interest-rate-inflation-basics/)
+- [How Much Emergency Fund Do You Need](/en_Economy/emergency-fund-how-much/)
+
 ## Sources
 
 - Investor.gov, Compound Interest: https://www.investor.gov/index.php/introduction-investing/investing-basics/glossary/compound-interest

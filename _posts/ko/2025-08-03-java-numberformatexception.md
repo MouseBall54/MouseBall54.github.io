@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     부적절한 형식의 문자열을 숫자 값으로 변환하려고 할 때 발생하는 java.lang.NumberFormatException을 해결하는 방법을 알아보세요.
+seo_description: >
+    부적절한 형식의 문자열을 숫자 값으로 변환하려고 할 때 발생하는 java.lang.NumberFormatException을 해결하는 방법을 알아보세요.
 categories:
   - ko_Troubleshooting
 tags:

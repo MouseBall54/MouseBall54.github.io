@@ -9,8 +9,8 @@ date: 2026-05-23T17:00:00+09:00
 lang: en
 translation_id: typescript-property-does-not-exist
 header:
-   teaser: /images/header_images/overlay_image_js.png
-   overlay_image: /images/header_images/overlay_image_js.png
+   teaser: /images/2026-05-23-typescript-property-does-not-exist/typescript-property-does-not-exist-hero.png
+   overlay_image: /images/2026-05-23-typescript-property-does-not-exist/typescript-property-does-not-exist-hero.png
    overlay_filter: 0.5
 excerpt: >
   Fix TypeScript Property does not exist on type errors by correcting object types, API response types, union narrowing, nullable DOM values, and unsafe any casts.
@@ -28,6 +28,8 @@ tags:
 ## Problem
 
 TypeScript shows an error like this:
+
+![Fix Property Does Not Exist on Type explanatory image](/images/2026-05-23-typescript-property-does-not-exist/typescript-property-does-not-exist-hero.png)
 
 ```text
 TS2339: Property 'email' does not exist on type 'User'.

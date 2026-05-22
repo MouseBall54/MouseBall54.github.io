@@ -6,6 +6,7 @@ title: "How to Fix 'fatal: remote origin already exists' in Git"
 lang: en
 translation_id: git-fatal-remote-origin-already-exists
 excerpt: "The 'fatal: remote origin already exists' error occurs when you try to add a remote named 'origin' that is already in use. This article explains the cause and how to resolve it."
+seo_description: "The 'fatal: remote origin already exists' error occurs when you try to add a remote named 'origin' that is already in use. This article explains the cause and how to resolve it."
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

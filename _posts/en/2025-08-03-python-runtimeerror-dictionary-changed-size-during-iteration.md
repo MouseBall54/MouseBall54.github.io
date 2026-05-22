@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Learn how to fix the `RuntimeError: dictionary changed size during iteration` in Python, which occurs when you modify a dictionary while looping over it.
+seo_description: >
+    Learn how to fix the `RuntimeError: dictionary changed size during iteration` in Python, which occurs when you modify a dictionary while looping over it.
 categories:
   - en_Troubleshooting
 tags:

@@ -6,6 +6,7 @@ title: "JavaScript \"ReferenceError: assignment to undeclared variable\" 오류 
 lang: ko
 translation_id: javascript-referenceerror-undeclared-variable
 excerpt: "값을 할당하기 전에 `let`, `const` 또는 `var`로 변수를 올바르게 선언하여 JavaScript의 strict mode에서 발생하는 \"ReferenceError: assignment to undeclared variable\" 오류를 해결하세요."
+seo_description: "값을 할당하기 전에 `let`, `const` 또는 `var`로 변수를 올바르게 선언하여 JavaScript의 strict mode에서 발생하는 \"ReferenceError: assignment to undeclared variable\" 오류를 해결하세요."
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

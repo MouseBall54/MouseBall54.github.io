@@ -6,6 +6,7 @@ title: "How to Fix Python's ZeroDivisionError: division by zero"
 lang: en
 translation_id: python-zerodivisionerror-division-by-zero
 excerpt: "Prevent Python's 'ZeroDivisionError: division by zero' by checking if the divisor is zero before performing a division. Learn to use conditional statements and try-except blocks for robust error handling."
+seo_description: "Prevent Python's 'ZeroDivisionError: division by zero' by checking if the divisor is zero before performing a division. Learn to use conditional statements and try-except blocks for robust error handling."
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png

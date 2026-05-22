@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     데이터 컬렉션 처리를 위한 Java Stream API의 강력한 기능을 알아보세요. 스트림을 사용하여 복잡한 데이터 조작을 위한 선언적이고 효율적이며 가독성 높은 코드를 작성하는 방법을 배웁니다.
+seo_description: >
+    데이터 컬렉션 처리를 위한 Java Stream API의 강력한 기능을 알아보세요. 스트림을 사용하여 복잡한 데이터 조작을 위한 선언적이고 효율적이며 가독성 높은 코드를 작성하는 방법을 배웁니다.
 categories:
   - ko_Troubleshooting
 tags:

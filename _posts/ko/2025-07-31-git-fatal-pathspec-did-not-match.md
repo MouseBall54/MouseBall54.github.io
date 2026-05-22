@@ -8,6 +8,8 @@ lang: ko
 translation_id: git-fatal-pathspec-did-not-match
 excerpt: >
   "오타, 올바른 파일 경로를 확인하고, 필요 시 파일이 Git에 의해 추적되고 있는지 확인하여 "fatal: pathspec '...' did not match any files" Git 오류를 해결하세요."
+seo_description: >
+  "오타, 올바른 파일 경로를 확인하고, 필요 시 파일이 Git에 의해 추적되고 있는지 확인하여 "fatal: pathspec '...' did not match any files" Git 오류를 해결하세요."
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png

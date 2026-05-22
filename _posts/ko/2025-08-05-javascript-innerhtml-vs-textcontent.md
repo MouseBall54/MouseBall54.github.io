@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
    JavaScript에서 innerHTML과 textContent의 주요 차이점을 이해하세요. 웹 애플리케이션에서 더 나은 보안, 성능 및 예측 가능성을 위해 각 속성을 언제 사용해야 하는지 알아보세요.
+seo_description: >
+   JavaScript에서 innerHTML과 textContent의 주요 차이점을 이해하세요. 웹 애플리케이션에서 더 나은 보안, 성능 및 예측 가능성을 위해 각 속성을 언제 사용해야 하는지 알아보세요.
 categories:
    - ko_Troubleshooting
 tags:

@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     의존성 주입(DI)의 원리를 이해하고, Spring과 같은 프레임워크 예제를 통해 Java에서 느슨하게 결합되고, 테스트하기 쉬우며, 유지보수하기 좋은 애플리케이션을 구축하는 데 어떻게 도움이 되는지 알아보세요.
+seo_description: >
+    의존성 주입(DI)의 원리를 이해하고, Spring과 같은 프레임워크 예제를 통해 Java에서 느슨하게 결합되고, 테스트하기 쉬우며, 유지보수하기 좋은 애플리케이션을 구축하는 데 어떻게 도움이 되는지 알아보세요.
 categories:
   - ko_Troubleshooting
 tags:

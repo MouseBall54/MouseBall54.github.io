@@ -12,6 +12,8 @@ header:
    overlay_filter: 0.5
 excerpt: >
     Understand the principle of Dependency Injection (DI) and how it helps in building loosely coupled, testable, and maintainable applications in Java, with examples from frameworks like Spring.
+seo_description: >
+    Understand the principle of Dependency Injection (DI) and how it helps in building loosely coupled, testable, and maintainable applications in Java, with examples from frameworks like Spring.
 categories:
   - en_Troubleshooting
 tags:

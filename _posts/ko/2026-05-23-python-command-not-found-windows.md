@@ -9,8 +9,8 @@ date: 2026-05-23T12:00:00+09:00
 lang: ko
 translation_id: python-command-not-found-windows
 header:
-   teaser: /images/header_images/overlay_image_python.png
-   overlay_image: /images/header_images/overlay_image_python.png
+   teaser: /images/2026-05-23-python-command-not-found-windows/python-command-not-found-windows-hero.png
+   overlay_image: /images/2026-05-23-python-command-not-found-windows/python-command-not-found-windows-hero.png
    overlay_filter: 0.5
 excerpt: >
   Windows에서 python 명령어가 안 될 때 py launcher, PATH, App Execution Alias, 현재 Python 설치 경로를 확인해 해결하는 방법입니다.
@@ -28,6 +28,8 @@ tags:
 ## 문제 상황
 
 Windows PowerShell이나 Command Prompt에서 다음 명령을 실행합니다.
+
+![Windows에서 python 명령어가 안 될 때 해결 방법 설명 이미지](/images/2026-05-23-python-command-not-found-windows/python-command-not-found-windows-hero.png)
 
 ```powershell
 python --version

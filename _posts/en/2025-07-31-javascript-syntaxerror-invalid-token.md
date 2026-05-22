@@ -6,6 +6,7 @@ title: "How to Fix \"SyntaxError: Invalid or unexpected token\" in JavaScript"
 lang: en
 translation_id: javascript-syntaxerror-invalid-token
 excerpt: "Resolve the \"SyntaxError: Invalid or unexpected token\" in JavaScript by checking for typos, missing characters like commas or parentheses, and incorrect syntax."
+seo_description: "Resolve the \"SyntaxError: Invalid or unexpected token\" in JavaScript by checking for typos, missing characters like commas or parentheses, and incorrect syntax."
 header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png

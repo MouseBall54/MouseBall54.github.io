@@ -6,6 +6,7 @@ title: "Python KeyError 해결 방법: 딕셔너리 키 오류"
 lang: ko
 translation_id: python-keyerror
 excerpt: "Python에서 존재하지 않는 딕셔너리 키에 접근할 때 발생하는 KeyError의 원인을 이해하고, 이를 해결하는 효과적인 방법들을 알아봅니다."
+seo_description: "Python에서 존재하지 않는 딕셔너리 키에 접근할 때 발생하는 KeyError의 원인을 이해하고, 이를 해결하는 효과적인 방법들을 알아봅니다."
 header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
