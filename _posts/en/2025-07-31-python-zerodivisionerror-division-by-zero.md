@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "How to Fix Python's ZeroDivisionError: division by zero"
 
+date: 2025-07-31T00:00:00+09:00
 lang: en
 translation_id: python-zerodivisionerror-division-by-zero
 excerpt: "Prevent Python's 'ZeroDivisionError: division by zero' by checking if the divisor is zero before performing a division. Learn to use conditional statements and try-except blocks for robust error handling."

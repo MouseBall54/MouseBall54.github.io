@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "Java IllegalArgumentException 예외 처리 방법"
 
+date: 2025-07-31T00:00:00+09:00
 lang: ko
 translation_id: java-illegalargumentexception
 excerpt: "메서드 시작 시 명시적 검사를 수행하여 인수가 유효한지 확인하고, Java의 IllegalArgumentException을 효과적으로 사용하고 처리하는 방법을 배웁니다."

@@ -4,6 +4,7 @@ layout: single
 title: >
    Java try-with-resources로 메모리 누수 방지하기
 
+date: 2025-08-05T00:00:00+09:00
 lang: ko
 translation_id: java-try-with-resources
 header:

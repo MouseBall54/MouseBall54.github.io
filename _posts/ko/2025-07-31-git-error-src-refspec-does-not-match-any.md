@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "Git 'error: src refspec ... does not match any' 오류 해결 방법"
 
+date: 2025-07-31T00:00:00+09:00
 lang: ko
 translation_id: git-error-src-refspec-does-not-match-any
 header:

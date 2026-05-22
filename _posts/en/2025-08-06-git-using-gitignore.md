@@ -4,6 +4,7 @@ layout: single
 title: >
    How to Use .gitignore to Exclude Files from Git Tracking
 
+date: 2025-08-06T00:00:00+09:00
 lang: en
 translation_id: git-using-gitignore
 header:

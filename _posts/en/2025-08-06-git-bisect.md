@@ -4,6 +4,7 @@ layout: single
 title: >
    How to Use `git bisect` to Find the Commit That Introduced a Bug
 
+date: 2025-08-06T00:00:00+09:00
 lang: en
 translation_id: git-bisect
 header:

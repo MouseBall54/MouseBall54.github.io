@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "How to Fix Git Error: Permission Denied (publickey)"
 
+date: 2025-07-31T00:00:00+09:00
 lang: en
 translation_id: git-permission-denied-publickey
 excerpt: "Resolve the 'Permission denied (publickey)' error in Git by correctly generating an SSH key, adding it to the ssh-agent, and registering it with your Git hosting provider."

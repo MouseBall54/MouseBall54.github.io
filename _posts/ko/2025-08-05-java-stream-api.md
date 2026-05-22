@@ -4,6 +4,7 @@ layout: single
 title: >
    Java Stream API로 데이터 처리하기
 
+date: 2025-08-05T00:00:00+09:00
 lang: ko
 translation_id: java-stream-api
 header:

@@ -3,6 +3,7 @@ layout: single
 title: >
    JavaScript 동등 연산자: == vs. === (느슨한 비교 vs. 엄격한 비교)
 
+date: 2025-08-05T00:00:00+09:00
 lang: ko
 translation_id: javascript-equality-double-vs-triple-equals
 header:

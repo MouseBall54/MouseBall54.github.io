@@ -4,6 +4,7 @@ layout: single
 title: >
    JavaScript async/await 오류 처리 마스터하기
 
+date: 2025-08-05T00:00:00+09:00
 lang: ko
 translation_id: javascript-async-await-error-handling
 header:

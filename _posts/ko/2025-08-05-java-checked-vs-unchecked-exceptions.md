@@ -4,6 +4,7 @@ layout: single
 title: >
    Java 예외: Checked Exception vs. Unchecked Exception
 
+date: 2025-08-05T00:00:00+09:00
 lang: ko
 translation_id: java-checked-vs-unchecked-exceptions
 header:

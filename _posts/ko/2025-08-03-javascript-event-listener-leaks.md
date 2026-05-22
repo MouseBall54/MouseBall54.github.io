@@ -4,6 +4,7 @@ layout: single
 title: >
     JavaScript 이벤트 리스너 메모리 누수 (Event Listener Leaks) 해결 방법
 
+date: 2025-08-03T00:00:00+09:00
 lang: ko
 translation_id: javascript-event-listener-leaks
 header:

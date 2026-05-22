@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "Git 'fatal: A branch named '...' already exists' 오류 해결 방법"
 
+date: 2025-08-01T00:00:00+09:00
 lang: ko
 translation_id: git-fatal-branch-already-exists
 header:

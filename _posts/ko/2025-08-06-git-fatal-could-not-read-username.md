@@ -4,6 +4,7 @@ layout: single
 title: >
    Git 오류 해결: "fatal: could not read Username for 'https://...': terminal prompts disabled"
 
+date: 2025-08-06T00:00:00+09:00
 lang: ko
 translation_id: git-fatal-could-not-read-username
 header:

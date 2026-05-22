@@ -4,6 +4,7 @@ layout: single
 title: >
     How to Fix "Error: ';' expected" in Java
 
+date: 2025-08-03T00:00:00+09:00
 lang: en
 translation_id: java-error-semicolon-expected
 header:

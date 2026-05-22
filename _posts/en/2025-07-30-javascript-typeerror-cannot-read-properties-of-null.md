@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "How to Fix JavaScript's TypeError: Cannot read properties of null"
 
+date: 2025-07-30T00:00:00+09:00
 lang: en
 translation_id: javascript-typeerror-cannot-read-properties-of-null
 excerpt: "Every JavaScript developer encounters 'Cannot read properties of null'. Clearly understand its cause and learn how to effectively fix it by managing DOM loading times and using conditional access."

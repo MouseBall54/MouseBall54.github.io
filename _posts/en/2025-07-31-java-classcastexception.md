@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "How to Fix java.lang.ClassCastException in Java"
 
+date: 2025-07-31T00:00:00+09:00
 lang: en
 translation_id: java-classcastexception
 excerpt: "Understand and prevent `java.lang.ClassCastException` by ensuring type safety with checks like `instanceof` before casting objects."

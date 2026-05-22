@@ -4,6 +4,7 @@ layout: single
 title: >
    How to Fix "error: RPC failed; curl 56 Recv failure" in Git
 
+date: 2025-08-06T00:00:00+09:00
 lang: en
 translation_id: git-rpc-failed-curl-56
 header:
@@ -21,7 +22,6 @@ tags:
   - RPC
   - curl
   - Network
-  - Clone
   - Push
 ---
 

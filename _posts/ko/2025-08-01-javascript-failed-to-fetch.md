@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "JavaScript 'Failed to fetch' 오류 해결 방법"
 
+date: 2025-08-01T00:00:00+09:00
 lang: ko
 translation_id: javascript-failed-to-fetch
 header:

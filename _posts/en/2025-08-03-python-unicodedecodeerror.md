@@ -4,6 +4,7 @@ layout: single
 title: >
     How to Fix Python's "UnicodeDecodeError: 'utf-8' codec can't decode byte"
 
+date: 2025-08-03T00:00:00+09:00
 lang: en
 translation_id: python-unicodedecodeerror
 header:

@@ -4,6 +4,7 @@ layout: single
 title: >
     How to Fix "SyntaxError: Invalid or unexpected token" in JavaScript
 
+date: 2025-08-03T00:00:00+09:00
 lang: en
 translation_id: javascript-syntaxerror-invalid-or-unexpected-token
 header:

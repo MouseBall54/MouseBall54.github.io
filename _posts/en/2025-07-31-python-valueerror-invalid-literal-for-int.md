@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "How to Fix Python's ValueError: invalid literal for int() with base 10"
 
+date: 2025-07-31T00:00:00+09:00
 lang: en
 translation_id: python-valueerror-invalid-literal-for-int
 excerpt: "Resolve Python's 'ValueError: invalid literal for int()' by ensuring the string you are converting is a valid integer. Learn to use try-except blocks for safe conversion and the str.isdigit() method for validation."

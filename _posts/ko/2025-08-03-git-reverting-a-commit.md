@@ -4,6 +4,7 @@ layout: single
 title: >
     Git revert와 reset 차이: 안전하게 커밋 되돌리기
 
+date: 2025-08-03T00:00:00+09:00
 lang: ko
 translation_id: git-revert-vs-reset-safe-undo
 permalink: /ko_Troubleshooting/git-revert-vs-reset-safe-undo/

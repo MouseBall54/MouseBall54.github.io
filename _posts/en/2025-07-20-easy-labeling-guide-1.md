@@ -3,6 +3,7 @@ typora-root-url: ../
 header:
   teaser: /images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png
 title: "Easy Labeling Guide (1) - Loading Images and Labels"
+date: 2025-07-20T00:00:00+09:00
 excerpt: "This is the first guide for the YOLO labeling tool, Easy Labeling. It provides basic instructions on how to load image folders and label files from your PC and how to use class files."
 
 seo_description: "This is the first guide for the YOLO labeling tool, Easy Labeling. It provides basic instructions on how to load image folders and label files from your PC and how to use class files."
@@ -11,15 +12,11 @@ translation_id: easy-labeling-guide-1
 categories:
   - en_easy_labeling
 tags:
-  - Easy Labeling
+  - EasyLabeling
   - Guide
-  - YOLO labeling
   - YOLO
-  - Data Labeling
-  - AI
-  - Computer Vision
+  - DataLabeling
   - Annotation
-  - YOLO Annotation
 ---
 
 <p><strong>Easy Labeling Project Page: <a href="https://mouseball54.github.io/easy_labeling/">https://mouseball54.github.io/easy_labeling/</a></strong></p>

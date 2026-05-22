@@ -4,6 +4,7 @@ header:
   teaser: ../images/2025-07-13-easy-labeling-development/image-20250715203036663.png
 title: "YOLO 데이터 라벨링, 설치 없이 웹에서 바로! Easy Labeling 개발기"
 
+date: 2025-07-13T00:00:00+09:00
 lang: ko
 translation_id: easy-labeling-development
 categories:
@@ -12,11 +13,7 @@ tags:
   - YOLO
   - Labeling
   - Annotation
-  - Object Detection
-  - Data Augmentation
-  - Bounding Box
-  - AI
-  - Machine Learning
+  - ObjectDetection
   - Dataset
 excerpt: "YOLO 객체 탐지 모델 학습, 데이터 라벨링 때문에 힘드셨나요? 설치가 필요 없는 웹 기반 YOLO 라벨링 도구, Easy Labeling의 개발 과정과 주요 기능을 소개합니다. 로컬 파일을 직접 사용하여 빠르고 안전하게 인공지능 데이터셋을 구축하는 방법을 알아보세요."
 seo_description: "YOLO 객체 탐지 모델 학습, 데이터 라벨링 때문에 힘드셨나요? 설치가 필요 없는 웹 기반 YOLO 라벨링 도구, Easy Labeling의 개발 과정과 주요 기능을 소개합니다. 로컬 파일을 직접 사용하여 빠르고 안전하게 인공지능 데이터셋을 구축하는 방법을 알아보세요."

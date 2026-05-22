@@ -4,6 +4,7 @@ layout: single
 title: >
     Git revert vs reset: How to Safely Undo a Commit
 
+date: 2025-08-03T00:00:00+09:00
 lang: en
 translation_id: git-revert-vs-reset-safe-undo
 permalink: /en_Troubleshooting/git-revert-vs-reset-safe-undo/

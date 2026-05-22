@@ -4,6 +4,7 @@ layout: single
 title: >
    JavaScript 프로미스: Promise.all vs. Promise.race
 
+date: 2025-08-05T00:00:00+09:00
 lang: ko
 translation_id: javascript-promise-all-vs-promise-race
 header:

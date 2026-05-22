@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: >
     How to Fix JavaScript SyntaxError: Unterminated string literal
+date: 2025-08-05T00:00:00+09:00
 seo_title: >
     How to Fix JavaScript SyntaxError: Unterminated string literal
 

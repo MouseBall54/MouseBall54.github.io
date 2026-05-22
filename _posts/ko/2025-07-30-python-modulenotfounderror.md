@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "Python ModuleNotFoundError 해결 방법"
 
+date: 2025-07-30T00:00:00+09:00
 lang: ko
 translation_id: python-modulenotfounderror
 excerpt: "Python에서 발생하는 ModuleNotFoundError: No module named '...' 오류의 원인을 파악하고, 이를 해결하기 위한 다양한 방법을 알아봅니다."

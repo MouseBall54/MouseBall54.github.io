@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "JavaScript 'undefined'의 속성을 읽을 수 없음(Uncaught TypeError) 오류 해결 방법"
 
+date: 2025-07-30T00:00:00+09:00
 lang: ko
 translation_id: javascript-uncaught-typeerror-cannot-read-properties-of-undefined
 excerpt: "JavaScript에서 'Uncaught TypeError: Cannot read properties of undefined' 오류가 발생하는 원인을 파악하고, 효과적인 해결 방법을 알아봅니다."

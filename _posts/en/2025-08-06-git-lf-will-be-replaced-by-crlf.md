@@ -4,6 +4,7 @@ layout: single
 title: >
    How to Fix "LF will be replaced by CRLF" Warning in Git
 
+date: 2025-08-06T00:00:00+09:00
 lang: en
 translation_id: git-lf-will-be-replaced-by-crlf
 header:
@@ -18,12 +19,10 @@ categories:
   - en_Troubleshooting
 tags:
   - Git
-  - Line Endings
+  - LineEndings
   - CRLF
   - LF
   - Windows
-  - macOS
-  - Linux
 ---
 
 ## Understanding the Warning

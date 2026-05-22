@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "How to Fix 'fatal: refusing to merge unrelated histories' in Git"
 
+date: 2025-07-31T00:00:00+09:00
 lang: en
 translation_id: git-refusing-to-merge-unrelated-histories
 excerpt: "Learn how to resolve the 'fatal: refusing to merge unrelated histories' error in Git by using the `--allow-unrelated-histories` flag when two projects have different commit histories."

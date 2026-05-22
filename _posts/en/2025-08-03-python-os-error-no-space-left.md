@@ -4,6 +4,7 @@ layout: single
 title: >
     How to Fix "OSError: [Errno 28] No space left on device" in Python
 
+date: 2025-08-03T00:00:00+09:00
 lang: en
 translation_id: python-os-error-no-space-left
 header:

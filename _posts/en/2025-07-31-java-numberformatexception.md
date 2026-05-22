@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "How to Handle NumberFormatException in Java"
 
+date: 2025-07-31T00:00:00+09:00
 lang: en
 translation_id: java-numberformatexception-handling
 permalink: /en_Troubleshooting/java-numberformatexception-handling/

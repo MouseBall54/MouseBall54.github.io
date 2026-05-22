@@ -4,6 +4,7 @@ layout: single
 title: >
    Java에서 equals()와 hashCode() 이해하기
 
+date: 2025-08-05T00:00:00+09:00
 lang: ko
 translation_id: java-equals-and-hashcode
 header:

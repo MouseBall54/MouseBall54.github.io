@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: >
     How to Fix JavaScript TypeError: Reduce of empty array with no initial value
+date: 2025-08-05T00:00:00+09:00
 seo_title: >
     How to Fix JavaScript TypeError: Reduce of empty array with no initial value
 

@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "How to Fix Java's StackOverflowError"
 
+date: 2025-07-31T00:00:00+09:00
 lang: en
 translation_id: java-stackoverflowerror
 excerpt: "Understand and resolve Java's StackOverflowError by identifying infinite recursion in your code. Learn how to debug recursive functions, refactor them into iterative solutions, and increase the thread stack size when necessary."

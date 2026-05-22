@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "How to Fix '[Violation] 'click' handler took ...ms' in JavaScript"
 
+date: 2025-08-01T00:00:00+09:00
 lang: en
 translation_id: javascript-violation-click-handler-took-too-long
 header:

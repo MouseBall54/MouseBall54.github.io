@@ -4,6 +4,7 @@ layout: single
 title: >
     How to Fix JavaScript SyntaxError: Unexpected end of input
 
+date: 2025-08-03T00:00:00+09:00
 lang: en
 translation_id: javascript-syntaxerror-unexpected-end-of-input
 header:

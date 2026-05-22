@@ -4,6 +4,7 @@ layout: single
 title: >
    Lowering Coupling with Dependency Injection in Java
 
+date: 2025-08-05T00:00:00+09:00
 lang: en
 translation_id: java-dependency-injection
 header:

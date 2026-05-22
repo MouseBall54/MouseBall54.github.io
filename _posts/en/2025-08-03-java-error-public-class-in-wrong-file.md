@@ -4,6 +4,7 @@ layout: single
 title: >
     How to Fix "Error: a public class ... must be defined in a file called ... .java" in Java
 
+date: 2025-08-03T00:00:00+09:00
 lang: en
 translation_id: java-error-public-class-in-wrong-file
 header:

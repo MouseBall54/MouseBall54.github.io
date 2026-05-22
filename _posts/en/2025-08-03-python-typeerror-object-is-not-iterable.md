@@ -4,6 +4,7 @@ layout: single
 title: >
     How to Fix Python TypeError: '...' object is not iterable
 
+date: 2025-08-03T00:00:00+09:00
 lang: en
 translation_id: python-typeerror-object-is-not-iterable
 header:

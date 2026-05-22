@@ -4,6 +4,7 @@ layout: single
 title: >
    Java "error: variable ... might not have been initialized" 해결 방법
 
+date: 2025-08-05T00:00:00+09:00
 lang: ko
 translation_id: java-error-variable-might-not-have-been-initialized
 header:

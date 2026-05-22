@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: >
     How to Revert a Commit in Git (git revert)
+date: 2025-08-05T00:00:00+09:00
 seo_title: >
     How to Revert a Commit in Git (git revert)
 

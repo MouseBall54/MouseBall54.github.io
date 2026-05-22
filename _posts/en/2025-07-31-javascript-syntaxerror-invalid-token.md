@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "How to Fix \"SyntaxError: Invalid or unexpected token\" in JavaScript"
 
+date: 2025-07-31T00:00:00+09:00
 lang: en
 translation_id: javascript-syntaxerror-invalid-token
 excerpt: "Resolve the \"SyntaxError: Invalid or unexpected token\" in JavaScript by checking for typos, missing characters like commas or parentheses, and incorrect syntax."

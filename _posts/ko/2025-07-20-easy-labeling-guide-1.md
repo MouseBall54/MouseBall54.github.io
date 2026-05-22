@@ -4,6 +4,7 @@ header:
   teaser: /images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png
 layout: single
 title: "Easy Labeling 가이드 (1) - 이미지와 라벨 불러오기"
+date: 2025-07-20T00:00:00+09:00
 excerpt: "YOLO 라벨링 툴 Easy Labeling의 첫 번째 가이드입니다. PC에서 이미지 폴더와 라벨 파일을 불러오고, 클래스 파일을 활용하는 기본적인 방법을 안내합니다."
 
 seo_description: "YOLO 라벨링 툴 Easy Labeling의 첫 번째 가이드입니다. PC에서 이미지 폴더와 라벨 파일을 불러오고, 클래스 파일을 활용하는 기본적인 방법을 안내합니다."
@@ -12,15 +13,11 @@ translation_id: easy-labeling-guide-1
 categories:
   - ko_easy_labeling
 tags:
-  - Easy Labeling
+  - EasyLabeling
   - Guide
-  - YOLO labeling
   - YOLO
-  - Data Labeling
-  - AI
-  - Computer Vision
+  - DataLabeling
   - Annotation
-  - YOLO Annotation
 ---
 
 <p><strong>Easy Labeling 프로젝트 페이지: <a href="https://mouseball54.github.io/easy_labeling/">https://mouseball54.github.io/easy_labeling/</a></strong></p>

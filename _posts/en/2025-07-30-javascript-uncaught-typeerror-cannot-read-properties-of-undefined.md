@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "How to Fix Uncaught TypeError: Cannot read properties of undefined"
 
+date: 2025-07-30T00:00:00+09:00
 lang: en
 translation_id: javascript-uncaught-typeerror-cannot-read-properties-of-undefined
 excerpt: "Learn how to resolve the 'Uncaught TypeError: Cannot read properties of undefined' error in JavaScript by identifying its causes and applying effective solutions."

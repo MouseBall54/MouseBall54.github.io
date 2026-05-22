@@ -4,6 +4,7 @@ layout: single
 title: >
    How to Fix Python SystemError: <built-in function ...> returned NULL without setting an error
 
+date: 2025-08-05T00:00:00+09:00
 lang: en
 translation_id: python-systemerror-returned-null-without-setting-error
 header:

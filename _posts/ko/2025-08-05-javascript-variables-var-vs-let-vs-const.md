@@ -4,6 +4,7 @@ layout: single
 title: >
    JavaScript 변수: var, let, const의 차이점
 
+date: 2025-08-05T00:00:00+09:00
 lang: ko
 translation_id: javascript-variables-var-vs-let-vs-const
 header:

@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "Git에서 'fatal: refusing to merge unrelated histories' 오류 해결 방법"
 
+date: 2025-07-31T00:00:00+09:00
 lang: ko
 translation_id: git-refusing-to-merge-unrelated-histories
 excerpt: "두 프로젝트의 커밋 기록이 다를 때 `--allow-unrelated-histories` 플래그를 사용하여 Git의 'fatal: refusing to merge unrelated histories' 오류를 해결하는 방법을 알아봅니다."

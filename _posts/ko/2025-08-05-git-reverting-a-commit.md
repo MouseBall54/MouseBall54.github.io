@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: >
     Git에서 커밋을 되돌리는 방법 (git revert)
+date: 2025-08-05T00:00:00+09:00
 seo_title: >
     Git에서 커밋을 되돌리는 방법 (git revert)
 

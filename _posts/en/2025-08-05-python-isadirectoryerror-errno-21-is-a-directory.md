@@ -4,6 +4,7 @@ layout: single
 title: >
    How to Fix Python IsADirectoryError: [Errno 21] Is a directory
 
+date: 2025-08-05T00:00:00+09:00
 lang: en
 translation_id: python-isadirectoryerror-errno-21-is-a-directory
 header:

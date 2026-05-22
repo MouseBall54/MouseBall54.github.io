@@ -4,6 +4,7 @@ layout: single
 title: >
    `git bisect`를 사용하여 버그를 유발한 커밋 찾기
 
+date: 2025-08-06T00:00:00+09:00
 lang: ko
 translation_id: git-bisect
 header:

@@ -4,6 +4,7 @@ layout: single
 title: >
    Java: String vs. StringBuilder vs. StringBuffer
 
+date: 2025-08-05T00:00:00+09:00
 lang: en
 translation_id: java-string-vs-stringbuilder-vs-stringbuffer
 header:

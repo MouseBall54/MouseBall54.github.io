@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "How to Fix 'error: failed to push some refs to' in Git"
 
+date: 2025-07-31T00:00:00+09:00
 lang: en
 translation_id: git-failed-to-push-some-refs
 excerpt: "Resolve the Git error 'failed to push some refs' by fetching the latest changes from the remote repository before pushing your own."

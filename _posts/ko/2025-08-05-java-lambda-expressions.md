@@ -4,6 +4,7 @@ layout: single
 title: >
    Java 람다 표현식(Lambda Expressions)으로 간결한 코드 작성하기
 
+date: 2025-08-05T00:00:00+09:00
 lang: ko
 translation_id: java-lambda-expressions
 header:

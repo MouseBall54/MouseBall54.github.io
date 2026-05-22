@@ -4,6 +4,7 @@ layout: single
 title: >
    Writing Concise Code with Lambda Expressions in Java
 
+date: 2025-08-05T00:00:00+09:00
 lang: en
 translation_id: java-lambda-expressions
 header:

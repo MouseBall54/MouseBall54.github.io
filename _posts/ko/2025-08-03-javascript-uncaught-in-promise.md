@@ -4,6 +4,7 @@ layout: single
 title: >
     자바스크립트 Uncaught (in promise) 오류 해결 방법
 
+date: 2025-08-03T00:00:00+09:00
 lang: ko
 translation_id: javascript-uncaught-in-promise
 header:

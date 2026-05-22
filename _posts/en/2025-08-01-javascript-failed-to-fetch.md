@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "How to Fix 'Failed to fetch' Errors in JavaScript"
 
+date: 2025-08-01T00:00:00+09:00
 lang: en
 translation_id: javascript-failed-to-fetch
 header:

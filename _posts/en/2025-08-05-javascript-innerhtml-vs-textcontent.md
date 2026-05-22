@@ -4,6 +4,7 @@ layout: single
 title: >
    JavaScript innerHTML vs. textContent: Which Should You Use?
 
+date: 2025-08-05T00:00:00+09:00
 lang: en
 translation_id: javascript-innerhtml-vs-textcontent
 header:

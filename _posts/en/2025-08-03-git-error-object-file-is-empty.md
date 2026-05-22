@@ -4,6 +4,7 @@ layout: single
 title: >
     How to Fix "error: object file ... is empty" in Git
 
+date: 2025-08-03T00:00:00+09:00
 lang: en
 translation_id: git-error-object-file-is-empty
 header:

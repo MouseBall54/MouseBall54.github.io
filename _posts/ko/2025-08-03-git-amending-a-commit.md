@@ -4,6 +4,7 @@ layout: single
 title: >
     Git 최신 커밋 수정하기: git commit --amend 완벽 가이드
 
+date: 2025-08-03T00:00:00+09:00
 lang: ko
 translation_id: git-amending-a-commit
 header:

@@ -4,6 +4,7 @@ layout: single
 title: >
    Python TimeoutError: [WinError 10060] 연결 시도 실패 오류 해결 방법
 
+date: 2025-08-05T00:00:00+09:00
 lang: ko
 translation_id: python-timeouterror-winerror-10060
 header:

@@ -4,6 +4,7 @@ layout: single
 title: >
    JavaScript Promises: Promise.all vs. Promise.race
 
+date: 2025-08-05T00:00:00+09:00
 lang: en
 translation_id: javascript-promise-all-vs-promise-race
 header:

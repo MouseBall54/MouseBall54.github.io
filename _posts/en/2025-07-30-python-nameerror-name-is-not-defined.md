@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "How to Fix Python's NameError: name '...' is not defined"
 
+date: 2025-07-30T00:00:00+09:00
 lang: en
 translation_id: python-nameerror-name-is-not-defined
 excerpt: "Understand and fix the Python NameError, which occurs when a variable or function is used before it's defined. Learn common causes like typos and scope issues."

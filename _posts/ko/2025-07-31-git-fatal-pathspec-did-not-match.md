@@ -4,6 +4,7 @@ layout: single
 title: >
   "Git "fatal: pathspec '...' did not match any files" 오류 해결 방법"
 
+date: 2025-07-31T00:00:00+09:00
 lang: ko
 translation_id: git-fatal-pathspec-did-not-match
 excerpt: >

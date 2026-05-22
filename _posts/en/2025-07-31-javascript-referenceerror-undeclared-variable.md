@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "How to Fix \"ReferenceError: assignment to undeclared variable\" in JavaScript"
 
+date: 2025-07-31T00:00:00+09:00
 lang: en
 translation_id: javascript-referenceerror-undeclared-variable
 excerpt: "Resolve the \"ReferenceError: assignment to undeclared variable\" in JavaScript's strict mode by properly declaring variables with `let`, `const`, or `var` before assigning values."

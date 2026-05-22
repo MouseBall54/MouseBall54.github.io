@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: >
     Python FloatingPointError 해결 방법
+date: 2025-08-05T00:00:00+09:00
 seo_title: >
     Python FloatingPointError 해결 방법
 

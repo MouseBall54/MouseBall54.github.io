@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "How to Fix Git Error: unable to access '...': The requested URL returned error: 404"
 
+date: 2025-07-31T00:00:00+09:00
 lang: en
 translation_id: git-fatal-unable-to-access-url-returned-error-404
 excerpt: "Resolve Git's '404 Not Found' error by checking the remote URL for typos, verifying repository existence and permissions, and ensuring you are authenticated correctly. Learn to fix this common URL-related issue."

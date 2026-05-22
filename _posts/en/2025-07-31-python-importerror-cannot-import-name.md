@@ -4,6 +4,7 @@ layout: single
 title: >
   "How to Fix Python's \"ImportError: cannot import name '...' from '...'\""
 
+date: 2025-07-31T00:00:00+09:00
 lang: en
 translation_id: python-importerror-cannot-import-name
 excerpt: >

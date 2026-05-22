@@ -4,6 +4,7 @@ layout: single
 title: >
    How to Fix Python TimeoutError: [WinError 10060] A connection attempt failed
 
+date: 2025-08-05T00:00:00+09:00
 lang: en
 translation_id: python-timeouterror-winerror-10060
 header:

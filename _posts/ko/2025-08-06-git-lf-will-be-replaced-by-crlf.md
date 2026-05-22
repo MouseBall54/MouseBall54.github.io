@@ -4,6 +4,7 @@ layout: single
 title: >
    Git 경고 해결: "LF will be replaced by CRLF"
 
+date: 2025-08-06T00:00:00+09:00
 lang: ko
 translation_id: git-lf-will-be-replaced-by-crlf
 header:
@@ -18,12 +19,10 @@ categories:
   - ko_Troubleshooting
 tags:
   - Git
-  - Line Endings
+  - LineEndings
   - CRLF
   - LF
   - Windows
-  - macOS
-  - Linux
 ---
 
 ## 경고 이해하기

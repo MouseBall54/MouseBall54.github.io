@@ -4,6 +4,7 @@ layout: single
 title: >
    Python PermissionError: [Errno 13] Permission denied 오류 해결 방법
 
+date: 2025-08-05T00:00:00+09:00
 lang: ko
 translation_id: python-permissionerror-errno-13-permission-denied
 header:

@@ -4,6 +4,7 @@ layout: single
 title: >
    Git에서 다른 브랜치의 특정 커밋 가져오기 (Cherry-Pick)
 
+date: 2025-08-06T00:00:00+09:00
 lang: ko
 translation_id: git-cherry-pick
 header:

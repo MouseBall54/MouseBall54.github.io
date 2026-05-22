@@ -72,6 +72,30 @@ function parseFrontMatter(relativePath) {
   return frontMatter;
 }
 
+function readFrontMatterText(relativePath) {
+  const text = readText(relativePath).replace(/^\uFEFF/, "");
+  const lines = text.split(/\r?\n/);
+  const endIndex = lines.findIndex((line, index) => index > 0 && line === "---");
+  return endIndex === -1 ? "" : lines.slice(1, endIndex).join("\n");
+}
+
+function extractYamlList(frontMatterText, key) {
+  const lines = frontMatterText.split(/\n/);
+  const keyIndex = lines.findIndex((line) => new RegExp(`^${key}:\\s*$`).test(line));
+  if (keyIndex === -1) return [];
+
+  const values = [];
+  for (let index = keyIndex + 1; index < lines.length; index += 1) {
+    const line = lines[index];
+    if (/^[A-Za-z0-9_-]+:\s*/.test(line)) break;
+
+    const match = line.match(/^\s+-\s*(.+)$/);
+    if (match) values.push(match[1].trim());
+  }
+
+  return values;
+}
+
 function normalizeYamlValue(value) {
   if (!value) return "";
   return value.replace(/^["']|["']$/g, "").trim();
@@ -226,11 +250,22 @@ function validatePosts() {
   const outputUrls = new Map();
   const campaignInternalLinksToCheck = [];
 
-  const requiredFields = ["title", "lang", "translation_id", "header", "excerpt", "categories", "tags"];
+  const requiredFields = [
+    "title",
+    "date",
+    "lang",
+    "translation_id",
+    "header",
+    "excerpt",
+    "seo_description",
+    "categories",
+    "tags",
+  ];
 
   [...koFiles, ...enFiles].forEach((relativePath) => {
     const frontMatter = parseFrontMatter(relativePath);
     if (!frontMatter) return;
+    const frontMatterText = readFrontMatterText(relativePath);
 
     requiredFields.forEach((field) => {
       if (!(field in frontMatter)) {
@@ -250,6 +285,17 @@ function validatePosts() {
     if (!text.includes(`- ${expectedCategory}`)) {
       errors.push(`${relativePath}: category should include "${expectedCategory}..."`);
     }
+
+    const tags = extractYamlList(frontMatterText, "tags");
+    if (tags.length < 3 || tags.length > 5) {
+      errors.push(`${relativePath}: tags should contain 3-5 English tags, found ${tags.length}`);
+    }
+
+    tags.forEach((tag) => {
+      if (/[가-힣]/.test(tag)) {
+        errors.push(`${relativePath}: tag should be English-only: ${tag}`);
+      }
+    });
 
     const translationId = normalizeYamlValue(frontMatter.translation_id);
     if (!translationId) {
@@ -278,10 +324,6 @@ function validatePosts() {
       outputUrls.set(outputUrl, relativePath);
     }
 
-    if (!("seo_description" in frontMatter)) {
-      warnings.push(`${relativePath}: missing seo_description; excerpt fallback may be used`);
-    }
-
     const headerImagePaths = [...text.matchAll(/^\s*(?:teaser|overlay_image):\s*(\/images\/[^\s#]+)/gm)].map(
       (match) => match[1],
     );
@@ -293,6 +335,10 @@ function validatePosts() {
     }
 
     if (campaignPost) {
+      if (!("seo_title" in frontMatter)) {
+        errors.push(`${relativePath}: campaign post must include seo_title`);
+      }
+
       const campaignHeaderImagePaths = headerImagePaths.filter((imagePath) => imagePath.startsWith("/images/2026-05-23-"));
       const campaignBodyImagePaths = bodyImagePaths.filter((imagePath) => imagePath.startsWith("/images/2026-05-23-"));
 

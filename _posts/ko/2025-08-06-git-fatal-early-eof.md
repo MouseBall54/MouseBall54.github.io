@@ -4,6 +4,7 @@ layout: single
 title: >
    Git 오류 해결: "fatal: early EOF"
 
+date: 2025-08-06T00:00:00+09:00
 lang: ko
 translation_id: git-fatal-early-eof
 header:

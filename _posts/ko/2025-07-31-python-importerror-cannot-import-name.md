@@ -4,6 +4,7 @@ layout: single
 title: >
   "Python "ImportError: cannot import name '...' from '...'" 오류 해결 방법"
 
+date: 2025-07-31T00:00:00+09:00
 lang: ko
 translation_id: python-importerror-cannot-import-name
 excerpt: >

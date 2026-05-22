@@ -19,6 +19,7 @@ categories:
 tags:
   - Java
   - NullPointerException
+  - Debugging
 ---
 
 ## Introduction

@@ -4,6 +4,7 @@ layout: single
 title: >
     Git "fatal: index file corrupt" 해결 방법
 
+date: 2025-08-03T00:00:00+09:00
 lang: ko
 translation_id: git-fatal-index-file-corrupt
 header:

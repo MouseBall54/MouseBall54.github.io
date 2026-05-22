@@ -3,6 +3,7 @@ typora-root-url: ../
 layout: single
 title: "How to Fix Git Error: pathspec '...' did not match any files"
 
+date: 2025-07-31T00:00:00+09:00
 lang: en
 translation_id: git-fatal-pathspec-did-not-match-any-files
 excerpt: "Resolve the Git error 'pathspec did not match any files' by checking for typos, verifying file paths, and understanding how Git handles special characters. Learn to troubleshoot and fix this common issue."

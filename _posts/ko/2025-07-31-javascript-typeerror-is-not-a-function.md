@@ -4,6 +4,7 @@ layout: single
 title: >
   "JavaScript "TypeError: '...' is not a function" 오류 해결 방법"
 
+date: 2025-07-31T00:00:00+09:00
 lang: ko
 translation_id: javascript-typeerror-is-not-a-function
 excerpt: >

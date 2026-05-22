@@ -4,6 +4,7 @@ layout: single
 title: >
    How to Use Git Interactive Rebase to Modify Commits
 
+date: 2025-08-06T00:00:00+09:00
 lang: en
 translation_id: git-interactive-rebase
 header:
