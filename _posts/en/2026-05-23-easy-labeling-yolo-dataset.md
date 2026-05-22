@@ -15,7 +15,7 @@ header:
 excerpt: >
   Build a YOLO object detection dataset with Easy Labeling by preparing images, managing classes, saving labels, splitting train and validation folders, and verifying data.yaml.
 seo_description: >
-  Build a YOLO object detection dataset with Easy Labeling by preparing images, managing classes, saving labels, splitting train and validation folders, and verifying data.yaml.
+  Build a YOLO dataset with Easy Labeling by preparing images, managing classes, saving labels, splitting train and validation folders, and verifying data.yaml.
 categories:
   - en_easy_labeling
 tags:

@@ -15,7 +15,7 @@ header:
 excerpt: >
   Learn how recession indicators such as employment, income, production, spending, inflation, interest rates, and the yield curve can be read together without treating any one signal as a guarantee.
 seo_description: >
-  Learn how recession indicators such as employment, income, production, spending, inflation, interest rates, and the yield curve can be read together without treating any one signal as a guarantee.
+  Learn how recession indicators like employment, spending, inflation, rates, and the yield curve can be read together without overreacting.
 categories:
   - en_Economy
 tags:

@@ -15,7 +15,7 @@ header:
 excerpt: >
   Fix VS Code Python interpreter not showing by checking the Python extension, workspace folder, virtual environment location, manual interpreter path, and terminal environment.
 seo_description: >
-  Fix VS Code Python interpreter not showing by checking the Python extension, workspace folder, virtual environment location, manual interpreter path, and terminal environment.
+  Fix VS Code Python interpreter not showing by checking the Python extension, workspace folder, virtual environment, manual path, and terminal.
 categories:
   - en_Troubleshooting
 tags:

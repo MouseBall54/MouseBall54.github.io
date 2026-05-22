@@ -4,7 +4,7 @@ layout: single
 title: >
   Gradle Build Failed: A Practical Debugging Checklist for Java Projects
 seo_title: >
-  Gradle Build Failed
+  Gradle Build Failed Checklist
 date: 2026-05-23T23:59:59+09:00
 lang: en
 translation_id: gradle-build-failed

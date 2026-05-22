@@ -4,7 +4,7 @@ layout: single
 title: >
   YOLO Label Format: How to Read Class, Center X, Center Y, Width, and Height
 seo_title: >
-  YOLO Label Format
+  YOLO Label Format Explained
 date: 2026-05-23T23:59:59+09:00
 lang: en
 translation_id: yolo-label-format

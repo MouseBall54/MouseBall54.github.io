@@ -15,7 +15,7 @@ header:
 excerpt: >
   Fix Git fatal: Authentication failed by checking the remote URL, replacing password authentication with a token or SSH key, clearing stale credentials, and testing push access.
 seo_description: >
-  Fix Git fatal: Authentication failed by checking the remote URL, replacing password authentication with a token or SSH key, clearing stale credentials, and testing push access.
+  Fix Git fatal: Authentication failed by checking the remote URL, using a token or SSH key, clearing stale credentials, and testing push access.
 categories:
   - en_Troubleshooting
 tags:

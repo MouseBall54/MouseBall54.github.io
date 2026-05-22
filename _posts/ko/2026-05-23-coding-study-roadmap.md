@@ -4,7 +4,7 @@ layout: single
 title: >
   코딩 공부 로드맵: 기초부터 포트폴리오 프로젝트까지 가는 실전 순서
 seo_title: >
-  코딩 공부 로드맵
+  코딩 공부 로드맵과 포트폴리오 순서
 date: 2026-05-23T23:59:57+09:00
 lang: ko
 translation_id: coding-study-roadmap

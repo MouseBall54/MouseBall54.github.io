@@ -115,6 +115,27 @@ function extractYamlList(frontMatterText, key) {
   return values;
 }
 
+function extractYamlScalarOrBlock(frontMatterText, key) {
+  const lines = frontMatterText.split(/\n/);
+  const keyIndex = lines.findIndex((line) => new RegExp(`^${key}:\\s*`).test(line));
+  if (keyIndex === -1) return "";
+
+  const inline = lines[keyIndex].replace(new RegExp(`^${key}:\\s*`), "").trim();
+  if (inline && ![">", "|", ">-", "|-"].includes(inline)) {
+    return normalizeYamlValue(inline);
+  }
+
+  const values = [];
+  for (let index = keyIndex + 1; index < lines.length; index += 1) {
+    const line = lines[index];
+    if (/^[A-Za-z0-9_-]+:\s*/.test(line)) break;
+    const value = line.trim();
+    if (value) values.push(value);
+  }
+
+  return values.join(" ").trim();
+}
+
 function normalizeYamlValue(value) {
   if (!value) return "";
   return value.replace(/^["']|["']$/g, "").trim();
@@ -363,6 +384,21 @@ function validatePosts() {
     if (campaignPost) {
       if (!("seo_title" in frontMatter)) {
         errors.push(`${relativePath}: campaign post must include seo_title`);
+      }
+
+      const seoTitle = extractYamlScalarOrBlock(frontMatterText, "seo_title");
+      const seoDescription = extractYamlScalarOrBlock(frontMatterText, "seo_description");
+      const seoTitleMin = expectedLang === "ko" ? 10 : 20;
+      const seoDescriptionMin = expectedLang === "ko" ? 60 : 80;
+
+      if (seoTitle.length < seoTitleMin || seoTitle.length > 70) {
+        errors.push(`${relativePath}: campaign seo_title should be ${seoTitleMin}-70 characters, found ${seoTitle.length}`);
+      }
+
+      if (seoDescription.length < seoDescriptionMin || seoDescription.length > 170) {
+        errors.push(
+          `${relativePath}: campaign seo_description should be ${seoDescriptionMin}-170 characters, found ${seoDescription.length}`,
+        );
       }
 
       const campaignHeaderImagePaths = headerImagePaths.filter((imagePath) => imagePath.startsWith("/images/2026-05-23-"));
