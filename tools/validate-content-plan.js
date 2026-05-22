@@ -308,6 +308,7 @@ function validateSearchAndMonetizationFiles() {
   requireFile("_includes/seo.html");
   requireFile("_includes/article-schema.html");
   requireFile("_includes/faq-schema.html");
+  requireFile("_includes/breadcrumb-schema.html");
   if (errors.length > 0) return;
 
   const robots = readText("robots.txt");
@@ -320,6 +321,7 @@ function validateSearchAndMonetizationFiles() {
   const seo = readText("_includes/seo.html");
   const articleSchema = readText("_includes/article-schema.html");
   const faqSchema = readText("_includes/faq-schema.html");
+  const breadcrumbSchema = readText("_includes/breadcrumb-schema.html");
   const siteUrl = parseScalarConfigValue(config, "url");
   const adsenseClient = parseSectionScalarConfigValue(config, "adsense", "client");
   const publisherId = adsenseClient.replace(/^ca-/, "");
@@ -424,6 +426,10 @@ function validateSearchAndMonetizationFiles() {
     errors.push("_includes/seo.html: missing article-schema.html include");
   }
 
+  if (!seo.includes("{% include breadcrumb-schema.html %}")) {
+    errors.push("_includes/seo.html: missing breadcrumb-schema.html include");
+  }
+
   [
     ["_includes/article-schema.html", articleSchema, 'type="application/ld+json"'],
     ["_includes/article-schema.html", articleSchema, "BlogPosting"],
@@ -435,6 +441,20 @@ function validateSearchAndMonetizationFiles() {
   ].forEach(([relativePath, text, term]) => {
     if (!text.includes(term)) {
       errors.push(`${relativePath}: missing required article schema term "${term}"`);
+    }
+  });
+
+  [
+    ["_includes/breadcrumb-schema.html", breadcrumbSchema, 'type="application/ld+json"'],
+    ["_includes/breadcrumb-schema.html", breadcrumbSchema, "BreadcrumbList"],
+    ["_includes/breadcrumb-schema.html", breadcrumbSchema, "ListItem"],
+    ["_includes/breadcrumb-schema.html", breadcrumbSchema, "itemListElement"],
+    ["_includes/breadcrumb-schema.html", breadcrumbSchema, "position"],
+    ["_includes/breadcrumb-schema.html", breadcrumbSchema, "absolute_url"],
+    ["_includes/breadcrumb-schema.html", breadcrumbSchema, "jsonify"],
+  ].forEach(([relativePath, text, term]) => {
+    if (!text.includes(term)) {
+      errors.push(`${relativePath}: missing required breadcrumb schema term "${term}"`);
     }
   });
 

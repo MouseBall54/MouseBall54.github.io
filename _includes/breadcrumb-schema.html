@@ -1,0 +1,32 @@
+{%- assign breadcrumb_position = 1 -%}
+{%- assign breadcrumb_category = page.categories | first -%}
+{%- assign current_url = page.url | replace: "/index.html", "/" | absolute_url -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": {{ breadcrumb_position }},
+      "name": {{ site.data.ui-text[site.locale].breadcrumb_home_label | default: "Home" | jsonify }},
+      "item": {{ '/' | absolute_url | jsonify }}
+    }{% if breadcrumb_category %},
+    {%- assign breadcrumb_position = breadcrumb_position | plus: 1 -%}
+    {
+      "@type": "ListItem",
+      "position": {{ breadcrumb_position }},
+      "name": {{ breadcrumb_category | replace: "_", " " | jsonify }},
+      "item": {{ breadcrumb_category | prepend: "/" | append: "/" | absolute_url | jsonify }}
+    }{% endif %},
+    {%- assign breadcrumb_position = breadcrumb_position | plus: 1 -%}
+    {
+      "@type": "ListItem",
+      "position": {{ breadcrumb_position }},
+      "name": {{ page.title | markdownify | strip_html | strip_newlines | strip | jsonify }},
+      "item": {{ current_url | jsonify }}
+    }
+  ]
+}
+</script>
