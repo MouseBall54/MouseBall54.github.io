@@ -3,11 +3,16 @@
 {% include seo.html %}
 
 {% if page.layout == 'single' and page.translation_id %}
+  {% assign default_alternate_url = page.url | absolute_url %}
   {% for post in site.posts %}
     {% if post.translation_id == page.translation_id %}
       <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url | absolute_url }}">
+      {% if post.lang == "en" %}
+        {% assign default_alternate_url = post.url | absolute_url %}
+      {% endif %}
     {% endif %}
   {% endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ default_alternate_url }}">
 {% endif %}
 
 {% unless site.atom_feed.hide %}

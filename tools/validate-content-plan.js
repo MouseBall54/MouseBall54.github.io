@@ -377,6 +377,19 @@ function validateSearchAndMonetizationFiles() {
     errors.push("_includes/head.html: missing seo.html include");
   }
 
+  [
+    "rel=\"alternate\"",
+    "hreflang=\"{{ post.lang }}\"",
+    "hreflang=\"x-default\"",
+    "default_alternate_url",
+    "post.translation_id == page.translation_id",
+    "post.lang == \"en\"",
+  ].forEach((term) => {
+    if (!head.includes(term)) {
+      errors.push(`_includes/head.html: missing hreflang support term "${term}"`);
+    }
+  });
+
   if (!seo.includes("page.seo_description")) {
     errors.push("_includes/seo.html: seo_description front matter is not used for meta description");
   }
