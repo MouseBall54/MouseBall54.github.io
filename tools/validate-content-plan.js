@@ -539,6 +539,10 @@ function validatePosts() {
 
     const content = text.split(/^---\s*$/m).slice(2).join("---");
     const wordCount = content.replace(/<[^>]*>/g, " ").trim().split(/\s+/).filter(Boolean).length;
+    if (campaignPost && wordCount < 450) {
+      errors.push(`${relativePath}: campaign post should contain at least 450 words, found ${wordCount}`);
+    }
+
     if (wordCount >= 700 && !/^\s*ads\s*:\s*false\s*$/m.test(text)) {
       adEligiblePosts.push(relativePath);
     }

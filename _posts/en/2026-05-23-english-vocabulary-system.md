@@ -108,6 +108,37 @@ Every week:
 
 The system should stay small enough to maintain.
 
+## A 20-Minute Daily Routine
+
+Short repetition is easier to keep than one long vocabulary session.
+If you only have 20 minutes, split it like this:
+
+```text
+5 minutes: recall only yesterday's missed cards
+5 minutes: add 3-5 new words
+5 minutes: write your own sentence for each new word
+5 minutes: listen to pronunciation and read aloud
+```
+
+The goal is not to add as many words as possible.
+The goal is to keep the review queue healthy.
+If you add 30 words today and cannot review them three days later, the system becomes noise.
+If you add five useful words and review them consistently, your usable vocabulary grows.
+
+## When to Delete a Card
+
+A vocabulary system should not grow forever.
+Delete or archive cards when:
+
+- the word is too easy and always correct
+- the word is not connected to your current goal
+- the card has only a translation and no usage
+- several cards repeat the same idea
+- the word is a technical term you will not use
+
+Deleting a card is not failure.
+It makes room for words that matter more.
+
 ## Related Posts
 
 - [Active Recall Study Method](/en_Study/active-recall-study-method/)
