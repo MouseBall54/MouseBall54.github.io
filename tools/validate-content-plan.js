@@ -304,6 +304,7 @@ function validateSearchAndMonetizationFiles() {
   requireFile("Gemfile");
   requireFile("_includes/head.html");
   requireFile("_includes/seo.html");
+  requireFile("_includes/article-schema.html");
   requireFile("_includes/faq-schema.html");
   if (errors.length > 0) return;
 
@@ -313,6 +314,7 @@ function validateSearchAndMonetizationFiles() {
   const gemfileLock = exists("Gemfile.lock") ? readText("Gemfile.lock") : "";
   const head = readText("_includes/head.html");
   const seo = readText("_includes/seo.html");
+  const articleSchema = readText("_includes/article-schema.html");
   const faqSchema = readText("_includes/faq-schema.html");
   const siteUrl = parseScalarConfigValue(config, "url");
   const adsenseClient = parseSectionScalarConfigValue(config, "adsense", "client");
@@ -361,6 +363,24 @@ function validateSearchAndMonetizationFiles() {
   if (!seo.includes("{% include faq-schema.html %}")) {
     errors.push("_includes/seo.html: missing faq-schema.html include");
   }
+
+  if (!seo.includes("{% include article-schema.html %}")) {
+    errors.push("_includes/seo.html: missing article-schema.html include");
+  }
+
+  [
+    ["_includes/article-schema.html", articleSchema, 'type="application/ld+json"'],
+    ["_includes/article-schema.html", articleSchema, "BlogPosting"],
+    ["_includes/article-schema.html", articleSchema, "mainEntityOfPage"],
+    ["_includes/article-schema.html", articleSchema, "datePublished"],
+    ["_includes/article-schema.html", articleSchema, "dateModified"],
+    ["_includes/article-schema.html", articleSchema, "publisher"],
+    ["_includes/article-schema.html", articleSchema, "jsonify"],
+  ].forEach(([relativePath, text, term]) => {
+    if (!text.includes(term)) {
+      errors.push(`${relativePath}: missing required article schema term "${term}"`);
+    }
+  });
 
   [
     ["_includes/faq-schema.html", faqSchema, 'type="application/ld+json"'],

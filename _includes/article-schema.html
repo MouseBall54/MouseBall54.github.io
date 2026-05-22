@@ -1,0 +1,27 @@
+{%- assign article_image = page_large_image | default: page_teaser_image -%}
+{%- assign article_author_name = author.name | default: author | default: site.title -%}
+{%- assign article_modified_at = page.last_modified_at | default: page.date -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ canonical_url | jsonify }}
+  },
+  "headline": {{ page_title | jsonify }},
+  "description": {{ seo_description | jsonify }},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "dateModified": {{ article_modified_at | date_to_xmlschema | jsonify }},
+  "author": {
+    "@type": "Person",
+    "name": {{ article_author_name | strip | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }}
+  }{% if article_image %},
+  "image": [{{ article_image | jsonify }}]{% endif %}
+}
+</script>
