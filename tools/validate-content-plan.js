@@ -304,6 +304,7 @@ function validateSearchAndMonetizationFiles() {
   requireFile("Gemfile");
   requireFile("_includes/head.html");
   requireFile("_includes/seo.html");
+  requireFile("_includes/faq-schema.html");
   if (errors.length > 0) return;
 
   const robots = readText("robots.txt");
@@ -312,6 +313,7 @@ function validateSearchAndMonetizationFiles() {
   const gemfileLock = exists("Gemfile.lock") ? readText("Gemfile.lock") : "";
   const head = readText("_includes/head.html");
   const seo = readText("_includes/seo.html");
+  const faqSchema = readText("_includes/faq-schema.html");
   const siteUrl = parseScalarConfigValue(config, "url");
   const adsenseClient = parseSectionScalarConfigValue(config, "adsense", "client");
   const publisherId = adsenseClient.replace(/^ca-/, "");
@@ -355,6 +357,22 @@ function validateSearchAndMonetizationFiles() {
   if (!seo.includes("page.seo_description")) {
     errors.push("_includes/seo.html: seo_description front matter is not used for meta description");
   }
+
+  if (!seo.includes("{% include faq-schema.html %}")) {
+    errors.push("_includes/seo.html: missing faq-schema.html include");
+  }
+
+  [
+    ["_includes/faq-schema.html", faqSchema, 'type="application/ld+json"'],
+    ["_includes/faq-schema.html", faqSchema, "FAQPage"],
+    ["_includes/faq-schema.html", faqSchema, "Question"],
+    ["_includes/faq-schema.html", faqSchema, "acceptedAnswer"],
+    ["_includes/faq-schema.html", faqSchema, "jsonify"],
+  ].forEach(([relativePath, text, term]) => {
+    if (!text.includes(term)) {
+      errors.push(`${relativePath}: missing required FAQ schema term "${term}"`);
+    }
+  });
 
   if (!publisherId || !ads.includes(`google.com, ${publisherId}, DIRECT`)) {
     errors.push("ads.txt: missing Google AdSense DIRECT publisher entry matching _config.yml");

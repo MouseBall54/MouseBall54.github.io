@@ -1,0 +1,51 @@
+{%- assign faq_section = "" -%}
+{%- assign content_sections = content | split: "<h2" -%}
+{%- for section in content_sections -%}
+  {%- if section contains ">FAQ</h2>" or section contains ">자주 묻는 질문</h2>" -%}
+    {%- assign faq_section = section -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if faq_section != "" -%}
+  {%- assign faq_parts = faq_section | split: "<h3" -%}
+  {%- assign faq_items_count = 0 -%}
+  {%- for part in faq_parts -%}
+    {%- if part contains "</h3>" -%}
+      {%- assign question = part | split: "</h3>" | first | split: ">" | last | strip_html | strip_newlines | strip -%}
+      {%- assign answer = part | split: "</h3>" | last | strip_html | newline_to_br | strip_newlines | replace: "<br />", " " | strip -%}
+      {%- if question != "" and answer != "" -%}
+        {%- assign faq_items_count = faq_items_count | plus: 1 -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- if faq_items_count > 0 -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- assign faq_item_index = 0 -%}
+    {%- for part in faq_parts -%}
+      {%- if part contains "</h3>" -%}
+        {%- assign question = part | split: "</h3>" | first | split: ">" | last | strip_html | strip_newlines | strip -%}
+        {%- assign answer = part | split: "</h3>" | last | strip_html | newline_to_br | strip_newlines | replace: "<br />", " " | strip -%}
+        {%- if question != "" and answer != "" -%}
+          {%- assign faq_item_index = faq_item_index | plus: 1 -%}
+    {
+      "@type": "Question",
+      "name": {{ question | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ answer | jsonify }}
+      }
+    }{% unless faq_item_index == faq_items_count %},{% endunless %}
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+  ]
+}
+</script>
+  {%- endif -%}
+{%- endif -%}
