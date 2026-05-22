@@ -893,6 +893,7 @@ function validateAdsense() {
   requireFile("_includes/head/custom.html");
   requireFile("_includes/ad-content.html");
   requireFile("_includes/ad-inarticle.html");
+  requireFile("_includes/social-share.html");
   requireFile("_layouts/single.html");
 
   if (errors.length > 0) return;
@@ -902,6 +903,7 @@ function validateAdsense() {
   const headCustom = readText("_includes/head/custom.html");
   const adContent = readText("_includes/ad-content.html");
   const adInArticle = readText("_includes/ad-inarticle.html");
+  const socialShare = readText("_includes/social-share.html");
   const singleLayout = readText("_layouts/single.html");
   const adsenseClient = parseSectionScalarConfigValue(config, "adsense", "client");
   const adsenseEnabled = isConfigEnabled(parseSectionScalarConfigValue(config, "adsense", "enabled"));
@@ -955,6 +957,13 @@ function validateAdsense() {
     ["_includes/ad-inarticle.html", adInArticle, "Advertisements"],
     ["_includes/ad-inarticle.html", adInArticle, "adsbygoogle"],
     ["_layouts/single.html", singleLayout, "{% include ad-content.html %}"],
+    ["_layouts/single.html", singleLayout, "{% include social-share.html %}"],
+    ["_config.yml", config, "share: true"],
+    ["_includes/social-share.html", socialShare, "x.com/intent/tweet"],
+    ["_includes/social-share.html", socialShare, "facebook.com/sharer/sharer.php"],
+    ["_includes/social-share.html", socialShare, "linkedin.com/shareArticle"],
+    ["_includes/social-share.html", socialShare, "bsky.app/intent/compose"],
+    ["_includes/social-share.html", socialShare, "mailto:?subject="],
   ].forEach(([relativePath, text, term]) => {
     if (!text.includes(term)) {
       errors.push(`${relativePath}: missing required AdSense guard or markup "${term}"`);
