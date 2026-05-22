@@ -300,6 +300,7 @@ function validatePlanningDocs() {
 function validateSearchAndMonetizationFiles() {
   requireFile("robots.txt");
   requireFile("ads.txt");
+  requireFile("llms.txt");
   requireFile("_config.yml");
   requireFile("Gemfile");
   requireFile("_includes/head.html");
@@ -310,6 +311,7 @@ function validateSearchAndMonetizationFiles() {
 
   const robots = readText("robots.txt");
   const ads = readText("ads.txt");
+  const llms = readText("llms.txt");
   const config = readText("_config.yml");
   const gemfileLock = exists("Gemfile.lock") ? readText("Gemfile.lock") : "";
   const head = readText("_includes/head.html");
@@ -335,6 +337,25 @@ function validateSearchAndMonetizationFiles() {
   if (!robots.includes(`${siteUrl}/sitemap.xml`)) {
     errors.push(`robots.txt: missing sitemap URL ${siteUrl}/sitemap.xml`);
   }
+
+  [
+    siteUrl,
+    `${siteUrl}/feed.xml`,
+    `${siteUrl}/sitemap.xml`,
+    `${siteUrl}/ko_AI_Trends/`,
+    `${siteUrl}/en_AI_Trends/`,
+    `${siteUrl}/ko_Study/`,
+    `${siteUrl}/en_Study/`,
+    `${siteUrl}/ko_Economy/`,
+    `${siteUrl}/en_Economy/`,
+    `${siteUrl}/ko_easy_labeling/`,
+    `${siteUrl}/en_easy_labeling/`,
+    `${siteUrl}/en_Troubleshooting/github-actions-build-failed/`,
+  ].forEach((url) => {
+    if (!llms.includes(url)) {
+      errors.push(`llms.txt: missing discovery URL ${url}`);
+    }
+  });
 
   if (!config.includes("- jekyll-sitemap")) {
     errors.push("_config.yml: missing jekyll-sitemap plugin");

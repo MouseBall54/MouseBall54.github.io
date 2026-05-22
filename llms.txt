@@ -1,0 +1,40 @@
+# MouseBall54 Toolbox
+
+MouseBall54 Toolbox is a bilingual developer and practical knowledge site focused on troubleshooting, AI workflows, study systems, personal finance education, and image labeling workflows.
+
+Primary site: https://mouseball54.github.io/
+RSS feed: https://mouseball54.github.io/feed.xml
+Sitemap: https://mouseball54.github.io/sitemap.xml
+
+## Core Hubs
+
+- Korean Troubleshooting: https://mouseball54.github.io/ko_Troubleshooting/
+- English Troubleshooting: https://mouseball54.github.io/en_Troubleshooting/
+- Korean AI Trends: https://mouseball54.github.io/ko_AI_Trends/
+- English AI Trends: https://mouseball54.github.io/en_AI_Trends/
+- Korean Study: https://mouseball54.github.io/ko_Study/
+- English Study: https://mouseball54.github.io/en_Study/
+- Korean Economy: https://mouseball54.github.io/ko_Economy/
+- English Economy: https://mouseball54.github.io/en_Economy/
+- Korean Easy Labeling: https://mouseball54.github.io/ko_easy_labeling/
+- English Easy Labeling: https://mouseball54.github.io/en_easy_labeling/
+
+## Representative Articles
+
+- AI Agent Workflow 2026: https://mouseball54.github.io/en_AI_Trends/ai-agent-workflow-2026/
+- Prompt Engineering Checklist: https://mouseball54.github.io/en_AI_Trends/prompt-engineering-checklist/
+- RAG Evaluation Checklist: https://mouseball54.github.io/en_AI_Trends/rag-evaluation-checklist/
+- Active Recall Study Method: https://mouseball54.github.io/en_Study/active-recall-study-method/
+- Spaced Repetition Schedule: https://mouseball54.github.io/en_Study/spaced-repetition-schedule/
+- Compound Interest Example: https://mouseball54.github.io/en_Economy/compound-interest-example/
+- Emergency Fund Guide: https://mouseball54.github.io/en_Economy/emergency-fund-how-much/
+- Local Image Labeling Workflow: https://mouseball54.github.io/en_easy_labeling/local-image-labeling-workflow/
+- YOLO Label Format: https://mouseball54.github.io/en_easy_labeling/yolo-label-format/
+- GitHub Actions Build Failed: https://mouseball54.github.io/en_Troubleshooting/github-actions-build-failed/
+
+## Content Notes
+
+- Economy content is educational and is not personal financial advice.
+- Troubleshooting content is written around reproducible symptoms, causes, fixes, and verification steps.
+- Easy Labeling content supports image annotation, YOLO datasets, COCO conversion, and dataset quality workflows.
+- AI Trends content prioritizes verification, workflow design, structured outputs, and practical automation boundaries.
