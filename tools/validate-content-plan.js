@@ -498,9 +498,19 @@ function validatePosts() {
     }
 
     const text = readText(relativePath);
+    const postLayout = normalizeYamlValue(frontMatter.layout);
+    const adsDisabled = /^\s*ads\s*:\s*false\s*$/m.test(text);
     const expectedCategory = expectedLang === "ko" ? "ko_" : "en_";
     if (!text.includes(`- ${expectedCategory}`)) {
       errors.push(`${relativePath}: category should include "${expectedCategory}..."`);
+    }
+
+    if (postLayout && postLayout !== "single") {
+      errors.push(`${relativePath}: post should use layout: single so AdSense, sharing, and SEO schema render`);
+    }
+
+    if (adsDisabled) {
+      errors.push(`${relativePath}: post should not disable ads; all posts should remain AdSense eligible`);
     }
 
     const tags = extractYamlList(frontMatterText, "tags");
@@ -532,7 +542,7 @@ function validatePosts() {
         errors.push(`${relativePath}: campaign post should use layout: single for post ads and SEO schema`);
       }
 
-      if (/^\s*ads\s*:\s*false\s*$/m.test(text)) {
+      if (adsDisabled) {
         errors.push(`${relativePath}: campaign post should not disable ads`);
       }
     }
@@ -718,7 +728,7 @@ function validatePosts() {
       );
     }
 
-    if (wordCount >= minWordsForAds && !/^\s*ads\s*:\s*false\s*$/m.test(text)) {
+    if (wordCount >= minWordsForAds && !adsDisabled) {
       adEligiblePosts.push(relativePath);
     }
   });
@@ -958,6 +968,8 @@ function validateAdsense() {
     ["_includes/ad-inarticle.html", adInArticle, "adsbygoogle"],
     ["_layouts/single.html", singleLayout, "{% include ad-content.html %}"],
     ["_layouts/single.html", singleLayout, "{% include social-share.html %}"],
+    ["_config.yml", config, "type: posts"],
+    ["_config.yml", config, "layout: single"],
     ["_config.yml", config, "share: true"],
     ["_includes/social-share.html", socialShare, "x.com/intent/tweet"],
     ["_includes/social-share.html", socialShare, "facebook.com/sharer/sharer.php"],
