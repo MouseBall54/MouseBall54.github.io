@@ -302,12 +302,16 @@ function validateSearchAndMonetizationFiles() {
   requireFile("ads.txt");
   requireFile("_config.yml");
   requireFile("Gemfile");
+  requireFile("_includes/head.html");
+  requireFile("_includes/seo.html");
   if (errors.length > 0) return;
 
   const robots = readText("robots.txt");
   const ads = readText("ads.txt");
   const config = readText("_config.yml");
   const gemfileLock = exists("Gemfile.lock") ? readText("Gemfile.lock") : "";
+  const head = readText("_includes/head.html");
+  const seo = readText("_includes/seo.html");
   const siteUrl = parseScalarConfigValue(config, "url");
   const adsenseClient = parseSectionScalarConfigValue(config, "adsense", "client");
   const publisherId = adsenseClient.replace(/^ca-/, "");
@@ -332,8 +336,24 @@ function validateSearchAndMonetizationFiles() {
     errors.push("_config.yml: missing jekyll-sitemap plugin");
   }
 
+  if (!config.includes("- jekyll-seo-tag")) {
+    errors.push("_config.yml: missing jekyll-seo-tag plugin");
+  }
+
   if (!gemfileLock.includes("jekyll-sitemap")) {
     errors.push("Gemfile.lock: missing jekyll-sitemap dependency");
+  }
+
+  if (!gemfileLock.includes("jekyll-seo-tag")) {
+    errors.push("Gemfile.lock: missing jekyll-seo-tag dependency");
+  }
+
+  if (!head.includes("{% include seo.html %}")) {
+    errors.push("_includes/head.html: missing seo.html include");
+  }
+
+  if (!seo.includes("page.seo_description")) {
+    errors.push("_includes/seo.html: seo_description front matter is not used for meta description");
   }
 
   if (!publisherId || !ads.includes(`google.com, ${publisherId}, DIRECT`)) {
