@@ -23,9 +23,27 @@ function exists(relativePath) {
   return fs.existsSync(path.join(root, relativePath));
 }
 
+function sitePathToRelativePath(sitePath) {
+  return sitePath.split("#")[0].split("?")[0].replace(/^\//, "");
+}
+
 function imageExists(sitePath) {
-  const cleanPath = sitePath.split("#")[0].split("?")[0].replace(/^\//, "");
-  return exists(cleanPath);
+  return exists(sitePathToRelativePath(sitePath));
+}
+
+function readPngDimensions(sitePath) {
+  const relativePath = sitePathToRelativePath(sitePath);
+  const buffer = fs.readFileSync(path.join(root, relativePath));
+  const pngSignature = "89504e470d0a1a0a";
+
+  if (buffer.length < 24 || buffer.subarray(0, 8).toString("hex") !== pngSignature) {
+    return null;
+  }
+
+  return {
+    width: buffer.readUInt32BE(16),
+    height: buffer.readUInt32BE(20),
+  };
 }
 
 function isCampaignPost(relativePath) {
@@ -327,7 +345,11 @@ function validatePosts() {
     const headerImagePaths = [...text.matchAll(/^\s*(?:teaser|overlay_image):\s*(\/images\/[^\s#]+)/gm)].map(
       (match) => match[1],
     );
-    const bodyImagePaths = [...text.matchAll(/!\[[^\]]*\]\((\/images\/[^)\s]+)\)/g)].map((match) => match[1]);
+    const bodyImageMatches = [...text.matchAll(/!\[([^\]]*)\]\((\/images\/[^)\s]+)\)/g)].map((match) => ({
+      alt: match[1].trim(),
+      path: match[2],
+    }));
+    const bodyImagePaths = bodyImageMatches.map((match) => match.path);
     const imagePaths = [...headerImagePaths, ...bodyImagePaths];
 
     if (imagePaths.length === 0) {
@@ -349,6 +371,28 @@ function validatePosts() {
       if (campaignBodyImagePaths.length === 0) {
         errors.push(`${relativePath}: campaign post must include a campaign-specific local body image`);
       }
+
+      const campaignBodyImageMatches = bodyImageMatches.filter((match) => match.path.startsWith("/images/2026-05-23-"));
+      campaignBodyImageMatches.forEach((match) => {
+        if (match.alt.length < 12) {
+          errors.push(`${relativePath}: campaign body image alt text is too short for ${match.path}`);
+        }
+      });
+
+      [...new Set([...campaignHeaderImagePaths, ...campaignBodyImagePaths])].forEach((imagePath) => {
+        if (!imageExists(imagePath)) return;
+        const dimensions = readPngDimensions(imagePath);
+        if (!dimensions) {
+          errors.push(`${relativePath}: campaign image should be a valid PNG: ${imagePath}`);
+          return;
+        }
+
+        if (dimensions.width < 1000 || dimensions.height < 500) {
+          errors.push(
+            `${relativePath}: campaign image is too small: ${imagePath} (${dimensions.width}x${dimensions.height})`,
+          );
+        }
+      });
 
       const internalLinks = [...text.matchAll(/\]\((\/(?:ko|en)_[^)#?\s]+(?:[?#][^)]*)?)\)/g)].map(
         (match) => match[1],
