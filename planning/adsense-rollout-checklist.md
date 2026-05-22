@@ -23,6 +23,17 @@ adsense:
   min_words_for_ads: 700
 ```
 
+With this default configuration, ad markup is wired into every post layout but no live ad is rendered yet.
+Ads start rendering only after `enabled: true` and both manual slot IDs are set.
+
+Automatic post eligibility:
+
+- The page must be a Jekyll post with `page.id`.
+- The page must not set `ads: false`.
+- The body must meet `adsense.min_words_for_ads`.
+- The first in-article unit is inserted after the first `h2`.
+- The bottom unit is inserted after the post content.
+
 ## Activation Steps
 
 1. Create a responsive in-article ad unit in AdSense.
@@ -32,8 +43,18 @@ adsense:
 5. Keep `adsense.auto_ads: false` for the first rollout unless testing Auto ads intentionally.
 6. Set `adsense.enabled: true`.
 7. Run `npm run validate:content-plan`.
-8. Run `bundle exec jekyll build --trace` when Ruby/Bundler is available.
-9. Inspect at least five representative posts on desktop and mobile.
+8. Confirm the validator does not report empty ad slot errors.
+9. Run `bundle exec jekyll build --trace` when Ruby/Bundler is available.
+10. Inspect at least five representative posts on desktop and mobile.
+
+Expected inactive-mode validator warning:
+
+```text
+WARN AdSense is disabled or slot IDs are empty; ads will not render on posts until enabled and slots are configured
+```
+
+This warning is acceptable before AdSense slots are created.
+After activation, the warning should disappear.
 
 ## Page-Level Controls
 
@@ -96,4 +117,3 @@ Review after 7, 14, and 30 days:
 - Top pages with revenue but poor engagement
 
 Change only one ad variable at a time, then wait at least seven days before judging the result.
-

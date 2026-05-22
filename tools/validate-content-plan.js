@@ -9,6 +9,7 @@ const postIdsByLang = {
   ko: new Set(),
   en: new Set(),
 };
+const adEligiblePosts = [];
 
 function readText(relativePath) {
   return fs.readFileSync(path.join(root, relativePath), "utf8");
@@ -56,6 +57,15 @@ function parseFrontMatter(relativePath) {
 function normalizeYamlValue(value) {
   if (!value) return "";
   return value.replace(/^["']|["']$/g, "").trim();
+}
+
+function parseScalarConfigValue(text, key) {
+  const match = text.match(new RegExp(`^\\s*${key}\\s*:\\s*(.*)$`, "m"));
+  return match ? normalizeYamlValue(match[1]) : "";
+}
+
+function isConfigEnabled(value) {
+  return normalizeYamlValue(value).toLowerCase() === "true";
 }
 
 function requireFile(relativePath) {
@@ -211,6 +221,12 @@ function validatePosts() {
     if (!("seo_description" in frontMatter)) {
       warnings.push(`${relativePath}: missing seo_description; excerpt fallback may be used`);
     }
+
+    const content = text.split(/^---\s*$/m).slice(2).join("---");
+    const wordCount = content.replace(/<[^>]*>/g, " ").trim().split(/\s+/).filter(Boolean).length;
+    if (wordCount >= 700 && !/^\s*ads\s*:\s*false\s*$/m.test(text)) {
+      adEligiblePosts.push(relativePath);
+    }
   });
 
   for (const [translationId, relativePath] of postsByLang.en) {
@@ -252,6 +268,10 @@ function validateAdsense() {
   const adContent = readText("_includes/ad-content.html");
   const adInArticle = readText("_includes/ad-inarticle.html");
   const singleLayout = readText("_layouts/single.html");
+  const adsenseEnabled = isConfigEnabled(parseScalarConfigValue(config, "enabled"));
+  const inArticleSlot = parseScalarConfigValue(config, "in_article_slot");
+  const postBottomSlot = parseScalarConfigValue(config, "post_bottom_slot");
+  const minWordsForAds = Number(parseScalarConfigValue(config, "min_words_for_ads") || "700");
 
   const publisherMatch = adsText.match(/google\.com,\s*(pub-\d+),\s*DIRECT/);
   const clientMatch = config.match(/client\s*:\s*["']ca-(pub-\d+)["']/);
@@ -266,6 +286,26 @@ function validateAdsense() {
 
   if (publisherMatch && clientMatch && publisherMatch[1] !== clientMatch[1]) {
     errors.push(`AdSense publisher mismatch: ads.txt=${publisherMatch[1]}, _config.yml=ca-${clientMatch[1]}`);
+  }
+
+  if (Number.isNaN(minWordsForAds) || minWordsForAds < 300) {
+    errors.push("_config.yml adsense.min_words_for_ads should be a number >= 300");
+  }
+
+  if (adsenseEnabled) {
+    if (!inArticleSlot) {
+      errors.push("AdSense is enabled but adsense.in_article_slot is empty");
+    }
+
+    if (!postBottomSlot) {
+      errors.push("AdSense is enabled but adsense.post_bottom_slot is empty");
+    }
+  } else if (!inArticleSlot || !postBottomSlot) {
+    warnings.push("AdSense is disabled or slot IDs are empty; ads will not render on posts until enabled and slots are configured");
+  }
+
+  if (adEligiblePosts.length === 0) {
+    warnings.push("No posts currently meet the automatic ad eligibility threshold");
   }
 
   [
