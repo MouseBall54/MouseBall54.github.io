@@ -34,6 +34,9 @@ Interest rates, inflation, trade, travel, investment flows, risk sentiment, cent
 
 ![무역, 여행, 금리, market balance icon으로 표현한 두 통화권 사이 exchange rate flow](/images/2026-05-23-exchange-rate-basics/exchange-rate-hero.png)
 
+
+이 글은 교육용 설명이며 투자 권유나 개인 재무 조언이 아닙니다.
+실제 의사결정에는 소득, 부채, 세금, 거주 국가, 위험 감수 성향을 함께 봐야 합니다.
 이미지는 기본 원리를 보여줍니다.
 통화는 trade, travel, investment, borrowing, savings를 통해 경제 사이를 이동합니다.
 환율은 그 흐름과 미래에 대한 기대를 반영합니다.

@@ -373,6 +373,14 @@ function validatePosts() {
           errors.push(`${relativePath}: Easy Labeling campaign post must include the Easy Labeling sample screen`);
         }
       }
+
+      if (category.includes("Economy")) {
+        const hasEnglishDisclaimer = /not investment advice|not financial advice|personal financial advice/i.test(text);
+        const hasKoreanDisclaimer = /(투자 권유|투자 조언|재무 조언|금융 조언)/.test(text);
+        if (!hasEnglishDisclaimer && !hasKoreanDisclaimer) {
+          errors.push(`${relativePath}: Economy campaign post must include an educational/non-advice disclaimer`);
+        }
+      }
     }
 
     imagePaths.forEach((imagePath) => {

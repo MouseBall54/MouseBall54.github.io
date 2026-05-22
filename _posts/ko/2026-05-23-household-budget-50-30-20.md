@@ -42,6 +42,9 @@ Rent, healthcare, debt, family support, local cost of living 때문에 현실과
 
 ![Needs, wants, savings container로 나뉜 50/30/20 budget split 이미지](/images/2026-05-23-household-budget-50-30-20/budget-50-30-20-hero.png)
 
+
+이 글은 교육용 설명이며 투자 권유나 개인 재무 조언이 아닙니다.
+실제 의사결정에는 소득, 부채, 세금, 거주 국가, 위험 감수 성향을 함께 봐야 합니다.
 이미지는 소득이 세 가지 container로 나뉘는 구조를 보여줍니다.
 핵심은 visibility입니다.
 돈이 필수 지출, 생활 선택, 미래 안정성 중 어디로 가는지 알아야 합니다.

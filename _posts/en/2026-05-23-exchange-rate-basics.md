@@ -34,6 +34,9 @@ Interest rates, inflation, trade, travel, investment flows, risk sentiment, and 
 
 ![Exchange rate flow between two currency zones with trade, travel, interest rates, and market balance icons](/images/2026-05-23-exchange-rate-basics/exchange-rate-hero.png)
 
+
+This article is educational and not investment advice or personal financial advice.
+Real decisions should account for income, debt, taxes, country, and risk tolerance.
 The image shows the basic idea.
 Currencies move between economies through trade, travel, investment, borrowing, and savings.
 Exchange rates reflect those flows and expectations about the future.

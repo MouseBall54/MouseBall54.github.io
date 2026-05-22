@@ -41,6 +41,9 @@ If rent, healthcare, debt, family support, or local cost of living makes the spl
 
 ![50/30/20 budget split with needs, wants, and savings containers](/images/2026-05-23-household-budget-50-30-20/budget-50-30-20-hero.png)
 
+
+This article is educational and not investment advice or personal financial advice.
+Real decisions should account for income, debt, taxes, country, and risk tolerance.
 The image shows income being separated into three practical containers.
 The point is visibility.
 You need to know whether money is going to required expenses, lifestyle choices, or future stability.
