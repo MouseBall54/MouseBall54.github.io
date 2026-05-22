@@ -260,6 +260,12 @@ Related posts:
 - [AI Agent Workflow 2026](/en_AI_Trends/ai-agent-workflow-2026/)
 - [Spaced Repetition Schedule](/en_Study/spaced-repetition-schedule/)
 
+## Related Reading
+
+- [OpenAI Responses API Guide](/en_AI_Trends/openai-responses-api-guide/)
+- [AI Search Optimization](/en_AI_Trends/ai-search-optimization/)
+- [RAG Evaluation Checklist](/en_AI_Trends/rag-evaluation-checklist/)
+
 ## FAQ
 
 ### When should I use this guide?

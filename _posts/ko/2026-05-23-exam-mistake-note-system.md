@@ -167,6 +167,12 @@ Next review: Day 2
 - 해결된 실수를 active list에 계속 둡니다.
 - 시험 직전에야 system을 만들기 시작합니다.
 
+## 함께 보면 좋은 글
+
+- [Active Recall 공부법](/ko_Study/active-recall-study-method/)
+- [Spaced Repetition 복습 일정 만들기](/ko_Study/spaced-repetition-schedule/)
+- [주간 공부 리뷰 루틴](/ko_Study/weekly-study-review/)
+
 ## 자주 묻는 질문
 
 ### 이 글은 언제 먼저 적용하면 좋나요?

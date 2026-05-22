@@ -241,6 +241,12 @@ If you are building agents, connect this with the broader workflow design:
 - [Active Recall Study Method](/en_Study/active-recall-study-method/)
 - [How to Fix GitHub Actions Build Failed](/en_Troubleshooting/github-actions-build-failed/)
 
+## Related Reading
+
+- [AI Tool Calling vs Function Calling](/en_AI_Trends/ai-tools-function-calling/)
+- [Prompt Engineering Checklist](/en_AI_Trends/prompt-engineering-checklist/)
+- [AI Agent Workflow 2026](/en_AI_Trends/ai-agent-workflow-2026/)
+
 ## FAQ
 
 ### When should I use this guide?

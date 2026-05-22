@@ -227,10 +227,6 @@ Real failure cases.
 ## How to Verify
 Commands, checklist, or decision test.
 
-## Related Reading
-Internal links and primary sources.
-```
-
 This structure is not magic.
 It simply reduces friction for readers and for systems that need to understand the page.
 

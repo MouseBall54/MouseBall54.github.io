@@ -194,6 +194,12 @@ Card 자체를 고칩니다.
 - 유지하기 어려울 정도로 엄격한 schedule을 씁니다.
 - 실제 시험 성과가 좋아지는지 확인하지 않습니다.
 
+## 함께 보면 좋은 글
+
+- [Active Recall 공부법](/ko_Study/active-recall-study-method/)
+- [오답노트 시스템 만드는 법](/ko_Study/exam-mistake-note-system/)
+- [주간 공부 리뷰 루틴](/ko_Study/weekly-study-review/)
+
 ## 자주 묻는 질문
 
 ### 이 글은 언제 먼저 적용하면 좋나요?

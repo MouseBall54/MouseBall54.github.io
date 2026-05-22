@@ -167,6 +167,12 @@ Related technical posts:
 - Keeping solved mistakes in the active list.
 - Waiting until exam week to build the system.
 
+## Related Reading
+
+- [Active Recall Study Method](/en_Study/active-recall-study-method/)
+- [Spaced Repetition Schedule](/en_Study/spaced-repetition-schedule/)
+- [Weekly Study Review](/en_Study/weekly-study-review/)
+
 ## FAQ
 
 ### When should I use this guide?

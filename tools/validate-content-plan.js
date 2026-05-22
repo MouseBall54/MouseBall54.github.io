@@ -500,6 +500,24 @@ function validatePosts() {
         }
       }
 
+      const relatedHeadingPattern =
+        expectedLang === "ko"
+          ? /^##\s+(함께 보면 좋은 글|관련 글)\s*$/m
+          : /^##\s+(Related Reading|Related Posts|Related Articles)\s*$/m;
+      const relatedHeadingMatch = text.match(relatedHeadingPattern);
+      if (!relatedHeadingMatch) {
+        errors.push(`${relativePath}: campaign post must include a related reading section`);
+      } else {
+        const relatedStart = relatedHeadingMatch.index + relatedHeadingMatch[0].length;
+        const remainingText = text.slice(relatedStart);
+        const nextHeadingMatch = remainingText.match(/\n##\s+/);
+        const relatedText = nextHeadingMatch ? remainingText.slice(0, nextHeadingMatch.index) : remainingText;
+        const relatedLinkCount = [...relatedText.matchAll(/\]\(\/(?:ko|en)_[^)#?\s]+\/\)/g)].length;
+        if (relatedLinkCount < 2) {
+          errors.push(`${relativePath}: campaign related reading section should include at least two internal links`);
+        }
+      }
+
       const campaignHeaderImagePaths = headerImagePaths.filter((imagePath) => imagePath.startsWith("/images/2026-05-23-"));
       const campaignBodyImagePaths = bodyImagePaths.filter((imagePath) => imagePath.startsWith("/images/2026-05-23-"));
 

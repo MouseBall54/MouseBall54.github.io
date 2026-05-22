@@ -196,6 +196,12 @@ Related guide:
 - Using a schedule that is too strict to maintain.
 - Never checking whether the system improves real test performance.
 
+## Related Reading
+
+- [Active Recall Study Method](/en_Study/active-recall-study-method/)
+- [Exam Mistake Note System](/en_Study/exam-mistake-note-system/)
+- [Weekly Study Review](/en_Study/weekly-study-review/)
+
 ## FAQ
 
 ### When should I use this guide?

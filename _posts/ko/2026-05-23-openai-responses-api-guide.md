@@ -240,6 +240,12 @@ Agent workflow를 만든다면 아래 글과 함께 보는 것이 좋습니다.
 - [Active recall 공부법](/ko_Study/active-recall-study-method/)
 - [GitHub Actions build failed 해결 방법](/ko_Troubleshooting/github-actions-build-failed/)
 
+## 함께 보면 좋은 글
+
+- [AI tool calling과 function calling 차이](/ko_AI_Trends/ai-tools-function-calling/)
+- [Prompt engineering 체크리스트](/ko_AI_Trends/prompt-engineering-checklist/)
+- [AI agent workflow 2026](/ko_AI_Trends/ai-agent-workflow-2026/)
+
 ## 자주 묻는 질문
 
 ### 이 글은 언제 먼저 적용하면 좋나요?

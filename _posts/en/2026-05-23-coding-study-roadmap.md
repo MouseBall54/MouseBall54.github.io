@@ -144,6 +144,12 @@ A small finished project beats a large unfinished one.
 - Not writing README files.
 - Measuring progress only by course hours.
 
+## Related Reading
+
+- [Active Recall Study Method](/en_Study/active-recall-study-method/)
+- [Pomodoro and Deep Work](/en_Study/pomodoro-deep-work/)
+- [Notion Study Dashboard](/en_Study/notion-study-dashboard/)
+
 ## FAQ
 
 ### When should I use this guide?

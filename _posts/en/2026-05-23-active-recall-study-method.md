@@ -296,6 +296,12 @@ Useful signals:
 
 If your study time is high but your output is low, add more retrieval and reduce passive rereading.
 
+## Related Reading
+
+- [Spaced Repetition Schedule](/en_Study/spaced-repetition-schedule/)
+- [Exam Mistake Note System](/en_Study/exam-mistake-note-system/)
+- [Weekly Study Review](/en_Study/weekly-study-review/)
+
 ## FAQ
 
 ### When should I use this guide?

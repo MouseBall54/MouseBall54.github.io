@@ -144,6 +144,12 @@ tags:
 - README를 쓰지 않습니다.
 - 공부 시간을 course hour로만 측정합니다.
 
+## 함께 보면 좋은 글
+
+- [Active Recall 공부법](/ko_Study/active-recall-study-method/)
+- [Pomodoro와 Deep Work](/ko_Study/pomodoro-deep-work/)
+- [Notion 공부 대시보드 구성](/ko_Study/notion-study-dashboard/)
+
 ## 자주 묻는 질문
 
 ### 이 글은 언제 먼저 적용하면 좋나요?

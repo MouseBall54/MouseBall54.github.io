@@ -296,6 +296,12 @@ One thing I can now do:
 
 공부 시간은 긴데 output이 약하다면 passive rereading을 줄이고 retrieval을 늘려야 합니다.
 
+## 함께 보면 좋은 글
+
+- [Spaced Repetition 복습 일정 만들기](/ko_Study/spaced-repetition-schedule/)
+- [오답노트 시스템 만드는 법](/ko_Study/exam-mistake-note-system/)
+- [주간 공부 리뷰 루틴](/ko_Study/weekly-study-review/)
+
 ## 자주 묻는 질문
 
 ### 이 글은 언제 먼저 적용하면 좋나요?
