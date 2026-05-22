@@ -19,6 +19,15 @@ sidebar-category:
       - title: "🔍Troubleshooting"
         url: /ko_Troubleshooting/
         category: "ko_Troubleshooting"
+      - title: "🤖AI Trends"
+        url: /ko_AI_Trends/
+        category: "ko_AI_Trends"
+      - title: "📚Study"
+        url: /ko_Study/
+        category: "ko_Study"
+      - title: "📈Economy"
+        url: /ko_Economy/
+        category: "ko_Economy"
 
   - title: "🇬🇧 English"
     children:
@@ -28,3 +37,12 @@ sidebar-category:
       - title: "🔍Troubleshooting"
         url: /en_Troubleshooting/
         category: "en_Troubleshooting"
+      - title: "🤖AI Trends"
+        url: /en_AI_Trends/
+        category: "en_AI_Trends"
+      - title: "📚Study"
+        url: /en_Study/
+        category: "en_Study"
+      - title: "📈Economy"
+        url: /en_Economy/
+        category: "en_Economy"

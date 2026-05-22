@@ -19,6 +19,11 @@ function exists(relativePath) {
   return fs.existsSync(path.join(root, relativePath));
 }
 
+function imageExists(sitePath) {
+  const cleanPath = sitePath.split("#")[0].split("?")[0].replace(/^\//, "");
+  return exists(cleanPath);
+}
+
 function listMarkdownFiles(relativeDir) {
   const dir = path.join(root, relativeDir);
   return fs
@@ -79,6 +84,7 @@ function validatePlanningDocs() {
     "planning/weekly-100k-traffic-master-plan.md",
     "planning/p0-content-queue.md",
     "planning/p0-content-briefs.md",
+    "planning/100-post-multidomain-queue.md",
     "planning/post-production-template.md",
   ];
 
@@ -93,6 +99,7 @@ function validatePlanningDocs() {
     "측정 지표",
     "planning/p0-content-queue.md",
     "planning/p0-content-briefs.md",
+    "planning/100-post-multidomain-queue.md",
     "planning/post-production-template.md",
   ];
 
@@ -159,6 +166,21 @@ function validatePlanningDocs() {
       errors.push(`Post template is missing required section or field: ${term}`);
     }
   });
+
+  const multidomainQueue = readText("planning/100-post-multidomain-queue.md");
+  const multidomainRows = multidomainQueue
+    .split(/\r?\n/)
+    .filter((line) => /^\| (todo|draft|review|published|refresh) \|/.test(line));
+
+  if (multidomainRows.length < 50) {
+    errors.push(`100 post multidomain queue should contain at least 50 topic rows, found ${multidomainRows.length}`);
+  }
+
+  ["AI Trends", "Study", "Economy", "Image Checklist", "AdSense Checklist"].forEach((term) => {
+    if (!multidomainQueue.includes(term)) {
+      errors.push(`100 post multidomain queue is missing required term: ${term}`);
+    }
+  });
 }
 
 function validatePosts() {
@@ -221,6 +243,21 @@ function validatePosts() {
     if (!("seo_description" in frontMatter)) {
       warnings.push(`${relativePath}: missing seo_description; excerpt fallback may be used`);
     }
+
+    const imagePaths = [
+      ...text.matchAll(/^\s*(?:teaser|overlay_image):\s*(\/images\/[^\s#]+)/gm),
+      ...text.matchAll(/!\[[^\]]*\]\((\/images\/[^)\s]+)\)/g),
+    ].map((match) => match[1]);
+
+    if (imagePaths.length === 0) {
+      warnings.push(`${relativePath}: no local image path found; every new post should include a meaningful image`);
+    }
+
+    imagePaths.forEach((imagePath) => {
+      if (!imageExists(imagePath)) {
+        errors.push(`${relativePath}: referenced image does not exist: ${imagePath}`);
+      }
+    });
 
     const content = text.split(/^---\s*$/m).slice(2).join("---");
     const wordCount = content.replace(/<[^>]*>/g, " ").trim().split(/\s+/).filter(Boolean).length;

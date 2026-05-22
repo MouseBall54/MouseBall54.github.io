@@ -1,11 +1,12 @@
 # MouseBall54's Toolbox 주간 10만 조회 성장 마스터플랜
 
 작성일: 2026-05-23  
-목표: 주간 조회 수 100,000회 이상, 검색 유입 기반의 안정적 성장, Google AdSense 수익화 준비
+목표: 주간 조회 수 100,000회 이상, 검색 유입 기반의 안정적 성장, Google AdSense 수익화 준비, 약 100개 신규 포스트 생산 체계 구축
 
 ## 1. 목표와 기준
 
-주간 100,000 조회는 하루 평균 약 14,300 조회다. 이 사이트는 단일 대형 글보다 개발자가 검색창에 그대로 입력하는 오류 메시지, 명령어, 도구 비교, 설정 문제를 폭넓게 잡는 구조가 적합하다.
+주간 100,000 조회는 하루 평균 약 14,300 조회다. 이 사이트는 단일 대형 글보다 검색 의도가 분명한 글을 폭넓게 누적하는 구조가 적합하다.
+초기 강점은 개발 트러블슈팅이지만, 앞으로는 스터디, 경제 기초, AI 동향, AI 업무 자동화, 컴퓨터 비전 글까지 확장한다.
 
 현실적인 목표 모델은 다음과 같다.
 
@@ -18,8 +19,9 @@
 핵심 전제:
 
 - 대량 생산보다, 검색 의도가 분명한 글을 꾸준히 누적한다.
-- 한국어와 영어 글을 항상 함께 작성한다.
+- 한국어와 영어 글을 항상 함께 작성한다. 약 100개 포스트 목표는 50개 주제 쌍, 즉 한국어 50개와 영어 50개로 관리한다.
 - AI로 초안을 만들 수는 있지만, 실행 결과, 버전 차이, 실패 사례, 검증 절차를 사람이 보강한다.
+- 글마다 이해를 돕는 이미지를 새로 만들거나 직접 캡처하고, header와 본문 초반에 의미 있게 배치한다.
 - 광고는 본문 탐색을 방해하지 않는 선에서 표준화한다.
 
 ## 2. 현재 저장소 기준 콘텐츠 현황
@@ -37,9 +39,10 @@
 추가 기술 메모:
 
 - `ads.txt`에는 AdSense publisher 항목이 있다.
-- `_includes/after-content.html`은 비어 있어 본문 하단 광고 또는 관련 CTA를 넣을 여지가 있다.
-- `_includes/head/custom.html`도 비어 있어 AdSense script를 넣을 위치가 있다.
-- 샘플로 확인한 일부 최근 글은 front matter처럼 보이는 값이 첫 줄부터 시작하고, opening `---`가 보이지 않는다. 새 글 작성 전 `bundle exec jekyll build --trace`와 실제 생성 HTML 확인을 품질 게이트에 포함해야 한다.
+- `_includes/head/custom.html`에는 AdSense script가 추가되어 있다.
+- `_includes/ad-content.html`과 `_includes/ad-inarticle.html`로 포스트 본문 광고 위치를 제어한다.
+- `_config.yml`의 `adsense.enabled`가 `false`이면 광고 markup은 준비되어도 live ad는 렌더링되지 않는다.
+- 신규 대량 작성 중에는 시간이 오래 걸리는 `bundle exec jekyll build --trace`를 생략하고, `npm run validate:content-plan`을 우선 품질 게이트로 사용한다.
 
 ## 3. 시장 근거
 
@@ -72,6 +75,8 @@
 | 개발 환경 문제 | 초보자와 실무자 모두 검색 | VS Code, WSL, Docker, Windows PATH, PowerShell, Homebrew |
 | AI 개발 워크플로우 | 2025-2026 수요 확장 | OpenAI API, RAG, LangChain, Ollama, vector database, Pydantic AI |
 | Easy Labeling | 대표 도구 브랜딩과 제품 유입 | YOLO labeling tool, image annotation, local labeling, custom-classes.yaml |
+| 스터디와 생산성 | 반복 검색되는 학습법/템플릿 수요 | active recall, spaced repetition, Pomodoro, mistake note, study planner |
+| 경제 기초 | evergreen 금융 문해력 유입 | interest rate, inflation, exchange rate, ETF, compound interest, budget |
 
 ## 5. 키워드 마스터 리스트
 
@@ -171,7 +176,7 @@
 
 ### Phase 0: 기반 정리, 1주
 
-- `bundle exec jekyll build --trace`로 현재 build 상태 확인
+- 대량 작성 중에는 `bundle exec jekyll build --trace`를 생략하고, 필요 시 별도 검증 작업으로 분리
 - 최근 글 front matter 유효성 점검
 - Search Console sitemap 제출 상태 확인
 - GA4, Search Console, AdSense의 동일 URL 기준 추적표 작성
@@ -181,14 +186,14 @@
 
 목표:
 
-- P0 글 40쌍 작성: 한국어 40개, 영어 40개
-- Python, JavaScript/TypeScript, Git/GitHub, Java/Spring Boot에서 각 10쌍
+- 1차 목표 큐 50쌍 작성: 한국어 50개, 영어 50개, 총 100개 포스트
+- Troubleshooting 20쌍, AI trends/workflow 10쌍, Study 8쌍, Economy 7쌍, Easy Labeling/Computer Vision 5쌍
 - 모든 글에 `How to verify`와 `Common mistakes` 포함
 
 운영 기준:
 
 - 하루 2쌍 이하로 발행한다.
-- 작성한 글은 최소 한 번 로컬 build로 확인한다.
+- 작성한 글은 `npm run validate:content-plan`으로 front matter, paired translation, AdSense 기본 조건을 확인한다.
 - 기존 글에서 같은 주제의 내부 링크 2개 이상을 추가한다.
 
 ### Phase 2: 클러스터 강화, 8주
@@ -221,7 +226,8 @@
 
 ## 7. 글 작성 표준
 
-모든 트러블슈팅 글은 다음 구조를 따른다.
+모든 글은 검색자가 첫 화면에서 답을 얻고, 이어서 자세한 맥락을 확인할 수 있어야 한다.
+트러블슈팅 글은 다음 구조를 따른다.
 
 1. 문제 요약: 오류 메시지와 재현 상황을 첫 3문장 안에 넣는다.
 2. 원인: 버전, 경로, 권한, dependency, network, config 중 어디에 속하는지 설명한다.
@@ -231,6 +237,15 @@
 6. 흔한 실수: 같은 오류를 다시 만들 수 있는 실수를 정리한다.
 7. 관련 글: 같은 category 안에서 2-4개 링크한다.
 
+스터디, 경제, AI 동향 글은 다음 구조를 따른다.
+
+1. 핵심 요약: 검색자가 묻는 질문에 먼저 답한다.
+2. 개념 설명: 용어를 짧게 정의하고 오해하기 쉬운 부분을 분리한다.
+3. 실제 적용: 체크리스트, 예시, 템플릿, 숫자 계산, workflow 중 하나를 제공한다.
+4. 이미지 설명: 생성 이미지나 도표가 무엇을 보여주는지 alt text와 본문으로 설명한다.
+5. 검증 또는 주의점: AI/경제/정책처럼 바뀌는 내용은 확인일과 공식 출처를 남긴다.
+6. 관련 글: 같은 category 안에서 2-4개 링크한다.
+
 품질 기준:
 
 - 제목에는 실제 검색어를 포함한다.
@@ -239,6 +254,7 @@
 - 명령어는 Windows, macOS/Linux 차이가 있으면 분리한다.
 - 버전 의존적인 내용은 작성일 또는 확인 버전을 적는다.
 - 자동 생성 문장처럼 보이는 결론은 쓰지 않는다.
+- 이미지에는 의미 있는 alt text를 넣고, 생성 이미지에 들어간 작은 글자는 신뢰하지 않는다.
 
 ## 8. 내부 링크 전략
 
@@ -260,16 +276,17 @@
 현재 상태:
 
 - `ads.txt`는 존재한다.
-- 본문 광고 include는 아직 없다.
-- head custom include가 비어 있어 AdSense script를 넣을 수 있다.
+- `_includes/head/custom.html`에 AdSense script가 있다.
+- `_includes/ad-content.html`과 `_includes/ad-inarticle.html`이 있다.
+- `_config.yml`에서 `adsense.enabled`, `in_article_slot`, `post_bottom_slot`, `min_words_for_ads`로 렌더링을 제어한다.
 
 권장 구현:
 
-1. `_includes/head/custom.html`에 AdSense script를 넣는다.
-2. `_includes/ad-inarticle.html`을 새로 만들고, responsive in-article unit을 사용한다.
-3. `_layouts/single.html` 또는 안전한 include 지점에 광고 위치를 넣는다.
-4. 글 길이에 따라 광고 수를 제한한다.
-5. 검색, 태그, 카테고리, 짧은 static page에는 광고를 넣지 않거나 Auto ads excluded pages로 관리한다.
+1. AdSense에서 manual ad unit을 만든 뒤 `in_article_slot`과 `post_bottom_slot`을 설정한다.
+2. 설정이 끝나면 `adsense.enabled: true`로 live ads를 켠다.
+3. 글 길이에 따라 광고 수를 제한한다.
+4. 검색, 태그, 카테고리, 짧은 static page에는 광고를 넣지 않거나 Auto ads excluded pages로 관리한다.
+5. 이미지와 광고가 연속으로 붙어 콘텐츠 흐름을 끊지 않게 한다.
 
 초기 배치:
 
@@ -321,6 +338,8 @@ Auto ads 운영:
 콘텐츠:
 
 - [x] P0 40쌍 작성 후보를 이 문서에서 issue 또는 작업 목록으로 분리: `planning/p0-content-queue.md`
+- [x] 약 100개 포스트 확장 큐 작성: `planning/100-post-multidomain-queue.md`
+- [x] Study, Economy, AI Trends category page와 sidebar navigation 추가
 - [x] 신규 글 작성 템플릿과 품질 체크리스트 작성: `planning/post-production-template.md`
 - [x] 첫 번째 작성 스프린트용 P0 브리프 10개 작성: `planning/p0-content-briefs.md`
 - [x] P0 브리프 기반 첫 포스트 쌍 작성: `python-pip-install-failed`
@@ -335,13 +354,34 @@ Auto ads 운영:
 - [x] P0 브리프 기반 열 번째 포스트 쌍 작성: `typescript-tsconfig-paths-not-working`
 - [x] Git/GitHub P0 포스트 쌍 작성: `github-actions-build-failed`
 - [x] Git/GitHub P0 포스트 쌍 작성: `github-pages-jekyll-build-failed`
+- [x] AI Trends 이미지 포함 포스트 쌍 작성: `ai-agent-workflow-2026`
+- [x] AI Trends 이미지 포함 포스트 쌍 작성: `openai-responses-api-guide`
+- [x] AI Trends 이미지 포함 포스트 쌍 작성: `ai-tools-function-calling`
+- [x] AI Trends 이미지 포함 포스트 쌍 작성: `rag-evaluation-checklist`
+- [x] AI Trends 이미지 포함 포스트 쌍 작성: `local-llm-vs-cloud-llm`
+- [x] AI Trends 이미지 포함 포스트 쌍 작성: `prompt-engineering-checklist`
+- [x] AI Trends 이미지 포함 포스트 쌍 작성: `ai-coding-agent-workflow`
+- [x] Study 이미지 포함 포스트 쌍 작성: `active-recall-study-method`
+- [x] Study 이미지 포함 포스트 쌍 작성: `spaced-repetition-schedule`
+- [x] Study 이미지 포함 포스트 쌍 작성: `pomodoro-deep-work`
+- [x] Study 이미지 포함 포스트 쌍 작성: `exam-mistake-note-system`
+- [x] Study 이미지 포함 포스트 쌍 작성: `coding-study-roadmap`
+- [x] Study 이미지 포함 포스트 쌍 작성: `english-vocabulary-system`
+- [x] Study 이미지 포함 포스트 쌍 작성: `weekly-study-review`
+- [x] Economy 이미지 포함 포스트 쌍 작성: `compound-interest-example`
+- [x] Economy 이미지 포함 포스트 쌍 작성: `etf-vs-mutual-fund`
+- [x] Economy 이미지 포함 포스트 쌍 작성: `household-budget-50-30-20`
+- [x] Economy 이미지 포함 포스트 쌍 작성: `emergency-fund-how-much`
+- [x] Economy 이미지 포함 포스트 쌍 작성: `interest-rate-inflation-basics`
+- [x] Economy 이미지 포함 포스트 쌍 작성: `exchange-rate-basics`
+- [x] Economy 이미지 포함 포스트 쌍 작성: `recession-indicators-basics`
 - [x] 각 글에 `lang`, `translation_id`, category, English tags 확인: `npm run validate:content-plan`
 - [ ] 신규 글마다 내부 링크 최소 2개 추가
 - [ ] Easy Labeling 글은 실제 화면과 launch link 포함
 
 기술:
 
-- [ ] 현재 build 오류 여부 확인
+- [ ] 현재 build 오류 여부 확인: 대량 작성 중에는 사용자 요청에 따라 생략
 - [x] 최근 글 front matter delimiter 점검 및 opening delimiter 누락 포스트 보정
 - [x] sitemap과 robots.txt 확인: `jekyll-sitemap` 설정 및 `robots.txt` 파일 존재 확인
 - [x] AdSense script include 추가: `_includes/head/custom.html`
@@ -359,8 +399,8 @@ Auto ads 운영:
 
 ## 12. 다음 작업 순서
 
-1. 현재 Jekyll build를 먼저 확인한다.
-2. front matter가 유효하지 않은 글이 있으면 새 글 작성 전에 수정 기준을 만든다.
-3. AdSense script와 in-article include를 작은 변경으로 추가한다.
-4. P0 키워드 중 5쌍을 먼저 작성해 품질 표준을 확정한다.
+1. `planning/100-post-multidomain-queue.md` 기준으로 50개 주제 쌍을 순차 작성한다.
+2. 각 주제마다 이미지 prompt, 저장 경로, alt text를 함께 관리한다.
+3. AdSense slot ID가 준비되면 `_config.yml`에 반영하고 `adsense.enabled: true`로 전환한다.
+4. 신규 글마다 `npm run validate:content-plan`을 실행한다.
 5. Search Console 데이터가 쌓이면 P0/P1 우선순위를 실제 query 기준으로 다시 정렬한다.
