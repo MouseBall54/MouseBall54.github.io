@@ -32,6 +32,11 @@ function isCampaignPost(relativePath) {
   return path.basename(relativePath).startsWith("2026-05-23-");
 }
 
+function normalizeInternalPostUrl(url) {
+  const cleanUrl = url.split("#")[0].split("?")[0];
+  return cleanUrl.endsWith("/") ? cleanUrl : `${cleanUrl}/`;
+}
+
 function listMarkdownFiles(relativeDir) {
   const dir = path.join(root, relativeDir);
   return fs
@@ -219,6 +224,7 @@ function validatePosts() {
     en: new Map(),
   };
   const outputUrls = new Map();
+  const campaignInternalLinksToCheck = [];
 
   const requiredFields = ["title", "lang", "translation_id", "header", "excerpt", "categories", "tags"];
 
@@ -298,10 +304,19 @@ function validatePosts() {
         errors.push(`${relativePath}: campaign post must include a campaign-specific local body image`);
       }
 
-      const internalLinks = [...text.matchAll(/\]\(\/(?:ko|en)_[^)]+\)/g)];
+      const internalLinks = [...text.matchAll(/\]\((\/(?:ko|en)_[^)#?\s]+(?:[?#][^)]*)?)\)/g)].map(
+        (match) => match[1],
+      );
       if (internalLinks.length < 2) {
         errors.push(`${relativePath}: campaign post should include at least two internal links`);
       }
+
+      internalLinks.forEach((url) => {
+        campaignInternalLinksToCheck.push({
+          source: relativePath,
+          target: normalizeInternalPostUrl(url),
+        });
+      });
 
       if (category.includes("easy_labeling")) {
         if (!text.includes("https://mouseball54.github.io/easy_labeling/")) {
@@ -350,6 +365,12 @@ function validatePosts() {
   if (campaignPairs.length < 50) {
     errors.push(`Campaign should contain at least 50 paired topic IDs, found ${campaignPairs.length}`);
   }
+
+  campaignInternalLinksToCheck.forEach(({ source, target }) => {
+    if (!outputUrls.has(target)) {
+      errors.push(`${source}: campaign internal link does not resolve to a known post URL: ${target}`);
+    }
+  });
 }
 
 function validateQueuePostState() {

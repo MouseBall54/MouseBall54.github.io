@@ -36,7 +36,7 @@ Beyond troubleshooting and our current software, we plan to expand this site int
 
 The current traffic and monetization roadmap is documented in [planning/weekly-100k-traffic-master-plan.md](planning/weekly-100k-traffic-master-plan.md).
 
-Run `npm run validate:content-plan` to check paired posts, planning files, and AdSense setup before publishing new content.
+Run `npm run validate:content-plan` to check paired posts, campaign images, internal links, planning files, and AdSense setup before publishing new content.
 
 ---
 
