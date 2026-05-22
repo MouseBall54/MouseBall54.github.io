@@ -1,17 +1,17 @@
 name: Documentation
-description: Found a typo or something that needs clarification?
+description: Report a typo, unclear post, missing translation, or documentation improvement.
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to open an issue and help make the docs better.
+        Use this for blog posts, Easy Labeling pages, translations, and site documentation.
 
   - type: textarea
     id: motivation
     attributes:
       label: Motivation
       description: |
-        Why should we update our docs?
+        What page or post should be improved, and why?
     validations:
       required: true
 
@@ -20,6 +20,6 @@ body:
     attributes:
       label: Suggestion
       description: |
-        What should we do instead?
+        What should change? Include the affected URL or file path if possible.
     validations:
       required: true

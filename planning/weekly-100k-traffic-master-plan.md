@@ -333,6 +333,8 @@ Auto ads 운영:
 - [x] P0 브리프 기반 여덟 번째 포스트 쌍 작성: `typescript-cannot-find-name`
 - [x] P0 브리프 기반 아홉 번째 포스트 쌍 작성: `typescript-property-does-not-exist`
 - [x] P0 브리프 기반 열 번째 포스트 쌍 작성: `typescript-tsconfig-paths-not-working`
+- [x] Git/GitHub P0 포스트 쌍 작성: `github-actions-build-failed`
+- [x] Git/GitHub P0 포스트 쌍 작성: `github-pages-jekyll-build-failed`
 - [x] 각 글에 `lang`, `translation_id`, category, English tags 확인: `npm run validate:content-plan`
 - [ ] 신규 글마다 내부 링크 최소 2개 추가
 - [ ] Easy Labeling 글은 실제 화면과 launch link 포함

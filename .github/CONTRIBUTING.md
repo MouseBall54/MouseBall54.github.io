@@ -1,23 +1,28 @@
 # Contributing
 
-Found a typo in the documentation or interested in [fixing a bug](https://github.com/mmistakes/minimal-mistakes/issues)? Then by all means [submit an issue](https://github.com/mmistakes/minimal-mistakes/issues/new) or [pull request](https://help.github.com/articles/using-pull-requests/). If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
+This repository powers MouseBall54's Toolbox, a Jekyll blog for developer troubleshooting guides and Easy Labeling documentation.
 
-For help with using the theme or general Jekyll support questions, please use the [Jekyll Talk forums](https://talk.jekyllrb.com/).
+Read `AGENTS.md` before making changes. Keep edits small, project-specific, and verified.
 
-Minimal Mistakes has been designed as a base for you to customize and fit your 
-site's unique needs. Please keep this in mind when requesting features and/or 
-submitting pull requests. If it's not something that most people will use, I 
-probably won't consider it. When in doubt ask.
+## Content Changes
 
-This goes for author sidebar links and "share button" additions -- I have no 
-intention of merging in every possibly option, the essentials are there to get 
-you started :smile:.
+- Add Korean and English posts together.
+- Use matching dates, slugs, and `translation_id` values.
+- Put Korean posts in `_posts/ko` and English posts in `_posts/en`.
+- Keep tags in English.
+- Store post images under `images/<post-slug>/` when practical.
+
+## Site Changes
+
+- Keep Minimal Mistakes customizations scoped to `_layouts`, `_includes`, `_sass`, `assets`, and `_data`.
+- Do not edit generated output in `_site`.
+- Do not commit `node_modules`, `.jekyll-cache`, `vendor/bundle`, or other local build artifacts.
 
 ## Pull Requests
 
-When submitting a pull request:
+Before opening a pull request:
 
-1. Clone the repo.
-2. Create a branch off of `master` and give it a meaningful name (e.g. 
-   `my-awesome-new-feature`) and describe the feature or fix.
-3. Open a pull request on GitHub.
+1. Run `bundle exec jekyll build --trace`.
+2. Check affected pages locally with `bundle exec jekyll serve`.
+3. Follow the content rules in `AGENTS.md`.
+4. Include screenshots for layout or visual changes.

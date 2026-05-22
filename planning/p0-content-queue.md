@@ -44,8 +44,8 @@ Status values:
 
 | Status | Translation ID | Primary keyword | Korean title direction | English title direction |
 | --- | --- | --- | --- | --- |
-| todo | github-actions-build-failed | GitHub Actions build failed | GitHub Actions build failed 해결 | How to Fix GitHub Actions Build Failed |
-| todo | github-pages-jekyll-build-failed | GitHub Pages Jekyll build failed | GitHub Pages Jekyll build 실패 | Fix GitHub Pages Jekyll Build Failed |
+| review | github-actions-build-failed | GitHub Actions build failed | GitHub Actions build failed 해결 | How to Fix GitHub Actions Build Failed |
+| review | github-pages-jekyll-build-failed | GitHub Pages Jekyll build failed | GitHub Pages Jekyll build 실패 | Fix GitHub Pages Jekyll Build Failed |
 | todo | git-fatal-authentication-failed | git fatal authentication failed | `fatal: authentication failed` 해결 | Fix Git fatal authentication failed |
 | todo | git-gh006-protected-branch | GH006 protected branch | `GH006 protected branch hook declined` 해결 | Fix GH006 Protected Branch Hook Declined |
 | todo | git-rebase-conflict | git rebase conflict | rebase conflict 안전하게 해결 | How to Resolve Git Rebase Conflicts |
