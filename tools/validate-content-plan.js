@@ -746,6 +746,54 @@ function validatePages() {
   });
 }
 
+function validateHomePage() {
+  requireFile("index.html");
+  if (!exists("index.html")) return;
+
+  const relativePath = "index.html";
+  const frontMatter = parseFrontMatter(relativePath);
+  if (!frontMatter) return;
+
+  siteUrls.set("/", relativePath);
+
+  const text = readText(relativePath);
+  const frontMatterText = readFrontMatterText(relativePath);
+  const seoDescription = extractYamlScalarOrBlock(frontMatterText, "seo_description");
+  if (seoDescription.length < 80 || seoDescription.length > 180) {
+    errors.push(`${relativePath}: homepage seo_description should be 80-180 characters, found ${seoDescription.length}`);
+  }
+
+  const content = text.split(/^---\s*$/m).slice(2).join("---");
+  const wordCount = content.replace(/<[^>]*>/g, " ").trim().split(/\s+/).filter(Boolean).length;
+  if (wordCount < 100) {
+    errors.push(`${relativePath}: homepage hub copy should contain at least 100 words, found ${wordCount}`);
+  }
+
+  [
+    "/en_Troubleshooting/",
+    "/ko_Troubleshooting/",
+    "/en_AI_Trends/",
+    "/ko_AI_Trends/",
+    "/en_Study/",
+    "/ko_Study/",
+    "/en_Economy/",
+    "/ko_Economy/",
+    "/en_easy_labeling/",
+    "/ko_easy_labeling/",
+    "/en_AI_Trends/ai-agent-workflow-2026/",
+    "/en_Study/active-recall-study-method/",
+    "/en_Economy/compound-interest-example/",
+    "/en_easy_labeling/local-image-labeling-workflow/",
+    "/en_Troubleshooting/github-actions-build-failed/",
+  ].forEach((url) => {
+    if (!text.includes(`](${url})`)) {
+      errors.push(`${relativePath}: homepage is missing required hub or starter link ${url}`);
+    }
+  });
+
+  collectInternalLinks(relativePath, text);
+}
+
 function validateInternalLinks() {
   internalLinksToCheck.forEach(({ source, target }) => {
     if (!siteUrls.has(target)) {
@@ -896,6 +944,7 @@ validatePlanningDocs();
 validateSearchAndMonetizationFiles();
 validatePosts();
 validatePages();
+validateHomePage();
 validateQueuePostState();
 validateCategoryNavigation();
 validateInternalLinks();
