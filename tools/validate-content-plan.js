@@ -152,7 +152,10 @@ function extractYamlScalarOrBlock(frontMatterText, key) {
 
 function normalizeYamlValue(value) {
   if (!value) return "";
-  return value.replace(/^["']|["']$/g, "").trim();
+  return value
+    .replace(/\s+#.*$/, "")
+    .replace(/^["']|["']$/g, "")
+    .trim();
 }
 
 function parseScalarConfigValue(text, key) {
@@ -292,6 +295,50 @@ function validatePlanningDocs() {
       errors.push(`100 post multidomain queue is missing required term: ${term}`);
     }
   });
+}
+
+function validateSearchAndMonetizationFiles() {
+  requireFile("robots.txt");
+  requireFile("ads.txt");
+  requireFile("_config.yml");
+  requireFile("Gemfile");
+  if (errors.length > 0) return;
+
+  const robots = readText("robots.txt");
+  const ads = readText("ads.txt");
+  const config = readText("_config.yml");
+  const gemfileLock = exists("Gemfile.lock") ? readText("Gemfile.lock") : "";
+  const siteUrl = parseScalarConfigValue(config, "url");
+  const adsenseClient = parseSectionScalarConfigValue(config, "adsense", "client");
+  const publisherId = adsenseClient.replace(/^ca-/, "");
+
+  if (siteUrl !== "https://mouseball54.github.io") {
+    errors.push(`_config.yml: expected url to be https://mouseball54.github.io, found ${siteUrl || "(empty)"}`);
+  }
+
+  if (!robots.includes("User-agent: *")) {
+    errors.push("robots.txt: missing User-agent: *");
+  }
+
+  if (!robots.includes("Allow: /")) {
+    errors.push("robots.txt: missing Allow: /");
+  }
+
+  if (!robots.includes(`${siteUrl}/sitemap.xml`)) {
+    errors.push(`robots.txt: missing sitemap URL ${siteUrl}/sitemap.xml`);
+  }
+
+  if (!config.includes("- jekyll-sitemap")) {
+    errors.push("_config.yml: missing jekyll-sitemap plugin");
+  }
+
+  if (!gemfileLock.includes("jekyll-sitemap")) {
+    errors.push("Gemfile.lock: missing jekyll-sitemap dependency");
+  }
+
+  if (!publisherId || !ads.includes(`google.com, ${publisherId}, DIRECT`)) {
+    errors.push("ads.txt: missing Google AdSense DIRECT publisher entry matching _config.yml");
+  }
 }
 
 function validatePosts() {
@@ -670,6 +717,7 @@ function validateAdsense() {
 }
 
 validatePlanningDocs();
+validateSearchAndMonetizationFiles();
 validatePosts();
 validatePages();
 validateQueuePostState();
