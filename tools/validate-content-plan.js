@@ -13,6 +13,7 @@ const campaignPostIdsByLang = {
   ko: new Set(),
   en: new Set(),
 };
+const postCategories = new Set();
 const adEligiblePosts = [];
 
 function readText(relativePath) {
@@ -334,6 +335,9 @@ function validatePosts() {
     const slug = path.basename(relativePath, ".md").replace(/^\d{4}-\d{2}-\d{2}-/, "");
     const categoryMatch = text.match(/categories:\s*\r?\n\s*-\s*([A-Za-z0-9_-]+)/);
     const category = categoryMatch ? categoryMatch[1] : "";
+    if (category) {
+      postCategories.add(category);
+    }
     const outputUrl = permalink || (category ? `/${category}/${slug}/` : "");
     if (outputUrl) {
       if (outputUrls.has(outputUrl)) {
@@ -471,6 +475,40 @@ function validatePosts() {
   });
 }
 
+function validateCategoryNavigation() {
+  requireFile("_data/navigation.yml");
+  if (errors.length > 0) return;
+
+  const navigation = readText("_data/navigation.yml");
+
+  [...postCategories].sort().forEach((category) => {
+    const pagePath = `_pages/category-${category}.md`;
+    requireFile(pagePath);
+    if (!exists(pagePath)) return;
+
+    const page = readText(pagePath);
+    [
+      [`permalink: /${category}/`, "permalink"],
+      'nav: "sidebar-category"',
+      `site.categories.${category}`,
+    ].forEach((term) => {
+      const text = Array.isArray(term) ? term[0] : term;
+      const label = Array.isArray(term) ? term[1] : term;
+      if (!page.includes(text)) {
+        errors.push(`${pagePath}: missing category archive ${label}`);
+      }
+    });
+
+    if (!navigation.includes(`url: /${category}/`)) {
+      errors.push(`_data/navigation.yml: missing sidebar URL for category ${category}`);
+    }
+
+    if (!navigation.includes(`category: "${category}"`)) {
+      errors.push(`_data/navigation.yml: missing sidebar category binding for ${category}`);
+    }
+  });
+}
+
 function validateQueuePostState() {
   for (const [translationId, status] of queueStatusById) {
     if (status === "review" || status === "published") {
@@ -559,6 +597,7 @@ function validateAdsense() {
 validatePlanningDocs();
 validatePosts();
 validateQueuePostState();
+validateCategoryNavigation();
 validateAdsense();
 
 warnings.slice(0, 20).forEach((warning) => {
