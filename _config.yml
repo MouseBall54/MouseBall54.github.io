@@ -104,7 +104,7 @@ adsense:
   auto_ads               : true
   in_article_slot        :
   post_bottom_slot       :
-  min_words_for_ads      : 700
+  min_words_for_ads      : 500
 
 
 # Site Author

@@ -402,6 +402,8 @@ function validateSearchAndMonetizationFiles() {
 function validatePosts() {
   const koFiles = listMarkdownFiles("_posts/ko");
   const enFiles = listMarkdownFiles("_posts/en");
+  const config = exists("_config.yml") ? readText("_config.yml") : "";
+  const minWordsForAds = Number(parseSectionScalarConfigValue(config, "adsense", "min_words_for_ads") || "700");
   const postsByLang = {
     ko: new Map(),
     en: new Map(),
@@ -469,6 +471,14 @@ function validatePosts() {
     postIdsByLang[expectedLang].add(translationId);
     if (campaignPost) {
       campaignPostIdsByLang[expectedLang].add(translationId);
+
+      if (normalizeYamlValue(frontMatter.layout) !== "single") {
+        errors.push(`${relativePath}: campaign post should use layout: single for post ads and SEO schema`);
+      }
+
+      if (/^\s*ads\s*:\s*false\s*$/m.test(text)) {
+        errors.push(`${relativePath}: campaign post should not disable ads`);
+      }
     }
 
     const permalink = normalizeYamlValue(frontMatter.permalink);
@@ -646,7 +656,13 @@ function validatePosts() {
       errors.push(`${relativePath}: campaign post should contain at least 450 words, found ${wordCount}`);
     }
 
-    if (wordCount >= 700 && !/^\s*ads\s*:\s*false\s*$/m.test(text)) {
+    if (campaignPost && !Number.isNaN(minWordsForAds) && wordCount < minWordsForAds) {
+      errors.push(
+        `${relativePath}: campaign post should meet adsense.min_words_for_ads ${minWordsForAds}, found ${wordCount}`,
+      );
+    }
+
+    if (wordCount >= minWordsForAds && !/^\s*ads\s*:\s*false\s*$/m.test(text)) {
       adEligiblePosts.push(relativePath);
     }
   });
