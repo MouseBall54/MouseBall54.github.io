@@ -719,6 +719,7 @@ function validateCategoryNavigation() {
     [
       [`permalink: /${category}/`, "permalink"],
       'nav: "sidebar-category"',
+      "seo_description:",
       `site.categories.${category}`,
     ].forEach((term) => {
       const text = Array.isArray(term) ? term[0] : term;
@@ -727,6 +728,24 @@ function validateCategoryNavigation() {
         errors.push(`${pagePath}: missing category archive ${label}`);
       }
     });
+
+    const frontMatterText = readFrontMatterText(pagePath);
+    const seoDescription = extractYamlScalarOrBlock(frontMatterText, "seo_description");
+    if (seoDescription.length < 80 || seoDescription.length > 180) {
+      errors.push(`${pagePath}: category seo_description should be 80-180 characters, found ${seoDescription.length}`);
+    }
+
+    const content = page.split(/^---\s*$/m).slice(2).join("---");
+    const wordCount = content.replace(/{%[^%]+%}/g, " ").replace(/<[^>]*>/g, " ").trim().split(/\s+/).filter(Boolean)
+      .length;
+    if (wordCount < 80) {
+      errors.push(`${pagePath}: category hub copy should contain at least 80 words, found ${wordCount}`);
+    }
+
+    const categoryInternalLinks = [...content.matchAll(/\]\(\/(?:ko|en)_[^)#?\s]+\/\)/g)].length;
+    if (categoryInternalLinks < 3) {
+      errors.push(`${pagePath}: category hub should include at least three internal starting links`);
+    }
 
     if (!navigation.includes(`url: /${category}/`)) {
       errors.push(`_data/navigation.yml: missing sidebar URL for category ${category}`);
