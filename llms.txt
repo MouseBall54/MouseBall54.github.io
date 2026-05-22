@@ -5,6 +5,7 @@ MouseBall54 Toolbox is a bilingual developer and practical knowledge site focuse
 Primary site: https://mouseball54.github.io/
 RSS feed: https://mouseball54.github.io/feed.xml
 Sitemap: https://mouseball54.github.io/sitemap.xml
+Image sitemap: https://mouseball54.github.io/image-sitemap.xml
 
 ## Core Hubs
 

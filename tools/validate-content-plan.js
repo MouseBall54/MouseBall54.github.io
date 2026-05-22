@@ -301,6 +301,7 @@ function validateSearchAndMonetizationFiles() {
   requireFile("robots.txt");
   requireFile("ads.txt");
   requireFile("llms.txt");
+  requireFile("image-sitemap.xml");
   requireFile("_config.yml");
   requireFile("Gemfile");
   requireFile("_includes/head.html");
@@ -312,6 +313,7 @@ function validateSearchAndMonetizationFiles() {
   const robots = readText("robots.txt");
   const ads = readText("ads.txt");
   const llms = readText("llms.txt");
+  const imageSitemap = readText("image-sitemap.xml");
   const config = readText("_config.yml");
   const gemfileLock = exists("Gemfile.lock") ? readText("Gemfile.lock") : "";
   const head = readText("_includes/head.html");
@@ -338,10 +340,15 @@ function validateSearchAndMonetizationFiles() {
     errors.push(`robots.txt: missing sitemap URL ${siteUrl}/sitemap.xml`);
   }
 
+  if (!robots.includes(`${siteUrl}/image-sitemap.xml`)) {
+    errors.push(`robots.txt: missing image sitemap URL ${siteUrl}/image-sitemap.xml`);
+  }
+
   [
     siteUrl,
     `${siteUrl}/feed.xml`,
     `${siteUrl}/sitemap.xml`,
+    `${siteUrl}/image-sitemap.xml`,
     `${siteUrl}/ko_AI_Trends/`,
     `${siteUrl}/en_AI_Trends/`,
     `${siteUrl}/ko_Study/`,
@@ -354,6 +361,21 @@ function validateSearchAndMonetizationFiles() {
   ].forEach((url) => {
     if (!llms.includes(url)) {
       errors.push(`llms.txt: missing discovery URL ${url}`);
+    }
+  });
+
+  [
+    ["image-sitemap.xml", imageSitemap, 'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"'],
+    ["image-sitemap.xml", imageSitemap, "site.posts"],
+    ["image-sitemap.xml", imageSitemap, "post.header.overlay_image"],
+    ["image-sitemap.xml", imageSitemap, "<image:loc>"],
+    ["image-sitemap.xml", imageSitemap, "<image:title>"],
+    ["image-sitemap.xml", imageSitemap, "<image:caption>"],
+    ["image-sitemap.xml", imageSitemap, "absolute_url"],
+    ["image-sitemap.xml", imageSitemap, "xml_escape"],
+  ].forEach(([relativePath, text, term]) => {
+    if (!text.includes(term)) {
+      errors.push(`${relativePath}: missing required image sitemap term "${term}"`);
     }
   });
 

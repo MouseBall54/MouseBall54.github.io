@@ -1,0 +1,21 @@
+---
+layout: null
+permalink: /image-sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+{% for post in site.posts %}
+  {% assign post_image = post.header.og_image | default: post.header.overlay_image | default: post.header.teaser %}
+  {% if post_image %}
+  <url>
+    <loc>{{ post.url | absolute_url | xml_escape }}</loc>
+    <image:image>
+      <image:loc>{{ post_image | absolute_url | xml_escape }}</image:loc>
+      {% if post.title %}<image:title>{{ post.title | strip_html | strip_newlines | xml_escape }}</image:title>{% endif %}
+      {% if post.excerpt %}<image:caption>{{ post.excerpt | strip_html | strip_newlines | xml_escape }}</image:caption>{% endif %}
+    </image:image>
+  </url>
+  {% endif %}
+{% endfor %}
+</urlset>
