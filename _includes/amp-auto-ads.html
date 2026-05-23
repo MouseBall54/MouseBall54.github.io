@@ -1,0 +1,5 @@
+{% if site.adsense.enabled and site.adsense.client and site.adsense.amp_auto_ads %}
+  <amp-auto-ads type="adsense"
+          data-ad-client="{{ site.adsense.client }}">
+  </amp-auto-ads>
+{% endif %}

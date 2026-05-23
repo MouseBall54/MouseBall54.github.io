@@ -1,9 +1,19 @@
 <!-- start custom head snippets -->
 
-{% if site.adsense.enabled and site.adsense.client %}
+{% assign is_amp_page = false %}
+{% if page.amp == true or page.amp == "true" or layout.amp == true or layout.amp == "true" %}
+  {% assign is_amp_page = true %}
+{% endif %}
+
+{% if site.adsense.enabled and site.adsense.client and is_amp_page != true %}
   <meta name="google-adsense-account" content="{{ site.adsense.client }}">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense.client }}"
           crossorigin="anonymous"></script>
+{% endif %}
+
+{% if site.adsense.enabled and site.adsense.client and site.adsense.amp_auto_ads and is_amp_page %}
+  <script async custom-element="amp-auto-ads"
+          src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
 {% endif %}
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->

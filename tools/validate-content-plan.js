@@ -978,9 +978,11 @@ function validateAdsense() {
   requireFile("ads.txt");
   requireFile("_config.yml");
   requireFile("_includes/head/custom.html");
+  requireFile("_includes/amp-auto-ads.html");
   requireFile("_includes/ad-content.html");
   requireFile("_includes/ad-inarticle.html");
   requireFile("_includes/social-share.html");
+  requireFile("_layouts/default.html");
   requireFile("_layouts/single.html");
 
   if (errors.length > 0) return;
@@ -988,13 +990,16 @@ function validateAdsense() {
   const adsText = readText("ads.txt");
   const config = readText("_config.yml");
   const headCustom = readText("_includes/head/custom.html");
+  const ampAutoAds = readText("_includes/amp-auto-ads.html");
   const adContent = readText("_includes/ad-content.html");
   const adInArticle = readText("_includes/ad-inarticle.html");
   const socialShare = readText("_includes/social-share.html");
+  const defaultLayout = readText("_layouts/default.html");
   const singleLayout = readText("_layouts/single.html");
   const adsenseClient = parseSectionScalarConfigValue(config, "adsense", "client");
   const adsenseEnabled = isConfigEnabled(parseSectionScalarConfigValue(config, "adsense", "enabled"));
   const autoAdsEnabled = isConfigEnabled(parseSectionScalarConfigValue(config, "adsense", "auto_ads"));
+  const ampAutoAdsEnabled = isConfigEnabled(parseSectionScalarConfigValue(config, "adsense", "amp_auto_ads"));
   const inArticleSlot = parseSectionScalarConfigValue(config, "adsense", "in_article_slot");
   const postBottomSlot = parseSectionScalarConfigValue(config, "adsense", "post_bottom_slot");
   const minWordsForAds = Number(parseSectionScalarConfigValue(config, "adsense", "min_words_for_ads") || "700");
@@ -1034,6 +1039,23 @@ function validateAdsense() {
 
   if (adEligiblePosts.length === 0) {
     warnings.push("No posts currently meet the automatic ad eligibility threshold");
+  }
+
+  if (adsenseEnabled && ampAutoAdsEnabled) {
+    [
+      ["_includes/head/custom.html", headCustom, "custom-element=\"amp-auto-ads\""],
+      ["_includes/head/custom.html", headCustom, "amp-auto-ads-0.1.js"],
+      ["_includes/head/custom.html", headCustom, "is_amp_page"],
+      ["_includes/amp-auto-ads.html", ampAutoAds, "<amp-auto-ads type=\"adsense\""],
+      ["_includes/amp-auto-ads.html", ampAutoAds, "data-ad-client=\"{{ site.adsense.client }}\""],
+      ["_layouts/default.html", defaultLayout, "{% include amp-auto-ads.html %}"],
+      ["_layouts/default.html", defaultLayout, "page.amp"],
+      ["_layouts/default.html", defaultLayout, "layout.amp"],
+    ].forEach(([relativePath, text, term]) => {
+      if (!text.includes(term)) {
+        errors.push(`${relativePath}: missing required AMP Auto ads guard or markup "${term}"`);
+      }
+    });
   }
 
   [

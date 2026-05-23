@@ -127,10 +127,11 @@ AdSense is configured through `_config.yml`:
 - `adsense.enabled`: turns AdSense markup on or off.
 - `adsense.client`: must stay in `ca-pub-...` format.
 - `adsense.auto_ads`: when true, the AdSense loader in `_includes/head/custom.html` allows Google Auto ads to place ads after the site is approved and Auto ads are enabled in AdSense.
+- `adsense.amp_auto_ads`: when true, AMP Auto ads markup is available only on pages or layouts that explicitly set `amp: true`.
 - `adsense.in_article_slot` and `adsense.post_bottom_slot`: optional manual ad unit slot IDs. Leave empty until real slot IDs are created in AdSense.
 - `adsense.min_words_for_ads`: minimum post word count for manual in-article units.
 
-The root `ads.txt` publisher ID must match `_config.yml` without the `ca-` prefix. Do not paste duplicate AdSense loader scripts into layouts or posts; keep the single loader in `_includes/head/custom.html`.
+The root `ads.txt` publisher ID must match `_config.yml` without the `ca-` prefix. Do not paste duplicate AdSense loader scripts into layouts or posts; keep the single non-AMP loader in `_includes/head/custom.html`. AMP pages should use the guarded `amp-auto-ads` include so AMP-only tags do not leak into normal HTML pages.
 
 ## Article Structure
 

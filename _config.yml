@@ -100,6 +100,7 @@ adsense:
   enabled                : true
   client                 : "ca-pub-2983974324971673"
   auto_ads               : true
+  amp_auto_ads           : true
   in_article_slot        :
   post_bottom_slot       :
   min_words_for_ads      : 500

@@ -10,6 +10,13 @@
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
+    {% assign is_amp_page = false %}
+    {% if page.amp == true or page.amp == "true" or layout.amp == true or layout.amp == "true" %}
+      {% assign is_amp_page = true %}
+    {% endif %}
+    {% if is_amp_page %}
+      {% include amp-auto-ads.html %}
+    {% endif %}
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
 
