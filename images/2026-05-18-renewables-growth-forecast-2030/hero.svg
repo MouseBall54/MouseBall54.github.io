@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Renewables to 2030: Installed Capacity Is Not the Whole Story</title>
+  <desc id="desc">Climate and energy briefing image with core signals, Korea-facing channels, and reader action points.</desc>
+  <rect width="1280" height="720" fill="#f4efe4"/>
+  <circle cx="1060" cy="120" r="210" fill="#f2c166" opacity="0.52"/>
+  <circle cx="220" cy="620" r="250" fill="#8ab7a1" opacity="0.34"/>
+  <path d="M0 462 C180 398 320 520 520 444 C760 354 900 358 1280 292 L1280 720 L0 720 Z" fill="#dce9dd"/>
+  <rect x="82" y="92" width="1116" height="536" rx="40" fill="#fffdf6" opacity="0.92"/>
+  <text x="124" y="158" font-family="Arial, sans-serif" font-size="28" letter-spacing="4" fill="#5f6f52">CLIMATE &amp; ENERGY</text>
+  <text x="124" y="222" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#15352f">Renewables to 2030: Installed Capacity Is Not the Whole Story</text>
+  <text x="124" y="280" font-family="Arial, sans-serif" font-size="28" fill="#33524b">재생에너지 2030 전망: 설치량보다 계통 흡수 능력을 같이 보기</text>
+  <g transform="translate(124 342)">
+    <rect width="280" height="118" rx="24" fill="#1f6f5f"/>
+    <text x="28" y="48" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#ffffff">Demand</text>
+    <text x="28" y="86" font-family="Arial, sans-serif" font-size="22" fill="#e8fff8">load, timing, peaks</text>
+  </g>
+  <g transform="translate(456 342)">
+    <rect width="280" height="118" rx="24" fill="#c46a3a"/>
+    <text x="28" y="48" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#ffffff">Supply</text>
+    <text x="28" y="86" font-family="Arial, sans-serif" font-size="22" fill="#fff1e8">fuel, grid, storage</text>
+  </g>
+  <g transform="translate(788 342)">
+    <rect width="280" height="118" rx="24" fill="#304f73"/>
+    <text x="28" y="48" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#ffffff">Risk</text>
+    <text x="28" y="86" font-family="Arial, sans-serif" font-size="22" fill="#edf5ff">price, climate, policy</text>
+  </g>
+  <path d="M404 400 H456" stroke="#16302b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M736 400 H788" stroke="#16302b" stroke-width="8" stroke-linecap="round"/>
+  <text x="124" y="540" font-family="Arial, sans-serif" font-size="25" fill="#16302b">Reader task: separate targets, tools, costs, timelines, and Korea-facing transmission channels.</text>
+</svg>

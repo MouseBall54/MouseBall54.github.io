@@ -25,6 +25,9 @@ sidebar-category:
       - title: "Global Affairs"
         url: /ko_global_affairs/
         category: "ko_Global_Affairs"
+      - title: "Climate & Energy"
+        url: /ko_climate_energy/
+        category: "ko_Climate_Energy"
       - title: "Digital Security"
         url: /ko_digital_security/
         category: "ko_Digital_Security"
@@ -55,6 +58,9 @@ sidebar-category:
       - title: "Global Affairs"
         url: /en_global_affairs/
         category: "en_Global_Affairs"
+      - title: "Climate & Energy"
+        url: /en_climate_energy/
+        category: "en_Climate_Energy"
       - title: "Digital Security"
         url: /en_digital_security/
         category: "en_Digital_Security"
