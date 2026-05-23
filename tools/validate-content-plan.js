@@ -469,9 +469,15 @@ function validateSearchAndMonetizationFiles() {
     ["_includes/article-schema.html", articleSchema, 'type="application/ld+json"'],
     ["_includes/article-schema.html", articleSchema, "BlogPosting"],
     ["_includes/article-schema.html", articleSchema, "mainEntityOfPage"],
+    ["_includes/article-schema.html", articleSchema, "inLanguage"],
+    ["_includes/article-schema.html", articleSchema, "articleSection"],
+    ["_includes/article-schema.html", articleSchema, "keywords"],
+    ["_includes/article-schema.html", articleSchema, "wordCount"],
     ["_includes/article-schema.html", articleSchema, "datePublished"],
     ["_includes/article-schema.html", articleSchema, "dateModified"],
     ["_includes/article-schema.html", articleSchema, "publisher"],
+    ["_includes/article-schema.html", articleSchema, "ImageObject"],
+    ["_includes/article-schema.html", articleSchema, "thumbnailUrl"],
     ["_includes/article-schema.html", articleSchema, "jsonify"],
   ].forEach(([relativePath, text, term]) => {
     if (!text.includes(term)) {

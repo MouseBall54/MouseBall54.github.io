@@ -1,6 +1,10 @@
 {%- assign article_image = page_large_image | default: page_teaser_image -%}
 {%- assign article_author_name = author.name | default: author | default: site.title -%}
 {%- assign article_modified_at = page.last_modified_at | default: page.date -%}
+{%- assign article_language = page.lang | default: page.locale | default: site.locale -%}
+{%- assign article_section = page.categories | first -%}
+{%- assign article_keywords = page.tags | join: ", " -%}
+{%- assign article_word_count = content | strip_html | number_of_words -%}
 
 <script type="application/ld+json">
 {
@@ -12,6 +16,10 @@
   },
   "headline": {{ page_title | jsonify }},
   "description": {{ seo_description | jsonify }},
+  "inLanguage": {{ article_language | jsonify }}{% if article_section %},
+  "articleSection": {{ article_section | jsonify }}{% endif %}{% if article_keywords != "" %},
+  "keywords": {{ article_keywords | jsonify }}{% endif %},
+  "wordCount": {{ article_word_count }},
   "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
   "dateModified": {{ article_modified_at | date_to_xmlschema | jsonify }},
   "author": {
@@ -20,8 +28,13 @@
   },
   "publisher": {
     "@type": "Organization",
-    "name": {{ site.title | jsonify }}
+    "name": {{ site.title | jsonify }}{% if site_og_image %},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ site_og_image | jsonify }}
+    }{% endif %}
   }{% if article_image %},
-  "image": [{{ article_image | jsonify }}]{% endif %}
+  "image": [{{ article_image | jsonify }}],
+  "thumbnailUrl": {{ article_image | jsonify }}{% endif %}
 }
 </script>
