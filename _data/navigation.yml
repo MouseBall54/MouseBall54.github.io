@@ -22,6 +22,9 @@ sidebar-category:
       - title: "AI Trends"
         url: /ko_ai_trends/
         category: "ko_AI_Trends"
+      - title: "Global Affairs"
+        url: /ko_global_affairs/
+        category: "ko_Global_Affairs"
       - title: "Study"
         url: /ko_study/
         category: "ko_Study"
@@ -40,6 +43,9 @@ sidebar-category:
       - title: "AI Trends"
         url: /en_ai_trends/
         category: "en_AI_Trends"
+      - title: "Global Affairs"
+        url: /en_global_affairs/
+        category: "en_Global_Affairs"
       - title: "Study"
         url: /en_study/
         category: "en_Study"

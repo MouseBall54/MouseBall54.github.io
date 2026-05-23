@@ -113,12 +113,16 @@ Current content categories are:
 - `en_easy_labeling`
 - `ko_AI_Trends`
 - `en_AI_Trends`
+- `ko_Global_Affairs`
+- `en_Global_Affairs`
 - `ko_Study`
 - `en_Study`
 - `ko_Economy`
 - `en_Economy`
 
 Each post should have exactly one language-prefixed category. Category hub pages must exist at `_pages/category-<category>.md` with a lowercase permalink such as `/en_troubleshooting/`, `sidebar.nav: "sidebar-category"`, useful intro copy, and at least three starting links when enough posts exist.
+
+Global Affairs posts should use official sources where possible, include a source notes section, and translate international events into practical Korea-facing channels such as exports, import prices, energy security, financial conditions, household costs, and security policy.
 
 ## AdSense
 

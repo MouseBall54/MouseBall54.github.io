@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Signal Map</title>
+  <desc id="desc">Food Security and Food Prices: The Global Issue That Reaches Wallets First</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <path d="M80 520 C260 410 370 450 530 330 C670 225 760 280 910 155 C1030 55 1120 100 1190 56" fill="none" stroke="#facc15" stroke-width="10" stroke-linecap="round" opacity="0.88"/>
+  <path d="M0 600 C210 540 330 650 510 570 C725 470 850 660 1200 500 L1200 675 L0 675 Z" fill="#020617" fill-opacity="0.34"/>
+  <circle cx="760" cy="168" r="32" fill="#ffffff" fill-opacity="0.12"/>
+<circle cx="834" cy="222" r="35" fill="#ffffff" fill-opacity="0.15"/>
+<circle cx="908" cy="168" r="38" fill="#ffffff" fill-opacity="0.18"/>
+<circle cx="982" cy="222" r="41" fill="#ffffff" fill-opacity="0.21"/>
+<circle cx="1056" cy="168" r="44" fill="#ffffff" fill-opacity="0.24"/>
+  <text x="72" y="110" fill="#f8fafc" font-size="48" font-family="Georgia, serif" font-weight="700">Signal Map</text>
+  <text x="76" y="164" fill="#e2e8f0" font-size="26" font-family="Georgia, serif">Food Security and Food Prices: The Global Issue That Reaches Wallets First</text>
+  <rect x="66" y="278" width="520" height="244" rx="26" fill="#020617" fill-opacity="0.36" stroke="#ffffff" stroke-opacity="0.20"/>
+  <text x="88" y="330" fill="#f8fafc" font-size="24" font-family="Georgia, serif">grain prices</text>
+<text x="88" y="372" fill="#f8fafc" font-size="24" font-family="Georgia, serif">fertilizer costs</text>
+<text x="88" y="414" fill="#f8fafc" font-size="24" font-family="Georgia, serif">food CPI</text>
+<text x="88" y="456" fill="#f8fafc" font-size="24" font-family="Georgia, serif">import dependency</text>
+  <text x="76" y="610" fill="#cbd5e1" font-size="22" font-family="Georgia, serif">MouseBall54 Global Affairs Briefing</text>
+</svg>
