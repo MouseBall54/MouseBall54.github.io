@@ -19,19 +19,19 @@
 핵심 전제:
 
 - 대량 생산보다, 검색 의도가 분명한 글을 꾸준히 누적한다.
-- 한국어와 영어 글을 항상 함께 작성한다. 현재는 473개 주제 쌍, 즉 한국어 473개와 영어 473개를 기준으로 관리한다.
+- 한국어와 영어 글을 항상 함께 작성한다. 현재는 503개 주제 쌍, 즉 한국어 503개와 영어 503개를 기준으로 관리한다.
 - AI로 초안을 만들 수는 있지만, 실행 결과, 버전 차이, 실패 사례, 검증 절차를 사람이 보강한다.
 - 글마다 이해를 돕는 이미지를 새로 만들거나 직접 캡처하고, header와 본문 초반에 의미 있게 배치한다.
 - 광고는 본문 탐색을 방해하지 않는 선에서 표준화한다.
 
 ## 2. 현재 저장소 기준 콘텐츠 현황
 
-현재 `_posts/ko`와 `_posts/en`에는 각각 473개 글이 있다. 언어별 category 기준 주제 분포는 다음과 같다.
+현재 `_posts/ko`와 `_posts/en`에는 각각 503개 글이 있다. 언어별 category 기준 주제 분포는 다음과 같다.
 
 | 주제 | 영어 글 수 | 한국어 글 수 | 판단 |
 | --- | ---: | ---: | --- |
 | Troubleshooting | 150 | 150 | 강점. Python, JavaScript, Java, Git, Docker, CI 오류 검색 유입 기반 |
-| AI Trends | 30 | 30 | 공식 문서와 거버넌스 기반 AI workflow, RAG, 보안, 비용, 평가 글 |
+| AI Trends | 60 | 60 | 공식 문서 기반 AI workflow, Codex CLI, Claude Code, MCP, 권한, RAG, 보안, 비용, 평가 글 |
 | Global Affairs | 30 | 30 | 세계정세와 한국-facing 수출, 에너지, 금융, 안보 채널 설명 |
 | Climate & Energy | 38 | 38 | 전력망, AI 전력 수요, 재생에너지, 배터리, 기후 리스크 설명 |
 | Consumer Rights | 30 | 30 | 환불, 구독취소, chargeback, 리콜, 항공·통신 분쟁 대응 |
@@ -79,7 +79,7 @@
 | Git/GitHub 작업 오류 | 이미 글 수가 많고 검색 의도 명확 | GitHub Actions failed, deploy key, branch protection, GitHub Pages build, rebase conflict |
 | Java/Spring Boot 오류 | Java 기본 예외에서 실무 프레임워크로 확장 | Spring Boot error, Gradle, Maven, JDK, Lombok, port 8080 |
 | 개발 환경 문제 | 초보자와 실무자 모두 검색 | VS Code, WSL, Docker, Windows PATH, PowerShell, Homebrew |
-| AI 개발 워크플로우 | 2025-2026 수요 확장 | OpenAI API, RAG, LangChain, Ollama, vector database, Pydantic AI |
+| AI 개발 워크플로우 | 2025-2026 수요 확장 | OpenAI API, RAG, Codex CLI, Claude Code, MCP, LangChain, Ollama, vector database |
 | Easy Labeling | 대표 도구 브랜딩과 제품 유입 | YOLO labeling tool, image annotation, local labeling, custom-classes.yaml |
 | 스터디와 생산성 | 반복 검색되는 학습법/템플릿 수요 | active recall, spaced repetition, Pomodoro, mistake note, study planner |
 | 경제 기초 | evergreen 금융 문해력 유입 | interest rate, inflation, exchange rate, ETF, compound interest, budget |
@@ -184,6 +184,21 @@
 | P2 | Roboflow vs local labeling workflow | Roboflow vs Local Labeling Workflow | local image labeling |
 | P2 | Easy Labeling으로 YOLO 데이터셋 만들기 | Build a YOLO Dataset with Easy Labeling | Easy Labeling YOLO |
 
+### 5.7 AI Agent CLI and Coding Agent Setup
+
+| 우선순위 | 한국어 제목 방향 | English title direction | Primary keyword |
+| --- | --- | --- | --- |
+| P0 | Codex CLI 설치와 로그인 설정 | Codex CLI Install and Login Setup | Codex CLI install |
+| P0 | Codex `AGENTS.md` 프로젝트 지침 | Codex AGENTS.md Project Instructions | Codex AGENTS.md |
+| P0 | Codex `config.toml` approval, sandbox 설정 | Codex config.toml approval_policy and sandbox_mode | Codex config.toml |
+| P0 | Codex MCP server 설정 | Codex MCP Server config.toml Setup | Codex MCP server |
+| P0 | Claude Code 설치, 로그인, doctor 확인 | Claude Code Install Login Doctor | Claude Code install |
+| P0 | Claude Code `settings.json` 권한 설정 | Claude Code settings.json Permissions | Claude Code settings.json |
+| P0 | Claude Code `CLAUDE.md` memory 설정 | Claude Code CLAUDE.md Memory Setup | Claude.md |
+| P0 | Claude Code MCP project scope | Claude Code MCP Project Scope | Claude Code MCP |
+| P1 | AI agent instruction file template | AI Agent Repo Instruction File Template | AI agent instructions |
+| P1 | AI agent MCP 보안 체크리스트 | AI Agent MCP Security Checklist | MCP security |
+
 ## 6. 콘텐츠 생산 로드맵
 
 ### Phase 0: 기반 정리, 1주
@@ -199,7 +214,8 @@
 목표:
 
 - 1차 목표 큐 50쌍 작성은 완료했고, 현재는 주요 성장 카테고리 대부분이 30쌍 이상이다.
-- 현재 완성 규모: Troubleshooting 150쌍, AI Trends 30쌍, Global Affairs 30쌍, Climate & Energy 38쌍, Consumer Rights 30쌍, Digital Security 30쌍, Personal Finance 30쌍, Health Literacy 30쌍, Study 32쌍, Economy 36쌍, Easy Labeling 37쌍.
+- 현재 완성 규모: Troubleshooting 150쌍, AI Trends 60쌍, Global Affairs 30쌍, Climate & Energy 38쌍, Consumer Rights 30쌍, Digital Security 30쌍, Personal Finance 30쌍, Health Literacy 30쌍, Study 32쌍, Economy 36쌍, Easy Labeling 37쌍.
+- `2026-05-23`에 몰려 있던 기존 대량 작성 글은 검증용 50쌍만 남기고 나머지는 2025-01-06부터 2026-05-22까지의 빈 날짜로 재분배했다.
 - 신규 캠페인 글은 각 글마다 이미지 2개 이상, 내부 링크, 출처 또는 검수 기준, category hub 연결을 유지한다.
 
 운영 기준:
@@ -224,6 +240,7 @@
 - Java and Spring Boot Troubleshooting
 - Docker and WSL Developer Setup
 - AI Developer Workflow Notes
+- Codex and Claude Code Agent CLI Setup
 - Computer Vision Dataset Labeling
 - Easy Labeling Guide Hub
 
@@ -412,6 +429,8 @@ Auto ads 운영:
 - [x] Personal Finance 30쌍 작성 및 category hub 구성
 - [x] Health Literacy 30쌍 작성 및 category hub 구성
 - [x] AI Trends 30쌍, Study 32쌍, Economy 36쌍, Easy Labeling 37쌍으로 확장
+- [x] Codex CLI, Claude Code, MCP, permission, agent 운영 포스트 30쌍 추가
+- [x] 기존 대량 작성 포스트 날짜 재분배: `2026-05-23`은 50쌍만 유지하고 그 외 8쌍 초과 날짜 제거
 - [x] 각 글에 `lang`, `translation_id`, category, English tags 확인: `npm run validate:content-plan`
 - [x] 신규 글마다 내부 링크 최소 2개 추가
 - [x] Easy Labeling 글은 실제 화면과 launch link 포함

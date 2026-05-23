@@ -35,6 +35,13 @@ Image sitemap: https://mouseball54.github.io/image-sitemap.xml
 ## Representative Articles
 
 - AI Agent Workflow 2026: https://mouseball54.github.io/en_ai_trends/ai-agent-workflow-2026/
+- Codex CLI Install and Login Setup: https://mouseball54.github.io/en_ai_trends/codex-cli-install-login-setup/
+- Codex AGENTS.md Setup: https://mouseball54.github.io/en_ai_trends/codex-agents-md-project-instructions/
+- Codex MCP Server Setup: https://mouseball54.github.io/en_ai_trends/codex-mcp-server-config/
+- Claude Code Install and Doctor: https://mouseball54.github.io/en_ai_trends/claude-code-install-login-doctor/
+- Claude Code settings.json Permissions: https://mouseball54.github.io/en_ai_trends/claude-code-settings-json-permissions/
+- Claude Code MCP Project Scope: https://mouseball54.github.io/en_ai_trends/claude-code-mcp-project-scope/
+- AI Agent MCP Security Checklist: https://mouseball54.github.io/en_ai_trends/ai-agent-mcp-security-checklist/
 - Prompt Engineering Checklist: https://mouseball54.github.io/en_ai_trends/prompt-engineering-checklist/
 - RAG Evaluation Checklist: https://mouseball54.github.io/en_ai_trends/rag-evaluation-checklist/
 - Structured Outputs and JSON Schema: https://mouseball54.github.io/en_ai_trends/structured-outputs-json-schema/
@@ -79,7 +86,7 @@ Image sitemap: https://mouseball54.github.io/image-sitemap.xml
 - Economy content is educational and is not personal financial advice; it connects official macroeconomic data, interest rates, inflation, exchange rates, jobs, debt, budgeting, and household cost pressure.
 - Troubleshooting content is written around reproducible symptoms, causes, fixes, and verification steps.
 - Easy Labeling content supports local-first image annotation, YOLO datasets, COCO conversion, class dictionaries, bounding box QA, train/val/test splits, review sampling, active learning loops, privacy checks, and training-ready handoff.
-- AI Trends content prioritizes official-source AI workflow governance: agent scopes, OpenAI API patterns, evals, structured outputs, RAG quality, LLM security, privacy, cost controls, and human review boundaries.
+- AI Trends content prioritizes official-source AI workflow governance: agent scopes, Codex CLI setup, Claude Code settings, MCP security, OpenAI API patterns, evals, structured outputs, RAG quality, LLM security, privacy, cost controls, and human review boundaries.
 - Global Affairs content uses official-source briefings to connect world events with growth, trade, energy, finance, security, climate, migration, and Korea-facing transmission channels.
 - Climate & Energy content uses official-source briefings to connect grids, AI electricity demand, renewables, batteries, critical minerals, carbon pricing, climate adaptation, and Korea-facing industrial or household cost channels.
 - Consumer Rights content is educational, not legal advice, and uses official sources for refunds, subscriptions, chargebacks, recalls, airline refunds, telecom billing, fake reviews, dark patterns, and complaint escalation.
