@@ -10,6 +10,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix 'fatal: A branch named '...' already exists' in Git
 excerpt: >
   Resolve the "fatal: A branch named '...' already exists" error in Git by choosing a different name, deleting the old branch, or checking out the existing one.
 seo_description: >

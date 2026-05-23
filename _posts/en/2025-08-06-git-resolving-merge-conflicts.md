@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Resolve Merge Conflicts in Git
 excerpt: >
     A step-by-step guide to understanding and resolving merge conflicts that occur when combining branches in Git.
 seo_description: >

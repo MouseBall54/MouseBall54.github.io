@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix JavaScript SyntaxError: Unexpected end of input
 excerpt: >
     Learn how to fix the `SyntaxError: Unexpected end of input` in JavaScript, which typically occurs when the parser unexpectedly reaches the end of the script due to missing brackets or braces.
 seo_description: >

@@ -13,6 +13,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Revert a Commit in Git (git revert)
 excerpt: >
     Sometimes you need to safely undo the changes from a specific commit in Git. 'git revert' solves this by creating a new commit that undoes the changes without deleting the original commit. This post explains how to use git revert and its advantages.
 seo_description: >

@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript "ReferenceError: assignment to undeclared variable" 오류 해결 방법
 excerpt: >
     이 포스트는 JavaScript의 엄격 모드(strict mode)에서 선언되지 않은 변수에 값을 할당할 때 발생하는 "ReferenceError: assignment to undeclared variable" 오류를 해결하는 방법을 설명합니다.
 seo_description: >

@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript async/await 오류 처리 마스터하기
 excerpt: >
    JavaScript에서 try...catch 블록을 사용하여 async/await 함수의 오류를 올바르게 처리하는 방법을 배우세요. 처리되지 않은 프로미스 거부를 피하고, 견고하고 신뢰할 수 있는 비동기 코드를 작성하세요.
 seo_description: >

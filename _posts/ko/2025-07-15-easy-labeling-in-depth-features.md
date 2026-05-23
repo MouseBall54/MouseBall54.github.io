@@ -2,6 +2,8 @@
 typora-root-url: ../
 header:
   teaser: ../images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235507837.png
+  image_description: >
+    이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: YOLO 라벨링 끝판왕, Easy Labeling 주요 기능 파헤치기
 title: "YOLO 라벨링 끝판왕, Easy Labeling 주요 기능 파헤치기"
 date: 2025-07-15T00:00:00+09:00
 excerpt: "AI 객체 탐지를 위한 YOLO 데이터 라벨링, 아직도 힘드신가요? Easy Labeling의 강력한 기능으로 데이터셋 구축 시간을 단축하세요. 로컬 파일 연동, 고급 Annotation 기능, 효율적인 단축키 등 YOLO 라벨링 생산성을 극대화하는 모든 비법을 공개합니다."

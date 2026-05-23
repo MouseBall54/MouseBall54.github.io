@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix Python IsADirectoryError: [Errno 21] Is a directory
 excerpt: >
    Learn to fix the IsADirectoryError: [Errno 21] Is a directory in Python. This error occurs when you try to treat a directory as a file. This guide shows you how to check paths and use the correct file operations.
 seo_description: >

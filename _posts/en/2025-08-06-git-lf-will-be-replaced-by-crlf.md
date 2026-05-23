@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix "LF will be replaced by CRLF" Warning in Git
 excerpt: >
     Understand and resolve the "LF will be replaced by CRLF" warning in Git by configuring line ending normalization for cross-platform projects.
 seo_description: >

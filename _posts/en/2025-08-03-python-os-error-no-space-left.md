@@ -11,6 +11,8 @@ header:
     teaser: /images/header_images/overlay_image_python.png
     overlay_image: /images/header_images/overlay_image_python.png
     overlay_filter: 0.5
+    image_description: >
+      A visual summary explaining the main topic of this post: How to Fix "OSError: [Errno 28] No space left on device" in Python
 excerpt: >
     In Python, "OSError: [Errno 28] No space left on device" occurs when there is insufficient disk space. This article explains the causes of the error and how to fix it.
 seo_description: >

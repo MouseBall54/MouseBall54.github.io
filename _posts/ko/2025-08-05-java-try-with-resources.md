@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java try-with-resources로 메모리 누수 방지하기
 excerpt: >
     Java의 try-with-resources 구문을 사용하여 스트림이나 커넥션과 같은 리소스를 자동으로 닫고, 흔한 메모리 누수를 방지하며 코드를 더 깔끔하게 만드는 방법을 알아보세요.
 seo_description: >

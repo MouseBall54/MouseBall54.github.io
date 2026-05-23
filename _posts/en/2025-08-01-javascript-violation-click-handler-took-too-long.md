@@ -10,6 +10,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix '[Violation] 'click' handler took ...ms' in JavaScript
 excerpt: >
   Optimize long-running 'click' handlers and improve browser responsiveness by deferring heavy tasks with techniques like `setTimeout`, Web Workers, and `requestAnimationFrame`.
 seo_description: >

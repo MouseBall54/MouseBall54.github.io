@@ -12,6 +12,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: Git revert vs reset: How to Safely Undo a Commit
 excerpt: >
     Learn when to use git revert instead of git reset so you can safely undo a commit without rewriting shared history.
 seo_description: >

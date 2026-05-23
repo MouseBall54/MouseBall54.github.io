@@ -10,6 +10,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix 'Failed to fetch' Errors in JavaScript
 excerpt: >
   Troubleshoot and fix the "Failed to fetch" error by checking for network issues, CORS policies, and incorrect request URLs in your JavaScript code.
 seo_description: >

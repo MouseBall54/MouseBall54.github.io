@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git 서브모듈(Submodule)로 프로젝트 의존성 관리하기
 excerpt: >
     `git submodule`을 사용하여 외부 저장소를 메인 프로젝트의 하위 디렉터리로 포함하고 관리하는 방법을 알아보세요.
 seo_description: >

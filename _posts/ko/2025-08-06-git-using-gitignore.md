@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: .gitignore 파일을 사용하여 Git 추적에서 파일 제외하는 방법
 excerpt: >
     `.gitignore` 파일을 생성하고 사용하여 특정 파일 및 디렉터리가 Git 저장소에 추가되는 것을 방지하는 방법을 알아보세요.
 seo_description: >

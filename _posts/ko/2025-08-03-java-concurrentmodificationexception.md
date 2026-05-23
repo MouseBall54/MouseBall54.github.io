@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java ConcurrentModificationException 처리 방법
 excerpt: >
     Java에서 ConcurrentModificationException을 해결하는 방법을 배웁니다. 이 예외는 컬렉션을 반복하는 동안 수정될 때 발생합니다.
 seo_description: >

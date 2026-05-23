@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: 자바스크립트 Uncaught (in promise) 오류 해결 방법
 excerpt: >
     자바스크립트에서 프로미스(Promise) 체인에서 발생한 예외가 처리되지 않았을 때 나타나는 `Uncaught (in promise)` 오류의 원인과 해결 방법을 알아봅니다.
 seo_description: >

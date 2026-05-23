@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java Stream API로 데이터 처리하기
 excerpt: >
     데이터 컬렉션 처리를 위한 Java Stream API의 강력한 기능을 알아보세요. 스트림을 사용하여 복잡한 데이터 조작을 위한 선언적이고 효율적이며 가독성 높은 코드를 작성하는 방법을 배웁니다.
 seo_description: >

@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix Java Error: a public class ... must be defined in a file called ... .java
 excerpt: >
     Understand and resolve the Java compile error that occurs when the name of a `public` class does not match the name of its `.java` file.
 seo_description: >

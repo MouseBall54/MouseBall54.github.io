@@ -13,6 +13,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript SyntaxError: Unterminated string literal 해결 방법
 excerpt: >
     JavaScript에서 "SyntaxError: Unterminated string literal"은 문자열이 제대로 닫히지 않았을 때 발생하는 구문 오류입니다. 이 오류는 주로 따옴표나 줄 바꿈 문제로 인해 발생합니다. 이 글에서는 오류의 원인과 해결 방법을 알아봅니다.
 seo_description: >

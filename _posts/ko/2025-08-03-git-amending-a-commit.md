@@ -11,6 +11,8 @@ header:
     teaser: /images/header_images/overlay_image_git.png
     overlay_image: /images/header_images/overlay_image_git.png
     overlay_filter: 0.5
+    image_description: >
+      이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git 최신 커밋 수정하기: git commit --amend 완벽 가이드
 excerpt: >
     git commit --amend는 가장 최근의 커밋을 수정할 수 있는 유용한 명령어입니다. 커밋 메시지를 변경하거나, 빠뜨린 파일을 추가하는 등 마지막 커밋을 보완할 때 사용합니다.
 seo_description: >

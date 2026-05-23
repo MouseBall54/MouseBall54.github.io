@@ -2,6 +2,8 @@
 typora-root-url: ../
 header:
   teaser: /images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png
+  image_description: >
+    A visual summary explaining the main topic of this post: Easy Labeling Guide (1) - Loading Images and Labels
 title: "Easy Labeling Guide (1) - Loading Images and Labels"
 date: 2025-07-20T00:00:00+09:00
 excerpt: "This is the first guide for the YOLO labeling tool, Easy Labeling. It provides basic instructions on how to load image folders and label files from your PC and how to use class files."

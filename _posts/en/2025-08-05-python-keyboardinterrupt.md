@@ -13,6 +13,8 @@ header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Handle KeyboardInterrupt in Python
 excerpt: >
     In Python, KeyboardInterrupt is an exception raised when the user presses Ctrl+C to forcefully terminate a program. Handling this exception correctly allows you to shut down your program gracefully and clean up resources. This post explains how to handle KeyboardInterrupt.
 seo_description: >

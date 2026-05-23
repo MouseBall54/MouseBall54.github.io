@@ -11,6 +11,8 @@ header:
     teaser: /images/header_images/overlay_image_js.png
     overlay_image: /images/header_images/overlay_image_js.png
     overlay_filter: 0.5
+    image_description: >
+      A visual summary explaining the main topic of this post: How to Fix JavaScript Event Listener Leaks
 excerpt: >
     Failing to remove event listeners can cause memory leaks and degrade application performance. This article explains the causes of event listener leaks in JavaScript and how to fix them.
 seo_description: >

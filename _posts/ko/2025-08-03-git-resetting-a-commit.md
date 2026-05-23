@@ -11,6 +11,8 @@ header:
     teaser: /images/header_images/overlay_image_git.png
     overlay_image: /images/header_images/overlay_image_git.png
     overlay_filter: 0.5
+    image_description: >
+      이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git 커밋 되돌리기: git reset의 세 가지 옵션 (soft, mixed, hard) 완벽 가이드
 excerpt: >
     git reset은 특정 커밋으로 프로젝트의 상태를 되돌리는 강력한 명령어입니다. 이 글에서는 git reset의 세 가지 주요 옵션인 --soft, --mixed, --hard의 차이점과 사용법을 알아봅니다.
 seo_description: >

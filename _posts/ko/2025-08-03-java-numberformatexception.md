@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: java.lang.NumberFormatException 해결 방법
 excerpt: >
     부적절한 형식의 문자열을 숫자 값으로 변환하려고 할 때 발생하는 java.lang.NumberFormatException을 해결하는 방법을 알아보세요.
 seo_description: >

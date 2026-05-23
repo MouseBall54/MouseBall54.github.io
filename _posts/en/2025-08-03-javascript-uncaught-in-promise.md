@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix JavaScript Uncaught (in promise) Error
 excerpt: >
     Learn how to resolve the `Uncaught (in promise)` error in JavaScript, which appears when a Promise rejection is not handled by a `.catch()` block or a try...catch statement.
 seo_description: >

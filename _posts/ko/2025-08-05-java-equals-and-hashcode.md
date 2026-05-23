@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java에서 equals()와 hashCode() 이해하기
 excerpt: >
     Java에서 equals()를 오버라이드할 때 왜 항상 hashCode()도 오버라이드해야 하는지 알아보세요. 이 두 메서드 간의 규약을 이해하고 해시 기반 컬렉션에서 어떻게 동작하는지 확인합니다.
 seo_description: >

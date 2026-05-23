@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java 제네릭(Generics)을 사용한 타입 안정성 확보
 excerpt: >
     Java 제네릭이 어떻게 작동하는지, 컴파일 시점에 타입 안정성을 어떻게 제공하는지, 그리고 컬렉션 및 사용자 정의 클래스와 함께 사용하여 유연하고 재사용 가능한 코드를 만드는 방법을 알아보세요.
 seo_description: >

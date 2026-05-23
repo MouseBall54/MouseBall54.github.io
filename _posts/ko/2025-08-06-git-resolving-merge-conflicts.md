@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git 병합 충돌(Merge Conflict) 해결하는 방법
 excerpt: >
     Git에서 브랜치를 합칠 때 발생하는 병합 충돌을 이해하고 해결하는 단계별 가이드입니다.
 seo_description: >

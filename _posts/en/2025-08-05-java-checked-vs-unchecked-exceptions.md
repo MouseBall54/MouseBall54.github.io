@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: Java Exceptions: Checked vs. Unchecked
 excerpt: >
     Learn the difference between checked and unchecked exceptions in Java, when to use them, and how they impact your code's design and robustness.
 seo_description: >

@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Handle IllegalArgumentException in Java
 excerpt: >
     Learn what IllegalArgumentException is, why it's thrown, and how to use it effectively to validate method arguments and improve code robustness.
 seo_description: >

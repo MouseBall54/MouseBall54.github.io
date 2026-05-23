@@ -10,6 +10,8 @@ header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix 'TabError: inconsistent use of tabs and spaces in indentation' in Python
 excerpt: >
   Resolve Python's "TabError: inconsistent use of tabs and spaces in indentation" by configuring your editor to use spaces for indentation and converting existing tabs to spaces.
 seo_description: >

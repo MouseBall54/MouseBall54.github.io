@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python NotADirectoryError: [Errno 20] Not a directory 오류 해결 방법
 excerpt: >
    Python에서 디렉터리 경로가 필요한 곳에 파일 경로를 사용하여 발생하는 NotADirectoryError: [Errno 20] Not a directory 오류를 이해하고 해결하세요. 경로를 검증하여 이 흔한 문제를 피하는 방법을 배웁니다.
 seo_description: >

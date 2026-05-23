@@ -11,6 +11,8 @@ header:
     teaser: /images/header_images/overlay_image_js.png
     overlay_image: /images/header_images/overlay_image_js.png
     overlay_filter: 0.5
+    image_description: >
+      이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript "WebSocket connection to '...' failed" 해결 방법
 excerpt: >
     JavaScript에서 WebSocket 연결 실패는 다양한 원인으로 발생할 수 있습니다. 이 글에서는 "WebSocket connection to '...' failed" 오류의 일반적인 원인과 해결 방법을 알아봅니다.
 seo_description: >

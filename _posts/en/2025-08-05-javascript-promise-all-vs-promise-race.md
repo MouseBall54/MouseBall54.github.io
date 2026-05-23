@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: JavaScript Promises: Promise.all vs. Promise.race
 excerpt: >
    Learn the difference between Promise.all and Promise.race in JavaScript for handling multiple asynchronous operations. Understand when to wait for all promises to complete and when to act on the first one that settles.
 seo_description: >

@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Use `git bisect` to Find the Commit That Introduced a Bug
 excerpt: >
     A step-by-step guide on using `git bisect` to perform a binary search on your commit history and quickly pinpoint the exact commit that caused a bug.
 seo_description: >

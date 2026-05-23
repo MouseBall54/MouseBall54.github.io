@@ -10,6 +10,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript 동등 연산자: == vs. === (느슨한 비교 vs. 엄격한 비교)
 excerpt: >
    JavaScript에서 느슨한 동등 연산자(==)와 엄격한 동등 연산자(===)의 중요한 차이점을 배우세요. 타입 강제 변환이 어떻게 작동하는지 이해하고, 일반적인 버그를 피하기 위해 거의 항상 ===를 사용해야 하는 이유를 알아보세요.
 seo_description: >

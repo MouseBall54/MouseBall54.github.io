@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java에서 IllegalArgumentException 처리하는 방법
 excerpt: >
     IllegalArgumentException이 무엇인지, 왜 발생하는지, 그리고 메서드 인자를 검증하고 코드의 견고성을 향상시키기 위해 효과적으로 사용하는 방법을 알아보세요.
 seo_description: >

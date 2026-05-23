@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix "jQuery is not defined" Error in JavaScript
 excerpt: >
    Resolve the common "Uncaught ReferenceError: jQuery is not defined" by ensuring the jQuery library is loaded correctly before your script attempts to use it. This guide covers the causes and solutions.
 seo_description: >

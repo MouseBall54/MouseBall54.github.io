@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix "SyntaxError: Invalid or unexpected token" in JavaScript
 excerpt: >
     This post explains how to resolve the "SyntaxError: Invalid or unexpected token" in JavaScript, which occurs when the JavaScript engine encounters code that violates the language's syntax rules.
 seo_description: >

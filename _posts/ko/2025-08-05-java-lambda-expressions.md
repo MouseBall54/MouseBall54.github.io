@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java 람다 표현식(Lambda Expressions)으로 간결한 코드 작성하기
 excerpt: >
     Java 람다 표현식이 무엇인지, 함수형 인터페이스의 사용을 어떻게 단순화하는지, 그리고 더 깔끔하고 표현력 있는 코드를 작성하기 위해 사용하는 방법을 알아보세요.
 seo_description: >

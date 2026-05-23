@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java 예외: Checked Exception vs. Unchecked Exception
 excerpt: >
     Java의 checked exception과 unchecked exception의 차이점, 사용 시기, 그리고 코드 설계와 안정성에 미치는 영향을 알아보세요.
 seo_description: >

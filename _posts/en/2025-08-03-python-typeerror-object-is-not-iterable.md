@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix Python TypeError: '...' object is not iterable
 excerpt: >
     Learn how to fix the `TypeError: '...' object is not iterable` in Python, which occurs when you try to loop over a non-iterable object like an integer or None.
 seo_description: >

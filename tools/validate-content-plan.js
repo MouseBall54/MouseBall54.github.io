@@ -639,9 +639,14 @@ function validatePosts() {
     }));
     const bodyImagePaths = bodyImageMatches.map((match) => match.path);
     const imagePaths = [...headerImagePaths, ...bodyImagePaths];
+    const imageDescription = extractNestedYamlScalarOrBlock(frontMatterText, "image_description");
 
     if (imagePaths.length === 0) {
       warnings.push(`${relativePath}: no local image path found; every new post should include a meaningful image`);
+    }
+
+    if (imageDescription.length < 20 || imageDescription.length > 180) {
+      errors.push(`${relativePath}: header.image_description should be 20-180 characters, found ${imageDescription.length}`);
     }
 
     if (campaignPost) {
@@ -663,7 +668,6 @@ function validatePosts() {
 
       const seoTitle = extractYamlScalarOrBlock(frontMatterText, "seo_title");
       const seoDescription = extractYamlScalarOrBlock(frontMatterText, "seo_description");
-      const imageDescription = extractNestedYamlScalarOrBlock(frontMatterText, "image_description");
       const seoTitleMin = expectedLang === "ko" ? 10 : 20;
       const seoDescriptionMin = expectedLang === "ko" ? 60 : 80;
 
@@ -675,10 +679,6 @@ function validatePosts() {
         errors.push(
           `${relativePath}: campaign seo_description should be ${seoDescriptionMin}-170 characters, found ${seoDescription.length}`,
         );
-      }
-
-      if (imageDescription.length < 20 || imageDescription.length > 180) {
-        errors.push(`${relativePath}: campaign header.image_description should be 20-180 characters, found ${imageDescription.length}`);
       }
 
       const faqHeading = expectedLang === "ko" ? "자주 묻는 질문" : "FAQ";

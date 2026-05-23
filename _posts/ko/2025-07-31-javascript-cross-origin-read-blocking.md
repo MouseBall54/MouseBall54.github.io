@@ -10,6 +10,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Cross-Origin Read Blocking (CORB) 오류 해결 방법
 excerpt: >
   서버가 올바른 Content-Type 및 CORS 헤더를 전송하도록 하여 브라우저의 Cross-Origin Read Blocking (CORB) 경고를 해결하는 방법을 알아봅니다.
 seo_description: >

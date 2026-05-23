@@ -11,6 +11,8 @@ header:
     teaser: /images/header_images/overlay_image_git.png
     overlay_image: /images/header_images/overlay_image_git.png
     overlay_filter: 0.5
+    image_description: >
+      이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git "fatal: index file corrupt" 해결 방법
 excerpt: >
     Git에서 "fatal: index file corrupt"는 스테이징 영역의 상태를 추적하는 인덱스 파일이 손상되었을 때 발생합니다. 이 글에서는 오류의 원인과 해결 방법을 알아봅니다.
 seo_description: >

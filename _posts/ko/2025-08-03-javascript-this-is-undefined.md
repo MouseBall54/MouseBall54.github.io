@@ -11,6 +11,8 @@ header:
     teaser: /images/header_images/overlay_image_js.png
     overlay_image: /images/header_images/overlay_image_js.png
     overlay_filter: 0.5
+    image_description: >
+      이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript에서 "this is undefined" 문제 해결 방법
 excerpt: >
     JavaScript에서 'this'는 호출 컨텍스트에 따라 동적으로 결정됩니다. 이로 인해 콜백 함수나 이벤트 핸들러에서 'this'가 undefined가 되는 문제가 자주 발생합니다. 이 글에서는 원인과 해결 방법을 알아봅니다.
 seo_description: >

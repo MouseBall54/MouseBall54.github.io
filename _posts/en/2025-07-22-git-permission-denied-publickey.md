@@ -15,6 +15,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix "Permission denied (publickey)" Error with Git on Windows
 categories:
   - en_Troubleshooting
 tags:

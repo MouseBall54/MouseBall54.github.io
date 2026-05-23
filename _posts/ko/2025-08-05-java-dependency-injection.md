@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java 의존성 주입(Dependency Injection)으로 결합도 낮추기
 excerpt: >
     의존성 주입(DI)의 원리를 이해하고, Spring과 같은 프레임워크 예제를 통해 Java에서 느슨하게 결합되고, 테스트하기 쉬우며, 유지보수하기 좋은 애플리케이션을 구축하는 데 어떻게 도움이 되는지 알아보세요.
 seo_description: >

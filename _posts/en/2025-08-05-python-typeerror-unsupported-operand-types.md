@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix Python TypeError: unsupported operand type(s) for +
 excerpt: >
    Fix the TypeError: unsupported operand type(s) for + in Python by ensuring you are using compatible types in your operations. This guide explains how to handle type conversions for numbers, strings, and other objects.
 seo_description: >

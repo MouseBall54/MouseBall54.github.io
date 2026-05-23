@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: JavaScript innerHTML vs. textContent: Which Should You Use?
 excerpt: >
    Understand the key differences between innerHTML and textContent in JavaScript. Learn when to use each property for better security, performance, and predictability in your web applications.
 seo_description: >

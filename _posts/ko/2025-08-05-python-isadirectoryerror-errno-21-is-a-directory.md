@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python IsADirectoryError: [Errno 21] Is a directory 오류 해결 방법
 excerpt: >
    Python에서 디렉터리를 파일처럼 다루려고 할 때 발생하는 IsADirectoryError: [Errno 21] Is a directory 오류를 해결하는 방법을 배우세요. 이 가이드는 경로를 확인하고 올바른 파일 작업을 사용하는 방법을 보여줍니다.
 seo_description: >

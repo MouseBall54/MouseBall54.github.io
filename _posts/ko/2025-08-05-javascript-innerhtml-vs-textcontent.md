@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript innerHTML vs. textContent: 어느 것을 사용해야 할까요?
 excerpt: >
    JavaScript에서 innerHTML과 textContent의 주요 차이점을 이해하세요. 웹 애플리케이션에서 더 나은 보안, 성능 및 예측 가능성을 위해 각 속성을 언제 사용해야 하는지 알아보세요.
 seo_description: >

@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript "SyntaxError: Invalid or unexpected token" 오류 해결 방법
 excerpt: >
     이 포스트에서는 JavaScript 엔진이 언어의 구문 규칙을 위반하는 코드를 만났을 때 발생하는 "SyntaxError: Invalid or unexpected token" 오류의 해결 방법을 설명합니다.
 seo_description: >

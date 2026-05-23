@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Use Git Interactive Rebase to Modify Commits
 excerpt: >
     Learn how to use `git rebase -i` to combine, edit, or delete previous commits for a cleaner and more understandable project history.
 seo_description: >

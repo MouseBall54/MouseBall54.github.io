@@ -11,6 +11,8 @@ header:
     teaser: /images/header_images/overlay_image_java.png
     overlay_image: /images/header_images/overlay_image_java.png
     overlay_filter: 0.5
+    image_description: >
+      A visual summary explaining the main topic of this post: How to Fix "Error: incompatible types" in Java
 excerpt: >
     In Java, the "incompatible types" error is a compilation error that occurs when you try to assign a value of an incompatible type to a variable or pass it to a method. This article explains its causes and solutions.
 seo_description: >

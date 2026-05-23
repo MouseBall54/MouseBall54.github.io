@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix Python NotADirectoryError: [Errno 20] Not a directory
 excerpt: >
    Understand and fix the NotADirectoryError: [Errno 20] Not a directory in Python. This error appears when a file path is used where a directory path is expected. Learn to validate paths and avoid this common issue.
 seo_description: >

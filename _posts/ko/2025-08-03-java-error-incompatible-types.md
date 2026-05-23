@@ -11,6 +11,8 @@ header:
     teaser: /images/header_images/overlay_image_java.png
     overlay_image: /images/header_images/overlay_image_java.png
     overlay_filter: 0.5
+    image_description: >
+      이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java "Error: incompatible types" 해결 방법
 excerpt: >
     Java에서 "incompatible types" 오류는 서로 호환되지 않는 타입의 값을 변수에 할당하거나 메서드에 전달하려고 할 때 발생하는 컴파일 오류입니다. 이 글에서는 원인과 해결 방법을 알아봅니다.
 seo_description: >

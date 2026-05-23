@@ -11,6 +11,8 @@ header:
     teaser: /images/header_images/overlay_image_js.png
     overlay_image: /images/header_images/overlay_image_js.png
     overlay_filter: 0.5
+    image_description: >
+      A visual summary explaining the main topic of this post: How to Fix "this is undefined" in JavaScript
 excerpt: >
     In JavaScript, 'this' is dynamically determined by the calling context. This often leads to issues where 'this' becomes undefined in callback functions or event handlers. This article explains why this happens and how to fix it.
 seo_description: >

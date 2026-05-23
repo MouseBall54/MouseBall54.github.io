@@ -13,6 +13,8 @@ header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python FloatingPointError 해결 방법
 excerpt: >
     Python에서 FloatingPointError는 부동 소수점 연산이 실패할 때 발생합니다. 이 오류는 일반적으로 잘 발생하지 않지만, 특정 수학적 계산에서 나타날 수 있습니다. 이 글에서는 FloatingPointError의 원인과 해결 방법을 알아봅니다.
 seo_description: >

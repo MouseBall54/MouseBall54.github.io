@@ -11,6 +11,8 @@ header:
     teaser: /images/header_images/overlay_image_python.png
     overlay_image: /images/header_images/overlay_image_python.png
     overlay_filter: 0.5
+    image_description: >
+      이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python "ConnectionError: [Errno 111] Connection refused" 해결 방법
 excerpt: >
     Python에서 "Connection refused" 오류는 네트워크 연결 시 대상 서버가 연결을 거부할 때 발생합니다. 이 글에서는 오류의 원인과 해결 방법을 알아봅니다.
 seo_description: >

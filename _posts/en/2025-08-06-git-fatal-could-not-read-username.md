@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix "fatal: could not read Username for 'https://...': terminal prompts disabled" in Git
 excerpt: >
     Resolve the Git error "fatal: could not read Username for 'https://...': terminal prompts disabled" by using a credential helper or switching to SSH authentication.
 seo_description: >

@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git "fatal: bad object" 오류 해결 방법
 excerpt: >
     이 가이드는 Git 저장소의 객체가 손상되거나 누락되었음을 나타내는 "fatal: bad object" 오류를 해결하는 방법을 설명합니다.
 seo_description: >

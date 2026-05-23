@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: 파이썬 TypeError: missing 1 required positional argument 해결 방법
 excerpt: >
     파이썬에서 함수나 메서드를 호출할 때 필수적인 위치 인자(positional argument)를 전달하지 않아 발생하는 `TypeError: missing 1 required positional argument` 오류의 원인과 해결책을 알아봅니다.
 seo_description: >

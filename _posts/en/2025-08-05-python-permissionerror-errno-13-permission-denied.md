@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix Python PermissionError: [Errno 13] Permission denied
 excerpt: >
    Resolve the PermissionError: [Errno 13] Permission denied in Python by learning how to manage file permissions correctly. This guide explains the causes and provides solutions for Windows, macOS, and Linux.
 seo_description: >

@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java "error: missing return statement" 해결 방법
 excerpt: >
     Java에서 "error: missing return statement" 오류는 반환 타입이 명시된 메서드의 모든 코드 경로가 값을 반환하도록 보장하지 않을 때 발생합니다. 이 문제를 해결하는 방법을 알아보세요.
 seo_description: >

@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix "error: RPC failed; curl 56 Recv failure" in Git
 excerpt: >
     Troubleshoot and fix the "error: RPC failed; curl 56 Recv failure" in Git, which is often caused by network issues or large repository sizes.
 seo_description: >

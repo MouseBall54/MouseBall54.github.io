@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: `git bisect`를 사용하여 버그를 유발한 커밋 찾기
 excerpt: >
     `git bisect`를 사용하여 커밋 히스토리에서 이진 검색을 수행하고 버그를 유발한 정확한 커밋을 신속하게 찾아내는 방법에 대한 단계별 가이드입니다.
 seo_description: >

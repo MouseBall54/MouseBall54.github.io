@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git "Detached HEAD" 상태 해결 방법
 excerpt: >
     Git의 "Detached HEAD" 상태가 무엇인지, 왜 발생하는지, 그리고 작업을 잃지 않고 안전하게 브랜치로 돌아가는 방법을 이해합니다.
 seo_description: >

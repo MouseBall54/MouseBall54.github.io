@@ -11,6 +11,8 @@ header:
     teaser: /images/header_images/overlay_image_java.png
     overlay_image: /images/header_images/overlay_image_java.png
     overlay_filter: 0.5
+    image_description: >
+      A visual summary explaining the main topic of this post: How to Fix "Error: ';' expected" in Java
 excerpt: >
     In Java, "';' expected" is a basic compilation error that occurs when a semicolon is missing at the end of a statement. This article explains the cause of the error and how to fix it.
 seo_description: >

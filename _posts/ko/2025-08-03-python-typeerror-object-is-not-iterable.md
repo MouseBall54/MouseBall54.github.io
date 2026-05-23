@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: 파이썬 TypeError: '...' object is not iterable 해결 방법
 excerpt: >
     파이썬에서 반복 불가능한(non-iterable) 객체를 순회하려고 할 때 발생하는 `TypeError: '...' object is not iterable` 오류의 원인과 해결 방법을 알아봅니다.
 seo_description: >

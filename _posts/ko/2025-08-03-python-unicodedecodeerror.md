@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: 파이썬 "UnicodeDecodeError: 'utf-8' codec can't decode byte" 오류 해결 방법
 excerpt: >
     파이썬의 "UnicodeDecodeError"를 해결합니다. 이 오류는 기본 'utf-8' 코덱과 일치하지 않는 인코딩으로 파일을 읽을 때 발생합니다.
 seo_description: >

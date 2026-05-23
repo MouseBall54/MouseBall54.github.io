@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python SystemError: <built-in function ...> returned NULL without setting an error 오류 해결 방법
 excerpt: >
    드물지만 혼란스러운 Python SystemError: <built-in function ...> returned NULL without setting an error 오류를 해결하세요. 이 가이드는 C 확장 모듈 문제나 손상된 설치와 같은 잠재적 원인을 탐색합니다.
 seo_description: >

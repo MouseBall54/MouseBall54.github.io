@@ -10,6 +10,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix Cross-Origin Read Blocking (CORB) Errors
 excerpt: >
   Resolve Cross-Origin Read Blocking (CORB) warnings in your browser by ensuring the server sends the correct Content-Type and CORS headers for your API requests.
 seo_description: >

@@ -13,6 +13,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix JavaScript TypeError: Reduce of empty array with no initial value
 excerpt: >
     In JavaScript, "TypeError: Reduce of empty array with no initial value" occurs when you call the reduce() method on an empty array without providing an initial value. This post analyzes the cause of this error and explains how to fix it.
 seo_description: >

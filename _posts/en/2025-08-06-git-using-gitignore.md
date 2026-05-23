@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Use .gitignore to Exclude Files from Git Tracking
 excerpt: >
     Learn how to create and use a `.gitignore` file to prevent specific files and directories from being added to your Git repository.
 seo_description: >

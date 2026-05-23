@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python PermissionError: [Errno 13] Permission denied 오류 해결 방법
 excerpt: >
    Python에서 파일 권한을 올바르게 관리하여 PermissionError: [Errno 13] Permission denied 오류를 해결하세요. 이 가이드는 원인을 설명하고 Windows, macOS, Linux용 해결책을 제공합니다.
 seo_description: >

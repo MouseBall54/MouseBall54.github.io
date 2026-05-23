@@ -2,6 +2,8 @@
 typora-root-url: ../
 header:
   teaser: ../images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235507837.png
+  image_description: >
+    A visual summary explaining the main topic of this post: A Deep Dive into Easy Labeling's Features for YOLO Data Labeling
 title: "A Deep Dive into Easy Labeling's Features for YOLO Data Labeling"
 date: 2025-07-15T00:00:00+09:00
 excerpt: "Unlock maximum efficiency in your YOLO data labeling workflow. This guide explores Easy Labeling's powerful features, from local file access and advanced annotation tools to smart label management for object detection. Everything you need for efficient dataset creation is here."

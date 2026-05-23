@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: Using Generics in Java for Type Safety
 excerpt: >
     Discover how Java Generics work, how they provide type safety at compile time, and how to use them to create flexible and reusable code with collections and custom classes.
 seo_description: >

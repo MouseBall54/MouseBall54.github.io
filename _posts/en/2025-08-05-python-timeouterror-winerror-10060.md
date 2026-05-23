@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix Python TimeoutError: [WinError 10060] A connection attempt failed
 excerpt: >
    Learn how to resolve the Python TimeoutError: [WinError 10060], which occurs when a network connection times out. This guide covers causes like firewalls, incorrect addresses, and server issues, providing clear solutions.
 seo_description: >

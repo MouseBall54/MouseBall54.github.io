@@ -11,6 +11,8 @@ header:
     teaser: /images/header_images/overlay_image_java.png
     overlay_image: /images/header_images/overlay_image_java.png
     overlay_filter: 0.5
+    image_description: >
+      A visual summary explaining the main topic of this post: How to Fix "Error: cannot find symbol" in Java
 excerpt: >
     In Java, "cannot find symbol" is a very common compilation error that occurs when the compiler cannot find the identifier (variable, method, class, etc.) used in the code. This article explains its causes and solutions.
 seo_description: >

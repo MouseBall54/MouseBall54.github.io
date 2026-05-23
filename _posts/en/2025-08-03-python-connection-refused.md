@@ -11,6 +11,8 @@ header:
     teaser: /images/header_images/overlay_image_python.png
     overlay_image: /images/header_images/overlay_image_python.png
     overlay_filter: 0.5
+    image_description: >
+      A visual summary explaining the main topic of this post: How to Fix "ConnectionError: [Errno 111] Connection refused" in Python
 excerpt: >
     In Python, a "Connection refused" error occurs when a network connection is rejected by the target server. This article explains the causes of the error and how to fix it.
 seo_description: >

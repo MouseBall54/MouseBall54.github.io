@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: JavaScript Equality: == vs. === (Loose vs. Strict)
 excerpt: >
    Learn the critical difference between loose equality (==) and strict equality (===) in JavaScript. Understand how type coercion works and why you should almost always use === to avoid common bugs.
 seo_description: >

@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript 프로미스: Promise.all vs. Promise.race
 excerpt: >
    여러 비동기 작업을 처리하기 위한 JavaScript의 Promise.all과 Promise.race의 차이점을 알아보세요. 모든 프로미스가 완료될 때까지 기다려야 하는 경우와 가장 먼저 완료된 프로미스에 따라 행동해야 하는 경우를 이해하세요.
 seo_description: >

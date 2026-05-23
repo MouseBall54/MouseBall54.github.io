@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java: String vs. StringBuilder vs. StringBuffer 비교
 excerpt: >
     Java에서 문자열을 다루는 세 가지 주요 클래스인 String, StringBuilder, StringBuffer의 핵심 차이점을 이해하여 더 효율적이고 최적화된 코드를 작성하는 방법을 알아보세요.
 seo_description: >

@@ -12,6 +12,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git revert와 reset 차이: 안전하게 커밋 되돌리기
 excerpt: >
     공유 브랜치에서 Git 커밋을 되돌릴 때 git revert와 git reset 중 무엇을 써야 하는지, 안전한 선택 기준을 정리합니다.
 seo_description: >

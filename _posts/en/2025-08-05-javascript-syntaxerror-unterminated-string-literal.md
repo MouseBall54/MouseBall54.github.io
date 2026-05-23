@@ -13,6 +13,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix JavaScript SyntaxError: Unterminated string literal
 excerpt: >
     In JavaScript, "SyntaxError: Unterminated string literal" is a syntax error that occurs when a string is not closed properly. This error is usually caused by issues with quotes or line breaks. This post explains the causes of the error and how to fix it.
 seo_description: >

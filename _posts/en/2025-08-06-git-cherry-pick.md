@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Cherry-Pick a Commit from Another Branch in Git
 excerpt: >
     Learn how to use `git cherry-pick` to apply a specific commit from one branch to another without merging the entire branch.
 seo_description: >

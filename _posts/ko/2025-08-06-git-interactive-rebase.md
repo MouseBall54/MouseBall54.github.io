@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git Interactive Rebase로 커밋 수정하는 방법
 excerpt: >
     `git rebase -i`를 사용하여 이전 커밋들을 합치거나, 수정하거나, 삭제하는 방법을 배워보세요. 프로젝트 히스토리를 더 깔끔하고 이해하기 쉽게 만들 수 있습니다.
 seo_description: >

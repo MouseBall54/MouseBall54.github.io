@@ -10,6 +10,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git 'error: src refspec ... does not match any' 오류 해결 방법
 excerpt: >
   푸시하려는 브랜치가 로컬에 존재하고 이름이 올바르게 입력되었는지 확인하여 Git "src refspec ... does not match any" 오류를 해결하는 방법을 알아봅니다.
 seo_description: >

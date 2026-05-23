@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python TypeError: unsupported operand type(s) for + 오류 해결 방법
 excerpt: >
    Python에서 호환되지 않는 타입으로 연산을 시도할 때 발생하는 TypeError: unsupported operand type(s) for + 오류를 해결하세요. 이 가이드는 숫자, 문자열 및 기타 객체에 대한 타입 변환을 처리하는 방법을 설명합니다.
 seo_description: >

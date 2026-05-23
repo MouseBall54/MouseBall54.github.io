@@ -10,6 +10,8 @@ header:
    teaser: /images/header_images/overlay_image_python.png
    overlay_image: /images/header_images/overlay_image_python.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: 파이썬 'TabError: inconsistent use of tabs and spaces in indentation' 오류 해결 방법
 excerpt: >
   에디터를 설정하여 들여쓰기에 공백을 사용하고 기존 탭을 공백으로 변환하여 파이썬의 "TabError: inconsistent use of tabs and spaces in indentation" 오류를 해결하는 방법을 알아봅니다.
 seo_description: >

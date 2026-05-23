@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Handle java.lang.NumberFormatException
 excerpt: >
     Learn how to fix the java.lang.NumberFormatException, which occurs when you try to convert a string with an improper format into a numeric value.
 seo_description: >

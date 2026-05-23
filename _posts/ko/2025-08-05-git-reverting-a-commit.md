@@ -13,6 +13,8 @@ header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git에서 커밋을 되돌리는 방법 (git revert)
 excerpt: >
     Git에서 특정 커밋의 변경 사항을 안전하게 되돌려야 할 때가 있습니다. 'git revert'는 기존 커밋을 삭제하지 않고 변경 내용을 취소하는 새로운 커밋을 생성하여 이 문제를 해결합니다. 이 글에서는 git revert의 사용법과 장점을 알아봅니다.
 seo_description: >

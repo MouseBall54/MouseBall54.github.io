@@ -11,6 +11,8 @@ header:
     teaser: /images/header_images/overlay_image_git.png
     overlay_image: /images/header_images/overlay_image_git.png
     overlay_filter: 0.5
+    image_description: >
+      A visual summary explaining the main topic of this post: Amending the Latest Commit in Git: A Complete Guide to git commit --amend
 excerpt: >
     git commit --amend is a useful command for modifying the most recent commit. It is used to fix the last commit, such as changing the commit message or adding forgotten files.
 seo_description: >

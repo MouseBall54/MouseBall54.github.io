@@ -11,6 +11,8 @@ header:
     teaser: /images/header_images/overlay_image_python.png
     overlay_image: /images/header_images/overlay_image_python.png
     overlay_filter: 0.5
+    image_description: >
+      이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python "RecursionError: maximum recursion depth exceeded" 해결 방법
 excerpt: >
     Python에서 RecursionError는 재귀 호출의 깊이가 최대 한도를 초과할 때 발생합니다. 이 글에서는 오류의 원인과 해결 방법을 알아봅니다.
 seo_description: >

@@ -10,6 +10,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript 'Failed to fetch' 오류 해결 방법
 excerpt: >
   JavaScript 코드에서 네트워크 문제, CORS 정책, 잘못된 요청 URL을 확인하여 "Failed to fetch" 오류를 해결하고 문제를 해결하는 방법을 알아봅니다.
 seo_description: >

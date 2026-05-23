@@ -11,6 +11,8 @@ header:
     teaser: /images/header_images/overlay_image_js.png
     overlay_image: /images/header_images/overlay_image_js.png
     overlay_filter: 0.5
+    image_description: >
+      이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript 이벤트 리스너 메모리 누수 (Event Listener Leaks) 해결 방법
 excerpt: >
     이벤트 리스너를 제거하지 않으면 메모리 누수가 발생하여 애플리케이션 성능이 저하될 수 있습니다. 이 글에서는 JavaScript에서 이벤트 리스너 누수의 원인과 해결 방법을 알아봅니다.
 seo_description: >

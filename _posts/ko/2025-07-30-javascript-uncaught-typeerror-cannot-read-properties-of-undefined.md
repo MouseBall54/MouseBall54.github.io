@@ -12,6 +12,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript 'undefined'의 속성을 읽을 수 없음(Uncaught TypeError) 오류 해결 방법
 categories:
   - ko_Troubleshooting
 tags:

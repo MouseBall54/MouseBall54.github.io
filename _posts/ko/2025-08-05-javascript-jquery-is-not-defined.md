@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript "jQuery is not defined" 오류 해결 방법
 excerpt: >
    흔한 "Uncaught ReferenceError: jQuery is not defined" 오류는 스크립트가 jQuery를 사용하기 전에 라이브러리가 올바르게 로드되었는지 확인하여 해결할 수 있습니다. 이 가이드는 원인과 해결책을 다룹니다.
 seo_description: >

@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix "error: variable ... might not have been initialized" in Java
 excerpt: >
     Resolve the "variable might not have been initialized" error in Java by ensuring every local variable has a value before it is accessed.
 seo_description: >

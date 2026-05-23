@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: Writing Concise Code with Lambda Expressions in Java
 excerpt: >
     Learn what Java Lambda Expressions are, how they simplify the use of functional interfaces, and how to use them to write cleaner, more expressive code.
 seo_description: >

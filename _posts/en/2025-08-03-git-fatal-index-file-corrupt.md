@@ -11,6 +11,8 @@ header:
     teaser: /images/header_images/overlay_image_git.png
     overlay_image: /images/header_images/overlay_image_git.png
     overlay_filter: 0.5
+    image_description: >
+      A visual summary explaining the main topic of this post: How to Fix "fatal: index file corrupt" in Git
 excerpt: >
     In Git, "fatal: index file corrupt" occurs when the index file, which tracks the staging area, is damaged. This article explains the cause of the error and how to fix it.
 seo_description: >

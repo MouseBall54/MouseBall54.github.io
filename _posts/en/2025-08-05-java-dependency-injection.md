@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_java.png
    overlay_image: /images/header_images/overlay_image_java.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: Lowering Coupling with Dependency Injection in Java
 excerpt: >
     Understand the principle of Dependency Injection (DI) and how it helps in building loosely coupled, testable, and maintainable applications in Java, with examples from frameworks like Spring.
 seo_description: >

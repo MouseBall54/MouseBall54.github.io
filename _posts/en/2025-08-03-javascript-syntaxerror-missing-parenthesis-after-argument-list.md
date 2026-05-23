@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: How to Fix JavaScript SyntaxError: missing ) after argument list
 excerpt: >
     Learn how to fix the `SyntaxError: missing ) after argument list` in JavaScript, a common error caused by forgetting to add a closing parenthesis `)` after a function's argument list.
 seo_description: >

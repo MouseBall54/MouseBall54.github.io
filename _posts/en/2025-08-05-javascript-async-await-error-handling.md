@@ -11,6 +11,8 @@ header:
    teaser: /images/header_images/overlay_image_js.png
    overlay_image: /images/header_images/overlay_image_js.png
    overlay_filter: 0.5
+   image_description: >
+     A visual summary explaining the main topic of this post: Mastering async/await Error Handling in JavaScript
 excerpt: >
    Learn how to properly handle errors in async/await functions using try...catch blocks in JavaScript. Avoid unhandled promise rejections and write robust, reliable asynchronous code.
 seo_description: >
