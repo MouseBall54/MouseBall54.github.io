@@ -157,3 +157,9 @@ outer_function()
 *   If you mean to modify a **global variable**, use the `global` keyword.
 *   If you mean to modify a variable in an **enclosing function's scope**, use the `nonlocal` keyword.
 *   Otherwise, ensure your **local variable** is assigned a value in all possible code paths before you try to read from it.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

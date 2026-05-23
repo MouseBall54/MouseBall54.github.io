@@ -112,3 +112,9 @@ public void run() {
 - **Use unchecked exceptions** to indicate programming errors. A `NullPointerException` suggests a bug that should be fixed in the code (e.g., by adding a null check) rather than caught and handled by the caller.
 
 By understanding the distinction, you can design more robust and maintainable APIs and applications in Java.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

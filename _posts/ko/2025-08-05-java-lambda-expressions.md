@@ -129,3 +129,9 @@ names.forEach(System.out::println);
 ### 핵심 요약
 
 람다 표현식은 Java에서 깔끔한 함수형 스타일의 코드를 작성하기 위한 강력한 기능입니다. 상용구를 줄이고 가독성을 향상시키며, Stream API와 같은 현대적인 Java API와 작업하는 데 필수적입니다. 코드를 더 표현력 있고 간결하게 만들기 위해 람다를 적극적으로 활용하세요.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

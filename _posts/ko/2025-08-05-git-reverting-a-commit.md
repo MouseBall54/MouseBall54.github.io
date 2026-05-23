@@ -132,3 +132,9 @@ git push origin main
 `git revert`는 이미 원격 저장소에 푸시된 커밋의 변경 사항을 안전하게 되돌릴 수 있는 강력하고 필수적인 명령어입니다.
 프로젝트의 커밋 히스토리를 깨뜨리지 않고 변경 내용을 취소함으로써, 팀원들과의 협업을 원활하게 유지할 수 있습니다.
 실수로 올린 커밋이 있다면 `git reset`으로 히스토리를 지우려 하지 말고, `git revert`를 사용하여 안전하게 되돌리는 습관을 들이는 것이 좋습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

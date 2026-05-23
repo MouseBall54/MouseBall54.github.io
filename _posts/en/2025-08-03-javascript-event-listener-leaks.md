@@ -145,4 +145,9 @@ document.getElementById('parent-list').addEventListener('click', (event) => {
 ## Conclusion
 
 Event listener leaks are easy to overlook but can have a serious impact on application performance. It is crucial to understand the component lifecycle and make it a habit to remove registered listeners via `removeEventListener` or `AbortController` when an element is destroyed. The event delegation pattern is also an excellent alternative for simplifying listener management.
+## Related Reading
 
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

@@ -136,3 +136,9 @@ rm .git/objects/a1/b2c3d4...
 백업이 없으면 복구가 어렵고 데이터 손실이 발생할 수 있습니다.
 정기적으로 `git fsck`를 실행하면 문제를 조기에 발견하는 데 도움이 됩니다.
 사전 예방적인 백업이 이 오류에 대한 최고의 방어책입니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

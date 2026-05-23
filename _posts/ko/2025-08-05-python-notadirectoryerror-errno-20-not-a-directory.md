@@ -73,3 +73,9 @@ path_to_check = 'my_file.txt' # 이것은 파일입니다
 
 if os.path.isdir(path_to_check):
     print(f
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

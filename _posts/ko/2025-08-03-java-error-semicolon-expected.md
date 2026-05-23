@@ -117,4 +117,9 @@ SemicolonTest.java:5: error: ';' expected
 ## 결론
 
 `Error: ';' expected`는 Java의 가장 기본적인 문법 규칙 중 하나를 어겼을 때 발생합니다. 이 오류를 마주치면 당황하지 말고, 컴파일러가 알려주는 위치를 중심으로 문장의 끝에 세미콜론이 제대로 찍혀 있는지 꼼꼼히 확인하는 습관을 들이는 것이 중요합니다.
+## 함께 보면 좋은 글
 
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

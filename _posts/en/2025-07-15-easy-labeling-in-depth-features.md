@@ -85,3 +85,9 @@ Go beyond simple annotation with advanced features for managing your dataset sys
 Easy Labeling is an open-source project that is continuously evolving with feedback from developers and researchers. Visit the GitHub page today to try it out and elevate your data labeling workflow to the next level!
 
 **[Visit the Easy Labeling GitHub Page](https://github.com/MouseBall54/easy_labeling)**
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [Introducing Easy Labeling: A Free Web-Based Tool for YOLO Object Detection](/en_easy_labeling/easy-labeling-development/)
+- [Easy Labeling Guide (1) - Loading Images and Labels](/en_easy_labeling/easy-labeling-guide-1/)

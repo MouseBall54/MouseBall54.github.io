@@ -109,3 +109,9 @@ print(content)
 - **데이터를 파악하세요.** 파일의 출처와 예상되는 인코딩을 이해하세요.
 
 파일 인코딩을 명시적으로 관리하면 `UnicodeDecodeError`를 예방할 수 있습니다. 코드가 더 안정적이고 신뢰성 있게 됩니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

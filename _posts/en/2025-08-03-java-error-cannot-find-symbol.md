@@ -121,4 +121,9 @@ The `cannot find symbol` error usually stems from a minor mistake. By carefully 
 3.  Is the variable's scope correct?
 4.  Does the method signature match?
 5.  Is the external library included in the classpath?
+## Related Reading
 
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

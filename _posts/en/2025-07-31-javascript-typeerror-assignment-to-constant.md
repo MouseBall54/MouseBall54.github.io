@@ -124,3 +124,9 @@ console.log(person.age); // Outputs: 30
 By understanding the difference between `const` and `let`, you can easily avoid the `TypeError: Assignment to constant variable` and write more robust code.
 
 ```
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

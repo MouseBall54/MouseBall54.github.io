@@ -115,3 +115,9 @@ except KeyError:
 ## 결론
 
 Python의 `KeyError`는 존재하지 않는 딕셔너리 키에 접근하려 할 때 발생하는 신호다. `in` 키워드를 사용한 간단한 확인, 유연한 `.get()` 메서드, 또는 `try...except`를 이용한 구조적인 오류 처리를 통해 더 안정적이고 오류 없는 코드를 작성할 수 있다. 어떤 방법을 선택할지는 특정 요구사항과 프로그램에서 키가 없는 상황이 예상된 시나리오인지, 아니면 예외적인 이벤트인지에 따라 달라진다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

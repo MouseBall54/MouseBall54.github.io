@@ -92,3 +92,9 @@ To fix existing code, use your editor's feature to **"Convert Indentation to Spa
 3.  **Check Your Blocks**: Always ensure that lines ending with a colon (`:`)—like `if`, `for`, and `def`—are followed by an indented code block.
 
 Adopting proper indentation habits not only prevents `IndentationError` but is also the first step toward writing clean, readable code.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

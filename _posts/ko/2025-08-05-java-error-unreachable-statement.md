@@ -136,3 +136,9 @@ public void runWithCondition(int limit) {
 ### 핵심 요약
 
 "unreachable statement" 오류는 컴파일러가 코드의 일부 로직에 결함이 있음을 알려주는 신호입니다. 절대 실행될 수 없는 문장을 검토하고 제거하라는 의미입니다. 항상 제어 흐름 문장(`return`, `throw`, `break`, `continue`)이 올바르게 배치되었는지, 그리고 루프에 명확한 종료 조건이 있는지 확인하세요.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

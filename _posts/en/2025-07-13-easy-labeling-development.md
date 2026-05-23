@@ -59,3 +59,9 @@ I plan to add more features, including **data augmentation** capabilities and su
 If you're interested in the project, please check out the [GitHub repository](https://github.com/MouseBall54/easy_labeling). Your interest and feedback on this YOLO annotation tool are greatly appreciated!
 
 ---
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [A Deep Dive into Easy Labeling's Features for YOLO Data Labeling](/en_easy_labeling/easy-labeling-in-depth-features/)
+- [Easy Labeling Guide (1) - Loading Images and Labels](/en_easy_labeling/easy-labeling-guide-1/)

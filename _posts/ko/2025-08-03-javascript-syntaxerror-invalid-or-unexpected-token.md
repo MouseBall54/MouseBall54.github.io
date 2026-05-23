@@ -145,3 +145,9 @@ let myConst = "이것은 허용됩니다"; // 변수 이름 변경
 ## 결론
 
 "SyntaxError: Invalid or unexpected token" 오류는 거의 항상 코드 구조의 간단한 실수로 인해 발생합니다. 오류 메시지가 가리키는 코드 줄을 주의 깊게 검사하고, 괄호 불일치, 오타 또는 유효하지 않은 문자와 같은 일반적인 문제를 확인하면 이 오류를 신속하게 해결할 수 있습니다. 린팅 및 구문 강조 기능이 있는 좋은 코드 에디터를 사용하면 코드를 실행하기 전에 이러한 오류를 발견하는 데 도움이 될 수 있습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

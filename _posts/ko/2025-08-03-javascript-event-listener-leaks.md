@@ -145,4 +145,9 @@ document.getElementById('parent-list').addEventListener('click', (event) => {
 ## 결론
 
 이벤트 리스너 누수는 쉽게 간과할 수 있지만 애플리케이션 성능에 심각한 영향을 미칠 수 있습니다. 컴포넌트의 생명주기(lifecycle)를 명확히 이해하고, 요소가 제거될 때 반드시 등록된 리스너를 `removeEventListener`나 `AbortController`를 통해 제거하는 습관을 들이는 것이 중요합니다. 이벤트 위임 패턴은 리스너 관리를 단순화하는 좋은 대안이 될 수 있습니다.
+## 함께 보면 좋은 글
 
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

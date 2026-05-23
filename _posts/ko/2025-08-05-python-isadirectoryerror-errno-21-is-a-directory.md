@@ -151,3 +151,9 @@ else:
 ## 결론
 
 `IsADirectoryError`는 프로그램이 디렉터리를 파일로 착각하고 있다는 명확한 신호입니다. `os.path.isfile()`, `os.path.isdir()`, `os.path.join()`과 같은 `os.path` 모듈의 함수를 사용하면 파일 및 디렉터리 경로를 올바르게 처리하는 더 강력한 코드를 작성할 수 있습니다. 이 오류를 방지하고 애플리케이션의 안정성을 높이려면 파일 작업을 수행하기 전에 항상 경로를 확인하세요.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

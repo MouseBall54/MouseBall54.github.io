@@ -127,3 +127,9 @@ You can also create a global `.gitignore` file for all your repositories on your
 ## Conclusion
 
 Using a `.gitignore` file is essential for keeping your repository clean and focused on the important source code. It prevents unnecessary files from being committed and shared. Many templates for different programming languages and frameworks are available online to get you started.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

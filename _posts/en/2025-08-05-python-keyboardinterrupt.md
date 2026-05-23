@@ -148,4 +148,9 @@ This method is more complex than `try-except` but is useful when you need to app
 `KeyboardInterrupt` is an important mechanism for handling user requests to terminate a program.
 By properly handling this exception with a `try-except` block, you can prevent abnormal termination and ensure that resources are released safely.
 In most cases, a combination of `try-except` and `finally` is sufficient. The `signal` module can be considered for more complex signal handling needs.
+## Related Reading
 
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

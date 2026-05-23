@@ -99,3 +99,9 @@ git --version
 ## 결론
 
 `curl 56 Recv failure` 오류는 일반적으로 네트워크 또는 구성 문제입니다. 연결을 확인하고, HTTP 버퍼를 늘리고, 대용량 저장소에 얕은 복제를 사용하거나, SSH로 전환하면 일반적으로 이 오류를 해결하고 다시 작업할 수 있습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

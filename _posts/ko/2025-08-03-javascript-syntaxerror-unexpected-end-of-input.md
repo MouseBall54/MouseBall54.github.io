@@ -112,3 +112,9 @@ const person = {
 -   코드 편집기의 **괄호 매칭 기능**이나 **린터**를 적극적으로 활용하여 실수를 예방합니다.
 
 차분히 코드를 살펴보면 보통 빠뜨린 중괄호 하나를 찾는 것으로 문제가 해결될 것입니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

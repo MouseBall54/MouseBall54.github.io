@@ -127,3 +127,9 @@ git commit -m "Add .gitignore file"
 ## 결론
 
 `.gitignore` 파일을 사용하는 것은 저장소를 깨끗하게 유지하고 중요한 소스 코드에 집중하는 데 필수적입니다. 불필요한 파일이 커밋되고 공유되는 것을 방지합니다. 다양한 프로그래밍 언어 및 프레임워크에 대한 많은 템플릿이 온라인에서 제공되므로 시작하는 데 도움이 될 수 있습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

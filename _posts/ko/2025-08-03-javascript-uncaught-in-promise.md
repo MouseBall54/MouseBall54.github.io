@@ -114,3 +114,9 @@ fetchData();
 -   `async/await`를 사용할 때는 **`try...catch`** 구문으로 코드를 감싸서 오류를 처리하세요.
 
 안정적인 애플리케이션을 만들기 위해 비동기 오류 처리는 선택이 아닌 필수입니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

@@ -115,3 +115,9 @@ class HelloWorld {
 2.  **`public` 클래스 이름**을 파일 이름에 맞게 변경합니다.
 
 자바에서는 코드의 구조와 가독성을 위해 파일 이름과 `public` 클래스 이름을 일치시키는 것이 표준적인 관례이므로, 항상 이 규칙을 따르는 것이 좋습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

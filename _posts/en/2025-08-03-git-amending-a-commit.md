@@ -98,4 +98,9 @@ If you need to modify a commit that has already been pushed, the correct way is 
 ## Conclusion
 
 `git commit --amend` is a very useful tool for keeping your local repository's commit history clean. It is effective for fixing minor mistakes in the latest commit, such as refining the message or adding forgotten files. However, you must remember that this command changes the commit history and should be used with caution, only on local commits that have not yet been pushed.
+## Related Reading
 
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

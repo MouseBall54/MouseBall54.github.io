@@ -151,3 +151,9 @@ public void addIntegers(List<? super Integer> list) {
 ### 핵심 요약
 
 제네릭은 현대 Java 프로그래밍의 초석입니다. 컴파일 시점에 강력한 타입 검사를 제공하고, 명시적 형변환의 필요성을 없애며, 개발자가 더 재사용 가능하고 견고한 코드를 작성할 수 있게 해줍니다. 항상 컬렉션과 함께 제네릭을 사용하고, 코드의 품질을 향상시키기 위해 자신만의 제네릭 클래스와 메서드를 만드는 것을 고려하세요.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

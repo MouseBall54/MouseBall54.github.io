@@ -114,4 +114,9 @@ print(resp.ok)
 정상 CA 번들을 사용하세요.
 `certifi`나 시스템 인증서를 권장합니다.
 실서비스에서는 검증 우회를 피하세요.
+## 함께 보면 좋은 글
 
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)
+- [ModuleNotFoundError: No module named ‘…’ 오류 해결 방법](/ko_Troubleshooting/python-modulenotfounderror-no-module-named/)

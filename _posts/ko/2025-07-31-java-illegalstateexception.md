@@ -200,3 +200,9 @@ public class ConnectionManagerSolution {
 ## 결론
 
 `IllegalStateException`은 예방적 성격의 예외이다. 객체의 상태에 따라 메서드가 올바르게 사용되도록 강제하여 프로그래밍 오류를 조기에 발견하는 데 도움을 준다. 이 예외를 피하려면 상태 기반의 전제 조건이 있는 메서드를 호출하기 전에 항상 객체가 적절한 상태인지 확인하는 습관을 들여야 한다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

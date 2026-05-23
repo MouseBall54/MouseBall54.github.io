@@ -136,3 +136,9 @@ public void useCustomResource() {
 ### Key Takeaway
 
 Always use the `try-with-resources` statement when working with resources that need to be closed. It is the modern, safe, and preferred way to manage resources in Java, effectively preventing resource leaks and simplifying your code.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

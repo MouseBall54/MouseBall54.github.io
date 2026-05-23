@@ -126,3 +126,9 @@ public class ForEachExample {
 `ArrayIndexOutOfBoundsException`은 배열의 경계를 확인하지 않아 발생하는 단순하지만 치명적인 오류다.
 배열 인덱스에 접근하기 전에는 항상 유효 범위를 확인하는 습관을 들이고, 가능하다면 인덱스를 직접 다루지 않는 향상된 `for`문을 활용하는 것이 좋다.
 이러한 기본 원칙을 지키면 안정적인 코드를 작성하는 데 큰 도움이 된다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

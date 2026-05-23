@@ -110,3 +110,9 @@ const greeting = “Hello, World!”;
 - **에디터 설정**: 일부 코드 에디터는 코드를 붙여넣을 때 스마트 따옴표를 직선 따옴표로 자동 변환하도록 설정할 수 있다.
 
 이러한 일반적인 실수를 체계적으로 확인하면 `SyntaxError: Invalid or unexpected token`을 신속하게 진단하고 수정할 수 있다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

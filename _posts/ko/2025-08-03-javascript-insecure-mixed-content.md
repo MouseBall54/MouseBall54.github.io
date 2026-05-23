@@ -93,4 +93,9 @@ Content-Security-Policy: upgrade-insecure-requests
 ## 결론
 
 "Insecure mixed content" 오류는 사용자 보안을 위한 브라우저의 중요한 기능입니다. 이 문제를 해결하려면 웹사이트에서 로드하는 모든 리소스(자체 서버 및 외부 서드파티 리소스 포함)가 `https://`를 통해 안전하게 제공되는지 확인해야 합니다. 가장 좋은 방법은 모든 URL을 `https://`로 명시적으로 지정하고, `Content-Security-Policy` 헤더를 사용하여 보안을 강화하는 것입니다.
+## 함께 보면 좋은 글
 
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

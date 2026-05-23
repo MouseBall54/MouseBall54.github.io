@@ -100,3 +100,9 @@ Committing the `.gitattributes` file to your repository ensures consistent behav
 ## Conclusion
 
 The "LF will be replaced by CRLF" warning is Git's way of telling you it's helping you manage line endings across different operating systems. By setting `core.autocrlf` correctly or by using a `.gitattributes` file, you can resolve this warning and ensure your project has consistent line endings for everyone.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

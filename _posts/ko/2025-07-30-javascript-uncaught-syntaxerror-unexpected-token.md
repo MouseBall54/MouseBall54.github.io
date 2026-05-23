@@ -105,3 +105,9 @@ JSON.parse(jsonString);
 `Uncaught SyntaxError: Unexpected token`은 코드에 문법적 실수가 있음을 알려주는 명확한 신호다.
 오류 메시지가 가리키는 위치와 예상치 못한 토큰이 무엇인지 주의 깊게 살펴보는 것이 문제 해결의 첫걸음이다.
 코드 편집기의 구문 강조 기능과 Linter를 적극적으로 활용하면 이러한 종류의 오류를 사전에 예방하고 빠르게 수정하는 데 큰 도움이 된다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

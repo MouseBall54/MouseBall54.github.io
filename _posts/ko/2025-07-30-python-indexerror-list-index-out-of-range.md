@@ -105,3 +105,9 @@ else:
 ```
 
 이러한 간단한 확인 절차를 따르면 `IndexError`를 예방하고 더 안정적인 Python 코드를 작성할 수 있다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

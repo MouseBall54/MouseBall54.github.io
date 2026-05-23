@@ -174,3 +174,9 @@ public class IterativeSolution {
 ## 결론
 
 `StackOverflowError`는 거의 항상 잘못된 재귀 알고리즘의 직접적인 결과다. 디버깅의 첫 단계는 재귀 함수에 누락되거나 잘못된 기저 사례가 있는지 검사하는 것이다. 재귀가 유효하지만 너무 깊다면, 스택 크기를 늘리는 것에 의존하기 전에 반복적인 해결책으로 리팩토링하는 것을 고려해야 한다. 이는 더 확장 가능하고 메모리 효율적인 코드로 이어질 것이다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

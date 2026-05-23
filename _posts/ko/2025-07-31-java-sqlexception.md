@@ -126,3 +126,9 @@ try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/
 - **우아한 실패**: 사용자 대면 애플리케이션에서 원시 예외 세부 정보를 사용자에게 노출하지 않는다. `SQLException`을 잡고 개발자를 위해 세부 정보를 로깅한 다음 사용자 친화적인 오류 메시지(예: "데이터를 검색할 수 없습니다. 나중에 다시 시도하십시오.")를 표시한다.
 
 이러한 지침을 따르면 데이터베이스와 안전하고 신뢰성 있게 상호 작용하는 견고한 Java 코드를 작성할 수 있다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

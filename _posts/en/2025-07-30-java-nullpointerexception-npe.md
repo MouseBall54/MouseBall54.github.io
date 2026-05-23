@@ -138,3 +138,9 @@ public class User {
 -   Make it a habit to **initialize object fields** at creation time.
 
 By consistently applying these strategies, you can escape the fear of NPEs and write much more stable and predictable code.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

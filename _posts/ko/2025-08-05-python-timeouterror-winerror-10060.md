@@ -149,3 +149,9 @@ except ConnectionError as e:
 ## 결론
 
 `TimeoutError: [WinError 10060]`는 Windows 환경의 Python에서 흔히 발생하는 네트워크 관련 오류입니다. 서버 주소, 방화벽 규칙, 서버 상태, 연결 타임아웃을 체계적으로 점검함으로써 문제를 효과적으로 진단하고 해결할 수 있습니다. 타임아웃을 늘리고 재시도 로직을 추가하는 등 강력한 오류 처리 방법을 구현하면 네트워크 애플리케이션의 안정성을 더욱 높일 수 있습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

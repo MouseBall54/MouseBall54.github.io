@@ -134,4 +134,9 @@ class MyClass {
 ## 결론
 
 JavaScript에서 `this`의 동작 방식을 이해하는 것은 매우 중요합니다. 콜백 함수나 이벤트 핸들러에서 `this`가 `undefined`가 되는 문제는 대부분 컨텍스트 상실 때문에 발생합니다. **화살표 함수**는 이러한 문제를 해결하는 가장 직관적이고 효과적인 방법이며, `bind`는 특정 컨텍스트를 명시적으로 고정해야 할 때 유용합니다. 코드의 일관성과 가독성을 위해 `this`를 다루는 일관된 전략을 사용하는 것이 좋습니다.
+## 함께 보면 좋은 글
 
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

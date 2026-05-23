@@ -148,3 +148,9 @@ cba1a2d Add initial files for feature
 ## 결론
 
 Interactive rebase는 커밋 히스토리를 관리하는 강력한 기능입니다. 변경 사항을 다른 사람과 공유하기 전에 히스토리를 깔끔하게 만드는 데 사용하세요. 그러나 이미 공유 저장소에 푸시된 커밋은 rebase하지 않도록 주의해야 합니다. 히스토리를 다시 작성하여 협업자에게 문제를 일으킬 수 있기 때문입니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

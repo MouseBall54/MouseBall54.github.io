@@ -105,3 +105,9 @@ You can use an online JSON validation tool (like JSONLint) or re-check the JSON 
 `Uncaught SyntaxError: Unexpected token` is a clear signal that there is a syntax mistake in your code.
 The first step to solving the problem is to carefully examine the location indicated by the error message and what the unexpected token is.
 Actively using the syntax highlighting features of your code editor and a linter will be of great help in preventing and quickly fixing these types of errors.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

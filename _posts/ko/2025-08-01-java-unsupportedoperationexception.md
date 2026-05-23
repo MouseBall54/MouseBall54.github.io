@@ -109,3 +109,9 @@ public class SolutionExample {
 ### 결론
 
 `UnsupportedOperationException`은 객체가 설계되지 않은 작업을 수행하려고 한다는 명확한 신호입니다. 컬렉션과 관련하여 이 예외가 발생하면, 일반적으로 고정 크기 또는 수정 불가능한 컬렉션의 크기를 변경하려고 한다는 의미입니다. 표준 해결책은 기존 컬렉션에서 수정 가능한 새 컬렉션 인스턴스(예: `ArrayList` 또는 `HashSet`)를 만드는 것입니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

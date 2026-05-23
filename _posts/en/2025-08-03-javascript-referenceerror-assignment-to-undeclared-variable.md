@@ -132,3 +132,9 @@ It signals that you are trying to use a variable without declaring it first.
 To fix it, always declare your variables with `let`, `const`, or `var`.
 Adopting strict mode is a best practice.
 It helps you write more robust and maintainable JavaScript code.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

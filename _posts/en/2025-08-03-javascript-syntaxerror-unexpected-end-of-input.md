@@ -112,3 +112,9 @@ The `SyntaxError: Unexpected end of input` is almost always the result of not cl
 -   Leverage your code editor's **bracket matching** and **linting** features to prevent these errors proactively.
 
 A calm review of your code will usually reveal a single missing brace or parenthesis.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

@@ -101,3 +101,9 @@ app.use((req, res, next) => {
 ### 결론
 
 CORB 경고는 브라우저가 잠재적인 보안 취약점으로부터 사용자를 보호하고 있다는 신호입니다. 이는 거의 항상 서버가 요청된 리소스에 대해 잘못된 `Content-Type` 헤더를 보내기 때문에 발생합니다. 가장 좋은 해결책은 전송되는 콘텐츠를 정확하게 설명하도록 서버의 응답 헤더를 수정하는 것입니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

@@ -151,3 +151,9 @@ Using single quotes can often prevent the shell from expanding the wildcard, let
 ## Conclusion
 
 The `pathspec '...' did not match any files` error is usually straightforward to fix. It almost always comes down to a typo, being in the wrong directory, or a `.gitignore` rule. By systematically checking these common causes, you can quickly resolve the issue and get back to work.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

@@ -131,3 +131,9 @@ console.log(color); // undefined (오류 발생 안 함)
 1.  **스크립트 위치를 확인**하고 `<body>` 끝으로 옮기거나,
 2.  **`DOMContentLoaded` 이벤트**를 사용하여 DOM이 준비된 후 코드를 실행하세요.
 3.  **조건문**이나 **Optional Chaining (`?.`)**을 사용하여 항상 `null` 가능성을 염두에 둔 방어적인 코드를 작성하는 습관을 들이는 것이 좋습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

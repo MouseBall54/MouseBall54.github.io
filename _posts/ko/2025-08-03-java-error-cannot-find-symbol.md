@@ -121,3 +121,9 @@ SymbolTest.java:4: error: cannot find symbol
 3.  변수의 스코프가 올바른가?
 4.  메서드 시그니처가 일치하는가?
 5.  외부 라이브러리가 클래스패스에 포함되었는가?
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

@@ -143,3 +143,9 @@ fetchWithTimeout('https://api.example.com/slow-resource', 5000)
 -   **`Promise.race()`**는 가장 먼저 완료된 프로미스의 결과만 필요할 때 사용합니다.
 
 시나리오에 맞는 올바른 메서드를 선택함으로써 더 깨끗하고 선언적이며 효율적인 비동기 JavaScript 코드를 작성할 수 있습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

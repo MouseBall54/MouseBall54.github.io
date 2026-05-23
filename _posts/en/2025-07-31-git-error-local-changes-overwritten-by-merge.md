@@ -105,3 +105,9 @@ If you decide that your local changes are no longer needed and you just want to 
     ```
 
 By choosing one of these three methods—commit, stash, or discard—you can safely manage your local work and resolve the "overwritten by merge" error.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

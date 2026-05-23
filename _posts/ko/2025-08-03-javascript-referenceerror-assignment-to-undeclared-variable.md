@@ -132,3 +132,9 @@ JavaScript 엄격 모드의 한 기능입니다.
 해결하려면 항상 `let`, `const`, 또는 `var`로 변수를 선언하세요.
 엄격 모드를 채택하는 것은 모범 사례입니다.
 더 견고하고 유지보수하기 좋은 JavaScript 코드를 작성하는 데 도움이 됩니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

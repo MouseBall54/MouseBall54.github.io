@@ -110,3 +110,9 @@ const greeting = “Hello, World!”;
 - **Configure your editor**: Some code editors can be configured to automatically convert smart quotes to straight quotes when you paste code.
 
 By systematically checking for these common mistakes, you can quickly diagnose and fix the `SyntaxError: Invalid or unexpected token`.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

@@ -114,3 +114,9 @@ print(filtered_numbers)
 3.  수정하는 대신, 필요한 항목만 담은 새로운 딕셔너리 만들기
 
 대부분의 경우, 코드가 간결하고 안전한 **딕셔너리 컴프리헨션**을 사용하는 것을 권장합니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

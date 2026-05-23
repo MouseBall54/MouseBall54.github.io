@@ -157,3 +157,9 @@ console.log(myArray); // [1, 2, 3, 4]
 3.  **`var` 사용 피하기**: 현대 JavaScript(ES6+)에서는 `var`를 사용할 이유가 거의 없습니다. `var`의 함수 스코프 및 호이스팅 동작은 `let`과 `const`가 방지하도록 설계된 버그를 유발할 수 있습니다.
 
 이러한 규칙을 따르면 더 명확하고 신뢰할 수 있으며 디버깅하기 쉬운 JavaScript 코드를 작성할 수 있습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

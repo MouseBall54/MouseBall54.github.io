@@ -122,3 +122,9 @@ $(function() {
 ## 결론
 
 "jQuery is not defined" 오류는 거의 항상 로딩 문제입니다. `<script>` 태그가 올바른 순서에 있는지 확인하고, jQuery 파일 경로를 확인하고, 코드를 `$(document).ready()` 블록으로 감싸면 이 오류를 제거하고 신뢰할 수 있는 jQuery 기반 애플리케이션을 구축할 수 있습니다. 항상 의존성을 먼저 로드하는 것은 웹 개발의 기본 규칙입니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

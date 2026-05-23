@@ -115,3 +115,9 @@ The `Error: a public class ... must be defined in a file called ... .java` is ca
 2.  Change the **`public` class name** to match the file name.
 
 Adhering to this naming convention is a standard practice in Java that improves code organization and readability. It's best to always follow this rule.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

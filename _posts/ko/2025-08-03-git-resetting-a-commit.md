@@ -103,4 +103,9 @@ git reset --hard HEAD~
 
 -   `git reset`은 로컬 저장소의 커밋 히스토리를 변경하는 작업입니다. 이미 원격 저장소에 푸시(push)한 커밋을 `reset`으로 되돌린 후 다시 푸시하려면 `--force` 옵션이 필요합니다. 이는 팀원들의 히스토리와 충돌을 일으킬 수 있으므로, 공유된 브랜치에서는 `git reset` 대신 `git revert`를 사용하는 것이 더 안전합니다.
 -   `git reset --hard`는 되돌릴 수 없는 작업이므로, 실행하기 전에 `git status`나 `git log`로 현재 상태를 다시 한번 확인하는 것이 좋습니다.
+## 함께 보면 좋은 글
 
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

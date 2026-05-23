@@ -121,3 +121,9 @@ The `TypeError: '...' object is not iterable` arises from attempting to loop ove
 4.  To iterate over a sequence of numbers, use the **`range()`** function.
 
 Always being mindful of your variables' types is key to avoiding this common error.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

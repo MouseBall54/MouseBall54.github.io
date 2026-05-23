@@ -135,3 +135,9 @@ if (myVar == null) {
 `==`와 `===`는 둘 다 동등성을 확인하지만, 서로 바꿔 쓸 수 없습니다. 느슨한 동등 연산자(`==`)는 자동 타입 강제 변환을 통해 코드에 미묘하고 혼란스러운 버그를 유발할 수 있습니다. 엄격한 동등 연산자(`===`)는 예측 가능하고 신뢰할 수 있으며, 더 명확하고 유지 관리하기 쉬운 코드로 이어집니다.
 
 `===`를 기본 선택으로 삼음으로써 더 강력한 JavaScript를 작성하고 많은 일반적인 함정을 피할 수 있습니다. `==`는 의도적으로 타입 강제 변환 동작을 활용하려는 드문 경우를 위해 남겨두세요.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

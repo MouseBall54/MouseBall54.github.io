@@ -113,3 +113,9 @@ git cherry-pick --abort
 ## 결론
 
 `git cherry-pick`은 한 브랜치에서 다른 브랜치로 특정 커밋을 적용하는 정밀한 도구입니다. 핫픽스나 브랜치 간에 기능을 선택적으로 공유하는 것과 같은 상황에 적합합니다. 병합이 더 적절한 경우 중복 변경을 만들지 않도록 신중하게 사용하세요.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

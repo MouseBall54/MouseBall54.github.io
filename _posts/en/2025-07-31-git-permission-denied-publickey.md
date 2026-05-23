@@ -121,3 +121,9 @@ git remote set-url origin git@github.com:YOUR-USERNAME/YOUR-REPOSITORY.git
 ```
 
 By following these steps, you can resolve the `Permission denied (publickey)` error and securely connect to your remote repositories.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

@@ -103,3 +103,9 @@ Git 인증에 SSH를 사용하는 것은 HTTPS보다 종종 더 안전하고 편
     이제 `push` 또는 `pull`을 할 때 Git은 인증을 위해 SSH 키를 사용하게 되며, 403 오류가 해결될 것이다.
 
 자격 증명, 권한 및 인증 방법을 확인함으로써 Git 403 Forbidden 오류를 효과적으로 해결하고 수정할 수 있다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

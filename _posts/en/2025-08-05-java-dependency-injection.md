@@ -172,3 +172,9 @@ These frameworks use configuration (XML or annotations) to understand which impl
 ### Key Takeaway
 
 Dependency Injection is a powerful pattern for building loosely coupled and highly testable applications. By letting an external entity provide dependencies to your classes, you make your code more flexible, modular, and maintainable. While you can implement DI manually, using a framework like Spring or Guice is the standard approach for modern Java applications.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

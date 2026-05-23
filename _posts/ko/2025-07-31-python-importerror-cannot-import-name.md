@@ -108,3 +108,9 @@ from my_module import calculate_total
 이러한 일반적인 원인들을 체계적으로 점검함으로써 `ImportError: cannot import name '...' from '...'` 오류를 효과적으로 해결할 수 있다.
 
 ```
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

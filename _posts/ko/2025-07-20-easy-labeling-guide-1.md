@@ -190,6 +190,9 @@ Easy Labeling은 빠른 작업을 위해 다양한 전환 방법을 제공합니
 
 
 ---
+## 함께 보면 좋은 글
 
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
 
-
+- [YOLO 데이터 라벨링, 설치 없이 웹에서 바로! Easy Labeling 개발기](/ko_easy_labeling/easy-labeling-development/)
+- [YOLO 라벨링 끝판왕, Easy Labeling 주요 기능 파헤치기](/ko_easy_labeling/easy-labeling-in-depth-features/)

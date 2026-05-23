@@ -100,4 +100,9 @@ logger.info('This is a test log message.')
 ## 결론
 
 `OSError: [Errno 28] No space left on device`는 코드 자체의 문제라기보다는 시스템 환경의 문제입니다. 디스크 공간이나 Inode 사용량을 주기적으로 확인하고, 프로그램이 불필요한 파일을 남기지 않도록 관리하는 것이 중요합니다. 특히 로그 파일과 임시 파일 관리는 장시간 실행되는 애플리케이션에서 필수적입니다.
+## 함께 보면 좋은 글
 
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

@@ -105,4 +105,9 @@ public class AnotherClass {
 ## 결론
 
 Java의 "public class ... must be defined in a file called ... .java" 오류는 Java의 기본 규칙을 따르지 않았을 때 발생합니다. 이 규칙은 코드를 체계적으로 구성하고, 컴파일러와 JVM이 클래스를 쉽게 찾을 수 있도록 돕기 위해 존재합니다. 문제를 해결하려면 파일 이름과 `public` 클래스 이름이 항상 대소문자까지 정확히 일치하는지 확인하는 습관을 들이는 것이 중요합니다.
+## 함께 보면 좋은 글
 
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

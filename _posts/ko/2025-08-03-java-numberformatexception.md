@@ -153,3 +153,9 @@ try {
 - **문자열 전처리:** `trim()` 및 `replace()`와 같은 메서드를 사용하여 파싱 전에 문자열을 정리하세요.
 
 이러한 지침을 따르면 `NumberFormatException`을 효과적으로 처리하고 Java 애플리케이션을 더 견고하고 사용자 친화적으로 만들 수 있습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

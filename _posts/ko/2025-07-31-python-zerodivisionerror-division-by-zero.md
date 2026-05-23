@@ -156,3 +156,9 @@ except ZeroDivisionError:
 ## 결론
 
 `ZeroDivisionError`는 이해하기 쉽지만 예방을 위해 방어적인 프로그래밍이 필요하다. 특히 변수, 계산 또는 외부 데이터를 다룰 때는 항상 0인 제수의 가능성을 예상해야 한다. 직접적인 검사를 위해서는 간단한 조건부 `if` 문을 사용하고, 더 견고하고 안전한 오류 처리를 위해서는 `try-except` 블록을 사용하자.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

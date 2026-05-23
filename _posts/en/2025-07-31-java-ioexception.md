@@ -137,3 +137,9 @@ public class ThrowsExample {
 ```
 
 By choosing the appropriate strategy—handling it directly with `try-catch` or delegating it with `throws`—you can manage `IOException` effectively and build resilient Java applications.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

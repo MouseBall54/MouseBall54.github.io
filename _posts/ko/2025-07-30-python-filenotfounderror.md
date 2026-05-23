@@ -104,3 +104,9 @@ except Exception as e:
 ## 결론
 
 `FileNotFoundError`는 파일을 찾을 수 없음을 나타내는 직관적인 오류다. 파일 경로를 신중하게 확인하고, 절대 경로와 상대 경로의 차이점을 이해하며, `os.path.exists()`나 `try...except` 블록과 같은 도구를 사용함으로써 파일 작업을 더 안정적으로 처리하고 더 견고한 애플리케이션을 만들 수 있다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

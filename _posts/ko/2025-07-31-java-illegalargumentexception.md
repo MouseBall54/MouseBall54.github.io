@@ -127,3 +127,9 @@ public void processPerson(int ageInput) {
 4.  **잡지 말 것 (보통의 경우)**: `IllegalArgumentException`을 호출 코드의 버그를 수정하라는 신호로 취급하라. 입력을 완전히 제어할 수 없는 제3자 라이브러리와 상호 작용하는 경우와 같이 매우 드문 경우에만 사용자 친화적인 오류 메시지를 제공하기 위해 잡는 것을 고려할 수 있다.
 
 `IllegalArgumentException`을 올바르게 사용함으로써 더 견고하고 예측 가능하며 자체 문서화되는 API를 만들 수 있다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

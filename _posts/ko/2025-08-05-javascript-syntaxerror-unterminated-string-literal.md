@@ -56,3 +56,9 @@ console.log(htmlString);
 이 오류의 주요 원인은 다음과 같습니다.
 
 1.  **따옴표 불일치 또는 누락**: 문자열을 시작하는 따옴표(작은따옴표 `'` 또는 큰따옴표 `
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

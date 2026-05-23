@@ -95,4 +95,9 @@ telnet <server_ip> <port>
 ## 결론
 
 `ConnectionError: [Errno 111] Connection refused`는 네트워크 프로그래밍에서 흔히 마주치는 문제이며, 대부분의 경우 클라이언트 코드보다는 서버 측의 상태나 네트워크 구성에 원인이 있습니다. 문제를 해결하기 위해서는 서버가 정상적으로 실행 중인지, 올바른 주소와 포트로 리스닝하고 있는지, 그리고 방화벽이 연결을 막고 있지는 않은지 체계적으로 확인하는 접근 방식이 필요합니다.
+## 함께 보면 좋은 글
 
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

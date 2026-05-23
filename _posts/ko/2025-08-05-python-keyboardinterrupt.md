@@ -148,4 +148,9 @@ while True:
 `KeyboardInterrupt`는 사용자의 프로그램 중단 요청을 처리하는 중요한 메커니즘입니다.
 `try-except` 블록을 사용하여 이 예외를 적절히 처리하면, 프로그램이 비정상적으로 종료되는 것을 막고 리소스를 안전하게 해제할 수 있습니다.
 대부분의 경우 `try-except`와 `finally` 조합으로 충분하며, 더 복잡한 신호 처리가 필요할 때 `signal` 모듈을 고려해볼 수 있습니다.
+## 함께 보면 좋은 글
 
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

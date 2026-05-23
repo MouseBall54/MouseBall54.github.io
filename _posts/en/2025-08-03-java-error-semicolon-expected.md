@@ -117,3 +117,9 @@ When you encounter a `';' expected` error, pay close attention to the location p
 ## Conclusion
 
 `Error: ';' expected` occurs when you violate one of the most basic syntax rules in Java. When you face this error, don't panic. It is important to get into the habit of carefully checking that every statement ends with a semicolon, focusing on the location the compiler provides.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

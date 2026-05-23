@@ -93,4 +93,9 @@ Wrapper 타입 null 검사 필수.
 
 NullPointerException은 대부분 사전 검사와 올바른 초기화로 예방 가능하다.
 Optional과 nullability 어노테이션을 적극 활용하자.
+## 함께 보면 좋은 글
 
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

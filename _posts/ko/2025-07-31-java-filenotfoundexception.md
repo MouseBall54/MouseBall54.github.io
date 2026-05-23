@@ -127,3 +127,9 @@ public class FileCreationExample {
 ```
 
 경로, 권한을 체계적으로 확인하고 강력한 오류 처리를 사용하면 `FileNotFoundException`을 효과적으로 해결할 수 있다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

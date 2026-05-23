@@ -117,3 +117,9 @@ git checkout -b recovered-feature
 ## 결론
 
 "Detached HEAD"는 Git의 정상적인 부분이지만, 조심하지 않으면 위험할 수 있습니다. 핵심은 detached HEAD 상태에서 커밋을 했다면, **다른 곳으로 전환하기 전에 해당 커밋을 위한 새 브랜치를 만드는 것**입니다. 이렇게 하면 작업이 항상 안전하게 브랜치에 연결되도록 할 수 있습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

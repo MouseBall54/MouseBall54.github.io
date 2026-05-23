@@ -112,3 +112,9 @@ pip install -r requirements.txt
 ## 결론
 
 `SystemError: ... returned NULL without setting an error`는 위협적인 오류이지만 대개 해결할 수 있습니다. 이는 Python 로직이 아닌 환경이나 사용 중인 라이브_level C 코드의 문제를 나타냅니다. 체계적으로 패키지를 업데이트하고, 깨끗한 가상 환경을 사용하고, 문제가 되는 코드를 격리함으로써 문제를 효과적으로 진단할 수 있습니다. 대부분의 경우, 문제가 있는 라이브러리를 최신 버전으로 업데이트하는 것만으로도 문제가 해결됩니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

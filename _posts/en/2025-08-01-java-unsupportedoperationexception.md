@@ -109,3 +109,9 @@ While `Arrays.asList()` is the most common trigger, other scenarios can also cau
 ### Conclusion
 
 `UnsupportedOperationException` is a clear signal that you are trying to perform an action that an object was not designed for. When you encounter it with collections, it usually means you are trying to change the size of a fixed-size or unmodifiable collection. The standard solution is to create a new, modifiable collection instance (like an `ArrayList` or `HashSet`) from the existing one.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

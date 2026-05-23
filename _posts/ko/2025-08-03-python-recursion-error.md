@@ -106,4 +106,9 @@ def factorial_iterative(n):
 ## 결론
 
 `RecursionError`는 대부분 재귀 함수의 종료 조건에 문제가 있을 때 발생합니다. 코드를 디버깅하여 종료 조건을 먼저 확인하고, 필요한 경우에만 재귀 깊이 한도를 조정하세요. 가장 좋은 해결책은 재귀적인 알고리즘을 반복적인 형태로 바꾸어 스택 깊이의 제약에서 벗어나는 것입니다.
+## 함께 보면 좋은 글
 
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

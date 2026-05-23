@@ -131,4 +131,9 @@ button.addEventListener('click', () => this.method());
 ## Conclusion
 
 "TypeError: undefined is not a function" is usually a simple fix—correct names, load scripts in order, use proper imports, and ensure correct context. Following these guidelines prevents the error and keeps your JavaScript running smoothly.
+## Related Reading
 
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

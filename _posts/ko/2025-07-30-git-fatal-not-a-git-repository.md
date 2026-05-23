@@ -100,3 +100,9 @@ git status
 만약 새로운 프로젝트를 시작하거나 기존 프로젝트를 내려받는 경우라면 `git init` 또는 `git clone`을 적절히 사용하여 저장소를 올바르게 설정해야 한다.
 
 ```
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

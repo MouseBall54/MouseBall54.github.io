@@ -126,3 +126,9 @@ except AttributeError:
 ## 결론
 
 `AttributeError: 'NoneType' object has no attribute '...'`는 코드의 논리적 결함을 알리는 런타임 오류다. 이 오류는 객체라고 생각했던 변수가 실제로는 `None`임을 알려준다. `None`을 확인하는 코드를 추가하고, 함수의 반환값을 이해하며, `None`인 경우를 명시적으로 처리함으로써 코드를 더 견고하게 만들고 이 흔한 오류가 프로그램을 중단시키는 것을 방지할 수 있다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

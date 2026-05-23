@@ -138,3 +138,9 @@ public class User {
 -   객체 필드는 **생성 시점에 초기화**하는 것을 습관화하세요.
 
 이러한 전략들을 꾸준히 적용하면 NPE의 공포에서 벗어나 훨씬 더 안정적이고 예측 가능한 코드를 작성할 수 있을 것입니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

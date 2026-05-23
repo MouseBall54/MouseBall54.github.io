@@ -95,4 +95,9 @@ If you also get a "Connection refused" error here, it confirms that the problem 
 ## Conclusion
 
 `ConnectionError: [Errno 111] Connection refused` is a common issue in network programming, and its cause usually lies with the server's state or network configuration rather than the client's code. To resolve it, a systematic approach is needed: check if the server is running correctly, listening on the right address and port, and not being blocked by a firewall.
+## Related Reading
 
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

@@ -112,3 +112,9 @@ public void run() {
 - **Unchecked exception 사용:** 프로그래밍 오류를 나타내는 데 사용합니다. `NullPointerException`은 호출자가 잡아서 처리하기보다는 코드에서 수정되어야 할 버그(예: null 확인 추가)를 시사합니다.
 
 이 차이점을 이해함으로써 Java에서 더 견고하고 유지보수하기 좋은 API와 애플리케이션을 설계할 수 있습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

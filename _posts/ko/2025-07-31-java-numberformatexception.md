@@ -144,3 +144,9 @@ System.out.println("숫자의 값은: " + number);
 - **사용자 피드백 제공**: 사용자 대면 애플리케이션에서는 예외를 잡고 프로그램이 충돌하는 대신 명확하고 사용자 친화적인 오류 메시지를 제공한다.
 
 이러한 기술을 적용하면 숫자 변환을 다룰 때 Java 애플리케이션을 더 탄력적이고 사용자 친화적으로 만들 수 있다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

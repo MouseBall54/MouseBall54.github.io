@@ -128,3 +128,9 @@ git bisect run npm test
 ## 결론
 
 `git bisect`는 코드베이스의 회귀를 신속하게 추적하는 데 매우 유용한 도구입니다. 버그를 유발하는 커밋 검색을 자동화하여 디버깅 프로세스에서 상당한 시간과 노력을 절약할 수 있습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

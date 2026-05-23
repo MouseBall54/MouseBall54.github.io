@@ -104,3 +104,9 @@ When you create a PAT on GitHub, you will see an option to **"Configure SSO"** o
 ## Conclusion
 
 A `403 Forbidden` error in Git is almost always tied to authentication or permissions. By systematically checking your credentials, switching to a Personal Access Token, and verifying your repository access rights, you can quickly resolve this error. When in doubt, start by clearing your old credentials and trying again with a fresh PAT.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

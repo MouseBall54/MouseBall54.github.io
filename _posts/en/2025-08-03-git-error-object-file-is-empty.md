@@ -112,4 +112,9 @@ If you are working on a team project and have local commits that have not been p
 ## Conclusion
 
 The `error: object file ... is empty` error is caused by corruption in Git's internal database, usually triggered by an improper system shutdown or external factors. The simplest solution is to remove the corrupted object and fetch it again from the remote. If the problem is severe or the remote is up-to-date, re-cloning is the safest option. It is always important to get into the habit of backing up your repository before attempting any repairs.
+## Related Reading
 
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

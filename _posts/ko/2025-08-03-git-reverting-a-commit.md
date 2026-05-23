@@ -111,3 +111,9 @@ git log --oneline
 -   팀원과 함께 작업하는 **공유 브랜치에서는 `git reset` 대신 `git revert`를 사용**하는 것이 원칙입니다.
 
 실수를 바로잡는 것은 개발 과정의 일부입니다. `git revert`를 올바르게 사용하여 프로젝트 히스토리를 깨끗하고 안전하게 관리하세요.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

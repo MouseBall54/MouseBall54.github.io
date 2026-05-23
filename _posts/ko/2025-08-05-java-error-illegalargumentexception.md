@@ -134,3 +134,9 @@ public class Connection {
 ### 핵심 요약
 
 `IllegalArgumentException`을 사용하여 메서드를 견고하고 자체적으로 문서화되도록 만드세요. 메서드 시작 시 인수를 검증하고 이 예외를 발생시킴으로써, 잘못된 사용에 대한 즉각적이고 명확한 피드백을 제공하여 버그를 예방하고 코드를 더 쉽게 유지보수할 수 있도록 돕습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

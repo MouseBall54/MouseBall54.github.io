@@ -147,3 +147,9 @@ public String getCategory(int score) {
 ### 핵심 요약
 
 "missing return statement" 오류를 피하려면 반환 타입이 있는 메서드를 작성할 때 항상 주의를 기울여야 합니다. 실행 경로가 어떻게 되든 항상 `return` 문에 도달하도록 보장해야 합니다. 이를 위한 간단한 방법은 메서드 본문 마지막에 조건 없는 최종 `return` 문을 두는 것입니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

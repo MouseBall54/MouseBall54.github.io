@@ -121,3 +121,9 @@ for i in range(5):
 4.  숫자 범위를 순회하려면 **`range()`** 함수를 사용합니다.
 
 변수의 타입을 항상 염두에 두고 코드를 작성하는 습관이 중요합니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

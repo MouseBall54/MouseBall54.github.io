@@ -140,3 +140,9 @@ The `TypeError: missing 1 required positional argument` occurs when the basic ru
 3.  For class methods, **call the method on an instance** of the class, or use **`@staticmethod`** if `self` is not needed.
 
 The error message tells you exactly which argument is missing, so checking the function or method definition should be your first step in debugging.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

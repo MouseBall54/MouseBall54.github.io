@@ -151,3 +151,9 @@ public void processData(int[] data) {
 ### 핵심 요약
 
 "variable might not have been initialized" 오류를 방지하려면, 지역 변수를 선언할 때 항상 기본값을 할당하는 습관을 들이는 것이 좋습니다. 이것이 컴파일러가 변수를 안전하게 사용할 수 있다고 항상 확인할 수 있도록 하는 가장 간단하고 신뢰할 수 있는 방법입니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

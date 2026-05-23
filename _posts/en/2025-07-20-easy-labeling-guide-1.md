@@ -180,3 +180,9 @@ Thank you.
 ------
 
 ▶️ [Next: Guide to Labeling Work (Coming Soon)](easy-labeling-guide-2.md)
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [Introducing Easy Labeling: A Free Web-Based Tool for YOLO Object Detection](/en_easy_labeling/easy-labeling-development/)
+- [A Deep Dive into Easy Labeling's Features for YOLO Data Labeling](/en_easy_labeling/easy-labeling-in-depth-features/)

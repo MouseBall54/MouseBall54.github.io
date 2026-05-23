@@ -122,3 +122,9 @@ console.log(person.age); // 출력: 30
 - **필요할 때만 `let`으로 전환**: 변수를 재할당해야 할 필요가 생기면, 그때 가서 선언을 `const`에서 `let`으로 변경한다. 이 습관은 우발적인 재할당을 방지하고 코드를 더 예측 가능하게 만든다.
 
 `const`와 `let`의 차이점을 이해하면 `TypeError: Assignment to constant variable`를 쉽게 피하고 더 견고한 코드를 작성할 수 있다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

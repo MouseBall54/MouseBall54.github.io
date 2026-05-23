@@ -200,3 +200,9 @@ public class ConnectionManagerSolution {
 ## Conclusion
 
 `IllegalStateException` is a preventative exception. It helps you catch programming errors early by enforcing that methods are used correctly according to the object's state. To avoid it, always check if an object is in the appropriate state before calling a method that has state-based prerequisites.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

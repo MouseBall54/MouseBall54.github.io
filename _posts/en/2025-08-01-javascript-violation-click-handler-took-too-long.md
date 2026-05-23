@@ -133,3 +133,9 @@ If your long-running task involves direct DOM manipulation or animations, use `r
 ### Conclusion
 
 The `[Violation] 'click' handler took ...ms` warning is a critical performance indicator. It signals that your code is blocking the main thread and degrading the user experience. By deferring non-essential work with `setTimeout`, moving heavy computations to Web Workers, or chunking large tasks, you can keep your UI smooth and responsive.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

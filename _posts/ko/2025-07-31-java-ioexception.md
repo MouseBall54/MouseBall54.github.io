@@ -137,3 +137,9 @@ public class ThrowsExample {
 ```
 
 `try-catch`로 직접 처리하거나 `throws`로 위임하는 등 적절한 전략을 선택하여 `IOException`을 효과적으로 관리하고 복원력 있는 Java 애플리케이션을 구축할 수 있다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

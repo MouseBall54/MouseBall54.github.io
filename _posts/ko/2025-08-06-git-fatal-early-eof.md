@@ -101,3 +101,9 @@ git remote set-url origin git@github.com:user/repo.git
 ## 결론
 
 `fatal: early EOF` 오류는 거의 항상 네트워크 관련 문제입니다. 명령을 다시 시도하고, 서버 상태를 확인하고, 대용량 저장소에 얕은 복제를 사용하고, 네트워크 구성이 안정적인지 확인하여 이 문제를 효과적으로 해결할 수 있습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

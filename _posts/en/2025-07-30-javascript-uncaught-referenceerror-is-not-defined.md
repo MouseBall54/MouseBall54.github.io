@@ -138,3 +138,9 @@ It is a good practice to check the developer tools' Network tab to ensure the sc
 `Uncaught ReferenceError` usually stems from basic mistakes.
 The main causes are typos, incorrect declaration order, and misunderstandings of scope.
 By carefully examining the code around the variable or function name mentioned in the error message, you can usually solve the problem easily.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

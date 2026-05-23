@@ -104,3 +104,9 @@ System.out.println(sbf.toString()); // "Hello World"
 - 고정된 문자열 값이나 간단한 연결에는 **`String`**을 사용하세요.
 - 단일 스레드 환경에서 대부분의 문자열 구성 작업에는 **`StringBuilder`**를 사용하세요 (이것이 가변 문자열의 기본 선택입니다).
 - 여러 스레드 간에 공유되는 가변 문자열이 필요할 때만 **`StringBuffer`**를 사용하세요.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

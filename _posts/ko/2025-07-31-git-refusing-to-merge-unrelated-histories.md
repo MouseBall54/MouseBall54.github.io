@@ -94,3 +94,9 @@ git commit -m "관련 없는 기록 병합"
 - **손상된 저장소 복구**: 로컬 `.git` 디렉터리가 손실된 경우 원격 백업과 강제로 병합해야 할 수 있다.
 
 `--allow-unrelated-histories` 플래그를 사용하면 Git의 기본 안전 검사를 무시하고 별도의 커밋 기록을 가진 두 프로젝트를 성공적으로 결합할 수 있다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

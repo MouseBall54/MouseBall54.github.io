@@ -131,3 +131,9 @@ The `TypeError: Cannot read properties of null` is most often a DOM loading-orde
 1.  **Check your script's location** and consider moving it to the end of the `<body>`.
 2.  Use the **`DOMContentLoaded` event** to run your code only after the DOM is ready.
 3.  Adopt a defensive coding style by using **conditional statements** or **Optional Chaining (`?.`)** to account for the possibility of `null` values.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

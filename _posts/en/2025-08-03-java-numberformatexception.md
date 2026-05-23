@@ -153,3 +153,9 @@ try {
 - **Preprocess strings:** Use methods like `trim()` and `replace()` to clean up strings before parsing them.
 
 By following these guidelines, you can effectively handle `NumberFormatException` and make your Java applications more robust and user-friendly.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

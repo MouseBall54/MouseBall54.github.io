@@ -113,3 +113,9 @@ git cherry-pick --abort
 ## Conclusion
 
 `git cherry-pick` is a precise tool for applying specific commits from one branch to another. It's perfect for situations like hotfixes or selectively sharing features between branches. Use it carefully to avoid creating duplicate changes where a merge would be more appropriate.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

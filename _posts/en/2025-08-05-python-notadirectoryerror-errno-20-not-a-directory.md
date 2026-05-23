@@ -175,3 +175,9 @@ if file_contents is None:
 ## Conclusion
 
 The `NotADirectoryError` is a clear indication of a logical error in path handling. It serves as a reminder to be deliberate about whether you are working with a file or a directory. By using validation functions like `os.path.isdir()` and path manipulation tools like `os.path.dirname()`, you can prevent this error and create more reliable and predictable file system interactions in your Python scripts.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

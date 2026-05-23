@@ -133,3 +133,9 @@ function processAll(data) {
 ### 결론
 
 `[Violation] 'click' handler took ...ms` 경고는 중요한 성능 지표입니다. 이는 코드가 메인 스레드를 차단하고 사용자 경험을 저하시키고 있음을 나타냅니다. `setTimeout`으로 필수적이지 않은 작업을 지연시키거나, 무거운 계산을 Web Worker로 옮기거나, 큰 작업을 청크로 나누어 UI를 부드럽고 응답성 있게 유지할 수 있습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

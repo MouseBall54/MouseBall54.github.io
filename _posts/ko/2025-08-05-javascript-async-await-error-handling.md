@@ -162,3 +162,9 @@ console.log("요청이 시작되었습니다.");
 -   또는 `async` 함수 호출 자체에 `.catch()`를 사용하여 오류 처리를 호출자에게 위임하세요.
 
 `async/await`와 함께 `try...catch`를 마스터하면 깨끗하고 가독성 좋을 뿐만 아니라 탄력 있고 신뢰할 수 있는 비동기 코드를 작성할 수 있습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

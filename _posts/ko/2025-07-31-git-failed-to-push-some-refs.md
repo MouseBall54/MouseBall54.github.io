@@ -102,3 +102,9 @@ git push origin your-branch-name
 **주의:** `rebase`는 커밋 기록을 재작성하므로, 익숙하지 않다면 다른 개발자와 공유하는 브랜치에서는 사용을 피하는 것이 좋다.
 
 이 단계를 따르면 로컬 저장소를 원격과 동기화하여 변경 사항을 성공적으로 푸시할 수 있다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

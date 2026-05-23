@@ -124,3 +124,9 @@ Hi <username>! You've successfully authenticated.
 ## 결론
 
 SSH 키 생성, 에이전트 등록, 공개키 업로드 과정을 차례대로 수행하면 “Permission denied (publickey)” 오류를 해결할 수 있음.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [ModuleNotFoundError: No module named ‘…’ 오류 해결 방법](/ko_Troubleshooting/python-modulenotfounderror-no-module-named/)

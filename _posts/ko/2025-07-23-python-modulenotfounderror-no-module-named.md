@@ -108,3 +108,9 @@ print(sys.path)
 
 `ModuleNotFoundError`는 대부분 설치 또는 경로 문제.
 올바른 인터프리터 사용, 가상환경 활성화, 이름 충돌 방지로 쉽게 해결 가능.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

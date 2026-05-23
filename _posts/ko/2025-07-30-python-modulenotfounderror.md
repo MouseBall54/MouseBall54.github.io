@@ -108,3 +108,9 @@ python -m pip install some_module
 ## 결론
 
 `ModuleNotFoundError`는 보통 쉽게 해결할 수 있는 흔한 장애물이다. 올바른 `pip`로 모듈을 설치하고, 오타를 확인하며, 올바른 Python 환경에서 작업하고 있는지 확인함으로써 이 오류를 신속하게 해결하고 코딩으로 돌아갈 수 있다. 프로젝트 시작부터 가상 환경을 사용하는 것은 이러한 문제를 전반적으로 예방하는 좋은 방법이다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

@@ -138,3 +138,9 @@ functionTwo(); // "I am shared"
 `Uncaught ReferenceError`는 대부분 기본적인 실수에서 비롯된다.
 오타, 잘못된 선언 순서, 스코프에 대한 오해 등이 주된 원인이다.
 오류 메시지에 나타난 변수나 함수 이름을 중심으로 코드를 차근차근 살펴보면 대부분의 경우 쉽게 문제를 해결할 수 있다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

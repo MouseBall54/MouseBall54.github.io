@@ -129,4 +129,9 @@ This occurs when the type parameters do not match in collections that use generi
 ## Conclusion
 
 `Error: incompatible types` is a helpful error that allows you to catch potential bugs at compile time, thanks to Java's strong type system. When you encounter this error, carefully examine the "required" and "found" types provided by the compiler and modify your code to make the two types compatible. You can resolve the issue by changing the value's type, changing the variable's type, or performing an explicit cast.
+## Related Reading
 
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

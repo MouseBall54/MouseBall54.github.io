@@ -114,3 +114,9 @@ git add my new file.txt
 By checking for these four common issues—typos, incorrect paths, untracked files, and missing quotes—you can easily resolve the `fatal: pathspec '...' did not match any files` error.
 
 ```
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

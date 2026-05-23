@@ -151,3 +151,9 @@ The mnemonic **PECS** (Producer Extends, Consumer Super) helps remember when to 
 ### Key Takeaway
 
 Generics are a cornerstone of modern Java programming. They provide strong type checking at compile time, eliminate the need for explicit casts, and allow developers to write more reusable and robust code. Always use generics with collections and consider creating your own generic classes and methods to improve the quality of your code.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

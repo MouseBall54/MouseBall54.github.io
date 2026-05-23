@@ -83,3 +83,9 @@ flake8 your_script.py
 ### 결론
 
 `TabError`는 파이썬의 중요한 공백 규칙의 직접적인 결과입니다. 에디터를 설정하여 탭 대신 공백을 사용하고 내장 도구를 사용하여 기존 파일을 정리함으로써 이 오류를 완전히 제거할 수 있습니다. 들여쓰기에 4개의 공백을 사용하는 PEP 8 스타일 가이드를 준수하면 모든 파이썬 개발자가 코드를 더 일관성 있고 읽기 쉽게 만들 수 있습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

@@ -148,3 +148,9 @@ The history is now much cleaner and easier to understand.
 ## Conclusion
 
 Interactive rebase is a powerful feature for managing commit history. Use it to make your history clean before sharing your changes with others. However, be careful not to rebase commits that have already been pushed to a shared repository, as it rewrites history and can cause issues for collaborators.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

@@ -119,3 +119,9 @@ print("안녕하세요,", name, "님. 나이는", age, "세입니다.")
 특히 f-string은 현대 파이썬에서 가장 간결하고 효율적인 방법이므로 적극적으로 활용하는 것을 권장한다.
 
 ```
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

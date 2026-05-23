@@ -126,3 +126,9 @@ The enhanced `for` loop internally manages the array's boundaries, so there is n
 `ArrayIndexOutOfBoundsException` is a simple but critical error caused by not checking the array's boundaries.
 It is a good habit to always check the valid range before accessing an array index, and if possible, use the enhanced `for` loop that does not handle indices directly.
 Following these basic principles will greatly help in writing stable code.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

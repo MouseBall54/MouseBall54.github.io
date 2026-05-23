@@ -92,3 +92,9 @@ if True:
 3.  **블록 확인**: `if`, `for`, `def` 등 콜론(`:`)으로 끝나는 줄 다음에는 반드시 들여쓰기된 코드 블록이 와야 합니다.
 
 올바른 들여쓰기 습관은 `IndentationError`를 예방할 뿐만 아니라, 가독성 높은 코드를 작성하는 첫걸음입니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

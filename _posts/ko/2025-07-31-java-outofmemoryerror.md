@@ -97,3 +97,9 @@ java -Xmx2g -jar my-application.jar
 ## 결론
 
 `OutOfMemoryError`는 신중한 조사가 필요한 심각한 문제다. 힙 크기를 늘리는 것이 빠른 해결책이 될 수 있지만, 종종 근본적인 메모리 누수를 가릴 뿐이다. 가장 좋은 접근 방식은 애플리케이션의 메모리 사용량을 사전에 분석하고, 오류 발생 시 힙 덤프를 생성하며, Eclipse MAT와 같은 도구를 사용하여 근본 원인을 정확히 찾아내는 것이다. 애플리케이션이 메모리를 어떻게 관리하는지 이해함으로써 더 견고하고 확장 가능한 Java 애플리케이션을 구축할 수 있다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

@@ -100,3 +100,9 @@ git remote set-url origin https://<your_username>:<your_pat>@github.com/user/rep
 ## 결론
 
 "terminal prompts disabled" 오류는 Git이 자격 증명을 요청할 수 없을 때 발생하는 일반적인 문제입니다. 가장 좋은 해결책은 자격 증명 헬퍼를 구성하거나 SSH 인증으로 전환하는 것입니다. 두 방법 모두 원격 저장소와 상호 작용할 때마다 암호를 수동으로 입력하는 것보다 더 안전하고 편리합니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

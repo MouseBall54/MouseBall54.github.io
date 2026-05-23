@@ -125,3 +125,9 @@ long count = people.parallelStream()
 ### 핵심 요약
 
 Stream API는 현대 Java 개발의 필수적인 부분입니다. 복잡한 데이터 처리 작업을 위해 가독성 높고 선언적인 코드를 작성할 수 있게 해줍니다. 중간 연산과 최종 연산을 연결함으로써, 전통적인 명령형 코드보다 이해하기 쉬운 강력하고 효율적인 데이터 파이프라인을 만들 수 있습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

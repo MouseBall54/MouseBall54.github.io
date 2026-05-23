@@ -110,3 +110,9 @@ git clone --recurse-submodules https://github.com/your/project.git
 ## 결론
 
 Git 서브모듈은 외부 Git 저장소에 대한 의존성을 관리하는 강력한 방법입니다. 외부 코드를 별도로 유지하면서 프로젝트에 깔끔하게 통합할 수 있습니다. 때때로 작업하기 까다로울 수 있지만, 버전 관리되는 다른 구성 요소에 의존하는 프로젝트에는 매우 유용합니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

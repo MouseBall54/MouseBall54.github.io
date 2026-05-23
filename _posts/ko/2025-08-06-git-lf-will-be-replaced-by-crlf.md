@@ -100,3 +100,9 @@ git config --global core.autocrlf input
 ## 결론
 
 "LF will be replaced by CRLF" 경고는 Git이 여러 운영 체제에서 줄 바꿈을 관리하는 데 도움을 주고 있음을 알려주는 방법입니다. `core.autocrlf`를 올바르게 설정하거나 `.gitattributes` 파일을 사용하여 이 경고를 해결하고 프로젝트에 모든 사람에게 일관된 줄 바꿈이 있도록 할 수 있습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

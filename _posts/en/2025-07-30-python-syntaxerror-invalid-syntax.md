@@ -119,3 +119,9 @@ while True:
 -   Check for typos in keywords.
 
 By developing these habits, you'll be able to fix `SyntaxError` much more quickly and efficiently when it appears.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

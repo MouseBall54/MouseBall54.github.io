@@ -147,3 +147,9 @@ public String getCategory(int score) {
 ### Key Takeaway
 
 To avoid the "missing return statement" error, always double-check your methods that have a return type. Make sure that no matter what path the execution takes, it will always hit a `return` statement. A simple way to ensure this is to have a final, unconditional `return` statement at the end of the method body.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

@@ -120,3 +120,9 @@ console.log(decodeURIComponent(properlyEncodedUri)); // "https://api.example.com
 ```
 
 문자열이 디코딩 함수에 전달되기 전에 올바르게 인코딩되었는지 확인하고 안전을 위해 `try...catch` 블록을 사용하면 `URIError: URI malformed` 오류를 효과적으로 방지하고 관리할 수 있다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

@@ -140,3 +140,9 @@ print(result)
 3.  클래스 메서드의 경우, **인스턴스를 생성한 후 메서드를 호출**하거나, `self`가 필요 없다면 **`@staticmethod`**를 사용합니다.
 
 오류 메시지가 어떤 인자가 누락되었는지 알려주므로, 해당 함수나 메서드의 정의를 확인하는 것이 디버깅의 첫걸음입니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

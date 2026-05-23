@@ -125,4 +125,9 @@ if __name__ == '__main__':
 ## 결론
 
 `MemoryError`는 주로 데이터 처리 방식과 관련이 있습니다. 대용량 데이터를 다룰 때는 스트리밍, 제너레이터 등 메모리 효율적인 방법을 사용하고, 프로파일링 도구를 활용하여 메모리 병목 현상을 찾아 해결하는 것이 중요합니다.
+## 함께 보면 좋은 글
 
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

@@ -172,3 +172,9 @@ class NotificationService {
 ### 핵심 요약
 
 의존성 주입은 느슨하게 결합되고 테스트하기 쉬운 애플리케이션을 구축하기 위한 강력한 패턴입니다. 외부 엔티티가 클래스에 의존성을 제공하게 함으로써 코드를 더 유연하고, 모듈화되고, 유지보수하기 쉽게 만듭니다. DI를 수동으로 구현할 수도 있지만, Spring이나 Guice와 같은 프레임워크를 사용하는 것이 현대 Java 애플리케이션의 표준 접근 방식입니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

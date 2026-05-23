@@ -110,3 +110,9 @@ Removing a submodule is a multi-step process:
 ## Conclusion
 
 Git submodules are a powerful way to manage dependencies on external Git repositories. They allow you to keep external code separate while integrating it cleanly into your project. While they can sometimes be tricky to work with, they are invaluable for projects that rely on other version-controlled components.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

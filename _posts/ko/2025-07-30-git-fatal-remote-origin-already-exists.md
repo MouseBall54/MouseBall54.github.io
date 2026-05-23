@@ -110,3 +110,9 @@ git remote -v
 `fatal: remote origin already exists` 오류는 Git의 원격 저장소 이름이 중복될 때 발생하는 자연스러운 현상이다.
 `git remote -v` 명령으로 현재 설정된 원격 저장소 목록을 먼저 확인하는 습관을 들이는 것이 중요하다.
 상황에 맞게 `set-url`로 URL을 변경하거나, `remove`로 삭제 후 다시 추가하거나, 혹은 새로운 이름으로 다른 원격 저장소를 추가하는 방법을 사용하면 쉽게 문제를 해결할 수 있다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

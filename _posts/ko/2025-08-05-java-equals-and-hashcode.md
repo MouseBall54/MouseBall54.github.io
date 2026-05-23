@@ -127,3 +127,9 @@ class User {
 ### 핵심 요약
 
 `equals()`를 오버라이드할 때는 항상 `hashCode()`도 오버라이드하세요. 이를 수행하는 가장 쉽고 안전한 방법은 `java.util.Objects.hash()` 유틸리티 메서드를 사용하고, `equals()` 구현에 사용한 것과 동일한 필드를 전달하는 것입니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

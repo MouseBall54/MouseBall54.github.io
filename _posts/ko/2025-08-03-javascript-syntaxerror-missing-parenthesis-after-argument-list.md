@@ -81,3 +81,9 @@ alert(parseInt("123"));
 -   **인자 목록 뒤에 닫는 괄호 `)`가 제대로 위치**하고 있는지 확인합니다.
 
 대부분의 경우, 빠진 괄호 하나를 추가하는 것만으로 문제가 해결됩니다. 코드 편집기의 보조 기능을 활용하면 이러한 실수를 사전에 방지하는 데 큰 도움이 됩니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

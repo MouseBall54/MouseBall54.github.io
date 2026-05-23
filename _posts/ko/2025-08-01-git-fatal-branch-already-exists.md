@@ -118,3 +118,9 @@ git reset --hard main
 ### 결론
 
 "fatal: A branch named '...' already exists" 오류는 Git의 간단한 안전장치입니다. 이 오류가 표시되면 잠시 시간을 내어 `git branch`로 로컬 브랜치를 확인하세요. 거기서부터 다른 이름을 사용할지, 기존 브랜치로 전환할지, 또는 새 브랜치를 위해 이전 브랜치를 삭제/재설정할지 결정할 수 있습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

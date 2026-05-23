@@ -153,3 +153,9 @@ git merge --abort
 ## 결론
 
 병합 충돌은 Git 작업의 정상적인 부분입니다. 충돌 마커가 무엇을 의미하는지 이해하면 자신 있게 해결할 수 있습니다. 최종 결과가 올바른지 확인하기 위해 항상 변경 사항을 신중하게 검토하세요.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

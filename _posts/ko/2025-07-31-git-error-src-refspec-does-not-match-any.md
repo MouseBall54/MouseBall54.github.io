@@ -119,3 +119,9 @@ git push origin HEAD
 ### 결론
 
 "src refspec ... does not match any" 오류는 흔하고 보통 해결하기 쉬운 문제입니다. 거의 항상 오타나 존재하지 않는 로컬 브랜치를 푸시하려고 할 때 발생합니다. `git branch`를 사용하여 로컬 브랜치를 확인함으로써, 푸시 명령어를 쉽게 수정하고 코드를 원격 저장소로 보낼 수 있습니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

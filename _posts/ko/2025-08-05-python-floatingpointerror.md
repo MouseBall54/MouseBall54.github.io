@@ -138,3 +138,9 @@ if result is not None:
 `FloatingPointError`는 표준 Python에서는 드물지만, `numpy`와 같은 라이브러리에서 정밀한 제어가 필요할 때 마주칠 수 있습니다.
 `try-except`를 사용한 예외 처리, `decimal` 모듈을 통한 정밀 계산, 입력 값 검증 등의 방법을 통해 이 문제를 효과적으로 해결할 수 있습니다.
 자신의 코드 환경과 요구사항에 맞는 해결책을 선택하는 것이 중요합니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

@@ -166,3 +166,9 @@ for-each 루프 안에서 직접 컬렉션을 수정하지 마세요.
 대신 `Iterator`, `removeIf()` 메서드, 또는 임시 컬렉션을 사용하세요.
 올바른 방법을 선택하는 것은 특정 요구에 따라 다릅니다.
 이러한 관행은 더 안전하고 깨끗한 Java 코드를 작성하는 데 도움이 됩니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

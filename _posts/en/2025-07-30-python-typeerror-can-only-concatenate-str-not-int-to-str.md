@@ -120,3 +120,9 @@ To solve this problem, it is best to either directly convert the type with the `
 F-strings, in particular, are the most concise and efficient method in modern Python, so it is highly recommended to use them actively.
 
 ```
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

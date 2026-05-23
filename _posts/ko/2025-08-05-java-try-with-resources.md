@@ -136,3 +136,9 @@ public void useCustomResource() {
 ### 핵심 요약
 
 닫아야 하는 리소스를 다룰 때는 항상 `try-with-resources` 구문을 사용하세요. 이것은 Java에서 리소스를 관리하는 현대적이고 안전하며 선호되는 방식으로, 효과적으로 리소스 누수를 방지하고 코드를 단순화합니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

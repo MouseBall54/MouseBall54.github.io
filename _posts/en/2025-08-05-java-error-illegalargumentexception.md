@@ -134,3 +134,9 @@ public class Connection {
 ### Key Takeaway
 
 Use `IllegalArgumentException` to make your methods robust and self-documenting. By validating arguments at the start of your methods and throwing this exception, you provide immediate and clear feedback about incorrect usage, which helps prevent bugs and makes your code easier to maintain.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

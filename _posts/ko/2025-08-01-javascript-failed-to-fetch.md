@@ -102,3 +102,9 @@ app.listen(3001, () => console.log('Server is running'));
 ### 결론
 
 "Failed to fetch" 오류는 체계적인 문제 해결이 필요한 광범위한 네트워크 관련 오류입니다. 네트워크 연결 및 URL 오타와 같은 가장 간단한 설명부터 시작하여 CORS 정책과 같은 더 복잡한 문제로 넘어가세요. 대부분의 웹 개발 시나리오에서 서버의 잘못된 CORS 헤더 구성이 주된 원인입니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

@@ -98,3 +98,9 @@ git commit --amend -m "새로운 커밋 메시지"
 ## 결론
 
 `git commit --amend`는 로컬 저장소의 커밋 히스토리를 깔끔하게 유지하는 데 매우 유용한 도구입니다. 최신 커밋의 메시지를 다듬거나 빠뜨린 파일을 추가하는 등의 작은 실수를 바로잡는 데 효과적입니다. 하지만 이 명령은 커밋 히스토리를 변경한다는 점을 명심하고, 아직 푸시하지 않은 로컬 커밋에만 신중하게 사용해야 합니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

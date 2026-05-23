@@ -100,3 +100,9 @@ checkAndCast(123, String.class);      // 실패
 타사 라이브러리나 프레임워크로 작업할 때 예외가 발생하면 해당 문서를 주의 깊게 검토한다. 메서드가 예상과 다른 프록시 객체나 하위 클래스 타입을 반환할 수 있다. 정확한 반환 타입을 이해하는 것이 중요하다.
 
 `instanceof` 확인으로 방어적인 코드를 작성하고 Java의 제네릭 시스템을 활용하면 `ClassCastException`을 제거하고 더 강력하고 타입 안전한 애플리케이션을 만들 수 있다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

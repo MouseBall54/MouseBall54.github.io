@@ -167,3 +167,9 @@ except ValueError:
 ## 결론
 
 `TypeError: unsupported operand type(s) for +`는 데이터 타입의 중요성을 강조하는 Python의 근본적인 오류입니다. 이를 해결하려면 명시적인 타입 변환을 수행하여 `+` 연산자를 호환되는 타입에만 사용하도록 해야 합니다. 문자열 연결에는 `str()`, 수학적 덧셈에는 `int()` 또는 `float()`, 다른 자료 구조에는 `append()`나 `update()`와 같은 적절한 메서드를 사용하세요. 문자열 포맷팅에 f-string을 채택하면 더 깨끗하고 오류 없는 코드를 작성하는 데 도움이 될 것입니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

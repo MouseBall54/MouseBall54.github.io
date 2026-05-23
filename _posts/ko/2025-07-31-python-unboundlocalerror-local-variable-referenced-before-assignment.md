@@ -157,3 +157,9 @@ outer_function()
 *   **전역 변수**를 수정하려는 경우, `global` 키워드를 사용한다.
 *   **바깥쪽 함수의 스코프**에 있는 변수를 수정하려는 경우, `nonlocal` 키워드를 사용한다.
 *   그렇지 않은 경우, **지역 변수**를 읽기 전에 모든 가능한 코드 경로에서 값이 할당되도록 보장해야 한다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

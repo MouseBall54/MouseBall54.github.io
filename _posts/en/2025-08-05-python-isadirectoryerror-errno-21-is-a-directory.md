@@ -151,3 +151,9 @@ This pattern ensures you only attempt to open actual files.
 ## Conclusion
 
 The `IsADirectoryError` is a clear signal that your program is confusing a directory for a file. By using the functions in the `os.path` module—such as `os.path.isfile()`, `os.path.isdir()`, and `os.path.join()`—you can write more robust code that correctly handles file and directory paths. Always validate paths before performing file operations to prevent this error and make your application more reliable.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

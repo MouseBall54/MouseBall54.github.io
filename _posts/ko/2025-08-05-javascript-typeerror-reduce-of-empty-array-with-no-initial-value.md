@@ -135,3 +135,9 @@ const sumWithInitialValue = numbers.reduce((acc, val) => acc + val, 0);
 `TypeError: Reduce of empty array with no initial value`는 `reduce()` 메서드의 동작 방식을 이해하면 쉽게 해결할 수 있는 문제입니다.
 가장 좋은 해결책이자 예방책은 **`reduce()`를 사용할 때 항상 적절한 초기값을 제공하는 것**입니다.
 이는 코드를 더 예측 가능하고 안정적으로 만들어주며, 빈 배열과 같은 엣지 케이스를 자연스럽게 처리해줍니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

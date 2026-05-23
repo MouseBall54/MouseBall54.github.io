@@ -146,3 +146,9 @@ public class Main {
 1.  **로그 확인:** 이전에 발생한 `ExceptionInInitializerError`가 있는지 확인한다.
 2.  **런타임 클래스패스 검증:** 필요한 모든 JAR이 있는지 확인한다.
 3.  **빌드 구성 및 패키징된 아티팩트 검사:** Maven, Gradle 설정과 WAR, JAR 파일을 검사하여 의존성이 올바르게 포함되었는지 확인한다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

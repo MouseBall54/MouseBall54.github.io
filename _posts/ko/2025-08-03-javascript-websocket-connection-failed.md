@@ -107,4 +107,9 @@ if (window.location.protocol === 'https:/') {
 ## 결론
 
 WebSocket 연결 실패는 다양한 요인이 복합적으로 작용하여 발생할 수 있습니다. 문제 해결을 위해서는 클라이언트 URL부터 시작하여 서버 상태, 네트워크 설정, 서버 측 로직까지 단계적으로 확인하는 체계적인 접근이 필요합니다. 브라우저 개발자 도구는 문제의 원인을 파악하는 데 가장 강력한 도구 중 하나이므로 적극적으로 활용하세요.
+## 함께 보면 좋은 글
 
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

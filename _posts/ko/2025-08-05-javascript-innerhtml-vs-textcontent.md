@@ -126,3 +126,9 @@ myDiv.textContent = '이것은 <span>새로운</span> 텍스트입니다.';
 `innerHTML`과 `textContent`의 차이점을 이해하는 것은 안전하고 효율적인 JavaScript를 작성하는 데 중요합니다. `innerHTML`은 동적 HTML을 만드는 데 강력하지만 보안 위험을 무시할 수 없습니다. `textContent`는 모든 일반 텍스트 작업에 대해 더 안전하고 빠른 대안을 제공합니다.
 
 두 가지 중 하나를 의식적으로 선택함으로써 XSS 취약점으로부터 애플리케이션을 보호하고 더 나은 성능을 보장할 수 있습니다. 기억하세요: **기본적으로 `textContent`를 사용하고, `innerHTML`은 주의해서 사용하세요.**
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

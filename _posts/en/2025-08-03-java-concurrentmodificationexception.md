@@ -166,3 +166,9 @@ Never modify a collection directly inside a for-each loop.
 Instead, use an `Iterator`, the `removeIf()` method, or a temporary collection.
 Choosing the right method depends on your specific needs.
 These practices will help you write safer and cleaner Java code.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

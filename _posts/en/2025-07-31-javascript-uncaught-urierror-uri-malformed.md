@@ -120,3 +120,9 @@ console.log(decodeURIComponent(properlyEncodedUri)); // "https://api.example.com
 ```
 
 By ensuring that strings are correctly encoded before being passed to decoding functions and by using `try...catch` blocks for safety, you can effectively prevent and manage the `URIError: URI malformed` error.
+## Related Reading
+
+Continue with these related posts from the same topic area.
+
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)

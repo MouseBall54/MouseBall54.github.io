@@ -158,3 +158,9 @@ document.addEventListener('DOMContentLoaded', () => {
 ## 결론
 
 "Cannot read properties of undefined" 오류를 해결하려면, 변수와 객체를 사용하기 전에 적절하게 초기화해야 한다. `null` 또는 `undefined`를 확인하고 옵셔널 체이닝을 사용하는 등 방어적인 코딩 기법은 이 오류를 예방하고 코드를 더 견고하게 만든다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)

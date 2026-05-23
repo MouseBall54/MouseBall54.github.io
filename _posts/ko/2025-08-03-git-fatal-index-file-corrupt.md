@@ -98,3 +98,9 @@ tags:
 ## 결론
 
 `fatal: index file corrupt` 오류는 당황스러울 수 있지만, 다행히 인덱스 파일은 Git 저장소의 핵심 데이터(객체)와는 분리되어 있어 상대적으로 쉽게 복구할 수 있습니다. 손상된 인덱스 파일을 삭제하고 `git reset`을 통해 새로 생성하는 방법으로 대부분의 문제를 해결할 수 있습니다. 이 과정에서 스테이징했던 내용은 사라지지만, 워킹 디렉터리의 실제 파일 변경 내용은 보존되므로 안전합니다.
+## 함께 보면 좋은 글
+
+같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
+
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)
