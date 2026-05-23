@@ -1,7 +1,7 @@
 ---
 title: "Study"
 layout: archive
-permalink: /en_Study/
+permalink: /en_study/
 lang: en
 seo_description: >
   Study system articles about active recall, spaced repetition, mistake notes, coding study roadmaps, focus routines, and weekly review.
@@ -17,9 +17,9 @@ Each article includes a routine, template, or decision rule that can be tested i
 
 ## Start Here
 
-- [Active Recall Study Method](/en_Study/active-recall-study-method/)
-- [Spaced Repetition Schedule](/en_Study/spaced-repetition-schedule/)
-- [Exam Mistake Note System](/en_Study/exam-mistake-note-system/)
+- [Active Recall Study Method](/en_study/active-recall-study-method/)
+- [Spaced Repetition Schedule](/en_study/spaced-repetition-schedule/)
+- [Exam Mistake Note System](/en_study/exam-mistake-note-system/)
 
 ## Latest Articles
 

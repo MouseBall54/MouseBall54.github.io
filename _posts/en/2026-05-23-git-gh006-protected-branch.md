@@ -177,8 +177,8 @@ Protection rules exist to keep the main branch stable.
 
 ## Related Reading
 
-- [How to Fix Git fatal Authentication failed](/en_Troubleshooting/git-fatal-authentication-failed/)
-- [GitHub Actions Build Failed](/en_Troubleshooting/github-actions-build-failed/)
+- [How to Fix Git fatal Authentication failed](/en_troubleshooting/git-fatal-authentication-failed/)
+- [GitHub Actions Build Failed](/en_troubleshooting/github-actions-build-failed/)
 - [GitHub: About protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)
 - [GitHub: Managing a branch protection rule](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule)
 

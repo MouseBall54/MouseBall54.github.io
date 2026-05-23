@@ -201,9 +201,9 @@ GDP는 중요하지만 늦게 나오고 수정될 수 있습니다.
 
 ## 함께 보면 좋은 글
 
-- [금리와 물가가 같이 움직이는 이유](/ko_Economy/interest-rate-inflation-basics/)
-- [환율이 오르면 생기는 일](/ko_Economy/exchange-rate-basics/)
-- [50/30/20 예산법 쓰는 법](/ko_Economy/household-budget-50-30-20/)
+- [금리와 물가가 같이 움직이는 이유](/ko_economy/interest-rate-inflation-basics/)
+- [환율이 오르면 생기는 일](/ko_economy/exchange-rate-basics/)
+- [50/30/20 예산법 쓰는 법](/ko_economy/household-budget-50-30-20/)
 - [NBER Business Cycle Dating](https://www.nber.org/research/business-cycle-dating)
 - [New York Fed recession probability model](https://www.newyorkfed.org/research/capital_markets/ycfaq.html)
 

@@ -55,8 +55,6 @@ search_full_content      : # true, false (default)
 search_provider          : lunr
 lunr:
   search_within_pages    : true
-lunr:
-  search_within_pages    : # true, false (default)
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -222,6 +220,7 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+future: true # publish same-day scheduled campaign posts during local builds and GitHub Actions builds
 
 
 # Pagination with jekyll-paginate
@@ -269,32 +268,14 @@ whitelist:
   - jekyll-seo-tag
 
 # Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path>/my-awesome-category/index.html ~> path: /
+# Category hubs are manually maintained in _pages/category-*.md because this
+# bilingual site needs language-aware introductions and starting links.
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
 
 
 # HTML Compression

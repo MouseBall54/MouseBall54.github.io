@@ -156,9 +156,9 @@ Next review: Day 2
 
 Related technical posts:
 
-- [Python venv Not Activating](/en_Troubleshooting/python-venv-not-activating/)
-- [Python Command Not Found on Windows](/en_Troubleshooting/python-command-not-found-windows/)
-- [Active Recall Study Method](/en_Study/active-recall-study-method/)
+- [Python venv Not Activating](/en_troubleshooting/python-venv-not-activating/)
+- [Python Command Not Found on Windows](/en_troubleshooting/python-command-not-found-windows/)
+- [Active Recall Study Method](/en_study/active-recall-study-method/)
 
 ## Common Mistakes
 
@@ -172,9 +172,9 @@ Related technical posts:
 
 ## Related Reading
 
-- [Active Recall Study Method](/en_Study/active-recall-study-method/)
-- [Spaced Repetition Schedule](/en_Study/spaced-repetition-schedule/)
-- [Weekly Study Review](/en_Study/weekly-study-review/)
+- [Active Recall Study Method](/en_study/active-recall-study-method/)
+- [Spaced Repetition Schedule](/en_study/spaced-repetition-schedule/)
+- [Weekly Study Review](/en_study/weekly-study-review/)
 
 ## FAQ
 

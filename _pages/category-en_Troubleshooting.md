@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting"
 layout: archive
-permalink: /en_Troubleshooting/
+permalink: /en_troubleshooting/
 lang: en
 seo_description: >
   Developer troubleshooting articles for Python, JavaScript, Java, Git, Docker, GitHub Actions, Jekyll, and common build errors.
@@ -15,9 +15,9 @@ If you arrived from an exact error message, match the tool, version, and operati
 
 ## Start Here
 
-- [Fix python Command Not Found on Windows](/en_Troubleshooting/python-command-not-found-windows/)
-- [Fix Node.js Cannot Find Module](/en_Troubleshooting/node-cannot-find-module/)
-- [Fix GitHub Actions Build Failed](/en_Troubleshooting/github-actions-build-failed/)
+- [Fix python Command Not Found on Windows](/en_troubleshooting/python-command-not-found-windows/)
+- [Fix Node.js Cannot Find Module](/en_troubleshooting/node-cannot-find-module/)
+- [Fix GitHub Actions Build Failed](/en_troubleshooting/github-actions-build-failed/)
 
 ## Latest Articles
 

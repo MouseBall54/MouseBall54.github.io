@@ -42,11 +42,24 @@ For non-trivial work, define success before editing. Examples:
 
 ## Development Commands
 
-- `bundle install`: install Ruby/Jekyll dependencies.
-- `bundle exec jekyll serve`: run the site locally.
+- Ubuntu setup when Ruby is missing: `sudo apt-get update && sudo apt-get install -y ruby-full build-essential zlib1g-dev libssl-dev libyaml-dev libffi-dev`.
+- `gem install bundler`: install Bundler if `bundle -v` is not available.
+- `bundle install`: install Ruby/Jekyll dependencies from `Gemfile`.
+- `bundle exec jekyll serve`: run the site locally at `http://127.0.0.1:4000`.
 - `bundle exec jekyll build --trace`: validate the production build.
 - `python update_posts.py`: add missing `lang` and `translation_id` fields to paired posts.
 - `rake js`: rebuild `assets/js/main.min.js` after JavaScript source edits.
+- `npm run validate:content-plan`: validate paired posts, category hubs, internal links, images, and AdSense wiring.
+
+## Minimal Mistakes Usage
+
+This repository vendors Minimal Mistakes layouts, includes, Sass, and assets instead of using a remote theme. Keep custom site logic in the smallest possible include or layout override.
+
+- Global custom head code belongs in `_includes/head/custom.html`; Minimal Mistakes includes it at the end of `<head>`.
+- Main and sidebar navigation belongs in `_data/navigation.yml`.
+- Category and tag archive settings live in `_config.yml`.
+- Do not enable `jekyll-archives` unless the project intentionally moves away from the manual bilingual category hubs.
+- Keep `url: "https://mouseball54.github.io"` and empty `baseurl` for the user GitHub Pages site.
 
 ## Content Rules
 
@@ -98,6 +111,26 @@ Current content categories are:
 - `en_Troubleshooting`
 - `ko_easy_labeling`
 - `en_easy_labeling`
+- `ko_AI_Trends`
+- `en_AI_Trends`
+- `ko_Study`
+- `en_Study`
+- `ko_Economy`
+- `en_Economy`
+
+Each post should have exactly one language-prefixed category. Category hub pages must exist at `_pages/category-<category>.md` with a lowercase permalink such as `/en_troubleshooting/`, `sidebar.nav: "sidebar-category"`, useful intro copy, and at least three starting links when enough posts exist.
+
+## AdSense
+
+AdSense is configured through `_config.yml`:
+
+- `adsense.enabled`: turns AdSense markup on or off.
+- `adsense.client`: must stay in `ca-pub-...` format.
+- `adsense.auto_ads`: when true, the AdSense loader in `_includes/head/custom.html` allows Google Auto ads to place ads after the site is approved and Auto ads are enabled in AdSense.
+- `adsense.in_article_slot` and `adsense.post_bottom_slot`: optional manual ad unit slot IDs. Leave empty until real slot IDs are created in AdSense.
+- `adsense.min_words_for_ads`: minimum post word count for manual in-article units.
+
+The root `ads.txt` publisher ID must match `_config.yml` without the `ca-` prefix. Do not paste duplicate AdSense loader scripts into layouts or posts; keep the single loader in `_includes/head/custom.html`.
 
 ## Article Structure
 

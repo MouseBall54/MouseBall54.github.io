@@ -186,9 +186,9 @@ Maybe the source explanation was weak.
 
 Related guide:
 
-- [Active Recall Study Method](/en_Study/active-recall-study-method/)
-- [Python venv Not Activating](/en_Troubleshooting/python-venv-not-activating/)
-- [Compound Interest Example](/en_Economy/compound-interest-example/)
+- [Active Recall Study Method](/en_study/active-recall-study-method/)
+- [Python venv Not Activating](/en_troubleshooting/python-venv-not-activating/)
+- [Compound Interest Example](/en_economy/compound-interest-example/)
 
 ## Common Mistakes
 
@@ -201,9 +201,9 @@ Related guide:
 
 ## Related Reading
 
-- [Active Recall Study Method](/en_Study/active-recall-study-method/)
-- [Exam Mistake Note System](/en_Study/exam-mistake-note-system/)
-- [Weekly Study Review](/en_Study/weekly-study-review/)
+- [Active Recall Study Method](/en_study/active-recall-study-method/)
+- [Exam Mistake Note System](/en_study/exam-mistake-note-system/)
+- [Weekly Study Review](/en_study/weekly-study-review/)
 
 ## FAQ
 

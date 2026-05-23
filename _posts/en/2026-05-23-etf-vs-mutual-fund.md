@@ -157,9 +157,9 @@ It is whether the product is diversified, low-cost, understandable, and aligned 
 
 ## Related Posts
 
-- [Compound Interest Example](/en_Economy/compound-interest-example/)
-- [Spaced Repetition Schedule](/en_Study/spaced-repetition-schedule/)
-- [AI Agent Workflow 2026](/en_AI_Trends/ai-agent-workflow-2026/)
+- [Compound Interest Example](/en_economy/compound-interest-example/)
+- [Spaced Repetition Schedule](/en_study/spaced-repetition-schedule/)
+- [AI Agent Workflow 2026](/en_ai_trends/ai-agent-workflow-2026/)
 
 ## FAQ
 

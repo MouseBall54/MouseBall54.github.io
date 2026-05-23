@@ -120,5 +120,5 @@ print(resp.ok)
 
 같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
 
-- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)
-- [ModuleNotFoundError: No module named ‘…’ 오류 해결 방법](/ko_Troubleshooting/python-modulenotfounderror-no-module-named/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_troubleshooting/git-permission-denied-publickey-windows/)
+- [ModuleNotFoundError: No module named ‘…’ 오류 해결 방법](/ko_troubleshooting/python-modulenotfounderror-no-module-named/)

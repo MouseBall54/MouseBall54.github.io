@@ -184,9 +184,9 @@ Card 자체를 고칩니다.
 
 관련 글:
 
-- [Active recall 공부법](/ko_Study/active-recall-study-method/)
-- [Python 가상환경이 활성화되지 않을 때](/ko_Troubleshooting/python-venv-not-activating/)
-- [복리 계산 예시](/ko_Economy/compound-interest-example/)
+- [Active recall 공부법](/ko_study/active-recall-study-method/)
+- [Python 가상환경이 활성화되지 않을 때](/ko_troubleshooting/python-venv-not-activating/)
+- [복리 계산 예시](/ko_economy/compound-interest-example/)
 
 ## 흔한 실수
 
@@ -199,9 +199,9 @@ Card 자체를 고칩니다.
 
 ## 함께 보면 좋은 글
 
-- [Active Recall 공부법](/ko_Study/active-recall-study-method/)
-- [오답노트 시스템 만드는 법](/ko_Study/exam-mistake-note-system/)
-- [주간 공부 리뷰 루틴](/ko_Study/weekly-study-review/)
+- [Active Recall 공부법](/ko_study/active-recall-study-method/)
+- [오답노트 시스템 만드는 법](/ko_study/exam-mistake-note-system/)
+- [주간 공부 리뷰 루틴](/ko_study/weekly-study-review/)
 
 ## 자주 묻는 질문
 

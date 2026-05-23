@@ -118,5 +118,5 @@ The `SystemError: ... returned NULL without setting an error` is an intimidating
 
 Continue with these related posts from the same topic area.
 
-- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
-- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_troubleshooting/git-permission-denied-publickey-windows/)

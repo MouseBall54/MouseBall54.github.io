@@ -155,5 +155,5 @@ The `TimeoutError: [WinError 10060]` is a common network-related error in Python
 
 Continue with these related posts from the same topic area.
 
-- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
-- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_troubleshooting/git-permission-denied-publickey-windows/)

@@ -10,7 +10,7 @@ seo_description: >
   Git SSH 연결 시 발생하는 “Permission denied (publickey) 오류를 SSH 키 생성, 에이전트 등록, 공개키 업로드로 해결하는 방법.
 lang: ko
 translation_id: git-permission-denied-publickey-windows
-permalink: /ko_Troubleshooting/git-permission-denied-publickey-windows/
+permalink: /ko_troubleshooting/git-permission-denied-publickey-windows/
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
@@ -130,5 +130,5 @@ SSH 키 생성, 에이전트 등록, 공개키 업로드 과정을 차례대로 
 
 같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
 
-- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
-- [ModuleNotFoundError: No module named ‘…’ 오류 해결 방법](/ko_Troubleshooting/python-modulenotfounderror-no-module-named/)
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_troubleshooting/python-certificate-verify-failed/)
+- [ModuleNotFoundError: No module named ‘…’ 오류 해결 방법](/ko_troubleshooting/python-modulenotfounderror-no-module-named/)

@@ -258,15 +258,15 @@ Prompt engineering은 한 층입니다.
 
 관련 글:
 
-- [OpenAI Responses API 사용 흐름](/ko_AI_Trends/openai-responses-api-guide/)
-- [AI agent workflow 2026](/ko_AI_Trends/ai-agent-workflow-2026/)
-- [Spaced repetition 복습 일정](/ko_Study/spaced-repetition-schedule/)
+- [OpenAI Responses API 사용 흐름](/ko_ai_trends/openai-responses-api-guide/)
+- [AI agent workflow 2026](/ko_ai_trends/ai-agent-workflow-2026/)
+- [Spaced repetition 복습 일정](/ko_study/spaced-repetition-schedule/)
 
 ## 함께 보면 좋은 글
 
-- [OpenAI Responses API 사용 흐름](/ko_AI_Trends/openai-responses-api-guide/)
-- [AI 검색 시대의 글 작성 기준](/ko_AI_Trends/ai-search-optimization/)
-- [RAG 평가 체크리스트](/ko_AI_Trends/rag-evaluation-checklist/)
+- [OpenAI Responses API 사용 흐름](/ko_ai_trends/openai-responses-api-guide/)
+- [AI 검색 시대의 글 작성 기준](/ko_ai_trends/ai-search-optimization/)
+- [RAG 평가 체크리스트](/ko_ai_trends/rag-evaluation-checklist/)
 
 ## 자주 묻는 질문
 

@@ -7,7 +7,7 @@ title: >
 date: 2025-08-03T00:00:00+09:00
 lang: en
 translation_id: git-revert-vs-reset-safe-undo
-permalink: /en_Troubleshooting/git-revert-vs-reset-safe-undo/
+permalink: /en_troubleshooting/git-revert-vs-reset-safe-undo/
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
@@ -117,5 +117,5 @@ Fixing mistakes is a natural part of the development process. Use `git revert` c
 
 Continue with these related posts from the same topic area.
 
-- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
-- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_troubleshooting/git-permission-denied-publickey-windows/)

@@ -254,9 +254,9 @@ The fix is complete only when TypeScript, the bundler, and the runtime or test c
 
 ## Related Posts
 
-- [How to Fix "jQuery is not defined" Error in JavaScript](/en_Troubleshooting/javascript-jquery-is-not-defined/)
-- [JavaScript var vs let vs const: What's the Difference?](/en_Troubleshooting/javascript-variables-var-vs-let-vs-const/)
-- [How to Fix "TypeError: '...' is not a function" in JavaScript](/en_Troubleshooting/javascript-typeerror-is-not-a-function/)
+- [How to Fix "jQuery is not defined" Error in JavaScript](/en_troubleshooting/javascript-jquery-is-not-defined/)
+- [JavaScript var vs let vs const: What's the Difference?](/en_troubleshooting/javascript-variables-var-vs-let-vs-const/)
+- [How to Fix "TypeError: '...' is not a function" in JavaScript](/en_troubleshooting/javascript-typeerror-is-not-a-function/)
 
 ## FAQ
 

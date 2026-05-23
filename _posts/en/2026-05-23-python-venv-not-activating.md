@@ -253,9 +253,9 @@ If `pip show` points to `.venv`, activation and installation are working.
 
 ## Related Posts
 
-- [How to Fix pip install Failed in Python](/en_Troubleshooting/python-pip-install-failed/)
-- [How to Fix No module named pip in Python](/en_Troubleshooting/python-no-module-named-pip/)
-- [How to Fix ModuleNotFoundError in Python](/en_Troubleshooting/python-modulenotfounderror/)
+- [How to Fix pip install Failed in Python](/en_troubleshooting/python-pip-install-failed/)
+- [How to Fix No module named pip in Python](/en_troubleshooting/python-no-module-named-pip/)
+- [How to Fix ModuleNotFoundError in Python](/en_troubleshooting/python-modulenotfounderror/)
 
 ## FAQ
 

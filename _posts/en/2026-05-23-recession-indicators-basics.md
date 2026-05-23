@@ -200,9 +200,9 @@ Markets can fall without a recession, and recessions can begin before everyone a
 
 ## Related Reading
 
-- [Interest Rates and Inflation Explained](/en_Economy/interest-rate-inflation-basics/)
-- [Exchange Rate Basics](/en_Economy/exchange-rate-basics/)
-- [50/30/20 Budget Rule](/en_Economy/household-budget-50-30-20/)
+- [Interest Rates and Inflation Explained](/en_economy/interest-rate-inflation-basics/)
+- [Exchange Rate Basics](/en_economy/exchange-rate-basics/)
+- [50/30/20 Budget Rule](/en_economy/household-budget-50-30-20/)
 - [NBER Business Cycle Dating](https://www.nber.org/research/business-cycle-dating)
 - [New York Fed recession probability model](https://www.newyorkfed.org/research/capital_markets/ycfaq.html)
 

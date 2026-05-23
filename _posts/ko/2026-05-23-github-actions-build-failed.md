@@ -306,9 +306,9 @@ git push
 
 ## 관련 글
 
-- [Git failed to push some refs 오류 해결 방법](/ko_Troubleshooting/git-failed-to-push-some-refs/)
-- [Git merge conflict 해결 방법](/ko_Troubleshooting/git-resolving-merge-conflicts/)
-- [Git fatal: could not read Username 오류 해결 방법](/ko_Troubleshooting/git-fatal-could-not-read-username/)
+- [Git failed to push some refs 오류 해결 방법](/ko_troubleshooting/git-failed-to-push-some-refs/)
+- [Git merge conflict 해결 방법](/ko_troubleshooting/git-resolving-merge-conflicts/)
+- [Git fatal: could not read Username 오류 해결 방법](/ko_troubleshooting/git-fatal-could-not-read-username/)
 
 ## 자주 묻는 질문
 

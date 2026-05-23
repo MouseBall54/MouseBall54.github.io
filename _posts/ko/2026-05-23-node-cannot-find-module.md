@@ -288,9 +288,9 @@ npm start
 
 ## 관련 글
 
-- [JavaScript 오류 'Uncaught ReferenceError: is not defined' 해결 방법](/ko_Troubleshooting/javascript-uncaught-referenceerror-is-not-defined/)
-- [JavaScript TypeError: '...' is not a function 해결 방법](/ko_Troubleshooting/javascript-typeerror-is-not-a-function/)
-- [JavaScript jQuery is not defined 오류 해결 방법](/ko_Troubleshooting/javascript-jquery-is-not-defined/)
+- [JavaScript 오류 'Uncaught ReferenceError: is not defined' 해결 방법](/ko_troubleshooting/javascript-uncaught-referenceerror-is-not-defined/)
+- [JavaScript TypeError: '...' is not a function 해결 방법](/ko_troubleshooting/javascript-typeerror-is-not-a-function/)
+- [JavaScript jQuery is not defined 오류 해결 방법](/ko_troubleshooting/javascript-jquery-is-not-defined/)
 
 ## 자주 묻는 질문
 

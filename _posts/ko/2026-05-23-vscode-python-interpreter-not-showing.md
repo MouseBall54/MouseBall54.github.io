@@ -177,8 +177,8 @@ Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 
 ## 함께 보면 좋은 글
 
-- [Python venv가 활성화되지 않을 때](/ko_Troubleshooting/python-venv-not-activating/)
-- [Windows에서 python 명령어가 안 될 때](/ko_Troubleshooting/python-command-not-found-windows/)
+- [Python venv가 활성화되지 않을 때](/ko_troubleshooting/python-venv-not-activating/)
+- [Windows에서 python 명령어가 안 될 때](/ko_troubleshooting/python-command-not-found-windows/)
 - [VS Code: Python environments](https://code.visualstudio.com/docs/python/environments)
 - [VS Code Python tutorial](https://code.visualstudio.com/docs/python/python-tutorial)
 

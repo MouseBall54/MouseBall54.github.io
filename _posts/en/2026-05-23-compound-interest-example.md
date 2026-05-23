@@ -264,9 +264,9 @@ Run several conservative scenarios before making a decision.
 
 ## Related Reading
 
-- [50/30/20 Budget Rule](/en_Economy/household-budget-50-30-20/)
-- [Interest Rates and Inflation Explained](/en_Economy/interest-rate-inflation-basics/)
-- [How Much Emergency Fund Do You Need](/en_Economy/emergency-fund-how-much/)
+- [50/30/20 Budget Rule](/en_economy/household-budget-50-30-20/)
+- [Interest Rates and Inflation Explained](/en_economy/interest-rate-inflation-basics/)
+- [How Much Emergency Fund Do You Need](/en_economy/emergency-fund-how-much/)
 
 ## FAQ
 

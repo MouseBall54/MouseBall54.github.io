@@ -178,8 +178,8 @@ Check `sys.executable` to know what is actually running.
 
 ## Related Reading
 
-- [Python venv Not Activating](/en_Troubleshooting/python-venv-not-activating/)
-- [Python Command Not Found on Windows](/en_Troubleshooting/python-command-not-found-windows/)
+- [Python venv Not Activating](/en_troubleshooting/python-venv-not-activating/)
+- [Python Command Not Found on Windows](/en_troubleshooting/python-command-not-found-windows/)
 - [VS Code: Python environments](https://code.visualstudio.com/docs/python/environments)
 - [VS Code Python tutorial](https://code.visualstudio.com/docs/python/python-tutorial)
 

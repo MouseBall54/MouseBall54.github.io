@@ -286,9 +286,9 @@ The error is fixed when Node can resolve the module and the next failure, if any
 
 ## Related Posts
 
-- [How to Fix 'Uncaught ReferenceError: is not defined' in JavaScript](/en_Troubleshooting/javascript-uncaught-referenceerror-is-not-defined/)
-- [How to Fix "TypeError: '...' is not a function" in JavaScript](/en_Troubleshooting/javascript-typeerror-is-not-a-function/)
-- [How to Fix "jQuery is not defined" Error in JavaScript](/en_Troubleshooting/javascript-jquery-is-not-defined/)
+- [How to Fix 'Uncaught ReferenceError: is not defined' in JavaScript](/en_troubleshooting/javascript-uncaught-referenceerror-is-not-defined/)
+- [How to Fix "TypeError: '...' is not a function" in JavaScript](/en_troubleshooting/javascript-typeerror-is-not-a-function/)
+- [How to Fix "jQuery is not defined" Error in JavaScript](/en_troubleshooting/javascript-jquery-is-not-defined/)
 
 ## FAQ
 

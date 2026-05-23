@@ -205,8 +205,8 @@ Use `mvn -U` or remove the specific artifact first.
 
 ## Related Reading
 
-- [Gradle Build Failed](/en_Troubleshooting/gradle-build-failed/)
-- [Java Error: Cannot Find Symbol](/en_Troubleshooting/java-error-cannot-find-symbol/)
+- [Gradle Build Failed](/en_troubleshooting/gradle-build-failed/)
+- [Java Error: Cannot Find Symbol](/en_troubleshooting/java-error-cannot-find-symbol/)
 - [Maven: Introduction to repositories](https://maven.apache.org/guides/introduction/introduction-to-repositories.html)
 - [Maven: Dependency mechanism](https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html)
 

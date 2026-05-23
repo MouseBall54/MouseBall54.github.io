@@ -192,9 +192,9 @@ Review note: add weak cards to tomorrow's list.
 
 ## Related Posts
 
-- [Active Recall Study Method](/en_Study/active-recall-study-method/)
-- [Spaced Repetition Schedule](/en_Study/spaced-repetition-schedule/)
-- [Prompt Engineering Checklist](/en_AI_Trends/prompt-engineering-checklist/)
+- [Active Recall Study Method](/en_study/active-recall-study-method/)
+- [Spaced Repetition Schedule](/en_study/spaced-repetition-schedule/)
+- [Prompt Engineering Checklist](/en_ai_trends/prompt-engineering-checklist/)
 
 ## FAQ
 

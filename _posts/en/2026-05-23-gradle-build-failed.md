@@ -224,8 +224,8 @@ Upgrade Gradle, plugins, Java, and dependencies separately so you know which cha
 
 ## Related Reading
 
-- [Spring Boot Port 8080 Already in Use](/en_Troubleshooting/spring-boot-port-8080-already-in-use/)
-- [Java Unsupported Class File Major Version](/en_Troubleshooting/java-error-incompatible-types/)
+- [Spring Boot Port 8080 Already in Use](/en_troubleshooting/spring-boot-port-8080-already-in-use/)
+- [Java Unsupported Class File Major Version](/en_troubleshooting/java-error-incompatible-types/)
 - [Gradle: Troubleshooting builds](https://docs.gradle.org/current/userguide/troubleshooting.html)
 - [Gradle: The Gradle Wrapper](https://docs.gradle.org/current/userguide/gradle_wrapper.html)
 

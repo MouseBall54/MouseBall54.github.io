@@ -218,9 +218,9 @@ It turns a vague memory into a usable answer.
 
 Related technical examples:
 
-- [Python venv Not Activating](/en_Troubleshooting/python-venv-not-activating/)
-- [How to Fix pip install Failed in Python](/en_Troubleshooting/python-pip-install-failed/)
-- [Python Command Not Found on Windows](/en_Troubleshooting/python-command-not-found-windows/)
+- [Python venv Not Activating](/en_troubleshooting/python-venv-not-activating/)
+- [How to Fix pip install Failed in Python](/en_troubleshooting/python-pip-install-failed/)
+- [Python Command Not Found on Windows](/en_troubleshooting/python-command-not-found-windows/)
 
 ## Common Mistakes
 
@@ -301,9 +301,9 @@ If your study time is high but your output is low, add more retrieval and reduce
 
 ## Related Reading
 
-- [Spaced Repetition Schedule](/en_Study/spaced-repetition-schedule/)
-- [Exam Mistake Note System](/en_Study/exam-mistake-note-system/)
-- [Weekly Study Review](/en_Study/weekly-study-review/)
+- [Spaced Repetition Schedule](/en_study/spaced-repetition-schedule/)
+- [Exam Mistake Note System](/en_study/exam-mistake-note-system/)
+- [Weekly Study Review](/en_study/weekly-study-review/)
 
 ## FAQ
 

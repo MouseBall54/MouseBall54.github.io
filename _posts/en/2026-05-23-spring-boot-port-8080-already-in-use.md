@@ -225,8 +225,8 @@ A stopped Java process does not help if a container still owns host port `8080`.
 
 ## Related Reading
 
-- [Java Error: Cannot Find Symbol](/en_Troubleshooting/java-error-cannot-find-symbol/)
-- [Java Error: Incompatible Types](/en_Troubleshooting/java-error-incompatible-types/)
+- [Java Error: Cannot Find Symbol](/en_troubleshooting/java-error-cannot-find-symbol/)
+- [Java Error: Incompatible Types](/en_troubleshooting/java-error-incompatible-types/)
 - [Spring Boot application properties: server.port](https://docs.spring.io/spring-boot/appendix/application-properties/index.html#application-properties.server.server.port)
 
 ## Final Checklist

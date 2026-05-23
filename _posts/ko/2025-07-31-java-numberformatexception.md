@@ -6,7 +6,7 @@ title: "Java NumberFormatException 예외 처리 방법"
 date: 2025-07-31T00:00:00+09:00
 lang: ko
 translation_id: java-numberformatexception-handling
-permalink: /ko_Troubleshooting/java-numberformatexception-handling/
+permalink: /ko_troubleshooting/java-numberformatexception-handling/
 excerpt: "파싱 전 문자열을 검증하고, 안전한 숫자 변환을 위해 try-catch 블록을 사용하여 Java의 NumberFormatException을 예방하고 처리하는 방법을 배웁니다."
 seo_description: "파싱 전 문자열을 검증하고, 안전한 숫자 변환을 위해 try-catch 블록을 사용하여 Java의 NumberFormatException을 예방하고 처리하는 방법을 배웁니다."
 header:
@@ -150,5 +150,5 @@ System.out.println("숫자의 값은: " + number);
 
 같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
 
-- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
-- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_troubleshooting/git-permission-denied-publickey-windows/)

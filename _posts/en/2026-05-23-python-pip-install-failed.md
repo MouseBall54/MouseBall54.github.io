@@ -246,9 +246,9 @@ python -c "import sys; print(sys.executable)"
 
 ## Related Posts
 
-- [How to Fix ModuleNotFoundError in Python](/en_Troubleshooting/python-modulenotfounderror/)
-- [How to Fix "No Module Named" Errors in Python](/en_Troubleshooting/python-modulenotfounderror-no-module-named/)
-- [How to Fix PermissionError: [Errno 13] Permission denied in Python](/en_Troubleshooting/python-permissionerror-errno-13-permission-denied/)
+- [How to Fix ModuleNotFoundError in Python](/en_troubleshooting/python-modulenotfounderror/)
+- [How to Fix "No Module Named" Errors in Python](/en_troubleshooting/python-modulenotfounderror-no-module-named/)
+- [How to Fix PermissionError: [Errno 13] Permission denied in Python](/en_troubleshooting/python-permissionerror-errno-13-permission-denied/)
 
 ## FAQ
 

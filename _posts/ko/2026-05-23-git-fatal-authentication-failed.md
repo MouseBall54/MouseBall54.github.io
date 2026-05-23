@@ -210,8 +210,8 @@ fetch는 되는데 push만 실패하면 login 문제가 아니라 write permissi
 
 ## 함께 보면 좋은 글
 
-- [Git Permission denied publickey 오류 해결 방법](/ko_Troubleshooting/git-permission-denied-publickey/)
-- [Git fatal: could not read Username 오류 해결 방법](/ko_Troubleshooting/git-fatal-could-not-read-username/)
+- [Git Permission denied publickey 오류 해결 방법](/ko_troubleshooting/git-permission-denied-publickey/)
+- [Git fatal: could not read Username 오류 해결 방법](/ko_troubleshooting/git-fatal-could-not-read-username/)
 - [GitHub: Managing personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
 - [GitHub: Caching credentials in Git](https://docs.github.com/en/get-started/git-basics/caching-your-github-credentials-in-git)
 

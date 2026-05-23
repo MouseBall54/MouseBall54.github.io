@@ -157,9 +157,9 @@ Mutual fund가 맞을 수 있는 경우:
 
 ## 관련 글
 
-- [복리 계산 예시](/ko_Economy/compound-interest-example/)
-- [Spaced repetition 복습 일정](/ko_Study/spaced-repetition-schedule/)
-- [AI agent workflow 2026](/ko_AI_Trends/ai-agent-workflow-2026/)
+- [복리 계산 예시](/ko_economy/compound-interest-example/)
+- [Spaced repetition 복습 일정](/ko_study/spaced-repetition-schedule/)
+- [AI agent workflow 2026](/ko_ai_trends/ai-agent-workflow-2026/)
 
 ## 자주 묻는 질문
 

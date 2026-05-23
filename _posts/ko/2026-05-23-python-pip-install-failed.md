@@ -246,9 +246,9 @@ python -c "import sys; print(sys.executable)"
 
 ## 관련 글
 
-- [Python ModuleNotFoundError 해결 방법](/ko_Troubleshooting/python-modulenotfounderror/)
-- [Python에서 No module named 오류 해결 방법](/ko_Troubleshooting/python-modulenotfounderror-no-module-named/)
-- [Python PermissionError: [Errno 13] Permission denied 해결 방법](/ko_Troubleshooting/python-permissionerror-errno-13-permission-denied/)
+- [Python ModuleNotFoundError 해결 방법](/ko_troubleshooting/python-modulenotfounderror/)
+- [Python에서 No module named 오류 해결 방법](/ko_troubleshooting/python-modulenotfounderror-no-module-named/)
+- [Python PermissionError: [Errno 13] Permission denied 해결 방법](/ko_troubleshooting/python-permissionerror-errno-13-permission-denied/)
 
 ## 자주 묻는 질문
 

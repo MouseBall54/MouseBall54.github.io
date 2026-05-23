@@ -235,8 +235,8 @@ It simply reduces friction for readers and for systems that need to understand t
 
 ## Related Reading
 
-- [Prompt Engineering Checklist](/en_AI_Trends/prompt-engineering-checklist/)
-- [AI Agent Workflow 2026](/en_AI_Trends/ai-agent-workflow-2026/)
+- [Prompt Engineering Checklist](/en_ai_trends/prompt-engineering-checklist/)
+- [AI Agent Workflow 2026](/en_ai_trends/ai-agent-workflow-2026/)
 - [Google: Optimizing for generative AI search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
 - [Google: Helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
 

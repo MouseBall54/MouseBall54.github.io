@@ -67,7 +67,7 @@ But the effect depends on inflation, risk, growth expectations, and whether the 
 
 Related guide:
 
-- [Interest Rates and Inflation Explained](/en_Economy/interest-rate-inflation-basics/)
+- [Interest Rates and Inflation Explained](/en_economy/interest-rate-inflation-basics/)
 
 ## Why Inflation Matters
 
@@ -110,9 +110,9 @@ If you have future expenses in another currency, track exchange rate risk early.
 
 ## Related Posts
 
-- [Interest Rates and Inflation Explained](/en_Economy/interest-rate-inflation-basics/)
-- [ETF vs Mutual Fund](/en_Economy/etf-vs-mutual-fund/)
-- [Emergency Fund Guide](/en_Economy/emergency-fund-how-much/)
+- [Interest Rates and Inflation Explained](/en_economy/interest-rate-inflation-basics/)
+- [ETF vs Mutual Fund](/en_economy/etf-vs-mutual-fund/)
+- [Emergency Fund Guide](/en_economy/emergency-fund-how-much/)
 
 ## FAQ
 

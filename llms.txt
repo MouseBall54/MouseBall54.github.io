@@ -9,29 +9,29 @@ Image sitemap: https://mouseball54.github.io/image-sitemap.xml
 
 ## Core Hubs
 
-- Korean Troubleshooting: https://mouseball54.github.io/ko_Troubleshooting/
-- English Troubleshooting: https://mouseball54.github.io/en_Troubleshooting/
-- Korean AI Trends: https://mouseball54.github.io/ko_AI_Trends/
-- English AI Trends: https://mouseball54.github.io/en_AI_Trends/
-- Korean Study: https://mouseball54.github.io/ko_Study/
-- English Study: https://mouseball54.github.io/en_Study/
-- Korean Economy: https://mouseball54.github.io/ko_Economy/
-- English Economy: https://mouseball54.github.io/en_Economy/
+- Korean Troubleshooting: https://mouseball54.github.io/ko_troubleshooting/
+- English Troubleshooting: https://mouseball54.github.io/en_troubleshooting/
+- Korean AI Trends: https://mouseball54.github.io/ko_ai_trends/
+- English AI Trends: https://mouseball54.github.io/en_ai_trends/
+- Korean Study: https://mouseball54.github.io/ko_study/
+- English Study: https://mouseball54.github.io/en_study/
+- Korean Economy: https://mouseball54.github.io/ko_economy/
+- English Economy: https://mouseball54.github.io/en_economy/
 - Korean Easy Labeling: https://mouseball54.github.io/ko_easy_labeling/
 - English Easy Labeling: https://mouseball54.github.io/en_easy_labeling/
 
 ## Representative Articles
 
-- AI Agent Workflow 2026: https://mouseball54.github.io/en_AI_Trends/ai-agent-workflow-2026/
-- Prompt Engineering Checklist: https://mouseball54.github.io/en_AI_Trends/prompt-engineering-checklist/
-- RAG Evaluation Checklist: https://mouseball54.github.io/en_AI_Trends/rag-evaluation-checklist/
-- Active Recall Study Method: https://mouseball54.github.io/en_Study/active-recall-study-method/
-- Spaced Repetition Schedule: https://mouseball54.github.io/en_Study/spaced-repetition-schedule/
-- Compound Interest Example: https://mouseball54.github.io/en_Economy/compound-interest-example/
-- Emergency Fund Guide: https://mouseball54.github.io/en_Economy/emergency-fund-how-much/
+- AI Agent Workflow 2026: https://mouseball54.github.io/en_ai_trends/ai-agent-workflow-2026/
+- Prompt Engineering Checklist: https://mouseball54.github.io/en_ai_trends/prompt-engineering-checklist/
+- RAG Evaluation Checklist: https://mouseball54.github.io/en_ai_trends/rag-evaluation-checklist/
+- Active Recall Study Method: https://mouseball54.github.io/en_study/active-recall-study-method/
+- Spaced Repetition Schedule: https://mouseball54.github.io/en_study/spaced-repetition-schedule/
+- Compound Interest Example: https://mouseball54.github.io/en_economy/compound-interest-example/
+- Emergency Fund Guide: https://mouseball54.github.io/en_economy/emergency-fund-how-much/
 - Local Image Labeling Workflow: https://mouseball54.github.io/en_easy_labeling/local-image-labeling-workflow/
 - YOLO Label Format: https://mouseball54.github.io/en_easy_labeling/yolo-label-format/
-- GitHub Actions Build Failed: https://mouseball54.github.io/en_Troubleshooting/github-actions-build-failed/
+- GitHub Actions Build Failed: https://mouseball54.github.io/en_troubleshooting/github-actions-build-failed/
 
 ## Content Notes
 

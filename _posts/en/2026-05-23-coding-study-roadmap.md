@@ -120,9 +120,9 @@ Every beginner needs debugging practice.
 
 Related technical guides:
 
-- [How to Fix pip install Failed in Python](/en_Troubleshooting/python-pip-install-failed/)
-- [Python Command Not Found on Windows](/en_Troubleshooting/python-command-not-found-windows/)
-- [How to Fix GitHub Actions Build Failed](/en_Troubleshooting/github-actions-build-failed/)
+- [How to Fix pip install Failed in Python](/en_troubleshooting/python-pip-install-failed/)
+- [Python Command Not Found on Windows](/en_troubleshooting/python-command-not-found-windows/)
+- [How to Fix GitHub Actions Build Failed](/en_troubleshooting/github-actions-build-failed/)
 
 ## Portfolio Rule
 
@@ -149,9 +149,9 @@ A small finished project beats a large unfinished one.
 
 ## Related Reading
 
-- [Active Recall Study Method](/en_Study/active-recall-study-method/)
-- [Pomodoro and Deep Work](/en_Study/pomodoro-deep-work/)
-- [Notion Study Dashboard](/en_Study/notion-study-dashboard/)
+- [Active Recall Study Method](/en_study/active-recall-study-method/)
+- [Pomodoro and Deep Work](/en_study/pomodoro-deep-work/)
+- [Notion Study Dashboard](/en_study/notion-study-dashboard/)
 
 ## FAQ
 

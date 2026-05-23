@@ -126,5 +126,5 @@ Avoid disabling verification in production.
 
 Continue with these related posts from the same topic area.
 
-- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)
-- [How to Fix "ModuleNotFoundError: No module named '…'" in Python](/en_Troubleshooting/python-modulenotfounderror-no-module-named/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_troubleshooting/git-permission-denied-publickey-windows/)
+- [How to Fix "ModuleNotFoundError: No module named '…'" in Python](/en_troubleshooting/python-modulenotfounderror-no-module-named/)

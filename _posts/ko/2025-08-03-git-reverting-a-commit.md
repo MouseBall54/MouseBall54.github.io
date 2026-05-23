@@ -7,7 +7,7 @@ title: >
 date: 2025-08-03T00:00:00+09:00
 lang: ko
 translation_id: git-revert-vs-reset-safe-undo
-permalink: /ko_Troubleshooting/git-revert-vs-reset-safe-undo/
+permalink: /ko_troubleshooting/git-revert-vs-reset-safe-undo/
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
@@ -117,5 +117,5 @@ git log --oneline
 
 같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
 
-- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_Troubleshooting/python-certificate-verify-failed/)
-- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_Troubleshooting/git-permission-denied-publickey-windows/)
+- [SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/ko_troubleshooting/python-certificate-verify-failed/)
+- [Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/ko_troubleshooting/git-permission-denied-publickey-windows/)

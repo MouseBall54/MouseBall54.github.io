@@ -229,9 +229,9 @@ For example: start earlier, use shorter sessions, test before rereading, or revi
 
 ## Related Reading
 
-- [Active Recall Study Method](/en_Study/active-recall-study-method/)
-- [Spaced Repetition Schedule](/en_Study/spaced-repetition-schedule/)
-- [Pomodoro vs Deep Work](/en_Study/pomodoro-deep-work/)
+- [Active Recall Study Method](/en_study/active-recall-study-method/)
+- [Spaced Repetition Schedule](/en_study/spaced-repetition-schedule/)
+- [Pomodoro vs Deep Work](/en_study/pomodoro-deep-work/)
 - [CMU learning strategies on retrieval practice](https://www.cmu.edu/student-success/other-resources/handouts/learning-strategies/retrieval-practice.pdf)
 
 ## Final Advice

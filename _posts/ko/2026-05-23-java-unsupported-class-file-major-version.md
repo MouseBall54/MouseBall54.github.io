@@ -197,8 +197,8 @@ CI image와 setup action도 맞춰야 합니다.
 
 ## 함께 보면 좋은 글
 
-- [Gradle build failed 해결 체크리스트](/ko_Troubleshooting/gradle-build-failed/)
-- [Maven dependency not found 해결](/ko_Troubleshooting/maven-dependency-not-found/)
+- [Gradle build failed 해결 체크리스트](/ko_troubleshooting/gradle-build-failed/)
+- [Maven dependency not found 해결](/ko_troubleshooting/maven-dependency-not-found/)
 - [Oracle Java Virtual Machine Specification: ClassFile format](https://docs.oracle.com/javase/specs/jvms/se21/html/jvms-4.html)
 - [Gradle Java toolchains](https://docs.gradle.org/current/userguide/toolchains.html)
 

@@ -238,9 +238,9 @@ review item에는 recall date가 필요합니다.
 
 ## 함께 보면 좋은 글
 
-- [주간 공부 회고 템플릿](/ko_Study/weekly-study-review/)
-- [Spaced Repetition Schedule](/ko_Study/spaced-repetition-schedule/)
-- [Active Recall Study Method](/ko_Study/active-recall-study-method/)
+- [주간 공부 회고 템플릿](/ko_study/weekly-study-review/)
+- [Spaced Repetition Schedule](/ko_study/spaced-repetition-schedule/)
+- [Active Recall Study Method](/ko_study/active-recall-study-method/)
 - [Notion Help: Database views](https://www.notion.com/help/views)
 
 ## 최종 체크리스트

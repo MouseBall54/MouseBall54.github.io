@@ -144,9 +144,9 @@ Next review: Day 3
 
 ## 관련 글
 
-- [Active recall 공부법](/ko_Study/active-recall-study-method/)
-- [Spaced repetition 복습 일정](/ko_Study/spaced-repetition-schedule/)
-- [오답노트 시스템 만드는 법](/ko_Study/exam-mistake-note-system/)
+- [Active recall 공부법](/ko_study/active-recall-study-method/)
+- [Spaced repetition 복습 일정](/ko_study/spaced-repetition-schedule/)
+- [오답노트 시스템 만드는 법](/ko_study/exam-mistake-note-system/)
 
 ## 자주 묻는 질문
 

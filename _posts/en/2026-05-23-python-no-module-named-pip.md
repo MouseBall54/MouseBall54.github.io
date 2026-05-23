@@ -243,9 +243,9 @@ If that works, `pip` is restored correctly.
 
 ## Related Posts
 
-- [How to Fix pip install Failed in Python](/en_Troubleshooting/python-pip-install-failed/)
-- [How to Fix ModuleNotFoundError in Python](/en_Troubleshooting/python-modulenotfounderror/)
-- [How to Fix PermissionError: [Errno 13] Permission denied in Python](/en_Troubleshooting/python-permissionerror-errno-13-permission-denied/)
+- [How to Fix pip install Failed in Python](/en_troubleshooting/python-pip-install-failed/)
+- [How to Fix ModuleNotFoundError in Python](/en_troubleshooting/python-modulenotfounderror/)
+- [How to Fix PermissionError: [Errno 13] Permission denied in Python](/en_troubleshooting/python-permissionerror-errno-13-permission-denied/)
 
 ## FAQ
 

@@ -197,8 +197,8 @@ Update CI images and setup actions too.
 
 ## Related Reading
 
-- [Gradle Build Failed](/en_Troubleshooting/gradle-build-failed/)
-- [Maven Dependency Not Found](/en_Troubleshooting/maven-dependency-not-found/)
+- [Gradle Build Failed](/en_troubleshooting/gradle-build-failed/)
+- [Maven Dependency Not Found](/en_troubleshooting/maven-dependency-not-found/)
 - [Oracle Java Virtual Machine Specification: ClassFile format](https://docs.oracle.com/javase/specs/jvms/se21/html/jvms-4.html)
 - [Gradle Java toolchains](https://docs.gradle.org/current/userguide/toolchains.html)
 

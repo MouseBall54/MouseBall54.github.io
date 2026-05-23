@@ -1,5 +1,7 @@
 {%- assign breadcrumb_position = 1 -%}
 {%- assign breadcrumb_category = page.categories | first -%}
+{%- assign breadcrumb_category_name = breadcrumb_category | replace_first: "ko_", "" | replace_first: "en_", "" | replace: "_", " " -%}
+{%- assign breadcrumb_category_url = breadcrumb_category | downcase | prepend: "/" | append: "/" | absolute_url -%}
 {%- assign current_url = page.url | replace: "/index.html", "/" | absolute_url -%}
 
 <script type="application/ld+json">
@@ -17,8 +19,8 @@
     {
       "@type": "ListItem",
       "position": {{ breadcrumb_position }},
-      "name": {{ breadcrumb_category | replace: "_", " " | jsonify }},
-      "item": {{ breadcrumb_category | prepend: "/" | append: "/" | absolute_url | jsonify }}
+      "name": {{ breadcrumb_category_name | jsonify }},
+      "item": {{ breadcrumb_category_url | jsonify }}
     }{% endif %},
     {%- assign breadcrumb_position = breadcrumb_position | plus: 1 -%}
     {

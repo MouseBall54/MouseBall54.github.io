@@ -144,9 +144,9 @@ It makes room for words that matter more.
 
 ## Related Posts
 
-- [Active Recall Study Method](/en_Study/active-recall-study-method/)
-- [Spaced Repetition Schedule](/en_Study/spaced-repetition-schedule/)
-- [Mistake Note System](/en_Study/exam-mistake-note-system/)
+- [Active Recall Study Method](/en_study/active-recall-study-method/)
+- [Spaced Repetition Schedule](/en_study/spaced-repetition-schedule/)
+- [Mistake Note System](/en_study/exam-mistake-note-system/)
 
 ## FAQ
 

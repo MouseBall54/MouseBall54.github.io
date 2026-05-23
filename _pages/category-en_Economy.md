@@ -1,7 +1,7 @@
 ---
 title: "Economy"
 layout: archive
-permalink: /en_Economy/
+permalink: /en_economy/
 lang: en
 seo_description: >
   Educational personal finance articles about compound interest, emergency funds, budgeting, interest rates, inflation, exchange rates, ETFs, and mutual funds.
@@ -17,9 +17,9 @@ These articles are educational and do not replace personal financial advice. Rea
 
 ## Start Here
 
-- [50/30/20 Budget Rule](/en_Economy/household-budget-50-30-20/)
-- [How Much Emergency Fund Is Enough?](/en_Economy/emergency-fund-how-much/)
-- [Compound Interest Example](/en_Economy/compound-interest-example/)
+- [50/30/20 Budget Rule](/en_economy/household-budget-50-30-20/)
+- [How Much Emergency Fund Is Enough?](/en_economy/emergency-fund-how-much/)
+- [Compound Interest Example](/en_economy/compound-interest-example/)
 
 ## Latest Articles
 

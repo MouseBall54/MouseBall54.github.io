@@ -153,9 +153,9 @@ Task-specific test set을 사용합니다.
 
 ## 관련 글
 
-- [AI agent workflow 2026](/ko_AI_Trends/ai-agent-workflow-2026/)
-- [RAG 답변 품질 평가 체크리스트](/ko_AI_Trends/rag-evaluation-checklist/)
-- [AI tool calling과 function calling 차이](/ko_AI_Trends/ai-tools-function-calling/)
+- [AI agent workflow 2026](/ko_ai_trends/ai-agent-workflow-2026/)
+- [RAG 답변 품질 평가 체크리스트](/ko_ai_trends/rag-evaluation-checklist/)
+- [AI tool calling과 function calling 차이](/ko_ai_trends/ai-tools-function-calling/)
 
 ## 자주 묻는 질문
 

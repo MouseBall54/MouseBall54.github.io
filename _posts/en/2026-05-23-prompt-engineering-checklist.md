@@ -259,15 +259,15 @@ For serious workflows, combine it with:
 
 Related posts:
 
-- [OpenAI Responses API Practical Guide](/en_AI_Trends/openai-responses-api-guide/)
-- [AI Agent Workflow 2026](/en_AI_Trends/ai-agent-workflow-2026/)
-- [Spaced Repetition Schedule](/en_Study/spaced-repetition-schedule/)
+- [OpenAI Responses API Practical Guide](/en_ai_trends/openai-responses-api-guide/)
+- [AI Agent Workflow 2026](/en_ai_trends/ai-agent-workflow-2026/)
+- [Spaced Repetition Schedule](/en_study/spaced-repetition-schedule/)
 
 ## Related Reading
 
-- [OpenAI Responses API Guide](/en_AI_Trends/openai-responses-api-guide/)
-- [AI Search Optimization](/en_AI_Trends/ai-search-optimization/)
-- [RAG Evaluation Checklist](/en_AI_Trends/rag-evaluation-checklist/)
+- [OpenAI Responses API Guide](/en_ai_trends/openai-responses-api-guide/)
+- [AI Search Optimization](/en_ai_trends/ai-search-optimization/)
+- [RAG Evaluation Checklist](/en_ai_trends/rag-evaluation-checklist/)
 
 ## FAQ
 

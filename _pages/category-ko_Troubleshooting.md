@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting"
 layout: archive
-permalink: /ko_Troubleshooting/
+permalink: /ko_troubleshooting/
 lang: ko
 seo_description: >
   Python, JavaScript, Java, Git, Docker, GitHub Actions 오류를 빠르게 재현하고 해결하는 개발자 트러블슈팅 글 모음입니다.
@@ -17,9 +17,9 @@ Troubleshooting 카테고리는 개발 중 자주 만나는 오류를 재현 가
 
 ## 먼저 읽기
 
-- [Windows에서 python 명령어가 안 될 때 해결 방법](/ko_Troubleshooting/python-command-not-found-windows/)
-- [Node.js Cannot find module 오류 해결 방법](/ko_Troubleshooting/node-cannot-find-module/)
-- [GitHub Actions build failed 해결 방법](/ko_Troubleshooting/github-actions-build-failed/)
+- [Windows에서 python 명령어가 안 될 때 해결 방법](/ko_troubleshooting/python-command-not-found-windows/)
+- [Node.js Cannot find module 오류 해결 방법](/ko_troubleshooting/node-cannot-find-module/)
+- [GitHub Actions build failed 해결 방법](/ko_troubleshooting/github-actions-build-failed/)
 
 ## 최신 글
 

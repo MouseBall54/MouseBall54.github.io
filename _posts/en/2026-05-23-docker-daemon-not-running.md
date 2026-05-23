@@ -231,8 +231,8 @@ The client may be trying to connect somewhere other than your local machine.
 
 ## Related Reading
 
-- [GitHub Actions Build Failed](/en_Troubleshooting/github-actions-build-failed/)
-- [GitHub Pages Jekyll Build Failed](/en_Troubleshooting/github-pages-jekyll-build-failed/)
+- [GitHub Actions Build Failed](/en_troubleshooting/github-actions-build-failed/)
+- [GitHub Pages Jekyll Build Failed](/en_troubleshooting/github-pages-jekyll-build-failed/)
 - [Docker: Start the daemon](https://docs.docker.com/engine/daemon/start/)
 - [Docker: Linux post-installation steps](https://docs.docker.com/engine/install/linux-postinstall/)
 

@@ -6,7 +6,7 @@ title: "How to Handle NumberFormatException in Java"
 date: 2025-07-31T00:00:00+09:00
 lang: en
 translation_id: java-numberformatexception-handling
-permalink: /en_Troubleshooting/java-numberformatexception-handling/
+permalink: /en_troubleshooting/java-numberformatexception-handling/
 excerpt: "Learn to prevent and handle Java's NumberFormatException by validating strings before parsing and using try-catch blocks for safe numeric conversion."
 seo_description: "Learn to prevent and handle Java's NumberFormatException by validating strings before parsing and using try-catch blocks for safe numeric conversion."
 header:
@@ -150,5 +150,5 @@ By applying these techniques, you can make your Java applications more resilient
 
 Continue with these related posts from the same topic area.
 
-- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
-- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_Troubleshooting/git-permission-denied-publickey-windows/)
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "Permission denied (publickey)" Error with Git on Windows](/en_troubleshooting/git-permission-denied-publickey-windows/)

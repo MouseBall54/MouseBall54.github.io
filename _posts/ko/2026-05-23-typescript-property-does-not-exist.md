@@ -287,9 +287,9 @@ npm run build
 
 ## 관련 글
 
-- [JavaScript TypeError: Cannot Read Properties of Null 해결 방법](/ko_Troubleshooting/javascript-typeerror-cannot-read-properties-of-null/)
-- [JavaScript Uncaught TypeError: Cannot Read Properties of Undefined 해결 방법](/ko_Troubleshooting/javascript-uncaught-typeerror-cannot-read-properties-of-undefined/)
-- [JavaScript innerHTML과 textContent 차이](/ko_Troubleshooting/javascript-innerhtml-vs-textcontent/)
+- [JavaScript TypeError: Cannot Read Properties of Null 해결 방법](/ko_troubleshooting/javascript-typeerror-cannot-read-properties-of-null/)
+- [JavaScript Uncaught TypeError: Cannot Read Properties of Undefined 해결 방법](/ko_troubleshooting/javascript-uncaught-typeerror-cannot-read-properties-of-undefined/)
+- [JavaScript innerHTML과 textContent 차이](/ko_troubleshooting/javascript-innerhtml-vs-textcontent/)
 
 ## 자주 묻는 질문
 

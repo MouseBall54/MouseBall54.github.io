@@ -312,9 +312,9 @@ npm run build
 
 ## 관련 글
 
-- [JavaScript 오류 'Uncaught ReferenceError: is not defined' 해결 방법](/ko_Troubleshooting/javascript-uncaught-referenceerror-is-not-defined/)
-- [JavaScript var, let, const 차이 정리](/ko_Troubleshooting/javascript-variables-var-vs-let-vs-const/)
-- [JavaScript innerHTML과 textContent 차이](/ko_Troubleshooting/javascript-innerhtml-vs-textcontent/)
+- [JavaScript 오류 'Uncaught ReferenceError: is not defined' 해결 방법](/ko_troubleshooting/javascript-uncaught-referenceerror-is-not-defined/)
+- [JavaScript var, let, const 차이 정리](/ko_troubleshooting/javascript-variables-var-vs-let-vs-const/)
+- [JavaScript innerHTML과 textContent 차이](/ko_troubleshooting/javascript-innerhtml-vs-textcontent/)
 
 ## 자주 묻는 질문
 

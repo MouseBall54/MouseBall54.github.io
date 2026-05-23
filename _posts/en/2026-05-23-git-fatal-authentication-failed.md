@@ -209,8 +209,8 @@ If `git fetch` works and `git push` fails, the problem may be write permission o
 
 ## Related Reading
 
-- [How to Fix Git Permission denied publickey](/en_Troubleshooting/git-permission-denied-publickey/)
-- [How to Fix Git fatal: could not read Username Error](/en_Troubleshooting/git-fatal-could-not-read-username/)
+- [How to Fix Git Permission denied publickey](/en_troubleshooting/git-permission-denied-publickey/)
+- [How to Fix Git fatal: could not read Username Error](/en_troubleshooting/git-fatal-could-not-read-username/)
 - [GitHub: Managing personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
 - [GitHub: Caching credentials in Git](https://docs.github.com/en/get-started/git-basics/caching-your-github-credentials-in-git)
 

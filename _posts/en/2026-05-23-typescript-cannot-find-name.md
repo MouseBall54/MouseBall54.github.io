@@ -313,9 +313,9 @@ The fix is complete when `TS2304: Cannot find name` is gone for the intended sym
 
 ## Related Posts
 
-- [How to Fix 'Uncaught ReferenceError: is not defined' in JavaScript](/en_Troubleshooting/javascript-uncaught-referenceerror-is-not-defined/)
-- [JavaScript var vs let vs const: What's the Difference?](/en_Troubleshooting/javascript-variables-var-vs-let-vs-const/)
-- [innerHTML vs textContent in JavaScript](/en_Troubleshooting/javascript-innerhtml-vs-textcontent/)
+- [How to Fix 'Uncaught ReferenceError: is not defined' in JavaScript](/en_troubleshooting/javascript-uncaught-referenceerror-is-not-defined/)
+- [JavaScript var vs let vs const: What's the Difference?](/en_troubleshooting/javascript-variables-var-vs-let-vs-const/)
+- [innerHTML vs textContent in JavaScript](/en_troubleshooting/javascript-innerhtml-vs-textcontent/)
 
 ## FAQ
 

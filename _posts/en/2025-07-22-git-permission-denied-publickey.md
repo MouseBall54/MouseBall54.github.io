@@ -10,7 +10,7 @@ seo_description: >
   Fix Git's "Permission denied (publickey)" error on Windows by creating an SSH key, adding it to the SSH agent, and registering it with your Git host.
 lang: en
 translation_id: git-permission-denied-publickey-windows
-permalink: /en_Troubleshooting/git-permission-denied-publickey-windows/
+permalink: /en_troubleshooting/git-permission-denied-publickey-windows/
 header:
    teaser: /images/header_images/overlay_image_git.png
    overlay_image: /images/header_images/overlay_image_git.png
@@ -134,5 +134,5 @@ Generating an SSH key, adding it to the agent, and registering it with your Git 
 
 Continue with these related posts from the same topic area.
 
-- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_Troubleshooting/python-certificate-verify-failed/)
-- [How to Fix "ModuleNotFoundError: No module named '…'" in Python](/en_Troubleshooting/python-modulenotfounderror-no-module-named/)
+- [How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/en_troubleshooting/python-certificate-verify-failed/)
+- [How to Fix "ModuleNotFoundError: No module named '…'" in Python](/en_troubleshooting/python-modulenotfounderror-no-module-named/)

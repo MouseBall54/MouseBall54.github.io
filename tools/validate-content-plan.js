@@ -372,15 +372,15 @@ function validateSearchAndMonetizationFiles() {
     `${siteUrl}/feed.xml`,
     `${siteUrl}/sitemap.xml`,
     `${siteUrl}/image-sitemap.xml`,
-    `${siteUrl}/ko_AI_Trends/`,
-    `${siteUrl}/en_AI_Trends/`,
-    `${siteUrl}/ko_Study/`,
-    `${siteUrl}/en_Study/`,
-    `${siteUrl}/ko_Economy/`,
-    `${siteUrl}/en_Economy/`,
+    `${siteUrl}/ko_ai_trends/`,
+    `${siteUrl}/en_ai_trends/`,
+    `${siteUrl}/ko_study/`,
+    `${siteUrl}/en_study/`,
+    `${siteUrl}/ko_economy/`,
+    `${siteUrl}/en_economy/`,
     `${siteUrl}/ko_easy_labeling/`,
     `${siteUrl}/en_easy_labeling/`,
-    `${siteUrl}/en_Troubleshooting/github-actions-build-failed/`,
+    `${siteUrl}/en_troubleshooting/github-actions-build-failed/`,
   ].forEach((url) => {
     if (!llms.includes(url)) {
       errors.push(`llms.txt: missing discovery URL ${url}`);
@@ -619,7 +619,8 @@ function validatePosts() {
     if (category) {
       postCategories.add(category);
     }
-    const outputUrl = permalink || (category ? `/${category}/${slug}/` : "");
+    const categoryPath = category.toLowerCase();
+    const outputUrl = permalink || (category ? `/${categoryPath}/${slug}/` : "");
     if (outputUrl) {
       if (outputUrls.has(outputUrl)) {
         errors.push(`${relativePath}: output URL collides with ${outputUrls.get(outputUrl)} at ${outputUrl}`);
@@ -877,21 +878,21 @@ function validateHomePage() {
   }
 
   [
-    "/en_Troubleshooting/",
-    "/ko_Troubleshooting/",
-    "/en_AI_Trends/",
-    "/ko_AI_Trends/",
-    "/en_Study/",
-    "/ko_Study/",
-    "/en_Economy/",
-    "/ko_Economy/",
+    "/en_troubleshooting/",
+    "/ko_troubleshooting/",
+    "/en_ai_trends/",
+    "/ko_ai_trends/",
+    "/en_study/",
+    "/ko_study/",
+    "/en_economy/",
+    "/ko_economy/",
     "/en_easy_labeling/",
     "/ko_easy_labeling/",
-    "/en_AI_Trends/ai-agent-workflow-2026/",
-    "/en_Study/active-recall-study-method/",
-    "/en_Economy/compound-interest-example/",
+    "/en_ai_trends/ai-agent-workflow-2026/",
+    "/en_study/active-recall-study-method/",
+    "/en_economy/compound-interest-example/",
     "/en_easy_labeling/local-image-labeling-workflow/",
-    "/en_Troubleshooting/github-actions-build-failed/",
+    "/en_troubleshooting/github-actions-build-failed/",
   ].forEach((url) => {
     if (!text.includes(`](${url})`) && !text.includes(`href="${url}"`)) {
       errors.push(`${relativePath}: homepage is missing required hub or starter link ${url}`);
@@ -916,13 +917,14 @@ function validateCategoryNavigation() {
   const navigation = readText("_data/navigation.yml");
 
   [...postCategories].sort().forEach((category) => {
+    const categoryPath = category.toLowerCase();
     const pagePath = `_pages/category-${category}.md`;
     requireFile(pagePath);
     if (!exists(pagePath)) return;
 
     const page = readText(pagePath);
     [
-      [`permalink: /${category}/`, "permalink"],
+      [`permalink: /${categoryPath}/`, "permalink"],
       'nav: "sidebar-category"',
       "seo_description:",
       `site.categories["${category}"]`,
@@ -952,7 +954,7 @@ function validateCategoryNavigation() {
       errors.push(`${pagePath}: category hub should include at least three internal starting links`);
     }
 
-    if (!navigation.includes(`url: /${category}/`)) {
+    if (!navigation.includes(`url: /${categoryPath}/`)) {
       errors.push(`_data/navigation.yml: missing sidebar URL for category ${category}`);
     }
 

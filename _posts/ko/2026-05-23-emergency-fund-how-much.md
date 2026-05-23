@@ -201,9 +201,9 @@ Time needed: 6 months
 
 ## 관련 글
 
-- [50/30/20 예산법](/ko_Economy/household-budget-50-30-20/)
-- [복리 계산 예시](/ko_Economy/compound-interest-example/)
-- [ETF와 펀드 차이](/ko_Economy/etf-vs-mutual-fund/)
+- [50/30/20 예산법](/ko_economy/household-budget-50-30-20/)
+- [복리 계산 예시](/ko_economy/compound-interest-example/)
+- [ETF와 펀드 차이](/ko_economy/etf-vs-mutual-fund/)
 
 ## 자주 묻는 질문
 

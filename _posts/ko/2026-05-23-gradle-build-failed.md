@@ -223,8 +223,8 @@ Gradle, plugin, Java, dependency는 따로 바꿔야 어떤 변경이 결과를 
 
 ## 함께 보면 좋은 글
 
-- [Spring Boot port 8080 already in use 해결](/ko_Troubleshooting/spring-boot-port-8080-already-in-use/)
-- [Java incompatible types 오류 해결](/ko_Troubleshooting/java-error-incompatible-types/)
+- [Spring Boot port 8080 already in use 해결](/ko_troubleshooting/spring-boot-port-8080-already-in-use/)
+- [Java incompatible types 오류 해결](/ko_troubleshooting/java-error-incompatible-types/)
 - [Gradle: Troubleshooting builds](https://docs.gradle.org/current/userguide/troubleshooting.html)
 - [Gradle: The Gradle Wrapper](https://docs.gradle.org/current/userguide/gradle_wrapper.html)
 

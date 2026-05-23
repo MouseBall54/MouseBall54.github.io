@@ -177,8 +177,8 @@ frequency와 verification이 높고 risk가 낮은 작업부터 시작하세요.
 
 ## 함께 보면 좋은 글
 
-- [AI Agent Workflow 2026](/ko_AI_Trends/ai-agent-workflow-2026/)
-- [AI Coding Agent Workflow](/ko_AI_Trends/ai-coding-agent-workflow/)
+- [AI Agent Workflow 2026](/ko_ai_trends/ai-agent-workflow-2026/)
+- [AI Coding Agent Workflow](/ko_ai_trends/ai-coding-agent-workflow/)
 - [OpenAI Agents documentation](https://platform.openai.com/docs/guides/agents)
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
 

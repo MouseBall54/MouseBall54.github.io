@@ -191,9 +191,9 @@ Review note: 약한 card를 내일 list에 추가.
 
 ## 관련 글
 
-- [Active recall 공부법](/ko_Study/active-recall-study-method/)
-- [Spaced repetition 복습 일정](/ko_Study/spaced-repetition-schedule/)
-- [Prompt engineering 체크리스트](/ko_AI_Trends/prompt-engineering-checklist/)
+- [Active recall 공부법](/ko_study/active-recall-study-method/)
+- [Spaced repetition 복습 일정](/ko_study/spaced-repetition-schedule/)
+- [Prompt engineering 체크리스트](/ko_ai_trends/prompt-engineering-checklist/)
 
 ## 자주 묻는 질문
 

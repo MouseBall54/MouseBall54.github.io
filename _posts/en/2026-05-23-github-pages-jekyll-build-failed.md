@@ -152,9 +152,11 @@ title: >
 
 If the log says a file does not exist in the includes directory, search for the include:
 
+{% raw %}
 ```bash
 rg "{% include" .
 ```
+{% endraw %}
 
 Example problem:
 
@@ -291,9 +293,9 @@ GitHub Pages publishing may take several minutes after a successful build.
 
 ## Related Posts
 
-- [How to Fix GitHub Actions Build Failed](/en_Troubleshooting/github-actions-build-failed/)
-- [How to Fix fatal: not a git repository Error](/en_Troubleshooting/git-fatal-not-a-git-repository/)
-- [How to Use Gitignore Correctly](/en_Troubleshooting/git-using-gitignore/)
+- [How to Fix GitHub Actions Build Failed](/en_troubleshooting/github-actions-build-failed/)
+- [How to Fix fatal: not a git repository Error](/en_troubleshooting/git-fatal-not-a-git-repository/)
+- [How to Use Gitignore Correctly](/en_troubleshooting/git-using-gitignore/)
 
 ## FAQ
 

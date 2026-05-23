@@ -137,9 +137,9 @@ If you have variable-rate debt, rising rates matter differently than if you have
 
 ## Related Posts
 
-- [50/30/20 Budget Rule](/en_Economy/household-budget-50-30-20/)
-- [Emergency Fund Guide](/en_Economy/emergency-fund-how-much/)
-- [Compound Interest Example](/en_Economy/compound-interest-example/)
+- [50/30/20 Budget Rule](/en_economy/household-budget-50-30-20/)
+- [Emergency Fund Guide](/en_economy/emergency-fund-how-much/)
+- [Compound Interest Example](/en_economy/compound-interest-example/)
 
 ## FAQ
 

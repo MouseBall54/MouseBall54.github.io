@@ -243,9 +243,9 @@ python -c "import requests; print(requests.__version__)"
 
 ## 관련 글
 
-- [Python pip install 실패 해결 방법](/ko_Troubleshooting/python-pip-install-failed/)
-- [Python ModuleNotFoundError 해결 방법](/ko_Troubleshooting/python-modulenotfounderror/)
-- [Python PermissionError: [Errno 13] Permission denied 해결 방법](/ko_Troubleshooting/python-permissionerror-errno-13-permission-denied/)
+- [Python pip install 실패 해결 방법](/ko_troubleshooting/python-pip-install-failed/)
+- [Python ModuleNotFoundError 해결 방법](/ko_troubleshooting/python-modulenotfounderror/)
+- [Python PermissionError: [Errno 13] Permission denied 해결 방법](/ko_troubleshooting/python-permissionerror-errno-13-permission-denied/)
 
 ## 자주 묻는 질문
 

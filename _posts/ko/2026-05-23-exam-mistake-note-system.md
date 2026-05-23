@@ -156,9 +156,9 @@ Next review: Day 2
 
 관련 글:
 
-- [Python 가상환경이 활성화되지 않을 때](/ko_Troubleshooting/python-venv-not-activating/)
-- [Windows에서 python 명령어가 안 될 때](/ko_Troubleshooting/python-command-not-found-windows/)
-- [Active recall 공부법](/ko_Study/active-recall-study-method/)
+- [Python 가상환경이 활성화되지 않을 때](/ko_troubleshooting/python-venv-not-activating/)
+- [Windows에서 python 명령어가 안 될 때](/ko_troubleshooting/python-command-not-found-windows/)
+- [Active recall 공부법](/ko_study/active-recall-study-method/)
 
 ## 흔한 실수
 
@@ -172,9 +172,9 @@ Next review: Day 2
 
 ## 함께 보면 좋은 글
 
-- [Active Recall 공부법](/ko_Study/active-recall-study-method/)
-- [Spaced Repetition 복습 일정 만들기](/ko_Study/spaced-repetition-schedule/)
-- [주간 공부 리뷰 루틴](/ko_Study/weekly-study-review/)
+- [Active Recall 공부법](/ko_study/active-recall-study-method/)
+- [Spaced Repetition 복습 일정 만들기](/ko_study/spaced-repetition-schedule/)
+- [주간 공부 리뷰 루틴](/ko_study/weekly-study-review/)
 
 ## 자주 묻는 질문
 

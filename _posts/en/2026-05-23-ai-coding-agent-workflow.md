@@ -206,9 +206,9 @@ Future reviewers need to know the difference between "passed" and "not run."
 
 ## Related Reading
 
-- [AI Agent Workflow 2026](/en_AI_Trends/ai-agent-workflow-2026/)
-- [Prompt Engineering Checklist](/en_AI_Trends/prompt-engineering-checklist/)
-- [RAG Evaluation Checklist](/en_AI_Trends/rag-evaluation-checklist/)
+- [AI Agent Workflow 2026](/en_ai_trends/ai-agent-workflow-2026/)
+- [Prompt Engineering Checklist](/en_ai_trends/prompt-engineering-checklist/)
+- [RAG Evaluation Checklist](/en_ai_trends/rag-evaluation-checklist/)
 - [OpenAI Codex documentation](https://developers.openai.com/codex/)
 
 ## Final Checklist

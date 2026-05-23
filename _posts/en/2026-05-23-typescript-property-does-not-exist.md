@@ -286,9 +286,9 @@ The fix is complete when `TS2339` is gone and the changed type still describes r
 
 ## Related Posts
 
-- [How to Fix TypeError: Cannot Read Properties of Null in JavaScript](/en_Troubleshooting/javascript-typeerror-cannot-read-properties-of-null/)
-- [How to Fix Uncaught TypeError: Cannot Read Properties of Undefined](/en_Troubleshooting/javascript-uncaught-typeerror-cannot-read-properties-of-undefined/)
-- [innerHTML vs textContent in JavaScript](/en_Troubleshooting/javascript-innerhtml-vs-textcontent/)
+- [How to Fix TypeError: Cannot Read Properties of Null in JavaScript](/en_troubleshooting/javascript-typeerror-cannot-read-properties-of-null/)
+- [How to Fix Uncaught TypeError: Cannot Read Properties of Undefined](/en_troubleshooting/javascript-uncaught-typeerror-cannot-read-properties-of-undefined/)
+- [innerHTML vs textContent in JavaScript](/en_troubleshooting/javascript-innerhtml-vs-textcontent/)
 
 ## FAQ
 

@@ -153,9 +153,9 @@ Use a task-specific test set.
 
 ## Related Posts
 
-- [AI Agent Workflow 2026](/en_AI_Trends/ai-agent-workflow-2026/)
-- [RAG Evaluation Checklist](/en_AI_Trends/rag-evaluation-checklist/)
-- [AI Tool Calling vs Function Calling](/en_AI_Trends/ai-tools-function-calling/)
+- [AI Agent Workflow 2026](/en_ai_trends/ai-agent-workflow-2026/)
+- [RAG Evaluation Checklist](/en_ai_trends/rag-evaluation-checklist/)
+- [AI Tool Calling vs Function Calling](/en_ai_trends/ai-tools-function-calling/)
 
 ## FAQ
 

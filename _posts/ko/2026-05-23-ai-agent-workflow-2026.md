@@ -261,9 +261,9 @@ Demo도 괜찮지만 production automation으로 취급하면 안 됩니다.
 
 ## 관련 글
 
-- [Python pip install 실패 해결](/ko_Troubleshooting/python-pip-install-failed/)
-- [Python 가상환경이 활성화되지 않을 때](/ko_Troubleshooting/python-venv-not-activating/)
-- [GitHub Actions build failed 해결 방법](/ko_Troubleshooting/github-actions-build-failed/)
+- [Python pip install 실패 해결](/ko_troubleshooting/python-pip-install-failed/)
+- [Python 가상환경이 활성화되지 않을 때](/ko_troubleshooting/python-venv-not-activating/)
+- [GitHub Actions build failed 해결 방법](/ko_troubleshooting/github-actions-build-failed/)
 
 ## 자주 묻는 질문
 

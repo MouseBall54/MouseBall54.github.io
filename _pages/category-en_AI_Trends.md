@@ -1,7 +1,7 @@
 ---
 title: "AI Trends"
 layout: archive
-permalink: /en_AI_Trends/
+permalink: /en_ai_trends/
 lang: en
 seo_description: >
   Practical AI trend articles about AI agents, prompt engineering, RAG evaluation, OpenAI APIs, AI search, and automation workflows.
@@ -17,9 +17,9 @@ Each article is designed to move from concept to operational decision. Use these
 
 ## Start Here
 
-- [AI Agent Workflow 2026](/en_AI_Trends/ai-agent-workflow-2026/)
-- [Prompt Engineering Checklist](/en_AI_Trends/prompt-engineering-checklist/)
-- [RAG Evaluation Checklist](/en_AI_Trends/rag-evaluation-checklist/)
+- [AI Agent Workflow 2026](/en_ai_trends/ai-agent-workflow-2026/)
+- [Prompt Engineering Checklist](/en_ai_trends/prompt-engineering-checklist/)
+- [RAG Evaluation Checklist](/en_ai_trends/rag-evaluation-checklist/)
 
 ## Latest Articles
 

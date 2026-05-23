@@ -161,8 +161,8 @@ The value of meeting notes is realized after the meeting.
 
 ## Related Reading
 
-- [AI Automation ROI](/en_AI_Trends/ai-automation-roi/)
-- [AI Agent Workflow 2026](/en_AI_Trends/ai-agent-workflow-2026/)
+- [AI Automation ROI](/en_ai_trends/ai-automation-roi/)
+- [AI Agent Workflow 2026](/en_ai_trends/ai-agent-workflow-2026/)
 - [OpenAI Speech to Text guide](https://platform.openai.com/docs/guides/speech-to-text)
 - [OpenAI Agents documentation](https://platform.openai.com/docs/guides/agents)
 

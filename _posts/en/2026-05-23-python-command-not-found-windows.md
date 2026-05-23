@@ -258,9 +258,9 @@ The output should point to the Python installation you intend to use.
 
 ## Related Posts
 
-- [How to Fix pip install Failed in Python](/en_Troubleshooting/python-pip-install-failed/)
-- [How to Fix No module named pip in Python](/en_Troubleshooting/python-no-module-named-pip/)
-- [Python venv Not Activating: How to Fix It](/en_Troubleshooting/python-venv-not-activating/)
+- [How to Fix pip install Failed in Python](/en_troubleshooting/python-pip-install-failed/)
+- [How to Fix No module named pip in Python](/en_troubleshooting/python-no-module-named-pip/)
+- [Python venv Not Activating: How to Fix It](/en_troubleshooting/python-venv-not-activating/)
 
 ## FAQ
 

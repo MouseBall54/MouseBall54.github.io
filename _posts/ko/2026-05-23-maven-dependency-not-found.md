@@ -206,8 +206,8 @@ build plugin은 `pluginRepositories`가 필요합니다.
 
 ## 함께 보면 좋은 글
 
-- [Gradle build failed 해결 체크리스트](/ko_Troubleshooting/gradle-build-failed/)
-- [Java Cannot Find Symbol 오류 해결](/ko_Troubleshooting/java-error-cannot-find-symbol/)
+- [Gradle build failed 해결 체크리스트](/ko_troubleshooting/gradle-build-failed/)
+- [Java Cannot Find Symbol 오류 해결](/ko_troubleshooting/java-error-cannot-find-symbol/)
 - [Maven: Introduction to repositories](https://maven.apache.org/guides/introduction/introduction-to-repositories.html)
 - [Maven: Dependency mechanism](https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html)
 

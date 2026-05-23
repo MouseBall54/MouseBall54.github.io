@@ -190,9 +190,9 @@ One change for next month:
 
 ## 관련 글
 
-- [복리 계산 예시](/ko_Economy/compound-interest-example/)
-- [ETF와 펀드 차이](/ko_Economy/etf-vs-mutual-fund/)
-- [Pomodoro와 Deep Work](/ko_Study/pomodoro-deep-work/)
+- [복리 계산 예시](/ko_economy/compound-interest-example/)
+- [ETF와 펀드 차이](/ko_economy/etf-vs-mutual-fund/)
+- [Pomodoro와 Deep Work](/ko_study/pomodoro-deep-work/)
 
 ## 자주 묻는 질문
 

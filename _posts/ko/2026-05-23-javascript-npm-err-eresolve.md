@@ -236,9 +236,9 @@ npm run dev
 
 ## 관련 글
 
-- [JavaScript Failed to Fetch 오류 해결 방법](/ko_Troubleshooting/javascript-failed-to-fetch/)
-- [JavaScript var, let, const 차이 정리](/ko_Troubleshooting/javascript-variables-var-vs-let-vs-const/)
-- [JavaScript Promise.all과 Promise.race 차이](/ko_Troubleshooting/javascript-promise-all-vs-promise-race/)
+- [JavaScript Failed to Fetch 오류 해결 방법](/ko_troubleshooting/javascript-failed-to-fetch/)
+- [JavaScript var, let, const 차이 정리](/ko_troubleshooting/javascript-variables-var-vs-let-vs-const/)
+- [JavaScript Promise.all과 Promise.race 차이](/ko_troubleshooting/javascript-promise-all-vs-promise-race/)
 
 ## 자주 묻는 질문
 

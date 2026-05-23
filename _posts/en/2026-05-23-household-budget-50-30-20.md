@@ -189,9 +189,9 @@ Most people are surprised by one category the first time they track it.
 
 ## Related Posts
 
-- [Compound Interest Example](/en_Economy/compound-interest-example/)
-- [ETF vs Mutual Fund](/en_Economy/etf-vs-mutual-fund/)
-- [Pomodoro vs Deep Work](/en_Study/pomodoro-deep-work/)
+- [Compound Interest Example](/en_economy/compound-interest-example/)
+- [ETF vs Mutual Fund](/en_economy/etf-vs-mutual-fund/)
+- [Pomodoro vs Deep Work](/en_study/pomodoro-deep-work/)
 
 ## FAQ
 

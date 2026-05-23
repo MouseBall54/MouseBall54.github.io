@@ -198,9 +198,9 @@ A small automatic transfer is often better than a large plan you forget.
 
 ## Related Posts
 
-- [50/30/20 Budget Rule](/en_Economy/household-budget-50-30-20/)
-- [Compound Interest Example](/en_Economy/compound-interest-example/)
-- [ETF vs Mutual Fund](/en_Economy/etf-vs-mutual-fund/)
+- [50/30/20 Budget Rule](/en_economy/household-budget-50-30-20/)
+- [Compound Interest Example](/en_economy/compound-interest-example/)
+- [ETF vs Mutual Fund](/en_economy/etf-vs-mutual-fund/)
 
 ## FAQ
 

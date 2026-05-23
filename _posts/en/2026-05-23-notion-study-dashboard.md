@@ -239,9 +239,9 @@ For most students, deadline, confidence, review date, and mistake type are enoug
 
 ## Related Reading
 
-- [Weekly Study Review Template](/en_Study/weekly-study-review/)
-- [Spaced Repetition Schedule](/en_Study/spaced-repetition-schedule/)
-- [Active Recall Study Method](/en_Study/active-recall-study-method/)
+- [Weekly Study Review Template](/en_study/weekly-study-review/)
+- [Spaced Repetition Schedule](/en_study/spaced-repetition-schedule/)
+- [Active Recall Study Method](/en_study/active-recall-study-method/)
 - [Notion Help: Database views](https://www.notion.com/help/views)
 
 ## Final Checklist

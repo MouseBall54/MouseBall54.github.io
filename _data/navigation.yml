@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "Category"
+  - title: "Categories"
     url: /categories/
-  - title: "Tag"
+  - title: "Tags"
     url: /tags/
   - title: "Easy Labeling"
     url: /easy_labeling_intro/
@@ -11,38 +11,38 @@ main:
   # - title: "Easy Labeling"
 
 sidebar-category:
-  - title: "🇰🇷 한국어"
+  - title: "한국어"
     children:
-      - title: "🏷️Easy_Labeling"
+      - title: "Easy Labeling"
         url: /ko_easy_labeling/
         category: "ko_easy_labeling"
-      - title: "🔍Troubleshooting"
-        url: /ko_Troubleshooting/
+      - title: "Troubleshooting"
+        url: /ko_troubleshooting/
         category: "ko_Troubleshooting"
-      - title: "🤖AI Trends"
-        url: /ko_AI_Trends/
+      - title: "AI Trends"
+        url: /ko_ai_trends/
         category: "ko_AI_Trends"
-      - title: "📚Study"
-        url: /ko_Study/
+      - title: "Study"
+        url: /ko_study/
         category: "ko_Study"
-      - title: "📈Economy"
-        url: /ko_Economy/
+      - title: "Economy"
+        url: /ko_economy/
         category: "ko_Economy"
 
-  - title: "🇬🇧 English"
+  - title: "English"
     children:
-      - title: "🏷️Easy_Labeling"
+      - title: "Easy Labeling"
         url: /en_easy_labeling/
         category: "en_easy_labeling"
-      - title: "🔍Troubleshooting"
-        url: /en_Troubleshooting/
+      - title: "Troubleshooting"
+        url: /en_troubleshooting/
         category: "en_Troubleshooting"
-      - title: "🤖AI Trends"
-        url: /en_AI_Trends/
+      - title: "AI Trends"
+        url: /en_ai_trends/
         category: "en_AI_Trends"
-      - title: "📚Study"
-        url: /en_Study/
+      - title: "Study"
+        url: /en_study/
         category: "en_Study"
-      - title: "📈Economy"
-        url: /en_Economy/
+      - title: "Economy"
+        url: /en_economy/
         category: "en_Economy"

@@ -137,9 +137,9 @@ Keep the template short enough that you can apply it repeatedly.
 
 ## Related Posts
 
-- [AI Agent Workflow 2026](/en_AI_Trends/ai-agent-workflow-2026/)
-- [AI Tool Calling vs Function Calling](/en_AI_Trends/ai-tools-function-calling/)
-- [OpenAI Responses API Practical Guide](/en_AI_Trends/openai-responses-api-guide/)
+- [AI Agent Workflow 2026](/en_ai_trends/ai-agent-workflow-2026/)
+- [AI Tool Calling vs Function Calling](/en_ai_trends/ai-tools-function-calling/)
+- [OpenAI Responses API Practical Guide](/en_ai_trends/openai-responses-api-guide/)
 
 ## FAQ
 

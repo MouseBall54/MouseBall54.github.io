@@ -218,9 +218,9 @@ python -m venv .venv
 
 관련 기술 글:
 
-- [Python 가상환경이 활성화되지 않을 때](/ko_Troubleshooting/python-venv-not-activating/)
-- [Python pip install 실패 해결](/ko_Troubleshooting/python-pip-install-failed/)
-- [Windows에서 python 명령어가 안 될 때](/ko_Troubleshooting/python-command-not-found-windows/)
+- [Python 가상환경이 활성화되지 않을 때](/ko_troubleshooting/python-venv-not-activating/)
+- [Python pip install 실패 해결](/ko_troubleshooting/python-pip-install-failed/)
+- [Windows에서 python 명령어가 안 될 때](/ko_troubleshooting/python-command-not-found-windows/)
 
 ## 흔한 실수
 
@@ -301,9 +301,9 @@ One thing I can now do:
 
 ## 함께 보면 좋은 글
 
-- [Spaced Repetition 복습 일정 만들기](/ko_Study/spaced-repetition-schedule/)
-- [오답노트 시스템 만드는 법](/ko_Study/exam-mistake-note-system/)
-- [주간 공부 리뷰 루틴](/ko_Study/weekly-study-review/)
+- [Spaced Repetition 복습 일정 만들기](/ko_study/spaced-repetition-schedule/)
+- [오답노트 시스템 만드는 법](/ko_study/exam-mistake-note-system/)
+- [주간 공부 리뷰 루틴](/ko_study/weekly-study-review/)
 
 ## 자주 묻는 질문
 

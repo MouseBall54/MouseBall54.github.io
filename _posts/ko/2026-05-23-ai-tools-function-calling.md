@@ -203,9 +203,9 @@ Review gate는 customer experience를 보호합니다.
 
 ## 관련 글
 
-- [OpenAI Responses API 사용 흐름](/ko_AI_Trends/openai-responses-api-guide/)
-- [AI agent workflow 2026](/ko_AI_Trends/ai-agent-workflow-2026/)
-- [Prompt engineering 체크리스트](/ko_AI_Trends/prompt-engineering-checklist/)
+- [OpenAI Responses API 사용 흐름](/ko_ai_trends/openai-responses-api-guide/)
+- [AI agent workflow 2026](/ko_ai_trends/ai-agent-workflow-2026/)
+- [Prompt engineering 체크리스트](/ko_ai_trends/prompt-engineering-checklist/)
 
 ## 자주 묻는 질문
 

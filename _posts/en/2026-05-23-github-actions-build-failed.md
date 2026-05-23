@@ -307,9 +307,9 @@ If the workflow fails again at a later step, treat it as a new error and read th
 
 ## Related Posts
 
-- [How to Fix Git Failed to Push Some Refs Error](/en_Troubleshooting/git-failed-to-push-some-refs/)
-- [How to Resolve Git Merge Conflicts](/en_Troubleshooting/git-resolving-merge-conflicts/)
-- [How to Fix Git fatal: could not read Username Error](/en_Troubleshooting/git-fatal-could-not-read-username/)
+- [How to Fix Git Failed to Push Some Refs Error](/en_troubleshooting/git-failed-to-push-some-refs/)
+- [How to Resolve Git Merge Conflicts](/en_troubleshooting/git-resolving-merge-conflicts/)
+- [How to Fix Git fatal: could not read Username Error](/en_troubleshooting/git-fatal-could-not-read-username/)
 
 ## FAQ
 

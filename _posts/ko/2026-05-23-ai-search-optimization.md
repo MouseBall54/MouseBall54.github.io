@@ -232,8 +232,8 @@ Title: 정확한 주제 + 독자가 얻는 결과
 
 ## 함께 보면 좋은 글
 
-- [Prompt Engineering Checklist](/ko_AI_Trends/prompt-engineering-checklist/)
-- [AI Agent Workflow 2026](/ko_AI_Trends/ai-agent-workflow-2026/)
+- [Prompt Engineering Checklist](/ko_ai_trends/prompt-engineering-checklist/)
+- [AI Agent Workflow 2026](/ko_ai_trends/ai-agent-workflow-2026/)
 - [Google: Optimizing for generative AI search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
 - [Google: Helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
 

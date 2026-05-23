@@ -236,9 +236,9 @@ The app should still build and run with the resolved versions.
 
 ## Related Posts
 
-- [How to Fix JavaScript Failed to Fetch Error](/en_Troubleshooting/javascript-failed-to-fetch/)
-- [JavaScript var vs let vs const: What's the Difference?](/en_Troubleshooting/javascript-variables-var-vs-let-vs-const/)
-- [Promise.all vs Promise.race in JavaScript](/en_Troubleshooting/javascript-promise-all-vs-promise-race/)
+- [How to Fix JavaScript Failed to Fetch Error](/en_troubleshooting/javascript-failed-to-fetch/)
+- [JavaScript var vs let vs const: What's the Difference?](/en_troubleshooting/javascript-variables-var-vs-let-vs-const/)
+- [Promise.all vs Promise.race in JavaScript](/en_troubleshooting/javascript-promise-all-vs-promise-race/)
 
 ## FAQ
 

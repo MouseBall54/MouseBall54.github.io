@@ -120,9 +120,9 @@ tags:
 
 관련 기술 글:
 
-- [Python pip install 실패 해결](/ko_Troubleshooting/python-pip-install-failed/)
-- [Windows에서 python 명령어가 안 될 때](/ko_Troubleshooting/python-command-not-found-windows/)
-- [GitHub Actions build failed 해결 방법](/ko_Troubleshooting/github-actions-build-failed/)
+- [Python pip install 실패 해결](/ko_troubleshooting/python-pip-install-failed/)
+- [Windows에서 python 명령어가 안 될 때](/ko_troubleshooting/python-command-not-found-windows/)
+- [GitHub Actions build failed 해결 방법](/ko_troubleshooting/github-actions-build-failed/)
 
 ## Portfolio Rule
 
@@ -149,9 +149,9 @@ tags:
 
 ## 함께 보면 좋은 글
 
-- [Active Recall 공부법](/ko_Study/active-recall-study-method/)
-- [Pomodoro와 Deep Work](/ko_Study/pomodoro-deep-work/)
-- [Notion 공부 대시보드 구성](/ko_Study/notion-study-dashboard/)
+- [Active Recall 공부법](/ko_study/active-recall-study-method/)
+- [Pomodoro와 Deep Work](/ko_study/pomodoro-deep-work/)
+- [Notion 공부 대시보드 구성](/ko_study/notion-study-dashboard/)
 
 ## 자주 묻는 질문
 

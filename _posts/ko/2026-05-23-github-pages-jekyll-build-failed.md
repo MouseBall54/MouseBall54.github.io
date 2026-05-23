@@ -152,9 +152,11 @@ title: >
 
 Log에 include file이 없다고 나오면 include 사용 지점을 검색합니다.
 
+{% raw %}
 ```bash
 rg "{% include" .
 ```
+{% endraw %}
 
 문제 예시:
 
@@ -291,9 +293,9 @@ GitHub Pages는 build 성공 후 반영까지 몇 분 걸릴 수 있습니다.
 
 ## 관련 글
 
-- [GitHub Actions build failed 해결 방법](/ko_Troubleshooting/github-actions-build-failed/)
-- [Git fatal: not a git repository 오류 해결 방법](/ko_Troubleshooting/git-fatal-not-a-git-repository/)
-- [Gitignore 사용법과 흔한 실수](/ko_Troubleshooting/git-using-gitignore/)
+- [GitHub Actions build failed 해결 방법](/ko_troubleshooting/github-actions-build-failed/)
+- [Git fatal: not a git repository 오류 해결 방법](/ko_troubleshooting/git-fatal-not-a-git-repository/)
+- [Gitignore 사용법과 흔한 실수](/ko_troubleshooting/git-using-gitignore/)
 
 ## 자주 묻는 질문
 

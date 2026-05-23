@@ -178,8 +178,8 @@ Start with high frequency, high verification, low risk.
 
 ## Related Reading
 
-- [AI Agent Workflow 2026](/en_AI_Trends/ai-agent-workflow-2026/)
-- [AI Coding Agent Workflow](/en_AI_Trends/ai-coding-agent-workflow/)
+- [AI Agent Workflow 2026](/en_ai_trends/ai-agent-workflow-2026/)
+- [AI Coding Agent Workflow](/en_ai_trends/ai-coding-agent-workflow/)
 - [OpenAI Agents documentation](https://platform.openai.com/docs/guides/agents)
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
 

@@ -258,9 +258,9 @@ py -c "import sys; print(sys.executable)"
 
 ## 관련 글
 
-- [Python pip install 실패 해결 방법](/ko_Troubleshooting/python-pip-install-failed/)
-- [Python No module named pip 오류 해결 방법](/ko_Troubleshooting/python-no-module-named-pip/)
-- [Python venv가 활성화되지 않을 때 해결 방법](/ko_Troubleshooting/python-venv-not-activating/)
+- [Python pip install 실패 해결 방법](/ko_troubleshooting/python-pip-install-failed/)
+- [Python No module named pip 오류 해결 방법](/ko_troubleshooting/python-no-module-named-pip/)
+- [Python venv가 활성화되지 않을 때 해결 방법](/ko_troubleshooting/python-venv-not-activating/)
 
 ## 자주 묻는 질문
 

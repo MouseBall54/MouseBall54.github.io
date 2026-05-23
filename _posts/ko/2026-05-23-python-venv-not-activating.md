@@ -252,9 +252,9 @@ python -m pip show requests
 
 ## 관련 글
 
-- [Python pip install 실패 해결 방법](/ko_Troubleshooting/python-pip-install-failed/)
-- [Python No module named pip 오류 해결 방법](/ko_Troubleshooting/python-no-module-named-pip/)
-- [Python ModuleNotFoundError 해결 방법](/ko_Troubleshooting/python-modulenotfounderror/)
+- [Python pip install 실패 해결 방법](/ko_troubleshooting/python-pip-install-failed/)
+- [Python No module named pip 오류 해결 방법](/ko_troubleshooting/python-no-module-named-pip/)
+- [Python ModuleNotFoundError 해결 방법](/ko_troubleshooting/python-modulenotfounderror/)
 
 ## 자주 묻는 질문
 

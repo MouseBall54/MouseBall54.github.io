@@ -226,9 +226,9 @@ Could: 노트 정리, 코딩 연습문제 2개 추가
 
 ## 함께 보면 좋은 글
 
-- [Active Recall Study Method](/ko_Study/active-recall-study-method/)
-- [Spaced Repetition Schedule](/ko_Study/spaced-repetition-schedule/)
-- [Pomodoro vs Deep Work](/ko_Study/pomodoro-deep-work/)
+- [Active Recall Study Method](/ko_study/active-recall-study-method/)
+- [Spaced Repetition Schedule](/ko_study/spaced-repetition-schedule/)
+- [Pomodoro vs Deep Work](/ko_study/pomodoro-deep-work/)
 - [CMU retrieval practice 학습 전략 자료](https://www.cmu.edu/student-success/other-resources/handouts/learning-strategies/retrieval-practice.pdf)
 
 ## 마무리

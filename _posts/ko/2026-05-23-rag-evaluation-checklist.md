@@ -137,9 +137,9 @@ Fix idea:
 
 ## 관련 글
 
-- [AI agent workflow 2026](/ko_AI_Trends/ai-agent-workflow-2026/)
-- [AI tool calling과 function calling 차이](/ko_AI_Trends/ai-tools-function-calling/)
-- [OpenAI Responses API 사용 흐름](/ko_AI_Trends/openai-responses-api-guide/)
+- [AI agent workflow 2026](/ko_ai_trends/ai-agent-workflow-2026/)
+- [AI tool calling과 function calling 차이](/ko_ai_trends/ai-tools-function-calling/)
+- [OpenAI Responses API 사용 흐름](/ko_ai_trends/openai-responses-api-guide/)
 
 ## 자주 묻는 질문
 
