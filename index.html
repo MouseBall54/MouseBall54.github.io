@@ -3,7 +3,7 @@ layout: home
 title: "MouseBall54 Toolbox"
 lang: en
 seo_description: >
-  MouseBall54 Toolbox collects bilingual troubleshooting, AI workflow, global affairs, digital security, finance, study, and image labeling guides.
+  MouseBall54 Toolbox collects bilingual troubleshooting, AI workflow, global affairs, security, finance, health, study, and image labeling guides.
 author_profile: true
 sidebar:
     nav: "sidebar-category"
@@ -59,6 +59,13 @@ MouseBall54 Toolbox is a bilingual practical knowledge blog for developers and t
   </div>
   <div class="feature__item">
     <div class="archive__item">
+      <h3 class="archive__item-title">Health Literacy</h3>
+      <p>Educational guides for sleep, activity, nutrition, prevention, symptom tracking, medicine safety, mental health signals, and emergency preparation.</p>
+      <p><a href="/en_health_literacy/" class="btn btn--primary">English</a> <a href="/ko_health_literacy/" class="btn">한국어</a></p>
+    </div>
+  </div>
+  <div class="feature__item">
+    <div class="archive__item">
       <h3 class="archive__item-title">Study</h3>
       <p>Active recall, spaced repetition, study dashboards, review routines, and exam systems.</p>
       <p><a href="/en_study/" class="btn btn--primary">English</a> <a href="/ko_study/" class="btn">한국어</a></p>
@@ -86,6 +93,7 @@ MouseBall54 Toolbox is a bilingual practical knowledge blog for developers and t
 - [Global Growth and Fragmentation in 2026](/en_global_affairs/global-growth-fragmentation-2026/)
 - [A 30-Second Phishing Triage](/en_digital_security/phishing-message-triage/)
 - [Paycheck Budget Calendar](/en_personal_finance/paycheck-budget-calendar/)
+- [Adult Sleep Routine](/en_health_literacy/sleep-routine-adults/)
 - [Active Recall Study Method](/en_study/active-recall-study-method/)
 - [Compound Interest Example](/en_economy/compound-interest-example/)
 - [Local Image Labeling Workflow](/en_easy_labeling/local-image-labeling-workflow/)
@@ -114,6 +122,12 @@ MouseBall54 Toolbox is a bilingual practical knowledge blog for developers and t
 ### Personal Finance
 
 {% for post in site.categories["en_Personal_Finance"] limit: 3 %}
+  {% include archive-single.html type="list" %}
+{% endfor %}
+
+### Health Literacy
+
+{% for post in site.categories["en_Health_Literacy"] limit: 3 %}
   {% include archive-single.html type="list" %}
 {% endfor %}
 

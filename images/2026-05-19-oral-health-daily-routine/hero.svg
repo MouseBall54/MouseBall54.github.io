@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Adult Oral Health Routine: Brushing, Flossing, Sugar, and Checku</title>
+  <desc id="desc">Track patterns, warning signs, and when to ask for help</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#15803d"/>
+    </linearGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M54 0 L0 0 0 54" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <path d="M70 455 H252 L304 360 L374 555 L455 235 L530 455 H1130" fill="none" stroke="#fef9c3" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" opacity="0.88"/>
+  <circle cx="745" cy="220" r="30" fill="#bbf7d0" fill-opacity="0.18"/>
+<circle cx="823" cy="290" r="32" fill="#bbf7d0" fill-opacity="0.22"/>
+<circle cx="901" cy="220" r="34" fill="#bbf7d0" fill-opacity="0.26"/>
+<circle cx="979" cy="290" r="36" fill="#bbf7d0" fill-opacity="0.30"/>
+<circle cx="1057" cy="220" r="38" fill="#bbf7d0" fill-opacity="0.34"/>
+  <rect x="62" y="276" width="580" height="268" rx="30" fill="#052e2b" fill-opacity="0.58" stroke="#ffffff" stroke-opacity="0.18"/>
+  <text x="72" y="108" fill="#f8fafc" font-size="45" font-family="Avenir, Verdana, sans-serif" font-weight="700">Adult Oral Health Routine: Brushing, Flossing, Sugar, and Checku</text>
+  <text x="76" y="160" fill="#dcfce7" font-size="25" font-family="Avenir, Verdana, sans-serif">Track patterns, warning signs, and when to ask for help</text>
+  <text x="86" y="326" fill="#f0fdf4" font-size="23" font-family="Avenir, Verdana, sans-serif">gum bleeding</text>
+<text x="86" y="366" fill="#f0fdf4" font-size="23" font-family="Avenir, Verdana, sans-serif">tooth pain</text>
+<text x="86" y="406" fill="#f0fdf4" font-size="23" font-family="Avenir, Verdana, sans-serif">sugary drinks</text>
+<text x="86" y="446" fill="#f0fdf4" font-size="23" font-family="Avenir, Verdana, sans-serif">checkup gap</text>
+  <text x="76" y="610" fill="#bbf7d0" font-size="22" font-family="Avenir, Verdana, sans-serif">MouseBall54 Health Literacy Guide</text>
+</svg>

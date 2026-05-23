@@ -1,6 +1,6 @@
 # MouseBall54 Toolbox
 
-MouseBall54 Toolbox is a bilingual developer and practical knowledge site focused on troubleshooting, AI workflows, global affairs, digital security, personal finance, study systems, and image labeling workflows.
+MouseBall54 Toolbox is a bilingual developer and practical knowledge site focused on troubleshooting, AI workflows, global affairs, digital security, personal finance, health literacy, study systems, and image labeling workflows.
 
 Primary site: https://mouseball54.github.io/
 RSS feed: https://mouseball54.github.io/feed.xml
@@ -19,6 +19,8 @@ Image sitemap: https://mouseball54.github.io/image-sitemap.xml
 - English Digital Security: https://mouseball54.github.io/en_digital_security/
 - Korean Personal Finance: https://mouseball54.github.io/ko_personal_finance/
 - English Personal Finance: https://mouseball54.github.io/en_personal_finance/
+- Korean Health Literacy: https://mouseball54.github.io/ko_health_literacy/
+- English Health Literacy: https://mouseball54.github.io/en_health_literacy/
 - Korean Study: https://mouseball54.github.io/ko_study/
 - English Study: https://mouseball54.github.io/en_study/
 - Korean Economy: https://mouseball54.github.io/ko_economy/
@@ -37,6 +39,8 @@ Image sitemap: https://mouseball54.github.io/image-sitemap.xml
 - Small Business Cyber Baseline: https://mouseball54.github.io/en_digital_security/small-business-cyber-baseline/
 - Paycheck Budget Calendar: https://mouseball54.github.io/en_personal_finance/paycheck-budget-calendar/
 - Risk Tolerance and Time Horizon: https://mouseball54.github.io/en_personal_finance/risk-tolerance-time-horizon/
+- Adult Sleep Routine: https://mouseball54.github.io/en_health_literacy/sleep-routine-adults/
+- Doctor Visit Question List: https://mouseball54.github.io/en_health_literacy/doctor-visit-question-list/
 - Active Recall Study Method: https://mouseball54.github.io/en_study/active-recall-study-method/
 - Spaced Repetition Schedule: https://mouseball54.github.io/en_study/spaced-repetition-schedule/
 - Compound Interest Example: https://mouseball54.github.io/en_economy/compound-interest-example/
@@ -54,3 +58,4 @@ Image sitemap: https://mouseball54.github.io/image-sitemap.xml
 - Global Affairs content uses official-source briefings to connect world events with growth, trade, energy, finance, security, climate, migration, and Korea-facing transmission channels.
 - Digital Security content provides official-source routines for phishing, password managers, MFA, backups, ransomware response, privacy, family safety, and small business cyber hygiene.
 - Personal Finance content is educational, not individualized financial advice, and focuses on official-source frameworks for budgeting, debt, credit, taxes, investing risk, fees, and scam red flags.
+- Health Literacy content is educational, not diagnosis or treatment advice, and uses official sources for sleep, activity, nutrition, prevention, symptom tracking, medicine safety, mental health signals, and emergency preparation.

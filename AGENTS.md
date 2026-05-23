@@ -119,6 +119,8 @@ Current content categories are:
 - `en_Digital_Security`
 - `ko_Personal_Finance`
 - `en_Personal_Finance`
+- `ko_Health_Literacy`
+- `en_Health_Literacy`
 - `ko_Study`
 - `en_Study`
 - `ko_Economy`
@@ -131,6 +133,8 @@ Global Affairs posts should use official sources where possible, include a sourc
 Digital Security posts should prioritize official guidance from sources such as CISA, NIST, FTC, KISA, and privacy reporting agencies. Write them as practical safety routines, not fear-based product recommendations. Include source notes, recovery steps, and clear warnings that fast reporting reduces damage.
 
 Personal Finance posts should be educational only and must not present individualized investment, tax, lending, or legal advice. Prefer official sources such as CFPB, SEC Investor.gov, FINRA, IRS, FTC, FSS, and KINFA. Include source notes, assumptions to verify, and a reminder to check local tax and financial rules.
+
+Health Literacy posts should be educational only and must not present diagnosis, treatment, dosage, or personalized medical advice. Prefer official sources such as CDC, WHO, FDA, NIH MedlinePlus, NIMH, and ODPHP. Include source notes, safety red flags, and clear guidance to contact emergency services or qualified medical professionals for severe, sudden, or safety-critical symptoms.
 
 ## AdSense
 
