@@ -2,13 +2,14 @@
 
 Created: 2026-05-23
 
-This queue translates the expanded traffic goal into 50 paired topics, or about 100 posts when Korean and English versions are published together.
+This queue translates the expanded traffic goal into paired Korean and English topic sets.
+It began as a 50-pair campaign, but production now intentionally exceeds that baseline as fields are expanded toward roughly 30 or more topic pairs each.
 The list keeps the existing troubleshooting strength, then adds study, economy, AI trends, and practical AI workflow content.
 
 ## Operating Rules
 
 - Publish Korean and English posts together with the same `translation_id`.
-- Create or select one useful image for every topic pair.
+- Create or select at least two useful images for every topic pair.
 - Prefer original diagrams, screenshots, annotated workflows, tables, or generated editorial images that explain the topic.
 - Use generated images only when they help understanding; never use generic decorative stock-like images.
 - Put the primary image in `header.teaser`, `header.overlay_image`, and once near the opening section when it clarifies the concept.
@@ -21,11 +22,11 @@ The list keeps the existing troubleshooting strength, then adds study, economy, 
 | Domain | Topic pairs | Post files | Search intent |
 | --- | ---: | ---: | --- |
 | Troubleshooting | 20 | 40 | Immediate problem solving |
-| AI trends and workflow | 10 | 20 | Current AI adoption and practical implementation |
+| AI trends and workflow | 30 | 60 | Current AI adoption and practical implementation |
 | Study and productivity | 8 | 16 | Repeatable study systems and exam preparation |
-| Economy and money basics | 7 | 14 | Evergreen financial literacy and market explanations |
+| Economy and money basics | 36 | 72 | Official-source economic indicators and household cost explanations |
 | Easy Labeling and computer vision | 5 | 10 | Product-led education and tool discovery |
-| Total | 50 | 100 | Balanced growth portfolio |
+| Total | 99 | 198 | Balanced growth portfolio |
 
 ## Troubleshooting: 20 Topic Pairs
 
@@ -52,7 +53,10 @@ The list keeps the existing troubleshooting strength, then adds study, economy, 
 | review | docker-daemon-not-running | Docker daemon not running | Docker daemon not running 해결 | Fix Docker Daemon Not Running | Docker client/server |
 | review | vscode-python-interpreter-not-showing | VS Code Python interpreter not showing | VS Code Python interpreter 선택 문제 | VS Code Python Interpreter Not Showing | VS Code interpreter picker |
 
-## AI Trends and Workflow: 10 Topic Pairs
+## AI Trends and Workflow: 30 Topic Pairs
+
+Production source: `tools/generate_ai_trends_posts.py`.
+The table below records the original seed set; the generator now expands this field to 30 paired Korean and English posts.
 
 | Status | Translation ID | Primary keyword | Korean title direction | English title direction | Image direction |
 | --- | --- | --- | --- | --- | --- |
@@ -80,17 +84,48 @@ The list keeps the existing troubleshooting strength, then adds study, economy, 
 | review | notion-study-dashboard | Notion study dashboard | Notion 공부 대시보드 구성 | Notion Study Dashboard | dashboard mockup |
 | review | weekly-study-review | weekly study review | 주간 공부 회고 템플릿 | Weekly Study Review Template | weekly review sheet |
 
-## Economy and Money Basics: 7 Topic Pairs
+## Economy and Money Basics: 36 Topic Pairs
+
+Production source: `tools/generate_economy_posts.py`.
 
 | Status | Translation ID | Primary keyword | Korean title direction | English title direction | Image direction |
 | --- | --- | --- | --- | --- | --- |
-| review | interest-rate-inflation-basics | interest rates and inflation | 금리와 물가가 같이 움직이는 이유 | Interest Rates and Inflation Explained | macro loop |
-| review | exchange-rate-basics | exchange rate basics | 환율이 오르면 생기는 일 | Exchange Rate Basics | currency flow |
-| review | etf-vs-mutual-fund | ETF vs mutual fund | ETF와 펀드 차이 | ETF vs Mutual Fund | comparison table |
-| review | compound-interest-example | compound interest example | 복리 계산을 실제 숫자로 이해하기 | Compound Interest Example | growth curve |
-| review | household-budget-50-30-20 | 50 30 20 budget rule | 50/30/20 예산법 쓰는 법 | 50/30/20 Budget Rule | budget pie chart |
-| review | emergency-fund-how-much | emergency fund how much | 비상금은 얼마가 적당할까 | How Much Emergency Fund Do You Need | safety reserve |
-| review | recession-indicators-basics | recession indicators | 경기 침체 지표 쉽게 읽기 | Recession Indicators Explained | indicator dashboard |
+| review | interest-rate-inflation-basics | InterestRates | 금리와 물가 기초: 중앙은행 뉴스를 생활비 언어로 읽기 | Interest Rates and Inflation: Read Central Bank News in Household Terms | economy decision diagram |
+| review | exchange-rate-basics | ExchangeRates | 환율 기초: 원화 약세가 여행, 수입물가, 수출에 주는 영향 | Exchange Rate Basics: Travel, Import Prices, and Exports | economy decision diagram |
+| review | etf-vs-mutual-fund | ETF | ETF와 펀드 차이: 수수료, 거래 방식, 세금을 먼저 비교하기 | ETF vs Mutual Fund: Compare Fees, Trading, and Taxes First | economy decision diagram |
+| review | compound-interest-example | CompoundInterest | 복리 계산 예시: 수익률보다 기간과 추가 납입이 중요한 이유 | Compound Interest Example: Time and Contributions Matter | economy decision diagram |
+| review | household-budget-50-30-20 | Budgeting | 50/30/20 예산법: 규칙보다 고정비와 현금흐름 먼저 보기 | 50/30/20 Budget Rule: Start With Fixed Costs and Cash Flow | economy decision diagram |
+| review | emergency-fund-how-much | EmergencyFund | 비상금은 얼마가 적당할까: 3개월보다 먼저 봐야 할 생활비 | How Much Emergency Fund Is Enough? Start With Essential Costs | economy decision diagram |
+| review | recession-indicators-basics | Recession | 경기 침체 지표 읽기: GDP, 고용, 소비를 한 번에 보기 | Recession Indicators: Read GDP, Jobs, and Consumption Together | economy decision diagram |
+| review | real-wage-purchasing-power | Wages | 실질임금과 구매력: 월급이 올랐는데 왜 빠듯한지 계산하기 | Real Wages and Purchasing Power: Why Raises Can Still Feel Tight | economy decision diagram |
+| review | cpi-vs-personal-inflation | CPI | CPI와 개인 물가 차이: 공식 물가와 체감 물가가 다른 이유 | CPI vs Personal Inflation: Why Official Inflation Feels Different | economy decision diagram |
+| review | gdp-components-guide | GDP | GDP 구성요소 읽기: 소비, 투자, 정부, 순수출을 나눠 보기 | GDP Components: Read Consumption, Investment, Government, and Net Exports | economy decision diagram |
+| review | unemployment-rate-labor-market | LaborMarket | 실업률과 노동시장: 낮은 실업률만 보면 놓치는 신호 | Unemployment Rate and Labor Market Signals Beyond the Headline | economy decision diagram |
+| review | central-bank-meeting-how-to-read | CentralBanks | 중앙은행 회의 읽는 법: 결정문, 전망, 기자회견을 분리하기 | How to Read a Central Bank Meeting: Statement, Projections, Press Conference | economy decision diagram |
+| review | bond-yield-curve-basics | Bonds | 채권 금리와 수익률 곡선: 장단기 금리가 말하는 경기 기대 | Bond Yields and the Yield Curve: What Short and Long Rates Signal | economy decision diagram |
+| review | household-debt-service-ratio | HouseholdDebt | 가계부채 부담 읽기: 대출 잔액보다 월 상환액이 먼저다 | Household Debt Burden: Monthly Payments Matter Before Balances | economy decision diagram |
+| review | current-account-trade-balance | TradeBalance | 경상수지와 무역수지: 수출이 좋아도 환율이 흔들릴 수 있는 이유 | Current Account and Trade Balance: Why Exports Do Not Explain Everything | economy decision diagram |
+| review | oil-price-import-inflation | OilPrices | 유가와 수입물가: 국제유가가 전기요금과 장바구니까지 오는 경로 | Oil Prices and Import Inflation: From Crude Markets to Household Bills | economy decision diagram |
+| review | semiconductor-cycle-korea-economy | Semiconductors | 반도체 경기와 한국 경제: 수출 호황이 모두에게 같지 않은 이유 | Semiconductor Cycle and Korea: Why Export Booms Feel Uneven | economy decision diagram |
+| review | fiscal-deficit-public-debt | FiscalPolicy | 재정적자와 국가채무: 좋은 지출과 지속가능성을 같이 보기 | Fiscal Deficits and Public Debt: Read Support and Sustainability Together | economy decision diagram |
+| review | dollar-won-exchange-rate-checklist | KoreanWon | 원달러 환율 체크리스트: 뉴스 한 줄보다 금리차, 유가, 수지를 같이 보기 | Dollar-Won Exchange Rate Checklist: Rates, Oil, and External Balance | economy decision diagram |
+| review | savings-rate-real-interest-rate | Saving | 저축금리와 실질금리: 예금 이자가 물가를 이기는지 확인하기 | Savings Rates and Real Interest: Check Whether Interest Beats Inflation | economy decision diagram |
+| review | mortgage-rate-rent-affordability | Housing | 주택담보대출 금리와 임대료: 집값보다 월 부담액 먼저 계산하기 | Mortgage Rates and Rent Affordability: Calculate Monthly Burden First | economy decision diagram |
+| review | credit-card-interest-minimum-payment | CreditCards | 신용카드 이자와 최소결제: 잔액이 오래 남는 구조 이해하기 | Credit Card Interest and Minimum Payments: Why Balances Last | economy decision diagram |
+| review | supply-chain-shock-inflation | SupplyChains | 공급망 충격과 물가: 운임, 재고, 대체 공급처를 같이 보기 | Supply Chain Shocks and Inflation: Freight, Inventories, and Substitutes | economy decision diagram |
+| review | productivity-wage-growth | Productivity | 생산성과 임금: 경제가 좋아져도 임금이 늦게 움직이는 이유 | Productivity and Wages: Why Pay Can Lag a Better Economy | economy decision diagram |
+| review | inflation-expectations-guide | InflationExpectations | 기대 인플레이션 읽기: 사람들이 믿는 물가가 실제 물가에 미치는 영향 | Inflation Expectations: Why Beliefs About Prices Matter | economy decision diagram |
+| review | global-growth-forecast-how-to-read | GlobalEconomy | 세계 성장률 전망 읽기: IMF·OECD·World Bank 숫자가 다른 이유 | How to Read Global Growth Forecasts from IMF, OECD, and World Bank | economy decision diagram |
+| review | trade-tariff-household-prices | Tariffs | 관세와 생활물가: 무역정책이 소비자 가격으로 오는 경로 | Tariffs and Household Prices: How Trade Policy Reaches Consumers | economy decision diagram |
+| review | emergency-budget-job-loss | EmergencyBudget | 실직 대비 비상 예산: 평상시 예산과 위기 예산을 나누기 | Emergency Budget for Job Loss: Separate Normal and Crisis Spending | economy decision diagram |
+| review | deposit-insurance-bank-risk | DepositInsurance | 예금자보호와 은행 리스크: 금리보다 안전 한도를 먼저 확인하기 | Deposit Insurance and Bank Risk: Check Safety Limits Before Yield | economy decision diagram |
+| review | consumer-sentiment-economic-signal | ConsumerSentiment | 소비심리 지표 읽기: 기분과 실제 소비를 구분하기 | Consumer Sentiment as an Economic Signal: Separate Mood from Spending | economy decision diagram |
+| review | core-vs-headline-inflation | Inflation | 근원물가와 헤드라인 물가: 에너지·식품 변동을 따로 보는 이유 | Core vs Headline Inflation: Why Food and Energy Are Read Separately | economy decision diagram |
+| review | nominal-vs-real-gdp | GDP | 명목 GDP와 실질 GDP: 성장과 물가 효과를 분리하기 | Nominal vs Real GDP: Separate Growth from Price Effects | economy decision diagram |
+| review | household-balance-sheet-basics | HouseholdFinance | 가계 재무상태표: 소득보다 자산, 부채, 유동성을 함께 보기 | Household Balance Sheet Basics: Assets, Debt, and Liquidity | economy decision diagram |
+| review | small-business-break-even-inflation | SmallBusiness | 소상공인 손익분기점과 물가: 매출보다 마진을 먼저 지키기 | Small Business Break-Even and Inflation: Protect Margin Before Revenue | economy decision diagram |
+| review | global-dollar-liquidity-basics | Dollar | 달러 유동성 기초: 미국 금리가 세계 금융여건에 미치는 영향 | Global Dollar Liquidity: How U.S. Rates Shape Financial Conditions | economy decision diagram |
+| review | economic-calendar-for-households | EconomicCalendar | 가계를 위한 경제 캘린더: CPI, 고용, 금리, 환율 발표일 정리 | Economic Calendar for Households: CPI, Jobs, Rates, and Exchange Rates | economy decision diagram |
 
 ## Easy Labeling and Computer Vision: 5 Topic Pairs
 

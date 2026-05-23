@@ -57,13 +57,17 @@ Image sitemap: https://mouseball54.github.io/image-sitemap.xml
 - Spaced Repetition Schedule: https://mouseball54.github.io/en_study/spaced-repetition-schedule/
 - Compound Interest Example: https://mouseball54.github.io/en_economy/compound-interest-example/
 - Emergency Fund Guide: https://mouseball54.github.io/en_economy/emergency-fund-how-much/
+- Interest Rates and Inflation: https://mouseball54.github.io/en_economy/interest-rate-inflation-basics/
+- Exchange Rate Basics: https://mouseball54.github.io/en_economy/exchange-rate-basics/
+- Recession Indicators: https://mouseball54.github.io/en_economy/recession-indicators-basics/
+- Global Growth Forecast Guide: https://mouseball54.github.io/en_economy/global-growth-forecast-how-to-read/
 - Local Image Labeling Workflow: https://mouseball54.github.io/en_easy_labeling/local-image-labeling-workflow/
 - YOLO Label Format: https://mouseball54.github.io/en_easy_labeling/yolo-label-format/
 - GitHub Actions Build Failed: https://mouseball54.github.io/en_troubleshooting/github-actions-build-failed/
 
 ## Content Notes
 
-- Economy content is educational and is not personal financial advice.
+- Economy content is educational and is not personal financial advice; it connects official macroeconomic data, interest rates, inflation, exchange rates, jobs, debt, budgeting, and household cost pressure.
 - Troubleshooting content is written around reproducible symptoms, causes, fixes, and verification steps.
 - Easy Labeling content supports image annotation, YOLO datasets, COCO conversion, and dataset quality workflows.
 - AI Trends content prioritizes official-source AI workflow governance: agent scopes, OpenAI API patterns, evals, structured outputs, RAG quality, LLM security, privacy, cost controls, and human review boundaries.

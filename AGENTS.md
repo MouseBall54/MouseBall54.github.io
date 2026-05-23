@@ -144,6 +144,8 @@ Digital Security posts should prioritize official guidance from sources such as 
 
 Personal Finance posts should be educational only and must not present individualized investment, tax, lending, or legal advice. Prefer official sources such as CFPB, SEC Investor.gov, FINRA, IRS, FTC, FSS, and KINFA. Include source notes, assumptions to verify, and a reminder to check local tax and financial rules.
 
+Economy posts should be educational only and must not present individualized investment, tax, lending, legal, or personal financial advice. Prefer official or institution-grade sources such as IMF, World Bank, OECD, Federal Reserve, BEA, BLS, FRED, Bank of Korea, KOSIS, CFPB, SEC, and FDIC. Connect macro signals to household-facing channels such as prices, wages, interest payments, exchange rates, savings, debt service, imports, exports, and Korea-facing cost pressure.
+
 Health Literacy posts should be educational only and must not present diagnosis, treatment, dosage, or personalized medical advice. Prefer official sources such as CDC, WHO, FDA, NIH MedlinePlus, NIMH, and ODPHP. Include source notes, safety red flags, and clear guidance to contact emergency services or qualified medical professionals for severe, sudden, or safety-critical symptoms.
 
 ## AdSense
