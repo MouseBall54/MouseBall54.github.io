@@ -418,6 +418,20 @@ function validateSearchAndMonetizationFiles() {
     errors.push("_includes/seo.html: seo_description front matter is not used for meta description");
   }
 
+  [
+    "page.header.image_description",
+    "page_image_alt",
+    "og:image:alt",
+    "twitter:card",
+    "twitter:title",
+    "twitter:description",
+    "twitter:image:alt",
+  ].forEach((term) => {
+    if (!seo.includes(term)) {
+      errors.push(`_includes/seo.html: missing image alt SEO term "${term}"`);
+    }
+  });
+
   if (!seo.includes("{% include faq-schema.html %}")) {
     errors.push("_includes/seo.html: missing faq-schema.html include");
   }
