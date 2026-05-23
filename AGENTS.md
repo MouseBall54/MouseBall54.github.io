@@ -115,6 +115,8 @@ Current content categories are:
 - `en_AI_Trends`
 - `ko_Global_Affairs`
 - `en_Global_Affairs`
+- `ko_Digital_Security`
+- `en_Digital_Security`
 - `ko_Study`
 - `en_Study`
 - `ko_Economy`
@@ -123,6 +125,8 @@ Current content categories are:
 Each post should have exactly one language-prefixed category. Category hub pages must exist at `_pages/category-<category>.md` with a lowercase permalink such as `/en_troubleshooting/`, `sidebar.nav: "sidebar-category"`, useful intro copy, and at least three starting links when enough posts exist.
 
 Global Affairs posts should use official sources where possible, include a source notes section, and translate international events into practical Korea-facing channels such as exports, import prices, energy security, financial conditions, household costs, and security policy.
+
+Digital Security posts should prioritize official guidance from sources such as CISA, NIST, FTC, KISA, and privacy reporting agencies. Write them as practical safety routines, not fear-based product recommendations. Include source notes, recovery steps, and clear warnings that fast reporting reduces damage.
 
 ## AdSense
 

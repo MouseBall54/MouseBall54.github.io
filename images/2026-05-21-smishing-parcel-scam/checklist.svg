@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Security Checklist</title>
+  <desc id="desc">Parcel Smishing Response: A Safe Order for Checking Delivery Links</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#047857"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <pattern id="mesh" width="52" height="52" patternUnits="userSpaceOnUse">
+      <path d="M0 26 H52 M26 0 V52" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#mesh)"/>
+  <path d="M120 500 L260 380 L408 438 L560 285 L724 330 L880 205 L1050 248" fill="none" stroke="#a7f3d0" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <rect x="68" y="278" width="548" height="258" rx="28" fill="#020617" fill-opacity="0.48" stroke="#ffffff" stroke-opacity="0.18"/>
+  <circle cx="755" cy="190" r="34" fill="#22d3ee" fill-opacity="0.20" stroke="#ecfeff" stroke-opacity="0.45"/>
+<circle cx="837" cy="274" r="34" fill="#22d3ee" fill-opacity="0.24" stroke="#ecfeff" stroke-opacity="0.45"/>
+<circle cx="919" cy="190" r="34" fill="#22d3ee" fill-opacity="0.28" stroke="#ecfeff" stroke-opacity="0.45"/>
+<circle cx="1001" cy="274" r="34" fill="#22d3ee" fill-opacity="0.32" stroke="#ecfeff" stroke-opacity="0.45"/>
+<circle cx="1083" cy="190" r="34" fill="#22d3ee" fill-opacity="0.36" stroke="#ecfeff" stroke-opacity="0.45"/>
+  <text x="72" y="108" fill="#f8fafc" font-size="46" font-family="Verdana, sans-serif" font-weight="700">Security Checklist</text>
+  <text x="76" y="160" fill="#cffafe" font-size="25" font-family="Verdana, sans-serif">Parcel Smishing Response: A Safe Order for Checking Delivery Links</text>
+  <text x="90" y="334" fill="#ecfeff" font-size="23" font-family="Verdana, sans-serif">Check the store order history before using any text link.</text>
+<text x="90" y="374" fill="#ecfeff" font-size="23" font-family="Verdana, sans-serif">Reject APK or profile installation requests.</text>
+<text x="90" y="414" fill="#ecfeff" font-size="23" font-family="Verdana, sans-serif">If you entered data, review passwords and payment methods immediately.</text>
+  <text x="76" y="610" fill="#d1fae5" font-size="22" font-family="Verdana, sans-serif">MouseBall54 Digital Security Playbook</text>
+</svg>

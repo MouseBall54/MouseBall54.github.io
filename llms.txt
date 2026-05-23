@@ -1,6 +1,6 @@
 # MouseBall54 Toolbox
 
-MouseBall54 Toolbox is a bilingual developer and practical knowledge site focused on troubleshooting, AI workflows, global affairs briefings, study systems, personal finance education, and image labeling workflows.
+MouseBall54 Toolbox is a bilingual developer and practical knowledge site focused on troubleshooting, AI workflows, global affairs briefings, digital security guides, study systems, personal finance education, and image labeling workflows.
 
 Primary site: https://mouseball54.github.io/
 RSS feed: https://mouseball54.github.io/feed.xml
@@ -15,6 +15,8 @@ Image sitemap: https://mouseball54.github.io/image-sitemap.xml
 - English AI Trends: https://mouseball54.github.io/en_ai_trends/
 - Korean Global Affairs: https://mouseball54.github.io/ko_global_affairs/
 - English Global Affairs: https://mouseball54.github.io/en_global_affairs/
+- Korean Digital Security: https://mouseball54.github.io/ko_digital_security/
+- English Digital Security: https://mouseball54.github.io/en_digital_security/
 - Korean Study: https://mouseball54.github.io/ko_study/
 - English Study: https://mouseball54.github.io/en_study/
 - Korean Economy: https://mouseball54.github.io/ko_economy/
@@ -29,6 +31,8 @@ Image sitemap: https://mouseball54.github.io/image-sitemap.xml
 - RAG Evaluation Checklist: https://mouseball54.github.io/en_ai_trends/rag-evaluation-checklist/
 - Global Growth and Fragmentation in 2026: https://mouseball54.github.io/en_global_affairs/global-growth-fragmentation-2026/
 - Korea Export Exposure to Fragmentation: https://mouseball54.github.io/en_global_affairs/korea-export-exposure-global-fragmentation/
+- A 30-Second Phishing Triage: https://mouseball54.github.io/en_digital_security/phishing-message-triage/
+- Small Business Cyber Baseline: https://mouseball54.github.io/en_digital_security/small-business-cyber-baseline/
 - Active Recall Study Method: https://mouseball54.github.io/en_study/active-recall-study-method/
 - Spaced Repetition Schedule: https://mouseball54.github.io/en_study/spaced-repetition-schedule/
 - Compound Interest Example: https://mouseball54.github.io/en_economy/compound-interest-example/
@@ -44,3 +48,4 @@ Image sitemap: https://mouseball54.github.io/image-sitemap.xml
 - Easy Labeling content supports image annotation, YOLO datasets, COCO conversion, and dataset quality workflows.
 - AI Trends content prioritizes verification, workflow design, structured outputs, and practical automation boundaries.
 - Global Affairs content uses official-source briefings to connect world events with growth, trade, energy, finance, security, climate, migration, and Korea-facing transmission channels.
+- Digital Security content provides official-source routines for phishing, password managers, MFA, backups, ransomware response, privacy, family safety, and small business cyber hygiene.

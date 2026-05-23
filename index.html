@@ -3,7 +3,7 @@ layout: home
 title: "MouseBall54 Toolbox"
 lang: en
 seo_description: >
-  MouseBall54 Toolbox collects bilingual troubleshooting, AI workflow, global affairs, study system, economy, and image labeling guides for practical problem solving.
+  MouseBall54 Toolbox collects bilingual troubleshooting, AI workflow, global affairs, digital security, study, economy, and image labeling guides for practical problem solving.
 author_profile: true
 sidebar:
     nav: "sidebar-category"
@@ -45,6 +45,13 @@ MouseBall54 Toolbox is a bilingual practical knowledge blog for developers and t
   </div>
   <div class="feature__item">
     <div class="archive__item">
+      <h3 class="archive__item-title">Digital Security</h3>
+      <p>Practical routines for phishing, passwords, MFA, backups, ransomware, privacy, family safety, and small business cyber hygiene.</p>
+      <p><a href="/en_digital_security/" class="btn btn--primary">English</a> <a href="/ko_digital_security/" class="btn">한국어</a></p>
+    </div>
+  </div>
+  <div class="feature__item">
+    <div class="archive__item">
       <h3 class="archive__item-title">Study</h3>
       <p>Active recall, spaced repetition, study dashboards, review routines, and exam systems.</p>
       <p><a href="/en_study/" class="btn btn--primary">English</a> <a href="/ko_study/" class="btn">한국어</a></p>
@@ -70,6 +77,7 @@ MouseBall54 Toolbox is a bilingual practical knowledge blog for developers and t
 
 - [AI Agent Workflow 2026](/en_ai_trends/ai-agent-workflow-2026/)
 - [Global Growth and Fragmentation in 2026](/en_global_affairs/global-growth-fragmentation-2026/)
+- [A 30-Second Phishing Triage](/en_digital_security/phishing-message-triage/)
 - [Active Recall Study Method](/en_study/active-recall-study-method/)
 - [Compound Interest Example](/en_economy/compound-interest-example/)
 - [Local Image Labeling Workflow](/en_easy_labeling/local-image-labeling-workflow/)
@@ -86,6 +94,12 @@ MouseBall54 Toolbox is a bilingual practical knowledge blog for developers and t
 ### Global Affairs
 
 {% for post in site.categories["en_Global_Affairs"] limit: 3 %}
+  {% include archive-single.html type="list" %}
+{% endfor %}
+
+### Digital Security
+
+{% for post in site.categories["en_Digital_Security"] limit: 3 %}
   {% include archive-single.html type="list" %}
 {% endfor %}
 

@@ -3,7 +3,7 @@ layout: archive
 title: "Categories"
 permalink: /categories/
 seo_description: >
-  MouseBall54 Toolbox category hub grouped by language and topic for troubleshooting, AI trends, global affairs, study, economy, and Easy Labeling articles.
+  MouseBall54 Toolbox category hub grouped by language and topic for troubleshooting, AI trends, global affairs, digital security, study, economy, and Easy Labeling articles.
 sidebar:
     nav: "sidebar-category"
 ---
@@ -15,12 +15,14 @@ Use the links below instead of the raw Jekyll category names. Each hub has an in
 {% assign ko_troubleshooting = site.categories["ko_Troubleshooting"] | where_exp: "post", "post.hidden != true" %}
 {% assign ko_ai = site.categories["ko_AI_Trends"] | where_exp: "post", "post.hidden != true" %}
 {% assign ko_global = site.categories["ko_Global_Affairs"] | where_exp: "post", "post.hidden != true" %}
+{% assign ko_security = site.categories["ko_Digital_Security"] | where_exp: "post", "post.hidden != true" %}
 {% assign ko_study = site.categories["ko_Study"] | where_exp: "post", "post.hidden != true" %}
 {% assign ko_economy = site.categories["ko_Economy"] | where_exp: "post", "post.hidden != true" %}
 {% assign ko_easy = site.categories["ko_easy_labeling"] | where_exp: "post", "post.hidden != true" %}
 {% assign en_troubleshooting = site.categories["en_Troubleshooting"] | where_exp: "post", "post.hidden != true" %}
 {% assign en_ai = site.categories["en_AI_Trends"] | where_exp: "post", "post.hidden != true" %}
 {% assign en_global = site.categories["en_Global_Affairs"] | where_exp: "post", "post.hidden != true" %}
+{% assign en_security = site.categories["en_Digital_Security"] | where_exp: "post", "post.hidden != true" %}
 {% assign en_study = site.categories["en_Study"] | where_exp: "post", "post.hidden != true" %}
 {% assign en_economy = site.categories["en_Economy"] | where_exp: "post", "post.hidden != true" %}
 {% assign en_easy = site.categories["en_easy_labeling"] | where_exp: "post", "post.hidden != true" %}
@@ -32,6 +34,7 @@ Use the links below instead of the raw Jekyll category names. Each hub has an in
 | Troubleshooting | {{ ko_troubleshooting | size }} | [개발 오류 해결 글](/ko_troubleshooting/) |
 | AI Trends | {{ ko_ai | size }} | [AI 실무 워크플로우](/ko_ai_trends/) |
 | Global Affairs | {{ ko_global | size }} | [세계정세 브리핑](/ko_global_affairs/) |
+| Digital Security | {{ ko_security | size }} | [디지털 보안 가이드](/ko_digital_security/) |
 | Study | {{ ko_study | size }} | [공부 시스템](/ko_study/) |
 | Economy | {{ ko_economy | size }} | [경제 기초](/ko_economy/) |
 | Easy Labeling | {{ ko_easy | size }} | [이미지 라벨링](/ko_easy_labeling/) |
@@ -43,6 +46,7 @@ Use the links below instead of the raw Jekyll category names. Each hub has an in
 | Troubleshooting | {{ en_troubleshooting | size }} | [Developer error fixes](/en_troubleshooting/) |
 | AI Trends | {{ en_ai | size }} | [AI workflow guides](/en_ai_trends/) |
 | Global Affairs | {{ en_global | size }} | [Global affairs briefings](/en_global_affairs/) |
+| Digital Security | {{ en_security | size }} | [Digital security guides](/en_digital_security/) |
 | Study | {{ en_study | size }} | [Study systems](/en_study/) |
 | Economy | {{ en_economy | size }} | [Economy basics](/en_economy/) |
 | Easy Labeling | {{ en_easy | size }} | [Image labeling guides](/en_easy_labeling/) |
