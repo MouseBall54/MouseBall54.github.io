@@ -1,12 +1,12 @@
 # MouseBall54's Toolbox 주간 10만 조회 성장 마스터플랜
 
 작성일: 2026-05-23  
-목표: 주간 조회 수 100,000회 이상, 검색 유입 기반의 안정적 성장, Google AdSense 수익화 준비, 약 100개 신규 포스트 생산 체계 구축
+목표: 주간 조회 수 100,000회 이상, 검색 유입 기반의 안정적 성장, Google AdSense 수익화 준비, 다분야 bilingual 콘텐츠 포트폴리오 운영
 
 ## 1. 목표와 기준
 
 주간 100,000 조회는 하루 평균 약 14,300 조회다. 이 사이트는 단일 대형 글보다 검색 의도가 분명한 글을 폭넓게 누적하는 구조가 적합하다.
-초기 강점은 개발 트러블슈팅이지만, 앞으로는 스터디, 경제 기초, AI 동향, AI 업무 자동화, 컴퓨터 비전 글까지 확장한다.
+초기 강점은 개발 트러블슈팅이지만, 현재는 스터디, 경제 기초, AI 동향, 국제정세, 기후·에너지, 소비자 권리, 디지털 보안, 개인재무, 건강 문해력, 컴퓨터 비전 글까지 확장된 상태다.
 
 현실적인 목표 모델은 다음과 같다.
 
@@ -19,22 +19,28 @@
 핵심 전제:
 
 - 대량 생산보다, 검색 의도가 분명한 글을 꾸준히 누적한다.
-- 한국어와 영어 글을 항상 함께 작성한다. 약 100개 포스트 목표는 50개 주제 쌍, 즉 한국어 50개와 영어 50개로 관리한다.
+- 한국어와 영어 글을 항상 함께 작성한다. 현재는 473개 주제 쌍, 즉 한국어 473개와 영어 473개를 기준으로 관리한다.
 - AI로 초안을 만들 수는 있지만, 실행 결과, 버전 차이, 실패 사례, 검증 절차를 사람이 보강한다.
 - 글마다 이해를 돕는 이미지를 새로 만들거나 직접 캡처하고, header와 본문 초반에 의미 있게 배치한다.
 - 광고는 본문 탐색을 방해하지 않는 선에서 표준화한다.
 
 ## 2. 현재 저장소 기준 콘텐츠 현황
 
-현재 `_posts/ko`와 `_posts/en`에는 각각 133개 글이 있다. 영어 글 기준 주제 분포는 다음과 같다.
+현재 `_posts/ko`와 `_posts/en`에는 각각 473개 글이 있다. 언어별 category 기준 주제 분포는 다음과 같다.
 
 | 주제 | 영어 글 수 | 한국어 글 수 | 판단 |
 | --- | ---: | ---: | --- |
-| Git | 34 | 34 | 강점. GitHub Actions, GitHub Pages, 인증, LFS, rebase 심화로 확장 |
-| Java | 33 | 33 | 기본 예외 중심. Spring Boot, Gradle, Maven, JDK 버전 문제로 확장 |
-| Python | 32 | 32 | 강점. uv, pip, venv, FastAPI, Pydantic, PyTorch 설치 문제로 확장 |
-| JavaScript | 31 | 31 | 강점. TypeScript, React, Next.js, Node.js, npm/pnpm 문제로 확장 |
-| Easy Labeling | 3 | 3 | 대표 도구. 사용 사례, 데이터셋 라벨링 워크플로우, YOLO 포맷 글 필요 |
+| Troubleshooting | 150 | 150 | 강점. Python, JavaScript, Java, Git, Docker, CI 오류 검색 유입 기반 |
+| AI Trends | 30 | 30 | 공식 문서와 거버넌스 기반 AI workflow, RAG, 보안, 비용, 평가 글 |
+| Global Affairs | 30 | 30 | 세계정세와 한국-facing 수출, 에너지, 금융, 안보 채널 설명 |
+| Climate & Energy | 38 | 38 | 전력망, AI 전력 수요, 재생에너지, 배터리, 기후 리스크 설명 |
+| Consumer Rights | 30 | 30 | 환불, 구독취소, chargeback, 리콜, 항공·통신 분쟁 대응 |
+| Digital Security | 30 | 30 | 피싱, MFA, 백업, 랜섬웨어, 개인정보, 가족·소상공인 보안 루틴 |
+| Personal Finance | 30 | 30 | 예산, 부채, 신용, 세금, 투자위험, 수수료, 금융사기 교육 글 |
+| Health Literacy | 30 | 30 | 수면, 활동, 영양, 예방, 증상기록, 약 안전, 응급 대비 교육 글 |
+| Study | 32 | 32 | 회상, 간격복습, 오답, 집중, 코딩공부, 수면과 시험 루틴 |
+| Economy | 36 | 36 | 금리, 물가, 환율, GDP, 고용, 가계부채, 생활비 설명 |
+| Easy Labeling | 37 | 37 | YOLO, COCO 변환, bounding box QA, 데이터셋 분할, 로컬 라벨링 |
 
 추가 기술 메모:
 
@@ -77,6 +83,12 @@
 | Easy Labeling | 대표 도구 브랜딩과 제품 유입 | YOLO labeling tool, image annotation, local labeling, custom-classes.yaml |
 | 스터디와 생산성 | 반복 검색되는 학습법/템플릿 수요 | active recall, spaced repetition, Pomodoro, mistake note, study planner |
 | 경제 기초 | evergreen 금융 문해력 유입 | interest rate, inflation, exchange rate, ETF, compound interest, budget |
+| 국제정세 | 국내외 이슈와 생활·산업 영향 연결 | global growth, trade fragmentation, Korea exports, energy security |
+| 기후·에너지 | 장기 정책·산업 변화 검색 유입 | AI electricity demand, grid bottlenecks, renewables, batteries, adaptation |
+| 소비자 권리 | 실생활 문제 해결형 evergreen 유입 | refund, chargeback, subscription cancellation, recalls, complaint |
+| 디지털 보안 | 일반 사용자와 소상공인 안전 루틴 | phishing, MFA, backup, ransomware, privacy |
+| 개인재무 | 수익화 친화적 교육형 금융 문해력 | budget, debt payoff, credit score, emergency fund, scam |
+| 건강 문해력 | 고검색량 evergreen 주제의 안전한 교육 글 | sleep, prevention, nutrition, medicine safety, mental health |
 
 ## 5. 키워드 마스터 리스트
 
@@ -186,9 +198,9 @@
 
 목표:
 
-- 1차 목표 큐 50쌍 작성: 한국어 50개, 영어 50개, 총 100개 포스트
-- Troubleshooting 20쌍, AI trends/workflow 10쌍, Study 8쌍, Economy 7쌍, Easy Labeling/Computer Vision 5쌍
-- 모든 글에 `How to verify`와 `Common mistakes` 포함
+- 1차 목표 큐 50쌍 작성은 완료했고, 현재는 주요 성장 카테고리 대부분이 30쌍 이상이다.
+- 현재 완성 규모: Troubleshooting 150쌍, AI Trends 30쌍, Global Affairs 30쌍, Climate & Energy 38쌍, Consumer Rights 30쌍, Digital Security 30쌍, Personal Finance 30쌍, Health Literacy 30쌍, Study 32쌍, Economy 36쌍, Easy Labeling 37쌍.
+- 신규 캠페인 글은 각 글마다 이미지 2개 이상, 내부 링크, 출처 또는 검수 기준, category hub 연결을 유지한다.
 
 운영 기준:
 
@@ -393,13 +405,21 @@ Auto ads 운영:
 - [x] Easy Labeling 이미지 포함 포스트 쌍 작성: `image-labeling-classes`
 - [x] Easy Labeling 이미지 포함 포스트 쌍 작성: `local-image-labeling-workflow`
 - [x] Easy Labeling 이미지 포함 포스트 쌍 작성: `easy-labeling-yolo-dataset`
+- [x] Global Affairs 30쌍 작성 및 category hub 구성
+- [x] Climate & Energy 38쌍 작성 및 category hub 구성
+- [x] Consumer Rights 30쌍 작성 및 category hub 구성
+- [x] Digital Security 30쌍 작성 및 category hub 구성
+- [x] Personal Finance 30쌍 작성 및 category hub 구성
+- [x] Health Literacy 30쌍 작성 및 category hub 구성
+- [x] AI Trends 30쌍, Study 32쌍, Economy 36쌍, Easy Labeling 37쌍으로 확장
 - [x] 각 글에 `lang`, `translation_id`, category, English tags 확인: `npm run validate:content-plan`
 - [x] 신규 글마다 내부 링크 최소 2개 추가
 - [x] Easy Labeling 글은 실제 화면과 launch link 포함
 
 기술:
 
-- [ ] 현재 build 오류 여부 확인: 대량 작성 중에는 사용자 요청에 따라 생략
+- [x] 현재 build 오류 여부 확인: `bundle exec jekyll build --trace`
+- [x] Jekyll doctor 확인: `bundle exec jekyll doctor`
 - [x] 최근 글 front matter delimiter 점검 및 opening delimiter 누락 포스트 보정
 - [x] sitemap과 robots.txt 확인: `jekyll-sitemap` 설정 및 `robots.txt` 파일 존재 확인
 - [x] AdSense script include 추가: `_includes/head/custom.html`
@@ -417,8 +437,8 @@ Auto ads 운영:
 
 ## 12. 다음 작업 순서
 
-1. `planning/100-post-multidomain-queue.md` 기준으로 50개 주제 쌍을 순차 작성한다.
-2. 각 주제마다 이미지 prompt, 저장 경로, alt text를 함께 관리한다.
+1. Search Console과 GA4 데이터가 쌓이면 category별 impressions, CTR, position, landing page를 주 단위로 기록한다.
+2. position 8-20에 있는 글부터 title, excerpt, 첫 문단, FAQ, 내부 링크를 보강한다.
 3. AdSense slot ID가 준비되면 `_config.yml`의 `in_article_slot`, `post_bottom_slot`에 반영한다.
-4. 신규 글마다 `npm run validate:content-plan`을 실행한다.
-5. Search Console 데이터가 쌓이면 P0/P1 우선순위를 실제 query 기준으로 다시 정렬한다.
+4. 신규 또는 수정 글마다 `npm run validate:content-plan`을 실행하고, 주요 field 단위 변경은 `bundle exec jekyll build --trace`로 닫는다.
+5. 실제 query 기준으로 다음 확장 분야와 pillar page 우선순위를 다시 정렬한다.

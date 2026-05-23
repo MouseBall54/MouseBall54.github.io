@@ -4,7 +4,7 @@ Created: 2026-05-23
 
 This queue translates the expanded traffic goal into paired Korean and English topic sets.
 It began as a 50-pair campaign, but production now intentionally exceeds that baseline as fields are expanded toward roughly 30 or more topic pairs each.
-The list keeps the existing troubleshooting strength, then adds study, economy, AI trends, and practical AI workflow content.
+The current site now keeps the existing troubleshooting strength, then adds AI trends, global affairs, climate and energy, consumer rights, digital security, personal finance, health literacy, study, economy, and Easy Labeling computer vision content.
 
 ## Operating Rules
 
@@ -15,18 +15,28 @@ The list keeps the existing troubleshooting strength, then adds study, economy, 
 - Put the primary image in `header.teaser`, `header.overlay_image`, and once near the opening section when it clarifies the concept.
 - Include 2-4 internal links per post when relevant existing posts exist.
 - Include external sources for AI trends, economy, policy, or time-sensitive claims.
-- During this bulk-writing phase, run `npm run validate:content-plan`; skip `bundle exec jekyll build --trace` unless explicitly requested.
+- During bulk-writing phases, run `npm run validate:content-plan`; run `bundle exec jekyll build --trace` before closing a major field or goal milestone.
 
-## Topic Mix
+## Current Growth Portfolio Snapshot
+
+Snapshot date: 2026-05-23 after the Easy Labeling expansion.
 
 | Domain | Topic pairs | Post files | Search intent |
 | --- | ---: | ---: | --- |
-| Troubleshooting | 20 | 40 | Immediate problem solving |
+| Troubleshooting | 150 | 300 | Immediate problem solving |
 | AI trends and workflow | 30 | 60 | Current AI adoption and practical implementation |
+| Global affairs | 30 | 60 | World issues translated into practical Korea-facing channels |
+| Climate and energy | 38 | 76 | Official-source climate, grid, energy, and industry risk explainers |
+| Consumer rights | 30 | 60 | Refunds, disputes, subscriptions, recalls, and complaint escalation |
+| Digital security | 30 | 60 | Phishing, passwords, MFA, backups, privacy, and cyber hygiene |
+| Personal finance | 30 | 60 | Educational budgeting, credit, debt, scam, and investing-risk basics |
+| Health literacy | 30 | 60 | Educational health routines, prevention, safety, and care preparation |
 | Study and productivity | 32 | 64 | Evidence-informed study systems and exam preparation |
 | Economy and money basics | 36 | 72 | Official-source economic indicators and household cost explanations |
 | Easy Labeling and computer vision | 37 | 74 | Product-led computer vision data quality and tool discovery |
-| Total | 155 | 310 | Balanced growth portfolio |
+| Total | 473 | 946 | Broad bilingual growth portfolio |
+
+The detailed tables below preserve the original campaign seeds and the fully expanded Study, Economy, and Easy Labeling queues. The other field expansions are represented by their committed generator scripts and category hubs.
 
 ## Troubleshooting: 20 Topic Pairs
 
