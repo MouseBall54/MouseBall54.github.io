@@ -1,212 +1,99 @@
 ---
-typora-root-url: ../
 layout: single
 title: >
-  How to Calculate AI Automation ROI Before You Build the Workflow
+  AI Automation ROI: Count Time, Errors, and Review Cost First
 seo_title: >
-  How to Calculate AI Automation ROI
-date: 2026-05-23T23:59:59+09:00
-last_modified_at: 2026-05-23T23:59:59+09:00
+  AI Automation ROI: Count Time, Errors, and Review Cost First
+date: 2026-05-23T10:20:00+09:00
+last_modified_at: 2026-05-23T23:30:00+09:00
 lang: en
-translation_id: ai-automation-roi
+translation_id: ai-trends-ai-automation-roi
 header:
-   teaser: /images/2026-05-23-ai-automation-roi/ai-automation-roi-hero.png
-   overlay_image: /images/2026-05-23-ai-automation-roi/ai-automation-roi-hero.png
-   overlay_filter: 0.35
-   image_description: >
-     Visual guide explaining How to Calculate AI Automation ROI Before You Build the Workflow.
+  teaser: /images/2026-05-23-ai-automation-roi/hero.png
+  overlay_image: /images/2026-05-23-ai-automation-roi/hero.png
+  overlay_filter: 0.45
+  image_description: >
+    An AI trends image summarizing core signals and practical adoption order for this topic.
 excerpt: >
-  Calculate AI automation ROI by comparing manual time, automation cost, quality impact, error risk, review effort, and payback period before building a workflow.
+  AI automation ROI must include review time, error cost, rework, and security controls, not only saved hours.
 seo_description: >
-  Calculate AI automation ROI by comparing manual time, automation cost, quality impact, error risk, review effort, and payback period before building a workflow.
+  AI automation ROI must include review time, error cost, rework, and security controls, not only saved hours.
 categories:
   - en_AI_Trends
 tags:
-  - AI
+  - AI ROI
   - Automation
-  - ROI
+  - Operations
   - Productivity
-  - Workflow
 ---
 
-## Quick Answer
+AI trends are not only model-name news. They are signals such as **baseline minutes** that change real workflow quality. This guide reads **AI Automation ROI: Count Time, Errors, and Review Cost First** through adoption, verification, and operating responsibility.
 
-AI automation ROI is not just "hours saved."
-You should compare manual effort, automation build cost, model/API cost, review time, error risk, quality improvement, and maintenance.
-The best first automation target is frequent, rule-bound, low-risk work with clear verification.
+AI automation ROI must include review time, error cost, rework, and security controls, not only saved hours.
 
-![AI automation ROI workflow comparing manual effort, automation checks, risk, quality, and payback](/images/2026-05-23-ai-automation-roi/ai-automation-roi-hero.png)
+This article is educational and does not recommend a specific model or vendor. For **AI Automation ROI: Count Time, Errors, and Review Cost First**, it focuses on the **baseline minutes** rule, review ownership, and operating records before adoption.
 
-The image shows the right model.
-Automation is not free.
-It has setup cost, operating cost, monitoring cost, and risk cost.
-ROI is positive only when the saved effort and quality gain are larger than those costs.
+![AI Automation ROI: Count Time, Errors, and Review Cost First core flow](/images/2026-05-23-ai-automation-roi/hero.png)
 
-## The Simple ROI Formula
+## Why This Matters Now
 
-Use this practical estimate:
+Automation value depends less on token cost and more on whether work actually disappears without moving the bottleneck to reviewers.
 
-```text
-Monthly benefit = manual time saved + error reduction + faster turnaround value
-Monthly cost = tool cost + API cost + review time + maintenance time + failure handling
-ROI = (monthly benefit - monthly cost) / monthly cost
-Payback period = setup cost / monthly net benefit
-```
+For this topic, start with **baseline minutes** and **review minutes**. If either is vague, the workflow can look fast while review, cost control, and accountability move downstream.
 
-For internal planning, you do not need false precision.
-Use ranges:
+## Signals To Check First
 
-```text
-Low estimate
-Expected estimate
-High estimate
-```
+- **baseline minutes**: for AI Automation ROI: Count Time, Errors, and Review Cost First, record the standard, owner, and failure response for this item.
+- **review minutes**: for AI Automation ROI: Count Time, Errors, and Review Cost First, record the standard, owner, and failure response for this item.
+- **error rate**: for AI Automation ROI: Count Time, Errors, and Review Cost First, record the standard, owner, and failure response for this item.
+- **handoff delay**: for AI Automation ROI: Count Time, Errors, and Review Cost First, record the standard, owner, and failure response for this item.
 
-If the expected estimate only works when everything goes perfectly, the workflow is too risky.
+![AI Automation ROI: Count Time, Errors, and Review Cost First verification checklist](/images/2026-05-23-ai-automation-roi/checklist.png)
 
-## Step 1. Measure the Manual Process
+## Practical Adoption Order
 
-Before automating, measure the current work.
+- Sample the current task time.
+- Track review and correction time separately.
+- Estimate recovery cost per error.
 
-Track:
+The common failure is expanding automation before **baseline minutes** is clear. Start with 'Sample the current task time', then widen scope only after review results are stable.
 
-- How many times the task happens per month
-- Average minutes per task
-- Who performs the task
-- Error rate or rework rate
-- Waiting time between steps
-- Business impact if the task is late or wrong
+## Field Pilot Example
 
-Example:
+A practical pilot can stay small: choose one team, one document type, and one workflow, then write the **baseline minutes** rule as a table. Apply 'Sample the current task time' to ten real cases and mark each result as accepted, held for review, or rejected. Keep the **review minutes** rule visible to the reviewer instead of leaving it as tribal memory. This makes the test about controllable quality, not about whether the output looks impressive in a demo.
 
-```text
-Task: summarize customer support tickets
-Volume: 600 tickets per month
-Manual time: 3 minutes each
-Total time: 1,800 minutes, or 30 hours per month
-```
+## Operating Notes
 
-This baseline prevents vague automation claims.
+In operation, **baseline minutes** is not a one-time setup. When the model, prompt, data, or tool permission changes, recheck **review minutes** as well. For outputs that affect users, the evidence document, log location, and correction path should be easy to find from the same operating record.
 
-## Step 2. Estimate the Automation Shape
+## Team Checklist
 
-AI automation can mean several levels:
-
-| Level | Pattern | Human Role |
-| --- | --- | --- |
-| Assist | AI drafts, human edits | high review |
-| Semi-automate | AI handles routine cases | review exceptions |
-| Full workflow | AI plus tools execute steps | monitor and audit |
-
-Start with assist or semi-automation when the work has risk.
-Move toward full workflow only after quality is measurable.
-
-## Step 3. Add Review Cost
-
-Many ROI estimates fail because they ignore human review.
-If a person must check every output, the saved time is smaller.
-
-Calculate:
-
-```text
-review time per item x monthly volume
-```
-
-If AI saves 3 minutes but review takes 2 minutes, the net saving is 1 minute.
-That can still be valuable, but the estimate must be honest.
-
-## Step 4. Include Error Risk
-
-Some tasks are expensive when wrong.
-Examples:
-
-- Sending incorrect customer messages
-- Changing production data
-- Summarizing legal or financial details
-- Updating invoices
-- Deleting files
-- Making scheduling commitments
-
-For these tasks, add gates:
-
-- Human approval
-- Audit log
-- Rollback plan
-- Confidence threshold
-- Sample review
-- Monitoring dashboard
-
-Risk controls reduce speed, but they make the automation usable.
-
-## Step 5. Pick the First Workflow
-
-Good first candidates:
-
-- Meeting summary drafts
-- Ticket classification
-- Duplicate issue grouping
-- Internal FAQ answers with citations
-- Data cleanup suggestions
-- Drafting release notes from commits
-- Labeling review queues
-
-Poor first candidates:
-
-- Unreviewed payments
-- Medical or legal decisions
-- Production deletion
-- High-value customer commitments
-- Tasks with unclear success criteria
-
-The first automation should teach the team how to measure quality.
-It should not put the business at high risk.
-
-## Practical Scoring Table
-
-Score each candidate from 1 to 5.
-
-| Factor | Good Sign |
-| --- | --- |
-| Frequency | happens often |
-| Time saved | manual work is repetitive |
-| Verification | output can be checked |
-| Risk | wrong output is recoverable |
-| Data access | inputs are available |
-| Maintenance | process is stable |
-
-Start with high frequency, high verification, low risk.
-
-## Related Reading
-
-- [AI Agent Workflow 2026](/en_ai_trends/ai-agent-workflow-2026/)
-- [AI Coding Agent Workflow](/en_ai_trends/ai-coding-agent-workflow/)
-- [OpenAI Agents documentation](https://platform.openai.com/docs/guides/agents)
-- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
-
-## Final Checklist
-
-```text
-[ ] Manual baseline is measured.
-[ ] Review effort is included.
-[ ] Tool and API cost are included.
-[ ] Error risk has a control plan.
-[ ] Success metric is written before building.
-[ ] Payback period is realistic.
-```
-
-The best AI automation ROI comes from repeatable work with clear verification.
-If you cannot measure the baseline or the output quality, build a smaller pilot first.
+- Keep the adoption goal and prohibited uses next to the **baseline minutes** rule.
+- After 'Sample the current task time', rerun the same review whenever the model, prompt, data, or **review minutes** rule changes.
+- For user-impacting outputs, keep logs, evidence, and a path for correction or appeal.
 
 ## FAQ
 
-### When should I use this guide?
+### When should this topic be applied first?
 
-Use it before adopting a new AI workflow, especially when the task is repeated often and the output can be reviewed against a clear standard.
+Start with work that is frequent and has a low cost of failure. Even for **AI Automation ROI: Count Time, Errors, and Review Cost First**, avoid full automation at the beginning. Define the 'Sample the current task time' step, name the reviewer, and test outcomes and errors on a small sample.
 
-### What should beginners verify first?
+### How do we know whether the baseline minutes rule is safe enough?
 
-Start with the input data, evaluation rule, failure mode, and human review path. A useful AI workflow needs verification before scale.
+The **baseline minutes** rule should be written down, and another reviewer should be able to check the **review minutes** rule in the same way. If every reviewer interprets the rule differently, the issue is usually operating design rather than model capability.
 
-### Which keywords should I search next?
+### What should be logged when the workflow fails?
 
-Search for "How to Calculate AI Automation ROI Before You Build the Workflow" together with evaluation, workflow, guardrail, structured output, and agent design keywords.
+Keep the input evidence, model or tool setting, **baseline minutes** reviewer decision, and correction result together. This lets the team see whether later changes reduce the same error and gives a way to explain or reverse user-impacting output.
+
+
+## Source Notes
+
+- [OECD Artificial Intelligence](https://www.oecd.org/en/topics/policy-issues/artificial-intelligence.html)
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- [Stanford HAI AI Index](https://hai.stanford.edu/ai-index)
+
+## Related Reading
+
+- [AI Coding Agent Workflow: Use Agents Without Losing Code Quality](/en_ai_trends/ai-coding-agent-workflow/)
+- [AI Data Privacy Redaction: Reduce Sensitive Data Before Prompting](/en_ai_trends/ai-data-privacy-redaction/)

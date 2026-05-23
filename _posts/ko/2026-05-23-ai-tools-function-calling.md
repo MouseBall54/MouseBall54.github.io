@@ -1,228 +1,99 @@
 ---
-typora-root-url: ../
 layout: single
 title: >
-  AI tool calling과 function calling 차이: 개발자가 알아야 할 실전 기준
+  AI Tool Calling vs Function Calling: 모델 출력과 실제 실행을 분리하기
 seo_title: >
-  AI tool calling과 function calling 차이
-date: 2026-05-23T23:59:40+09:00
-last_modified_at: 2026-05-23T23:59:59+09:00
+  AI Tool Calling vs Function Calling: 모델 출력과 실제 실행을 분리하기
+date: 2026-05-23T11:20:00+09:00
+last_modified_at: 2026-05-23T23:30:00+09:00
 lang: ko
-translation_id: ai-tools-function-calling
+translation_id: ai-trends-ai-tools-function-calling
 header:
-   teaser: /images/2026-05-23-ai-tools-function-calling/ai-tools-function-calling-hero.png
-   overlay_image: /images/2026-05-23-ai-tools-function-calling/ai-tools-function-calling-hero.png
-   overlay_filter: 0.35
-   image_description: >
-     AI tool calling과 function calling 차이: 개발자가 알아야 할 실전 기준 주제를 한눈에 설명하는 시각 자료입니다.
+  teaser: /images/2026-05-23-ai-tools-function-calling/hero.png
+  overlay_image: /images/2026-05-23-ai-tools-function-calling/hero.png
+  overlay_filter: 0.45
+  image_description: >
+    AI Tool Calling vs Function Calling: 모델 출력과 실제 실행을 분리하기의 핵심 신호와 실무 적용 순서를 요약한 AI 트렌드 이미지입니다.
 excerpt: >
-  AI tool calling과 function calling을 model decision, structured arguments, tool execution, validation, final response 기준으로 구분합니다.
+  도구 호출은 모델이 외부 시스템과 연결되는 지점이므로 스키마, 권한, 검증, 실행 로그를 함께 설계해야 한다.
 seo_description: >
-  AI tool calling과 function calling을 model decision, structured arguments, tool execution, validation, final response 기준으로 구분합니다.
+  도구 호출은 모델이 외부 시스템과 연결되는 지점이므로 스키마, 권한, 검증, 실행 로그를 함께 설계해야 한다.
 categories:
   - ko_AI_Trends
 tags:
-  - AI
-  - ToolCalling
-  - FunctionCalling
-  - OpenAI
-  - Automation
+  - Function Calling
+  - Tool Use
+  - API
+  - AI Security
 ---
 
-## 핵심 요약
+AI 트렌드는 모델 이름을 따라가는 뉴스가 아니라 **스키마 필드**처럼 실제 업무 품질을 바꾸는 신호를 읽는 일입니다. 이 글은 **AI Tool Calling vs Function Calling: 모델 출력과 실제 실행을 분리하기** 주제를 도입 전 의사결정, 검증, 운영 책임 관점에서 정리합니다.
 
-Function calling은 모델이 실행할 함수의 structured arguments를 반환하고, 실제 함수 실행은 application code가 담당하는 패턴입니다.
-Tool calling은 더 넓은 개념입니다.
-모델이 custom function, search, file retrieval, application action 같은 tool을 사용할 수 있는 workflow를 말합니다.
-핵심은 같습니다.
-모델은 어떤 tool이 필요한지 판단할 수 있지만, 실행과 검증은 code가 맡아야 합니다.
+도구 호출은 모델이 외부 시스템과 연결되는 지점이므로 스키마, 권한, 검증, 실행 로그를 함께 설계해야 한다.
 
-![Model, tool, structured data, final output으로 구성된 AI tool calling과 function calling workflow](/images/2026-05-23-ai-tools-function-calling/ai-tools-function-calling-hero.png)
+이 글은 특정 모델이나 벤더를 추천하지 않습니다. **AI Tool Calling vs Function Calling: 모델 출력과 실제 실행을 분리하기**를 실제 업무에 적용하기 전에 **스키마 필드** 기준, 검토 책임, 운영 로그를 어떻게 확인할지 정리하는 교육용 가이드입니다.
 
-이미지는 두 가지 실무 흐름을 보여줍니다.
-하나는 여러 tool로 분기한 뒤 결과를 합치는 path입니다.
-다른 하나는 특정 function에 structured data를 보내고 검증된 결과를 받는 path입니다.
-둘 다 중요한 action 전에는 validation이 필요합니다.
+![AI Tool Calling vs Function Calling: 모델 출력과 실제 실행을 분리하기 핵심 흐름](/images/2026-05-23-ai-tools-function-calling/hero.png)
 
-## 왜 중요한가
+## 왜 지금 중요한가
 
-Plain chat은 설명에 유용합니다.
-Tool calling은 action에 유용합니다.
-모델이 file을 검색하고, API를 호출하고, ticket을 만들고, record를 수정하고, check를 실행할 수 있으면 workflow는 강력해집니다.
-동시에 위험도 커집니다.
+함수 호출은 편리하지만 모델의 제안과 실제 시스템 실행을 같은 것으로 취급하면 보안과 데이터 문제가 생깁니다.
 
-사람들이 `AI tool calling`, `function calling`, `OpenAI tools`를 검색하는 이유는 모델을 실제 system에 연결하고 싶기 때문입니다.
-가장 큰 문제는 문법이 아닙니다.
-모델이 무엇을 할 수 있고, application이 무엇을 통제해야 하는지 정하는 것이 핵심입니다.
+이 주제에서 먼저 볼 것은 **스키마 필드**, **권한 수준** 두 항목입니다. 둘 중 하나가 흐리면 AI가 빠르게 보이더라도 결과 검토, 비용 통제, 책임 소재가 뒤로 밀려 실제 운영에서는 품질 문제가 생깁니다.
 
-이 글은 2026년 5월 23일 기준 OpenAI tools와 function calling 문서를 확인해 작성했습니다.
+## 먼저 볼 신호
 
-## 기본 사고방식
+- **스키마 필드**: AI Tool Calling vs Function Calling: 모델 출력과 실제 실행을 분리하기 주제에서 이 항목의 기준, 책임자, 실패 시 대응을 함께 기록합니다.
+- **권한 수준**: AI Tool Calling vs Function Calling: 모델 출력과 실제 실행을 분리하기 주제에서 이 항목의 기준, 책임자, 실패 시 대응을 함께 기록합니다.
+- **검증 실패**: AI Tool Calling vs Function Calling: 모델 출력과 실제 실행을 분리하기 주제에서 이 항목의 기준, 책임자, 실패 시 대응을 함께 기록합니다.
+- **도구 결과**: AI Tool Calling vs Function Calling: 모델 출력과 실제 실행을 분리하기 주제에서 이 항목의 기준, 책임자, 실패 시 대응을 함께 기록합니다.
 
-아래처럼 나누어 생각합니다.
+![AI Tool Calling vs Function Calling: 모델 출력과 실제 실행을 분리하기 검증 체크리스트](/images/2026-05-23-ai-tools-function-calling/checklist.png)
 
-```text
-Model:
-  request를 읽는다
-  tool이 필요한지 판단한다
-  structured arguments를 제안한다
-  tool result를 바탕으로 답한다
+## 실무 적용 순서
 
-Application code:
-  사용할 수 있는 tool을 정의한다
-  arguments를 검증한다
-  tool을 실행한다
-  error를 처리한다
-  decision을 log로 남긴다
-  side effect를 보호한다
-```
+- 도구 입력 스키마를 좁게 정의합니다.
+- 실행 전 서버 측 검증을 둡니다.
+- 도구 결과와 최종 답변을 로그로 남깁니다.
 
-모델을 security layer로 두면 안 됩니다.
-모델은 action을 요청할 수 있습니다.
-그 action이 허용되는지는 code가 결정해야 합니다.
+가장 흔한 실패는 **스키마 필드** 항목이 명확하지 않은 상태에서 자동화 범위를 넓히는 것입니다. 따라서 첫 단계는 '도구 입력 스키마를 좁게 정의합니다.'이고, 이후에도 검토 결과를 기준으로 범위를 넓혀야 합니다.
 
-## Function Calling을 쉽게 설명하면
+## 현장 적용 예시
 
-Function calling은 보통 아래 흐름입니다.
+작게 시작하려면 한 팀, 한 문서, 한 업무 흐름을 정하고 **스키마 필드** 기준을 표로 남깁니다. 그 다음 '도구 입력 스키마를 좁게 정의합니다.' 단계를 실제 사례 10건에 적용해 성공, 보류, 실패를 나눕니다. 이때 **권한 수준** 기준은 나중에 기억으로 판단하지 말고 검토자가 같은 화면에서 볼 수 있는 체크 항목으로 둡니다. 이런 방식이면 AI가 만든 결과가 좋아 보이는지보다 사람이 검증하고 되돌릴 수 있는지가 먼저 드러납니다.
 
-1. Function schema를 정의합니다.
-2. 모델이 user request를 받습니다.
-3. 모델이 schema에 맞는 arguments를 반환합니다.
-4. Application이 arguments를 검증합니다.
-5. Application이 function을 실행합니다.
-6. 모델이 function result를 사용해 final answer를 만듭니다.
+## 운영 시 주의할 점
 
-예시 function:
+운영 단계에서는 **스키마 필드**를 한 번 정하고 끝내지 말아야 합니다. 모델, 프롬프트, 데이터, 도구 권한이 바뀌면 **권한 수준** 기준도 같이 다시 확인해야 합니다. 특히 사용자에게 영향을 주는 결과라면 근거 문서, 로그 위치, 수정 요청 경로를 같은 화면이나 문서에서 찾을 수 있어야 합니다.
 
-```text
-get_weather(city, date)
-```
+## 팀 체크리스트
 
-User request:
-
-```text
-내일 서울에 비가 올까?
-```
-
-모델은 날씨를 지어내면 안 됩니다.
-Weather function call을 요청해야 합니다.
-Application은 weather service를 호출하고, 그 결과를 모델 또는 사용자에게 전달해야 합니다.
-
-## Tool Calling을 쉽게 설명하면
-
-Tool calling은 더 넓습니다.
-Tool은 function일 수도 있고, built-in capability나 application action일 수도 있습니다.
-
-예시:
-
-- internal documentation 검색
-- file retrieval
-- calendar API 호출
-- draft email 생성
-- Markdown file 검증
-- 안전한 test command 실행
-- customer record 조회
-
-이 방식으로 AI workflow는 단순 답변 생성을 넘어섭니다.
-하지만 모든 tool에는 boundary가 필요합니다.
-
-## 좋은 Tool 설계
-
-좋은 tool은 작고, type이 분명하고, 검증하기 쉽습니다.
-
-더 나은 예:
-
-```text
-search_docs(query, product_area)
-get_invoice(invoice_id)
-create_draft_reply(ticket_id, body)
-validate_post_front_matter(file_path)
-```
-
-위험한 예:
-
-```text
-run_shell(command)
-query_database(sql)
-send_email(to, subject, body)
-update_any_record(table, id, fields)
-```
-
-넓은 tool은 demo를 쉽게 만듭니다.
-하지만 실수 비용도 크게 만듭니다.
-처음에는 좁은 tool로 시작하고, logging과 review가 작동한 뒤 확장해야 합니다.
-
-## Validation 규칙
-
-Tool 실행 전에 arguments를 검증합니다.
-
-Checklist:
-
-```text
-[ ] 이 user에게 허용된 tool인가?
-[ ] required arguments가 모두 있는가?
-[ ] ID, path, date format이 유효한가?
-[ ] 요청한 resource가 허용된 scope 안에 있는가?
-[ ] read-only action인가, side effect가 있는 action인가?
-[ ] 위험한 action은 human approval이 필요한가?
-[ ] 안전하게 retry할 수 있는가?
-```
-
-File path라면 resolved path가 workspace 안에 있는지 확인합니다.
-Account data라면 permission을 확인합니다.
-Message라면 바로 보내지 말고 draft를 만듭니다.
-Database write라면 preview나 transaction을 선호합니다.
-
-## 안전한 Workflow 예시
-
-AI assistant가 support reply draft를 만든다고 가정합니다.
-
-```text
-1. User가 ticket을 선택한다.
-2. Model이 ticket detail과 knowledge base search가 필요하다고 판단한다.
-3. App이 get_ticket(ticket_id)를 호출한다.
-4. App이 search_knowledge_base(query)를 호출한다.
-5. Model이 반환된 source만 사용해 reply draft를 만든다.
-6. App이 source ID가 cited되었는지 확인한다.
-7. 사람이 draft를 검토한다.
-8. 답변 전송은 사람만 한다.
-```
-
-Tool workflow는 속도를 높입니다.
-Review gate는 customer experience를 보호합니다.
-
-## 흔한 실수
-
-- 모델에게 모든 것을 할 수 있는 tool 하나를 줍니다.
-- Argument validation 없이 tool call을 실행합니다.
-- Review gate 없이 production write를 허용합니다.
-- Tool result가 항상 맞다고 가정합니다.
-- Tool call과 output을 log로 남기지 않습니다.
-- 숨은 conversation state가 tool behavior를 바꾸게 둡니다.
-- code에 있어야 할 business rule을 모델에게 맡깁니다.
-
-## 관련 글
-
-- [OpenAI Responses API 사용 흐름](/ko_ai_trends/openai-responses-api-guide/)
-- [AI agent workflow 2026](/ko_ai_trends/ai-agent-workflow-2026/)
-- [Prompt engineering 체크리스트](/ko_ai_trends/prompt-engineering-checklist/)
+- 도입 목적과 금지 용도를 **스키마 필드** 기준 옆에 함께 적습니다.
+- '도구 입력 스키마를 좁게 정의합니다.' 이후 모델, 프롬프트, 데이터가 바뀌면 **권한 수준** 기준으로 다시 확인합니다.
+- 사용자에게 영향을 주는 결과는 로그, 근거, 이의제기 또는 수정 경로를 남깁니다.
 
 ## 자주 묻는 질문
 
-### 이 글은 언제 먼저 적용하면 좋나요?
+### 이 주제는 언제 먼저 적용해야 하나요?
 
-새 도구를 바로 도입하기 전, 반복 업무와 검증 기준이 이미 있는지 확인할 때 먼저 적용하면 좋습니다.
+반복 빈도가 높고 실패 비용이 낮은 업무부터 시작하는 것이 안전합니다. **AI Tool Calling vs Function Calling: 모델 출력과 실제 실행을 분리하기** 주제라도 바로 전면 자동화하지 말고, 먼저 '도구 입력 스키마를 좁게 정의합니다.' 단계와 검토 책임자를 정한 뒤 작은 표본으로 성과와 오류를 확인합니다.
 
-### 초보자가 가장 먼저 확인할 부분은 무엇인가요?
+### 자동화해도 되는지 판단하는 기준은 무엇인가요?
 
-처음에는 모델 성능보다 입력 데이터, 검증 기준, 실패 시 복구 방법을 먼저 정하세요. AI workflow는 자동화보다 검증 설계가 먼저입니다.
+**스키마 필드** 기준이 문서화되어 있고, **권한 수준** 기준을 다른 검토자가 같은 방식으로 확인할 수 있어야 합니다. 기준이 사람마다 다르면 모델 성능 문제가 아니라 운영 설계 문제일 가능성이 큽니다.
 
-### 더 찾아볼 때 어떤 키워드를 쓰면 좋나요?
+### 실패했을 때 무엇을 남겨야 하나요?
 
-추가 검색할 때는 "AI tool calling과 function calling 차이: 개발자가 알아야 할 실전 기준" 같은 핵심 문구와 evaluation, workflow, guardrail, structured output, agent 같은 실무 키워드를 조합해 보세요.
+입력 자료, 모델 또는 도구 설정, **스키마 필드** 검토 판단, 수정 결과를 함께 남깁니다. 그래야 다음 변경 때 같은 오류가 줄었는지 볼 수 있고, 사용자에게 영향을 준 결과도 설명하거나 되돌릴 수 있습니다.
 
-## 참고 자료
 
-- OpenAI tools guide: https://developers.openai.com/api/docs/guides/tools
-- OpenAI function calling guide: https://platform.openai.com/docs/guides/function-calling
-- OpenAI Responses API reference: https://platform.openai.com/docs/api-reference/responses
+## 참고할 공식 자료
+
+- [OpenAI Function Calling Help](https://help.openai.com/en/articles/8555517-function-calling-in-the-openai-api)
+- [OpenAI Tools Guide](https://platform.openai.com/docs/guides/tools)
+- [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+
+## 함께 보면 좋은 글
+
+- [Local LLM vs Cloud LLM: 비용보다 데이터, 지연시간, 운영 책임 먼저 보기](/ko_ai_trends/local-llm-vs-cloud-llm/)
+- [Multimodal AI Workflow: 텍스트, 이미지, 음성을 한 번에 믿지 않기](/ko_ai_trends/multimodal-ai-workflow/)

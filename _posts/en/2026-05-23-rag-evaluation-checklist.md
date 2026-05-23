@@ -1,162 +1,99 @@
 ---
-typora-root-url: ../
 layout: single
 title: >
-  RAG Evaluation Checklist: How to Measure Retrieval and Answer Quality
+  RAG Evaluation Checklist: Separate Retrieval Quality from Answer Quality
 seo_title: >
-  RAG Evaluation Checklist
-date: 2026-05-23T23:59:56+09:00
-last_modified_at: 2026-05-23T23:59:59+09:00
+  RAG Evaluation Checklist: Separate Retrieval Quality from Answer Qu...
+date: 2026-05-23T09:40:00+09:00
+last_modified_at: 2026-05-23T23:30:00+09:00
 lang: en
-translation_id: rag-evaluation-checklist
+translation_id: ai-trends-rag-evaluation-checklist
 header:
-   teaser: /images/2026-05-23-rag-evaluation-checklist/rag-evaluation-hero.png
-   overlay_image: /images/2026-05-23-rag-evaluation-checklist/rag-evaluation-hero.png
-   overlay_filter: 0.35
-   image_description: >
-     Visual guide explaining RAG Evaluation Checklist: How to Measure Retrieval and Answer Quality.
+  teaser: /images/2026-05-23-rag-evaluation-checklist/hero.png
+  overlay_image: /images/2026-05-23-rag-evaluation-checklist/hero.png
+  overlay_filter: 0.45
+  image_description: >
+    An AI trends image summarizing core signals and practical adoption order for this topic.
 excerpt: >
-  Evaluate RAG systems by checking retrieval coverage, source relevance, grounded answers, citation accuracy, refusal behavior, and failure patterns.
+  RAG quality requires separate checks for retrieved documents, citation location, missing questions, and answer faithfulness.
 seo_description: >
-  Evaluate RAG systems by checking retrieval coverage, source relevance, grounded answers, citation accuracy, refusal behavior, and failure patterns.
+  RAG quality requires separate checks for retrieved documents, citation location, missing questions, and answer faithfulness.
 categories:
   - en_AI_Trends
 tags:
-  - AI
   - RAG
   - Evaluation
-  - OpenAI
-  - Workflow
+  - Retrieval
+  - AI Quality
 ---
 
-## Quick Answer
+AI trends are not only model-name news. They are signals such as **retrieval hit rate** that change real workflow quality. This guide reads **RAG Evaluation Checklist: Separate Retrieval Quality from Answer Quality** through adoption, verification, and operating responsibility.
 
-A RAG system should be evaluated in two layers: retrieval quality and answer quality.
-If retrieval fails, the model may never see the right evidence.
-If answer quality fails, the model may have the right evidence but still produce an unsupported or incomplete answer.
+RAG quality requires separate checks for retrieved documents, citation location, missing questions, and answer faithfulness.
 
-![RAG evaluation workflow with retrieval checks, answer checks, citations, and failure analysis](/images/2026-05-23-rag-evaluation-checklist/rag-evaluation-hero.png)
+This article is educational and does not recommend a specific model or vendor. For **RAG Evaluation Checklist: Separate Retrieval Quality from Answer Quality**, it focuses on the **retrieval hit rate** rule, review ownership, and operating records before adoption.
 
-The image shows a practical RAG evaluation flow: documents, search results, answer generation, citation checks, and failure analysis.
-The goal is not only to get a high score.
-The goal is to know which part of the pipeline broke.
+![RAG Evaluation Checklist: Separate Retrieval Quality from Answer Quality core flow](/images/2026-05-23-rag-evaluation-checklist/hero.png)
 
-## The Core Checklist
+## Why This Matters Now
 
-Use this checklist for every RAG test set:
+RAG failures are dangerous because the answer can sound plausible. Separate retrieval failure from generation failure.
 
-```text
-[ ] Does retrieval return the source that contains the answer?
-[ ] Are the top results relevant to the question?
-[ ] Is the answer grounded in retrieved sources?
-[ ] Are citations attached to the exact claims they support?
-[ ] Does the system refuse when sources do not contain the answer?
-[ ] Does the answer avoid unsupported facts?
-[ ] Are failures grouped by root cause?
-```
+For this topic, start with **retrieval hit rate** and **citation span**. If either is vague, the workflow can look fast while review, cost control, and accountability move downstream.
 
-Do not evaluate only the final answer.
-That hides retrieval problems.
+## Signals To Check First
 
-## Split the Evaluation
+- **retrieval hit rate**: for RAG Evaluation Checklist: Separate Retrieval Quality from Answer Quality, record the standard, owner, and failure response for this item.
+- **citation span**: for RAG Evaluation Checklist: Separate Retrieval Quality from Answer Quality, record the standard, owner, and failure response for this item.
+- **unsupported claim**: for RAG Evaluation Checklist: Separate Retrieval Quality from Answer Quality, record the standard, owner, and failure response for this item.
+- **missing source**: for RAG Evaluation Checklist: Separate Retrieval Quality from Answer Quality, record the standard, owner, and failure response for this item.
 
-Use separate columns:
+![RAG Evaluation Checklist: Separate Retrieval Quality from Answer Quality verification checklist](/images/2026-05-23-rag-evaluation-checklist/checklist.png)
 
-| Layer | Question | Example metric |
-| --- | --- | --- |
-| Retrieval | Did we fetch the right documents? | recall@k, hit rate |
-| Ranking | Are the best chunks near the top? | relevance score |
-| Grounding | Is the answer supported by sources? | faithfulness |
-| Citation | Are cited sources correct? | citation precision |
-| Helpfulness | Does it answer the user? | human rating |
-| Safety | Does it refuse unsupported requests? | refusal accuracy |
+## Practical Adoption Order
 
-This split matters.
-Improving the prompt cannot fix a missing document.
-Improving embeddings cannot fix an answer that ignores evidence.
+- Define the expected source document for each question.
+- Check whether top results include that source.
+- Flag answer claims outside the retrieved evidence.
 
-## Build a Small Gold Test Set
+The common failure is expanding automation before **retrieval hit rate** is clear. Start with 'Define the expected source document for each question', then widen scope only after review results are stable.
 
-Start with 30-100 questions.
-Each item should include:
+## Field Pilot Example
 
-```text
-question
-expected source document
-expected answer summary
-must-cite facts
-should-refuse flag
-notes
-```
+A practical pilot can stay small: choose one team, one document type, and one workflow, then write the **retrieval hit rate** rule as a table. Apply 'Define the expected source document for each question' to ten real cases and mark each result as accepted, held for review, or rejected. Keep the **citation span** rule visible to the reviewer instead of leaving it as tribal memory. This makes the test about controllable quality, not about whether the output looks impressive in a demo.
 
-Include normal questions and edge cases.
+## Operating Notes
 
-Good test cases:
+In operation, **retrieval hit rate** is not a one-time setup. When the model, prompt, data, or tool permission changes, recheck **citation span** as well. For outputs that affect users, the evidence document, log location, and correction path should be easy to find from the same operating record.
 
-- answer is in one document
-- answer needs two documents
-- answer is not in the corpus
-- source documents disagree
-- question contains outdated wording
-- similar documents can confuse retrieval
+## Team Checklist
 
-Small, well-labeled test sets are more useful than thousands of unlabeled examples.
-
-## Common Failure Types
-
-Track failures by type:
-
-| Failure | Meaning | Fix direction |
-| --- | --- | --- |
-| Missing retrieval | The right document was not returned | chunking, embeddings, query rewrite |
-| Poor ranking | Right document exists but is too low | reranking, metadata filters |
-| Bad grounding | Answer ignores or distorts source | prompt, context formatting |
-| Bad citation | Citation does not support the claim | citation instructions, post-check |
-| Over-answering | Model answers without evidence | refusal rule, source-only instruction |
-| Under-answering | Model refuses despite sufficient evidence | prompt and evaluation examples |
-
-This turns evaluation into an engineering loop.
-
-## Manual Review Template
-
-Use this when reviewing outputs:
-
-```text
-Question:
-Retrieved sources:
-Expected source present: yes/no
-Answer supported by source: yes/no/partial
-Citation correct: yes/no/partial
-Missing fact:
-Unsupported claim:
-Failure type:
-Fix idea:
-```
-
-Keep the template short enough that you can apply it repeatedly.
-
-## Related Posts
-
-- [AI Agent Workflow 2026](/en_ai_trends/ai-agent-workflow-2026/)
-- [AI Tool Calling vs Function Calling](/en_ai_trends/ai-tools-function-calling/)
-- [OpenAI Responses API Practical Guide](/en_ai_trends/openai-responses-api-guide/)
+- Keep the adoption goal and prohibited uses next to the **retrieval hit rate** rule.
+- After 'Define the expected source document for each question', rerun the same review whenever the model, prompt, data, or **citation span** rule changes.
+- For user-impacting outputs, keep logs, evidence, and a path for correction or appeal.
 
 ## FAQ
 
-### When should I use this guide?
+### When should this topic be applied first?
 
-Use it before adopting a new AI workflow, especially when the task is repeated often and the output can be reviewed against a clear standard.
+Start with work that is frequent and has a low cost of failure. Even for **RAG Evaluation Checklist: Separate Retrieval Quality from Answer Quality**, avoid full automation at the beginning. Define the 'Define the expected source document for each question' step, name the reviewer, and test outcomes and errors on a small sample.
 
-### What should beginners verify first?
+### How do we know whether the retrieval hit rate rule is safe enough?
 
-Start with the input data, evaluation rule, failure mode, and human review path. A useful AI workflow needs verification before scale.
+The **retrieval hit rate** rule should be written down, and another reviewer should be able to check the **citation span** rule in the same way. If every reviewer interprets the rule differently, the issue is usually operating design rather than model capability.
 
-### Which keywords should I search next?
+### What should be logged when the workflow fails?
 
-Search for "RAG Evaluation Checklist: How to Measure Retrieval and Answer Quality" together with evaluation, workflow, guardrail, structured output, and agent design keywords.
+Keep the input evidence, model or tool setting, **retrieval hit rate** reviewer decision, and correction result together. This lets the team see whether later changes reduce the same error and gives a way to explain or reverse user-impacting output.
 
-## Sources
 
-- OpenAI Evals guide: https://platform.openai.com/docs/guides/evals
-- OpenAI tools guide: https://developers.openai.com/api/docs/guides/tools
-- RAGAS paper: https://arxiv.org/abs/2309.15217
+## Source Notes
+
+- [OpenAI Retrieval Guide](https://platform.openai.com/docs/guides/retrieval)
+- [OpenAI Evals API Reference](https://platform.openai.com/docs/api-reference/evals)
+- [NIST Generative AI Profile](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf)
+
+## Related Reading
+
+- [AI Search Optimization: Structure Content for Answer Engines](/en_ai_trends/ai-search-optimization/)
+- [Human-in-the-Loop AI: Design Review as a Safety Control](/en_ai_trends/ai-agent-human-in-loop/)

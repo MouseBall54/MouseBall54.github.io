@@ -1,195 +1,99 @@
 ---
-typora-root-url: ../
 layout: single
 title: >
-  AI 회의록 자동화 워크플로우: 회의를 결정과 실행 항목으로 바꾸기
+  AI Meeting Notes Workflow: 회의록을 결정, 담당자, 기한으로 바꾸기
 seo_title: >
-  AI 회의록 자동화 워크플로우
-date: 2026-05-23T23:59:59+09:00
-last_modified_at: 2026-05-23T23:59:59+09:00
+  AI Meeting Notes Workflow: 회의록을 결정, 담당자, 기한으로 바꾸기
+date: 2026-05-23T11:00:00+09:00
+last_modified_at: 2026-05-23T23:30:00+09:00
 lang: ko
-translation_id: ai-meeting-notes-workflow
+translation_id: ai-trends-ai-meeting-notes-workflow
 header:
-   teaser: /images/2026-05-23-ai-meeting-notes-workflow/ai-meeting-notes-hero.png
-   overlay_image: /images/2026-05-23-ai-meeting-notes-workflow/ai-meeting-notes-hero.png
-   overlay_filter: 0.35
-   image_description: >
-     AI 회의록 자동화 워크플로우: 회의를 결정과 실행 항목으로 바꾸기 주제를 한눈에 설명하는 시각 자료입니다.
+  teaser: /images/2026-05-23-ai-meeting-notes-workflow/hero.png
+  overlay_image: /images/2026-05-23-ai-meeting-notes-workflow/hero.png
+  overlay_filter: 0.45
+  image_description: >
+    AI Meeting Notes Workflow: 회의록을 결정, 담당자, 기한으로 바꾸기의 핵심 신호와 실무 적용 순서를 요약한 AI 트렌드 이미지입니다.
 excerpt: >
-  AI 회의록 자동화를 transcript, 요약, 결정 사항, action item, owner, due date, privacy review, follow-up task 흐름으로 설계합니다.
+  AI 회의록은 요약보다 결정 사항, 담당자, 기한, 미해결 질문을 정확히 분리할 때 업무 가치가 커진다.
 seo_description: >
-  AI 회의록 자동화를 transcript, 요약, 결정 사항, action item, owner, due date, privacy review, follow-up task 흐름으로 설계합니다.
+  AI 회의록은 요약보다 결정 사항, 담당자, 기한, 미해결 질문을 정확히 분리할 때 업무 가치가 커진다. 도입 전 확인할 검증 기준, 운영 책임, 보안 통제, 사람 검토 지점을 함께 정리합니다.
 categories:
   - ko_AI_Trends
 tags:
-  - AI
   - Meetings
   - Productivity
+  - AI Notes
   - Workflow
-  - Automation
 ---
 
-## 핵심 요약
+AI 트렌드는 모델 이름을 따라가는 뉴스가 아니라 **결정 사항**처럼 실제 업무 품질을 바꾸는 신호를 읽는 일입니다. 이 글은 **AI Meeting Notes Workflow: 회의록을 결정, 담당자, 기한으로 바꾸기** 주제를 도입 전 의사결정, 검증, 운영 책임 관점에서 정리합니다.
 
-AI meeting notes workflow는 요약만 만드는 것이 아닙니다.
-transcript를 확보하고, 결정 사항을 분리하고, action item을 뽑고, owner와 due date를 확인하고, 민감한 내용을 검토하고, follow-up task로 연결해야 합니다.
-공식 기록으로 쓰기 전에는 사람이 검토해야 합니다.
+AI 회의록은 요약보다 결정 사항, 담당자, 기한, 미해결 질문을 정확히 분리할 때 업무 가치가 커진다.
 
-![회의 audio에서 transcript, 결정 사항, action item, calendar follow-up, privacy review로 이어지는 AI meeting notes workflow 이미지](/images/2026-05-23-ai-meeting-notes-workflow/ai-meeting-notes-hero.png)
+이 글은 특정 모델이나 벤더를 추천하지 않습니다. **AI Meeting Notes Workflow: 회의록을 결정, 담당자, 기한으로 바꾸기**를 실제 업무에 적용하기 전에 **결정 사항** 기준, 검토 책임, 운영 로그를 어떻게 확인할지 정리하는 교육용 가이드입니다.
 
-이미지는 유용한 pipeline을 보여줍니다.
-회의 audio가 structured notes로 바뀌지만 privacy review와 human confirmation은 여전히 중요합니다.
+![AI Meeting Notes Workflow: 회의록을 결정, 담당자, 기한으로 바꾸기 핵심 흐름](/images/2026-05-23-ai-meeting-notes-workflow/hero.png)
 
-## 기본 Workflow
+## 왜 지금 중요한가
 
-흐름은 다음과 같습니다.
+회의록 자동화는 말의 양을 줄이는 작업이 아니라 다음 행동을 놓치지 않게 만드는 업무 기록 시스템입니다.
 
-```text
-1. Transcript 또는 recording 확보
-2. 구조화된 summary 생성
-3. 결정 사항 추출
-4. Action item 추출
-5. Owner와 due date 확인
-6. 민감하거나 불확실한 항목 표시
-7. 사람 검토 후 follow-up 전송
-```
+이 주제에서 먼저 볼 것은 **결정 사항**, **담당자** 두 항목입니다. 둘 중 하나가 흐리면 AI가 빠르게 보이더라도 결과 검토, 비용 통제, 책임 소재가 뒤로 밀려 실제 운영에서는 품질 문제가 생깁니다.
 
-목표는 완벽한 글을 만드는 것이 아닙니다.
-결정과 다음 행동을 놓치지 않게 만드는 것입니다.
+## 먼저 볼 신호
 
-## 1. 회의록에 반드시 들어갈 항목 정하기
+- **결정 사항**: AI Meeting Notes Workflow: 회의록을 결정, 담당자, 기한으로 바꾸기 주제에서 이 항목의 기준, 책임자, 실패 시 대응을 함께 기록합니다.
+- **담당자**: AI Meeting Notes Workflow: 회의록을 결정, 담당자, 기한으로 바꾸기 주제에서 이 항목의 기준, 책임자, 실패 시 대응을 함께 기록합니다.
+- **기한**: AI Meeting Notes Workflow: 회의록을 결정, 담당자, 기한으로 바꾸기 주제에서 이 항목의 기준, 책임자, 실패 시 대응을 함께 기록합니다.
+- **미해결 질문**: AI Meeting Notes Workflow: 회의록을 결정, 담당자, 기한으로 바꾸기 주제에서 이 항목의 기준, 책임자, 실패 시 대응을 함께 기록합니다.
 
-고정 format을 사용합니다.
+![AI Meeting Notes Workflow: 회의록을 결정, 담당자, 기한으로 바꾸기 검증 체크리스트](/images/2026-05-23-ai-meeting-notes-workflow/checklist.png)
 
-```text
-Meeting purpose:
-Decisions:
-Action items:
-Open questions:
-Risks:
-Follow-up date:
-```
+## 실무 적용 순서
 
-format이 매번 바뀌면 사람들이 회의록을 신뢰하지 않게 됩니다.
-스타일보다 일관성이 중요합니다.
+- 요약과 액션 아이템을 분리합니다.
+- 담당자와 기한이 없는 항목은 질문으로 남깁니다.
+- 민감한 발언은 공유 전 검토합니다.
 
-## 2. Transcript를 조심스럽게 확보
+가장 흔한 실패는 **결정 사항** 항목이 명확하지 않은 상태에서 자동화 범위를 넓히는 것입니다. 따라서 첫 단계는 '요약과 액션 아이템을 분리합니다.'이고, 이후에도 검토 결과를 기준으로 범위를 넓혀야 합니다.
 
-회의록 품질은 source에 달려 있습니다.
-가능하면 meeting platform의 transcript나 speech-to-text tool을 사용합니다.
-recorded audio를 사용할 때는 녹음 전 동의, 회사 정책, 지역 법규를 확인해야 합니다.
+## 현장 적용 예시
 
-민감한 회의라면 미리 정합니다.
+작게 시작하려면 한 팀, 한 문서, 한 업무 흐름을 정하고 **결정 사항** 기준을 표로 남깁니다. 그 다음 '요약과 액션 아이템을 분리합니다.' 단계를 실제 사례 10건에 적용해 성공, 보류, 실패를 나눕니다. 이때 **담당자** 기준은 나중에 기억으로 판단하지 말고 검토자가 같은 화면에서 볼 수 있는 체크 항목으로 둡니다. 이런 방식이면 AI가 만든 결과가 좋아 보이는지보다 사람이 검증하고 되돌릴 수 있는지가 먼저 드러납니다.
 
-- 누가 recording에 접근할 수 있는가
-- recording을 얼마나 보관할 것인가
-- 외부 tool 사용이 허용되는가
-- customer 또는 employee data를 redaction해야 하는가
+## 운영 시 주의할 점
 
-privacy는 마지막 cleanup이 아닙니다.
-workflow 설계의 일부입니다.
+운영 단계에서는 **결정 사항**를 한 번 정하고 끝내지 말아야 합니다. 모델, 프롬프트, 데이터, 도구 권한이 바뀌면 **담당자** 기준도 같이 다시 확인해야 합니다. 특히 사용자에게 영향을 주는 결과라면 근거 문서, 로그 위치, 수정 요청 경로를 같은 화면이나 문서에서 찾을 수 있어야 합니다.
 
-## 3. 결정 사항을 따로 추출
+## 팀 체크리스트
 
-summary와 decision log는 다릅니다.
-AI에게 아래 항목을 분리하게 해야 합니다.
-
-- 최종 결정
-- 제안된 결정
-- 기각된 선택지
-- 보류된 질문
-
-이렇게 해야 부드러운 논의가 공식 결정으로 바뀌는 일을 막을 수 있습니다.
-예를 들어 "launch 이동을 논의했다"와 "launch date가 변경됐다"는 다릅니다.
-
-## 4. Action Item을 Task로 변환
-
-각 action item에는 아래 정보가 있어야 합니다.
-
-```text
-Task:
-Owner:
-Due date:
-Context:
-Source moment:
-```
-
-owner나 due date가 없다면 unresolved로 표시합니다.
-시스템이 소유자를 지어내게 두면 안 됩니다.
-
-좋은 action item:
-
-```text
-Revised onboarding checklist 준비.
-Owner: Mina
-Due: Friday
-Context: support training 전 필요.
-```
-
-약한 action item:
-
-```text
-Onboarding 개선.
-```
-
-## 5. Human Review 추가
-
-회의록을 팀 전체에 보내기 전 한 사람이 확인해야 합니다.
-
-- speaker attribution 오류
-- 잘못된 decision
-- 빠진 action item
-- 민감한 정보
-- 과도하게 확신하는 표현
-- 잘못된 owner 지정
-
-AI 회의록은 시간을 줄여주지만, 잘못된 결정을 전파하면 비용이 큽니다.
-
-## 6. 일이 일어나는 곳에 저장
-
-회의록은 folder 안에서 사라지면 안 됩니다.
-팀이 실제로 일하는 시스템에 연결합니다.
-
-- Project management task
-- Issue tracker
-- CRM record
-- Knowledge base page
-- Calendar follow-up
-- Slack 또는 Teams message
-
-회의록의 가치는 회의가 끝난 뒤 실현됩니다.
-
-## 함께 보면 좋은 글
-
-- [AI 자동화 ROI 계산법](/ko_ai_trends/ai-automation-roi/)
-- [AI Agent Workflow 2026](/ko_ai_trends/ai-agent-workflow-2026/)
-- [OpenAI Speech to Text guide](https://platform.openai.com/docs/guides/speech-to-text)
-- [OpenAI Agents documentation](https://platform.openai.com/docs/guides/agents)
-
-## 최종 체크리스트
-
-```text
-[ ] Recording 또는 transcript 정책이 명확하다.
-[ ] 회의록이 고정 구조를 사용한다.
-[ ] 결정 사항과 논의가 분리되어 있다.
-[ ] Action item에 owner와 due date가 있다.
-[ ] 민감한 정보가 검토되었다.
-[ ] 회의록이 실제 작업 시스템에 연결된다.
-```
-
-AI 회의록은 follow-up 혼란을 줄일 때 가치가 있습니다.
-summary는 초안으로 보고, decision과 task list는 검토 가능한 기록으로 다루세요.
+- 도입 목적과 금지 용도를 **결정 사항** 기준 옆에 함께 적습니다.
+- '요약과 액션 아이템을 분리합니다.' 이후 모델, 프롬프트, 데이터가 바뀌면 **담당자** 기준으로 다시 확인합니다.
+- 사용자에게 영향을 주는 결과는 로그, 근거, 이의제기 또는 수정 경로를 남깁니다.
 
 ## 자주 묻는 질문
 
-### 이 글은 언제 먼저 적용하면 좋나요?
+### 이 주제는 언제 먼저 적용해야 하나요?
 
-새 도구를 바로 도입하기 전, 반복 업무와 검증 기준이 이미 있는지 확인할 때 먼저 적용하면 좋습니다.
+반복 빈도가 높고 실패 비용이 낮은 업무부터 시작하는 것이 안전합니다. **AI Meeting Notes Workflow: 회의록을 결정, 담당자, 기한으로 바꾸기** 주제라도 바로 전면 자동화하지 말고, 먼저 '요약과 액션 아이템을 분리합니다.' 단계와 검토 책임자를 정한 뒤 작은 표본으로 성과와 오류를 확인합니다.
 
-### 초보자가 가장 먼저 확인할 부분은 무엇인가요?
+### 자동화해도 되는지 판단하는 기준은 무엇인가요?
 
-처음에는 모델 성능보다 입력 데이터, 검증 기준, 실패 시 복구 방법을 먼저 정하세요. AI workflow는 자동화보다 검증 설계가 먼저입니다.
+**결정 사항** 기준이 문서화되어 있고, **담당자** 기준을 다른 검토자가 같은 방식으로 확인할 수 있어야 합니다. 기준이 사람마다 다르면 모델 성능 문제가 아니라 운영 설계 문제일 가능성이 큽니다.
 
-### 더 찾아볼 때 어떤 키워드를 쓰면 좋나요?
+### 실패했을 때 무엇을 남겨야 하나요?
 
-추가 검색할 때는 "AI 회의록 자동화 워크플로우: 회의를 결정과 실행 항목으로 바꾸기" 같은 핵심 문구와 evaluation, workflow, guardrail, structured output, agent 같은 실무 키워드를 조합해 보세요.
+입력 자료, 모델 또는 도구 설정, **결정 사항** 검토 판단, 수정 결과를 함께 남깁니다. 그래야 다음 변경 때 같은 오류가 줄었는지 볼 수 있고, 사용자에게 영향을 준 결과도 설명하거나 되돌릴 수 있습니다.
+
+
+## 참고할 공식 자료
+
+- [OpenAI Structured Outputs Guide](https://platform.openai.com/docs/guides/structured-outputs)
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- [OECD AI Principles](https://www.oecd.org/en/topics/ai-principles.html)
+
+## 함께 보면 좋은 글
+
+- [AI Tool Calling vs Function Calling: 모델 출력과 실제 실행을 분리하기](/ko_ai_trends/ai-tools-function-calling/)
+- [AI Content Provenance: 워터마크보다 제작 경로와 검토 기록 남기기](/ko_ai_trends/ai-content-provenance-watermark/)

@@ -132,6 +132,8 @@ Current content categories are:
 
 Each post should have exactly one language-prefixed category. Category hub pages must exist at `_pages/category-<category>.md` with a lowercase permalink such as `/en_troubleshooting/`, `sidebar.nav: "sidebar-category"`, useful intro copy, and at least three starting links when enough posts exist.
 
+AI Trends posts should use official or institution-grade sources such as OpenAI documentation, NIST AI RMF, OWASP LLM guidance, OECD AI Principles, EU AI Act resources, and Stanford HAI AI Index. Treat them as educational workflow and governance guides, not model hype or vendor promotion. Focus on verification, evals, tool boundaries, data handling, security, cost control, and human review.
+
 Global Affairs posts should use official sources where possible, include a source notes section, and translate international events into practical Korea-facing channels such as exports, import prices, energy security, financial conditions, household costs, and security policy.
 
 Climate & Energy posts should use official or institution-grade sources such as IEA, IPCC, WMO, UNEP, UNFCCC, World Bank, OECD, EIA, KEA, KESIS, KMA, and Korean climate or energy ministries. Treat them as educational briefings, not investment advice or technology promotion. Separate targets, policy tools, costs, grid constraints, supply chains, adaptation risk, and Korea-facing channels such as electricity bills, industrial competitiveness, exports, ports, and household costs.

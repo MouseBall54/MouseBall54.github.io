@@ -1,285 +1,99 @@
 ---
-typora-root-url: ../
 layout: single
 title: >
-  AI Agent Workflow 2026: Build for Verification First
+  AI Agent Workflow 2026: Design Verification Before Automation
 seo_title: >
-  AI Agent Workflow 2026: Build for Verification First
-date: 2026-05-23T23:00:00+09:00
-last_modified_at: 2026-05-23T23:59:59+09:00
+  AI Agent Workflow 2026: Design Verification Before Automation
+date: 2026-05-23T09:00:00+09:00
+last_modified_at: 2026-05-23T23:30:00+09:00
 lang: en
-translation_id: ai-agent-workflow-2026
+translation_id: ai-trends-ai-agent-workflow-2026
 header:
-   teaser: /images/2026-05-23-ai-agent-workflow-2026/ai-agent-workflow-hero.png
-   overlay_image: /images/2026-05-23-ai-agent-workflow-2026/ai-agent-workflow-hero.png
-   overlay_filter: 0.35
-   image_description: >
-     Visual guide explaining AI Agent Workflow 2026: Build for Verification First.
+  teaser: /images/2026-05-23-ai-agent-workflow-2026/hero.png
+  overlay_image: /images/2026-05-23-ai-agent-workflow-2026/hero.png
+  overlay_filter: 0.45
+  image_description: >
+    An AI trends image summarizing core signals and practical adoption order for this topic.
 excerpt: >
-  Design an AI agent workflow for 2026 by starting with verification, tool boundaries, human review, and clear failure handling instead of only chasing automation.
+  An AI agent is not a longer prompt; it is a work system connecting goals, tools, state, verification, and stop rules.
 seo_description: >
-  Design an AI agent workflow for 2026 by starting with verification, tool boundaries, human review, and clear failure handling instead of only chasing automation.
+  An AI agent is not a longer prompt; it is a work system connecting goals, tools, state, verification, and stop rules.
 categories:
   - en_AI_Trends
 tags:
-  - AI
-  - Agents
-  - OpenAI
+  - AI Agents
   - Automation
   - Workflow
+  - Verification
 ---
 
-## Quick Answer
+AI trends are not only model-name news. They are signals such as **tool scope** that change real workflow quality. This guide reads **AI Agent Workflow 2026: Design Verification Before Automation** through adoption, verification, and operating responsibility.
 
-An AI agent workflow is not just a chatbot with a longer prompt.
-It is a repeatable system where a model plans work, calls tools, reads results, checks its own output, and hands uncertain cases back to a human.
-In 2026, the important design question is not "How do I automate everything?" but "Where do I verify the result before it reaches a user, customer, repository, or database?"
+An AI agent is not a longer prompt; it is a work system connecting goals, tools, state, verification, and stop rules.
 
-![AI agent workflow with planning, tools, memory, and verification modules](/images/2026-05-23-ai-agent-workflow-2026/ai-agent-workflow-hero.png)
+This article is educational and does not recommend a specific model or vendor. For **AI Agent Workflow 2026: Design Verification Before Automation**, it focuses on the **tool scope** rule, review ownership, and operating records before adoption.
 
-The image above shows the basic shape: a central agent, tool access, data access, a planning path, and a verification gate.
-That gate is the part many early agent projects skip.
-It is also the part that prevents expensive mistakes.
+![AI Agent Workflow 2026: Design Verification Before Automation core flow](/images/2026-05-23-ai-agent-workflow-2026/hero.png)
 
-## Why This Keyword Matters
+## Why This Matters Now
 
-People search for `AI agent workflow`, `AI automation workflow`, and `AI agent architecture` because they are trying to move from experiments to real work.
-The search intent is practical.
-They want to know what to build first, what to connect, and how to avoid unreliable automation.
+The core agent question is not what the model can do, but where it must pause before taking action.
 
-The mistake is treating an agent as a magical worker.
-A useful agent is closer to a junior operator with tools, instructions, logs, and a reviewer.
-It can be fast and helpful, but it needs a bounded task and visible checkpoints.
+For this topic, start with **tool scope** and **approval gate**. If either is vague, the workflow can look fast while review, cost control, and accountability move downstream.
 
-This article was checked on May 23, 2026 against the current OpenAI documentation for agents, tools, and function calling.
+## Signals To Check First
 
-## The Practical Definition
+- **tool scope**: for AI Agent Workflow 2026: Design Verification Before Automation, record the standard, owner, and failure response for this item.
+- **approval gate**: for AI Agent Workflow 2026: Design Verification Before Automation, record the standard, owner, and failure response for this item.
+- **trace log**: for AI Agent Workflow 2026: Design Verification Before Automation, record the standard, owner, and failure response for this item.
+- **rollback path**: for AI Agent Workflow 2026: Design Verification Before Automation, record the standard, owner, and failure response for this item.
 
-Use this definition when planning a real project:
+![AI Agent Workflow 2026: Design Verification Before Automation verification checklist](/images/2026-05-23-ai-agent-workflow-2026/checklist.png)
 
-```text
-AI agent workflow =
-  goal
-  + instructions
-  + tool access
-  + state or memory
-  + verification
-  + handoff rules
-```
+## Practical Adoption Order
 
-Each part has a job.
+- Choose one recurring job.
+- Separate tool permissions into read, draft, and execute.
+- Put human approval before high-risk actions.
 
-- **Goal**: the specific outcome, such as "summarize support tickets and draft replies".
-- **Instructions**: the policy and style the agent must follow.
-- **Tool access**: functions, search, files, APIs, databases, or internal systems.
-- **State or memory**: what the workflow remembers across steps.
-- **Verification**: tests, checks, scorecards, approvals, or comparison against source data.
-- **Handoff rules**: when the system must stop and ask a human.
+The common failure is expanding automation before **tool scope** is clear. Start with 'Choose one recurring job', then widen scope only after review results are stable.
 
-If one part is vague, the whole workflow becomes hard to trust.
+## Field Pilot Example
 
-## Start with Verification
+A practical pilot can stay small: choose one team, one document type, and one workflow, then write the **tool scope** rule as a table. Apply 'Choose one recurring job' to ten real cases and mark each result as accepted, held for review, or rejected. Keep the **approval gate** rule visible to the reviewer instead of leaving it as tribal memory. This makes the test about controllable quality, not about whether the output looks impressive in a demo.
 
-Most teams start with tools.
-They connect email, Slack, a database, GitHub, or a spreadsheet, then ask the agent to "handle it".
-That is backwards.
+## Operating Notes
 
-Start by writing the verification rule:
+In operation, **tool scope** is not a one-time setup. When the model, prompt, data, or tool permission changes, recheck **approval gate** as well. For outputs that affect users, the evidence document, log location, and correction path should be easy to find from the same operating record.
 
-```text
-The workflow is successful only if:
-1. The answer cites the source record it used.
-2. The action can be previewed before it is sent.
-3. The agent logs tool inputs and outputs.
-4. A human reviews high-risk actions.
-5. The system has a clear rollback or retry path.
-```
+## Team Checklist
 
-For coding tasks, verification might be `npm test`, `pytest`, a typecheck, or a code review.
-For customer support, it might be a source citation and a human approval step.
-For finance operations, it might be a hard rule that the agent can prepare a draft but cannot submit a payment.
-
-Verification is not a nice extra.
-It is the product boundary.
-
-## A 6-Step Agent Workflow
-
-### 1. Pick One Narrow Job
-
-Choose a task that happens often and has a clear definition of done.
-
-Good first tasks:
-
-- categorize incoming support tickets
-- draft a reply from a knowledge base
-- summarize meeting notes into action items
-- prepare a pull request review checklist
-- extract invoice fields for human approval
-
-Weak first tasks:
-
-- run the whole company
-- manage all customer conversations
-- fix any bug automatically
-- trade or move money without review
-
-The narrower task is easier to evaluate.
-It also gives you better search traffic if you are writing about it, because the query has a clear problem.
-
-### 2. Separate Planning from Execution
-
-Let the model propose a plan before it touches tools.
-
-Example plan shape:
-
-```text
-1. Read the ticket.
-2. Identify the product area.
-3. Search the knowledge base.
-4. Draft a reply.
-5. Check whether the reply answers the exact issue.
-6. Send to human review.
-```
-
-The plan should be visible in logs.
-If the plan is wrong, stop before tool execution.
-
-### 3. Give Tools Explicit Boundaries
-
-Tool calling lets a model request structured actions from your code.
-That does not mean every tool should be available all the time.
-
-Use narrow tools:
-
-```text
-search_knowledge_base(query)
-get_ticket(ticket_id)
-draft_reply(ticket_id, source_ids)
-create_github_issue(title, body, labels)
-```
-
-Avoid broad tools:
-
-```text
-run_any_sql(query)
-send_any_email(to, subject, body)
-execute_shell(command)
-```
-
-Broad tools are convenient during demos.
-They are risky in production.
-Prefer small tools with validation inside the tool code.
-
-### 4. Keep State Small and Useful
-
-Do not save every token as "memory".
-Save the facts the workflow actually needs:
-
-- user preference
-- source document ID
-- ticket status
-- previous approval result
-- failed tool call reason
-- version of the instruction set
-
-Good state makes the next step safer.
-Bad state makes the agent overconfident.
-
-### 5. Add a Review Gate
-
-Use a gate before any external side effect:
-
-- sending an email
-- posting a comment
-- merging a pull request
-- updating a database
-- changing billing or account data
-
-The gate can be automatic for low-risk work.
-For example, a test suite can approve a formatting change.
-The gate should be human for high-risk work.
-
-### 6. Log Enough to Debug
-
-If an agent fails, you need to know why.
-Log these items:
-
-- input request
-- plan
-- tool calls
-- tool outputs
-- final answer
-- verification result
-- handoff reason
-
-Do not log secrets, full tokens, private keys, or sensitive personal data.
-Redact before storage.
-
-## What to Automate First
-
-Start with low-risk, high-frequency, easy-to-check workflows.
-
-| Workflow | Good first version | Verification |
-| --- | --- | --- |
-| Support replies | draft only | source citation and human review |
-| Code review | checklist and risk summary | tests and reviewer approval |
-| Meeting notes | action item extraction | attendee confirmation |
-| Research | source collection and summary | source freshness and citation check |
-| Data cleanup | suggested changes | diff preview before write |
-
-Do not begin with irreversible actions.
-The first win should teach the team how to evaluate the agent.
-
-## Common Mistakes
-
-- Giving the agent a broad goal and no definition of done.
-- Connecting powerful tools before defining a review gate.
-- Trusting generated citations without checking source IDs.
-- Letting the agent write to production systems during the first version.
-- Saving large, uncurated memory that later changes the agent's behavior.
-- Measuring only speed instead of accuracy, correction rate, and review burden.
-
-## Implementation Checklist
-
-Use this checklist before building:
-
-```text
-[ ] Is the task narrow enough to evaluate?
-[ ] Is there a written definition of done?
-[ ] Are tool permissions scoped to the task?
-[ ] Is every external side effect behind a gate?
-[ ] Are tool inputs and outputs logged?
-[ ] Is sensitive data redacted?
-[ ] Is there a human handoff rule?
-[ ] Is there a rollback or retry path?
-```
-
-If you cannot check these items, the workflow is still a demo.
-That is fine, but do not treat it as production automation.
-
-## Related Posts
-
-- [How to Fix pip install Failed in Python](/en_troubleshooting/python-pip-install-failed/)
-- [Python venv Not Activating](/en_troubleshooting/python-venv-not-activating/)
-- [How to Fix GitHub Actions Build Failed](/en_troubleshooting/github-actions-build-failed/)
+- Keep the adoption goal and prohibited uses next to the **tool scope** rule.
+- After 'Choose one recurring job', rerun the same review whenever the model, prompt, data, or **approval gate** rule changes.
+- For user-impacting outputs, keep logs, evidence, and a path for correction or appeal.
 
 ## FAQ
 
-### When should I use this guide?
+### When should this topic be applied first?
 
-Use it before adopting a new AI workflow, especially when the task is repeated often and the output can be reviewed against a clear standard.
+Start with work that is frequent and has a low cost of failure. Even for **AI Agent Workflow 2026: Design Verification Before Automation**, avoid full automation at the beginning. Define the 'Choose one recurring job' step, name the reviewer, and test outcomes and errors on a small sample.
 
-### What should beginners verify first?
+### How do we know whether the tool scope rule is safe enough?
 
-Start with the input data, evaluation rule, failure mode, and human review path. A useful AI workflow needs verification before scale.
+The **tool scope** rule should be written down, and another reviewer should be able to check the **approval gate** rule in the same way. If every reviewer interprets the rule differently, the issue is usually operating design rather than model capability.
 
-### Which keywords should I search next?
+### What should be logged when the workflow fails?
 
-Search for "AI Agent Workflow 2026: Build for Verification First" together with evaluation, workflow, guardrail, structured output, and agent design keywords.
+Keep the input evidence, model or tool setting, **tool scope** reviewer decision, and correction result together. This lets the team see whether later changes reduce the same error and gives a way to explain or reverse user-impacting output.
 
-## Sources
 
-- OpenAI Agents guide: https://platform.openai.com/docs/guides/agents
-- OpenAI tools guide: https://platform.openai.com/docs/guides/tools
-- OpenAI function calling guide: https://platform.openai.com/docs/guides/function-calling
-- Google Search Central helpful content guidance: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+## Source Notes
+
+- [OpenAI Agents Guide](https://platform.openai.com/docs/guides/agents)
+- [OpenAI Responses API Reference](https://platform.openai.com/docs/api-reference/responses?api-mode=responses)
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+
+## Related Reading
+
+- [Prompt Engineering Checklist: Build Repeatable Input Structure](/en_ai_trends/prompt-engineering-checklist/)
+- [AI Evals Scorecard: Manage Quality with Regression Tests](/en_ai_trends/ai-evals-scorecard/)

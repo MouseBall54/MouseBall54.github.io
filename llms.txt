@@ -37,6 +37,10 @@ Image sitemap: https://mouseball54.github.io/image-sitemap.xml
 - AI Agent Workflow 2026: https://mouseball54.github.io/en_ai_trends/ai-agent-workflow-2026/
 - Prompt Engineering Checklist: https://mouseball54.github.io/en_ai_trends/prompt-engineering-checklist/
 - RAG Evaluation Checklist: https://mouseball54.github.io/en_ai_trends/rag-evaluation-checklist/
+- Structured Outputs and JSON Schema: https://mouseball54.github.io/en_ai_trends/structured-outputs-json-schema/
+- LLM Prompt Injection Defense: https://mouseball54.github.io/en_ai_trends/llm-security-prompt-injection/
+- NIST AI RMF Team Checklist: https://mouseball54.github.io/en_ai_trends/nist-ai-rmf-team-checklist/
+- EU AI Act Business Checklist: https://mouseball54.github.io/en_ai_trends/eu-ai-act-business-checklist/
 - Global Growth and Fragmentation in 2026: https://mouseball54.github.io/en_global_affairs/global-growth-fragmentation-2026/
 - Korea Export Exposure to Fragmentation: https://mouseball54.github.io/en_global_affairs/korea-export-exposure-global-fragmentation/
 - AI Data-Center Electricity Demand: https://mouseball54.github.io/en_climate_energy/ai-data-center-electricity-demand/
@@ -62,7 +66,7 @@ Image sitemap: https://mouseball54.github.io/image-sitemap.xml
 - Economy content is educational and is not personal financial advice.
 - Troubleshooting content is written around reproducible symptoms, causes, fixes, and verification steps.
 - Easy Labeling content supports image annotation, YOLO datasets, COCO conversion, and dataset quality workflows.
-- AI Trends content prioritizes verification, workflow design, structured outputs, and practical automation boundaries.
+- AI Trends content prioritizes official-source AI workflow governance: agent scopes, OpenAI API patterns, evals, structured outputs, RAG quality, LLM security, privacy, cost controls, and human review boundaries.
 - Global Affairs content uses official-source briefings to connect world events with growth, trade, energy, finance, security, climate, migration, and Korea-facing transmission channels.
 - Climate & Energy content uses official-source briefings to connect grids, AI electricity demand, renewables, batteries, critical minerals, carbon pricing, climate adaptation, and Korea-facing industrial or household cost channels.
 - Consumer Rights content is educational, not legal advice, and uses official sources for refunds, subscriptions, chargebacks, recalls, airline refunds, telecom billing, fake reviews, dark patterns, and complaint escalation.

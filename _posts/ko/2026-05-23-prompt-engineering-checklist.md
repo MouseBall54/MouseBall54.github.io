@@ -1,289 +1,99 @@
 ---
-typora-root-url: ../
 layout: single
 title: >
-  Prompt engineering 체크리스트: 더 좋은 AI 프롬프트를 반복해서 쓰는 구조
+  Prompt Engineering 체크리스트: 좋은 프롬프트보다 반복 가능한 입력 구조
 seo_title: >
-  Prompt engineering 체크리스트
-date: 2026-05-23T23:59:10+09:00
-last_modified_at: 2026-05-23T23:59:59+09:00
+  Prompt Engineering 체크리스트: 좋은 프롬프트보다 반복 가능한 입력 구조
+date: 2026-05-23T09:20:00+09:00
+last_modified_at: 2026-05-23T23:30:00+09:00
 lang: ko
-translation_id: prompt-engineering-checklist
+translation_id: ai-trends-prompt-engineering-checklist
 header:
-   teaser: /images/2026-05-23-prompt-engineering-checklist/prompt-engineering-hero.png
-   overlay_image: /images/2026-05-23-prompt-engineering-checklist/prompt-engineering-hero.png
-   overlay_filter: 0.35
-   image_description: >
-     Prompt engineering 체크리스트: 더 좋은 AI 프롬프트를 반복해서 쓰는 구조 주제를 한눈에 설명하는 시각 자료입니다.
+  teaser: /images/2026-05-23-prompt-engineering-checklist/hero.png
+  overlay_image: /images/2026-05-23-prompt-engineering-checklist/hero.png
+  overlay_filter: 0.45
+  image_description: >
+    Prompt Engineering 체크리스트: 좋은 프롬프트보다 반복 가능한 입력 구조의 핵심 신호와 실무 적용 순서를 요약한 AI 트렌드 이미지입니다.
 excerpt: >
-  Prompt engineering은 긴 요청을 쓰는 일이 아니라 task, audience, context, constraints, examples, output format, verification을 명확히 하는 일입니다.
+  프롬프트 품질은 멋진 문장보다 역할, 목적, 자료, 제약, 출력 형식이 항상 같은 순서로 들어갈 때 안정된다.
 seo_description: >
-  Prompt engineering은 긴 요청을 쓰는 일이 아니라 task, audience, context, constraints, examples, output format, verification을 명확히 하는 일입니다.
+  프롬프트 품질은 멋진 문장보다 역할, 목적, 자료, 제약, 출력 형식이 항상 같은 순서로 들어갈 때 안정된다.
 categories:
   - ko_AI_Trends
 tags:
-  - AI
-  - PromptEngineering
-  - OpenAI
+  - Prompt Engineering
+  - AI Workflow
   - Productivity
-  - Workflow
+  - Quality Control
 ---
 
-## 핵심 요약
+AI 트렌드는 모델 이름을 따라가는 뉴스가 아니라 **작업 목표**처럼 실제 업무 품질을 바꾸는 신호를 읽는 일입니다. 이 글은 **Prompt Engineering 체크리스트: 좋은 프롬프트보다 반복 가능한 입력 구조** 주제를 도입 전 의사결정, 검증, 운영 책임 관점에서 정리합니다.
 
-좋은 prompt는 단순히 긴 요청이 아닙니다.
-작은 task specification에 가깝습니다.
-Prompt를 보내기 전에 goal, audience, context, constraints, examples, output format, verification rule을 정해야 합니다.
+프롬프트 품질은 멋진 문장보다 역할, 목적, 자료, 제약, 출력 형식이 항상 같은 순서로 들어갈 때 안정된다.
 
-![Task card, checklist, validated output으로 이어지는 prompt engineering workflow](/images/2026-05-23-prompt-engineering-checklist/prompt-engineering-hero.png)
+이 글은 특정 모델이나 벤더를 추천하지 않습니다. **Prompt Engineering 체크리스트: 좋은 프롬프트보다 반복 가능한 입력 구조**를 실제 업무에 적용하기 전에 **작업 목표** 기준, 검토 책임, 운영 로그를 어떻게 확인할지 정리하는 교육용 가이드입니다.
 
-이미지는 모호한 요청이 구조화된 card와 checklist를 거쳐 검증 가능한 output이 되는 흐름을 보여줍니다.
-Prompt engineering의 핵심은 모델이 생성하기 전에 모호함을 줄이는 것입니다.
+![Prompt Engineering 체크리스트: 좋은 프롬프트보다 반복 가능한 입력 구조 핵심 흐름](/images/2026-05-23-prompt-engineering-checklist/hero.png)
 
-## 체크리스트
+## 왜 지금 중요한가
 
-중요한 prompt를 쓰기 전에 아래를 확인합니다.
+좋은 프롬프트는 한번 맞히는 문장이 아니라 팀원이 같은 방식으로 재사용할 수 있는 작업 명세서에 가깝습니다.
 
-```text
-[ ] Task: 모델이 정확히 무엇을 해야 하는가?
-[ ] Audience: 누가 이 답을 읽거나 사용하는가?
-[ ] Context: 어떤 사실, 파일, 제약, 예시가 중요한가?
-[ ] Output: 어떤 형식으로 답해야 하는가?
-[ ] Boundaries: 무엇을 피해야 하는가?
-[ ] Reasoning target: 어떤 tradeoff를 고려해야 하는가?
-[ ] Verification: 답이 쓸 만한지 어떻게 확인할 것인가?
-```
+이 주제에서 먼저 볼 것은 **작업 목표**, **맥락 경계** 두 항목입니다. 둘 중 하나가 흐리면 AI가 빠르게 보이더라도 결과 검토, 비용 통제, 책임 소재가 뒤로 밀려 실제 운영에서는 품질 문제가 생깁니다.
 
-이 항목을 채울 수 없다면 모델은 추측합니다.
-Brainstorming에서는 괜찮을 수 있습니다.
-하지만 production writing, coding, analysis, customer work에서는 추측이 비용이 됩니다.
+## 먼저 볼 신호
 
-## 나쁜 Prompt와 더 나은 Prompt
+- **작업 목표**: Prompt Engineering 체크리스트: 좋은 프롬프트보다 반복 가능한 입력 구조 주제에서 이 항목의 기준, 책임자, 실패 시 대응을 함께 기록합니다.
+- **맥락 경계**: Prompt Engineering 체크리스트: 좋은 프롬프트보다 반복 가능한 입력 구조 주제에서 이 항목의 기준, 책임자, 실패 시 대응을 함께 기록합니다.
+- **출력 형식**: Prompt Engineering 체크리스트: 좋은 프롬프트보다 반복 가능한 입력 구조 주제에서 이 항목의 기준, 책임자, 실패 시 대응을 함께 기록합니다.
+- **검토 기준**: Prompt Engineering 체크리스트: 좋은 프롬프트보다 반복 가능한 입력 구조 주제에서 이 항목의 기준, 책임자, 실패 시 대응을 함께 기록합니다.
 
-약한 prompt:
+![Prompt Engineering 체크리스트: 좋은 프롬프트보다 반복 가능한 입력 구조 검증 체크리스트](/images/2026-05-23-prompt-engineering-checklist/checklist.png)
 
-```text
-ETF에 대해 써줘.
-```
+## 실무 적용 순서
 
-더 나은 prompt:
+- 목표와 금지사항을 분리합니다.
+- 출력 형식을 예시로 고정합니다.
+- 검토 기준을 프롬프트 끝에 둡니다.
 
-```text
-ETF vs mutual fund를 초보자에게 설명하는 글을 작성해줘.
-Audience: 기본 저축은 알지만 투자 상품은 잘 모르는 사람.
-Cover: 거래 시간, 수수료, 세금, 최소 투자금, 흔한 실수.
-Tone: 교육용이며 투자 조언처럼 쓰지 말 것.
-Output: H2 sections, comparison table 1개, 짧은 checklist.
-Avoid: 특정 fund 추천, 수익률 보장 표현.
-```
+가장 흔한 실패는 **작업 목표** 항목이 명확하지 않은 상태에서 자동화 범위를 넓히는 것입니다. 따라서 첫 단계는 '목표와 금지사항을 분리합니다.'이고, 이후에도 검토 결과를 기준으로 범위를 넓혀야 합니다.
 
-두 번째 prompt는 audience, scope, risk boundary를 모델이 추측하지 않게 합니다.
+## 현장 적용 예시
 
-## 1. Task 정의하기
+작게 시작하려면 한 팀, 한 문서, 한 업무 흐름을 정하고 **작업 목표** 기준을 표로 남깁니다. 그 다음 '목표와 금지사항을 분리합니다.' 단계를 실제 사례 10건에 적용해 성공, 보류, 실패를 나눕니다. 이때 **맥락 경계** 기준은 나중에 기억으로 판단하지 말고 검토자가 같은 화면에서 볼 수 있는 체크 항목으로 둡니다. 이런 방식이면 AI가 만든 결과가 좋아 보이는지보다 사람이 검증하고 되돌릴 수 있는지가 먼저 드러납니다.
 
-동사로 시작합니다.
+## 운영 시 주의할 점
 
-좋은 task 동사:
+운영 단계에서는 **작업 목표**를 한 번 정하고 끝내지 말아야 합니다. 모델, 프롬프트, 데이터, 도구 권한이 바뀌면 **맥락 경계** 기준도 같이 다시 확인해야 합니다. 특히 사용자에게 영향을 주는 결과라면 근거 문서, 로그 위치, 수정 요청 경로를 같은 화면이나 문서에서 찾을 수 있어야 합니다.
 
-- explain
-- compare
-- summarize
-- rewrite
-- extract
-- classify
-- generate
-- critique
-- validate
+## 팀 체크리스트
 
-약한 task:
-
-```text
-이것 좀 도와줘.
-```
-
-더 나은 task:
-
-```text
-이 GitHub Actions log에서 error message, likely cause, safe fix, verification command를 추출해줘.
-```
-
-목표를 말하지 않으면 모델은 목표에 맞게 최적화할 수 없습니다.
-
-## 2. Audience 적기
-
-Audience가 바뀌면 답도 바뀝니다.
-초보자, senior engineer, 학생, 부모, 투자자, product manager는 필요한 설명 수준이 다릅니다.
-
-예시:
-
-```text
-Audience: 컴퓨터공학 1학년 학생.
-Audience: REST에서 event-driven system으로 넘어가는 backend engineer.
-Audience: 처음으로 월간 예산을 만드는 사람.
-```
-
-"쉽게 써줘"만 쓰지 않습니다.
-누구에게 쉬워야 하는지 정해야 합니다.
-
-## 3. Context 제공하기
-
-Context는 관련 있고 경계가 있어야 합니다.
-모델이 반드시 사용해야 할 사실을 주되, 관련 없는 메모를 한꺼번에 던지지 않습니다.
-
-유용한 context:
-
-- target platform
-- version
-- existing code
-- exact error message
-- source links
-- current draft
-- business rule
-- reader knowledge level
-
-Technical prompt에는 version과 command를 넣습니다.
-금융 또는 정책성 글에는 source date와 개인 조언을 피해야 한다는 조건을 넣습니다.
-
-## 4. Output Format 지정하기
-
-특정 형식이 필요하면 명시합니다.
-
-예시:
-
-```text
-Cause, Symptom, Fix, Verification 열을 가진 Markdown table로 반환해줘.
-title, slug, primary_keyword, outline을 가진 JSON으로 반환해줘.
-각 단계가 한 문장인 7-step checklist로 작성해줘.
-```
-
-Output format은 다른 사람이나 프로그램이 답을 사용할 때 중요합니다.
-CMS, spreadsheet, code review, support tool로 들어가는 답이라면 구조가 시간을 줄여줍니다.
-
-## 5. Boundaries 설정하기
-
-Boundary는 그럴듯하지만 쓸 수 없는 답을 줄입니다.
-
-예시:
-
-```text
-특정 투자 상품을 추천하지 마세요.
-명령어 실행 결과를 지어내지 마세요.
-관련 없는 파일을 수정하지 마세요.
-유료 도구가 필요한 예시는 쓰지 마세요.
-아래 source에 없는 내용은 citation하지 마세요.
-```
-
-Negative instruction이 완벽한 안전장치는 아닙니다.
-하지만 명확한 boundary는 답을 검토하기 쉽게 만들고 결과 품질을 높입니다.
-
-## 6. 예시 추가하기
-
-Output style이 중요할 때는 예시가 강력합니다.
-
-예시:
-
-```text
-이 style을 사용해줘:
-Problem: 한 문장
-Cause: 한 문장
-Fix: command block
-Verify: command block
-```
-
-좋은 예시 하나가 추상적인 설명 다섯 문단보다 나을 수 있습니다.
-원하는 결과와 충돌하는 예시는 넣지 않습니다.
-
-## 7. Verification Rule 넣기
-
-가장 좋은 prompt에는 답을 확인하는 기준이 있습니다.
-
-예시:
-
-```text
-모든 command에 verification step이 있어야 acceptable하다.
-글은 official source를 최소 2개 포함해야 acceptable하다.
-JSON은 required field가 모두 비어 있지 않아야 acceptable하다.
-Code는 public API behavior를 바꾸지 않아야 acceptable하다.
-```
-
-Verification은 prompt를 단순 요청이 아니라 workflow로 바꿉니다.
-
-## 재사용 Template
-
-아래를 복사해 사용할 수 있습니다.
-
-```text
-Task:
-Audience:
-Context:
-Input:
-Output format:
-Constraints:
-Examples:
-Verification:
-```
-
-Blog post 예시:
-
-```text
-Task: spaced repetition에 대한 실용 글을 작성한다.
-Audience: 유지 가능한 schedule을 원하는 바쁜 학생.
-Context: spacing과 active recall을 함께 설명한다.
-Output format: H2 heading, schedule table 1개, template 1개.
-Constraints: 기억 효과를 과장하지 않는다.
-Verification: source와 weekly cleanup routine을 포함한다.
-```
-
-## 흔한 실수
-
-- 목표를 정의하지 않고 "best"를 요청합니다.
-- 하나의 prompt에 세 가지 일을 섞습니다.
-- 중요한 constraint를 맨 끝에 숨깁니다.
-- Citation을 요청하면서 source rule을 정하지 않습니다.
-- JSON을 요청하고 invalid field를 그대로 받습니다.
-- 첫 답을 최종 답으로 취급합니다.
-- code, retrieval, tool로 해결해야 할 문제를 prompt만으로 해결하려 합니다.
-
-## AI Workflow와 함께 쓰기
-
-Prompt engineering은 한 층입니다.
-중요한 workflow에서는 아래와 함께 써야 합니다.
-
-- structured output
-- tool calling
-- evaluation
-- human review
-- logging
-- versioned instructions
-
-관련 글:
-
-- [OpenAI Responses API 사용 흐름](/ko_ai_trends/openai-responses-api-guide/)
-- [AI agent workflow 2026](/ko_ai_trends/ai-agent-workflow-2026/)
-- [Spaced repetition 복습 일정](/ko_study/spaced-repetition-schedule/)
-
-## 함께 보면 좋은 글
-
-- [OpenAI Responses API 사용 흐름](/ko_ai_trends/openai-responses-api-guide/)
-- [AI 검색 시대의 글 작성 기준](/ko_ai_trends/ai-search-optimization/)
-- [RAG 평가 체크리스트](/ko_ai_trends/rag-evaluation-checklist/)
+- 도입 목적과 금지 용도를 **작업 목표** 기준 옆에 함께 적습니다.
+- '목표와 금지사항을 분리합니다.' 이후 모델, 프롬프트, 데이터가 바뀌면 **맥락 경계** 기준으로 다시 확인합니다.
+- 사용자에게 영향을 주는 결과는 로그, 근거, 이의제기 또는 수정 경로를 남깁니다.
 
 ## 자주 묻는 질문
 
-### 이 글은 언제 먼저 적용하면 좋나요?
+### 이 주제는 언제 먼저 적용해야 하나요?
 
-새 도구를 바로 도입하기 전, 반복 업무와 검증 기준이 이미 있는지 확인할 때 먼저 적용하면 좋습니다.
+반복 빈도가 높고 실패 비용이 낮은 업무부터 시작하는 것이 안전합니다. **Prompt Engineering 체크리스트: 좋은 프롬프트보다 반복 가능한 입력 구조** 주제라도 바로 전면 자동화하지 말고, 먼저 '목표와 금지사항을 분리합니다.' 단계와 검토 책임자를 정한 뒤 작은 표본으로 성과와 오류를 확인합니다.
 
-### 초보자가 가장 먼저 확인할 부분은 무엇인가요?
+### 자동화해도 되는지 판단하는 기준은 무엇인가요?
 
-처음에는 모델 성능보다 입력 데이터, 검증 기준, 실패 시 복구 방법을 먼저 정하세요. AI workflow는 자동화보다 검증 설계가 먼저입니다.
+**작업 목표** 기준이 문서화되어 있고, **맥락 경계** 기준을 다른 검토자가 같은 방식으로 확인할 수 있어야 합니다. 기준이 사람마다 다르면 모델 성능 문제가 아니라 운영 설계 문제일 가능성이 큽니다.
 
-### 더 찾아볼 때 어떤 키워드를 쓰면 좋나요?
+### 실패했을 때 무엇을 남겨야 하나요?
 
-추가 검색할 때는 "Prompt engineering 체크리스트: 더 좋은 AI 프롬프트를 반복해서 쓰는 구조" 같은 핵심 문구와 evaluation, workflow, guardrail, structured output, agent 같은 실무 키워드를 조합해 보세요.
+입력 자료, 모델 또는 도구 설정, **작업 목표** 검토 판단, 수정 결과를 함께 남깁니다. 그래야 다음 변경 때 같은 오류가 줄었는지 볼 수 있고, 사용자에게 영향을 준 결과도 설명하거나 되돌릴 수 있습니다.
 
-## 참고 자료
 
-- OpenAI Prompt engineering guide: https://developers.openai.com/api/docs/guides/prompt-engineering
-- OpenAI Prompt guidance: https://developers.openai.com/api/docs/guides/prompting
-- OpenAI Structured outputs guide: https://platform.openai.com/docs/guides/structured-outputs
+## 참고할 공식 자료
+
+- [OpenAI Prompt Engineering Best Practices](https://help.openai.com/en/articles/6654000-playground-and-prompt-engineering)
+- [OpenAI Structured Outputs Guide](https://platform.openai.com/docs/guides/structured-outputs)
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+
+## 함께 보면 좋은 글
+
+- [RAG 평가 체크리스트: 검색이 맞았는지와 답변이 맞았는지를 나눠 보기](/ko_ai_trends/rag-evaluation-checklist/)
+- [Retrieval과 Vector Store 거버넌스: 문서 수집보다 삭제와 버전 관리](/ko_ai_trends/retrieval-vector-store-governance/)
