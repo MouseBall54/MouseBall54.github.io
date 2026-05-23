@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-ai-meeting-notes-workflow/ai-meeting-notes-hero.png
    overlay_image: /images/2026-05-23-ai-meeting-notes-workflow/ai-meeting-notes-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining AI Meeting Notes Workflow: Turn Calls into Decisions, Tasks, and Follow-Up.
 excerpt: >
   Build an AI meeting notes workflow that captures transcripts, extracts decisions, assigns action items, protects sensitive data, and follows up after the call.
 seo_description: >

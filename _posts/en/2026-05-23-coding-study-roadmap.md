@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-coding-study-roadmap/coding-roadmap-hero.png
    overlay_image: /images/2026-05-23-coding-study-roadmap/coding-roadmap-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Coding Study Roadmap: A Practical Path from Basics to Portfolio Projects.
 excerpt: >
   Follow a coding study roadmap that moves from fundamentals to practice problems, debugging, Git, small projects, deployment, and portfolio review.
 seo_description: >

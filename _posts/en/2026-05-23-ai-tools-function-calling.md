@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-ai-tools-function-calling/ai-tools-function-calling-hero.png
    overlay_image: /images/2026-05-23-ai-tools-function-calling/ai-tools-function-calling-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining AI Tool Calling vs Function Calling: What Developers Should Know.
 excerpt: >
   Understand AI tool calling and function calling by separating model decisions, structured arguments, tool execution, validation, and final response generation.
 seo_description: >

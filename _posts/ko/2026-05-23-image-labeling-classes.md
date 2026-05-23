@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-image-labeling-classes/image-labeling-classes-hero.png
    overlay_image: /images/2026-05-23-image-labeling-classes/image-labeling-classes-hero.png
    overlay_filter: 0.35
+   image_description: >
+     이미지 라벨링 클래스 관리법: class name, ID, dataset consistency 지키기 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   이미지 라벨링 클래스 관리를 위해 안정적인 class ID, naming rule, merge/split 기준, reviewer check, train-validation consistency를 정리합니다.
 seo_description: >

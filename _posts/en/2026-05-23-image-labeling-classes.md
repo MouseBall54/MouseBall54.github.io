@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-image-labeling-classes/image-labeling-classes-hero.png
    overlay_image: /images/2026-05-23-image-labeling-classes/image-labeling-classes-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Image Labeling Classes: How to Manage Class Names, IDs, and Dataset Consistency.
 excerpt: >
   Manage image labeling classes by defining stable IDs, naming rules, merge/split criteria, reviewer checks, and train-validation consistency before annotation starts.
 seo_description: >

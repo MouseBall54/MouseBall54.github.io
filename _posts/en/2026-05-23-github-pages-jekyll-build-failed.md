@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-github-pages-jekyll-build-failed/github-pages-jekyll-build-failed-hero.png
    overlay_image: /images/2026-05-23-github-pages-jekyll-build-failed/github-pages-jekyll-build-failed-hero.png
    overlay_filter: 0.5
+   image_description: >
+     Visual guide explaining Fix GitHub Pages Jekyll Build Failed.
 excerpt: >
   Fix GitHub Pages Jekyll build failed errors by checking Pages workflow logs, _config.yml YAML, front matter dates, includes, plugins, Sass, and local Jekyll builds.
 seo_description: >

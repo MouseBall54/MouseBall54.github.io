@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-local-llm-vs-cloud-llm/local-vs-cloud-llm-hero.png
    overlay_image: /images/2026-05-23-local-llm-vs-cloud-llm/local-vs-cloud-llm-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Local LLM과 Cloud LLM 선택 기준: 개인정보, 비용, 품질, 운영 부담 비교 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   Local LLM과 Cloud LLM을 privacy, latency, cost, model quality, operations, compliance, scaling, maintenance burden 기준으로 비교합니다.
 seo_description: >

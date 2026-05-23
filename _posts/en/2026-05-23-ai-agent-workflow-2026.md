@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-ai-agent-workflow-2026/ai-agent-workflow-hero.png
    overlay_image: /images/2026-05-23-ai-agent-workflow-2026/ai-agent-workflow-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining AI Agent Workflow 2026: Build for Verification First.
 excerpt: >
   Design an AI agent workflow for 2026 by starting with verification, tool boundaries, human review, and clear failure handling instead of only chasing automation.
 seo_description: >

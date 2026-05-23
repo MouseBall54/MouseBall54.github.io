@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-active-recall-study-method/active-recall-hero.png
    overlay_image: /images/2026-05-23-active-recall-study-method/active-recall-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Active Recall Study Method: How to Remember More with Less Rereading.
 excerpt: >
   Use active recall to study by closing your notes, answering questions from memory, checking gaps, and reviewing weak points on a spaced schedule.
 seo_description: >

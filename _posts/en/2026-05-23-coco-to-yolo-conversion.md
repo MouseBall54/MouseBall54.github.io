@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-coco-to-yolo-conversion/coco-to-yolo-conversion-hero.png
    overlay_image: /images/2026-05-23-coco-to-yolo-conversion/coco-to-yolo-conversion-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining COCO to YOLO Conversion Mistakes: How to Avoid Broken Object Detection Labels.
 excerpt: >
   Convert COCO annotations to YOLO format safely by handling category IDs, bbox coordinate conversion, image paths, empty images, and visual validation.
 seo_description: >

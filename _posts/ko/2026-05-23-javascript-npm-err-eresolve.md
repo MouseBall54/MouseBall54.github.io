@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-javascript-npm-err-eresolve/javascript-npm-err-eresolve-hero.png
    overlay_image: /images/2026-05-23-javascript-npm-err-eresolve/javascript-npm-err-eresolve-hero.png
    overlay_filter: 0.5
+   image_description: >
+     npm ERR! ERESOLVE 오류 해결 방법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   npm ERR ERESOLVE 오류를 peer dependency 충돌 확인, 패키지 버전 정렬, lockfile 갱신, legacy-peer-deps 임시 사용 기준으로 해결하는 방법입니다.
 seo_description: >

@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-notion-study-dashboard/notion-study-dashboard-hero.png
    overlay_image: /images/2026-05-23-notion-study-dashboard/notion-study-dashboard-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Notion 공부 대시보드 구성: 과목, 복습, 시험을 한 화면에서 관리하는 법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   Notion 공부 대시보드를 과목, 과제, 간격 복습, 오답노트, 시험 일정, 주간 회고 중심으로 실용적으로 구성하는 방법을 정리합니다.
 seo_description: >

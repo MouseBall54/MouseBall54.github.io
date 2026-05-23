@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-exchange-rate-basics/exchange-rate-hero.png
    overlay_image: /images/2026-05-23-exchange-rate-basics/exchange-rate-hero.png
    overlay_filter: 0.35
+   image_description: >
+     환율이 오르면 생기는 일: Exchange rate를 움직이는 기본 원리 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   환율은 한 통화를 다른 통화로 표시한 가격이며, 금리, 물가, 무역, 여행, 투자 자금 흐름, 중앙은행 정책에 따라 움직입니다.
 seo_description: >

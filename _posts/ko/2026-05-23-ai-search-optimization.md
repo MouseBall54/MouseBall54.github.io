@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-ai-search-optimization/ai-search-optimization-hero.png
    overlay_image: /images/2026-05-23-ai-search-optimization/ai-search-optimization-hero.png
    overlay_filter: 0.35
+   image_description: >
+     AI 검색 시대의 글 작성 기준: 답변에 인용될 수 있는 콘텐츠 만들기 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   AI search optimization은 검색엔진을 속이는 기술이 아니라, 명확한 답변, 검증 가능한 출처, 구조화된 예시로 독자가 신뢰할 수 있는 글을 만드는 방식입니다.
 seo_description: >

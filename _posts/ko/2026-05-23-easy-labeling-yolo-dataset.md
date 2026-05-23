@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-easy-labeling-yolo-dataset/easy-labeling-yolo-dataset-hero.png
    overlay_image: /images/2026-05-23-easy-labeling-yolo-dataset/easy-labeling-yolo-dataset-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Easy Labeling으로 YOLO 데이터셋 만들기: 이미지에서 학습 폴더까지 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   Easy Labeling으로 YOLO object detection dataset을 만들 때 image 준비, class 관리, label 저장, train-validation split, data.yaml 검증까지 정리합니다.
 seo_description: >

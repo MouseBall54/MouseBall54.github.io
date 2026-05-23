@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-exam-mistake-note-system/mistake-note-hero.png
    overlay_image: /images/2026-05-23-exam-mistake-note-system/mistake-note-hero.png
    overlay_filter: 0.35
+   image_description: >
+     오답노트 시스템 만드는 법: 틀린 문제를 다시 틀리지 않게 바꾸기 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   좋은 오답노트는 풀이를 베끼는 것이 아니라, 틀린 답, 원인, 올바른 방법, 재시도 문제, 다음 복습일을 기록하는 correction system입니다.
 seo_description: >

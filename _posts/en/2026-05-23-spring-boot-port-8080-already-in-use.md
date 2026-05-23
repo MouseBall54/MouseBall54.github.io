@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-spring-boot-port-8080-already-in-use/spring-boot-port-8080-hero.png
    overlay_image: /images/2026-05-23-spring-boot-port-8080-already-in-use/spring-boot-port-8080-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Spring Boot Port 8080 Already in Use: How to Find the Process and Change the Port.
 excerpt: >
   Fix Spring Boot port 8080 already in use by finding the process using the port, stopping it safely, or changing server.port in application properties.
 seo_description: >

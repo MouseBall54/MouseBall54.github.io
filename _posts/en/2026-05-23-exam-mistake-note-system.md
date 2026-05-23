@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-exam-mistake-note-system/mistake-note-hero.png
    overlay_image: /images/2026-05-23-exam-mistake-note-system/mistake-note-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining How to Build a Mistake Note System for Exams and Skill Practice.
 excerpt: >
   Build a mistake note system that records the wrong answer, root cause, correct method, retry problem, and review date instead of copying solutions.
 seo_description: >

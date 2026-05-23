@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-github-actions-build-failed/github-actions-build-failed-hero.png
    overlay_image: /images/2026-05-23-github-actions-build-failed/github-actions-build-failed-hero.png
    overlay_filter: 0.5
+   image_description: >
+     Visual guide explaining How to Fix GitHub Actions Build Failed.
 excerpt: >
   Fix GitHub Actions build failed errors by reading the failed step log, checking workflow YAML, dependency install commands, runner versions, secrets, and branch triggers.
 seo_description: >

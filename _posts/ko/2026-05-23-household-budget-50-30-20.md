@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-household-budget-50-30-20/budget-50-30-20-hero.png
    overlay_image: /images/2026-05-23-household-budget-50-30-20/budget-50-30-20-hero.png
    overlay_filter: 0.35
+   image_description: >
+     50/30/20 예산법: 월 소득을 Needs, Wants, Savings로 나누는 방법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   50/30/20 예산법은 세후 소득을 needs, wants, savings/debt payoff로 나누어 지출 구조를 빠르게 확인하는 방법입니다.
 seo_description: >

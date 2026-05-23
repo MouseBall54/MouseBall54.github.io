@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-typescript-property-does-not-exist/typescript-property-does-not-exist-hero.png
    overlay_image: /images/2026-05-23-typescript-property-does-not-exist/typescript-property-does-not-exist-hero.png
    overlay_filter: 0.5
+   image_description: >
+     Visual guide explaining Fix Property Does Not Exist on Type.
 excerpt: >
   Fix TypeScript Property does not exist on type errors by correcting object types, API response types, union narrowing, nullable DOM values, and unsafe any casts.
 seo_description: >

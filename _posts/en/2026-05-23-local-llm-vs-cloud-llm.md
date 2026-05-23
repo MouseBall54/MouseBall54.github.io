@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-local-llm-vs-cloud-llm/local-vs-cloud-llm-hero.png
    overlay_image: /images/2026-05-23-local-llm-vs-cloud-llm/local-vs-cloud-llm-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Local LLM vs Cloud LLM: How to Choose the Right AI Deployment.
 excerpt: >
   Compare local LLMs and cloud LLMs by privacy, latency, cost, model quality, operations, compliance, scaling, and team maintenance burden.
 seo_description: >

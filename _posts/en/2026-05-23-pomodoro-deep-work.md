@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-pomodoro-deep-work/pomodoro-deep-work-hero.png
    overlay_image: /images/2026-05-23-pomodoro-deep-work/pomodoro-deep-work-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Pomodoro vs Deep Work: How to Use Focus Blocks Without Burning Out.
 excerpt: >
   Compare Pomodoro and deep work, then build a focus schedule with short sprints, longer concentration blocks, breaks, and review time.
 seo_description: >

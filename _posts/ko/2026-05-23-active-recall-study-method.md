@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-active-recall-study-method/active-recall-hero.png
    overlay_image: /images/2026-05-23-active-recall-study-method/active-recall-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Active recall 공부법: 다시 읽는 시간을 줄이고 더 오래 기억하는 방법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   Active recall은 노트를 닫고 기억에서 답을 꺼낸 뒤, 틀린 부분을 확인하고 일정 간격으로 다시 떠올리는 공부법입니다.
 seo_description: >

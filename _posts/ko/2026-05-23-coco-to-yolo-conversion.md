@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-coco-to-yolo-conversion/coco-to-yolo-conversion-hero.png
    overlay_image: /images/2026-05-23-coco-to-yolo-conversion/coco-to-yolo-conversion-hero.png
    overlay_filter: 0.35
+   image_description: >
+     COCO to YOLO 변환 실수: 객체 탐지 라벨이 깨지는 이유 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   COCO annotation을 YOLO format으로 변환할 때 category ID, bbox 좌표, image path, empty image, 시각 검증을 놓치지 않는 방법을 정리합니다.
 seo_description: >

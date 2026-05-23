@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-python-venv-not-activating/python-venv-not-activating-hero.png
    overlay_image: /images/2026-05-23-python-venv-not-activating/python-venv-not-activating-hero.png
    overlay_filter: 0.5
+   image_description: >
+     Python venv가 활성화되지 않을 때 해결 방법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   Python venv 활성화 문제를 shell별 명령 확인, PowerShell 실행 정책 수정, 현재 인터프리터 경로 검증으로 해결하는 방법입니다.
 seo_description: >

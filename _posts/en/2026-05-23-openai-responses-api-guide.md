@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-openai-responses-api-guide/responses-api-hero.png
    overlay_image: /images/2026-05-23-openai-responses-api-guide/responses-api-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining OpenAI Responses API Practical Guide: Inputs, Tools, and Structured Outputs.
 excerpt: >
   Learn how to use the OpenAI Responses API for text input, instructions, tools, structured outputs, streaming, and multi-turn application workflows.
 seo_description: >

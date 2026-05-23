@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-prompt-engineering-checklist/prompt-engineering-hero.png
    overlay_image: /images/2026-05-23-prompt-engineering-checklist/prompt-engineering-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Prompt engineering 체크리스트: 더 좋은 AI 프롬프트를 반복해서 쓰는 구조 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   Prompt engineering은 긴 요청을 쓰는 일이 아니라 task, audience, context, constraints, examples, output format, verification을 명확히 하는 일입니다.
 seo_description: >

@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-exchange-rate-basics/exchange-rate-hero.png
    overlay_image: /images/2026-05-23-exchange-rate-basics/exchange-rate-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Exchange Rate Basics: Why Currencies Rise and Fall.
 excerpt: >
   Learn exchange rate basics by connecting currency supply and demand, interest rates, inflation, trade, travel, capital flows, and central bank policy.
 seo_description: >

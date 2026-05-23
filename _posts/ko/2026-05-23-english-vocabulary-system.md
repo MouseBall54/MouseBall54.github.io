@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-english-vocabulary-system/vocabulary-system-hero.png
    overlay_image: /images/2026-05-23-english-vocabulary-system/vocabulary-system-hero.png
    overlay_filter: 0.35
+   image_description: >
+     영어 단어장 반복 시스템: 단어를 외우는 대신 사용할 수 있게 만드는 법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   영어 단어장은 번역만 적는 목록이 아니라 active recall, example sentence, pronunciation, spaced review가 연결된 시스템이어야 합니다.
 seo_description: >

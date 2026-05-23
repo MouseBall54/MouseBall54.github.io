@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-typescript-tsconfig-paths-not-working/typescript-tsconfig-paths-not-working-hero.png
    overlay_image: /images/2026-05-23-typescript-tsconfig-paths-not-working/typescript-tsconfig-paths-not-working-hero.png
    overlay_filter: 0.5
+   image_description: >
+     tsconfig paths가 동작하지 않을 때 해결 방법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   tsconfig paths가 동작하지 않을 때 baseUrl, paths pattern, 실제 tsconfig, Vite alias, test runner alias, Node runtime resolution을 확인하는 방법입니다.
 seo_description: >

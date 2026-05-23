@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-ai-meeting-notes-workflow/ai-meeting-notes-hero.png
    overlay_image: /images/2026-05-23-ai-meeting-notes-workflow/ai-meeting-notes-hero.png
    overlay_filter: 0.35
+   image_description: >
+     AI 회의록 자동화 워크플로우: 회의를 결정과 실행 항목으로 바꾸기 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   AI 회의록 자동화를 transcript, 요약, 결정 사항, action item, owner, due date, privacy review, follow-up task 흐름으로 설계합니다.
 seo_description: >

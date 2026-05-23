@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-notion-study-dashboard/notion-study-dashboard-hero.png
    overlay_image: /images/2026-05-23-notion-study-dashboard/notion-study-dashboard-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Notion Study Dashboard: A Practical Layout for Classes, Reviews, and Exams.
 excerpt: >
   Build a practical Notion study dashboard with courses, assignments, spaced review, mistake notes, exam countdowns, and a weekly review view.
 seo_description: >

@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-spaced-repetition-schedule/spaced-repetition-hero.png
    overlay_image: /images/2026-05-23-spaced-repetition-schedule/spaced-repetition-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Spaced repetition 복습 일정: 실제로 유지할 수 있는 반복 학습 계획 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   Spaced repetition은 같은 내용을 몰아서 반복하지 않고, 시간이 지난 뒤 다시 떠올리게 만드는 복습 일정입니다.
 seo_description: >

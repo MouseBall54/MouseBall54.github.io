@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-weekly-study-review/weekly-study-review-hero.png
    overlay_image: /images/2026-05-23-weekly-study-review/weekly-study-review-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Weekly Study Review Template: Turn One Week of Study into a Better Next Week.
 excerpt: >
   Use a weekly study review to check recall, mistakes, focus time, weak topics, and next-week priorities instead of only counting hours studied.
 seo_description: >

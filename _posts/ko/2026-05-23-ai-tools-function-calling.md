@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-ai-tools-function-calling/ai-tools-function-calling-hero.png
    overlay_image: /images/2026-05-23-ai-tools-function-calling/ai-tools-function-calling-hero.png
    overlay_filter: 0.35
+   image_description: >
+     AI tool calling과 function calling 차이: 개발자가 알아야 할 실전 기준 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   AI tool calling과 function calling을 model decision, structured arguments, tool execution, validation, final response 기준으로 구분합니다.
 seo_description: >

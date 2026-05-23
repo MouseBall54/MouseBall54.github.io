@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-python-pip-install-failed/python-pip-install-failed-hero.png
    overlay_image: /images/2026-05-23-python-pip-install-failed/python-pip-install-failed-hero.png
    overlay_filter: 0.5
+   image_description: >
+     Python pip install 실패 해결 방법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   pip install 실패 오류를 현재 Python 환경 확인, pip 업그레이드, 가상환경 사용, 정확한 오류 메시지 분석으로 해결하는 방법입니다.
 seo_description: >

@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-maven-dependency-not-found/maven-dependency-not-found-hero.png
    overlay_image: /images/2026-05-23-maven-dependency-not-found/maven-dependency-not-found-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Maven dependency not found 오류 해결 방법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   Maven dependency not found 오류를 groupId, artifactId, version, repository, local cache, mirror, credential, dependency tree 순서로 해결합니다.
 seo_description: >

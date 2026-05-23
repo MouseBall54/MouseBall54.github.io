@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-python-no-module-named-pip/python-no-module-named-pip-hero.png
    overlay_image: /images/2026-05-23-python-no-module-named-pip/python-no-module-named-pip-hero.png
    overlay_filter: 0.5
+   image_description: >
+     Python No module named pip 오류 해결 방법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   Python의 No module named pip 오류를 ensurepip 실행, 현재 인터프리터 확인, 가상환경 복구로 해결하는 방법입니다.
 seo_description: >

@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-interest-rate-inflation-basics/interest-inflation-hero.png
    overlay_image: /images/2026-05-23-interest-rate-inflation-basics/interest-inflation-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Interest Rates and Inflation Explained: Why Central Banks Raise or Cut Rates.
 excerpt: >
   Understand how interest rates affect borrowing, spending, demand, prices, inflation expectations, and why rate changes work with a delay.
 seo_description: >

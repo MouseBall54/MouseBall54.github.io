@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-maven-dependency-not-found/maven-dependency-not-found-hero.png
    overlay_image: /images/2026-05-23-maven-dependency-not-found/maven-dependency-not-found-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Maven Dependency Not Found: How to Fix Could Not Resolve Artifact.
 excerpt: >
   Fix Maven dependency not found errors by checking groupId, artifactId, version, repositories, local cache, mirrors, credentials, and dependency trees.
 seo_description: >

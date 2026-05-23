@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-git-fatal-authentication-failed/git-authentication-failed-hero.png
    overlay_image: /images/2026-05-23-git-fatal-authentication-failed/git-authentication-failed-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Git fatal: Authentication failed 오류 해결 방법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   Git fatal: Authentication failed 오류를 remote URL, HTTPS token, SSH key, credential cache, repository 권한 순서로 점검해 해결합니다.
 seo_description: >

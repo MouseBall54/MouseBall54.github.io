@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-java-unsupported-class-file-major-version/java-class-file-version-hero.png
    overlay_image: /images/2026-05-23-java-unsupported-class-file-major-version/java-class-file-version-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Unsupported Class File Major Version 해결: Java JDK 버전 불일치 고치기 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   Unsupported class file major version 오류를 Java runtime, compiler, Gradle/Maven toolchain, target release 버전 정렬로 해결합니다.
 seo_description: >

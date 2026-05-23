@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-python-pip-install-failed/python-pip-install-failed-hero.png
    overlay_image: /images/2026-05-23-python-pip-install-failed/python-pip-install-failed-hero.png
    overlay_filter: 0.5
+   image_description: >
+     Visual guide explaining How to Fix pip install Failed in Python.
 excerpt: >
   Fix pip install failed errors by checking the active Python environment, upgrading pip, using a virtual environment, and reading the exact install error.
 seo_description: >

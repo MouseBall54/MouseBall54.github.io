@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-ai-agent-workflow-2026/ai-agent-workflow-hero.png
    overlay_image: /images/2026-05-23-ai-agent-workflow-2026/ai-agent-workflow-hero.png
    overlay_filter: 0.35
+   image_description: >
+     AI agent workflow 2026: 자동화보다 검증이 먼저입니다 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   AI agent workflow를 2026년에 실무에 적용할 때는 자동화 범위보다 검증, tool 권한, human review, 실패 처리 기준을 먼저 설계해야 합니다.
 seo_description: >

@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-node-cannot-find-module/node-cannot-find-module-hero.png
    overlay_image: /images/2026-05-23-node-cannot-find-module/node-cannot-find-module-hero.png
    overlay_filter: 0.5
+   image_description: >
+     Visual guide explaining Fix Cannot Find Module in Node.js.
 excerpt: >
   Fix Node.js Cannot find module errors by checking missing packages, relative paths, working directory, CommonJS and ESM syntax, and package export paths.
 seo_description: >

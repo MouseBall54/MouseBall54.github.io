@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-github-actions-build-failed/github-actions-build-failed-hero.png
    overlay_image: /images/2026-05-23-github-actions-build-failed/github-actions-build-failed-hero.png
    overlay_filter: 0.5
+   image_description: >
+     GitHub Actions build failed 해결 방법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   GitHub Actions build failed 오류를 실패한 step log, workflow YAML, dependency install command, runner version, secret, branch trigger 기준으로 해결하는 방법입니다.
 seo_description: >

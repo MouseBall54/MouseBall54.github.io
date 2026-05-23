@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-household-budget-50-30-20/budget-50-30-20-hero.png
    overlay_image: /images/2026-05-23-household-budget-50-30-20/budget-50-30-20-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining 50/30/20 Budget Rule: A Simple Way to Split Monthly Income.
 excerpt: >
   Learn the 50/30/20 budget rule, how to split income into needs, wants, and savings or debt payoff, and when to adjust the percentages.
 seo_description: >

@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-docker-daemon-not-running/docker-daemon-not-running-hero.png
    overlay_image: /images/2026-05-23-docker-daemon-not-running/docker-daemon-not-running-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Docker daemon not running 오류 해결 방법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   Cannot connect to the Docker daemon 오류를 Docker Desktop 또는 Docker service 실행, socket 권한, Docker context, DOCKER_HOST 점검 순서로 해결합니다.
 seo_description: >

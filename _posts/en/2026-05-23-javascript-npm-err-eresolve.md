@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-javascript-npm-err-eresolve/javascript-npm-err-eresolve-hero.png
    overlay_image: /images/2026-05-23-javascript-npm-err-eresolve/javascript-npm-err-eresolve-hero.png
    overlay_filter: 0.5
+   image_description: >
+     Visual guide explaining How to Fix npm ERR ERESOLVE.
 excerpt: >
   Fix npm ERR ERESOLVE by identifying the peer dependency conflict, aligning package versions, refreshing the lockfile, and using legacy-peer-deps only when needed.
 seo_description: >

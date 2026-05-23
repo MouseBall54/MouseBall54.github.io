@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-local-image-labeling-workflow/local-image-labeling-workflow-hero.png
    overlay_image: /images/2026-05-23-local-image-labeling-workflow/local-image-labeling-workflow-hero.png
    overlay_filter: 0.35
+   image_description: >
+     로컬 이미지 라벨링 워크플로우: 이미지, 클래스, 라벨, 검수 정리법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   로컬 이미지 라벨링을 folder structure, class file, YOLO label, review batch, backup, train-validation split 기준으로 정리합니다.
 seo_description: >

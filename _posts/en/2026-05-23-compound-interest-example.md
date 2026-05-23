@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-compound-interest-example/compound-interest-hero.png
    overlay_image: /images/2026-05-23-compound-interest-example/compound-interest-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Compound Interest Example: How Money Grows on Money.
 excerpt: >
   Understand compound interest with simple numbers, a reusable formula, a year-by-year table, and common mistakes about returns, deposits, taxes, and inflation.
 seo_description: >

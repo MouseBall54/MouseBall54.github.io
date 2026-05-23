@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-yolo-label-format/yolo-label-format-hero.png
    overlay_image: /images/2026-05-23-yolo-label-format/yolo-label-format-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining YOLO Label Format: How to Read Class, Center X, Center Y, Width, and Height.
 excerpt: >
   Learn the YOLO object detection label format: one text file per image, one object per line, class id plus normalized center x, center y, width, and height.
 seo_description: >

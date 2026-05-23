@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-prompt-engineering-checklist/prompt-engineering-hero.png
    overlay_image: /images/2026-05-23-prompt-engineering-checklist/prompt-engineering-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Prompt Engineering Checklist: Write Better AI Prompts with a Repeatable Structure.
 excerpt: >
   Use this prompt engineering checklist to define the task, audience, context, constraints, examples, output format, and verification method before asking an AI model.
 seo_description: >

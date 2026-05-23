@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-rag-evaluation-checklist/rag-evaluation-hero.png
    overlay_image: /images/2026-05-23-rag-evaluation-checklist/rag-evaluation-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining RAG Evaluation Checklist: How to Measure Retrieval and Answer Quality.
 excerpt: >
   Evaluate RAG systems by checking retrieval coverage, source relevance, grounded answers, citation accuracy, refusal behavior, and failure patterns.
 seo_description: >

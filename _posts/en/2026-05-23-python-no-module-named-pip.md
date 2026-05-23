@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-python-no-module-named-pip/python-no-module-named-pip-hero.png
    overlay_image: /images/2026-05-23-python-no-module-named-pip/python-no-module-named-pip-hero.png
    overlay_filter: 0.5
+   image_description: >
+     Visual guide explaining How to Fix No module named pip in Python.
 excerpt: >
   Fix Python's No module named pip error by installing pip with ensurepip, checking the active interpreter, and repairing virtual environments.
 seo_description: >

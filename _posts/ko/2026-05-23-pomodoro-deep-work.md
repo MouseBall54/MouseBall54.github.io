@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-pomodoro-deep-work/pomodoro-deep-work-hero.png
    overlay_image: /images/2026-05-23-pomodoro-deep-work/pomodoro-deep-work-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Pomodoro와 Deep Work: 집중 시간을 지치지 않게 설계하는 법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   Pomodoro와 deep work의 차이를 이해하고, 짧은 시작 블록, 긴 집중 블록, 휴식, 회고를 섞은 공부 루틴을 만듭니다.
 seo_description: >

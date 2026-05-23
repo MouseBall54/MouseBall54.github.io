@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-english-vocabulary-system/vocabulary-system-hero.png
    overlay_image: /images/2026-05-23-english-vocabulary-system/vocabulary-system-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Vocabulary Study System: How to Remember Words with Context and Review.
 excerpt: >
   Build a vocabulary study system with active recall, example sentences, pronunciation, spaced review, and weekly cleanup instead of memorizing isolated word lists.
 seo_description: >

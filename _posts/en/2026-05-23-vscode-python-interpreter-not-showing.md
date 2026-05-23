@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-vscode-python-interpreter-not-showing/vscode-python-interpreter-hero.png
    overlay_image: /images/2026-05-23-vscode-python-interpreter-not-showing/vscode-python-interpreter-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining VS Code Python Interpreter Not Showing: How to Find and Select the Right Environment.
 excerpt: >
   Fix VS Code Python interpreter not showing by checking the Python extension, workspace folder, virtual environment location, manual interpreter path, and terminal environment.
 seo_description: >

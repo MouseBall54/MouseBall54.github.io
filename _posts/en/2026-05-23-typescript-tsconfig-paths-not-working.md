@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-typescript-tsconfig-paths-not-working/typescript-tsconfig-paths-not-working-hero.png
    overlay_image: /images/2026-05-23-typescript-tsconfig-paths-not-working/typescript-tsconfig-paths-not-working-hero.png
    overlay_filter: 0.5
+   image_description: >
+     Visual guide explaining tsconfig Paths Not Working: How to Fix Path Aliases.
 excerpt: >
   Fix tsconfig paths not working by checking baseUrl, paths patterns, active tsconfig files, Vite aliases, test runner aliases, and Node runtime resolution.
 seo_description: >

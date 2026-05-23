@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-docker-daemon-not-running/docker-daemon-not-running-hero.png
    overlay_image: /images/2026-05-23-docker-daemon-not-running/docker-daemon-not-running-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Docker Daemon Not Running: How to Fix Cannot Connect to the Docker Daemon.
 excerpt: >
   Fix Docker daemon not running by checking Docker Desktop or the Docker service, verifying the socket, restarting the engine, and confirming permissions.
 seo_description: >

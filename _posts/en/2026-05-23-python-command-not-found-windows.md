@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-python-command-not-found-windows/python-command-not-found-windows-hero.png
    overlay_image: /images/2026-05-23-python-command-not-found-windows/python-command-not-found-windows-hero.png
    overlay_filter: 0.5
+   image_description: >
+     Visual guide explaining Python Command Not Found on Windows: How to Fix It.
 excerpt: >
   Fix python command not found on Windows by checking the py launcher, PATH, App Execution Aliases, and the active Python installation.
 seo_description: >

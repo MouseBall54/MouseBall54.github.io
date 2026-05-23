@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-recession-indicators-basics/recession-indicators-hero.png
    overlay_image: /images/2026-05-23-recession-indicators-basics/recession-indicators-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Recession Indicators Explained: How to Read the Economy Without Overreacting.
 excerpt: >
   Learn how recession indicators such as employment, income, production, spending, inflation, interest rates, and the yield curve can be read together without treating any one signal as a guarantee.
 seo_description: >

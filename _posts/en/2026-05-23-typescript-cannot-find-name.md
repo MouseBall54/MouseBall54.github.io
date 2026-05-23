@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-typescript-cannot-find-name/typescript-cannot-find-name-hero.png
    overlay_image: /images/2026-05-23-typescript-cannot-find-name/typescript-cannot-find-name-hero.png
    overlay_filter: 0.5
+   image_description: >
+     Visual guide explaining Fix TypeScript Cannot Find Name.
 excerpt: >
   Fix TS2304 Cannot find name in TypeScript by checking imports, type packages, tsconfig lib and types settings, globals, and the correct project config.
 seo_description: >

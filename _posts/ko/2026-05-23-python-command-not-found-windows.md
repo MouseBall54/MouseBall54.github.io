@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-python-command-not-found-windows/python-command-not-found-windows-hero.png
    overlay_image: /images/2026-05-23-python-command-not-found-windows/python-command-not-found-windows-hero.png
    overlay_filter: 0.5
+   image_description: >
+     Windows에서 python 명령어가 안 될 때 해결 방법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   Windows에서 python 명령어가 안 될 때 py launcher, PATH, App Execution Alias, 현재 Python 설치 경로를 확인해 해결하는 방법입니다.
 seo_description: >

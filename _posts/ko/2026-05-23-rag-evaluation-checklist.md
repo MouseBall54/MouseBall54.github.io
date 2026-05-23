@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-rag-evaluation-checklist/rag-evaluation-hero.png
    overlay_image: /images/2026-05-23-rag-evaluation-checklist/rag-evaluation-hero.png
    overlay_filter: 0.35
+   image_description: >
+     RAG 답변 품질 평가 체크리스트: Retrieval과 Answer를 따로 봐야 합니다 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   RAG 시스템은 retrieval coverage, source relevance, grounded answer, citation accuracy, refusal behavior, failure pattern을 나누어 평가해야 합니다.
 seo_description: >

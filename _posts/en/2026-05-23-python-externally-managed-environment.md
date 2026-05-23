@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-python-externally-managed-environment/python-externally-managed-environment-hero.png
    overlay_image: /images/2026-05-23-python-externally-managed-environment/python-externally-managed-environment-hero.png
    overlay_filter: 0.5
+   image_description: >
+     Visual guide explaining How to Fix externally-managed-environment in Python.
 excerpt: >
   Fix Python's externally-managed-environment error safely by using a virtual environment, pipx, or the system package manager instead of breaking system Python.
 seo_description: >

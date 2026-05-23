@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-ai-coding-agent-workflow/ai-coding-agent-workflow-hero.png
    overlay_image: /images/2026-05-23-ai-coding-agent-workflow/ai-coding-agent-workflow-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining AI Coding Agent Workflow: How to Use Agents Without Losing Code Quality.
 excerpt: >
   Build a practical AI coding agent workflow with clear task scope, context, tests, review gates, and rollback rules so automation improves delivery instead of hiding risk.
 seo_description: >

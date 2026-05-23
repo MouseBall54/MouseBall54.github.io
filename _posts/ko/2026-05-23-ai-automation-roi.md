@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-ai-automation-roi/ai-automation-roi-hero.png
    overlay_image: /images/2026-05-23-ai-automation-roi/ai-automation-roi-hero.png
    overlay_filter: 0.35
+   image_description: >
+     AI 자동화 ROI 계산법: 워크플로우를 만들기 전에 따져볼 것 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   AI 자동화 ROI를 수작업 시간, 구축 비용, API 비용, 검수 시간, 오류 위험, 품질 개선, 회수 기간 기준으로 계산하는 방법을 정리합니다.
 seo_description: >

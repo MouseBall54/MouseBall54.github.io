@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-spring-boot-port-8080-already-in-use/spring-boot-port-8080-hero.png
    overlay_image: /images/2026-05-23-spring-boot-port-8080-already-in-use/spring-boot-port-8080-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Spring Boot port 8080 already in use 해결 방법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   Spring Boot port 8080 already in use 오류를 포트 점유 프로세스 확인, 안전한 종료, server.port 변경, Docker/IDE 세션 점검 순서로 해결합니다.
 seo_description: >

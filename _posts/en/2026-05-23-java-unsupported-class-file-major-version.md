@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-java-unsupported-class-file-major-version/java-class-file-version-hero.png
    overlay_image: /images/2026-05-23-java-unsupported-class-file-major-version/java-class-file-version-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Unsupported Class File Major Version: How to Fix Java JDK Mismatch.
 excerpt: >
   Fix Unsupported class file major version by matching the Java runtime, compiler, Gradle or Maven toolchain, and target release used by the project.
 seo_description: >

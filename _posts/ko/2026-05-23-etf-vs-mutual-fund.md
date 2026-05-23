@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-etf-vs-mutual-fund/etf-vs-mutual-fund-hero.png
    overlay_image: /images/2026-05-23-etf-vs-mutual-fund/etf-vs-mutual-fund-hero.png
    overlay_filter: 0.35
+   image_description: >
+     ETF와 펀드 차이: 초보자가 먼저 알아야 할 실전 기준 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   ETF와 mutual fund를 거래 시간, 가격 결정, 수수료, 최소 투자금, 세금, 초보자 사용 사례 기준으로 비교합니다.
 seo_description: >

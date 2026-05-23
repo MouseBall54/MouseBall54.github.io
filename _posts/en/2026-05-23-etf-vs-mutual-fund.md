@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-etf-vs-mutual-fund/etf-vs-mutual-fund-hero.png
    overlay_image: /images/2026-05-23-etf-vs-mutual-fund/etf-vs-mutual-fund-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining ETF vs Mutual Fund: The Practical Difference for Beginners.
 excerpt: >
   Compare ETFs and mutual funds by trading timing, pricing, fees, minimum investment, tax treatment, and beginner use cases.
 seo_description: >

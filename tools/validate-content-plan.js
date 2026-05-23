@@ -150,6 +150,27 @@ function extractYamlScalarOrBlock(frontMatterText, key) {
   return values.join(" ").trim();
 }
 
+function extractNestedYamlScalarOrBlock(frontMatterText, key) {
+  const lines = frontMatterText.split(/\n/);
+  const keyIndex = lines.findIndex((line) => new RegExp(`^\\s+${key}:\\s*`).test(line));
+  if (keyIndex === -1) return "";
+
+  const inline = lines[keyIndex].replace(new RegExp(`^\\s+${key}:\\s*`), "").trim();
+  if (inline && ![">", "|", ">-", "|-"].includes(inline)) {
+    return normalizeYamlValue(inline);
+  }
+
+  const values = [];
+  for (let index = keyIndex + 1; index < lines.length; index += 1) {
+    const line = lines[index];
+    if (/^\s+[A-Za-z0-9_-]+:\s*/.test(line) || /^[A-Za-z0-9_-]+:\s*/.test(line)) break;
+    const value = line.trim();
+    if (value) values.push(value);
+  }
+
+  return values.join(" ").trim();
+}
+
 function normalizeYamlValue(value) {
   if (!value) return "";
   return value
@@ -632,6 +653,7 @@ function validatePosts() {
 
       const seoTitle = extractYamlScalarOrBlock(frontMatterText, "seo_title");
       const seoDescription = extractYamlScalarOrBlock(frontMatterText, "seo_description");
+      const imageDescription = extractNestedYamlScalarOrBlock(frontMatterText, "image_description");
       const seoTitleMin = expectedLang === "ko" ? 10 : 20;
       const seoDescriptionMin = expectedLang === "ko" ? 60 : 80;
 
@@ -643,6 +665,10 @@ function validatePosts() {
         errors.push(
           `${relativePath}: campaign seo_description should be ${seoDescriptionMin}-170 characters, found ${seoDescription.length}`,
         );
+      }
+
+      if (imageDescription.length < 20 || imageDescription.length > 180) {
+        errors.push(`${relativePath}: campaign header.image_description should be 20-180 characters, found ${imageDescription.length}`);
       }
 
       const faqHeading = expectedLang === "ko" ? "자주 묻는 질문" : "FAQ";

@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-python-venv-not-activating/python-venv-not-activating-hero.png
    overlay_image: /images/2026-05-23-python-venv-not-activating/python-venv-not-activating-hero.png
    overlay_filter: 0.5
+   image_description: >
+     Visual guide explaining Python venv Not Activating: How to Fix It.
 excerpt: >
   Fix Python venv activation problems by using the right shell command, checking PowerShell policy, and verifying the active interpreter path.
 seo_description: >

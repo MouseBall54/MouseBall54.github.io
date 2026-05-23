@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-ai-automation-roi/ai-automation-roi-hero.png
    overlay_image: /images/2026-05-23-ai-automation-roi/ai-automation-roi-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining How to Calculate AI Automation ROI Before You Build the Workflow.
 excerpt: >
   Calculate AI automation ROI by comparing manual time, automation cost, quality impact, error risk, review effort, and payback period before building a workflow.
 seo_description: >

@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-openai-responses-api-guide/responses-api-hero.png
    overlay_image: /images/2026-05-23-openai-responses-api-guide/responses-api-hero.png
    overlay_filter: 0.35
+   image_description: >
+     OpenAI Responses API 사용 흐름: input, tools, structured output 정리 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   OpenAI Responses API를 input, instructions, tools, structured output, streaming, multi-turn workflow 기준으로 실무에 적용하는 방법입니다.
 seo_description: >

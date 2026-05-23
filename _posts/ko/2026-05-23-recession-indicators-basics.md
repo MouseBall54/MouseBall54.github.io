@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-recession-indicators-basics/recession-indicators-hero.png
    overlay_image: /images/2026-05-23-recession-indicators-basics/recession-indicators-hero.png
    overlay_filter: 0.35
+   image_description: >
+     경기 침체 지표 쉽게 읽기: 한 가지 차트에 과민반응하지 않는 법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   고용, 소비, 생산, 물가, 금리, 장단기 금리차, 신용 스트레스 같은 경기 침체 지표를 하나의 dashboard로 읽는 방법을 정리합니다.
 seo_description: >

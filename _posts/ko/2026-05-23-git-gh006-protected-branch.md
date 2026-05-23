@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-git-gh006-protected-branch/git-gh006-protected-branch-hero.png
    overlay_image: /images/2026-05-23-git-gh006-protected-branch/git-gh006-protected-branch-hero.png
    overlay_filter: 0.35
+   image_description: >
+     GH006 Protected Branch Hook Declined 오류 해결 방법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   GitHub GH006 protected branch hook declined 오류를 feature branch, pull request, required checks, review approval, branch protection rule 순서로 해결합니다.
 seo_description: >

@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-local-image-labeling-workflow/local-image-labeling-workflow-hero.png
    overlay_image: /images/2026-05-23-local-image-labeling-workflow/local-image-labeling-workflow-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Local Image Labeling Workflow: Organize Images, Classes, Labels, and Review.
 excerpt: >
   Build a local image labeling workflow with folder structure, class files, YOLO labels, review batches, backups, and train-validation dataset splits.
 seo_description: >

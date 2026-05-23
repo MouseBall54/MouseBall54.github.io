@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-compound-interest-example/compound-interest-hero.png
    overlay_image: /images/2026-05-23-compound-interest-example/compound-interest-hero.png
    overlay_filter: 0.35
+   image_description: >
+     복리 계산 예시: 돈이 돈을 버는 구조를 숫자로 이해하기 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   복리 계산을 원금, 이자율, 기간, 재투자 구조로 나누어 보고, 단리와의 차이, Rule of 72, 세금과 물가를 함께 이해합니다.
 seo_description: >

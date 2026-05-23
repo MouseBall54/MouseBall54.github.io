@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-easy-labeling-yolo-dataset/easy-labeling-yolo-dataset-hero.png
    overlay_image: /images/2026-05-23-easy-labeling-yolo-dataset/easy-labeling-yolo-dataset-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Build a YOLO Dataset with Easy Labeling: From Images to Training Folders.
 excerpt: >
   Build a YOLO object detection dataset with Easy Labeling by preparing images, managing classes, saving labels, splitting train and validation folders, and verifying data.yaml.
 seo_description: >

@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-emergency-fund-how-much/emergency-fund-hero.png
    overlay_image: /images/2026-05-23-emergency-fund-how-much/emergency-fund-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining How Much Emergency Fund Do You Need? A Practical Starter Guide.
 excerpt: >
   Estimate your emergency fund by separating starter cash, one-month essentials, three-to-six months of expenses, and high-risk situations that need more.
 seo_description: >

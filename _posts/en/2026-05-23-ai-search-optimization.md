@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-ai-search-optimization/ai-search-optimization-hero.png
    overlay_image: /images/2026-05-23-ai-search-optimization/ai-search-optimization-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining AI Search Optimization: How to Write Content That AI Answers Can Use.
 excerpt: >
   AI search optimization is not about tricking answer engines. It is about writing clear, well-sourced, structured pages that answer real questions and are easy to verify.
 seo_description: >

@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-emergency-fund-how-much/emergency-fund-hero.png
    overlay_image: /images/2026-05-23-emergency-fund-how-much/emergency-fund-hero.png
    overlay_filter: 0.35
+   image_description: >
+     비상금은 얼마가 적당할까? 현실적인 Emergency Fund 기준 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   비상금 목표는 작은 starter fund, 한 달 필수 지출, 3-6개월 필수 지출, 소득 불안정 상황을 나누어 계산하는 것이 현실적입니다.
 seo_description: >

@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-spaced-repetition-schedule/spaced-repetition-hero.png
    overlay_image: /images/2026-05-23-spaced-repetition-schedule/spaced-repetition-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Spaced Repetition Schedule: A Simple Review Plan You Can Actually Keep.
 excerpt: >
   Build a practical spaced repetition schedule with same-day review, delayed recall, weak-card tracking, and a weekly cleanup routine.
 seo_description: >

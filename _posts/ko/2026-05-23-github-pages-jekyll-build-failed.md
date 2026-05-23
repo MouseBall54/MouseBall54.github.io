@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-github-pages-jekyll-build-failed/github-pages-jekyll-build-failed-hero.png
    overlay_image: /images/2026-05-23-github-pages-jekyll-build-failed/github-pages-jekyll-build-failed-hero.png
    overlay_filter: 0.5
+   image_description: >
+     GitHub Pages Jekyll build failed 해결 방법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   GitHub Pages Jekyll build failed 오류를 Pages workflow log, _config.yml YAML, front matter date, include, plugin, Sass, local Jekyll build 기준으로 해결하는 방법입니다.
 seo_description: >

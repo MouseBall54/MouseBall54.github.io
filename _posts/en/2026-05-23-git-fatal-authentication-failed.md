@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-git-fatal-authentication-failed/git-authentication-failed-hero.png
    overlay_image: /images/2026-05-23-git-fatal-authentication-failed/git-authentication-failed-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining How to Fix Git fatal: Authentication failed for HTTPS Remotes.
 excerpt: >
   Fix Git fatal: Authentication failed by checking the remote URL, replacing password authentication with a token or SSH key, clearing stale credentials, and testing push access.
 seo_description: >

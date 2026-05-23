@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-gradle-build-failed/gradle-build-failed-hero.png
    overlay_image: /images/2026-05-23-gradle-build-failed/gradle-build-failed-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Gradle Build Failed: A Practical Debugging Checklist for Java Projects.
 excerpt: >
   Debug Gradle build failed errors by reading the first failing task, using --stacktrace, checking the wrapper, dependencies, Java version, tests, and cache.
 seo_description: >

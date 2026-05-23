@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-gradle-build-failed/gradle-build-failed-hero.png
    overlay_image: /images/2026-05-23-gradle-build-failed/gradle-build-failed-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Gradle build failed 해결 체크리스트 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   Gradle build failed 오류를 첫 실패 task, --stacktrace, Gradle wrapper, Java version, dependency resolution, test report 순서로 디버깅합니다.
 seo_description: >

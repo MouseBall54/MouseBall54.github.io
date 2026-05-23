@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-interest-rate-inflation-basics/interest-inflation-hero.png
    overlay_image: /images/2026-05-23-interest-rate-inflation-basics/interest-inflation-hero.png
    overlay_filter: 0.35
+   image_description: >
+     금리와 물가가 같이 움직이는 이유: 중앙은행은 왜 금리를 올리고 내릴까 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   금리는 borrowing cost, spending, demand, price pressure, inflation expectations를 통해 물가에 영향을 주지만, 효과는 시간차를 두고 나타납니다.
 seo_description: >

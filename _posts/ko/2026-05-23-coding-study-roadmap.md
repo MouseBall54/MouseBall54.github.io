@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-coding-study-roadmap/coding-roadmap-hero.png
    overlay_image: /images/2026-05-23-coding-study-roadmap/coding-roadmap-hero.png
    overlay_filter: 0.35
+   image_description: >
+     코딩 공부 로드맵: 기초부터 포트폴리오 프로젝트까지 가는 실전 순서 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   코딩 공부는 한 언어의 기초, 작은 문제 풀이, 디버깅, Git, 작은 프로젝트, 배포, 포트폴리오 순서로 진행하는 것이 현실적입니다.
 seo_description: >

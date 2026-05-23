@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-ai-coding-agent-workflow/ai-coding-agent-workflow-hero.png
    overlay_image: /images/2026-05-23-ai-coding-agent-workflow/ai-coding-agent-workflow-hero.png
    overlay_filter: 0.35
+   image_description: >
+     AI Coding Agent Workflow: 코드 품질을 잃지 않고 에이전트 쓰는 법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   AI coding agent를 실제 저장소에서 쓸 때 필요한 작업 범위, 컨텍스트 제공, 테스트, diff 리뷰, 롤백 기준을 워크플로우로 정리합니다.
 seo_description: >

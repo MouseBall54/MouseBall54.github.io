@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-yolo-label-format/yolo-label-format-hero.png
    overlay_image: /images/2026-05-23-yolo-label-format/yolo-label-format-hero.png
    overlay_filter: 0.35
+   image_description: >
+     YOLO Label Format 읽는 법: class, center x, center y, width, height 이해하기 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   YOLO 객체 탐지 라벨 형식인 class id, center x, center y, width, height를 정규화 좌표 기준으로 읽고 검증하는 방법을 정리합니다.
 seo_description: >

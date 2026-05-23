@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-weekly-study-review/weekly-study-review-hero.png
    overlay_image: /images/2026-05-23-weekly-study-review/weekly-study-review-hero.png
    overlay_filter: 0.35
+   image_description: >
+     주간 공부 회고 템플릿: 공부한 시간을 다음 주 성과로 바꾸는 법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   주간 공부 회고로 공부 시간만 세지 말고, 기억나는 내용, 반복 실수, 약한 단원, 복습 일정, 다음 주 우선순위를 함께 점검합니다.
 seo_description: >

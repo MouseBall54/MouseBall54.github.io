@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-vscode-python-interpreter-not-showing/vscode-python-interpreter-hero.png
    overlay_image: /images/2026-05-23-vscode-python-interpreter-not-showing/vscode-python-interpreter-hero.png
    overlay_filter: 0.35
+   image_description: >
+     VS Code Python Interpreter가 보이지 않을 때 해결 방법 주제를 한눈에 설명하는 시각 자료입니다.
 excerpt: >
   VS Code에서 Python interpreter가 보이지 않을 때 Python extension, workspace folder, virtual environment 위치, manual path 선택, terminal 환경을 확인합니다.
 seo_description: >

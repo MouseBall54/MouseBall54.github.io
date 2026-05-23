@@ -13,6 +13,8 @@ header:
    teaser: /images/2026-05-23-git-gh006-protected-branch/git-gh006-protected-branch-hero.png
    overlay_image: /images/2026-05-23-git-gh006-protected-branch/git-gh006-protected-branch-hero.png
    overlay_filter: 0.35
+   image_description: >
+     Visual guide explaining Fix GH006 Protected Branch Hook Declined: Why GitHub Blocks Your Push.
 excerpt: >
   Fix GitHub GH006 protected branch hook declined by using a pull request, passing required checks, getting review approval, or changing branch protection rules.
 seo_description: >
