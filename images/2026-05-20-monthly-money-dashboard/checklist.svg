@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Personal Finance Checklist</title>
+  <desc id="desc">Monthly Money Dashboard: Net Worth, Cash Flow, Debt, and Goals on One Page</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#a16207"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <pattern id="dots" width="38" height="38" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2" fill="#ffffff" fill-opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#dots)"/>
+  <path d="M80 530 C210 430 300 455 430 350 C555 250 668 300 800 205 C930 112 1036 140 1120 86" fill="none" stroke="#fef3c7" stroke-width="9" stroke-linecap="round" opacity="0.88"/>
+  <rect x="735" y="410" width="46" height="90" rx="12" fill="#fbbf24" fill-opacity="0.42"/>
+<rect x="813" y="376" width="46" height="124" rx="12" fill="#fbbf24" fill-opacity="0.50"/>
+<rect x="891" y="342" width="46" height="158" rx="12" fill="#fbbf24" fill-opacity="0.58"/>
+<rect x="969" y="308" width="46" height="192" rx="12" fill="#fbbf24" fill-opacity="0.66"/>
+<rect x="1047" y="274" width="46" height="226" rx="12" fill="#fbbf24" fill-opacity="0.74"/>
+  <rect x="60" y="270" width="570" height="270" rx="30" fill="#111827" fill-opacity="0.50" stroke="#ffffff" stroke-opacity="0.18"/>
+  <text x="72" y="108" fill="#f8fafc" font-size="45" font-family="Trebuchet MS, sans-serif" font-weight="700">Personal Finance Checklist</text>
+  <text x="76" y="160" fill="#ffedd5" font-size="25" font-family="Trebuchet MS, sans-serif">Monthly Money Dashboard: Net Worth, Cash Flow, Debt, and Goals on One Page</text>
+  <text x="84" y="322" fill="#fff7ed" font-size="23" font-family="Trebuchet MS, sans-serif">Record net worth on the same date each month.</text>
+<text x="84" y="364" fill="#fff7ed" font-size="23" font-family="Trebuchet MS, sans-serif">Update income, fixed costs, flexible spending, and saving rate.</text>
+<text x="84" y="406" fill="#fff7ed" font-size="23" font-family="Trebuchet MS, sans-serif">Choose one action for the next month.</text>
+  <text x="76" y="610" fill="#fde68a" font-size="22" font-family="Trebuchet MS, sans-serif">MouseBall54 Personal Finance Guide</text>
+</svg>

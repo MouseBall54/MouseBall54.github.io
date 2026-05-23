@@ -117,6 +117,8 @@ Current content categories are:
 - `en_Global_Affairs`
 - `ko_Digital_Security`
 - `en_Digital_Security`
+- `ko_Personal_Finance`
+- `en_Personal_Finance`
 - `ko_Study`
 - `en_Study`
 - `ko_Economy`
@@ -127,6 +129,8 @@ Each post should have exactly one language-prefixed category. Category hub pages
 Global Affairs posts should use official sources where possible, include a source notes section, and translate international events into practical Korea-facing channels such as exports, import prices, energy security, financial conditions, household costs, and security policy.
 
 Digital Security posts should prioritize official guidance from sources such as CISA, NIST, FTC, KISA, and privacy reporting agencies. Write them as practical safety routines, not fear-based product recommendations. Include source notes, recovery steps, and clear warnings that fast reporting reduces damage.
+
+Personal Finance posts should be educational only and must not present individualized investment, tax, lending, or legal advice. Prefer official sources such as CFPB, SEC Investor.gov, FINRA, IRS, FTC, FSS, and KINFA. Include source notes, assumptions to verify, and a reminder to check local tax and financial rules.
 
 ## AdSense
 

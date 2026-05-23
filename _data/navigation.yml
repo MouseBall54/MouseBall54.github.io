@@ -28,6 +28,9 @@ sidebar-category:
       - title: "Digital Security"
         url: /ko_digital_security/
         category: "ko_Digital_Security"
+      - title: "Personal Finance"
+        url: /ko_personal_finance/
+        category: "ko_Personal_Finance"
       - title: "Study"
         url: /ko_study/
         category: "ko_Study"
@@ -52,6 +55,9 @@ sidebar-category:
       - title: "Digital Security"
         url: /en_digital_security/
         category: "en_Digital_Security"
+      - title: "Personal Finance"
+        url: /en_personal_finance/
+        category: "en_Personal_Finance"
       - title: "Study"
         url: /en_study/
         category: "en_Study"
