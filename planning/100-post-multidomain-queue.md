@@ -23,10 +23,10 @@ The list keeps the existing troubleshooting strength, then adds study, economy, 
 | --- | ---: | ---: | --- |
 | Troubleshooting | 20 | 40 | Immediate problem solving |
 | AI trends and workflow | 30 | 60 | Current AI adoption and practical implementation |
-| Study and productivity | 8 | 16 | Repeatable study systems and exam preparation |
+| Study and productivity | 32 | 64 | Evidence-informed study systems and exam preparation |
 | Economy and money basics | 36 | 72 | Official-source economic indicators and household cost explanations |
 | Easy Labeling and computer vision | 5 | 10 | Product-led education and tool discovery |
-| Total | 99 | 198 | Balanced growth portfolio |
+| Total | 123 | 246 | Balanced growth portfolio |
 
 ## Troubleshooting: 20 Topic Pairs
 
@@ -71,18 +71,44 @@ The table below records the original seed set; the generator now expands this fi
 | review | ai-automation-roi | AI automation ROI | AI 자동화 ROI 계산법 | How to Calculate AI Automation ROI | process cost chart |
 | review | ai-meeting-notes-workflow | AI meeting notes workflow | AI 회의록 자동화 워크플로우 | AI Meeting Notes Workflow | meeting to action pipeline |
 
-## Study and Productivity: 8 Topic Pairs
+## Study and Productivity: 32 Topic Pairs
+
+Production source: `tools/generate_study_posts.py`.
 
 | Status | Translation ID | Primary keyword | Korean title direction | English title direction | Image direction |
 | --- | --- | --- | --- | --- | --- |
-| review | active-recall-study-method | active recall study method | Active recall 공부법 실전 적용 | Active Recall Study Method | memory retrieval diagram |
-| review | spaced-repetition-schedule | spaced repetition schedule | Spaced repetition 복습 일정 만들기 | Spaced Repetition Schedule | review calendar |
-| review | pomodoro-deep-work | Pomodoro deep work | Pomodoro와 Deep Work를 함께 쓰는 법 | Pomodoro vs Deep Work | focused desk timeline |
-| review | exam-mistake-note-system | mistake note study | 오답노트 시스템 만드는 법 | How to Build a Mistake Note System | correction workflow |
-| review | coding-study-roadmap | coding study roadmap | 코딩 공부 로드맵 세우는 법 | Coding Study Roadmap | roadmap board |
-| review | english-vocabulary-system | vocabulary study system | 영어 단어장 반복 시스템 | Vocabulary Study System | flashcard workflow |
-| review | notion-study-dashboard | Notion study dashboard | Notion 공부 대시보드 구성 | Notion Study Dashboard | dashboard mockup |
-| review | weekly-study-review | weekly study review | 주간 공부 회고 템플릿 | Weekly Study Review Template | weekly review sheet |
+| review | active-recall-study-method | ActiveRecall | Active Recall 공부법: 읽은 내용을 덮고 꺼내 쓰는 루틴 | Active Recall Study Method: Close the Book and Retrieve | study routine diagram |
+| review | spaced-repetition-schedule | SpacedRepetition | Spaced Repetition 복습 일정: 몰아보기보다 간격을 설계하기 | Spaced Repetition Schedule: Design Gaps Instead of Cramming | study routine diagram |
+| review | pomodoro-deep-work | Focus | Pomodoro와 Deep Work: 타이머보다 방해 차단이 먼저다 | Pomodoro and Deep Work: Block Distractions Before Timing | study routine diagram |
+| review | exam-mistake-note-system | ExamPrep | 오답노트 시스템: 틀린 문제를 다시 틀리지 않는 기록법 | Exam Mistake Note System: Turn Wrong Answers into Review Tasks | study routine diagram |
+| review | coding-study-roadmap | CodingStudy | 코딩 공부 로드맵: 문법, 프로젝트, 디버깅을 한 루프로 묶기 | Coding Study Roadmap: Connect Syntax, Projects, and Debugging | study routine diagram |
+| review | english-vocabulary-system | Vocabulary | 영어 단어 반복 시스템: 뜻 암기보다 문맥과 회상으로 남기기 | English Vocabulary System: Learn Words Through Context and Recall | study routine diagram |
+| review | notion-study-dashboard | Notion | Notion 공부 대시보드: 예쁜 화면보다 복습과 오답 흐름 | Notion Study Dashboard: Track Review and Mistakes Before Design | study routine diagram |
+| review | weekly-study-review | WeeklyReview | 주간 공부 회고: 공부 시간보다 회상률과 산출물 보기 | Weekly Study Review: Track Recall and Output, Not Only Hours | study routine diagram |
+| review | interleaving-practice | Interleaving | Interleaving Practice: 비슷한 문제를 섞어 진짜 구분력을 키우기 | Interleaving Practice: Mix Similar Problems to Build Discrimination | study routine diagram |
+| review | practice-test-review | PracticeTests | 모의고사 리뷰법: 점수보다 틀린 근거를 먼저 분해하기 | Practice Test Review: Break Down Evidence Before Chasing Scores | study routine diagram |
+| review | question-bank-system | QuestionBank | 질문은행 만들기: 필기노트를 회상 문제로 바꾸는 법 | Question Bank System: Convert Notes into Recall Prompts | study routine diagram |
+| review | semester-study-calendar | StudyPlanning | 학기 공부 캘린더: 시험 직전이 아니라 제출일에서 거꾸로 계획하기 | Semester Study Calendar: Plan Backward from Exams and Deadlines | study routine diagram |
+| review | cornell-note-taking-system | CornellNotes | Cornell Note Taking: 필기를 복습 질문으로 바꾸는 구조 | Cornell Note Taking: Turn Notes into Review Questions | study routine diagram |
+| review | textbook-reading-output | Reading | 교재 읽기 루틴: 밑줄보다 질문, 요약, 예제로 남기기 | Textbook Reading Routine: Leave Questions, Summary, and Examples | study routine diagram |
+| review | lecture-review-24-hour | LectureReview | 강의 후 24시간 리뷰: 잊기 전에 회상 질문 만들기 | 24-Hour Lecture Review: Create Recall Questions Before Forgetting | study routine diagram |
+| review | math-problem-solving-routine | MathStudy | 수학 문제 풀이 루틴: 공식 암기보다 조건 해석 먼저 | Math Problem-Solving Routine: Read Conditions Before Formulas | study routine diagram |
+| review | writing-revision-study-loop | Writing | 글쓰기 공부 루프: 초안, 피드백, 재작성으로 실력 만들기 | Writing Revision Study Loop: Draft, Feedback, Rewrite | study routine diagram |
+| review | coding-kata-deliberate-practice | CodingPractice | Coding Kata 루틴: 같은 문제를 다르게 풀어 패턴을 익히기 | Coding Kata Routine: Solve the Same Problem in Better Ways | study routine diagram |
+| review | project-based-learning-portfolio | ProjectBasedLearning | 프로젝트 기반 공부 포트폴리오: 결과물과 회고를 함께 남기기 | Project-Based Learning Portfolio: Keep Output and Reflection Together | study routine diagram |
+| review | language-shadowing-routine | LanguageLearning | Language Shadowing 루틴: 따라 말하기를 녹음과 피드백으로 바꾸기 | Language Shadowing Routine: Turn Repetition into Recorded Feedback | study routine diagram |
+| review | flashcard-quality-rules | Flashcards | Flashcard 품질 규칙: 카드 수보다 한 카드 한 질문 | Flashcard Quality Rules: One Card, One Question | study routine diagram |
+| review | exam-time-management | ExamStrategy | 시험 시간 관리: 어려운 문제보다 시간 손실 지점을 먼저 찾기 | Exam Time Management: Find Where Time Leaks Before Hard Problems | study routine diagram |
+| review | sleep-study-performance | Sleep | 수면과 공부 성과: 밤샘보다 기억과 집중을 보호하기 | Sleep and Study Performance: Protect Memory and Attention | study routine diagram |
+| review | distraction-audit-study | Focus | 공부 방해요인 감사: 의지보다 환경과 트리거를 고치기 | Study Distraction Audit: Fix Environment and Triggers Before Willpower | study routine diagram |
+| review | study-group-rules | StudyGroup | 스터디 그룹 규칙: 친목보다 문제 풀이와 피드백을 남기기 | Study Group Rules: Leave Problem Solving and Feedback | study routine diagram |
+| review | metacognition-study-log | Metacognition | Metacognition 공부 로그: 안다고 느낀 것과 실제 회상을 비교하기 | Metacognition Study Log: Compare Confidence with Recall | study routine diagram |
+| review | research-note-citation-system | ResearchNotes | 리서치 노트와 출처 관리: 복붙보다 요약과 인용 기준 | Research Note and Citation System: Summarize Before Quoting | study routine diagram |
+| review | reading-comprehension-prompts | Reading | 독해력 질문 프롬프트: 글을 읽고 주장, 근거, 반례를 찾기 | Reading Comprehension Prompts: Find Claims, Evidence, and Counterexamples | study routine diagram |
+| review | spaced-review-for-coding | CodingStudy | 코딩 개념 Spaced Review: 문법을 프로젝트 안에서 다시 쓰기 | Spaced Review for Coding Concepts: Reuse Syntax in Projects | study routine diagram |
+| review | habit-stack-study-routine | StudyHabit | 공부 습관 쌓기: 큰 목표보다 시작 신호와 첫 10분 | Habit Stack Study Routine: Start Signal and First Ten Minutes | study routine diagram |
+| review | exam-day-checklist | ExamDay | 시험 당일 체크리스트: 새 공부보다 실수 방지에 집중하기 | Exam Day Checklist: Prevent Mistakes Instead of Adding New Study | study routine diagram |
+| review | learning-with-ai-safely | AIStudy | AI로 공부할 때 주의점: 답을 받기보다 질문과 피드백에 쓰기 | Learning with AI Safely: Use It for Questions and Feedback | study routine diagram |
 
 ## Economy and Money Basics: 36 Topic Pairs
 

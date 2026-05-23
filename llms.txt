@@ -55,6 +55,10 @@ Image sitemap: https://mouseball54.github.io/image-sitemap.xml
 - Doctor Visit Question List: https://mouseball54.github.io/en_health_literacy/doctor-visit-question-list/
 - Active Recall Study Method: https://mouseball54.github.io/en_study/active-recall-study-method/
 - Spaced Repetition Schedule: https://mouseball54.github.io/en_study/spaced-repetition-schedule/
+- Question Bank System: https://mouseball54.github.io/en_study/question-bank-system/
+- Cornell Note Taking: https://mouseball54.github.io/en_study/cornell-note-taking-system/
+- Sleep and Study Performance: https://mouseball54.github.io/en_study/sleep-study-performance/
+- Learning with AI Safely: https://mouseball54.github.io/en_study/learning-with-ai-safely/
 - Compound Interest Example: https://mouseball54.github.io/en_economy/compound-interest-example/
 - Emergency Fund Guide: https://mouseball54.github.io/en_economy/emergency-fund-how-much/
 - Interest Rates and Inflation: https://mouseball54.github.io/en_economy/interest-rate-inflation-basics/
@@ -77,3 +81,4 @@ Image sitemap: https://mouseball54.github.io/image-sitemap.xml
 - Digital Security content provides official-source routines for phishing, password managers, MFA, backups, ransomware response, privacy, family safety, and small business cyber hygiene.
 - Personal Finance content is educational, not individualized financial advice, and focuses on official-source frameworks for budgeting, debt, credit, taxes, investing risk, fees, and scam red flags.
 - Health Literacy content is educational, not diagnosis or treatment advice, and uses official sources for sleep, activity, nutrition, prevention, symptom tracking, medicine safety, mental health signals, and emergency preparation.
+- Study content is evidence-informed and focuses on retrieval, spaced review, mistake logs, feedback loops, sleep and focus boundaries, coding practice, writing revision, and measurable weekly output.

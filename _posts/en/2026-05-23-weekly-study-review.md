@@ -1,259 +1,98 @@
 ---
-typora-root-url: ../
 layout: single
 title: >
-  Weekly Study Review Template: Turn One Week of Study into a Better Next Week
+  Weekly Study Review: Track Recall and Output, Not Only Hours
 seo_title: >
-  Weekly Study Review Template
-date: 2026-05-23T23:59:30+09:00
-last_modified_at: 2026-05-23T23:59:59+09:00
+  Weekly Study Review: Track Recall and Output, Not Only Hours
+date: 2026-05-23T08:18:00+09:00
+last_modified_at: 2026-05-23T23:58:00+09:00
 lang: en
-translation_id: weekly-study-review
+translation_id: study-weekly-study-review
 header:
-   teaser: /images/2026-05-23-weekly-study-review/weekly-study-review-hero.png
-   overlay_image: /images/2026-05-23-weekly-study-review/weekly-study-review-hero.png
-   overlay_filter: 0.35
-   image_description: >
-     Visual guide explaining Weekly Study Review Template: Turn One Week of Study into a Better Next Week.
+  teaser: /images/2026-05-23-weekly-study-review/hero.png
+  overlay_image: /images/2026-05-23-weekly-study-review/hero.png
+  overlay_filter: 0.36
+  image_description: >
+    Study guide image summarizing the learning routine and review signals for this topic.
 excerpt: >
-  Use a weekly study review to check recall, mistakes, focus time, weak topics, and next-week priorities instead of only counting hours studied.
+  A weekly review should check what you can retrieve and where failure repeats, not only how many hours you studied.
 seo_description: >
-  Use a weekly study review to check recall, mistakes, focus time, weak topics, and next-week priorities instead of only counting hours studied.
+  A weekly review should check what you can retrieve and where failure repeats, not only how many hours you studied.
 categories:
   - en_Study
 tags:
-  - Study
-  - Productivity
-  - ActiveRecall
-  - SpacedRepetition
-  - Learning
+  - WeeklyReview
+  - StudyPlanning
+  - Metacognition
+  - Progress
 ---
 
-## Quick Answer
+A study method becomes useful when it leaves an observable signal such as **weekly output**. This guide turns **Weekly Study Review: Track Recall and Output, Not Only Hours** into a routine that can be tested in one session.
 
-A weekly study review is a short system for turning last week's work into next week's plan.
-It should not only ask, "How many hours did I study?"
-It should ask what you can recall, where you made mistakes, which topics are still weak, and what review schedule should happen next.
+A weekly review should check what you can retrieve and where failure repeats, not only how many hours you studied.
 
-![Weekly study planner with review blocks, progress marks, and learning icons](/images/2026-05-23-weekly-study-review/weekly-study-review-hero.png)
+This article is educational. **Weekly Study Review: Track Recall and Output, Not Only Hours** does not guarantee the same result for every learner, exam, or subject. If sleep, health, anxiety, or attention problems are severe or persistent, consider qualified support from school staff, guardians, or medical professionals.
 
-The image shows the idea.
-A useful study week has review cards, mistake checks, focus blocks, and a small dashboard.
-You are not trying to make a beautiful planner.
-You are trying to make learning visible.
+![Weekly Study Review: Track Recall and Output, Not Only Hours study routine flow](/images/2026-05-23-weekly-study-review/hero.png)
 
-## Why Weekly Review Works
+## Quick Summary
 
-Many students track inputs.
-They count pages, lectures, videos, and study hours.
-That helps with discipline, but it does not prove learning.
-Learning is closer to retrieval: can you bring the idea back without looking?
+Hours are only a starting point; recall rate, problem accuracy, written code, or drafts are stronger evidence.
 
-That is why a weekly review should include active recall and spaced review.
-Research-backed learning resources from universities often recommend testing yourself, spacing practice across days, and checking what you can explain without notes.
-The weekly review is where those ideas become a repeatable routine.
+This routine is not decoration for a longer study session. It should leave **weekly output** and **recall rate** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
 
-The goal is simple:
+## Signals To Check First
 
-```text
-Find what worked.
-Find what failed.
-Move weak material into next week's schedule.
-```
+- **weekly output**: for Weekly Study Review: Track Recall and Output, Not Only Hours, leave this as a record that can be checked in the next review.
+- **recall rate**: for Weekly Study Review: Track Recall and Output, Not Only Hours, leave this as a record that can be checked in the next review.
+- **missed item**: for Weekly Study Review: Track Recall and Output, Not Only Hours, leave this as a record that can be checked in the next review.
+- **next bottleneck**: for Weekly Study Review: Track Recall and Output, Not Only Hours, leave this as a record that can be checked in the next review.
 
-If you do this every week, your study plan becomes adaptive.
-It reacts to evidence instead of mood.
+![Weekly Study Review: Track Recall and Output, Not Only Hours action checklist](/images/2026-05-23-weekly-study-review/checklist.png)
 
-## The 30-Minute Weekly Review
+## Practical Routine
 
-Set one fixed time each week.
-Friday evening, Saturday morning, or Sunday afternoon all work.
-The exact day matters less than consistency.
+- Compare weekly goals with actual output.
+- Move five missed items into next week’s first review.
+- Remove one bottleneck before adding more hours.
 
-Use this structure:
+## 40-Minute Session Example
 
-```text
-5 minutes  - collect notes, assignments, practice results
-10 minutes - review mistakes and weak topics
-5 minutes  - test recall without notes
-5 minutes  - choose next week's priorities
-5 minutes  - schedule review blocks
-```
+If you only have 40 minutes today, start with 'Compare weekly goals with actual output'. Then record the **weekly output** result and separate correct items from confused items. Use the final five minutes to write one question that starts the next review. That small closing record prevents the next session from becoming setup time again.
 
-Do not turn this into a two-hour planning session.
-If review becomes heavy, you will skip it.
-The weekly review should be small enough to repeat even when the week was messy.
+## Record Example
 
-## Section 1. What Did I Actually Study?
+The record does not need to be long. Filling three fields, **weekly output**, **recall rate**, and **missed item**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
 
-Start with facts.
-List the subjects, chapters, problem sets, lectures, or projects you touched.
-Keep it short.
+## Checklist
 
-Example:
-
-```text
-Math: derivatives, chain rule, 42 practice problems
-English: vocabulary list 11-13, two reading passages
-Programming: arrays, loops, five coding exercises
-Economics: inflation chapter, one summary note
-```
-
-This section is not for self-judgment.
-It is an inventory.
-You need to know what exists before deciding what to review.
-
-## Section 2. What Can I Recall Without Notes?
-
-Close your notes and write from memory.
-Use questions like these:
-
-- What are the three most important ideas from this week?
-- Which formula, rule, or concept can I explain in my own words?
-- Which example can I solve without looking?
-- What would I teach to a friend in five minutes?
-
-If you cannot recall something, do not panic.
-That is useful data.
-Move it into next week's review schedule.
-
-This is the difference between reading and studying.
-Reading can feel fluent because the answer is visible.
-Recall shows whether the idea is available when the page is closed.
-
-## Section 3. What Mistakes Repeated?
-
-Mistakes are not just wrong answers.
-They are signals.
-Group them by type:
-
-- Concept error: I did not understand the rule.
-- Procedure error: I knew the rule but applied steps in the wrong order.
-- Careless error: I rushed, skipped a sign, or copied a value incorrectly.
-- Memory error: I could not remember a term, formula, or exception.
-- Strategy error: I chose the wrong method for the problem.
-
-Then write one prevention note.
-
-```text
-Mistake: used product rule when chain rule was needed.
-Cause: I looked only at multiplication, not nested function structure.
-Prevention: before differentiating, mark outer function and inner function.
-```
-
-This is more useful than writing "be careful."
-"Be careful" does not change behavior.
-A specific prevention note does.
-
-## Section 4. What Should Be Spaced?
-
-Not every topic deserves the same review interval.
-Use a simple schedule:
-
-```text
-Easy and recalled correctly: review in 7 days.
-Correct but slow: review in 3 days.
-Wrong but understood after correction: review tomorrow.
-Wrong and still confusing: relearn before reviewing.
-```
-
-This keeps review from becoming random.
-You spend more time on weak material and less time rereading what is already stable.
-
-For vocabulary, formulas, definitions, and syntax, flashcards can help.
-For math, coding, and science, practice problems are usually better than passive cards.
-The review method should match the skill.
-
-## Section 5. Plan Next Week with Constraints
-
-A good weekly review ends with a realistic plan.
-Do not fill every free hour.
-Leave margin for school, work, sleep, exercise, family, and unexpected tasks.
-
-Use three priority levels:
-
-```text
-Must do: the work that affects deadlines or weak core skills.
-Should do: useful practice if the week is normal.
-Could do: bonus review if time remains.
-```
-
-Example:
-
-```text
-Must: redo chain rule mistakes, finish reading quiz, review vocabulary set 12.
-Should: solve 20 mixed derivative problems, summarize inflation chapter.
-Could: clean notes and make two extra coding exercises.
-```
-
-This makes the plan resilient.
-If the week becomes busy, you still know what matters most.
-
-## Weekly Study Review Template
-
-Copy this structure into a notebook, spreadsheet, or note app:
-
-```text
-Week:
-
-1. Studied this week:
--
-
-2. Recall check:
-- I can explain:
-- I cannot yet explain:
-
-3. Repeated mistakes:
-- Mistake:
-- Cause:
-- Prevention:
-
-4. Weak topics:
-- Relearn:
-- Review tomorrow:
-- Review in 3 days:
-- Review in 7 days:
-
-5. Next week priorities:
-- Must:
-- Should:
-- Could:
-
-6. One process change:
-- Next week I will:
-```
-
-The last line matters.
-Choose one process change only.
-For example: start earlier, use shorter sessions, test before rereading, or review mistakes before new chapters.
-
-## Related Reading
-
-- [Active Recall Study Method](/en_study/active-recall-study-method/)
-- [Spaced Repetition Schedule](/en_study/spaced-repetition-schedule/)
-- [Pomodoro vs Deep Work](/en_study/pomodoro-deep-work/)
-- [CMU learning strategies on retrieval practice](https://www.cmu.edu/student-success/other-resources/handouts/learning-strategies/retrieval-practice.pdf)
-
-## Final Advice
-
-The best weekly review is boring and repeatable.
-It should not depend on motivation.
-It should show you what you studied, what you remember, what you missed, and what deserves attention next.
-
-If you review every week, you stop treating exams as surprises.
-You build a feedback loop.
-That feedback loop is what turns study time into learning progress.
+- Before starting, define the **weekly output** output for today.
+- Before ending, check **recall rate** and mark the next review item.
+- Keep time spent, correct items, and missed items in one table.
+- If the routine is too complex, remove one step and compare again next week.
 
 ## FAQ
 
-### When should I use this guide?
+### Should I apply Weekly Study Review: Track Recall and Output, Not Only Hours to every subject immediately?
 
-Use it when you need to turn reading or watching into output you can recall, explain, or solve later.
+Start with one subject, one unit, and one review cycle. Expand **Weekly Study Review: Track Recall and Output, Not Only Hours** only after the **weekly output** record is useful in the next session.
 
-### What should beginners verify first?
+### Can this work when study time is short?
 
-Start with one measurable output: a solved problem, a recalled definition, a short explanation, or a corrected mistake note.
+Yes, if the short session still checks **recall rate** and leaves a closing record. In **Weekly Study Review: Track Recall and Output, Not Only Hours**, time alone is not the point; retrieval, feedback, and rescheduling need to be included.
 
-### Which keywords should I search next?
+### Is Weekly Study Review: Track Recall and Output, Not Only Hours failing if scores do not improve immediately?
 
-Search for "Weekly Study Review Template: Turn One Week of Study into a Better Next Week" together with active recall, spaced repetition, study plan, mistake note, and exam preparation keywords.
+No. **Weekly Study Review: Track Recall and Output, Not Only Hours** first becomes valuable by revealing repeated failure points. Keep the same **weekly output** measure for two or three weeks before changing the system.
+
+
+## Source Notes
+
+- [EEF Metacognition and Self-Regulation](https://educationendowmentfoundation.org.uk/education-evidence/evidence-reviews/metacognition-and-self-regulation)
+- [IES What Works Clearinghouse Study Guide](https://ies.ed.gov/ncee/wwc/PracticeGuide/1)
+- [Harvard Academic Resource Center](https://academicresourcecenter.harvard.edu/resources/)
+
+## Related Reading
+
+- [Interleaving Practice: Mix Similar Problems to Build Discrimination](/en_study/interleaving-practice/)
+- [Coding Kata Routine: Solve the Same Problem in Better Ways](/en_study/coding-kata-deliberate-practice/)

@@ -1,169 +1,98 @@
 ---
-typora-root-url: ../
 layout: single
 title: >
-  영어 단어장 반복 시스템: 단어를 외우는 대신 사용할 수 있게 만드는 법
+  영어 단어 반복 시스템: 뜻 암기보다 문맥과 회상으로 남기기
 seo_title: >
-  영어 단어장 반복 시스템
-date: 2026-05-23T23:59:59+09:00
-last_modified_at: 2026-05-23T23:59:59+09:00
+  영어 단어 반복 시스템: 뜻 암기보다 문맥과 회상으로 남기기
+date: 2026-05-23T07:36:00+09:00
+last_modified_at: 2026-05-23T23:58:00+09:00
 lang: ko
-translation_id: english-vocabulary-system
+translation_id: study-english-vocabulary-system
 header:
-   teaser: /images/2026-05-23-english-vocabulary-system/vocabulary-system-hero.png
-   overlay_image: /images/2026-05-23-english-vocabulary-system/vocabulary-system-hero.png
-   overlay_filter: 0.35
-   image_description: >
-     영어 단어장 반복 시스템: 단어를 외우는 대신 사용할 수 있게 만드는 법 주제를 한눈에 설명하는 시각 자료입니다.
+  teaser: /images/2026-05-23-english-vocabulary-system/hero.png
+  overlay_image: /images/2026-05-23-english-vocabulary-system/hero.png
+  overlay_filter: 0.36
+  image_description: >
+    영어 단어 반복 시스템: 뜻 암기보다 문맥과 회상으로 남기기의 학습 루틴과 복습 신호를 요약한 이미지입니다.
 excerpt: >
-  영어 단어장은 번역만 적는 목록이 아니라 active recall, example sentence, pronunciation, spaced review가 연결된 시스템이어야 합니다.
+  단어장은 뜻을 많이 적는 곳이 아니라 예문, 직접 만든 문장, 회상 날짜, 틀린 용례를 함께 남기는 학습 시스템이다.
 seo_description: >
-  영어 단어장은 번역만 적는 목록이 아니라 active recall, example sentence, pronunciation, spaced review가 연결된 시스템이어야 합니다.
+  단어장은 뜻을 많이 적는 곳이 아니라 예문, 직접 만든 문장, 회상 날짜, 틀린 용례를 함께 남기는 학습 시스템이다.
 categories:
   - ko_Study
 tags:
-  - Study
   - Vocabulary
-  - English
-  - SpacedRepetition
-  - Learning
+  - EnglishStudy
+  - Recall
+  - LanguageLearning
 ---
+
+공부법은 기분 좋은 동기부여보다 **문맥 예문** 같은 관찰 가능한 신호가 남아야 지속됩니다. 이 글은 **영어 단어 반복 시스템: 뜻 암기보다 문맥과 회상으로 남기기** 주제를 한 번의 공부 세션에서 바로 테스트할 수 있는 루틴으로 정리합니다.
+
+단어장은 뜻을 많이 적는 곳이 아니라 예문, 직접 만든 문장, 회상 날짜, 틀린 용례를 함께 남기는 학습 시스템이다.
+
+이 글은 교육용 학습 가이드입니다. **영어 단어 반복 시스템: 뜻 암기보다 문맥과 회상으로 남기기**가 모든 학생, 시험, 과목에 같은 결과를 보장하지는 않습니다. 수면, 건강, 불안, 집중 문제가 심하거나 지속된다면 학교 상담, 보호자, 의료 전문가처럼 자격 있는 도움을 함께 고려해야 합니다.
+
+![영어 단어 반복 시스템: 뜻 암기보다 문맥과 회상으로 남기기 학습 루틴 흐름](/images/2026-05-23-english-vocabulary-system/hero.png)
 
 ## 핵심 요약
 
-좋은 영어 단어장 시스템은 고립된 단어 목록을 외우지 않습니다.
-단어를 의미, 발음, 예문, active recall, spaced review와 연결합니다.
-목표는 단어를 알아보는 것이 아니라, 정확히 사용하는 것입니다.
+단어를 안다는 것은 뜻을 보는 것이 아니라 문장에서 맞게 꺼내 쓰는 것입니다.
 
-![Flashcard, listening, example, active recall, spaced review로 이어지는 vocabulary study system](/images/2026-05-23-english-vocabulary-system/vocabulary-system-hero.png)
+이 루틴은 공부 시간을 늘리기 위한 장식이 아닙니다. **문맥 예문**와 **직접 문장**가 남아야 다음 공부에서 무엇을 반복하고 무엇을 줄일지 판단할 수 있습니다. 한 번에 모든 과목에 적용하지 말고, 먼저 한 과목과 한 단원에서 작게 시작하는 편이 좋습니다.
 
-이미지는 전체 loop를 보여줍니다.
-단어를 보고, 의미와 연결하고, 발음을 듣고, 기억에서 꺼내고, 문맥에 넣어 쓰고, 나중에 다시 복습합니다.
+## 먼저 확인할 신호
 
-## Card Format
+- **문맥 예문**: 영어 단어 반복 시스템: 뜻 암기보다 문맥과 회상으로 남기기를 적용할 때 이 항목을 실제 기록으로 남겨 다음 복습에서 확인합니다.
+- **직접 문장**: 영어 단어 반복 시스템: 뜻 암기보다 문맥과 회상으로 남기기를 적용할 때 이 항목을 실제 기록으로 남겨 다음 복습에서 확인합니다.
+- **회상 날짜**: 영어 단어 반복 시스템: 뜻 암기보다 문맥과 회상으로 남기기를 적용할 때 이 항목을 실제 기록으로 남겨 다음 복습에서 확인합니다.
+- **용례 오류**: 영어 단어 반복 시스템: 뜻 암기보다 문맥과 회상으로 남기기를 적용할 때 이 항목을 실제 기록으로 남겨 다음 복습에서 확인합니다.
 
-단어 또는 phrase 하나에 card 하나를 만듭니다.
+![영어 단어 반복 시스템: 뜻 암기보다 문맥과 회상으로 남기기 실행 체크리스트](/images/2026-05-23-english-vocabulary-system/checklist.png)
 
-```text
-Word or phrase:
-Meaning:
-Example sentence:
-My sentence:
-Pronunciation note:
-Common mistake:
-Next review:
-```
+## 실전 적용 순서
 
-번역만 적지 않습니다.
-번역은 도움이 되지만 실제 usage를 충분히 보여주지 못할 때가 많습니다.
+- 새 단어마다 원문 예문을 남깁니다.
+- 직접 만든 문장을 하나 씁니다.
+- 다음 복습 때 뜻이 아니라 문장 완성을 테스트합니다.
 
-## 무엇을 먼저 외울까
+## 40분 세션 예시
 
-우선순위:
+예를 들어 오늘 40분만 쓸 수 있다면 먼저 '새 단어마다 원문 예문을 남깁니다.' 단계를 수행합니다. 이후 **문맥 예문** 결과를 남기고, 맞힌 항목과 헷갈린 항목을 분리합니다. 마지막 5분에는 다음 복습에서 바로 시작할 질문 하나를 적습니다. 이 작은 종료 기록이 있어야 다음 세션이 다시 준비 시간으로 낭비되지 않습니다.
 
-- 반복해서 보는 단어
-- 학교, 일, 시험에 필요한 단어
-- phrase와 collocation
-- 헷갈리는 단어 쌍
-- 자기 문장으로 쓸 수 있는 단어
+## 기록 예시
 
-모르는 단어를 전부 넣지 않습니다.
-Card가 너무 많으면 review가 불가능해집니다.
+기록은 길 필요가 없습니다. 세션 마지막에 **문맥 예문**, **직접 문장**, **회상 날짜** 세 칸만 채워도 충분합니다. 예를 들어 맞힌 항목은 다음 간격을 늘리고, 헷갈린 항목은 이유를 한 단어로 표시하며, 완전히 틀린 항목은 다음 세션의 첫 문제로 올립니다. 이렇게 하면 공부가 끝난 뒤에도 무엇을 해야 하는지 남아 있고, 다음 날 다시 책상에 앉았을 때 준비 시간이 줄어듭니다.
 
-## Active Recall Routine
+## 체크리스트
 
-복습은 이렇게 합니다.
-
-```text
-1. Target word를 가리고 meaning 또는 example을 본다.
-2. 기억에서 단어를 말하거나 쓴다.
-3. spelling과 pronunciation을 확인한다.
-4. 새 문장을 하나 만든다.
-5. easy, medium, hard로 표시한다.
-```
-
-Card 양면을 읽기만 하면 recognition에 가깝습니다.
-먼저 단어를 만들어내는 연습을 해야 합니다.
-
-## 예시
-
-```text
-Word: sustainable
-Meaning: 오래 유지 가능하고 damage나 exhaustion이 크지 않은 상태
-Example: A sustainable study routine includes breaks.
-My sentence: A sustainable budget leaves room for emergencies.
-Common mistake: 환경 주제에만 쓰는 단어로 제한하지 않기
-Next review: Day 3
-```
-
-이 card는 context와 자기 문장이 있기 때문에 유용합니다.
-
-## 주간 정리
-
-매주 아래를 확인합니다.
-
-```text
-1. 항상 맞히는 card는 삭제한다.
-2. 의미가 애매한 card는 다시 쓴다.
-3. 단어가 두 개인 card는 나눈다.
-4. 어려운 card에는 예문을 추가한다.
-5. 가치가 낮은 단어는 archive한다.
-```
-
-시스템은 유지할 수 있을 만큼 작아야 합니다.
-
-## 20분 실전 루틴
-
-하루에 오래 붙잡고 있는 것보다 짧게 반복하는 편이 유지하기 쉽습니다.
-20분만 쓴다면 아래처럼 나눕니다.
-
-```text
-5분: 어제 틀린 card만 빠르게 recall
-5분: 새 단어 3-5개 추가
-5분: 새 단어로 내 문장 만들기
-5분: 발음 듣고 소리 내어 읽기
-```
-
-새 단어를 많이 넣는 것보다 review queue를 망가뜨리지 않는 것이 중요합니다.
-하루에 30개를 추가하고 3일 뒤에 복습하지 못하면 시스템은 금방 무너집니다.
-반대로 하루 5개라도 계속 복습하면 실제로 쓸 수 있는 단어가 쌓입니다.
-
-## 단어를 버리는 기준
-
-단어장을 계속 키우기만 하면 부담이 커집니다.
-아래 조건에 맞는 card는 삭제하거나 archive합니다.
-
-- 너무 쉽고 항상 맞히는 단어
-- 지금 목표와 관련이 낮은 단어
-- 예문 없이 번역만 남은 card
-- 같은 뜻의 card가 여러 장으로 중복된 경우
-- 실제로 쓰지 않을 전문 용어
-
-삭제는 실패가 아닙니다.
-중요한 단어를 더 자주 만날 공간을 만드는 과정입니다.
-
-## 관련 글
-
-- [Active recall 공부법](/ko_study/active-recall-study-method/)
-- [Spaced repetition 복습 일정](/ko_study/spaced-repetition-schedule/)
-- [오답노트 시스템 만드는 법](/ko_study/exam-mistake-note-system/)
+- 시작 전에 오늘 남길 **문맥 예문** 결과를 정합니다.
+- 끝나기 전에 **직접 문장**를 확인하고 다음 복습 항목을 표시합니다.
+- 공부 시간, 맞힌 항목, 틀린 항목을 같은 표에 남깁니다.
+- 루틴이 너무 복잡하면 한 단계만 줄이고 다음 주에 다시 비교합니다.
 
 ## 자주 묻는 질문
 
-### 이 글은 언제 먼저 적용하면 좋나요?
+### 영어 단어 반복 시스템: 뜻 암기보다 문맥과 회상으로 남기기를 모든 과목에 바로 적용해도 되나요?
 
-시험 준비, 개발 공부, 언어 학습처럼 배운 내용을 실제로 꺼내 써야 하는 상황에서 가장 효과적입니다.
+처음에는 한 과목, 한 단원, 한 주기로 제한하는 편이 안전합니다. **문맥 예문** 기록이 남고 다음 복습에서 다시 쓸 수 있을 때 **영어 단어 반복 시스템: 뜻 암기보다 문맥과 회상으로 남기기** 루틴을 다른 과목으로 넓히면 됩니다.
 
-### 초보자가 가장 먼저 확인할 부분은 무엇인가요?
+### 공부 시간이 짧아도 효과가 있나요?
 
-처음에는 공부 시간을 늘리기보다 오늘 설명할 수 있는 내용, 풀 수 있는 문제, 다시 틀린 부분을 기록하세요.
+짧은 시간이라도 **직접 문장**를 확인하고 종료 기록을 남기면 다음 세션의 시작 비용이 줄어듭니다. **영어 단어 반복 시스템: 뜻 암기보다 문맥과 회상으로 남기기**에서는 단순히 시간을 채우는 것보다 회상, 피드백, 재복습이 포함되어야 합니다.
 
-### 더 찾아볼 때 어떤 키워드를 쓰면 좋나요?
+### 결과가 바로 좋아지지 않으면 실패인가요?
 
-추가 검색할 때는 "영어 단어장 반복 시스템: 단어를 외우는 대신 사용할 수 있게 만드는 법" 같은 핵심 문구와 active recall, spaced repetition, study plan, mistake note 같은 학습 키워드를 붙이면 좋습니다.
+아닙니다. **영어 단어 반복 시스템: 뜻 암기보다 문맥과 회상으로 남기기** 같은 학습 루틴은 즉시 점수 상승보다 반복 실패 지점을 드러내는 데 먼저 가치가 있습니다. 2~3주 동안 **문맥 예문** 기준을 같은 방식으로 기록한 뒤 조정하는 것이 좋습니다.
 
-## 참고 자료
 
-- Dunlosky et al., *Improving Students' Learning With Effective Learning Techniques*: https://pubmed.ncbi.nlm.nih.gov/26173288/
-- Carnegie Mellon Eberly Center, Retrieval Practice: https://www.cmu.edu/teaching/resources/instructionalstrategies/activelearningstrategies/retrievalpractice/index.html
-- Cambridge Dictionary, learner examples and pronunciation reference: https://dictionary.cambridge.org/
+## 참고할 자료
+
+- [IES What Works Clearinghouse Study Guide](https://ies.ed.gov/ncee/wwc/PracticeGuide/1)
+- [EEF Metacognition and Self-Regulation](https://educationendowmentfoundation.org.uk/education-evidence/evidence-reviews/metacognition-and-self-regulation)
+- [Purdue OWL Paraphrasing](https://owl.purdue.edu/owl/research_and_citation/using_research/quoting_paraphrasing_and_summarizing/paraphrasing.html)
+
+## 함께 보면 좋은 글
+
+- [Notion 공부 대시보드: 예쁜 화면보다 복습과 오답 흐름](/ko_study/notion-study-dashboard/)
+- [수학 문제 풀이 루틴: 공식 암기보다 조건 해석 먼저](/ko_study/math-problem-solving-routine/)

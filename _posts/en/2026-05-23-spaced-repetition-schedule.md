@@ -1,226 +1,98 @@
 ---
-typora-root-url: ../
 layout: single
 title: >
-  Spaced Repetition Schedule: A Simple Review Plan You Can Actually Keep
+  Spaced Repetition Schedule: Design Gaps Instead of Cramming
 seo_title: >
-  Spaced Repetition Schedule: A Simple Review Plan
-date: 2026-05-23T23:58:00+09:00
-last_modified_at: 2026-05-23T23:59:59+09:00
+  Spaced Repetition Schedule: Design Gaps Instead of Cramming
+date: 2026-05-23T06:18:00+09:00
+last_modified_at: 2026-05-23T23:58:00+09:00
 lang: en
-translation_id: spaced-repetition-schedule
+translation_id: study-spaced-repetition-schedule
 header:
-   teaser: /images/2026-05-23-spaced-repetition-schedule/spaced-repetition-hero.png
-   overlay_image: /images/2026-05-23-spaced-repetition-schedule/spaced-repetition-hero.png
-   overlay_filter: 0.35
-   image_description: >
-     Visual guide explaining Spaced Repetition Schedule: A Simple Review Plan You Can Actually Keep.
+  teaser: /images/2026-05-23-spaced-repetition-schedule/hero.png
+  overlay_image: /images/2026-05-23-spaced-repetition-schedule/hero.png
+  overlay_filter: 0.36
+  image_description: >
+    Study guide image summarizing the learning routine and review signals for this topic.
 excerpt: >
-  Build a practical spaced repetition schedule with same-day review, delayed recall, weak-card tracking, and a weekly cleanup routine.
+  Spaced repetition spreads review across days and weeks so the same study time is aimed at longer-term retention.
 seo_description: >
-  Build a practical spaced repetition schedule with same-day review, delayed recall, weak-card tracking, and a weekly cleanup routine.
+  Spaced repetition spreads review across days and weeks so the same study time is aimed at longer-term retention.
 categories:
   - en_Study
 tags:
-  - Study
   - SpacedRepetition
-  - Learning
+  - Review
   - Memory
-  - Productivity
+  - Planning
 ---
 
-## Quick Answer
+A study method becomes useful when it leaves an observable signal such as **review interval**. This guide turns **Spaced Repetition Schedule: Design Gaps Instead of Cramming** into a routine that can be tested in one session.
 
-Spaced repetition means reviewing material after increasing time gaps instead of repeating it many times in one sitting.
-A simple schedule is:
+Spaced repetition spreads review across days and weeks so the same study time is aimed at longer-term retention.
 
-```text
-Day 0: learn and test yourself
-Day 1: first delayed review
-Day 3: second review
-Day 7: weekly review
-Day 14: longer review
-Day 30: retention check
-```
+This article is educational. **Spaced Repetition Schedule: Design Gaps Instead of Cramming** does not guarantee the same result for every learner, exam, or subject. If sleep, health, anxiety, or attention problems are severe or persistent, consider qualified support from school staff, guardians, or medical professionals.
 
-![Spaced repetition review calendar with memory checkpoints](/images/2026-05-23-spaced-repetition-schedule/spaced-repetition-hero.png)
+![Spaced Repetition Schedule: Design Gaps Instead of Cramming study routine flow](/images/2026-05-23-spaced-repetition-schedule/hero.png)
 
-The image shows the key idea: review points are spread out over time.
-The goal is not to touch every note every day.
-The goal is to meet the material right before it becomes difficult to recall.
+## Quick Summary
 
-## Why Spacing Works
+A spacing plan should work as a calendar for retrieval, not as a perfect formula.
 
-When you study the same thing five times in one night, it can feel fluent.
-That fluency is often short-lived.
-Spacing creates effort at the next review, and that effort can strengthen memory.
+This routine is not decoration for a longer study session. It should leave **review interval** and **recall score** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
 
-Spaced repetition works best when it is paired with active recall.
-Do not just reread the card.
-Try to answer first, then check.
+## Signals To Check First
 
-Use this pair:
+- **review interval**: for Spaced Repetition Schedule: Design Gaps Instead of Cramming, leave this as a record that can be checked in the next review.
+- **recall score**: for Spaced Repetition Schedule: Design Gaps Instead of Cramming, leave this as a record that can be checked in the next review.
+- **easy item**: for Spaced Repetition Schedule: Design Gaps Instead of Cramming, leave this as a record that can be checked in the next review.
+- **missed item**: for Spaced Repetition Schedule: Design Gaps Instead of Cramming, leave this as a record that can be checked in the next review.
 
-```text
-spacing = when to review
-active recall = how to review
-```
+![Spaced Repetition Schedule: Design Gaps Instead of Cramming action checklist](/images/2026-05-23-spaced-repetition-schedule/checklist.png)
 
-If you only schedule rereading, the calendar looks disciplined but the memory benefit is weaker.
+## Practical Routine
 
-## The Beginner Schedule
+- Review on the study day, next day, one week later, and three weeks later.
+- Increase gaps for easy items.
+- Shorten gaps for missed items.
 
-Use this if you are starting from scratch.
+## 40-Minute Session Example
 
-| Review | Timing | What to do |
-| --- | --- | --- |
-| Learn | Day 0 | Read, solve, summarize |
-| First review | Later on Day 0 or Day 1 | Answer from memory |
-| Second review | Day 3 | Re-test weak points |
-| Third review | Day 7 | Mix with older topics |
-| Fourth review | Day 14 | Keep only weak cards active |
-| Retention check | Day 30 | Test without hints |
+If you only have 40 minutes today, start with 'Review on the study day, next day, one week later, and three weeks later'. Then record the **review interval** result and separate correct items from confused items. Use the final five minutes to write one question that starts the next review. That small closing record prevents the next session from becoming setup time again.
 
-This is not a law.
-It is a starting point.
-Hard material needs shorter intervals.
-Easy material can wait longer.
+## Record Example
 
-## What to Put into the Schedule
+The record does not need to be long. Filling three fields, **review interval**, **recall score**, and **easy item**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
 
-Do not put every sentence into a flashcard app.
-That creates busywork.
+## Checklist
 
-Good candidates:
-
-- definitions you must produce accurately
-- formulas
-- commands
-- vocabulary
-- diagrams
-- common mistakes
-- distinctions that are easy to confuse
-
-Bad candidates:
-
-- whole paragraphs
-- vague reminders
-- cards with multiple questions hidden inside one card
-- facts you can easily look up and do not need to remember
-
-The best card asks one thing.
-One card, one answer.
-
-## A Practical Card Format
-
-Use this structure:
-
-```text
-Question:
-Answer:
-Example:
-Source:
-Next review:
-Difficulty:
-```
-
-For programming:
-
-```text
-Question: How do you activate a Python venv on Windows?
-Answer: .\.venv\Scripts\activate
-Example: Run after python -m venv .venv
-Source: project notes
-Next review: Day 3
-Difficulty: medium
-```
-
-For economics:
-
-```text
-Question: What is compound interest?
-Answer: Interest earned on principal plus previously earned interest.
-Example: 5% on 1,050 is 52.50, not 50.
-Source: Investor.gov
-Next review: Day 7
-Difficulty: easy
-```
-
-## Weekly Cleanup
-
-A spaced repetition system fails when the queue becomes too large.
-Add a weekly cleanup routine.
-
-Every week:
-
-```text
-1. Delete cards that are too obvious.
-2. Split cards that ask two questions.
-3. Rewrite confusing prompts.
-4. Move low-value cards to archive.
-5. Keep mistake-prone cards active.
-```
-
-The system should make studying lighter.
-If it becomes a second job, the card design is probably wrong.
-
-## How to Combine with Active Recall
-
-Use spaced repetition for timing and active recall for the review action.
-
-Review session:
-
-```text
-1. Read the question only.
-2. Answer without looking.
-3. Check the correct answer.
-4. Mark easy, medium, or hard.
-5. Reschedule based on difficulty.
-```
-
-If a card is hard, do not only move it earlier.
-Improve the card.
-Maybe it is too broad.
-Maybe it needs an example.
-Maybe the source explanation was weak.
-
-Related guide:
-
-- [Active Recall Study Method](/en_study/active-recall-study-method/)
-- [Python venv Not Activating](/en_troubleshooting/python-venv-not-activating/)
-- [Compound Interest Example](/en_economy/compound-interest-example/)
-
-## Common Mistakes
-
-- Reviewing everything every day.
-- Making cards from highlighted sentences without rewriting them.
-- Skipping recall and only rereading.
-- Keeping too many low-value cards.
-- Using a schedule that is too strict to maintain.
-- Never checking whether the system improves real test performance.
-
-## Related Reading
-
-- [Active Recall Study Method](/en_study/active-recall-study-method/)
-- [Exam Mistake Note System](/en_study/exam-mistake-note-system/)
-- [Weekly Study Review](/en_study/weekly-study-review/)
+- Before starting, define the **review interval** output for today.
+- Before ending, check **recall score** and mark the next review item.
+- Keep time spent, correct items, and missed items in one table.
+- If the routine is too complex, remove one step and compare again next week.
 
 ## FAQ
 
-### When should I use this guide?
+### Should I apply Spaced Repetition Schedule: Design Gaps Instead of Cramming to every subject immediately?
 
-Use it when you need to turn reading or watching into output you can recall, explain, or solve later.
+Start with one subject, one unit, and one review cycle. Expand **Spaced Repetition Schedule: Design Gaps Instead of Cramming** only after the **review interval** record is useful in the next session.
 
-### What should beginners verify first?
+### Can this work when study time is short?
 
-Start with one measurable output: a solved problem, a recalled definition, a short explanation, or a corrected mistake note.
+Yes, if the short session still checks **recall score** and leaves a closing record. In **Spaced Repetition Schedule: Design Gaps Instead of Cramming**, time alone is not the point; retrieval, feedback, and rescheduling need to be included.
 
-### Which keywords should I search next?
+### Is Spaced Repetition Schedule: Design Gaps Instead of Cramming failing if scores do not improve immediately?
 
-Search for "Spaced Repetition Schedule: A Simple Review Plan You Can Actually Keep" together with active recall, spaced repetition, study plan, mistake note, and exam preparation keywords.
+No. **Spaced Repetition Schedule: Design Gaps Instead of Cramming** first becomes valuable by revealing repeated failure points. Keep the same **review interval** measure for two or three weeks before changing the system.
 
-## Sources
 
-- Dunlosky et al., *Improving Students' Learning With Effective Learning Techniques*: https://pubmed.ncbi.nlm.nih.gov/26173288/
-- Roediger and Karpicke, *Test-enhanced learning*: https://pubmed.ncbi.nlm.nih.gov/16507066/
-- Carnegie Mellon Eberly Center, Retrieval Practice: https://www.cmu.edu/teaching/resources/instructionalstrategies/activelearningstrategies/retrievalpractice/index.html
+## Source Notes
+
+- [IES What Works Clearinghouse Study Guide](https://ies.ed.gov/ncee/wwc/PracticeGuide/1)
+- [UC San Diego Spaced Practice](https://psychology.ucsd.edu/undergraduate-program/undergraduate-resources/academic-writing-resources/effective-studying/spaced-practice.html)
+- [Indiana University Spaced Practice](https://citl.indiana.edu/teaching-resources/evidence-based/spaced-practice.html)
+
+## Related Reading
+
+- [Pomodoro and Deep Work: Block Distractions Before Timing](/en_study/pomodoro-deep-work/)
+- [Semester Study Calendar: Plan Backward from Exams and Deadlines](/en_study/semester-study-calendar/)

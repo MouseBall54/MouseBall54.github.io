@@ -1,275 +1,98 @@
 ---
-typora-root-url: ../
 layout: single
 title: >
-  Notion Study Dashboard: A Practical Layout for Classes, Reviews, and Exams
+  Notion Study Dashboard: Track Review and Mistakes Before Design
 seo_title: >
-  Notion Study Dashboard
-date: 2026-05-23T23:59:55+09:00
-last_modified_at: 2026-05-23T23:59:59+09:00
+  Notion Study Dashboard: Track Review and Mistakes Before Design
+date: 2026-05-23T08:00:00+09:00
+last_modified_at: 2026-05-23T23:58:00+09:00
 lang: en
-translation_id: notion-study-dashboard
+translation_id: study-notion-study-dashboard
 header:
-   teaser: /images/2026-05-23-notion-study-dashboard/notion-study-dashboard-hero.png
-   overlay_image: /images/2026-05-23-notion-study-dashboard/notion-study-dashboard-hero.png
-   overlay_filter: 0.35
-   image_description: >
-     Visual guide explaining Notion Study Dashboard: A Practical Layout for Classes, Reviews, and Exams.
+  teaser: /images/2026-05-23-notion-study-dashboard/hero.png
+  overlay_image: /images/2026-05-23-notion-study-dashboard/hero.png
+  overlay_filter: 0.36
+  image_description: >
+    Study guide image summarizing the learning routine and review signals for this topic.
 excerpt: >
-  Build a practical Notion study dashboard with courses, assignments, spaced review, mistake notes, exam countdowns, and a weekly review view.
+  A study dashboard should show today’s recall tasks, overdue reviews, mistakes, and weekly output before visual design.
 seo_description: >
-  Build a practical Notion study dashboard with courses, assignments, spaced review, mistake notes, exam countdowns, and a weekly review view.
+  A study dashboard should show today’s recall tasks, overdue reviews, mistakes, and weekly output before visual design.
 categories:
   - en_Study
 tags:
-  - Study
   - Notion
+  - StudyDashboard
+  - Review
   - Productivity
-  - Dashboard
-  - Learning
 ---
 
-## Quick Answer
+A study method becomes useful when it leaves an observable signal such as **today review**. This guide turns **Notion Study Dashboard: Track Review and Mistakes Before Design** into a routine that can be tested in one session.
 
-A useful Notion study dashboard should not be a decorative homepage.
-It should connect the work you must do this week with the learning you must review later.
-The core databases are courses, assignments, review items, mistake notes, and exams.
+A study dashboard should show today’s recall tasks, overdue reviews, mistakes, and weekly output before visual design.
 
-![Study dashboard layout with course cards, calendar, progress charts, review queue, and exam tracker](/images/2026-05-23-notion-study-dashboard/notion-study-dashboard-hero.png)
+This article is educational. **Notion Study Dashboard: Track Review and Mistakes Before Design** does not guarantee the same result for every learner, exam, or subject. If sleep, health, anxiety, or attention problems are severe or persistent, consider qualified support from school staff, guardians, or medical professionals.
 
-The image shows a practical dashboard.
-It has a weekly calendar, course cards, review status, progress charts, and a mistake section.
-The goal is not to make Notion look impressive.
-The goal is to reduce the time between "I should study" and "I know what to do next."
+![Notion Study Dashboard: Track Review and Mistakes Before Design study routine flow](/images/2026-05-23-notion-study-dashboard/hero.png)
 
-## The Dashboard Principle
+## Quick Summary
 
-A study dashboard is useful only when it answers three questions quickly:
+A dashboard fails if it only collects tasks; reviews and mistakes must resurface automatically.
 
-```text
-What must I finish?
-What must I review?
-What is becoming weak?
-```
+This routine is not decoration for a longer study session. It should leave **today review** and **overdue item** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
 
-If the first page is full of quotes, icons, and unused widgets, it may look good but fail at the job.
-Students need a system that survives busy weeks.
+## Signals To Check First
 
-Use Notion databases and filtered views to keep the dashboard focused.
-Notion's database views, filters, sorts, and properties make it possible to show the same study data in different forms without copying it into separate pages.
+- **today review**: for Notion Study Dashboard: Track Review and Mistakes Before Design, leave this as a record that can be checked in the next review.
+- **overdue item**: for Notion Study Dashboard: Track Review and Mistakes Before Design, leave this as a record that can be checked in the next review.
+- **mistake status**: for Notion Study Dashboard: Track Review and Mistakes Before Design, leave this as a record that can be checked in the next review.
+- **weekly score**: for Notion Study Dashboard: Track Review and Mistakes Before Design, leave this as a record that can be checked in the next review.
 
-## Database 1. Courses
+![Notion Study Dashboard: Track Review and Mistakes Before Design action checklist](/images/2026-05-23-notion-study-dashboard/checklist.png)
 
-Create a `Courses` database first.
-Each row is one class, exam subject, or learning track.
+## Practical Routine
 
-Useful properties:
+- Put today’s recall items at the top.
+- Classify mistakes as open, retest, or solved.
+- Review recall score, not only task completion.
 
-| Property | Type | Purpose |
-| --- | --- | --- |
-| Course | Title | subject name |
-| Status | Select | active, paused, completed |
-| Exam Date | Date | next major exam |
-| Priority | Select | high, medium, low |
-| Weekly Target | Text | what matters this week |
-| Related Assignments | Relation | links to assignment database |
-| Related Reviews | Relation | links to review database |
+## 40-Minute Session Example
 
-Keep this database small.
-It is the control panel, not the place for every note.
+If you only have 40 minutes today, start with 'Put today’s recall items at the top'. Then record the **today review** result and separate correct items from confused items. Use the final five minutes to write one question that starts the next review. That small closing record prevents the next session from becoming setup time again.
 
-## Database 2. Assignments
+## Record Example
 
-Assignments are deadline-driven.
-They include homework, essays, readings, labs, coding tasks, and project milestones.
+The record does not need to be long. Filling three fields, **today review**, **overdue item**, and **mistake status**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
 
-Useful properties:
+## Checklist
 
-| Property | Type | Purpose |
-| --- | --- | --- |
-| Task | Title | assignment name |
-| Course | Relation | connects to course |
-| Due Date | Date | deadline |
-| Status | Select | not started, doing, submitted |
-| Effort | Select | small, medium, large |
-| Next Step | Text | one concrete action |
-
-The most important view is `Due This Week`.
-Filter it to assignments due in the next seven days and sort by due date.
-
-Do not use vague next steps like "study."
-Use steps like "solve problems 1-10" or "draft introduction."
-
-## Database 3. Review Queue
-
-This is where the dashboard becomes a learning system instead of a task list.
-A review item is anything you need to recall later:
-
-- Formula
-- Vocabulary group
-- Concept
-- Coding pattern
-- Historical date
-- Mistake type
-- Diagram
-
-Useful properties:
-
-| Property | Type | Purpose |
-| --- | --- | --- |
-| Item | Title | what to review |
-| Course | Relation | subject |
-| Review Date | Date | next review |
-| Confidence | Select | low, medium, high |
-| Source | URL or text | note, book, lecture, problem |
-| Result | Select | recalled, slow, missed |
-
-Create filtered views:
-
-- `Review Today`
-- `Review This Week`
-- `Low Confidence`
-- `Missed Last Time`
-
-This supports active recall and spaced repetition.
-You are not just collecting notes.
-You are scheduling retrieval.
-
-## Database 4. Mistake Notes
-
-Mistake notes are different from normal notes.
-They should record the cause of an error and the prevention rule.
-
-Use this structure:
-
-| Property | Type | Purpose |
-| --- | --- | --- |
-| Mistake | Title | short name |
-| Course | Relation | subject |
-| Type | Select | concept, procedure, careless, memory, strategy |
-| Cause | Text | why it happened |
-| Prevention | Text | what to do next time |
-| Retest Date | Date | when to try again |
-
-The prevention field matters most.
-"Be careful" is not a prevention rule.
-"Before differentiating, mark outer and inner functions" is a prevention rule.
-
-## Database 5. Exams
-
-Exam planning should connect deadlines with review pressure.
-Create an `Exams` database with:
-
-- Exam name
-- Course
-- Date
-- Scope
-- Weight
-- Readiness
-- Next mock test date
-
-Then add a dashboard view sorted by date.
-If an exam is close and readiness is low, it should be visible without searching.
-
-## Recommended Dashboard Layout
-
-Use one page with these sections:
-
-```text
-Top row:
-- Due this week
-- Review today
-- Upcoming exams
-
-Middle row:
-- Courses
-- Mistake notes needing retest
-- Low-confidence review items
-
-Bottom row:
-- Weekly study review
-- Completed this week
-- Notes inbox
-```
-
-Avoid putting every database view on the page.
-A dashboard is not an archive.
-It is the place where today's study decisions happen.
-
-## Weekly Workflow
-
-Use the dashboard like this:
-
-```text
-Every morning:
-1. Check Due this week.
-2. Check Review today.
-3. Choose one deep work block.
-
-After study:
-1. Add new weak concepts to Review Queue.
-2. Add repeated mistakes to Mistake Notes.
-3. Update assignment status.
-
-Every weekend:
-1. Run a weekly study review.
-2. Move missed items into next week.
-3. Update course priorities.
-```
-
-This keeps the system alive.
-If you only build the dashboard once and never update it, it becomes a museum.
-
-## Common Mistakes
-
-The first mistake is overbuilding.
-If you need ten minutes to decide where to click, the dashboard is too complex.
-
-The second mistake is mixing notes and tasks in one database.
-Notes are reference material.
-Tasks need due dates and next actions.
-Review items need recall dates.
-
-The third mistake is not using filtered views.
-The same assignment database can show "due today," "due this week," and "submitted" without duplication.
-
-The fourth mistake is tracking too many metrics.
-Track enough to change behavior.
-For most students, deadline, confidence, review date, and mistake type are enough.
-
-## Related Reading
-
-- [Weekly Study Review Template](/en_study/weekly-study-review/)
-- [Spaced Repetition Schedule](/en_study/spaced-repetition-schedule/)
-- [Active Recall Study Method](/en_study/active-recall-study-method/)
-- [Notion Help: Database views](https://www.notion.com/help/views)
-
-## Final Checklist
-
-Before using the dashboard, confirm:
-
-```text
-[ ] Courses are separate from assignments.
-[ ] Review items have a next review date.
-[ ] Mistakes include a cause and prevention rule.
-[ ] The first screen shows this week's real work.
-[ ] Old or completed work is hidden from the main dashboard.
-[ ] The weekend review updates next week's priorities.
-```
-
-A good Notion study dashboard is quiet and useful.
-It should show the next action, not create another place to procrastinate.
+- Before starting, define the **today review** output for today.
+- Before ending, check **overdue item** and mark the next review item.
+- Keep time spent, correct items, and missed items in one table.
+- If the routine is too complex, remove one step and compare again next week.
 
 ## FAQ
 
-### When should I use this guide?
+### Should I apply Notion Study Dashboard: Track Review and Mistakes Before Design to every subject immediately?
 
-Use it when you need to turn reading or watching into output you can recall, explain, or solve later.
+Start with one subject, one unit, and one review cycle. Expand **Notion Study Dashboard: Track Review and Mistakes Before Design** only after the **today review** record is useful in the next session.
 
-### What should beginners verify first?
+### Can this work when study time is short?
 
-Start with one measurable output: a solved problem, a recalled definition, a short explanation, or a corrected mistake note.
+Yes, if the short session still checks **overdue item** and leaves a closing record. In **Notion Study Dashboard: Track Review and Mistakes Before Design**, time alone is not the point; retrieval, feedback, and rescheduling need to be included.
 
-### Which keywords should I search next?
+### Is Notion Study Dashboard: Track Review and Mistakes Before Design failing if scores do not improve immediately?
 
-Search for "Notion Study Dashboard: A Practical Layout for Classes, Reviews, and Exams" together with active recall, spaced repetition, study plan, mistake note, and exam preparation keywords.
+No. **Notion Study Dashboard: Track Review and Mistakes Before Design** first becomes valuable by revealing repeated failure points. Keep the same **today review** measure for two or three weeks before changing the system.
+
+
+## Source Notes
+
+- [EEF Metacognition and Self-Regulation](https://educationendowmentfoundation.org.uk/education-evidence/evidence-reviews/metacognition-and-self-regulation)
+- [IES What Works Clearinghouse Study Guide](https://ies.ed.gov/ncee/wwc/PracticeGuide/1)
+- [Harvard Academic Resource Center](https://academicresourcecenter.harvard.edu/resources/)
+
+## Related Reading
+
+- [Weekly Study Review: Track Recall and Output, Not Only Hours](/en_study/weekly-study-review/)
+- [Writing Revision Study Loop: Draft, Feedback, Rewrite](/en_study/writing-revision-study-loop/)

@@ -1,169 +1,98 @@
 ---
-typora-root-url: ../
 layout: single
 title: >
-  Vocabulary Study System: How to Remember Words with Context and Review
+  English Vocabulary System: Learn Words Through Context and Recall
 seo_title: >
-  Vocabulary Study System
-date: 2026-05-23T23:59:59+09:00
-last_modified_at: 2026-05-23T23:59:59+09:00
+  English Vocabulary System: Learn Words Through Context and Recall
+date: 2026-05-23T07:36:00+09:00
+last_modified_at: 2026-05-23T23:58:00+09:00
 lang: en
-translation_id: english-vocabulary-system
+translation_id: study-english-vocabulary-system
 header:
-   teaser: /images/2026-05-23-english-vocabulary-system/vocabulary-system-hero.png
-   overlay_image: /images/2026-05-23-english-vocabulary-system/vocabulary-system-hero.png
-   overlay_filter: 0.35
-   image_description: >
-     Visual guide explaining Vocabulary Study System: How to Remember Words with Context and Review.
+  teaser: /images/2026-05-23-english-vocabulary-system/hero.png
+  overlay_image: /images/2026-05-23-english-vocabulary-system/hero.png
+  overlay_filter: 0.36
+  image_description: >
+    Study guide image summarizing the learning routine and review signals for this topic.
 excerpt: >
-  Build a vocabulary study system with active recall, example sentences, pronunciation, spaced review, and weekly cleanup instead of memorizing isolated word lists.
+  A vocabulary system should keep examples, self-made sentences, recall dates, and wrong usage, not only translated meanings.
 seo_description: >
-  Build a vocabulary study system with active recall, example sentences, pronunciation, spaced review, and weekly cleanup instead of memorizing isolated word lists.
+  A vocabulary system should keep examples, self-made sentences, recall dates, and wrong usage, not only translated meanings.
 categories:
   - en_Study
 tags:
-  - Study
   - Vocabulary
-  - English
-  - SpacedRepetition
-  - Learning
+  - EnglishStudy
+  - Recall
+  - LanguageLearning
 ---
 
-## Quick Answer
+A study method becomes useful when it leaves an observable signal such as **context sentence**. This guide turns **English Vocabulary System: Learn Words Through Context and Recall** into a routine that can be tested in one session.
 
-A good vocabulary system does not memorize isolated word lists.
-It connects a word to meaning, pronunciation, example sentences, active recall, and spaced review.
-The goal is not only to recognize the word, but to use it correctly.
+A vocabulary system should keep examples, self-made sentences, recall dates, and wrong usage, not only translated meanings.
 
-![Vocabulary study system with flashcards, listening, examples, active recall, and spaced review](/images/2026-05-23-english-vocabulary-system/vocabulary-system-hero.png)
+This article is educational. **English Vocabulary System: Learn Words Through Context and Recall** does not guarantee the same result for every learner, exam, or subject. If sleep, health, anxiety, or attention problems are severe or persistent, consider qualified support from school staff, guardians, or medical professionals.
 
-The image shows the full loop: see the word, connect meaning, hear pronunciation, recall it, use it in context, and review it later.
+![English Vocabulary System: Learn Words Through Context and Recall study routine flow](/images/2026-05-23-english-vocabulary-system/hero.png)
 
-## The Card Format
+## Quick Summary
 
-Use one card per word or phrase.
+Knowing a word means being able to retrieve and use it in context, not only recognizing a translation.
 
-```text
-Word or phrase:
-Meaning:
-Example sentence:
-My sentence:
-Pronunciation note:
-Common mistake:
-Next review:
-```
+This routine is not decoration for a longer study session. It should leave **context sentence** and **self-made sentence** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
 
-Do not write only a translation.
-A translation can help, but it often fails to show usage.
+## Signals To Check First
 
-## What to Learn First
+- **context sentence**: for English Vocabulary System: Learn Words Through Context and Recall, leave this as a record that can be checked in the next review.
+- **self-made sentence**: for English Vocabulary System: Learn Words Through Context and Recall, leave this as a record that can be checked in the next review.
+- **recall date**: for English Vocabulary System: Learn Words Through Context and Recall, leave this as a record that can be checked in the next review.
+- **usage error**: for English Vocabulary System: Learn Words Through Context and Recall, leave this as a record that can be checked in the next review.
 
-Prioritize:
+![English Vocabulary System: Learn Words Through Context and Recall action checklist](/images/2026-05-23-english-vocabulary-system/checklist.png)
 
-- words you see repeatedly
-- words needed for school, work, or exams
-- phrases and collocations
-- confusing pairs
-- words you can use in your own sentence
+## Practical Routine
 
-Do not add every unknown word.
-Too many cards make review impossible.
+- Save an original example sentence for each word.
+- Write one sentence of your own.
+- Test sentence completion rather than only meaning.
 
-## Active Recall Routine
+## 40-Minute Session Example
 
-Review like this:
+If you only have 40 minutes today, start with 'Save an original example sentence for each word'. Then record the **context sentence** result and separate correct items from confused items. Use the final five minutes to write one question that starts the next review. That small closing record prevents the next session from becoming setup time again.
 
-```text
-1. Look at the meaning or example with the target word hidden.
-2. Say or write the word from memory.
-3. Check spelling and pronunciation.
-4. Make one new sentence.
-5. Mark easy, medium, or hard.
-```
+## Record Example
 
-If you only read both sides of the card, you are mostly recognizing.
-Try to produce the word first.
+The record does not need to be long. Filling three fields, **context sentence**, **self-made sentence**, and **recall date**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
 
-## Example
+## Checklist
 
-```text
-Word: sustainable
-Meaning: able to continue over time without causing too much damage or exhaustion
-Example: A sustainable study routine includes breaks.
-My sentence: A sustainable budget leaves room for emergencies.
-Common mistake: Do not use it only for environmental topics.
-Next review: Day 3
-```
-
-This card is useful because it gives context and a personal sentence.
-
-## Weekly Cleanup
-
-Every week:
-
-```text
-1. Delete cards you always know.
-2. Rewrite cards with vague meanings.
-3. Split cards with two words.
-4. Add examples to hard cards.
-5. Archive low-value words.
-```
-
-The system should stay small enough to maintain.
-
-## A 20-Minute Daily Routine
-
-Short repetition is easier to keep than one long vocabulary session.
-If you only have 20 minutes, split it like this:
-
-```text
-5 minutes: recall only yesterday's missed cards
-5 minutes: add 3-5 new words
-5 minutes: write your own sentence for each new word
-5 minutes: listen to pronunciation and read aloud
-```
-
-The goal is not to add as many words as possible.
-The goal is to keep the review queue healthy.
-If you add 30 words today and cannot review them three days later, the system becomes noise.
-If you add five useful words and review them consistently, your usable vocabulary grows.
-
-## When to Delete a Card
-
-A vocabulary system should not grow forever.
-Delete or archive cards when:
-
-- the word is too easy and always correct
-- the word is not connected to your current goal
-- the card has only a translation and no usage
-- several cards repeat the same idea
-- the word is a technical term you will not use
-
-Deleting a card is not failure.
-It makes room for words that matter more.
-
-## Related Posts
-
-- [Active Recall Study Method](/en_study/active-recall-study-method/)
-- [Spaced Repetition Schedule](/en_study/spaced-repetition-schedule/)
-- [Mistake Note System](/en_study/exam-mistake-note-system/)
+- Before starting, define the **context sentence** output for today.
+- Before ending, check **self-made sentence** and mark the next review item.
+- Keep time spent, correct items, and missed items in one table.
+- If the routine is too complex, remove one step and compare again next week.
 
 ## FAQ
 
-### When should I use this guide?
+### Should I apply English Vocabulary System: Learn Words Through Context and Recall to every subject immediately?
 
-Use it when you need to turn reading or watching into output you can recall, explain, or solve later.
+Start with one subject, one unit, and one review cycle. Expand **English Vocabulary System: Learn Words Through Context and Recall** only after the **context sentence** record is useful in the next session.
 
-### What should beginners verify first?
+### Can this work when study time is short?
 
-Start with one measurable output: a solved problem, a recalled definition, a short explanation, or a corrected mistake note.
+Yes, if the short session still checks **self-made sentence** and leaves a closing record. In **English Vocabulary System: Learn Words Through Context and Recall**, time alone is not the point; retrieval, feedback, and rescheduling need to be included.
 
-### Which keywords should I search next?
+### Is English Vocabulary System: Learn Words Through Context and Recall failing if scores do not improve immediately?
 
-Search for "Vocabulary Study System: How to Remember Words with Context and Review" together with active recall, spaced repetition, study plan, mistake note, and exam preparation keywords.
+No. **English Vocabulary System: Learn Words Through Context and Recall** first becomes valuable by revealing repeated failure points. Keep the same **context sentence** measure for two or three weeks before changing the system.
 
-## Sources
 
-- Dunlosky et al., *Improving Students' Learning With Effective Learning Techniques*: https://pubmed.ncbi.nlm.nih.gov/26173288/
-- Carnegie Mellon Eberly Center, Retrieval Practice: https://www.cmu.edu/teaching/resources/instructionalstrategies/activelearningstrategies/retrievalpractice/index.html
-- Cambridge Dictionary, learner examples and pronunciation reference: https://dictionary.cambridge.org/
+## Source Notes
+
+- [IES What Works Clearinghouse Study Guide](https://ies.ed.gov/ncee/wwc/PracticeGuide/1)
+- [EEF Metacognition and Self-Regulation](https://educationendowmentfoundation.org.uk/education-evidence/evidence-reviews/metacognition-and-self-regulation)
+- [Purdue OWL Paraphrasing](https://owl.purdue.edu/owl/research_and_citation/using_research/quoting_paraphrasing_and_summarizing/paraphrasing.html)
+
+## Related Reading
+
+- [Notion Study Dashboard: Track Review and Mistakes Before Design](/en_study/notion-study-dashboard/)
+- [Math Problem-Solving Routine: Read Conditions Before Formulas](/en_study/math-problem-solving-routine/)
