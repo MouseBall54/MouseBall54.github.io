@@ -28,6 +28,9 @@ sidebar-category:
       - title: "Climate & Energy"
         url: /ko_climate_energy/
         category: "ko_Climate_Energy"
+      - title: "Consumer Rights"
+        url: /ko_consumer_rights/
+        category: "ko_Consumer_Rights"
       - title: "Digital Security"
         url: /ko_digital_security/
         category: "ko_Digital_Security"
@@ -61,6 +64,9 @@ sidebar-category:
       - title: "Climate & Energy"
         url: /en_climate_energy/
         category: "en_Climate_Energy"
+      - title: "Consumer Rights"
+        url: /en_consumer_rights/
+        category: "en_Consumer_Rights"
       - title: "Digital Security"
         url: /en_digital_security/
         category: "en_Digital_Security"

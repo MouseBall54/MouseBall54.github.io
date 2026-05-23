@@ -27,11 +27,11 @@ tags:
   - Industry
 ---
 
-Global affairs often looks abstract until it shows up in **export orders, exchange rates, oil prices, food costs, power bills, insurance premiums, and security budgets**.
+Global affairs can look abstract until **transmission investment** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
 
 As renewables and electrification expand, the main question shifts from how much electricity can be generated to where and when it can be delivered reliably.
 
-This briefing does not try to turn a complex issue into one strong prediction. It gives readers a practical order for reading the next update without being pulled around by every headline.
+This briefing treats **The Energy Transition Bottleneck Is the Grid, Not Only Generation** as a transmission problem rather than a one-line forecast. It uses signals such as transmission investment, curtailment rates to help readers separate official data from commentary and decide which follow-up report deserves attention.
 
 ![The Energy Transition Bottleneck Is the Grid, Not Only Generation core flow summary](/images/2026-05-22-energy-transition-grid-bottlenecks/hero.svg)
 
@@ -39,9 +39,7 @@ This briefing does not try to turn a complex issue into one strong prediction. I
 
 Korea's industrial parks, semiconductor clusters, and data-centre plans need to be evaluated alongside grid investment speed.
 
-The defining feature of the 2026 global environment is that shocks rarely stay inside one category. Energy stress can move inflation and trade balances. Trade fragmentation can change investment and jobs. Financial volatility can reduce the room for fiscal support.
-
-That is why this issue should not be read as simply good or bad. The useful question is **direction, duration, and transmission**. A one-day price shock, a quarterly supply disruption, and a permanent rule change require different decisions.
+For this issue, start with **transmission investment**, then check whether **curtailment rates** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
@@ -50,22 +48,22 @@ That is why this issue should not be read as simply good or bad. The useful ques
 - **peak demand**: watch the direction, policy response, and market pricing rather than the number alone.
 - **industrial power contracts**: watch the direction, policy response, and market pricing rather than the number alone.
 
-These indicators should not be read in isolation. A price can rise while inventories absorb the shock. A price can look stable while export controls, insurance costs, or compliance burdens quietly raise corporate costs later.
+Do not read **transmission investment** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
 
 ![The Energy Transition Bottleneck Is the Grid, Not Only Generation signal checklist](/images/2026-05-22-energy-transition-grid-bottlenecks/signal-map.svg)
 
 ## Korea-Facing Angle
 
-Korea is deeply exposed through semiconductors, autos, batteries, refining and petrochemicals, shipping, and financial markets. Domestic news often carries an external cause that is easy to miss.
+Korea is exposed through semiconductors, autos, batteries, refining and petrochemicals, shipping, and financial markets. When **transmission investment** and **curtailment rates** move, a domestic headline may have an external cause that is easy to miss.
 
 Korea's industrial parks, semiconductor clusters, and data-centre plans need to be evaluated alongside grid investment speed.
 
-Household readers can translate the issue into fixed and variable costs. Business readers should check cost, delivery time, FX hedging, and customer-region exposure before looking only at revenue. Policy readers should ask how quickly the announced measure can be funded and implemented.
+Household readers can translate **transmission investment** into living costs, loan rates, or energy bills. Business readers should check cost, delivery time, FX hedging, and customer-region exposure before revenue. Policy readers should ask whether the announced measure has funding and implementation capacity.
 
 ## How To Read The Next Update
 
-1. Decide whether the event is mainly a **price shock** or a **volume shock**.
-2. Check whether it is a short news cycle or a structural change that can last for quarters.
+1. Decide whether **transmission investment** is creating a price shock, a volume shock, or both.
+2. Check whether **curtailment rates** is a short news cycle or a structural change that can last for quarters.
 3. Mark the Korea-facing channel: exports, import prices, financial markets, security costs, or household costs.
 
 ## Reader Checklist

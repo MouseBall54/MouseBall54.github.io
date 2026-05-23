@@ -664,10 +664,142 @@ def related_links(index: int, lang: str) -> str:
     return "\n".join(f"- [{topic['en_title']}](/{{category}}/{topic['slug']}/)".replace("{category}", category_path) for topic in related)
 
 
+def ko_safety_context(topic: dict[str, object]) -> str:
+    title = topic["ko_title"]
+    return (
+        f"이 글은 **{title}** 주제를 이해하기 위한 교육용 정보이며 진단이나 치료 지시가 아닙니다. "
+        "심한 증상, 갑작스러운 악화, 호흡곤란, 흉통, 의식 변화, 자해 생각처럼 "
+        "즉시 안전 문제가 의심되면 지역 응급번호나 의료기관에 바로 도움을 요청해야 합니다."
+    )
+
+
+def ko_intro_context(topic: dict[str, object]) -> str:
+    signal = topic["ko_signals"][0]
+    return (
+        f"건강 리터러시는 스스로 진단하는 기술이 아니라 **{signal}**처럼 관찰 가능한 신호를 기록하고, "
+        "언제 쉬고 언제 전문가에게 확인해야 하는지 구분하는 능력입니다."
+    )
+
+
+def en_intro_context(topic: dict[str, object]) -> str:
+    signal = topic["signals"][0]
+    return (
+        f"Health literacy is not self-diagnosis. It is the ability to track observable signs such as **{signal}**, "
+        "know when rest is reasonable, and know when professional guidance is safer."
+    )
+
+
+def en_safety_context(topic: dict[str, object]) -> str:
+    title = topic["en_title"]
+    return (
+        f"This article is educational and is not diagnosis or treatment advice for **{title}**. "
+        "If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, "
+        "self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional."
+    )
+
+
+def ko_help_context(topic: dict[str, object]) -> str:
+    title = topic["ko_title"]
+    return (
+        f"**{title}**을 점검하는 중 기록 변화가 새롭게 나타나거나 빠르게 악화되거나 일상 기능을 방해한다면 의료진에게 확인하는 편이 안전합니다. "
+        "스스로 안전 여부를 판단하기 어려운 경우에도 기다리는 것보다 상담 경로를 여는 것이 낫습니다."
+    )
+
+
+def en_help_context(topic: dict[str, object]) -> str:
+    title = topic["en_title"]
+    return (
+        f"For **{title}**, if the tracked change is new, rapidly worsening, disrupting daily function, or hard to judge safely, professional guidance is the safer route. "
+        "When the risk is unclear, opening a care channel is better than waiting it out."
+    )
+
+
+def ko_visit_context(topic: dict[str, object]) -> str:
+    signal = topic["ko_signals"][0]
+    return (
+        f"진료 전에는 **{signal}** 관련 기록의 시작 시점, 지속시간, 악화·완화 요인, 동반 증상, 복용 중인 약과 영양제를 적어 두세요. "
+        "이 정보가 있으면 짧은 진료시간에도 핵심을 전달하기 쉽습니다."
+    )
+
+
+def en_visit_context(topic: dict[str, object]) -> str:
+    signal = topic["signals"][0]
+    return (
+        f"Before a visit, write the start date, duration, triggers, relieving factors, related symptoms, and medicines or supplements connected to **{signal}**. "
+        "That makes short appointments more productive."
+    )
+
+
+def ko_record_context(topic: dict[str, object]) -> str:
+    signal = topic["ko_signals"][0]
+    action = topic["ko_actions"][0]
+    return (
+        f"검색 결과를 따라가기보다 **{signal}** 관련 상태의 시작 시점, 빈도, 지속시간, 악화·완화 요인을 같은 형식으로 기록하세요. "
+        f"첫 실행은 {action} 이 기록이 있어야 의료진에게 상황을 짧고 정확하게 전달할 수 있습니다."
+    )
+
+
+def en_record_context(topic: dict[str, object]) -> str:
+    signal = topic["signals"][0]
+    action = topic["en_actions"][0]
+    return (
+        f"Instead of chasing search results, record the start date, frequency, duration, triggers, and relieving factors around **{signal}**. "
+        f"A useful first step is: {action[0].lower() + action[1:]}"
+    )
+
+
+def ko_baseline_context(topic: dict[str, object]) -> str:
+    signals = "·".join(str(signal) for signal in topic["ko_signals"][:2])
+    return (
+        f"**{signals}** 같은 항목을 볼 때 기준은 한 번의 수치보다 반복 패턴, 막연한 느낌보다 일상 기능 변화, 참기보다 안전 신호 확인입니다. "
+        "생활 루틴은 작게 시작하되 경고 신호는 보수적으로 다뤄야 합니다."
+    )
+
+
+def en_baseline_context(topic: dict[str, object]) -> str:
+    signals = ", ".join(str(signal) for signal in topic["signals"][:2])
+    return (
+        f"For **{signals}**, use patterns over one number, daily function over vague feeling, and safety signals over waiting it out. "
+        "Lifestyle routines can start small, but warning signs deserve conservative handling."
+    )
+
+
+def ko_signal_context(topic: dict[str, object]) -> str:
+    signal = topic["ko_signals"][0]
+    return (
+        f"**{signal}** 같은 신호는 혼자 해석하지 않는 편이 안전합니다. 나이, 임신 여부, 기저질환, 복용약, 최근 감염, 외상 여부가 "
+        "같은 증상의 의미를 바꿀 수 있으므로 기록과 전문 상담을 함께 고려해야 합니다."
+    )
+
+
+def en_signal_context(topic: dict[str, object]) -> str:
+    signal = topic["signals"][0]
+    return (
+        f"Do not interpret **{signal}** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury "
+        "can change what the same sign means, so pair records with professional guidance when safety is unclear."
+    )
+
+
+def ko_habit_context(topic: dict[str, object]) -> str:
+    action = topic["ko_actions"][0]
+    return (
+        f"습관은 강한 결심보다 반복 가능한 장치가 오래갑니다. 우선 '{action}'처럼 시간과 장소가 분명한 행동 하나를 정하고, "
+        "기록이 일주일 이상 이어지는지 확인한 뒤 다음 단계를 늘리는 편이 안전합니다."
+    )
+
+
+def en_habit_context(topic: dict[str, object]) -> str:
+    action = topic["en_actions"][0]
+    return (
+        f"Health habits last longer when the first action has a clear time and place. Start with '{action}', "
+        "then expand only after the record is consistent for at least a week."
+    )
+
+
 def ko_post(topic: dict[str, object], index: int) -> str:
     slug = str(topic["slug"])
     image_dir = f"/images/{POST_DATE}-{slug}"
-    signals = "\n".join(f"- **{signal}**: 이 신호가 보이면 기록하고, 악화되거나 안전 문제가 있으면 전문가에게 확인합니다." for signal in topic["ko_signals"])
+    signals = "\n".join(f"- **{signal}**: 이 항목을 같은 조건에서 기록하고, 갑작스러운 변화나 안전 문제가 있으면 전문가에게 확인합니다." for signal in topic["ko_signals"])
     actions = "\n".join(f"- {action}" for action in topic["ko_actions"])
     checklist = "\n".join(f"- {action.replace('합니다.', '했는지 확인합니다.')}" for action in topic["ko_actions"])
     return dedent(f"""\
@@ -697,11 +829,11 @@ def ko_post(topic: dict[str, object], index: int) -> str:
     {yaml_list(topic["tags"])}
     ---
 
-    건강 리터러시는 스스로 진단하는 기술이 아니라 **언제 기록하고, 언제 쉬고, 언제 전문가에게 확인해야 하는지**를 구분하는 능력입니다.
+    {ko_intro_context(topic)}
 
     {topic["ko_summary"]}
 
-    이 글은 교육용 정보이며 진단이나 치료 지시가 아닙니다. 심한 증상, 갑작스러운 악화, 호흡곤란, 흉통, 의식 변화, 자해 생각처럼 안전 문제가 있으면 지역 응급번호나 의료기관에 즉시 도움을 요청해야 합니다.
+    {ko_safety_context(topic)}
 
     ![{topic["ko_title"]} 핵심 건강 흐름]({image_dir}/hero.svg)
 
@@ -709,15 +841,15 @@ def ko_post(topic: dict[str, object], index: int) -> str:
 
     {topic["ko_focus"]}
 
-    건강 정보는 많지만 실제 생활에서는 어떤 정보를 먼저 봐야 할지 헷갈리기 쉽습니다. 검색 결과를 따라가기보다 증상, 기간, 생활패턴, 위험 신호를 같은 형식으로 기록하면 의료진과 대화하기도 쉬워집니다.
+    {ko_record_context(topic)}
 
-    핵심은 **한 번의 숫자보다 패턴**, **느낌보다 기능 변화**, **참는 것보다 안전 신호 확인**입니다. 일상 루틴은 가볍게 시작하되, 경고 신호는 보수적으로 다뤄야 합니다.
+    {ko_baseline_context(topic)}
 
     ## 먼저 볼 신호
 
     {signals}
 
-    신호는 혼자 해석하지 않는 편이 좋습니다. 같은 증상도 나이, 임신 여부, 기저질환, 복용약, 최근 감염, 외상 여부에 따라 의미가 달라질 수 있습니다.
+    {ko_signal_context(topic)}
 
     ![{topic["ko_title"]} 점검 체크리스트]({image_dir}/checklist.svg)
 
@@ -725,13 +857,13 @@ def ko_post(topic: dict[str, object], index: int) -> str:
 
     {actions}
 
-    바꾸려는 습관은 작게 시작하세요. 건강 루틴은 강한 결심보다 반복 가능한 시간, 장소, 기록 방식이 오래갑니다.
+    {ko_habit_context(topic)}
 
     ## 전문가에게 확인할 때
 
-    증상이 새롭거나 빠르게 악화되거나, 일상 기능을 크게 방해하거나, 스스로 안전하다고 판단하기 어렵다면 의료진에게 확인하는 편이 안전합니다.
+    {ko_help_context(topic)}
 
-    진료 전에는 시작 시점, 지속시간, 악화·완화 요인, 동반 증상, 복용 중인 약과 영양제를 적어 두세요. 이 정보가 있으면 짧은 진료시간에도 핵심을 전달하기 쉽습니다.
+    {ko_visit_context(topic)}
 
     ## 월간 점검 체크리스트
 
@@ -752,7 +884,7 @@ def ko_post(topic: dict[str, object], index: int) -> str:
 def en_post(topic: dict[str, object], index: int) -> str:
     slug = str(topic["slug"])
     image_dir = f"/images/{POST_DATE}-{slug}"
-    signals = "\n".join(f"- **{signal}**: record it, and seek professional guidance if it worsens or raises safety concerns." for signal in topic["signals"])
+    signals = "\n".join(f"- **{signal}**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns." for signal in topic["signals"])
     actions = "\n".join(f"- {action}" for action in topic["en_actions"])
     checklist = "\n".join(f"- Confirm that you can: {action[0].lower() + action[1:]}" for action in topic["en_actions"])
     return dedent(f"""\
@@ -782,11 +914,11 @@ def en_post(topic: dict[str, object], index: int) -> str:
     {yaml_list(topic["tags"])}
     ---
 
-    Health literacy is not self-diagnosis. It is the ability to know **what to track, when to rest, and when to ask a professional**.
+    {en_intro_context(topic)}
 
     {topic["en_summary"]}
 
-    This article is educational and is not diagnosis or treatment advice. If symptoms are severe, suddenly worse, involve breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional right away.
+    {en_safety_context(topic)}
 
     ![{topic["en_title"]} core health flow]({image_dir}/hero.svg)
 
@@ -794,15 +926,15 @@ def en_post(topic: dict[str, object], index: int) -> str:
 
     {topic["en_focus"]}
 
-    Health information is abundant, but real life often makes it hard to decide what to check first. A consistent record of symptoms, duration, habits, and warning signs helps you avoid guessing and improves conversations with clinicians.
+    {en_record_context(topic)}
 
-    The useful baseline is **patterns over one number**, **function over vague feeling**, and **safety signals over waiting it out**. Lifestyle routines can start small, but warning signs deserve conservative handling.
+    {en_baseline_context(topic)}
 
     ## Signals To Check First
 
     {signals}
 
-    Signals should not be interpreted in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same symptom means.
+    {en_signal_context(topic)}
 
     ![{topic["en_title"]} checklist]({image_dir}/checklist.svg)
 
@@ -810,13 +942,13 @@ def en_post(topic: dict[str, object], index: int) -> str:
 
     {actions}
 
-    Start small. Health routines last longer when they have a repeatable time, place, and recording method instead of relying on motivation alone.
+    {en_habit_context(topic)}
 
     ## When To Ask For Help
 
-    If a symptom is new, rapidly worsening, disrupting daily function, or hard to judge safely, professional guidance is the safer route.
+    {en_help_context(topic)}
 
-    Before a visit, write the start date, duration, triggers, relieving factors, related symptoms, and all medicines or supplements. That makes short appointments more productive.
+    {en_visit_context(topic)}
 
     ## Monthly Checkup
 

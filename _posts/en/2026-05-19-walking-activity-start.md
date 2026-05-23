@@ -27,11 +27,11 @@ tags:
   - Weight
 ---
 
-Health literacy is not self-diagnosis. It is the ability to know **what to track, when to rest, and when to ask a professional**.
+Health literacy is not self-diagnosis. It is the ability to track observable signs such as **current activity level**, know when rest is reasonable, and know when professional guidance is safer.
 
 Physical activity is easier to sustain when you build small walking blocks from your current baseline instead of starting with an intimidating target.
 
-This article is educational and is not diagnosis or treatment advice. If symptoms are severe, suddenly worse, involve breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional right away.
+This article is educational and is not diagnosis or treatment advice for **Starting a Walking Plan: Build the First Sustainable Week**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
 
 ![Starting a Walking Plan: Build the First Sustainable Week core health flow](/images/2026-05-19-walking-activity-start/hero.svg)
 
@@ -39,18 +39,18 @@ This article is educational and is not diagnosis or treatment advice. If symptom
 
 A perfect plan can fail quickly. In the first week, repeatable time and place matter more than intensity.
 
-Health information is abundant, but real life often makes it hard to decide what to check first. A consistent record of symptoms, duration, habits, and warning signs helps you avoid guessing and improves conversations with clinicians.
+Instead of chasing search results, record the start date, frequency, duration, triggers, and relieving factors around **current activity level**. A useful first step is: record current steps or walking minutes.
 
-The useful baseline is **patterns over one number**, **function over vague feeling**, and **safety signals over waiting it out**. Lifestyle routines can start small, but warning signs deserve conservative handling.
+For **current activity level, fixed time block**, use patterns over one number, daily function over vague feeling, and safety signals over waiting it out. Lifestyle routines can start small, but warning signs deserve conservative handling.
 
 ## Signals To Check First
 
-- **current activity level**: record it, and seek professional guidance if it worsens or raises safety concerns.
-- **fixed time block**: record it, and seek professional guidance if it worsens or raises safety concerns.
-- **breathlessness**: record it, and seek professional guidance if it worsens or raises safety concerns.
-- **pain change**: record it, and seek professional guidance if it worsens or raises safety concerns.
+- **current activity level**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
+- **fixed time block**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
+- **breathlessness**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
+- **pain change**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
 
-Signals should not be interpreted in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same symptom means.
+Do not interpret **current activity level** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
 
 ![Starting a Walking Plan: Build the First Sustainable Week checklist](/images/2026-05-19-walking-activity-start/checklist.svg)
 
@@ -60,13 +60,13 @@ Signals should not be interpreted in isolation. Age, pregnancy, existing conditi
 - Create a fixed block such as 10 minutes after lunch.
 - Track pain and breathlessness as context.
 
-Start small. Health routines last longer when they have a repeatable time, place, and recording method instead of relying on motivation alone.
+Health habits last longer when the first action has a clear time and place. Start with 'Record current steps or walking minutes.', then expand only after the record is consistent for at least a week.
 
 ## When To Ask For Help
 
-If a symptom is new, rapidly worsening, disrupting daily function, or hard to judge safely, professional guidance is the safer route.
+For **Starting a Walking Plan: Build the First Sustainable Week**, if the tracked change is new, rapidly worsening, disrupting daily function, or hard to judge safely, professional guidance is the safer route. When the risk is unclear, opening a care channel is better than waiting it out.
 
-Before a visit, write the start date, duration, triggers, relieving factors, related symptoms, and all medicines or supplements. That makes short appointments more productive.
+Before a visit, write the start date, duration, triggers, relieving factors, related symptoms, and medicines or supplements connected to **current activity level**. That makes short appointments more productive.
 
 ## Monthly Checkup
 

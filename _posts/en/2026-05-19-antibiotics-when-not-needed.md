@@ -27,11 +27,11 @@ tags:
   - Health Literacy
 ---
 
-Health literacy is not self-diagnosis. It is the ability to know **what to track, when to rest, and when to ask a professional**.
+Health literacy is not self-diagnosis. It is the ability to track observable signs such as **possible viral illness**, know when rest is reasonable, and know when professional guidance is safer.
 
 Antibiotics treat bacterial infections and may not help viral illnesses such as common colds, so the right question is when they are actually needed.
 
-This article is educational and is not diagnosis or treatment advice. If symptoms are severe, suddenly worse, involve breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional right away.
+This article is educational and is not diagnosis or treatment advice for **When Antibiotics Are Not Needed: Asking Better Questions About Viral Illness**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
 
 ![When Antibiotics Are Not Needed: Asking Better Questions About Viral Illness core health flow](/images/2026-05-19-antibiotics-when-not-needed/hero.svg)
 
@@ -39,18 +39,18 @@ This article is educational and is not diagnosis or treatment advice. If symptom
 
 Wanting to recover quickly can lead to pressure for antibiotics, but unnecessary use can create side effects and resistance concerns.
 
-Health information is abundant, but real life often makes it hard to decide what to check first. A consistent record of symptoms, duration, habits, and warning signs helps you avoid guessing and improves conversations with clinicians.
+Instead of chasing search results, record the start date, frequency, duration, triggers, and relieving factors around **possible viral illness**. A useful first step is: track duration, fever, and worsening pattern.
 
-The useful baseline is **patterns over one number**, **function over vague feeling**, and **safety signals over waiting it out**. Lifestyle routines can start small, but warning signs deserve conservative handling.
+For **possible viral illness, worsening symptoms**, use patterns over one number, daily function over vague feeling, and safety signals over waiting it out. Lifestyle routines can start small, but warning signs deserve conservative handling.
 
 ## Signals To Check First
 
-- **possible viral illness**: record it, and seek professional guidance if it worsens or raises safety concerns.
-- **worsening symptoms**: record it, and seek professional guidance if it worsens or raises safety concerns.
-- **side effects**: record it, and seek professional guidance if it worsens or raises safety concerns.
-- **use instructions**: record it, and seek professional guidance if it worsens or raises safety concerns.
+- **possible viral illness**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
+- **worsening symptoms**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
+- **side effects**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
+- **use instructions**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
 
-Signals should not be interpreted in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same symptom means.
+Do not interpret **possible viral illness** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
 
 ![When Antibiotics Are Not Needed: Asking Better Questions About Viral Illness checklist](/images/2026-05-19-antibiotics-when-not-needed/checklist.svg)
 
@@ -60,13 +60,13 @@ Signals should not be interpreted in isolation. Age, pregnancy, existing conditi
 - Ask what evidence suggests antibiotics are needed.
 - If prescribed, take them as directed.
 
-Start small. Health routines last longer when they have a repeatable time, place, and recording method instead of relying on motivation alone.
+Health habits last longer when the first action has a clear time and place. Start with 'Track duration, fever, and worsening pattern.', then expand only after the record is consistent for at least a week.
 
 ## When To Ask For Help
 
-If a symptom is new, rapidly worsening, disrupting daily function, or hard to judge safely, professional guidance is the safer route.
+For **When Antibiotics Are Not Needed: Asking Better Questions About Viral Illness**, if the tracked change is new, rapidly worsening, disrupting daily function, or hard to judge safely, professional guidance is the safer route. When the risk is unclear, opening a care channel is better than waiting it out.
 
-Before a visit, write the start date, duration, triggers, relieving factors, related symptoms, and all medicines or supplements. That makes short appointments more productive.
+Before a visit, write the start date, duration, triggers, relieving factors, related symptoms, and medicines or supplements connected to **possible viral illness**. That makes short appointments more productive.
 
 ## Monthly Checkup
 

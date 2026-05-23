@@ -27,11 +27,11 @@ tags:
   - Planning
 ---
 
-Personal finance is less about guessing returns and more about managing **cash flow, debt cost, risk buffers, and time horizon** consistently.
+Personal finance is less about guessing returns and more about managing how **time horizon** affects cash flow, debt cost, risk buffers, and time horizon.
 
 Rent-vs-buy decisions should compare time horizon, upfront cost, debt load, mobility, and repair responsibility before price forecasts.
 
-This article is educational and is not individualized financial advice or a product recommendation. It uses official-source guidance to organize the questions to ask before deciding.
+This article is educational and is not individualized financial advice or a product recommendation for **Rent vs Buy Framework: Cash Flow Before Price Forecasts**. It uses official-source guidance and basic calculations so readers can start by checking **time horizon**.
 
 ![Rent vs Buy Framework: Cash Flow Before Price Forecasts core finance flow](/images/2026-05-20-rent-vs-buy-framework/hero.svg)
 
@@ -39,9 +39,7 @@ This article is educational and is not individualized financial advice or a prod
 
 Buying can feel like forced saving but reduces liquidity and concentrates risk. Renting can feel like cost but preserves flexibility and cash.
 
-Money problems often grow from accumulated small gaps rather than one dramatic mistake. Missing due dates, ignoring fees, or mixing time horizons can reduce options even when income stays the same.
-
-The first thing to identify is not the product name but **where the number belongs**. When will this money be needed, what is the cost of being wrong, and how long would recovery take?
+The first question is where **time horizon** belongs: monthly budget, emergency cash, debt, or a long-term goal. Start with 'Define the minimum expected stay first', then write the cost of being wrong and the time needed to recover.
 
 ## Numbers To Check First
 
@@ -50,7 +48,7 @@ The first thing to identify is not the product name but **where the number belon
 - **monthly housing cost**: when this changes, check whether the impact hits budget, debt, savings, or long-term goals.
 - **mobility need**: when this changes, check whether the impact hits budget, debt, savings, or long-term goals.
 
-Numbers do not answer the question alone. The same rate changes with term length. The same saving rate behaves differently when there is no emergency buffer.
+Read **time horizon** together with **upfront cash**. One rate or return can look simple, but term length, fees, taxes, and cash-flow buffer can turn the same number into a very different burden.
 
 ![Rent vs Buy Framework: Cash Flow Before Price Forecasts action checklist](/images/2026-05-20-rent-vs-buy-framework/checklist.svg)
 
@@ -60,13 +58,13 @@ Numbers do not answer the question alone. The same rate changes with term length
 - Calculate upfront costs and opportunity costs.
 - Put repair risk and mobility into numbers.
 
-Do not try to fix every part of the system in one month. One automated transfer, one bill due date, or one debt line can make next month's decision clearer.
+Do not try to fix every part of the system in one month. Start with one visible change such as 'Define the minimum expected stay first', then use next month's data to decide the next adjustment.
 
 ## Common Mistakes
 
-The most common mistake is focusing only on visible numbers such as monthly payment, expected return, or discount rate. Real decisions also include total cost, fees, taxes, liquidity, and behavioral sustainability.
+The common mistake is focusing on **time horizon** while missing total cost. Calculate upfront costs and opportunity costs. Then compare monthly payment, total cost, fees, taxes, liquidity, and behavioral sustainability in one table.
 
-When debt and investing overlap, avoid mixing high-rate debt, emergency cash, and long-term investments into one mental bucket. Short-term money and long-term money need different rules.
+When **time horizon** touches both debt and investing decisions, separate short-term money from long-term money. High-rate debt, emergency cash, and long-term investments need different rules even when they appear on the same dashboard.
 
 ## Monthly Checkup
 

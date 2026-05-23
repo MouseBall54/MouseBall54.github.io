@@ -27,11 +27,11 @@ tags:
   - BIS
 ---
 
-Global affairs often looks abstract until it shows up in **export orders, exchange rates, oil prices, food costs, power bills, insurance premiums, and security budgets**.
+Global affairs can look abstract until **reserve assets** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
 
 The BIS discussion of next-generation money treats tokenisation and stablecoins as questions about central bank money, bank deposits, and government bond markets.
 
-This briefing does not try to turn a complex issue into one strong prediction. It gives readers a practical order for reading the next update without being pulled around by every headline.
+This briefing treats **Stablecoins and Monetary Sovereignty: The Policy Questions Behind Payment Innovation** as a transmission problem rather than a one-line forecast. It uses signals such as reserve assets, redemption rules to help readers separate official data from commentary and decide which follow-up report deserves attention.
 
 ![Stablecoins and Monetary Sovereignty: The Policy Questions Behind Payment Innovation core flow summary](/images/2026-05-22-stablecoins-monetary-sovereignty/hero.svg)
 
@@ -39,9 +39,7 @@ This briefing does not try to turn a complex issue into one strong prediction. I
 
 Korea may have to connect won payment infrastructure, foreign-currency stablecoin use, crypto regulation, and bank-liquidity management.
 
-The defining feature of the 2026 global environment is that shocks rarely stay inside one category. Energy stress can move inflation and trade balances. Trade fragmentation can change investment and jobs. Financial volatility can reduce the room for fiscal support.
-
-That is why this issue should not be read as simply good or bad. The useful question is **direction, duration, and transmission**. A one-day price shock, a quarterly supply disruption, and a permanent rule change require different decisions.
+For this issue, start with **reserve assets**, then check whether **redemption rules** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
@@ -50,22 +48,22 @@ That is why this issue should not be read as simply good or bad. The useful ques
 - **bank deposit shifts**: watch the direction, policy response, and market pricing rather than the number alone.
 - **cross-border payments**: watch the direction, policy response, and market pricing rather than the number alone.
 
-These indicators should not be read in isolation. A price can rise while inventories absorb the shock. A price can look stable while export controls, insurance costs, or compliance burdens quietly raise corporate costs later.
+Do not read **reserve assets** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
 
 ![Stablecoins and Monetary Sovereignty: The Policy Questions Behind Payment Innovation signal checklist](/images/2026-05-22-stablecoins-monetary-sovereignty/signal-map.svg)
 
 ## Korea-Facing Angle
 
-Korea is deeply exposed through semiconductors, autos, batteries, refining and petrochemicals, shipping, and financial markets. Domestic news often carries an external cause that is easy to miss.
+Korea is exposed through semiconductors, autos, batteries, refining and petrochemicals, shipping, and financial markets. When **reserve assets** and **redemption rules** move, a domestic headline may have an external cause that is easy to miss.
 
 Korea may have to connect won payment infrastructure, foreign-currency stablecoin use, crypto regulation, and bank-liquidity management.
 
-Household readers can translate the issue into fixed and variable costs. Business readers should check cost, delivery time, FX hedging, and customer-region exposure before looking only at revenue. Policy readers should ask how quickly the announced measure can be funded and implemented.
+Household readers can translate **reserve assets** into living costs, loan rates, or energy bills. Business readers should check cost, delivery time, FX hedging, and customer-region exposure before revenue. Policy readers should ask whether the announced measure has funding and implementation capacity.
 
 ## How To Read The Next Update
 
-1. Decide whether the event is mainly a **price shock** or a **volume shock**.
-2. Check whether it is a short news cycle or a structural change that can last for quarters.
+1. Decide whether **reserve assets** is creating a price shock, a volume shock, or both.
+2. Check whether **redemption rules** is a short news cycle or a structural change that can last for quarters.
 3. Mark the Korea-facing channel: exports, import prices, financial markets, security costs, or household costs.
 
 ## Reader Checklist

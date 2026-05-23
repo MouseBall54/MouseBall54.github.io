@@ -27,11 +27,11 @@ tags:
   - Personal Finance
 ---
 
-Personal finance is less about guessing returns and more about managing **cash flow, debt cost, risk buffers, and time horizon** consistently.
+Personal finance is less about guessing returns and more about managing how **goal date** affects cash flow, debt cost, risk buffers, and time horizon.
 
 Long-term goals can fall short if based only on today's prices. Education, housing, and retirement needs should include inflation and time.
 
-This article is educational and is not individualized financial advice or a product recommendation. It uses official-source guidance to organize the questions to ask before deciding.
+This article is educational and is not individualized financial advice or a product recommendation for **Inflation-Adjusted Goals: Today's Amount Is Not Tomorrow's Buying Power**. It uses official-source guidance and basic calculations so readers can start by checking **goal date**.
 
 ![Inflation-Adjusted Goals: Today's Amount Is Not Tomorrow's Buying Power core finance flow](/images/2026-05-20-inflation-adjusted-goals/hero.svg)
 
@@ -39,9 +39,7 @@ This article is educational and is not individualized financial advice or a prod
 
 Even modest annual inflation can materially change a 10- or 20-year target. Separate nominal amounts from real purchasing power.
 
-Money problems often grow from accumulated small gaps rather than one dramatic mistake. Missing due dates, ignoring fees, or mixing time horizons can reduce options even when income stays the same.
-
-The first thing to identify is not the product name but **where the number belongs**. When will this money be needed, what is the cost of being wrong, and how long would recovery take?
+The first question is where **goal date** belongs: monthly budget, emergency cash, debt, or a long-term goal. Start with 'Write the goal date and current cost', then write the cost of being wrong and the time needed to recover.
 
 ## Numbers To Check First
 
@@ -50,7 +48,7 @@ The first thing to identify is not the product name but **where the number belon
 - **inflation assumption**: when this changes, check whether the impact hits budget, debt, savings, or long-term goals.
 - **saving rate**: when this changes, check whether the impact hits budget, debt, savings, or long-term goals.
 
-Numbers do not answer the question alone. The same rate changes with term length. The same saving rate behaves differently when there is no emergency buffer.
+Read **goal date** together with **current cost**. One rate or return can look simple, but term length, fees, taxes, and cash-flow buffer can turn the same number into a very different burden.
 
 ![Inflation-Adjusted Goals: Today's Amount Is Not Tomorrow's Buying Power action checklist](/images/2026-05-20-inflation-adjusted-goals/checklist.svg)
 
@@ -60,13 +58,13 @@ Numbers do not answer the question alone. The same rate changes with term length
 - Apply conservative inflation scenarios.
 - Update target amount and saving rate annually.
 
-Do not try to fix every part of the system in one month. One automated transfer, one bill due date, or one debt line can make next month's decision clearer.
+Do not try to fix every part of the system in one month. Start with one visible change such as 'Write the goal date and current cost', then use next month's data to decide the next adjustment.
 
 ## Common Mistakes
 
-The most common mistake is focusing only on visible numbers such as monthly payment, expected return, or discount rate. Real decisions also include total cost, fees, taxes, liquidity, and behavioral sustainability.
+The common mistake is focusing on **goal date** while missing total cost. Apply conservative inflation scenarios. Then compare monthly payment, total cost, fees, taxes, liquidity, and behavioral sustainability in one table.
 
-When debt and investing overlap, avoid mixing high-rate debt, emergency cash, and long-term investments into one mental bucket. Short-term money and long-term money need different rules.
+When **goal date** touches both debt and investing decisions, separate short-term money from long-term money. High-rate debt, emergency cash, and long-term investments need different rules even when they appear on the same dashboard.
 
 ## Monthly Checkup
 

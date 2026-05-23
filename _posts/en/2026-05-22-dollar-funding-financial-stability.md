@@ -27,11 +27,11 @@ tags:
   - Capital Flows
 ---
 
-Global affairs often looks abstract until it shows up in **export orders, exchange rates, oil prices, food costs, power bills, insurance premiums, and security budgets**.
+Global affairs can look abstract until **cross-currency basis** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
 
 The BIS highlights trade tensions, non-bank finance, and monetary-system change. Dollar funding costs are one of the fastest signals of that connectivity.
 
-This briefing does not try to turn a complex issue into one strong prediction. It gives readers a practical order for reading the next update without being pulled around by every headline.
+This briefing treats **Dollar Funding and Financial Stability: How Geopolitics Gets Translated Into FX** as a transmission problem rather than a one-line forecast. It uses signals such as cross-currency basis, Treasury yields to help readers separate official data from commentary and decide which follow-up report deserves attention.
 
 ![Dollar Funding and Financial Stability: How Geopolitics Gets Translated Into FX core flow summary](/images/2026-05-22-dollar-funding-financial-stability/hero.svg)
 
@@ -39,9 +39,7 @@ This briefing does not try to turn a complex issue into one strong prediction. I
 
 For Korea, global pressure rises when USD/KRW, foreign portfolio flows, and corporate dollar debt move in the same direction.
 
-The defining feature of the 2026 global environment is that shocks rarely stay inside one category. Energy stress can move inflation and trade balances. Trade fragmentation can change investment and jobs. Financial volatility can reduce the room for fiscal support.
-
-That is why this issue should not be read as simply good or bad. The useful question is **direction, duration, and transmission**. A one-day price shock, a quarterly supply disruption, and a permanent rule change require different decisions.
+For this issue, start with **cross-currency basis**, then check whether **Treasury yields** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
@@ -50,22 +48,22 @@ That is why this issue should not be read as simply good or bad. The useful ques
 - **portfolio flows**: watch the direction, policy response, and market pricing rather than the number alone.
 - **bank dollar liquidity**: watch the direction, policy response, and market pricing rather than the number alone.
 
-These indicators should not be read in isolation. A price can rise while inventories absorb the shock. A price can look stable while export controls, insurance costs, or compliance burdens quietly raise corporate costs later.
+Do not read **cross-currency basis** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
 
 ![Dollar Funding and Financial Stability: How Geopolitics Gets Translated Into FX signal checklist](/images/2026-05-22-dollar-funding-financial-stability/signal-map.svg)
 
 ## Korea-Facing Angle
 
-Korea is deeply exposed through semiconductors, autos, batteries, refining and petrochemicals, shipping, and financial markets. Domestic news often carries an external cause that is easy to miss.
+Korea is exposed through semiconductors, autos, batteries, refining and petrochemicals, shipping, and financial markets. When **cross-currency basis** and **Treasury yields** move, a domestic headline may have an external cause that is easy to miss.
 
 For Korea, global pressure rises when USD/KRW, foreign portfolio flows, and corporate dollar debt move in the same direction.
 
-Household readers can translate the issue into fixed and variable costs. Business readers should check cost, delivery time, FX hedging, and customer-region exposure before looking only at revenue. Policy readers should ask how quickly the announced measure can be funded and implemented.
+Household readers can translate **cross-currency basis** into living costs, loan rates, or energy bills. Business readers should check cost, delivery time, FX hedging, and customer-region exposure before revenue. Policy readers should ask whether the announced measure has funding and implementation capacity.
 
 ## How To Read The Next Update
 
-1. Decide whether the event is mainly a **price shock** or a **volume shock**.
-2. Check whether it is a short news cycle or a structural change that can last for quarters.
+1. Decide whether **cross-currency basis** is creating a price shock, a volume shock, or both.
+2. Check whether **Treasury yields** is a short news cycle or a structural change that can last for quarters.
 3. Mark the Korea-facing channel: exports, import prices, financial markets, security costs, or household costs.
 
 ## Reader Checklist

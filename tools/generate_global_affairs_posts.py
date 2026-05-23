@@ -102,14 +102,14 @@ SOURCES = {
         "url": "https://unctad.org/publication/world-investment-report-2025",
     },
     "kdi_outlook": {
-        "ko": "KDI Economic Outlook 2026, 1st Half",
-        "en": "KDI Economic Outlook 2026, 1st Half",
-        "url": "https://www.kdi.re.kr/eng/research/economy?pub_no=19180",
+        "ko": "Korea.net KDI 2026 Growth Forecast Summary",
+        "en": "Korea.net KDI 2026 Growth Forecast Summary",
+        "url": "https://www.korea.net/NewsFocus/Business/view?articleId=292334&koreanId=292313",
     },
     "motir_exports": {
-        "ko": "Korea MOTIR March 2026 Export Release",
-        "en": "Korea MOTIR March 2026 Export Release",
-        "url": "https://english.motir.go.kr/eng/article/EATCLdfa319ada/2559/view",
+        "ko": "Korea.net March 2026 Export Summary",
+        "en": "Korea.net March 2026 Export Summary",
+        "url": "https://www.korea.net/NewsFocus/Business/view?articleId=289960",
     },
     "cisa_infra": {
         "ko": "CISA Critical Infrastructure Security and Resilience",
@@ -591,6 +591,138 @@ def related_links(index: int, lang: str) -> str:
     return "\n".join(f"- [{topic['en_title']}](/{{category}}/{topic['slug']}/)".replace("{category}", category_path) for topic in related)
 
 
+def ko_issue_frame(topic: dict[str, object]) -> str:
+    title = topic["ko_title"]
+    signals = "·".join(str(signal) for signal in topic["ko_signals"][:2])
+    return (
+        f"이 글은 **{title}**을 단일 전망으로 단정하지 않고, {signals} 같은 관찰 지점을 통해 "
+        "다음 뉴스의 파급 경로를 추적하도록 설계한 브리핑입니다. 공식 자료의 숫자와 해설 기사의 해석을 "
+        "분리해서 읽는 것이 핵심입니다."
+    )
+
+
+def ko_intro_context(topic: dict[str, object]) -> str:
+    first = topic["ko_signals"][0]
+    return (
+        f"세계정세는 멀리 있는 뉴스처럼 보이지만 **{first}**이 움직이면 수출 주문, 환율, 원자재 가격, "
+        "안보 비용, 생활비로 빠르게 번역됩니다. 이 글은 그 연결 고리를 한국 독자 관점에서 짧게 분해합니다."
+    )
+
+
+def en_intro_context(topic: dict[str, object]) -> str:
+    first = topic["signals"][0]
+    return (
+        f"Global affairs can look abstract until **{first}** changes and flows into export orders, exchange rates, "
+        "energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals."
+    )
+
+
+def en_issue_frame(topic: dict[str, object]) -> str:
+    title = topic["en_title"]
+    signals = ", ".join(str(signal) for signal in topic["signals"][:2])
+    return (
+        f"This briefing treats **{title}** as a transmission problem rather than a one-line forecast. "
+        f"It uses signals such as {signals} to help readers separate official data from commentary "
+        "and decide which follow-up report deserves attention."
+    )
+
+
+def ko_transmission_frame(topic: dict[str, object]) -> str:
+    first = topic["ko_signals"][0]
+    second = topic["ko_signals"][1]
+    return (
+        f"이 사안은 먼저 **{first}**의 방향을 보고, 이어서 **{second}**가 가격·물량·정책 대응 중 어디로 "
+        "번지는지 확인해야 합니다. 같은 headline이라도 일시적 가격 충격, 분기 단위 공급 차질, 장기 제도 변화는 "
+        "한국 기업과 가계에 전혀 다른 의사결정을 요구합니다."
+    )
+
+
+def en_transmission_frame(topic: dict[str, object]) -> str:
+    first = topic["signals"][0]
+    second = topic["signals"][1]
+    return (
+        f"For this issue, start with **{first}**, then check whether **{second}** is moving through prices, "
+        "physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long "
+        "supply disruption, and a permanent rule change require different decisions."
+    )
+
+
+def ko_signal_context(topic: dict[str, object]) -> str:
+    first = topic["ko_signals"][0]
+    return (
+        f"특히 **{first}** 신호는 단독으로 보지 말고 발표 기준일, 재고 수준, 정책 발표 시차와 함께 봐야 합니다. "
+        "가격이 안정되어 보여도 보험료, 규제 준수 비용, 운송 지연이 늦게 반영될 수 있습니다."
+    )
+
+
+def en_signal_context(topic: dict[str, object]) -> str:
+    first = topic["signals"][0]
+    return (
+        f"Do not read **{first}** alone. Check the reference date, inventory cushion, policy lag, and whether "
+        "insurance, compliance, or shipping costs are being passed through with a delay."
+    )
+
+
+def ko_korea_exposure(topic: dict[str, object]) -> str:
+    first = topic["ko_signals"][0]
+    second = topic["ko_signals"][1]
+    return (
+        f"한국 경제는 반도체, 자동차, 배터리, 정유·석화, 해운, 금융시장으로 외부 충격을 받아들입니다. "
+        f"따라서 **{first}**, **{second}** 두 신호가 움직일 때 국내 기사만 보면 원인을 놓치기 쉽습니다."
+    )
+
+
+def en_korea_exposure(topic: dict[str, object]) -> str:
+    first = topic["signals"][0]
+    second = topic["signals"][1]
+    return (
+        f"Korea is exposed through semiconductors, autos, batteries, refining and petrochemicals, shipping, and financial markets. "
+        f"When **{first}** and **{second}** move, a domestic headline may have an external cause that is easy to miss."
+    )
+
+
+def ko_reader_context(topic: dict[str, object]) -> str:
+    first = topic["ko_signals"][0]
+    return (
+        f"개인 독자는 **{first}** 변화가 생활비, 대출금리, 에너지 비용 중 어디에 먼저 닿는지 표시하면 됩니다. "
+        "기업 독자는 매출 전망보다 원가, 납기, 환헤지, 고객 지역 노출도를 먼저 점검하고, 정책 독자는 발표 목표보다 "
+        "집행 속도와 재원 조달 방식을 확인해야 합니다."
+    )
+
+
+def ko_reading_order(topic: dict[str, object]) -> str:
+    first = topic["ko_signals"][0]
+    second = topic["ko_signals"][1]
+    return "\n".join(
+        [
+            f"1. 먼저 **{first}** 변화가 가격 충격인지 물량 충격인지 구분합니다.",
+            f"2. 이어서 **{second}**가 하루짜리 headline인지 분기 단위 구조 변화인지 확인합니다.",
+            "3. 마지막으로 한국에 들어오는 경로를 수출, 수입물가, 금융시장, 안보비용, 생활비 중 하나로 표시합니다.",
+        ]
+    )
+
+
+def en_reader_context(topic: dict[str, object]) -> str:
+    first = topic["signals"][0]
+    return (
+        f"Household readers can translate **{first}** into living costs, loan rates, or energy bills. Business "
+        "readers should check cost, delivery time, FX hedging, and customer-region exposure before revenue. "
+        "Policy readers should ask whether the announced measure has funding and implementation capacity."
+    )
+
+
+def en_reading_order(topic: dict[str, object]) -> str:
+    first = topic["signals"][0]
+    second = topic["signals"][1]
+    return "\n".join(
+        [
+            f"1. Decide whether **{first}** is creating a price shock, a volume shock, or both.",
+            f"2. Check whether **{second}** is a short news cycle or a structural change that can last for quarters.",
+            "3. Mark the Korea-facing channel: exports, import prices, financial markets, security costs, or household costs.",
+        ]
+    )
+
+
 def ko_post(topic: dict[str, object], index: int) -> str:
     slug = str(topic["slug"])
     image_dir = f"/images/{POST_DATE}-{slug}"
@@ -624,11 +756,11 @@ def ko_post(topic: dict[str, object], index: int) -> str:
     {yaml_list(topic["tags"])}
     ---
 
-    세계정세는 멀리 있는 뉴스처럼 보이지만 실제로는 **수출 주문, 환율, 유가, 식품 가격, 전기요금, 안보 비용**으로 번역되어 생활과 기업 실적에 들어옵니다.
+    {ko_intro_context(topic)}
 
     {topic["ko_summary"]}
 
-    이 글은 한 가지 결론을 강하게 주장하기보다, 독자가 다음 뉴스를 볼 때 무엇을 먼저 확인해야 하는지 정리하는 실전형 브리핑입니다.
+    {ko_issue_frame(topic)}
 
     ![{topic["ko_title"]} 핵심 흐름 요약]({image_dir}/hero.svg)
 
@@ -636,31 +768,27 @@ def ko_post(topic: dict[str, object], index: int) -> str:
 
     {topic["ko_angle"]}
 
-    2026년의 세계정세는 사건 하나가 한 분야에만 머물지 않는다는 점이 특징입니다. 에너지 충격은 물가와 무역수지를 흔들고, 무역 분절화는 투자와 고용으로 번지며, 금융시장의 불안은 다시 정책 여력을 줄입니다.
-
-    그래서 이 주제는 단순히 “좋다” 또는 “나쁘다”로 읽으면 안 됩니다. **충격의 방향, 지속 기간, 한국으로 전달되는 경로**를 나누어야 합니다. 같은 뉴스라도 단기 가격 충격인지, 공급망 구조 변화인지, 제도 변화인지에 따라 대응이 완전히 달라집니다.
+    {ko_transmission_frame(topic)}
 
     ## 핵심 신호
 
     {signal_items}
 
-    위 신호는 단독으로 해석하지 않는 편이 좋습니다. 예를 들어 가격이 오르더라도 재고가 충분하면 충격은 짧을 수 있고, 반대로 가격이 안정되어도 수출통제나 보험료가 올라가면 기업 비용은 늦게 상승할 수 있습니다.
+    {ko_signal_context(topic)}
 
     ![{topic["ko_title"]} 신호 점검표]({image_dir}/signal-map.svg)
 
     ## 한국 독자 관점
 
-    한국 경제는 반도체, 자동차, 배터리, 정유·석화, 해운, 금융시장이 세계 흐름에 깊게 연결되어 있습니다. 따라서 국내 뉴스만 보아서는 원인을 놓치기 쉽습니다.
+    {ko_korea_exposure(topic)}
 
     {topic["ko_angle"]}
 
-    개인 독자라면 이 주제를 가계부의 고정비와 변동비로 번역해 볼 수 있습니다. 기업 독자라면 매출보다 먼저 원가, 납기, 환헤지, 고객 지역 노출도를 확인해야 합니다. 정책 뉴스라면 목표보다 집행 속도와 재원 조달 방식을 봐야 합니다.
+    {ko_reader_context(topic)}
 
     ## 다음 뉴스를 읽는 순서
 
-    1. 먼저 이슈가 **가격 충격**인지 **물량 충격**인지 구분합니다.
-    2. 그다음 충격이 하루짜리 뉴스인지, 분기 단위로 이어질 구조 변화인지 확인합니다.
-    3. 마지막으로 한국에 들어오는 경로를 수출, 수입물가, 금융시장, 안보비용, 생활비 중 하나로 표시합니다.
+    {ko_reading_order(topic)}
 
     ## 독자 체크리스트
 
@@ -711,11 +839,11 @@ def en_post(topic: dict[str, object], index: int) -> str:
     {yaml_list(topic["tags"])}
     ---
 
-    Global affairs often looks abstract until it shows up in **export orders, exchange rates, oil prices, food costs, power bills, insurance premiums, and security budgets**.
+    {en_intro_context(topic)}
 
     {topic["en_summary"]}
 
-    This briefing does not try to turn a complex issue into one strong prediction. It gives readers a practical order for reading the next update without being pulled around by every headline.
+    {en_issue_frame(topic)}
 
     ![{topic["en_title"]} core flow summary]({image_dir}/hero.svg)
 
@@ -723,31 +851,27 @@ def en_post(topic: dict[str, object], index: int) -> str:
 
     {topic["en_angle"]}
 
-    The defining feature of the 2026 global environment is that shocks rarely stay inside one category. Energy stress can move inflation and trade balances. Trade fragmentation can change investment and jobs. Financial volatility can reduce the room for fiscal support.
-
-    That is why this issue should not be read as simply good or bad. The useful question is **direction, duration, and transmission**. A one-day price shock, a quarterly supply disruption, and a permanent rule change require different decisions.
+    {en_transmission_frame(topic)}
 
     ## Current Signals To Watch
 
     {signal_items}
 
-    These indicators should not be read in isolation. A price can rise while inventories absorb the shock. A price can look stable while export controls, insurance costs, or compliance burdens quietly raise corporate costs later.
+    {en_signal_context(topic)}
 
     ![{topic["en_title"]} signal checklist]({image_dir}/signal-map.svg)
 
     ## Korea-Facing Angle
 
-    Korea is deeply exposed through semiconductors, autos, batteries, refining and petrochemicals, shipping, and financial markets. Domestic news often carries an external cause that is easy to miss.
+    {en_korea_exposure(topic)}
 
     {topic["en_angle"]}
 
-    Household readers can translate the issue into fixed and variable costs. Business readers should check cost, delivery time, FX hedging, and customer-region exposure before looking only at revenue. Policy readers should ask how quickly the announced measure can be funded and implemented.
+    {en_reader_context(topic)}
 
     ## How To Read The Next Update
 
-    1. Decide whether the event is mainly a **price shock** or a **volume shock**.
-    2. Check whether it is a short news cycle or a structural change that can last for quarters.
-    3. Mark the Korea-facing channel: exports, import prices, financial markets, security costs, or household costs.
+    {en_reading_order(topic)}
 
     ## Reader Checklist
 

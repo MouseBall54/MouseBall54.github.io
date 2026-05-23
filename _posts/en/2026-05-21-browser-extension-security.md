@@ -27,11 +27,11 @@ tags:
   - Account Security
 ---
 
-Digital security is not only for specialists. One account, one message, or one missing backup can affect **money, privacy, family safety, and business continuity**.
+Digital security is not only for specialists. A small signal such as **all-sites permission** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
 
 Browser extensions can access pages and sessions, so permissions, developer trust, and update history matter more than install count alone.
 
-This guide avoids product recommendations. It focuses on practical routines and response steps that work when the situation is already stressful.
+This guide is not a product recommendation. It turns **all-sites permission** into a response routine, starting with: remove extensions you no longer use.
 
 ![Browser Extension Security: Where Convenience Turns Into Account Risk core security flow](/images/2026-05-21-browser-extension-security/hero.svg)
 
@@ -39,9 +39,9 @@ This guide avoids product recommendations. It focuses on practical routines and 
 
 Extensions with broad site access can expose inputs, cookies, and work-page content.
 
-Most attacks start with emotion and habit before they require advanced technology. They create urgency, reduce verification time, and move users away from trusted paths into links, attachments, calls, or chat instructions.
+This attack pattern works by pulling users away from normal routes. When **all-sites permission** appears, do not solve the problem inside the message thread. Instead, separate broad-permission extensions from work browsers so evidence and recovery options stay under your control.
 
-The useful baseline is **pause, verify separately, preserve records, and keep recovery possible**. Those four habits reduce damage even when a mistake has already happened.
+For **all-sites permission, developer change**, the baseline is pause, verify separately, preserve records, and keep recovery possible. Even without deep technical knowledge, those steps slow account takeover and financial loss.
 
 ## Warning Signals To Check First
 
@@ -50,7 +50,7 @@ The useful baseline is **pause, verify separately, preserve records, and keep re
 - **review swing**: pause immediately and verify through a trusted route.
 - **shared work browser**: pause immediately and verify through a trusted route.
 
-A warning signal does not always mean you should delete everything immediately. First capture the evidence, then verify through a controlled route such as the official app, a saved bookmark, or a known phone number.
+A signal such as **all-sites permission** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: remove extensions you no longer use.
 
 ![Browser Extension Security: Where Convenience Turns Into Account Risk response checklist](/images/2026-05-21-browser-extension-security/checklist.svg)
 
@@ -60,13 +60,13 @@ A warning signal does not always mean you should delete everything immediately. 
 - Separate broad-permission extensions from work browsers.
 - Review developer changes and recent reviews.
 
-If the risk affects family or a team, use the same rule together. A shared verification phrase is more reliable than expecting everyone to improvise under pressure.
+If family members or teammates are involved, share one verification phrase and one pause rule. A simple rule such as 'Remove extensions you no longer use' is easier to follow under pressure than improvising.
 
 ## If You Already Made a Mistake
 
-If you entered information or opened a suspicious file, do not hide it. Change passwords, review payment methods, and check connected devices and login history.
+If you already acted on **all-sites permission**, organize the timeline instead of hiding the mistake. Change passwords, review payment methods, capture login history, and check connected devices before evidence disappears.
 
-If work accounts or customer data are involved, tell the responsible person quickly. Fast reporting is a security control, not an admission of failure.
+If work accounts, customer data, or payment authority are connected to **all-sites permission**, tell the responsible person quickly. Fast reporting is a security control, not an admission of failure.
 
 ## Monthly Checkup
 

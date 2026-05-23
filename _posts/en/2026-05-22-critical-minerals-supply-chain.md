@@ -27,11 +27,11 @@ tags:
   - Semiconductors
 ---
 
-Global affairs often looks abstract until it shows up in **export orders, exchange rates, oil prices, food costs, power bills, insurance premiums, and security budgets**.
+Global affairs can look abstract until **refining concentration** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
 
 The IEA frames critical minerals as a strategic risk that reaches beyond EVs and renewables into AI chips, defense, aerospace, and advanced manufacturing.
 
-This briefing does not try to turn a complex issue into one strong prediction. It gives readers a practical order for reading the next update without being pulled around by every headline.
+This briefing treats **Critical Minerals Supply Chains: The New Energy Security Layer for Batteries and AI** as a transmission problem rather than a one-line forecast. It uses signals such as refining concentration, export controls to help readers separate official data from commentary and decide which follow-up report deserves attention.
 
 ![Critical Minerals Supply Chains: The New Energy Security Layer for Batteries and AI core flow summary](/images/2026-05-22-critical-minerals-supply-chain/hero.svg)
 
@@ -39,9 +39,7 @@ This briefing does not try to turn a complex issue into one strong prediction. I
 
 Korea's batteries, semiconductors, and autos are all exposed, so refining concentration and export controls matter more than spot prices alone.
 
-The defining feature of the 2026 global environment is that shocks rarely stay inside one category. Energy stress can move inflation and trade balances. Trade fragmentation can change investment and jobs. Financial volatility can reduce the room for fiscal support.
-
-That is why this issue should not be read as simply good or bad. The useful question is **direction, duration, and transmission**. A one-day price shock, a quarterly supply disruption, and a permanent rule change require different decisions.
+For this issue, start with **refining concentration**, then check whether **export controls** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
@@ -50,22 +48,22 @@ That is why this issue should not be read as simply good or bad. The useful ques
 - **battery metal prices**: watch the direction, policy response, and market pricing rather than the number alone.
 - **recycling capacity**: watch the direction, policy response, and market pricing rather than the number alone.
 
-These indicators should not be read in isolation. A price can rise while inventories absorb the shock. A price can look stable while export controls, insurance costs, or compliance burdens quietly raise corporate costs later.
+Do not read **refining concentration** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
 
 ![Critical Minerals Supply Chains: The New Energy Security Layer for Batteries and AI signal checklist](/images/2026-05-22-critical-minerals-supply-chain/signal-map.svg)
 
 ## Korea-Facing Angle
 
-Korea is deeply exposed through semiconductors, autos, batteries, refining and petrochemicals, shipping, and financial markets. Domestic news often carries an external cause that is easy to miss.
+Korea is exposed through semiconductors, autos, batteries, refining and petrochemicals, shipping, and financial markets. When **refining concentration** and **export controls** move, a domestic headline may have an external cause that is easy to miss.
 
 Korea's batteries, semiconductors, and autos are all exposed, so refining concentration and export controls matter more than spot prices alone.
 
-Household readers can translate the issue into fixed and variable costs. Business readers should check cost, delivery time, FX hedging, and customer-region exposure before looking only at revenue. Policy readers should ask how quickly the announced measure can be funded and implemented.
+Household readers can translate **refining concentration** into living costs, loan rates, or energy bills. Business readers should check cost, delivery time, FX hedging, and customer-region exposure before revenue. Policy readers should ask whether the announced measure has funding and implementation capacity.
 
 ## How To Read The Next Update
 
-1. Decide whether the event is mainly a **price shock** or a **volume shock**.
-2. Check whether it is a short news cycle or a structural change that can last for quarters.
+1. Decide whether **refining concentration** is creating a price shock, a volume shock, or both.
+2. Check whether **export controls** is a short news cycle or a structural change that can last for quarters.
 3. Mark the Korea-facing channel: exports, import prices, financial markets, security costs, or household costs.
 
 ## Reader Checklist
@@ -80,7 +78,7 @@ Household readers can translate the issue into fixed and variable costs. Busines
 
 - [IEA Global Critical Minerals Outlook 2025](https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary)
 - [IEA World Energy Outlook 2025](https://www.iea.org/reports/world-energy-outlook-2025/executive-summary)
-- [Korea MOTIR March 2026 Export Release](https://english.motir.go.kr/eng/article/EATCLdfa319ada/2559/view)
+- [Korea.net March 2026 Export Summary](https://www.korea.net/NewsFocus/Business/view?articleId=289960)
 
 ## Related Reading
 

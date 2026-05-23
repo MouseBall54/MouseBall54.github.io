@@ -603,6 +603,141 @@ def related_links(index: int, lang: str) -> str:
     return "\n".join(f"- [{topic['en_title']}](/{{category}}/{topic['slug']}/)".replace("{category}", category_path) for topic in related)
 
 
+def ko_scope_context(topic: dict[str, object]) -> str:
+    first_action = topic["ko_actions"][0]
+    first_signal = topic["ko_signals"][0]
+    return (
+        f"이 글은 제품 추천이 아니라 **{first_signal}** 같은 장면에서 바로 실행할 대응 순서를 다룹니다. "
+        f"핵심은 {first_action} 같은 행동을 사전에 정해 두어, 급한 메시지나 전화가 와도 판단을 즉흥적으로 하지 않는 것입니다."
+    )
+
+
+def ko_intro_context(topic: dict[str, object]) -> str:
+    signal = topic["ko_signals"][0]
+    return (
+        f"디지털 보안은 전문가만의 일이 아닙니다. **{signal}** 같은 작은 신호 하나가 돈, 개인정보, 가족 안전, "
+        "업무 연속성으로 바로 연결될 수 있으므로 평소 쓰는 확인 절차가 필요합니다."
+    )
+
+
+def en_intro_context(topic: dict[str, object]) -> str:
+    signal = topic["en_signals"][0]
+    return (
+        f"Digital security is not only for specialists. A small signal such as **{signal}** can affect money, privacy, "
+        "family safety, and business continuity, so the routine has to be simple enough to use under pressure."
+    )
+
+
+def en_scope_context(topic: dict[str, object]) -> str:
+    first_action = topic["en_actions"][0]
+    first_signal = topic["en_signals"][0]
+    return (
+        f"This guide is not a product recommendation. It turns **{first_signal}** into a response routine, "
+        f"starting with: {first_action[0].lower() + first_action[1:]}"
+    )
+
+
+def ko_attack_context(topic: dict[str, object]) -> str:
+    signal = topic["ko_signals"][0]
+    action = topic["ko_actions"][1 if len(topic["ko_actions"]) > 1 else 0]
+    return (
+        f"이 공격 유형은 사용자를 평소 경로에서 벗어나게 만들 때 성공합니다. **{signal}**이 보이면 "
+        f"메시지 안에서 해결하려 하지 말고, {action} 그래야 기록을 남기고 피해 범위를 통제할 수 있습니다."
+    )
+
+
+def en_attack_context(topic: dict[str, object]) -> str:
+    signal = topic["en_signals"][0]
+    action = str(topic["en_actions"][1 if len(topic["en_actions"]) > 1 else 0]).rstrip(".")
+    return (
+        f"This attack pattern works by pulling users away from normal routes. When **{signal}** appears, "
+        f"do not solve the problem inside the message thread. Instead, {action[0].lower() + action[1:]} "
+        "so evidence and recovery options stay under your control."
+    )
+
+
+def ko_baseline_context(topic: dict[str, object]) -> str:
+    signals = "·".join(str(signal) for signal in topic["ko_signals"][:2])
+    return (
+        f"따라서 **{signals}**을 발견했을 때의 기준선은 멈춤, 별도 확인, 기록 보존, 복구 가능성 확보입니다. "
+        "기술을 완벽히 이해하지 못해도 이 네 단계를 지키면 계정 탈취나 금전 피해가 커지는 속도를 늦출 수 있습니다."
+    )
+
+
+def en_baseline_context(topic: dict[str, object]) -> str:
+    signals = ", ".join(str(signal) for signal in topic["en_signals"][:2])
+    return (
+        f"For **{signals}**, the baseline is pause, verify separately, preserve records, and keep recovery possible. "
+        "Even without deep technical knowledge, those steps slow account takeover and financial loss."
+    )
+
+
+def ko_warning_context(topic: dict[str, object]) -> str:
+    signal = topic["ko_signals"][0]
+    action = topic["ko_actions"][0]
+    return (
+        f"**{signal}**이 보인다고 즉시 삭제부터 할 필요는 없습니다. 먼저 화면을 캡처하고 '{action}'라는 원칙으로 "
+        "공식 앱, 저장된 북마크, 이미 알고 있는 전화번호처럼 통제 가능한 경로에서 다시 확인하세요."
+    )
+
+
+def en_warning_context(topic: dict[str, object]) -> str:
+    signal = topic["en_signals"][0]
+    action = topic["en_actions"][0]
+    return (
+        f"A signal such as **{signal}** does not always mean you should delete everything immediately. Capture evidence first, "
+        f"then apply this rule: {action[0].lower() + action[1:]}"
+    )
+
+
+def ko_group_context(topic: dict[str, object]) -> str:
+    action = topic["ko_actions"][0]
+    return (
+        f"가족이나 팀이 관련된다면 같은 확인 문장과 보류 규칙을 공유하세요. 예를 들어 '{action}'라는 규칙을 "
+        "모두가 알고 있으면 한 사람의 실수가 전체 사고로 번지기 전에 멈출 가능성이 높아집니다."
+    )
+
+
+def ko_work_context(topic: dict[str, object]) -> str:
+    signal = topic["ko_signals"][0]
+    return (
+        f"업무 계정, 고객정보, 결제 권한이 **{signal}**과 연결되어 있다면 내부 담당자에게 즉시 공유해야 합니다. "
+        "빠른 공유는 책임 회피가 아니라 피해 범위를 줄이는 보안 행동입니다."
+    )
+
+
+def en_work_context(topic: dict[str, object]) -> str:
+    signal = topic["en_signals"][0]
+    return (
+        f"If work accounts, customer data, or payment authority are connected to **{signal}**, tell the responsible person quickly. "
+        "Fast reporting is a security control, not an admission of failure."
+    )
+
+
+def en_group_context(topic: dict[str, object]) -> str:
+    action = str(topic["en_actions"][0]).rstrip(".")
+    return (
+        f"If family members or teammates are involved, share one verification phrase and one pause rule. "
+        f"A simple rule such as '{action}' is easier to follow under pressure than improvising."
+    )
+
+
+def ko_recovery_context(topic: dict[str, object]) -> str:
+    signal = topic["ko_signals"][0]
+    return (
+        f"이미 **{signal}** 단계에서 정보를 입력했거나 파일을 열었다면 숨기지 말고 시간을 기준으로 정리하세요. "
+        "비밀번호 변경, 결제수단 점검, 연결 기기 확인, 로그인 기록 캡처를 순서대로 진행하면 신고나 내부 공유가 빨라집니다."
+    )
+
+
+def en_recovery_context(topic: dict[str, object]) -> str:
+    signal = topic["en_signals"][0]
+    return (
+        f"If you already acted on **{signal}**, organize the timeline instead of hiding the mistake. "
+        "Change passwords, review payment methods, capture login history, and check connected devices before evidence disappears."
+    )
+
+
 def ko_post(topic: dict[str, object], index: int) -> str:
     slug = str(topic["slug"])
     image_dir = f"/images/{POST_DATE}-{slug}"
@@ -636,11 +771,11 @@ def ko_post(topic: dict[str, object], index: int) -> str:
     {yaml_list(topic["tags"])}
     ---
 
-    디지털 보안은 전문가만의 일이 아닙니다. 계정 하나, 문자 하나, 백업 하나가 **돈, 개인정보, 가족 안전, 업무 연속성**으로 바로 연결됩니다.
+    {ko_intro_context(topic)}
 
     {topic["ko_summary"]}
 
-    이 글은 제품을 추천하기보다 실제 상황에서 바로 쓸 수 있는 점검 순서와 대응 문장을 정리합니다.
+    {ko_scope_context(topic)}
 
     ![{topic["ko_title"]} 핵심 보안 흐름]({image_dir}/hero.svg)
 
@@ -648,15 +783,15 @@ def ko_post(topic: dict[str, object], index: int) -> str:
 
     {topic["ko_risk"]}
 
-    공격은 대개 기술보다 감정과 습관을 먼저 건드립니다. 급하게 만들고, 확인할 시간을 줄이고, 평소 쓰던 경로가 아니라 메시지 안의 링크나 전화 지시를 따르게 합니다.
+    {ko_attack_context(topic)}
 
-    그래서 핵심은 완벽한 지식이 아니라 **멈춤, 별도 확인, 기록 보존, 복구 가능성**입니다. 이 네 가지가 있으면 실수하더라도 피해를 줄일 수 있습니다.
+    {ko_baseline_context(topic)}
 
     ## 먼저 볼 위험 신호
 
     {signals}
 
-    위험 신호가 하나만 보여도 바로 차단하거나 삭제할 필요는 없습니다. 먼저 화면을 캡처하고, 공식 앱이나 주소창 직접 입력처럼 통제 가능한 경로로 다시 확인하세요.
+    {ko_warning_context(topic)}
 
     ![{topic["ko_title"]} 대응 체크리스트]({image_dir}/checklist.svg)
 
@@ -664,13 +799,13 @@ def ko_post(topic: dict[str, object], index: int) -> str:
 
     {actions}
 
-    가능하면 가족이나 팀 안에서 같은 규칙을 씁니다. 한 사람이 링크를 누르지 않는 것보다, 모두가 같은 확인 문장을 쓰는 편이 사고 대응이 빠릅니다.
+    {ko_group_context(topic)}
 
     ## 실수했을 때
 
-    이미 정보를 입력했거나 파일을 열었다면 숨기지 않는 것이 가장 중요합니다. 비밀번호를 바꾸고, 결제수단을 확인하고, 연결된 기기와 로그인 기록을 봅니다.
+    {ko_recovery_context(topic)}
 
-    업무 계정이나 고객정보가 관련되어 있다면 내부 담당자에게 즉시 공유해야 합니다. 빠른 공유는 책임 회피가 아니라 피해 범위를 줄이는 보안 행동입니다.
+    {ko_work_context(topic)}
 
     ## 월간 점검 체크리스트
 
@@ -721,11 +856,11 @@ def en_post(topic: dict[str, object], index: int) -> str:
     {yaml_list(topic["tags"])}
     ---
 
-    Digital security is not only for specialists. One account, one message, or one missing backup can affect **money, privacy, family safety, and business continuity**.
+    {en_intro_context(topic)}
 
     {topic["en_summary"]}
 
-    This guide avoids product recommendations. It focuses on practical routines and response steps that work when the situation is already stressful.
+    {en_scope_context(topic)}
 
     ![{topic["en_title"]} core security flow]({image_dir}/hero.svg)
 
@@ -733,15 +868,15 @@ def en_post(topic: dict[str, object], index: int) -> str:
 
     {topic["en_risk"]}
 
-    Most attacks start with emotion and habit before they require advanced technology. They create urgency, reduce verification time, and move users away from trusted paths into links, attachments, calls, or chat instructions.
+    {en_attack_context(topic)}
 
-    The useful baseline is **pause, verify separately, preserve records, and keep recovery possible**. Those four habits reduce damage even when a mistake has already happened.
+    {en_baseline_context(topic)}
 
     ## Warning Signals To Check First
 
     {signals}
 
-    A warning signal does not always mean you should delete everything immediately. First capture the evidence, then verify through a controlled route such as the official app, a saved bookmark, or a known phone number.
+    {en_warning_context(topic)}
 
     ![{topic["en_title"]} response checklist]({image_dir}/checklist.svg)
 
@@ -749,13 +884,13 @@ def en_post(topic: dict[str, object], index: int) -> str:
 
     {actions}
 
-    If the risk affects family or a team, use the same rule together. A shared verification phrase is more reliable than expecting everyone to improvise under pressure.
+    {en_group_context(topic)}
 
     ## If You Already Made a Mistake
 
-    If you entered information or opened a suspicious file, do not hide it. Change passwords, review payment methods, and check connected devices and login history.
+    {en_recovery_context(topic)}
 
-    If work accounts or customer data are involved, tell the responsible person quickly. Fast reporting is a security control, not an admission of failure.
+    {en_work_context(topic)}
 
     ## Monthly Checkup
 

@@ -3,7 +3,7 @@ layout: home
 title: "MouseBall54 Toolbox"
 lang: en
 seo_description: >
-  MouseBall54 Toolbox collects bilingual troubleshooting, AI workflow, global affairs, climate-energy, security, finance, health, study, and image labeling guides.
+  MouseBall54 Toolbox collects bilingual troubleshooting, AI workflow, global affairs, climate-energy, consumer rights, security, finance, health, study, and image labeling guides.
 author_profile: true
 sidebar:
     nav: "sidebar-category"
@@ -48,6 +48,13 @@ MouseBall54 Toolbox is a bilingual practical knowledge blog for developers and t
       <h3 class="archive__item-title">Climate & Energy</h3>
       <p>Official-source guides for grids, AI electricity demand, renewables, batteries, carbon pricing, adaptation, and Korea-facing industry risk.</p>
       <p><a href="/en_climate_energy/" class="btn btn--primary">English</a> <a href="/ko_climate_energy/" class="btn">한국어</a></p>
+    </div>
+  </div>
+  <div class="feature__item">
+    <div class="archive__item">
+      <h3 class="archive__item-title">Consumer Rights</h3>
+      <p>Practical guides for refunds, subscription cancellation, chargebacks, recalls, travel disputes, telecom bills, fake reviews, and complaint escalation.</p>
+      <p><a href="/en_consumer_rights/" class="btn btn--primary">English</a> <a href="/ko_consumer_rights/" class="btn">한국어</a></p>
     </div>
   </div>
   <div class="feature__item">
@@ -99,6 +106,7 @@ MouseBall54 Toolbox is a bilingual practical knowledge blog for developers and t
 - [AI Agent Workflow 2026](/en_ai_trends/ai-agent-workflow-2026/)
 - [Global Growth and Fragmentation in 2026](/en_global_affairs/global-growth-fragmentation-2026/)
 - [AI Data-Center Electricity Demand](/en_climate_energy/ai-data-center-electricity-demand/)
+- [Free Trial and Auto-Renewal Cancellation](/en_consumer_rights/subscription-cancel-free-trial/)
 - [A 30-Second Phishing Triage](/en_digital_security/phishing-message-triage/)
 - [Paycheck Budget Calendar](/en_personal_finance/paycheck-budget-calendar/)
 - [Adult Sleep Routine](/en_health_literacy/sleep-routine-adults/)
@@ -124,6 +132,12 @@ MouseBall54 Toolbox is a bilingual practical knowledge blog for developers and t
 ### Climate & Energy
 
 {% for post in site.categories["en_Climate_Energy"] limit: 3 %}
+  {% include archive-single.html type="list" %}
+{% endfor %}
+
+### Consumer Rights
+
+{% for post in site.categories["en_Consumer_Rights"] limit: 3 %}
   {% include archive-single.html type="list" %}
 {% endfor %}
 

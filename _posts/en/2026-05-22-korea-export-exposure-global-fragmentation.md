@@ -27,11 +27,11 @@ tags:
   - Trade
 ---
 
-Global affairs often looks abstract until it shows up in **export orders, exchange rates, oil prices, food costs, power bills, insurance premiums, and security budgets**.
+Global affairs can look abstract until **semiconductor export share** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
 
 Korea's March 2026 export release shows the strength of the semiconductor boom, but also the way energy, logistics, and protectionism raise export uncertainty.
 
-This briefing does not try to turn a complex issue into one strong prediction. It gives readers a practical order for reading the next update without being pulled around by every headline.
+This briefing treats **Korea's Export Exposure to Global Fragmentation: Vulnerabilities Behind the Semiconductor Boom** as a transmission problem rather than a one-line forecast. It uses signals such as semiconductor export share, China and US demand to help readers separate official data from commentary and decide which follow-up report deserves attention.
 
 ![Korea's Export Exposure to Global Fragmentation: Vulnerabilities Behind the Semiconductor Boom core flow summary](/images/2026-05-22-korea-export-exposure-global-fragmentation/hero.svg)
 
@@ -39,9 +39,7 @@ This briefing does not try to turn a complex issue into one strong prediction. I
 
 Korean readers should track semiconductor concentration, regional demand, Middle East logistics risk, and the won exchange rate together.
 
-The defining feature of the 2026 global environment is that shocks rarely stay inside one category. Energy stress can move inflation and trade balances. Trade fragmentation can change investment and jobs. Financial volatility can reduce the room for fiscal support.
-
-That is why this issue should not be read as simply good or bad. The useful question is **direction, duration, and transmission**. A one-day price shock, a quarterly supply disruption, and a permanent rule change require different decisions.
+For this issue, start with **semiconductor export share**, then check whether **China and US demand** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
@@ -50,22 +48,22 @@ That is why this issue should not be read as simply good or bad. The useful ques
 - **Middle East route disruption**: watch the direction, policy response, and market pricing rather than the number alone.
 - **KRW exchange rate**: watch the direction, policy response, and market pricing rather than the number alone.
 
-These indicators should not be read in isolation. A price can rise while inventories absorb the shock. A price can look stable while export controls, insurance costs, or compliance burdens quietly raise corporate costs later.
+Do not read **semiconductor export share** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
 
 ![Korea's Export Exposure to Global Fragmentation: Vulnerabilities Behind the Semiconductor Boom signal checklist](/images/2026-05-22-korea-export-exposure-global-fragmentation/signal-map.svg)
 
 ## Korea-Facing Angle
 
-Korea is deeply exposed through semiconductors, autos, batteries, refining and petrochemicals, shipping, and financial markets. Domestic news often carries an external cause that is easy to miss.
+Korea is exposed through semiconductors, autos, batteries, refining and petrochemicals, shipping, and financial markets. When **semiconductor export share** and **China and US demand** move, a domestic headline may have an external cause that is easy to miss.
 
 Korean readers should track semiconductor concentration, regional demand, Middle East logistics risk, and the won exchange rate together.
 
-Household readers can translate the issue into fixed and variable costs. Business readers should check cost, delivery time, FX hedging, and customer-region exposure before looking only at revenue. Policy readers should ask how quickly the announced measure can be funded and implemented.
+Household readers can translate **semiconductor export share** into living costs, loan rates, or energy bills. Business readers should check cost, delivery time, FX hedging, and customer-region exposure before revenue. Policy readers should ask whether the announced measure has funding and implementation capacity.
 
 ## How To Read The Next Update
 
-1. Decide whether the event is mainly a **price shock** or a **volume shock**.
-2. Check whether it is a short news cycle or a structural change that can last for quarters.
+1. Decide whether **semiconductor export share** is creating a price shock, a volume shock, or both.
+2. Check whether **China and US demand** is a short news cycle or a structural change that can last for quarters.
 3. Mark the Korea-facing channel: exports, import prices, financial markets, security costs, or household costs.
 
 ## Reader Checklist
@@ -78,8 +76,8 @@ Household readers can translate the issue into fixed and variable costs. Busines
 
 ## Source Notes
 
-- [Korea MOTIR March 2026 Export Release](https://english.motir.go.kr/eng/article/EATCLdfa319ada/2559/view)
-- [KDI Economic Outlook 2026, 1st Half](https://www.kdi.re.kr/eng/research/economy?pub_no=19180)
+- [Korea.net March 2026 Export Summary](https://www.korea.net/NewsFocus/Business/view?articleId=289960)
+- [Korea.net KDI 2026 Growth Forecast Summary](https://www.korea.net/NewsFocus/Business/view?articleId=292334&koreanId=292313)
 - [WTO Global Trade Outlook and Statistics, March 2026](https://www.wto.org/english/res_e/publications_e/gtos0326_e.htm)
 
 ## Related Reading

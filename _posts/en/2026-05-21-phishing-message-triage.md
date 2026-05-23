@@ -27,11 +27,11 @@ tags:
   - Cyber Hygiene
 ---
 
-Digital security is not only for specialists. One account, one message, or one missing backup can affect **money, privacy, family safety, and business continuity**.
+Digital security is not only for specialists. A small signal such as **urgent payment request** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
 
 Phishing risk drops when users have a short routine: pause, verify the sender, and open the service through a trusted route instead of the message link.
 
-This guide avoids product recommendations. It focuses on practical routines and response steps that work when the situation is already stressful.
+This guide is not a product recommendation. It turns **urgent payment request** into a response routine, starting with: separate the sender name from the actual domain.
 
 ![A 30-Second Phishing Triage: What to Check Before You Click core security flow](/images/2026-05-21-phishing-message-triage/hero.svg)
 
@@ -39,9 +39,9 @@ This guide avoids product recommendations. It focuses on practical routines and 
 
 Attackers start with urgency: delivery, tax, card payment, account suspension, or a limited-time warning.
 
-Most attacks start with emotion and habit before they require advanced technology. They create urgency, reduce verification time, and move users away from trusted paths into links, attachments, calls, or chat instructions.
+This attack pattern works by pulling users away from normal routes. When **urgent payment request** appears, do not solve the problem inside the message thread. Instead, open the service through the official app or bookmark so evidence and recovery options stay under your control.
 
-The useful baseline is **pause, verify separately, preserve records, and keep recovery possible**. Those four habits reduce damage even when a mistake has already happened.
+For **urgent payment request, unknown short link**, the baseline is pause, verify separately, preserve records, and keep recovery possible. Even without deep technical knowledge, those steps slow account takeover and financial loss.
 
 ## Warning Signals To Check First
 
@@ -50,7 +50,7 @@ The useful baseline is **pause, verify separately, preserve records, and keep re
 - **odd agency name**: pause immediately and verify through a trusted route.
 - **attachment execution request**: pause immediately and verify through a trusted route.
 
-A warning signal does not always mean you should delete everything immediately. First capture the evidence, then verify through a controlled route such as the official app, a saved bookmark, or a known phone number.
+A signal such as **urgent payment request** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: separate the sender name from the actual domain.
 
 ![A 30-Second Phishing Triage: What to Check Before You Click response checklist](/images/2026-05-21-phishing-message-triage/checklist.svg)
 
@@ -60,13 +60,13 @@ A warning signal does not always mean you should delete everything immediately. 
 - Open the service through the official app or bookmark.
 - Confirm attachments through a separate channel.
 
-If the risk affects family or a team, use the same rule together. A shared verification phrase is more reliable than expecting everyone to improvise under pressure.
+If family members or teammates are involved, share one verification phrase and one pause rule. A simple rule such as 'Separate the sender name from the actual domain' is easier to follow under pressure than improvising.
 
 ## If You Already Made a Mistake
 
-If you entered information or opened a suspicious file, do not hide it. Change passwords, review payment methods, and check connected devices and login history.
+If you already acted on **urgent payment request**, organize the timeline instead of hiding the mistake. Change passwords, review payment methods, capture login history, and check connected devices before evidence disappears.
 
-If work accounts or customer data are involved, tell the responsible person quickly. Fast reporting is a security control, not an admission of failure.
+If work accounts, customer data, or payment authority are connected to **urgent payment request**, tell the responsible person quickly. Fast reporting is a security control, not an admission of failure.
 
 ## Monthly Checkup
 

@@ -27,11 +27,11 @@ tags:
   - Health Tracking
 ---
 
-Health literacy is not self-diagnosis. It is the ability to know **what to track, when to rest, and when to ask a professional**.
+Health literacy is not self-diagnosis. It is the ability to track observable signs such as **sudden severe headache**, know when rest is reasonable, and know when professional guidance is safer.
 
 Headaches are common, but sudden severe pain, neurologic symptoms, fever, or headache after injury should be treated differently from a usual pattern.
 
-This article is educational and is not diagnosis or treatment advice. If symptoms are severe, suddenly worse, involve breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional right away.
+This article is educational and is not diagnosis or treatment advice for **Headache and Migraine Tracking: Spotting What Is Different**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
 
 ![Headache and Migraine Tracking: Spotting What Is Different core health flow](/images/2026-05-19-headache-migraine-red-flags/hero.svg)
 
@@ -39,18 +39,18 @@ This article is educational and is not diagnosis or treatment advice. If symptom
 
 Recurring headaches become easier to discuss with patterns, but a different or severe headache needs attention before journaling.
 
-Health information is abundant, but real life often makes it hard to decide what to check first. A consistent record of symptoms, duration, habits, and warning signs helps you avoid guessing and improves conversations with clinicians.
+Instead of chasing search results, record the start date, frequency, duration, triggers, and relieving factors around **sudden severe headache**. A useful first step is: record start time, location, intensity, and symptoms.
 
-The useful baseline is **patterns over one number**, **function over vague feeling**, and **safety signals over waiting it out**. Lifestyle routines can start small, but warning signs deserve conservative handling.
+For **sudden severe headache, vision changes**, use patterns over one number, daily function over vague feeling, and safety signals over waiting it out. Lifestyle routines can start small, but warning signs deserve conservative handling.
 
 ## Signals To Check First
 
-- **sudden severe headache**: record it, and seek professional guidance if it worsens or raises safety concerns.
-- **vision changes**: record it, and seek professional guidance if it worsens or raises safety concerns.
-- **weakness or speech trouble**: record it, and seek professional guidance if it worsens or raises safety concerns.
-- **fever**: record it, and seek professional guidance if it worsens or raises safety concerns.
+- **sudden severe headache**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
+- **vision changes**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
+- **weakness or speech trouble**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
+- **fever**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
 
-Signals should not be interpreted in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same symptom means.
+Do not interpret **sudden severe headache** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
 
 ![Headache and Migraine Tracking: Spotting What Is Different checklist](/images/2026-05-19-headache-migraine-red-flags/checklist.svg)
 
@@ -60,13 +60,13 @@ Signals should not be interpreted in isolation. Age, pregnancy, existing conditi
 - Track sleep, meals, stress, and screen time.
 - Seek urgent help for sudden severe headache or neurologic symptoms.
 
-Start small. Health routines last longer when they have a repeatable time, place, and recording method instead of relying on motivation alone.
+Health habits last longer when the first action has a clear time and place. Start with 'Record start time, location, intensity, and symptoms.', then expand only after the record is consistent for at least a week.
 
 ## When To Ask For Help
 
-If a symptom is new, rapidly worsening, disrupting daily function, or hard to judge safely, professional guidance is the safer route.
+For **Headache and Migraine Tracking: Spotting What Is Different**, if the tracked change is new, rapidly worsening, disrupting daily function, or hard to judge safely, professional guidance is the safer route. When the risk is unclear, opening a care channel is better than waiting it out.
 
-Before a visit, write the start date, duration, triggers, relieving factors, related symptoms, and all medicines or supplements. That makes short appointments more productive.
+Before a visit, write the start date, duration, triggers, relieving factors, related symptoms, and medicines or supplements connected to **sudden severe headache**. That makes short appointments more productive.
 
 ## Monthly Checkup
 

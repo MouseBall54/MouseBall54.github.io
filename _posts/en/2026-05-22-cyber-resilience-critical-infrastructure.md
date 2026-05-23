@@ -27,11 +27,11 @@ tags:
   - Risk
 ---
 
-Global affairs often looks abstract until it shows up in **export orders, exchange rates, oil prices, food costs, power bills, insurance premiums, and security budgets**.
+Global affairs can look abstract until **incident recovery time** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
 
 CISA treats critical infrastructure as the systems that sustain daily functions such as power, communications, water, and transport. Cyber risk is service-continuity risk.
 
-This briefing does not try to turn a complex issue into one strong prediction. It gives readers a practical order for reading the next update without being pulled around by every headline.
+This briefing treats **Cyber Resilience for Critical Infrastructure: Why Hacking News Becomes Daily-Life Risk** as a transmission problem rather than a one-line forecast. It uses signals such as incident recovery time, OT exposure to help readers separate official data from commentary and decide which follow-up report deserves attention.
 
 ![Cyber Resilience for Critical Infrastructure: Why Hacking News Becomes Daily-Life Risk core flow summary](/images/2026-05-22-cyber-resilience-critical-infrastructure/hero.svg)
 
@@ -39,9 +39,7 @@ This briefing does not try to turn a complex issue into one strong prediction. I
 
 Korean readers should read ransomware news through recovery time for hospitals, logistics, ports, and payment networks rather than victim count alone.
 
-The defining feature of the 2026 global environment is that shocks rarely stay inside one category. Energy stress can move inflation and trade balances. Trade fragmentation can change investment and jobs. Financial volatility can reduce the room for fiscal support.
-
-That is why this issue should not be read as simply good or bad. The useful question is **direction, duration, and transmission**. A one-day price shock, a quarterly supply disruption, and a permanent rule change require different decisions.
+For this issue, start with **incident recovery time**, then check whether **OT exposure** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
@@ -50,22 +48,22 @@ That is why this issue should not be read as simply good or bad. The useful ques
 - **backup testing**: watch the direction, policy response, and market pricing rather than the number alone.
 - **supplier access controls**: watch the direction, policy response, and market pricing rather than the number alone.
 
-These indicators should not be read in isolation. A price can rise while inventories absorb the shock. A price can look stable while export controls, insurance costs, or compliance burdens quietly raise corporate costs later.
+Do not read **incident recovery time** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
 
 ![Cyber Resilience for Critical Infrastructure: Why Hacking News Becomes Daily-Life Risk signal checklist](/images/2026-05-22-cyber-resilience-critical-infrastructure/signal-map.svg)
 
 ## Korea-Facing Angle
 
-Korea is deeply exposed through semiconductors, autos, batteries, refining and petrochemicals, shipping, and financial markets. Domestic news often carries an external cause that is easy to miss.
+Korea is exposed through semiconductors, autos, batteries, refining and petrochemicals, shipping, and financial markets. When **incident recovery time** and **OT exposure** move, a domestic headline may have an external cause that is easy to miss.
 
 Korean readers should read ransomware news through recovery time for hospitals, logistics, ports, and payment networks rather than victim count alone.
 
-Household readers can translate the issue into fixed and variable costs. Business readers should check cost, delivery time, FX hedging, and customer-region exposure before looking only at revenue. Policy readers should ask how quickly the announced measure can be funded and implemented.
+Household readers can translate **incident recovery time** into living costs, loan rates, or energy bills. Business readers should check cost, delivery time, FX hedging, and customer-region exposure before revenue. Policy readers should ask whether the announced measure has funding and implementation capacity.
 
 ## How To Read The Next Update
 
-1. Decide whether the event is mainly a **price shock** or a **volume shock**.
-2. Check whether it is a short news cycle or a structural change that can last for quarters.
+1. Decide whether **incident recovery time** is creating a price shock, a volume shock, or both.
+2. Check whether **OT exposure** is a short news cycle or a structural change that can last for quarters.
 3. Mark the Korea-facing channel: exports, import prices, financial markets, security costs, or household costs.
 
 ## Reader Checklist

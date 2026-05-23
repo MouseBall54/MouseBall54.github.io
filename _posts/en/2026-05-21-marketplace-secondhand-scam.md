@@ -27,11 +27,11 @@ tags:
   - Payments
 ---
 
-Digital security is not only for specialists. One account, one message, or one missing backup can affect **money, privacy, family safety, and business continuity**.
+Digital security is not only for specialists. A small signal such as **off-platform messaging** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
 
 In secondhand marketplaces, keeping chat records, payment trails, seller reputation, and item-verification steps improves your response options.
 
-This guide avoids product recommendations. It focuses on practical routines and response steps that work when the situation is already stressful.
+This guide is not a product recommendation. It turns **off-platform messaging** into a response routine, starting with: keep chat and payment inside the platform.
 
 ![Secondhand Marketplace Scam Prevention: Records Matter More Than Speed core security flow](/images/2026-05-21-marketplace-secondhand-scam/hero.svg)
 
@@ -39,9 +39,9 @@ This guide avoids product recommendations. It focuses on practical routines and 
 
 Moving off-platform, upfront-payment pressure, and reused shipping proof are common warning signs.
 
-Most attacks start with emotion and habit before they require advanced technology. They create urgency, reduce verification time, and move users away from trusted paths into links, attachments, calls, or chat instructions.
+This attack pattern works by pulling users away from normal routes. When **off-platform messaging** appears, do not solve the problem inside the message thread. Instead, ask for a dated photo with a requested phrase so evidence and recovery options stay under your control.
 
-The useful baseline is **pause, verify separately, preserve records, and keep recovery possible**. Those four habits reduce damage even when a mistake has already happened.
+For **off-platform messaging, below-market price**, the baseline is pause, verify separately, preserve records, and keep recovery possible. Even without deep technical knowledge, those steps slow account takeover and financial loss.
 
 ## Warning Signals To Check First
 
@@ -50,7 +50,7 @@ The useful baseline is **pause, verify separately, preserve records, and keep re
 - **upfront pressure**: pause immediately and verify through a trusted route.
 - **reused photo**: pause immediately and verify through a trusted route.
 
-A warning signal does not always mean you should delete everything immediately. First capture the evidence, then verify through a controlled route such as the official app, a saved bookmark, or a known phone number.
+A signal such as **off-platform messaging** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: keep chat and payment inside the platform.
 
 ![Secondhand Marketplace Scam Prevention: Records Matter More Than Speed response checklist](/images/2026-05-21-marketplace-secondhand-scam/checklist.svg)
 
@@ -60,13 +60,13 @@ A warning signal does not always mean you should delete everything immediately. 
 - Ask for a dated photo with a requested phrase.
 - Use public places and a companion for in-person trades.
 
-If the risk affects family or a team, use the same rule together. A shared verification phrase is more reliable than expecting everyone to improvise under pressure.
+If family members or teammates are involved, share one verification phrase and one pause rule. A simple rule such as 'Keep chat and payment inside the platform' is easier to follow under pressure than improvising.
 
 ## If You Already Made a Mistake
 
-If you entered information or opened a suspicious file, do not hide it. Change passwords, review payment methods, and check connected devices and login history.
+If you already acted on **off-platform messaging**, organize the timeline instead of hiding the mistake. Change passwords, review payment methods, capture login history, and check connected devices before evidence disappears.
 
-If work accounts or customer data are involved, tell the responsible person quickly. Fast reporting is a security control, not an admission of failure.
+If work accounts, customer data, or payment authority are connected to **off-platform messaging**, tell the responsible person quickly. Fast reporting is a security control, not an admission of failure.
 
 ## Monthly Checkup
 

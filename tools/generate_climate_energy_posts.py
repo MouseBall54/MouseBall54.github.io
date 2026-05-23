@@ -886,12 +886,97 @@ def signal_bullets(topic: dict[str, object], lang: str) -> str:
     signals = topic["ko_signals"] if lang == "ko" else topic["signals"]
     if lang == "ko":
         return "\n".join(
-            f"- **{signal}**: 단일 수치보다 방향, 지속 기간, 정책 반응, 국내 전달 경로를 함께 확인합니다."
+            f"- **{signal}**: {topic['ko_title']}에서는 이 신호의 방향, 지속 기간, 국내 비용 경로를 함께 확인합니다."
             for signal in signals
         )
     return "\n".join(
-        f"- **{signal}**: read direction, duration, policy response, and domestic transmission before treating it as a standalone number."
+        f"- **{signal}**: for {topic['en_title']}, read direction, duration, and domestic cost channel before treating it as a standalone number."
         for signal in signals
+    )
+
+
+def structure_bullets(topic: dict[str, object], lang: str) -> str:
+    if lang == "ko":
+        labels = ["수요", "공급", "가격", "리스크"]
+        explanations = [
+            f"{topic['ko_signals'][0]}가 언제 어디서 늘어나는지 보며 수요의 위치를 확인합니다.",
+            f"{topic['ko_signals'][1]}가 실제 공급 능력이나 병목을 보여 주는지 확인합니다.",
+            f"{topic['ko_signals'][2]}가 전기요금, 수입비용, 산업 원가로 옮겨 가는 시차를 봅니다.",
+            f"{topic['ko_signals'][3]}가 정책, 기후, 공급망 리스크 중 어디에 가까운지 분리합니다.",
+        ]
+        return "\n".join(f"- **{label}**: {text}" for label, text in zip(labels, explanations))
+
+    labels = ["Demand", "Supply", "Price", "Risk"]
+    explanations = [
+        f"use {topic['signals'][0]} to locate where and when load or exposure is changing.",
+        f"use {topic['signals'][1]} to test whether real supply capacity or a bottleneck is visible.",
+        f"use {topic['signals'][2]} to trace the lag into tariffs, import costs, or industrial margins.",
+        f"use {topic['signals'][3]} to separate policy, climate, and supply-chain risk.",
+    ]
+    return "\n".join(f"- **{label}**: {text}" for label, text in zip(labels, explanations))
+
+
+def ko_issue_path(topic: dict[str, object]) -> str:
+    return (
+        f"{topic['ko_title']}은(는) {topic['ko_signals'][0]}, {topic['ko_signals'][1]}, "
+        f"{topic['ko_signals'][2]}가 동시에 움직일 때 국내 비용으로 번집니다. "
+        f"{topic['ko_angle']} 따라서 이 글에서는 headline 하나보다 신호 간 순서를 먼저 봅니다."
+    )
+
+
+def en_issue_path(topic: dict[str, object]) -> str:
+    return (
+        f"{topic['en_title']} becomes economically relevant when {topic['signals'][0]}, "
+        f"{topic['signals'][1]}, and {topic['signals'][2]} move together. {topic['en_angle']} "
+        f"The practical task is to read the sequence between signals rather than one headline."
+    )
+
+
+def ko_signal_context(topic: dict[str, object]) -> str:
+    return (
+        f"{topic['ko_signals'][0]}만 보면 방향은 보이지만 원인은 놓칠 수 있습니다. "
+        f"{topic['ko_signals'][1]}와 {topic['ko_signals'][2]}를 같이 보면 가격 충격인지, "
+        f"인프라 병목인지, 정책 지연인지가 더 분명해집니다."
+    )
+
+
+def en_signal_context(topic: dict[str, object]) -> str:
+    return (
+        f"{topic['signals'][0]} alone can show direction while hiding the cause. "
+        f"Reading it with {topic['signals'][1]} and {topic['signals'][2]} makes it easier to tell "
+        f"whether the issue is a price shock, infrastructure bottleneck, or policy lag."
+    )
+
+
+def ko_implementation_context(topic: dict[str, object]) -> str:
+    return (
+        f"실행 단계에서는 '{topic['ko_actions'][0]}'가 첫 확인 질문입니다. "
+        f"그다음 '{topic['ko_actions'][1]}'를 점검해야 발표가 실제 투자, 비용 절감, "
+        f"또는 피해 감소로 이어지는지 판단할 수 있습니다."
+    )
+
+
+def en_implementation_context(topic: dict[str, object]) -> str:
+    return (
+        f"At implementation stage, the first question is: {topic['en_actions'][0]} "
+        f"The next check is: {topic['en_actions'][1]} This separates a real investment or risk-reduction path "
+        f"from a headline target."
+    )
+
+
+def ko_number_context(topic: dict[str, object]) -> str:
+    return (
+        f"{topic['ko_title']}의 숫자는 기준 연도, 지역 범위, 단위가 바뀌면 결론도 바뀝니다. "
+        f"특히 {topic['ko_signals'][0]}와 {topic['ko_signals'][3]}는 평균값보다 피크, 지연, "
+        f"예외 조건을 확인해야 실제 리스크를 놓치지 않습니다."
+    )
+
+
+def en_number_context(topic: dict[str, object]) -> str:
+    return (
+        f"The numbers in {topic['en_title']} change meaning when baseline year, region, or unit changes. "
+        f"For {topic['signals'][0]} and {topic['signals'][3]}, peaks, delays, and exceptions often matter more "
+        f"than averages."
     )
 
 
@@ -949,7 +1034,7 @@ def ko_body(topic: dict[str, object], index: int) -> str:
         f"""
         {topic["ko_summary"]}
 
-        이 글은 특정 에너지 설비, 주식, 펀드, 정책을 권유하는 글이 아닙니다. 공식 자료를 바탕으로 **기후·에너지 뉴스를 읽는 순서**를 정리하는 교육용 브리핑입니다.
+        이 글은 특정 에너지 설비, 주식, 펀드, 정책을 권유하는 글이 아닙니다. **{topic["ko_title"]}**을 공식 자료 기반으로 읽기 위한 교육용 브리핑입니다.
 
         ![{topic["ko_title"]} 핵심 흐름 요약](/images/{POST_DATE}-{slug}/hero.svg)
 
@@ -957,24 +1042,19 @@ def ko_body(topic: dict[str, object], index: int) -> str:
 
         {topic["ko_context"]}
 
-        기후와 에너지 이슈는 한 번에 여러 경로로 움직입니다. 국제 유가가 오르면 물가와 환율 부담이 커지고, 전력망 투자가 늦어지면 AI·반도체·배터리 투자의 실제 속도도 느려질 수 있습니다. 반대로 효율 개선이나 저장장치 투자는 연료 수입과 전력망 부담을 동시에 줄일 수 있습니다.
+        {ko_issue_path(topic)}
 
-        {topic["ko_angle"]}
-
-        그래서 이 주제는 찬반 구도로만 읽기 어렵습니다. 목표 수치, 정책 수단, 예산, 인허가, 공급망, 지역 수용성을 함께 봐야 다음 뉴스가 구조적 변화인지 단기 소음인지 구분할 수 있습니다.
+        그래서 이 주제는 찬반 구도로만 읽기 어렵습니다. {topic["ko_signals"][0]}가 움직여도 {topic["ko_signals"][1]}가 따라오지 않으면 결과가 달라지고, {topic["ko_signals"][2]}가 안정돼 보여도 {topic["ko_signals"][3]}가 비용을 뒤늦게 키울 수 있습니다.
 
         ## 핵심 구조
 
-        - **수요**: 전력, 냉난방, 운송, 산업 공정, 데이터센터가 언제 어디서 늘어나는지 봅니다.
-        - **공급**: 발전원 비중보다 전력망, 연료 조달, 저장장치, 설비 납기를 함께 봅니다.
-        - **가격**: 국제 가격과 환율, 계약 구조, 보조금, 세금이 최종 비용을 바꿉니다.
-        - **리스크**: 폭염, 홍수, 해수면, 지정학, 수출통제처럼 서로 다른 충격이 동시에 올 수 있습니다.
+        {structure_bullets(topic, "ko")}
 
         ## 현재 읽어야 할 신호
 
         {signal_bullets(topic, "ko")}
 
-        이 신호들은 하나씩 보면 과장되거나 과소평가되기 쉽습니다. 예를 들어 발전 설비가 늘어도 송전망이 부족하면 실제 전력 공급은 막힐 수 있습니다. 국제 가격이 내려도 환율이나 계약 구조 때문에 국내 비용은 늦게 내려갈 수 있습니다.
+        {ko_signal_context(topic)}
 
         ![{topic["ko_title"]} 점검 신호 지도](/images/{POST_DATE}-{slug}/signal-map.svg)
 
@@ -986,19 +1066,19 @@ def ko_body(topic: dict[str, object], index: int) -> str:
         2. 국내 전력, 수입, 산업, 생활비로 이어지는 경로를 표시합니다.
         3. 실제 실행을 막는 병목을 찾습니다.
 
-        에너지 전환은 발표보다 실행이 느릴 수 있습니다. 전력망은 짧은 기간에 복제하기 어렵고, 핵심광물과 전력기기는 조달처가 제한될 수 있습니다. 기후 적응도 비슷합니다. 위험을 알고 있어도 예산, 토지, 주민 수용성, 유지보수 체계가 없으면 피해를 줄이기 어렵습니다.
+        {ko_implementation_context(topic)}
 
         ## 실무 체크리스트
 
         {bullet_lines(topic["ko_actions"])}
 
-        이 체크리스트는 단기 전망을 맞히기 위한 것이 아닙니다. 다음 발표나 통계가 나왔을 때 무엇이 바뀌었고 무엇이 그대로인지 확인하기 위한 기준선입니다.
+        이 체크리스트는 단기 전망을 맞히기 위한 것이 아닙니다. **{topic["ko_title"]}** 관련 발표나 통계가 나왔을 때 무엇이 바뀌었고 무엇이 그대로인지 확인하기 위한 기준선입니다.
 
         ## 숫자를 볼 때 주의할 점
 
-        같은 수치라도 기준 연도, 측정 단위, 포함 범위가 다르면 의미가 달라집니다. 설치용량과 실제 발전량은 다르고, 평균 기온과 극한 폭염 위험도 다릅니다. 기업의 배출량도 Scope 1, Scope 2, Scope 3가 서로 다른 질문에 답합니다.
+        {ko_number_context(topic)}
 
-        따라서 기후·에너지 자료를 볼 때는 먼저 **기준선, 기간, 단위, 지역 범위, 정책 가정**을 확인하세요. 그다음 한국의 수입 구조, 전력망 위치, 산업 노출, 가계 비용으로 번역해야 합니다.
+        따라서 기후·에너지 자료를 볼 때는 먼저 **기준선, 기간, 단위, 지역 범위, 정책 가정**을 확인하세요. 그다음 {topic["ko_signals"][0]}, {topic["ko_signals"][1]}, {topic["ko_signals"][2]}가 한국의 수입 구조, 전력망 위치, 산업 노출, 가계 비용 중 어디로 연결되는지 표시해야 합니다.
 
         ## 공식 자료로 다시 확인하기
 
@@ -1017,7 +1097,7 @@ def en_body(topic: dict[str, object], index: int) -> str:
         f"""
         {topic["en_summary"]}
 
-        This article is an educational briefing, not investment advice, legal advice, or a recommendation to buy a specific energy product. It gives readers a practical order for reading **climate and energy news** with official-source context.
+        This article is an educational briefing, not investment advice, legal advice, or a recommendation to buy a specific energy product. It gives readers a practical order for reading **{topic["en_title"]}** with official-source context.
 
         ![{topic["en_title"]} core flow summary](/images/{POST_DATE}-{slug}/hero.svg)
 
@@ -1025,24 +1105,19 @@ def en_body(topic: dict[str, object], index: int) -> str:
 
         {topic["en_context"]}
 
-        Climate and energy issues rarely move through one channel. An oil shock can affect inflation and exchange rates. A slow grid build-out can delay AI, semiconductor, battery, and factory investments. Efficiency and storage can reduce fuel imports and grid stress at the same time.
+        {en_issue_path(topic)}
 
-        {topic["en_angle"]}
-
-        This is why the topic should not be reduced to a simple for-or-against debate. Targets, policy tools, budgets, permits, supply chains, and local acceptance need to be read together before judging whether a headline is structural change or short-term noise.
+        This is why the topic should not be reduced to a simple for-or-against debate. If {topic["signals"][0]} changes without {topic["signals"][1]}, the result can be different. If {topic["signals"][2]} looks stable while {topic["signals"][3]} worsens, costs can appear later.
 
         ## Core Structure
 
-        - **Demand**: check when and where power, cooling, transport, industrial processes, and data centres increase load.
-        - **Supply**: read generation mix together with grids, fuel procurement, storage, and equipment delivery.
-        - **Price**: international prices, exchange rates, contracts, subsidies, and taxes change the final cost.
-        - **Risk**: heat, floods, sea level, geopolitics, and export controls can arrive as compound shocks.
+        {structure_bullets(topic, "en")}
 
         ## Signals To Watch
 
         {signal_bullets(topic, "en")}
 
-        These signals can mislead when they are read alone. Generation capacity can rise while grid constraints prevent useful output. Global fuel prices can fall while domestic costs remain sticky because of exchange rates or contract lags.
+        {en_signal_context(topic)}
 
         ![{topic["en_title"]} signal checklist map](/images/{POST_DATE}-{slug}/signal-map.svg)
 
@@ -1050,23 +1125,23 @@ def en_body(topic: dict[str, object], index: int) -> str:
 
         A practical reading order for Korean readers has three steps.
 
-        1. Use official international sources to identify the direction of change.
-        2. Translate the issue into domestic channels: imports, electricity, exports, industrial costs, household bills, or local disaster risk.
-        3. Find the implementation bottleneck: grid capacity, permitting, finance, equipment, local acceptance, data, or maintenance.
+        1. Use official international sources to identify the direction of **{topic["signals"][0]}**.
+        2. Translate **{topic["signals"][1]}** into domestic channels such as imports, electricity, exports, industrial costs, household bills, or local disaster risk.
+        3. Find the implementation bottleneck behind **{topic["signals"][2]}**: grid capacity, permitting, finance, equipment, local acceptance, data, or maintenance.
 
-        Energy transitions can be slower than announcements. Grids cannot be copied quickly. Critical minerals and electrical equipment can have concentrated supply chains. Climate adaptation has the same problem: knowing the risk is not enough if budgets, land, maintenance, and local trust are missing.
+        {en_implementation_context(topic)}
 
         ## Practical Checklist
 
         {bullet_lines(topic["en_actions"])}
 
-        This checklist is not for predicting the next price move. It is a baseline for checking what changed, what did not change, and which constraint matters most when a new policy, forecast, or company announcement appears.
+        This checklist is not for predicting the next price move. For **{topic["en_title"]}**, it is a baseline for checking what changed, what did not change, and which constraint matters most when a new policy, forecast, or company announcement appears.
 
         ## How To Read The Numbers
 
-        The same number can mean different things depending on the baseline year, unit, coverage, and region. Installed capacity is not the same as actual generation. Average temperature is not the same as extreme heat risk. Corporate emissions can answer different questions depending on Scope 1, Scope 2, and Scope 3 boundaries.
+        {en_number_context(topic)}
 
-        Before using climate or energy data, check the **baseline, period, unit, geographic coverage, and policy assumptions**. Then translate the number into Korea's import structure, grid geography, industrial exposure, and household cost channels.
+        Before using climate or energy data, check the **baseline, period, unit, geographic coverage, and policy assumptions**. Then translate {topic["signals"][0]}, {topic["signals"][1]}, and {topic["signals"][2]} into Korea's import structure, grid geography, industrial exposure, or household cost channels.
 
         ## Source Notes
 

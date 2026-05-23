@@ -27,11 +27,11 @@ tags:
   - Mobile Security
 ---
 
-Digital security is not only for specialists. One account, one message, or one missing backup can affect **money, privacy, family safety, and business continuity**.
+Digital security is not only for specialists. A small signal such as **sticker overlay** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
 
 QR codes are convenient, but they make it easy to skip URL checking, leading to fake payments, fake parking fees, or fake login pages.
 
-This guide avoids product recommendations. It focuses on practical routines and response steps that work when the situation is already stressful.
+This guide is not a product recommendation. It turns **sticker overlay** into a response routine, starting with: check the domain before opening after scanning.
 
 ![QR Code Phishing: Check the Destination and Context Before Scanning core security flow](/images/2026-05-21-qr-code-quishing/hero.svg)
 
@@ -39,9 +39,9 @@ This guide avoids product recommendations. It focuses on practical routines and 
 
 Stickered QR codes or unfamiliar notices can point to phishing pages that look like normal services.
 
-Most attacks start with emotion and habit before they require advanced technology. They create urgency, reduce verification time, and move users away from trusted paths into links, attachments, calls, or chat instructions.
+This attack pattern works by pulling users away from normal routes. When **sticker overlay** appears, do not solve the problem inside the message thread. Instead, pay through the official app directly so evidence and recovery options stay under your control.
 
-The useful baseline is **pause, verify separately, preserve records, and keep recovery possible**. Those four habits reduce damage even when a mistake has already happened.
+For **sticker overlay, short URL**, the baseline is pause, verify separately, preserve records, and keep recovery possible. Even without deep technical knowledge, those steps slow account takeover and financial loss.
 
 ## Warning Signals To Check First
 
@@ -50,7 +50,7 @@ The useful baseline is **pause, verify separately, preserve records, and keep re
 - **instant payment demand**: pause immediately and verify through a trusted route.
 - **login re-entry**: pause immediately and verify through a trusted route.
 
-A warning signal does not always mean you should delete everything immediately. First capture the evidence, then verify through a controlled route such as the official app, a saved bookmark, or a known phone number.
+A signal such as **sticker overlay** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: check the domain before opening after scanning.
 
 ![QR Code Phishing: Check the Destination and Context Before Scanning response checklist](/images/2026-05-21-qr-code-quishing/checklist.svg)
 
@@ -60,13 +60,13 @@ A warning signal does not always mean you should delete everything immediately. 
 - Pay through the official app directly.
 - Look for tampering or stickers on public QR codes.
 
-If the risk affects family or a team, use the same rule together. A shared verification phrase is more reliable than expecting everyone to improvise under pressure.
+If family members or teammates are involved, share one verification phrase and one pause rule. A simple rule such as 'Check the domain before opening after scanning' is easier to follow under pressure than improvising.
 
 ## If You Already Made a Mistake
 
-If you entered information or opened a suspicious file, do not hide it. Change passwords, review payment methods, and check connected devices and login history.
+If you already acted on **sticker overlay**, organize the timeline instead of hiding the mistake. Change passwords, review payment methods, capture login history, and check connected devices before evidence disappears.
 
-If work accounts or customer data are involved, tell the responsible person quickly. Fast reporting is a security control, not an admission of failure.
+If work accounts, customer data, or payment authority are connected to **sticker overlay**, tell the responsible person quickly. Fast reporting is a security control, not an admission of failure.
 
 ## Monthly Checkup
 

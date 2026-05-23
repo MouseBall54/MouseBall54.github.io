@@ -619,6 +619,126 @@ def related_links(index: int, lang: str) -> str:
     return "\n".join(f"- [{topic['en_title']}](/{{category}}/{topic['slug']}/)".replace("{category}", category_path) for topic in related)
 
 
+def ko_advice_context(topic: dict[str, object]) -> str:
+    title = topic["ko_title"]
+    first_signal = topic["ko_signals"][0]
+    return (
+        f"이 글은 **{title}**에 관한 특정 상품 추천이나 개인별 재무 조언이 아닙니다. "
+        f"공식 자료와 기본 계산 구조를 바탕으로 **{first_signal}**부터 확인해 스스로 판단할 수 있게 돕는 교육용 가이드입니다."
+    )
+
+
+def ko_intro_context(topic: dict[str, object]) -> str:
+    first_signal = topic["ko_signals"][0]
+    return (
+        f"개인재무는 수익률 맞히기보다 **{first_signal}**이 현금흐름, 부채 비용, 위험 완충, 목표 기간 중 "
+        "어디에 영향을 주는지 꾸준히 관리하는 일입니다."
+    )
+
+
+def en_intro_context(topic: dict[str, object]) -> str:
+    first_signal = topic["signals"][0]
+    return (
+        f"Personal finance is less about guessing returns and more about managing how **{first_signal}** affects cash flow, "
+        "debt cost, risk buffers, and time horizon."
+    )
+
+
+def en_advice_context(topic: dict[str, object]) -> str:
+    title = topic["en_title"]
+    first_signal = topic["signals"][0]
+    return (
+        f"This article is educational and is not individualized financial advice or a product recommendation for **{title}**. "
+        f"It uses official-source guidance and basic calculations so readers can start by checking **{first_signal}**."
+    )
+
+
+def ko_increment_context(topic: dict[str, object]) -> str:
+    action = topic["ko_actions"][0]
+    return (
+        f"한 달에 모든 것을 바꾸려 하지 말고 '{action}'처럼 확인 가능한 변화 하나부터 고정하세요. "
+        "자동이체, 결제일, 부채 항목 하나가 정리되면 다음 달 판단이 더 쉬워집니다."
+    )
+
+
+def en_increment_context(topic: dict[str, object]) -> str:
+    action = str(topic["en_actions"][0]).rstrip(".")
+    return (
+        f"Do not try to fix every part of the system in one month. Start with one visible change such as '{action}', "
+        "then use next month's data to decide the next adjustment."
+    )
+
+
+def ko_position_context(topic: dict[str, object]) -> str:
+    first_signal = topic["ko_signals"][0]
+    action = topic["ko_actions"][0]
+    return (
+        f"먼저 볼 것은 상품 이름이 아니라 **{first_signal}**이 예산, 비상금, 부채, 장기 목표 중 어디에 놓이는지입니다. "
+        f"실행은 '{action}'부터 시작하고, 실패했을 때의 비용과 복구 시간을 함께 적어야 합니다."
+    )
+
+
+def en_position_context(topic: dict[str, object]) -> str:
+    first_signal = topic["signals"][0]
+    action = str(topic["en_actions"][0]).rstrip(".")
+    return (
+        f"The first question is where **{first_signal}** belongs: monthly budget, emergency cash, debt, or a long-term goal. "
+        f"Start with '{action}', then write the cost of being wrong and the time needed to recover."
+    )
+
+
+def ko_number_context(topic: dict[str, object]) -> str:
+    first = topic["ko_signals"][0]
+    second = topic["ko_signals"][1]
+    return (
+        f"**{first}**와 **{second}**는 함께 봐야 합니다. 금리나 수익률 하나만 보면 의사결정이 쉬워 보이지만, "
+        "기간, 수수료, 세금, 현금흐름 여유가 달라지면 같은 숫자도 전혀 다른 부담이 됩니다."
+    )
+
+
+def en_number_context(topic: dict[str, object]) -> str:
+    first = topic["signals"][0]
+    second = topic["signals"][1]
+    return (
+        f"Read **{first}** together with **{second}**. One rate or return can look simple, but term length, fees, taxes, "
+        "and cash-flow buffer can turn the same number into a very different burden."
+    )
+
+
+def ko_mistake_context(topic: dict[str, object]) -> str:
+    first = topic["ko_signals"][0]
+    action = topic["ko_actions"][1 if len(topic["ko_actions"]) > 1 else 0]
+    return (
+        f"실수는 보통 **{first}**만 보고 전체 비용을 놓칠 때 생깁니다. {action} 그런 다음 월상환액, 총비용, "
+        "수수료, 세금, 유동성, 행동 지속성을 한 표에 놓고 비교해야 합니다."
+    )
+
+
+def en_mistake_context(topic: dict[str, object]) -> str:
+    first = topic["signals"][0]
+    action = topic["en_actions"][1 if len(topic["en_actions"]) > 1 else 0]
+    return (
+        f"The common mistake is focusing on **{first}** while missing total cost. {action} Then compare monthly payment, "
+        "total cost, fees, taxes, liquidity, and behavioral sustainability in one table."
+    )
+
+
+def ko_boundary_context(topic: dict[str, object]) -> str:
+    first = topic["ko_signals"][0]
+    return (
+        f"특히 **{first}**이 부채와 투자 판단을 동시에 건드릴 때는 단기 돈과 장기 돈을 분리해야 합니다. "
+        "고금리 부채, 비상금, 장기투자 목적을 한 계좌 잔액처럼 보면 다음 선택지가 줄어듭니다."
+    )
+
+
+def en_boundary_context(topic: dict[str, object]) -> str:
+    first = topic["signals"][0]
+    return (
+        f"When **{first}** touches both debt and investing decisions, separate short-term money from long-term money. "
+        "High-rate debt, emergency cash, and long-term investments need different rules even when they appear on the same dashboard."
+    )
+
+
 def ko_post(topic: dict[str, object], index: int) -> str:
     slug = str(topic["slug"])
     image_dir = f"/images/{POST_DATE}-{slug}"
@@ -652,11 +772,11 @@ def ko_post(topic: dict[str, object], index: int) -> str:
     {yaml_list(topic["tags"])}
     ---
 
-    개인재무는 수익률 맞히기보다 **현금흐름, 부채 비용, 위험 완충, 목표 기간**을 꾸준히 관리하는 일입니다.
+    {ko_intro_context(topic)}
 
     {topic["ko_summary"]}
 
-    이 글은 특정 상품 추천이나 개인별 재무 조언이 아닙니다. 공식 자료를 바탕으로 스스로 판단할 때 확인할 순서와 질문을 정리한 교육용 가이드입니다.
+    {ko_advice_context(topic)}
 
     ![{topic["ko_title"]} 핵심 재무 흐름]({image_dir}/hero.svg)
 
@@ -664,15 +784,13 @@ def ko_post(topic: dict[str, object], index: int) -> str:
 
     {topic["ko_point"]}
 
-    돈 문제는 보통 한 번의 큰 실수보다 작은 누락이 누적되며 커집니다. 결제일을 놓치거나, 수수료를 보지 않거나, 목표 기간과 위험 수준을 섞으면 같은 소득에서도 선택지가 줄어듭니다.
-
-    그래서 먼저 봐야 할 것은 상품 이름이 아니라 **숫자의 위치**입니다. 이 돈이 언제 필요하고, 실패하면 어떤 비용이 생기며, 복구하려면 얼마의 시간이 필요한지를 적어야 합니다.
+    {ko_position_context(topic)}
 
     ## 먼저 확인할 숫자
 
     {signals}
 
-    숫자는 혼자서 답을 주지 않습니다. 같은 금리라도 기간이 다르면 부담이 달라지고, 같은 저축률이라도 비상금이 없으면 장기 목표를 깨게 될 수 있습니다.
+    {ko_number_context(topic)}
 
     ![{topic["ko_title"]} 실행 체크리스트]({image_dir}/checklist.svg)
 
@@ -680,13 +798,13 @@ def ko_post(topic: dict[str, object], index: int) -> str:
 
     {actions}
 
-    가능하면 한 번에 완벽히 바꾸려 하지 마세요. 이번 달에 하나의 자동이체, 하나의 결제일, 하나의 부채 항목만 정리해도 다음 달 판단이 쉬워집니다.
+    {ko_increment_context(topic)}
 
     ## 실수하기 쉬운 지점
 
-    가장 흔한 실수는 월상환액, 예상수익률, 할인율처럼 보기 쉬운 숫자만 보는 것입니다. 실제 재무 판단에는 총비용, 수수료, 세금, 유동성, 행동 지속성이 같이 들어갑니다.
+    {ko_mistake_context(topic)}
 
-    특히 부채와 투자를 동시에 다룰 때는 고금리 부채, 비상금, 장기투자 목적을 섞지 않는 것이 중요합니다. 단기 돈과 장기 돈은 같은 계좌에 있어도 다른 규칙으로 관리해야 합니다.
+    {ko_boundary_context(topic)}
 
     ## 월간 점검 체크리스트
 
@@ -737,11 +855,11 @@ def en_post(topic: dict[str, object], index: int) -> str:
     {yaml_list(topic["tags"])}
     ---
 
-    Personal finance is less about guessing returns and more about managing **cash flow, debt cost, risk buffers, and time horizon** consistently.
+    {en_intro_context(topic)}
 
     {topic["en_summary"]}
 
-    This article is educational and is not individualized financial advice or a product recommendation. It uses official-source guidance to organize the questions to ask before deciding.
+    {en_advice_context(topic)}
 
     ![{topic["en_title"]} core finance flow]({image_dir}/hero.svg)
 
@@ -749,15 +867,13 @@ def en_post(topic: dict[str, object], index: int) -> str:
 
     {topic["en_point"]}
 
-    Money problems often grow from accumulated small gaps rather than one dramatic mistake. Missing due dates, ignoring fees, or mixing time horizons can reduce options even when income stays the same.
-
-    The first thing to identify is not the product name but **where the number belongs**. When will this money be needed, what is the cost of being wrong, and how long would recovery take?
+    {en_position_context(topic)}
 
     ## Numbers To Check First
 
     {signals}
 
-    Numbers do not answer the question alone. The same rate changes with term length. The same saving rate behaves differently when there is no emergency buffer.
+    {en_number_context(topic)}
 
     ![{topic["en_title"]} action checklist]({image_dir}/checklist.svg)
 
@@ -765,13 +881,13 @@ def en_post(topic: dict[str, object], index: int) -> str:
 
     {actions}
 
-    Do not try to fix every part of the system in one month. One automated transfer, one bill due date, or one debt line can make next month's decision clearer.
+    {en_increment_context(topic)}
 
     ## Common Mistakes
 
-    The most common mistake is focusing only on visible numbers such as monthly payment, expected return, or discount rate. Real decisions also include total cost, fees, taxes, liquidity, and behavioral sustainability.
+    {en_mistake_context(topic)}
 
-    When debt and investing overlap, avoid mixing high-rate debt, emergency cash, and long-term investments into one mental bucket. Short-term money and long-term money need different rules.
+    {en_boundary_context(topic)}
 
     ## Monthly Checkup
 

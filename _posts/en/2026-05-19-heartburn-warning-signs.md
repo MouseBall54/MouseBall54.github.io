@@ -27,11 +27,11 @@ tags:
   - Health Literacy
 ---
 
-Health literacy is not self-diagnosis. It is the ability to know **what to track, when to rest, and when to ask a professional**.
+Health literacy is not self-diagnosis. It is the ability to track observable signs such as **chest pain**, know when rest is reasonable, and know when professional guidance is safer.
 
 Discomfort that feels like heartburn needs urgent attention if it appears with chest pain, shortness of breath, sweating, or arm or jaw pain.
 
-This article is educational and is not diagnosis or treatment advice. If symptoms are severe, suddenly worse, involve breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional right away.
+This article is educational and is not diagnosis or treatment advice for **Heartburn or Chest Pain: Questions for Repeating Discomfort**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
 
 ![Heartburn or Chest Pain: Questions for Repeating Discomfort core health flow](/images/2026-05-19-heartburn-warning-signs/hero.svg)
 
@@ -39,18 +39,18 @@ This article is educational and is not diagnosis or treatment advice. If symptom
 
 Digestive and heart-related symptoms can be hard to separate, so warning signs should be handled conservatively.
 
-Health information is abundant, but real life often makes it hard to decide what to check first. A consistent record of symptoms, duration, habits, and warning signs helps you avoid guessing and improves conversations with clinicians.
+Instead of chasing search results, record the start date, frequency, duration, triggers, and relieving factors around **chest pain**. A useful first step is: record location, relation to meals, and duration.
 
-The useful baseline is **patterns over one number**, **function over vague feeling**, and **safety signals over waiting it out**. Lifestyle routines can start small, but warning signs deserve conservative handling.
+For **chest pain, shortness of breath**, use patterns over one number, daily function over vague feeling, and safety signals over waiting it out. Lifestyle routines can start small, but warning signs deserve conservative handling.
 
 ## Signals To Check First
 
-- **chest pain**: record it, and seek professional guidance if it worsens or raises safety concerns.
-- **shortness of breath**: record it, and seek professional guidance if it worsens or raises safety concerns.
-- **sweating**: record it, and seek professional guidance if it worsens or raises safety concerns.
-- **arm or jaw pain**: record it, and seek professional guidance if it worsens or raises safety concerns.
+- **chest pain**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
+- **shortness of breath**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
+- **sweating**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
+- **arm or jaw pain**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
 
-Signals should not be interpreted in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same symptom means.
+Do not interpret **chest pain** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
 
 ![Heartburn or Chest Pain: Questions for Repeating Discomfort checklist](/images/2026-05-19-heartburn-warning-signs/checklist.svg)
 
@@ -60,13 +60,13 @@ Signals should not be interpreted in isolation. Age, pregnancy, existing conditi
 - Check for chest pain, shortness of breath, or sweating.
 - Consider emergency help for new or severe chest symptoms.
 
-Start small. Health routines last longer when they have a repeatable time, place, and recording method instead of relying on motivation alone.
+Health habits last longer when the first action has a clear time and place. Start with 'Record location, relation to meals, and duration.', then expand only after the record is consistent for at least a week.
 
 ## When To Ask For Help
 
-If a symptom is new, rapidly worsening, disrupting daily function, or hard to judge safely, professional guidance is the safer route.
+For **Heartburn or Chest Pain: Questions for Repeating Discomfort**, if the tracked change is new, rapidly worsening, disrupting daily function, or hard to judge safely, professional guidance is the safer route. When the risk is unclear, opening a care channel is better than waiting it out.
 
-Before a visit, write the start date, duration, triggers, relieving factors, related symptoms, and all medicines or supplements. That makes short appointments more productive.
+Before a visit, write the start date, duration, triggers, relieving factors, related symptoms, and medicines or supplements connected to **chest pain**. That makes short appointments more productive.
 
 ## Monthly Checkup
 

@@ -27,11 +27,11 @@ tags:
   - Infrastructure
 ---
 
-Global affairs often looks abstract until it shows up in **export orders, exchange rates, oil prices, food costs, power bills, insurance premiums, and security budgets**.
+Global affairs can look abstract until **data-center load** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
 
 IEA Electricity 2026 shows electricity demand can outpace economic growth as data centres, industry, cooling, and EVs reshape the load profile.
 
-This briefing does not try to turn a complex issue into one strong prediction. It gives readers a practical order for reading the next update without being pulled around by every headline.
+This briefing treats **AI Data-Center Electricity Demand: Why Tech News Is Becoming Grid News** as a transmission problem rather than a one-line forecast. It uses signals such as data-center load, grid connection queues to help readers separate official data from commentary and decide which follow-up report deserves attention.
 
 ![AI Data-Center Electricity Demand: Why Tech News Is Becoming Grid News core flow summary](/images/2026-05-22-ai-data-center-electricity-demand/hero.svg)
 
@@ -39,9 +39,7 @@ This briefing does not try to turn a complex issue into one strong prediction. I
 
 Korea is both an AI chip supplier and a power-intensive manufacturing economy, so grid bottlenecks can become an export-competitiveness issue.
 
-The defining feature of the 2026 global environment is that shocks rarely stay inside one category. Energy stress can move inflation and trade balances. Trade fragmentation can change investment and jobs. Financial volatility can reduce the room for fiscal support.
-
-That is why this issue should not be read as simply good or bad. The useful question is **direction, duration, and transmission**. A one-day price shock, a quarterly supply disruption, and a permanent rule change require different decisions.
+For this issue, start with **data-center load**, then check whether **grid connection queues** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
@@ -50,22 +48,22 @@ That is why this issue should not be read as simply good or bad. The useful ques
 - **power prices**: watch the direction, policy response, and market pricing rather than the number alone.
 - **renewables and nuclear output**: watch the direction, policy response, and market pricing rather than the number alone.
 
-These indicators should not be read in isolation. A price can rise while inventories absorb the shock. A price can look stable while export controls, insurance costs, or compliance burdens quietly raise corporate costs later.
+Do not read **data-center load** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
 
 ![AI Data-Center Electricity Demand: Why Tech News Is Becoming Grid News signal checklist](/images/2026-05-22-ai-data-center-electricity-demand/signal-map.svg)
 
 ## Korea-Facing Angle
 
-Korea is deeply exposed through semiconductors, autos, batteries, refining and petrochemicals, shipping, and financial markets. Domestic news often carries an external cause that is easy to miss.
+Korea is exposed through semiconductors, autos, batteries, refining and petrochemicals, shipping, and financial markets. When **data-center load** and **grid connection queues** move, a domestic headline may have an external cause that is easy to miss.
 
 Korea is both an AI chip supplier and a power-intensive manufacturing economy, so grid bottlenecks can become an export-competitiveness issue.
 
-Household readers can translate the issue into fixed and variable costs. Business readers should check cost, delivery time, FX hedging, and customer-region exposure before looking only at revenue. Policy readers should ask how quickly the announced measure can be funded and implemented.
+Household readers can translate **data-center load** into living costs, loan rates, or energy bills. Business readers should check cost, delivery time, FX hedging, and customer-region exposure before revenue. Policy readers should ask whether the announced measure has funding and implementation capacity.
 
 ## How To Read The Next Update
 
-1. Decide whether the event is mainly a **price shock** or a **volume shock**.
-2. Check whether it is a short news cycle or a structural change that can last for quarters.
+1. Decide whether **data-center load** is creating a price shock, a volume shock, or both.
+2. Check whether **grid connection queues** is a short news cycle or a structural change that can last for quarters.
 3. Mark the Korea-facing channel: exports, import prices, financial markets, security costs, or household costs.
 
 ## Reader Checklist
@@ -80,7 +78,7 @@ Household readers can translate the issue into fixed and variable costs. Busines
 
 - [IEA Electricity 2026](https://www.iea.org/reports/electricity-2026/executive-summary)
 - [IEA World Energy Outlook 2025](https://www.iea.org/reports/world-energy-outlook-2025/executive-summary)
-- [Korea MOTIR March 2026 Export Release](https://english.motir.go.kr/eng/article/EATCLdfa319ada/2559/view)
+- [Korea.net March 2026 Export Summary](https://www.korea.net/NewsFocus/Business/view?articleId=289960)
 
 ## Related Reading
 

@@ -27,11 +27,11 @@ tags:
   - Support
 ---
 
-Health literacy is not self-diagnosis. It is the ability to know **what to track, when to rest, and when to ask a professional**.
+Health literacy is not self-diagnosis. It is the ability to track observable signs such as **increased avoidance**, know when rest is reasonable, and know when professional guidance is safer.
 
 Anxiety is common, but persistent avoidance, sleep problems, physical symptoms, or impaired daily function are reasons to seek support.
 
-This article is educational and is not diagnosis or treatment advice. If symptoms are severe, suddenly worse, involve breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional right away.
+This article is educational and is not diagnosis or treatment advice for **When Anxiety Disrupts Life: A Practical Threshold for Seeking Help**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
 
 ![When Anxiety Disrupts Life: A Practical Threshold for Seeking Help core health flow](/images/2026-05-19-anxiety-seek-help/hero.svg)
 
@@ -39,18 +39,18 @@ This article is educational and is not diagnosis or treatment advice. If symptom
 
 The size of fear matters less than how much life has narrowed around it.
 
-Health information is abundant, but real life often makes it hard to decide what to check first. A consistent record of symptoms, duration, habits, and warning signs helps you avoid guessing and improves conversations with clinicians.
+Instead of chasing search results, record the start date, frequency, duration, triggers, and relieving factors around **increased avoidance**. A useful first step is: list places or tasks you started avoiding.
 
-The useful baseline is **patterns over one number**, **function over vague feeling**, and **safety signals over waiting it out**. Lifestyle routines can start small, but warning signs deserve conservative handling.
+For **increased avoidance, sleep disruption**, use patterns over one number, daily function over vague feeling, and safety signals over waiting it out. Lifestyle routines can start small, but warning signs deserve conservative handling.
 
 ## Signals To Check First
 
-- **increased avoidance**: record it, and seek professional guidance if it worsens or raises safety concerns.
-- **sleep disruption**: record it, and seek professional guidance if it worsens or raises safety concerns.
-- **racing heart**: record it, and seek professional guidance if it worsens or raises safety concerns.
-- **impaired daily function**: record it, and seek professional guidance if it worsens or raises safety concerns.
+- **increased avoidance**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
+- **sleep disruption**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
+- **racing heart**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
+- **impaired daily function**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
 
-Signals should not be interpreted in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same symptom means.
+Do not interpret **increased avoidance** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
 
 ![When Anxiety Disrupts Life: A Practical Threshold for Seeking Help checklist](/images/2026-05-19-anxiety-seek-help/checklist.svg)
 
@@ -60,13 +60,13 @@ Signals should not be interpreted in isolation. Age, pregnancy, existing conditi
 - Track sleep, eating, and physical symptoms together.
 - Seek immediate help for self-harm thoughts or safety concerns.
 
-Start small. Health routines last longer when they have a repeatable time, place, and recording method instead of relying on motivation alone.
+Health habits last longer when the first action has a clear time and place. Start with 'List places or tasks you started avoiding.', then expand only after the record is consistent for at least a week.
 
 ## When To Ask For Help
 
-If a symptom is new, rapidly worsening, disrupting daily function, or hard to judge safely, professional guidance is the safer route.
+For **When Anxiety Disrupts Life: A Practical Threshold for Seeking Help**, if the tracked change is new, rapidly worsening, disrupting daily function, or hard to judge safely, professional guidance is the safer route. When the risk is unclear, opening a care channel is better than waiting it out.
 
-Before a visit, write the start date, duration, triggers, relieving factors, related symptoms, and all medicines or supplements. That makes short appointments more productive.
+Before a visit, write the start date, duration, triggers, relieving factors, related symptoms, and medicines or supplements connected to **increased avoidance**. That makes short appointments more productive.
 
 ## Monthly Checkup
 

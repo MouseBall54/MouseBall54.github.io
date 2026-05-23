@@ -3,7 +3,7 @@ layout: archive
 title: "Categories"
 permalink: /categories/
 seo_description: >
-  MouseBall54 Toolbox category hub for bilingual troubleshooting, AI, global affairs, climate-energy, security, finance, health, study, economy, and labeling guides.
+  MouseBall54 Toolbox category hub for bilingual troubleshooting, AI, global affairs, climate-energy, consumer rights, security, finance, health, study, economy, and labeling guides.
 sidebar:
     nav: "sidebar-category"
 ---
@@ -16,6 +16,7 @@ Use the links below instead of the raw Jekyll category names. Each hub has an in
 {% assign ko_ai = site.categories["ko_AI_Trends"] | where_exp: "post", "post.hidden != true" %}
 {% assign ko_global = site.categories["ko_Global_Affairs"] | where_exp: "post", "post.hidden != true" %}
 {% assign ko_climate = site.categories["ko_Climate_Energy"] | where_exp: "post", "post.hidden != true" %}
+{% assign ko_consumer = site.categories["ko_Consumer_Rights"] | where_exp: "post", "post.hidden != true" %}
 {% assign ko_security = site.categories["ko_Digital_Security"] | where_exp: "post", "post.hidden != true" %}
 {% assign ko_personal_finance = site.categories["ko_Personal_Finance"] | where_exp: "post", "post.hidden != true" %}
 {% assign ko_health = site.categories["ko_Health_Literacy"] | where_exp: "post", "post.hidden != true" %}
@@ -26,6 +27,7 @@ Use the links below instead of the raw Jekyll category names. Each hub has an in
 {% assign en_ai = site.categories["en_AI_Trends"] | where_exp: "post", "post.hidden != true" %}
 {% assign en_global = site.categories["en_Global_Affairs"] | where_exp: "post", "post.hidden != true" %}
 {% assign en_climate = site.categories["en_Climate_Energy"] | where_exp: "post", "post.hidden != true" %}
+{% assign en_consumer = site.categories["en_Consumer_Rights"] | where_exp: "post", "post.hidden != true" %}
 {% assign en_security = site.categories["en_Digital_Security"] | where_exp: "post", "post.hidden != true" %}
 {% assign en_personal_finance = site.categories["en_Personal_Finance"] | where_exp: "post", "post.hidden != true" %}
 {% assign en_health = site.categories["en_Health_Literacy"] | where_exp: "post", "post.hidden != true" %}
@@ -41,6 +43,7 @@ Use the links below instead of the raw Jekyll category names. Each hub has an in
 | AI Trends | {{ ko_ai | size }} | [AI 실무 워크플로우](/ko_ai_trends/) |
 | Global Affairs | {{ ko_global | size }} | [세계정세 브리핑](/ko_global_affairs/) |
 | Climate & Energy | {{ ko_climate | size }} | [기후·에너지 브리핑](/ko_climate_energy/) |
+| Consumer Rights | {{ ko_consumer | size }} | [소비자 권리 가이드](/ko_consumer_rights/) |
 | Digital Security | {{ ko_security | size }} | [디지털 보안 가이드](/ko_digital_security/) |
 | Personal Finance | {{ ko_personal_finance | size }} | [개인재무 가이드](/ko_personal_finance/) |
 | Health Literacy | {{ ko_health | size }} | [건강 리터러시](/ko_health_literacy/) |
@@ -56,6 +59,7 @@ Use the links below instead of the raw Jekyll category names. Each hub has an in
 | AI Trends | {{ en_ai | size }} | [AI workflow guides](/en_ai_trends/) |
 | Global Affairs | {{ en_global | size }} | [Global affairs briefings](/en_global_affairs/) |
 | Climate & Energy | {{ en_climate | size }} | [Climate and energy briefings](/en_climate_energy/) |
+| Consumer Rights | {{ en_consumer | size }} | [Consumer rights guides](/en_consumer_rights/) |
 | Digital Security | {{ en_security | size }} | [Digital security guides](/en_digital_security/) |
 | Personal Finance | {{ en_personal_finance | size }} | [Personal finance guides](/en_personal_finance/) |
 | Health Literacy | {{ en_health | size }} | [Health literacy guides](/en_health_literacy/) |
