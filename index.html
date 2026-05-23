@@ -3,10 +3,9 @@ layout: home
 title: "MouseBall54 Toolbox"
 lang: en
 seo_description: >
-  MouseBall54 Toolbox collects bilingual troubleshooting, AI workflow, global affairs, climate-energy, consumer rights, security, finance, health, study, and image labeling guides.
-author_profile: true
-sidebar:
-    nav: "sidebar-category"
+  A bilingual practical knowledge library for troubleshooting, AI workflows, world issues, finance, health, study, and image labeling.
+classes:
+  - landing-home
 feature_row:
   - image_path: /assets/images/profile_1.png
     alt: "Easy Labeling"
@@ -17,177 +16,208 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
-MouseBall54 Toolbox is a bilingual practical knowledge blog for developers and tool builders. Choose a hub by topic, then move into the Korean or English article list that matches your current problem.
+{% assign total_posts = site.posts | size %}
+{% assign topic_pairs = total_posts | divided_by: 2 %}
+{% assign en_troubleshooting = site.categories["en_Troubleshooting"] | size %}
+{% assign en_ai = site.categories["en_AI_Trends"] | size %}
+{% assign en_global = site.categories["en_Global_Affairs"] | size %}
+{% assign en_energy = site.categories["en_Climate_Energy"] | size %}
+{% assign en_consumer = site.categories["en_Consumer_Rights"] | size %}
+{% assign en_security = site.categories["en_Digital_Security"] | size %}
+{% assign en_finance = site.categories["en_Personal_Finance"] | size %}
+{% assign en_health = site.categories["en_Health_Literacy"] | size %}
+{% assign en_study = site.categories["en_Study"] | size %}
+{% assign en_economy = site.categories["en_Economy"] | size %}
+{% assign en_easy = site.categories["en_easy_labeling"] | size %}
 
-## Featured Hubs
-
-<div class="feature__wrapper">
-  <div class="feature__item">
-    <div class="archive__item">
-      <h3 class="archive__item-title">Troubleshooting</h3>
-      <p>Reproducible fixes for Python, JavaScript, Java, Git, Docker, and build errors.</p>
-      <p><a href="/en_troubleshooting/" class="btn btn--primary">English</a> <a href="/ko_troubleshooting/" class="btn">한국어</a></p>
+<section class="home-hero">
+  <div class="home-hero__copy">
+    <p class="home-eyebrow">Bilingual practical knowledge library</p>
+    <h1>Clear guides for problems that deserve calm, trustworthy answers.</h1>
+    <p class="home-lead">
+      MouseBall54 Toolbox organizes developer troubleshooting, AI workflows, world issues, finance, health, study systems, and computer vision dataset work into concise Korean and English guides.
+    </p>
+    <div class="home-actions">
+      <a class="btn btn--primary" href="/categories/">Explore all hubs</a>
+      <a class="btn btn--inverse" href="/en_troubleshooting/">Start with troubleshooting</a>
+      <a class="btn btn--inverse" href="/ko_ai_trends/">한국어 AI 글 보기</a>
     </div>
   </div>
-  <div class="feature__item">
-    <div class="archive__item">
-      <h3 class="archive__item-title">AI Trends</h3>
-      <p>Official-source guides for AI agents, structured outputs, RAG evaluation, LLM security, governance, and cost-aware workflows.</p>
-      <p><a href="/en_ai_trends/" class="btn btn--primary">English</a> <a href="/ko_ai_trends/" class="btn">한국어</a></p>
+  <aside class="home-hero__panel" aria-label="Site quality summary">
+    <p class="panel-label">Current library</p>
+    <strong>{{ total_posts }}</strong>
+    <span>published bilingual articles</span>
+    <div class="home-meter">
+      <span style="width: 94%"></span>
+    </div>
+    <p>
+      {{ topic_pairs }} paired topics across practical, technical, and public-interest fields.
+    </p>
+  </aside>
+</section>
+
+<section class="trust-strip" aria-label="Editorial standards">
+  <div>
+    <strong>Paired languages</strong>
+    <span>Korean and English posts are published together.</span>
+  </div>
+  <div>
+    <strong>Reader-first format</strong>
+    <span>Short sections, clear headings, source notes, and related reading.</span>
+  </div>
+  <div>
+    <strong>AdSense-ready</strong>
+    <span>Ads are configured globally without disrupting article flow.</span>
+  </div>
+</section>
+
+<section class="home-section">
+  <div class="section-heading">
+    <p class="home-eyebrow">Choose by intent</p>
+    <h2>Topic hubs built for repeat search demand</h2>
+    <p>
+      Each hub is designed as a calm entry point. Visitors can land on any article, understand the topic quickly, then move to nearby guides without feeling lost.
+    </p>
+  </div>
+
+  <div class="hub-grid">
+    <article class="hub-card hub-card--wide">
+      <span class="hub-count">{{ en_troubleshooting }} EN / {{ en_troubleshooting }} KO</span>
+      <h3>Troubleshooting</h3>
+      <p>Reproducible fixes for Python, JavaScript, Java, Git, Docker, CI, and build errors.</p>
+      <p><a href="/en_troubleshooting/">English</a><a href="/ko_troubleshooting/">한국어</a></p>
+    </article>
+    <article class="hub-card">
+      <span class="hub-count">{{ en_ai }} pairs</span>
+      <h3>AI Trends</h3>
+      <p>AI agents, RAG evaluation, structured outputs, governance, security, and cost-aware workflows.</p>
+      <p><a href="/en_ai_trends/">English</a><a href="/ko_ai_trends/">한국어</a></p>
+    </article>
+    <article class="hub-card">
+      <span class="hub-count">{{ en_global }} pairs</span>
+      <h3>Global Affairs</h3>
+      <p>World growth, trade, energy, security, and Korea-facing risk explained from practical channels.</p>
+      <p><a href="/en_global_affairs/">English</a><a href="/ko_global_affairs/">한국어</a></p>
+    </article>
+    <article class="hub-card">
+      <span class="hub-count">{{ en_energy }} pairs</span>
+      <h3>Climate & Energy</h3>
+      <p>Grid bottlenecks, AI electricity demand, renewables, batteries, and adaptation risk.</p>
+      <p><a href="/en_climate_energy/">English</a><a href="/ko_climate_energy/">한국어</a></p>
+    </article>
+    <article class="hub-card">
+      <span class="hub-count">{{ en_consumer }} pairs</span>
+      <h3>Consumer Rights</h3>
+      <p>Refunds, subscriptions, chargebacks, recalls, travel disputes, and complaint escalation.</p>
+      <p><a href="/en_consumer_rights/">English</a><a href="/ko_consumer_rights/">한국어</a></p>
+    </article>
+    <article class="hub-card">
+      <span class="hub-count">{{ en_security }} pairs</span>
+      <h3>Digital Security</h3>
+      <p>Phishing, MFA, backups, ransomware response, privacy, family safety, and small business hygiene.</p>
+      <p><a href="/en_digital_security/">English</a><a href="/ko_digital_security/">한국어</a></p>
+    </article>
+    <article class="hub-card">
+      <span class="hub-count">{{ en_finance }} pairs</span>
+      <h3>Personal Finance</h3>
+      <p>Budgeting, emergency funds, debt payoff, credit, tax basics, investing risk, and scams.</p>
+      <p><a href="/en_personal_finance/">English</a><a href="/ko_personal_finance/">한국어</a></p>
+    </article>
+    <article class="hub-card">
+      <span class="hub-count">{{ en_health }} pairs</span>
+      <h3>Health Literacy</h3>
+      <p>Sleep, activity, nutrition, prevention, symptom tracking, medicine safety, and care preparation.</p>
+      <p><a href="/en_health_literacy/">English</a><a href="/ko_health_literacy/">한국어</a></p>
+    </article>
+    <article class="hub-card">
+      <span class="hub-count">{{ en_study }} pairs</span>
+      <h3>Study</h3>
+      <p>Active recall, spaced review, mistake notes, focus, coding practice, sleep, and exam systems.</p>
+      <p><a href="/en_study/">English</a><a href="/ko_study/">한국어</a></p>
+    </article>
+    <article class="hub-card">
+      <span class="hub-count">{{ en_economy }} pairs</span>
+      <h3>Economy</h3>
+      <p>Interest rates, inflation, exchange rates, GDP, jobs, debt, budgeting, and cost pressure.</p>
+      <p><a href="/en_economy/">English</a><a href="/ko_economy/">한국어</a></p>
+    </article>
+    <article class="hub-card">
+      <span class="hub-count">{{ en_easy }} pairs</span>
+      <h3>Easy Labeling</h3>
+      <p>YOLO labels, COCO conversion, bounding box QA, dataset splits, local privacy, and handoff.</p>
+      <p><a href="/en_easy_labeling/">English</a><a href="/ko_easy_labeling/">한국어</a></p>
+    </article>
+  </div>
+</section>
+
+<section class="home-section home-section--editorial">
+  <div class="editorial-card">
+    <p class="home-eyebrow">Editorial promise</p>
+    <h2>Every article should feel like a well-lit workspace.</h2>
+    <p>
+      The design now favors generous spacing, readable line length, clear card boundaries, and quiet visual hierarchy. The writing standard is the same: explain the decision path, show verification steps where possible, and connect each guide to the next useful article.
+    </p>
+  </div>
+  <div class="editorial-list">
+    <p><strong>Structured:</strong> headings, summaries, checklists, and related links are easy to scan.</p>
+    <p><strong>Grounded:</strong> public-interest topics use official or institution-grade sources.</p>
+    <p><strong>Comfortable:</strong> article pages use a focused reading card with softer contrast and wider line-height.</p>
+  </div>
+</section>
+
+<section class="home-section">
+  <div class="section-heading">
+    <p class="home-eyebrow">Fast starting points</p>
+    <h2>Recommended paths for new visitors</h2>
+  </div>
+  <div class="route-grid">
+    <a href="/en_ai_trends/ai-agent-workflow-2026/">AI Agent Workflow 2026</a>
+    <a href="/en_global_affairs/global-growth-fragmentation-2026/">Global Growth and Fragmentation</a>
+    <a href="/en_climate_energy/ai-data-center-electricity-demand/">AI Data-Center Electricity Demand</a>
+    <a href="/en_digital_security/phishing-message-triage/">30-Second Phishing Triage</a>
+    <a href="/en_economy/interest-rate-inflation-basics/">Interest Rates and Inflation</a>
+    <a href="/en_economy/compound-interest-example/">Compound Interest Example</a>
+    <a href="/en_easy_labeling/qa-before-yolo-training/">QA Before YOLO Training</a>
+    <a href="/en_easy_labeling/local-image-labeling-workflow/">Local Image Labeling Workflow</a>
+    <a href="/ko_study/active-recall-study-method/">Active Recall 공부법</a>
+    <a href="/en_study/active-recall-study-method/">Active Recall Study Method</a>
+    <a href="/ko_consumer_rights/subscription-cancel-free-trial/">구독 취소와 자동결제 대응</a>
+    <a href="/en_troubleshooting/github-actions-build-failed/">GitHub Actions Build Failed</a>
+  </div>
+</section>
+
+<section class="home-section home-section--latest">
+  <div class="section-heading">
+    <p class="home-eyebrow">Fresh from the library</p>
+    <h2>Recent high-signal guides</h2>
+  </div>
+  <div class="latest-grid">
+    <div class="latest-panel">
+      <h3>AI & Security</h3>
+      {% for post in site.categories["en_AI_Trends"] limit: 2 %}
+        {% include archive-single.html type="list" %}
+      {% endfor %}
+      {% for post in site.categories["en_Digital_Security"] limit: 2 %}
+        {% include archive-single.html type="list" %}
+      {% endfor %}
+    </div>
+    <div class="latest-panel">
+      <h3>World, Economy & Energy</h3>
+      {% for post in site.categories["en_Global_Affairs"] limit: 2 %}
+        {% include archive-single.html type="list" %}
+      {% endfor %}
+      {% for post in site.categories["en_Economy"] limit: 2 %}
+        {% include archive-single.html type="list" %}
+      {% endfor %}
+    </div>
+    <div class="latest-panel">
+      <h3>Practical Life</h3>
+      {% for post in site.categories["en_Health_Literacy"] limit: 2 %}
+        {% include archive-single.html type="list" %}
+      {% endfor %}
+      {% for post in site.categories["en_Personal_Finance"] limit: 2 %}
+        {% include archive-single.html type="list" %}
+      {% endfor %}
     </div>
   </div>
-  <div class="feature__item">
-    <div class="archive__item">
-      <h3 class="archive__item-title">Global Affairs</h3>
-      <p>Official-source briefings on growth, trade, energy security, defense, climate, migration, and Korea-facing risk.</p>
-      <p><a href="/en_global_affairs/" class="btn btn--primary">English</a> <a href="/ko_global_affairs/" class="btn">한국어</a></p>
-    </div>
-  </div>
-  <div class="feature__item">
-    <div class="archive__item">
-      <h3 class="archive__item-title">Climate & Energy</h3>
-      <p>Official-source guides for grids, AI electricity demand, renewables, batteries, carbon pricing, adaptation, and Korea-facing industry risk.</p>
-      <p><a href="/en_climate_energy/" class="btn btn--primary">English</a> <a href="/ko_climate_energy/" class="btn">한국어</a></p>
-    </div>
-  </div>
-  <div class="feature__item">
-    <div class="archive__item">
-      <h3 class="archive__item-title">Consumer Rights</h3>
-      <p>Practical guides for refunds, subscription cancellation, chargebacks, recalls, travel disputes, telecom bills, fake reviews, and complaint escalation.</p>
-      <p><a href="/en_consumer_rights/" class="btn btn--primary">English</a> <a href="/ko_consumer_rights/" class="btn">한국어</a></p>
-    </div>
-  </div>
-  <div class="feature__item">
-    <div class="archive__item">
-      <h3 class="archive__item-title">Digital Security</h3>
-      <p>Practical routines for phishing, passwords, MFA, backups, ransomware, privacy, family safety, and small business cyber hygiene.</p>
-      <p><a href="/en_digital_security/" class="btn btn--primary">English</a> <a href="/ko_digital_security/" class="btn">한국어</a></p>
-    </div>
-  </div>
-  <div class="feature__item">
-    <div class="archive__item">
-      <h3 class="archive__item-title">Personal Finance</h3>
-      <p>Educational guides for budgeting, emergency funds, debt payoff, credit scores, loan costs, investing risk, fees, and scam red flags.</p>
-      <p><a href="/en_personal_finance/" class="btn btn--primary">English</a> <a href="/ko_personal_finance/" class="btn">한국어</a></p>
-    </div>
-  </div>
-  <div class="feature__item">
-    <div class="archive__item">
-      <h3 class="archive__item-title">Health Literacy</h3>
-      <p>Educational guides for sleep, activity, nutrition, prevention, symptom tracking, medicine safety, mental health signals, and emergency preparation.</p>
-      <p><a href="/en_health_literacy/" class="btn btn--primary">English</a> <a href="/ko_health_literacy/" class="btn">한국어</a></p>
-    </div>
-  </div>
-  <div class="feature__item">
-    <div class="archive__item">
-      <h3 class="archive__item-title">Study</h3>
-      <p>Evidence-informed routines for active recall, spaced review, mistake notes, focus, coding practice, sleep, and exam systems.</p>
-      <p><a href="/en_study/" class="btn btn--primary">English</a> <a href="/ko_study/" class="btn">한국어</a></p>
-    </div>
-  </div>
-  <div class="feature__item">
-    <div class="archive__item">
-      <h3 class="archive__item-title">Economy</h3>
-      <p>Official-source guides for rates, inflation, exchange rates, GDP, jobs, debt, budgeting, and household cost pressure.</p>
-      <p><a href="/en_economy/" class="btn btn--primary">English</a> <a href="/ko_economy/" class="btn">한국어</a></p>
-    </div>
-  </div>
-  <div class="feature__item">
-    <div class="archive__item">
-      <h3 class="archive__item-title">Easy Labeling</h3>
-      <p>Computer vision data workflows for YOLO labels, COCO conversion, class rules, dataset QA, local privacy, and training-ready handoff.</p>
-      <p><a href="/en_easy_labeling/" class="btn btn--primary">English</a> <a href="/ko_easy_labeling/" class="btn">한국어</a></p>
-    </div>
-  </div>
-</div>
-
-## Start Here
-
-- [AI Agent Workflow 2026](/en_ai_trends/ai-agent-workflow-2026/)
-- [Structured Outputs and JSON Schema](/en_ai_trends/structured-outputs-json-schema/)
-- [LLM Prompt Injection Defense](/en_ai_trends/llm-security-prompt-injection/)
-- [Global Growth and Fragmentation in 2026](/en_global_affairs/global-growth-fragmentation-2026/)
-- [AI Data-Center Electricity Demand](/en_climate_energy/ai-data-center-electricity-demand/)
-- [Free Trial and Auto-Renewal Cancellation](/en_consumer_rights/subscription-cancel-free-trial/)
-- [A 30-Second Phishing Triage](/en_digital_security/phishing-message-triage/)
-- [Paycheck Budget Calendar](/en_personal_finance/paycheck-budget-calendar/)
-- [Adult Sleep Routine](/en_health_literacy/sleep-routine-adults/)
-- [Active Recall Study Method](/en_study/active-recall-study-method/)
-- [Question Bank System](/en_study/question-bank-system/)
-- [Sleep and Study Performance](/en_study/sleep-study-performance/)
-- [Interest Rates and Inflation](/en_economy/interest-rate-inflation-basics/)
-- [Exchange Rate Basics](/en_economy/exchange-rate-basics/)
-- [Compound Interest Example](/en_economy/compound-interest-example/)
-- [Local Image Labeling Workflow](/en_easy_labeling/local-image-labeling-workflow/)
-- [Bounding Box Quality Checklist](/en_easy_labeling/bounding-box-quality-checklist/)
-- [Train, Val, Test Dataset Split](/en_easy_labeling/dataset-split-train-val-test/)
-- [QA Before YOLO Training](/en_easy_labeling/qa-before-yolo-training/)
-- [How to Fix GitHub Actions Build Failed](/en_troubleshooting/github-actions-build-failed/)
-
-## Category Highlights
-
-### AI Trends
-
-{% for post in site.categories["en_AI_Trends"] limit: 3 %}
-  {% include archive-single.html type="list" %}
-{% endfor %}
-
-### Global Affairs
-
-{% for post in site.categories["en_Global_Affairs"] limit: 3 %}
-  {% include archive-single.html type="list" %}
-{% endfor %}
-
-### Climate & Energy
-
-{% for post in site.categories["en_Climate_Energy"] limit: 3 %}
-  {% include archive-single.html type="list" %}
-{% endfor %}
-
-### Consumer Rights
-
-{% for post in site.categories["en_Consumer_Rights"] limit: 3 %}
-  {% include archive-single.html type="list" %}
-{% endfor %}
-
-### Digital Security
-
-{% for post in site.categories["en_Digital_Security"] limit: 3 %}
-  {% include archive-single.html type="list" %}
-{% endfor %}
-
-### Personal Finance
-
-{% for post in site.categories["en_Personal_Finance"] limit: 3 %}
-  {% include archive-single.html type="list" %}
-{% endfor %}
-
-### Health Literacy
-
-{% for post in site.categories["en_Health_Literacy"] limit: 3 %}
-  {% include archive-single.html type="list" %}
-{% endfor %}
-
-### Study
-
-{% for post in site.categories["en_Study"] limit: 3 %}
-  {% include archive-single.html type="list" %}
-{% endfor %}
-
-### Economy
-
-{% for post in site.categories["en_Economy"] limit: 3 %}
-  {% include archive-single.html type="list" %}
-{% endfor %}
-
-### Easy Labeling
-
-{% for post in site.categories["en_easy_labeling"] limit: 3 %}
-  {% include archive-single.html type="list" %}
-{% endfor %}
-
-### Troubleshooting
-
-{% for post in site.categories["en_Troubleshooting"] limit: 3 %}
-  {% include archive-single.html type="list" %}
-{% endfor %}
+</section>

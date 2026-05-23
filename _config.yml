@@ -16,9 +16,9 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "MouseBall54's Toolbox"
 title_separator          : "|"
-subtitle                 : "Your source for AI, Computer Vision, and useful tools."
+subtitle                 : "Calm guides for AI, code, world issues, and practical decisions."
 name                     : "MouseBall54"
-description              : "MouseBall54's blog sharing insights and tools on AI, vision, and development"
+description              : "A bilingual practical knowledge library for troubleshooting, AI workflows, global affairs, finance, health, study, and computer vision data work."
 url                      : "https://mouseball54.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "MouseBall54/MouseBall54.github.io" # GitHub username/repo-name
