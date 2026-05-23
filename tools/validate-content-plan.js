@@ -442,6 +442,10 @@ function validateSearchAndMonetizationFiles() {
   [
     "page.header.image_description",
     "page_image_alt",
+    "page_og_locale",
+    "og:locale:alternate",
+    "ko_KR",
+    "en_US",
     "og:image:alt",
     "twitter:card",
     "twitter:title",

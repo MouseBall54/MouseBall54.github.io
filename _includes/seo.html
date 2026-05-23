@@ -37,6 +37,13 @@
   {%- assign og_type = "website" -%}
 {%- endif -%}
 
+{%- assign page_og_locale = site.locale | default: "en-US" | replace: "-", "_" -%}
+{%- if page.lang == "ko" -%}
+  {%- assign page_og_locale = "ko_KR" -%}
+{%- elsif page.lang == "en" -%}
+  {%- assign page_og_locale = "en_US" -%}
+{%- endif -%}
+
 <title>{{ seo_title }}{% if paginator %}{% unless paginator.page == 1 %} {{ title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
 <meta name="description" content="{{ seo_description }}">
 
@@ -48,7 +55,18 @@
 {% endif %}
 
 <meta property="og:type" content="{{ og_type }}">
-<meta property="og:locale" content="{{ site.locale | replace: "-", "_" | default: "en_US" }}">
+<meta property="og:locale" content="{{ page_og_locale }}">
+{% if page.layout == "single" and page.translation_id %}
+  {% for post in site.posts %}
+    {% if post.translation_id == page.translation_id and post.lang != page.lang %}
+      {% if post.lang == "ko" %}
+        <meta property="og:locale:alternate" content="ko_KR">
+      {% elsif post.lang == "en" %}
+        <meta property="og:locale:alternate" content="en_US">
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
 <meta property="og:site_name" content="{{ site.title | escape_once | strip }}">
 <meta property="og:title" content="{{ page_title }}">
 <meta property="og:url" content="{{ canonical_url }}">
