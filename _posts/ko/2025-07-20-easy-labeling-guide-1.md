@@ -2,6 +2,8 @@
 typora-root-url: ../
 header:
   teaser: /images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png
+  overlay_image: /images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png
+  overlay_filter: 0.36
   image_description: >
     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Easy Labeling 가이드 (1) - 이미지와 라벨 불러오기
 layout: single

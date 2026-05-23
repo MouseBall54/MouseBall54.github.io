@@ -1,7 +1,10 @@
 ---
 typora-root-url: ../
+layout: single
 header:
-  teaser: ../images/2025-07-13-easy-labeling-development/image-20250715203036663.png
+  teaser: /images/2025-07-13-introducing-easy-labeling/image-20250715203044117.png
+  overlay_image: /images/2025-07-13-introducing-easy-labeling/image-20250715203044117.png
+  overlay_filter: 0.36
   image_description: >
     A visual summary explaining the main topic of this post: Introducing Easy Labeling: A Free Web-Based Tool for YOLO Object Detection
 title: "Introducing Easy Labeling: A Free Web-Based Tool for YOLO Object Detection"
@@ -49,6 +52,18 @@ The primary output of the tool is annotation files in the widely-used **YOLO tex
 *   **Advanced Label Management:**
     *   Perform bulk actions, such as changing the class for multiple selected bounding boxes at once.
 *   **Flexible Configuration:** Supports various image formats (JPG, PNG, TIFF), an auto-save feature, and a persistent dark mode.
+
+## What Matters in a Real Labeling Workflow
+
+The value of Easy Labeling is not only drawing boxes faster. An object detection dataset also needs consistent **class order**, matching image and label filenames, normalized YOLO coordinates, and a review rule that catches mistakes before training.
+
+For that reason, it is better to start with a small sample folder instead of labeling the entire dataset immediately. Open 20 to 50 representative images in Easy Labeling, draw boxes, save labels, then inspect the generated `.txt` files. This early pass reveals class ID drift, loose bounding boxes, missing edge-case rules, and filename mismatches while they are still cheap to fix.
+
+![Easy Labeling sample screen for drawing object detection boxes](/images/easy_labeling_sample.png)
+
+Production labeling also needs an instruction document. Class names such as “person,” “vehicle,” or “sign” can still become ambiguous when objects are occluded, truncated, reflected, very small, or partially outside the image. Keeping those edge cases as visual examples helps new labelers make the same decisions as reviewers.
+
+Before handing the dataset to training, check the `images/train`, `images/val`, `labels/train`, and `labels/val` structure, then verify the `data.yaml` class order. Many problems that look like model failures actually begin with missing label files, filename mismatches, or class order changes.
 
 
 

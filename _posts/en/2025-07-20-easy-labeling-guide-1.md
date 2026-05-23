@@ -2,6 +2,8 @@
 typora-root-url: ../
 header:
   teaser: /images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png
+  overlay_image: /images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png
+  overlay_filter: 0.36
   image_description: >
     A visual summary explaining the main topic of this post: Easy Labeling Guide (1) - Loading Images and Labels
 title: "Easy Labeling Guide (1) - Loading Images and Labels"

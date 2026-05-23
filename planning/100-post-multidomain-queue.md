@@ -25,8 +25,8 @@ The list keeps the existing troubleshooting strength, then adds study, economy, 
 | AI trends and workflow | 30 | 60 | Current AI adoption and practical implementation |
 | Study and productivity | 32 | 64 | Evidence-informed study systems and exam preparation |
 | Economy and money basics | 36 | 72 | Official-source economic indicators and household cost explanations |
-| Easy Labeling and computer vision | 5 | 10 | Product-led education and tool discovery |
-| Total | 123 | 246 | Balanced growth portfolio |
+| Easy Labeling and computer vision | 37 | 74 | Product-led computer vision data quality and tool discovery |
+| Total | 155 | 310 | Balanced growth portfolio |
 
 ## Troubleshooting: 20 Topic Pairs
 
@@ -153,15 +153,50 @@ Production source: `tools/generate_economy_posts.py`.
 | review | global-dollar-liquidity-basics | Dollar | 달러 유동성 기초: 미국 금리가 세계 금융여건에 미치는 영향 | Global Dollar Liquidity: How U.S. Rates Shape Financial Conditions | economy decision diagram |
 | review | economic-calendar-for-households | EconomicCalendar | 가계를 위한 경제 캘린더: CPI, 고용, 금리, 환율 발표일 정리 | Economic Calendar for Households: CPI, Jobs, Rates, and Exchange Rates | economy decision diagram |
 
-## Easy Labeling and Computer Vision: 5 Topic Pairs
+## Easy Labeling and Computer Vision: 37 Topic Pairs
+
+Production source for the 2026 expansion: `tools/generate_easy_labeling_posts.py`.
+The three 2025 product introduction and guide pairs are preserved as foundational Easy Labeling articles, while the 2026 campaign expands the field into dataset QA, YOLO formatting, conversion, splitting, review, active learning, privacy, and training handoff.
 
 | Status | Translation ID | Primary keyword | Korean title direction | English title direction | Image direction |
 | --- | --- | --- | --- | --- | --- |
-| review | yolo-label-format | YOLO label format | YOLO label format 읽는 법 | How to Read YOLO Label Format | labeled bounding box |
-| review | coco-to-yolo-conversion | COCO to YOLO | COCO to YOLO 변환 실수 | COCO to YOLO Conversion Mistakes | format conversion |
-| review | image-labeling-classes | image labeling classes | 이미지 라벨링 클래스 관리법 | How to Manage Classes for Image Labeling | class taxonomy |
-| review | local-image-labeling-workflow | local image labeling | 로컬 이미지 라벨링 워크플로우 | Local Image Labeling Workflow | local folder flow |
-| review | easy-labeling-yolo-dataset | Easy Labeling YOLO | Easy Labeling으로 YOLO 데이터셋 만들기 | Build a YOLO Dataset with Easy Labeling | Easy Labeling screen flow |
+| review | easy-labeling-development | Easy Labeling | YOLO 데이터 라벨링, 설치 없이 웹에서 바로! Easy Labeling 개발기 | Introducing Easy Labeling: A Free Web-Based Tool for YOLO Object Detection | product introduction screenshot |
+| review | easy-labeling-in-depth-features | Easy Labeling features | YOLO 라벨링 끝판왕, Easy Labeling 주요 기능 파헤치기 | A Deep Dive into Easy Labeling's Features for YOLO Data Labeling | product feature screenshots |
+| review | easy-labeling-guide-1 | Easy Labeling guide | Easy Labeling 가이드 (1) - 이미지와 라벨 불러오기 | Easy Labeling Guide (1) - Loading Images and Labels | product walkthrough screenshots |
+| review | yolo-label-format | YOLO | YOLO Label Format 읽는 법: class, center x, center y, width, height 이해하기 | YOLO Label Format: Read Class, Center X, Center Y, Width, and Height | labeling QA diagram |
+| review | coco-to-yolo-conversion | COCO | COCO to YOLO 변환 실수: 객체 탐지 라벨이 깨지는 이유 | COCO to YOLO Conversion Mistakes: Avoid Broken Detection Labels | labeling QA diagram |
+| review | image-labeling-classes | Classes | 이미지 라벨링 클래스 관리법: class name, ID, dataset consistency 지키기 | Image Labeling Classes: Manage Names, IDs, and Dataset Consistency | labeling QA diagram |
+| review | local-image-labeling-workflow | LocalFirst | 로컬 이미지 라벨링 워크플로우: 이미지, 클래스, 라벨, 검수 정리법 | Local Image Labeling Workflow: Organize Images, Classes, Labels, and Review | labeling QA diagram |
+| review | easy-labeling-yolo-dataset | EasyLabeling | Easy Labeling으로 YOLO 데이터셋 만들기: 이미지에서 학습 폴더까지 | Build a YOLO Dataset with Easy Labeling: From Images to Training Folders | labeling QA diagram |
+| review | bounding-box-quality-checklist | BoundingBox | Bounding Box 품질 체크리스트: 느슨한 박스와 잘린 객체를 줄이는 법 | Bounding Box Quality Checklist: Reduce Loose Boxes and Cut Objects | labeling QA diagram |
+| review | labeling-instructions-template | Instructions | 라벨링 지침서 템플릿: 라벨러가 같은 기준으로 박스를 그리게 만드는 법 | Labeling Instructions Template: Make Labelers Draw Boxes the Same Way | labeling QA diagram |
+| review | dataset-split-train-val-test | DatasetSplit | Train, Val, Test 데이터셋 분할: 이미지 라벨링 후 누수를 막는 기준 | Train, Val, Test Dataset Split: Prevent Leakage After Image Labeling | labeling QA diagram |
+| review | data-yaml-for-yolo | YOLO | YOLO data.yaml 작성법: 경로, 클래스 순서, 검증 오류 줄이기 | YOLO data.yaml Guide: Paths, Class Order, and Validation Errors | labeling QA diagram |
+| review | annotation-review-sampling | Review | 라벨 검수 샘플링: 모든 이미지를 다시 보지 않고 품질을 잡는 법 | Annotation Review Sampling: Catch Quality Issues Without Rechecking Everything | labeling QA diagram |
+| review | small-object-labeling | SmallObjects | 작은 객체 라벨링 기준: 보이는 물체와 학습 가능한 물체를 구분하기 | Small Object Labeling Rules: Separate Visible Objects from Learnable Objects | labeling QA diagram |
+| review | occlusion-truncation-labeling | Occlusion | 가림과 잘림 객체 라벨링: occlusion, truncation 기준을 문서화하기 | Occlusion and Truncation Labeling: Document Edge-Case Rules | labeling QA diagram |
+| review | negative-images-for-detection | NegativeSamples | 객체가 없는 이미지도 필요한 이유: YOLO negative sample 설계 | Why Object Detection Needs Negative Images: Design YOLO Negative Samples | labeling QA diagram |
+| review | duplicate-image-cleanup | Duplicates | 중복 이미지 정리: 라벨링 전에 near-duplicate를 줄여야 하는 이유 | Duplicate Image Cleanup: Why Near-Duplicates Should Be Reduced Before Labeling | labeling QA diagram |
+| review | class-imbalance-dataset | ClassImbalance | 클래스 불균형 데이터셋: 많이 찍힌 클래스만 잘 맞는 문제 줄이기 | Class Imbalance in Datasets: Reduce Models That Only Learn Frequent Classes | labeling QA diagram |
+| review | active-learning-labeling-loop | ActiveLearning | Active Learning 라벨링 루프: 모델이 어려워한 이미지부터 다시 라벨링하기 | Active Learning Labeling Loop: Relabel the Images Your Model Finds Hard | labeling QA diagram |
+| review | prelabeling-human-review | PreLabeling | Pre-labeling과 사람 검수: 자동 라벨을 그대로 믿지 않는 워크플로우 | Pre-Labeling and Human Review: Do Not Trust Auto Labels Without QA | labeling QA diagram |
+| review | video-frame-extraction-labeling | VideoFrames | 비디오 프레임 라벨링: 너무 많은 비슷한 장면을 줄이는 추출 기준 | Video Frame Labeling: Extract Frames Without Flooding the Dataset | labeling QA diagram |
+| review | segmentation-vs-detection-labels | Segmentation | Segmentation과 Detection 라벨 선택: 박스가 충분한지 마스크가 필요한지 판단하기 | Segmentation vs Detection Labels: Decide Whether Boxes Are Enough | labeling QA diagram |
+| review | rotated-bounding-box-decision | RotatedBox | Rotated Bounding Box가 필요한 경우: 기울어진 객체를 일반 박스로 충분히 표현할 수 있을까 | When Rotated Bounding Boxes Matter: Are Regular Boxes Enough? | labeling QA diagram |
+| review | label-version-control | VersionControl | 라벨 버전 관리: 데이터셋 v1, v2를 되돌릴 수 있게 만드는 방법 | Label Version Control: Make Dataset v1 and v2 Reversible | labeling QA diagram |
+| review | dataset-folder-structure | FolderStructure | 객체 탐지 데이터셋 폴더 구조: images와 labels를 안전하게 맞추기 | Object Detection Dataset Folder Structure: Keep Images and Labels Aligned | labeling QA diagram |
+| review | model-error-analysis-labeling | ErrorAnalysis | 모델 오류 분석으로 라벨링 개선하기: 오탐과 미탐을 다음 작업으로 바꾸기 | Improve Labeling with Model Error Analysis: Turn FP and FN into Next Work | labeling QA diagram |
+| review | annotation-cost-estimation | AnnotationCost | 이미지 라벨링 비용 산정: 장당 시간이 아니라 재작업률까지 계산하기 | Annotation Cost Estimation: Count Rework, Not Only Time Per Image | labeling QA diagram |
+| review | privacy-local-labeling | Privacy | 민감한 이미지 라벨링과 로컬 우선 작업: 업로드 전에 확인할 보안 기준 | Sensitive Image Labeling and Local-First Work: Security Checks Before Uploads | labeling QA diagram |
+| review | augmentation-label-safety | Augmentation | 데이터 증강 전 라벨 안전성: 회전, 자르기, 뒤집기가 박스를 망가뜨리지 않게 하기 | Label Safety Before Data Augmentation: Keep Boxes Valid After Crop and Flip | labeling QA diagram |
+| review | exporting-yolo-training-ready | Export | YOLO 학습 준비 export 체크리스트: 라벨링 끝난 뒤 바로 훈련하지 말아야 하는 이유 | YOLO Training-Ready Export Checklist: Do Not Train Immediately After Labeling | labeling QA diagram |
+| review | label-format-migration-plan | FormatMigration | 라벨 포맷 전환 계획: YOLO, COCO, CVAT 사이를 오갈 때 지킬 기준 | Label Format Migration Plan: Move Between YOLO, COCO, and CVAT Safely | labeling QA diagram |
+| review | edge-case-gallery-dataset | EdgeCases | Edge Case Gallery 만들기: 애매한 라벨 기준을 이미지로 고정하는 법 | Build an Edge Case Gallery: Freeze Ambiguous Label Rules with Images | labeling QA diagram |
+| review | qa-before-yolo-training | QA | YOLO 학습 전 QA 루틴: 데이터 오류를 모델 문제로 착각하지 않기 | QA Before YOLO Training: Do Not Mistake Data Errors for Model Problems | labeling QA diagram |
+| review | labeler-onboarding-checklist | Onboarding | 라벨러 온보딩 체크리스트: 첫날부터 같은 기준으로 작업하게 만들기 | Labeler Onboarding Checklist: Start New Annotators with the Same Standard | labeling QA diagram |
+| review | dataset-handoff-for-training | Handoff | 라벨링 팀에서 학습 팀으로 데이터 넘기기: handoff 문서에 들어갈 것 | Dataset Handoff for Training Teams: What to Include in the Handoff Document | labeling QA diagram |
+| review | browser-based-labeling-pros-cons | BrowserTool | 브라우저 기반 라벨링 도구 장단점: 설치 없음과 파일 접근 권한 사이의 균형 | Browser-Based Labeling Tools: Balance No Install with File Access Control | labeling QA diagram |
+| review | image-labeling-project-plan | ProjectPlan | 이미지 라벨링 프로젝트 계획서: 수집, 라벨링, 검수, 학습을 한 흐름으로 묶기 | Image Labeling Project Plan: Connect Collection, Annotation, QA, and Training | labeling QA diagram |
 
 ## Image Checklist
 

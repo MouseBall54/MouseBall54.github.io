@@ -1,226 +1,96 @@
 ---
-typora-root-url: ../
 layout: single
 title: >
   COCO to YOLO 변환 실수: 객체 탐지 라벨이 깨지는 이유
 seo_title: >
-  COCO to YOLO 변환 실수
-date: 2026-05-23T23:59:59+09:00
-last_modified_at: 2026-05-23T23:59:59+09:00
+  COCO to YOLO 변환 실수: 객체 탐지 라벨이 깨지는 이유
+date: 2026-05-23T08:17:00+09:00
+last_modified_at: 2026-05-23T23:59:00+09:00
 lang: ko
 translation_id: coco-to-yolo-conversion
 header:
-   teaser: /images/2026-05-23-coco-to-yolo-conversion/coco-to-yolo-conversion-hero.png
-   overlay_image: /images/2026-05-23-coco-to-yolo-conversion/coco-to-yolo-conversion-hero.png
-   overlay_filter: 0.35
-   image_description: >
-     COCO to YOLO 변환 실수: 객체 탐지 라벨이 깨지는 이유 주제를 한눈에 설명하는 시각 자료입니다.
+  teaser: /images/2026-05-23-coco-to-yolo-conversion/hero.png
+  overlay_image: /images/2026-05-23-coco-to-yolo-conversion/hero.png
+  overlay_filter: 0.36
+  image_description: >
+    COCO to YOLO 변환 실수: 객체 탐지 라벨이 깨지는 이유의 이미지 라벨링 흐름과 검수 기준을 요약한 이미지입니다.
 excerpt: >
-  COCO annotation을 YOLO format으로 변환할 때 category ID, bbox 좌표, image path, empty image, 시각 검증을 놓치지 않는 방법을 정리합니다.
+  COCO JSON을 YOLO 텍스트 라벨로 바꿀 때는 좌표 원점, 폭과 높이, category ID, 이미지 파일명을 모두 다시 맞춰야 한다.
 seo_description: >
-  COCO annotation을 YOLO format으로 변환할 때 category ID, bbox 좌표, image path, empty image, 시각 검증을 놓치지 않는 방법을 정리합니다.
+  COCO JSON을 YOLO 텍스트 라벨로 바꿀 때는 좌표 원점, 폭과 높이, category ID, 이미지 파일명을 모두 다시 맞춰야 한다.
 categories:
   - ko_easy_labeling
 tags:
   - COCO
   - YOLO
-  - ComputerVision
-  - DataLabeling
-  - ObjectDetection
+  - Conversion
+  - Annotation
 ---
 
-## 핵심 요약
+이미지 라벨링은 박스를 많이 그리는 일이 아니라 **나중에 학습 가능한 기준을 남기는 일**입니다. 이 글은 **COCO to YOLO 변환 실수: 객체 탐지 라벨이 깨지는 이유** 주제를 Easy Labeling 작업 흐름과 YOLO 데이터셋 검수 관점에서 정리합니다.
 
-COCO to YOLO 변환은 category ID mapping이나 bounding box 변환이 틀릴 때 가장 자주 깨집니다.
-COCO bbox는 보통 pixel 단위의 top-left `x`, top-left `y`, `width`, `height`입니다.
-YOLO detection label은 image size로 정규화된 `class_id center_x center_y width height`입니다.
+COCO JSON을 YOLO 텍스트 라벨로 바꿀 때는 좌표 원점, 폭과 높이, category ID, 이미지 파일명을 모두 다시 맞춰야 한다.
 
-![COCO annotation이 YOLO normalized bounding box로 변환되는 흐름 이미지](/images/2026-05-23-coco-to-yolo-conversion/coco-to-yolo-conversion-hero.png)
+도구 실행: [Easy Labeling](https://mouseball54.github.io/easy_labeling/)
 
-이미지는 변환 흐름을 보여줍니다.
-왼쪽은 source annotation data이고 오른쪽은 normalized YOLO label입니다.
-변환 단계에서 class 의미와 box 위치가 보존되어야 합니다.
+![COCO to YOLO 변환 실수: 객체 탐지 라벨이 깨지는 이유 라벨링 품질 흐름도](/images/2026-05-23-coco-to-yolo-conversion/hero.png)
 
-## COCO와 YOLO는 저장 방식이 다르다
+## 이 작업이 줄이는 문제
 
-COCO annotation file은 보통 images, annotations, categories가 들어 있는 하나의 JSON 파일입니다.
-YOLO detection dataset은 보통 image마다 하나의 `.txt` label file을 사용합니다.
+변환 스크립트가 성공했다는 메시지는 충분한 검증이 아닙니다. 변환 뒤에는 반드시 이미지를 열어 박스 위치와 클래스명을 확인해야 합니다.
 
-YOLO line format:
+이 주제는 라벨을 더 많이 그리는 방법보다 **bbox 원점**와 **카테고리 매핑**를 안정적으로 남기는 방법에 가깝습니다. 객체 탐지 프로젝트에서는 작은 좌표 오류, 클래스 순서 변경, 폴더 구조 실수가 학습 실패처럼 보일 수 있습니다. 그래서 작업자는 도구 사용법과 함께 데이터셋 계약을 문서로 남겨야 합니다.
 
-```text
-class_id center_x center_y width height
-```
+## 먼저 확인할 품질 신호
 
-주요 차이는 다음과 같습니다.
+- **bbox 원점**: COCO to YOLO 변환 실수: 객체 탐지 라벨이 깨지는 이유 작업에서 이 항목을 기록하면 라벨 기준이 흔들렸는지 나중에 확인할 수 있습니다.
+- **카테고리 매핑**: COCO to YOLO 변환 실수: 객체 탐지 라벨이 깨지는 이유 작업에서 이 항목을 기록하면 라벨 기준이 흔들렸는지 나중에 확인할 수 있습니다.
+- **변환된 txt**: COCO to YOLO 변환 실수: 객체 탐지 라벨이 깨지는 이유 작업에서 이 항목을 기록하면 라벨 기준이 흔들렸는지 나중에 확인할 수 있습니다.
+- **시각 검수**: COCO to YOLO 변환 실수: 객체 탐지 라벨이 깨지는 이유 작업에서 이 항목을 기록하면 라벨 기준이 흔들렸는지 나중에 확인할 수 있습니다.
 
-| 영역 | COCO | YOLO |
-| --- | --- | --- |
-| 파일 구조 | 하나의 JSON file | 이미지별 text file |
-| Box format | top-left x, top-left y, width, height | center x, center y, width, height |
-| 좌표 단위 | pixels | normalized ratios |
-| Category ID | sparse할 수 있음 | 보통 zero-based continuous |
+![COCO to YOLO 변환 실수: 객체 탐지 라벨이 깨지는 이유 라벨링 검수 체크리스트](/images/2026-05-23-coco-to-yolo-conversion/checklist.png)
 
-그래서 단순한 text rewrite만으로는 충분하지 않습니다.
+## Easy Labeling 적용 흐름
 
-## 1. Category ID를 다시 매핑한다
+작업은 작은 파일럿 배치에서 시작합니다. 먼저 COCO `bbox`가 왼쪽 위 기준인지 확인합니다. 그 다음 YOLO 중심 좌표로 바뀐 값을 샘플 이미지에서 역산합니다. 20~50장 정도의 샘플을 Easy Labeling에서 열어 실제 박스를 그려 보면 지침서의 빈칸이 빨리 드러납니다. 이 단계에서 나온 질문은 채팅으로 흘려보내지 말고 클래스 사전이나 edge case gallery에 반영해야 합니다.
 
-COCO category ID는 항상 `0, 1, 2, 3`이 아닙니다.
-`1`부터 시작할 수 있고, 중간 숫자를 건너뛸 수도 있습니다.
+Easy Labeling은 브라우저에서 로컬 이미지 폴더를 열어 YOLO 박스를 작성하는 흐름에 맞춰져 있습니다. 업로드 기반 도구가 부담스러운 파일, 빠르게 확인해야 하는 샘플 배치, 클래스 기준을 실험하는 초기 데이터셋에 특히 잘 맞습니다. 다만 최종 품질은 도구가 자동으로 보장하지 않으므로 작업 전 지침서와 작업 후 검수 루틴이 필요합니다.
 
-YOLO class ID는 보통 zero-based continuous입니다.
+![Easy Labeling에서 객체 탐지 박스를 그리는 샘플 화면](/images/easy_labeling_sample.png)
 
-```text
-0 person
-1 car
-2 bicycle
-```
+## 검수 예시
 
-명시적인 mapping을 만들어야 합니다.
+검수자는 전체 이미지를 다시 라벨링하지 않아도 됩니다. 샘플을 열고 **bbox 원점** 기준이 지켜졌는지, 그리고 **변환된 txt**가 프로젝트 규칙과 맞는지 먼저 봅니다. 문제가 반복되면 해당 라벨러의 전체 배치를 의심하기보다 지침서가 충분히 구체적인지, 예시 이미지가 부족한지, 도구 저장 설정이 헷갈리게 되어 있는지 순서대로 확인합니다.
 
-```text
-COCO category 1 -> YOLO class 0
-COCO category 3 -> YOLO class 1
-COCO category 17 -> YOLO class 2
-```
+## 실무 체크리스트
 
-COCO category ID가 이미 YOLO class list와 같다는 확신이 없다면 그대로 쓰지 마세요.
-
-## 2. Bounding Box를 정확히 변환한다
-
-COCO bbox:
-
-```text
-x_min, y_min, box_width, box_height
-```
-
-YOLO는 아래 값을 기대합니다.
-
-```text
-center_x, center_y, width, height
-```
-
-변환 공식:
-
-```text
-center_x = (x_min + box_width / 2) / image_width
-center_y = (y_min + box_height / 2) / image_height
-width    = box_width / image_width
-height   = box_height / image_height
-```
-
-변환 후 네 값은 보통 `0`과 `1` 사이여야 합니다.
-YOLO label file에 큰 pixel 값이 그대로 있다면 변환이 잘못된 것입니다.
-
-## 3. Image ID와 Filename을 맞춘다
-
-COCO annotation은 `image_id`를 참조합니다.
-이 ID를 `images` 목록의 올바른 filename과 연결해야 합니다.
-
-이 부분이 틀리면 전혀 다른 image에 label이 붙습니다.
-누락보다 더 위험할 수 있습니다.
-training은 진행되지만 잘못된 데이터를 학습할 수 있기 때문입니다.
-
-확인 흐름:
-
-```text
-annotation.image_id -> images[id].file_name -> labels/file_name.txt
-```
-
-train, validation, test split도 유지해야 합니다.
-validation label이 train folder로 들어가지 않게 주의합니다.
-
-## 4. Empty Image 처리
-
-객체가 없는 image가 있을 수 있습니다.
-training pipeline이 empty image를 어떻게 기대하는지 정해야 합니다.
-
-- 빈 `.txt` label file
-- label file 없음
-- image 제외
-
-중요한 것은 일관성입니다.
-tool이 empty file을 기대하는데 파일이 없으면 warning이 날 수 있습니다.
-반대로 missing file을 기대하는데 잘못된 빈 row를 만들면 training이 실패할 수 있습니다.
-
-## 5. 시각적으로 검증한다
-
-변환 후 sample image를 열어 converted box를 그려 봅니다.
-
-```text
-[ ] box가 올바른 객체 위에 있다.
-[ ] box가 밀리지 않았다.
-[ ] box가 너무 크거나 작지 않다.
-[ ] class가 객체와 맞다.
-[ ] empty image 처리가 일관적이다.
-```
-
-시각 검증은 text validation으로 잡지 못하는 오류를 잡습니다.
-
-## Easy Labeling Workflow
-
-Easy Labeling을 conversion 후 visual check 용도로 사용할 수 있습니다.
-
-```text
-1. COCO annotation을 YOLO file로 변환한다.
-2. image folder를 연다.
-3. class list를 불러온다.
-4. YOLO label을 불러온다.
-5. class별 sample을 확인한다.
-```
-
-도구는 여기에서 사용할 수 있습니다: [Easy Labeling](https://mouseball54.github.io/easy_labeling/).
-
-## 흔한 실수
-
-첫 번째 실수는 COCO category ID를 그대로 쓰는 것입니다.
-모든 class가 밀릴 수 있습니다.
-
-두 번째 실수는 image width와 height로 normalize하지 않는 것입니다.
-
-세 번째 실수는 COCO bbox를 `x_min y_min x_max y_max`로 착각하는 것입니다.
-COCO detection bbox는 보통 bottom-right 좌표가 아니라 width와 height를 저장합니다.
-
-네 번째 실수는 다양한 image size를 확인하지 않는 것입니다.
-고정 resolution만 가정한 converter는 mixed-size dataset에서 깨질 수 있습니다.
-
-## Easy Labeling 화면 예시
-
-아래 화면처럼 image를 열고 box를 그린 뒤 class를 지정하는 흐름으로 작업합니다.
-
-![Object detection box를 그리는 Easy Labeling sample screen](/images/easy_labeling_sample.png)
-
-## 함께 보면 좋은 글
-
-- [YOLO Label Format 읽는 법](/ko_easy_labeling/yolo-label-format/)
-- [Easy Labeling 가이드: 이미지와 라벨 불러오기](/ko_easy_labeling/easy-labeling-guide-1/)
-- [COCO dataset format](https://cocodataset.org/#format-data)
-- [Ultralytics YOLO dataset format](https://docs.ultralytics.com/datasets/detect/)
-
-## 최종 체크리스트
-
-```text
-[ ] Category ID가 YOLO class ID로 remap되었다.
-[ ] COCO pixel box가 normalized YOLO center box로 변환되었다.
-[ ] Image ID가 올바른 filename과 연결된다.
-[ ] Train과 validation split이 섞이지 않았다.
-[ ] Empty image 처리가 일관적이다.
-[ ] Training 전에 converted label을 시각적으로 확인했다.
-```
-
-COCO to YOLO 변환은 mapping이 명확할 때만 단순합니다.
-class map과 box formula를 드러내고 실제 image로 검증하세요.
+- 작업 전 **bbox 원점** 기준을 문서에서 확인합니다.
+- 파일 저장 후 **카테고리 매핑**가 실제 라벨 파일에 반영됐는지 샘플로 확인합니다.
+- 라벨링 중 생긴 질문은 다음 배치 전에 지침서로 되돌립니다.
+- 학습팀에 넘기기 전 이미지, 라벨, 클래스 파일, 검수 기록을 같은 버전으로 묶습니다.
 
 ## 자주 묻는 질문
 
-### 이 글은 언제 먼저 적용하면 좋나요?
+### COCO to YOLO 변환 실수: 객체 탐지 라벨이 깨지는 이유는 Easy Labeling만 쓰면 해결되나요?
 
-데이터셋을 만들거나 라벨 품질을 일정하게 유지해야 할 때 먼저 적용하면 좋습니다.
+아닙니다. Easy Labeling은 로컬 이미지와 YOLO 박스를 다루는 작업을 빠르게 만들 수 있지만, **bbox 원점** 기준은 프로젝트가 직접 정해야 합니다. 도구와 지침서를 같이 써야 재작업이 줄어듭니다.
 
-### 초보자가 가장 먼저 확인할 부분은 무엇인가요?
+### 작은 데이터셋도 이런 검수가 필요한가요?
 
-처음에는 클래스 정의, 예시 이미지, 검수 기준, 파일 내보내기 형식을 먼저 정하세요. 도구보다 라벨 기준이 먼저입니다.
+작은 데이터셋일수록 한두 개 오류가 결과에 크게 보일 수 있습니다. 최소한 **카테고리 매핑**와 클래스 순서는 샘플로 확인한 뒤 학습으로 넘기는 편이 안전합니다.
 
-### 더 찾아볼 때 어떤 키워드를 쓰면 좋나요?
+### 언제 다시 라벨링해야 하나요?
 
-추가 검색할 때는 "COCO to YOLO 변환 실수: 객체 탐지 라벨이 깨지는 이유" 같은 핵심 문구와 image labeling, dataset, annotation workflow, YOLO, COCO 같은 키워드를 붙이면 도움이 됩니다.
+같은 유형의 오류가 여러 이미지에서 반복되거나 모델 오류 분석에서 특정 클래스가 계속 흔들리면 다시 라벨링해야 합니다. 단순히 박스 하나를 고치는 수준이 아니라 기준 문서를 고친 뒤 같은 기준으로 배치를 다시 보는 것이 좋습니다.
+
+
+## 참고할 자료
+
+- [Ultralytics COCO to YOLO Conversion Guide](https://docs.ultralytics.com/guides/coco-to-yolo/)
+- [Ultralytics Simple Utilities](https://docs.ultralytics.com/usage/simple-utilities/)
+- [CVAT Dataset Formats](https://docs.cvat.ai/docs/dataset_management/formats/)
+
+## 함께 보면 좋은 글
+
+- [이미지 라벨링 클래스 관리법: class name, ID, dataset consistency 지키기](/ko_easy_labeling/image-labeling-classes/)
+- [작은 객체 라벨링 기준: 보이는 물체와 학습 가능한 물체를 구분하기](/ko_easy_labeling/small-object-labeling/)

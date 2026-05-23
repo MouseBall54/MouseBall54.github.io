@@ -1,228 +1,96 @@
 ---
-typora-root-url: ../
 layout: single
 title: >
-  COCO to YOLO Conversion Mistakes: How to Avoid Broken Object Detection Labels
+  COCO to YOLO Conversion Mistakes: Avoid Broken Detection Labels
 seo_title: >
-  COCO to YOLO Conversion Mistakes
-date: 2026-05-23T23:59:59+09:00
-last_modified_at: 2026-05-23T23:59:59+09:00
+  COCO to YOLO Conversion Mistakes: Avoid Broken Detection Labels
+date: 2026-05-23T08:17:00+09:00
+last_modified_at: 2026-05-23T23:59:00+09:00
 lang: en
 translation_id: coco-to-yolo-conversion
 header:
-   teaser: /images/2026-05-23-coco-to-yolo-conversion/coco-to-yolo-conversion-hero.png
-   overlay_image: /images/2026-05-23-coco-to-yolo-conversion/coco-to-yolo-conversion-hero.png
-   overlay_filter: 0.35
-   image_description: >
-     Visual guide explaining COCO to YOLO Conversion Mistakes: How to Avoid Broken Object Detection Labels.
+  teaser: /images/2026-05-23-coco-to-yolo-conversion/hero.png
+  overlay_image: /images/2026-05-23-coco-to-yolo-conversion/hero.png
+  overlay_filter: 0.36
+  image_description: >
+    Image labeling workflow diagram summarizing dataset QA and review criteria for this topic.
 excerpt: >
-  Convert COCO annotations to YOLO format safely by handling category IDs, bbox coordinate conversion, image paths, empty images, and visual validation.
+  Converting COCO JSON to YOLO text labels requires checking coordinate origin, width and height, category IDs, and image filenames.
 seo_description: >
-  Convert COCO annotations to YOLO format safely by handling category IDs, bbox coordinate conversion, image paths, empty images, and visual validation.
+  Converting COCO JSON to YOLO text labels requires checking coordinate origin, width and height, category IDs, and image filenames.
 categories:
   - en_easy_labeling
 tags:
   - COCO
   - YOLO
-  - ComputerVision
-  - DataLabeling
-  - ObjectDetection
+  - Conversion
+  - Annotation
 ---
 
-## Quick Answer
+Image labeling is not only drawing more boxes. It is **leaving a standard that can still be trained, reviewed, and reproduced later**. This guide turns **COCO to YOLO Conversion Mistakes: Avoid Broken Detection Labels** into an Easy Labeling and YOLO dataset QA workflow.
 
-COCO to YOLO conversion fails most often because category IDs are remapped incorrectly or bounding boxes are converted incorrectly.
-COCO boxes are commonly stored as top-left `x`, top-left `y`, `width`, `height` in pixels.
-YOLO detection labels use `class_id center_x center_y width height` normalized to the image size.
+Converting COCO JSON to YOLO text labels requires checking coordinate origin, width and height, category IDs, and image filenames.
 
-![COCO annotations converted to YOLO normalized bounding boxes with validation checks](/images/2026-05-23-coco-to-yolo-conversion/coco-to-yolo-conversion-hero.png)
+Launch the tool: [Easy Labeling](https://mouseball54.github.io/easy_labeling/)
 
-The image shows the conversion flow.
-The left side is source annotation data.
-The right side is normalized YOLO labels.
-The conversion step must preserve class meaning and box location.
+![COCO to YOLO Conversion Mistakes: Avoid Broken Detection Labels labeling quality workflow diagram](/images/2026-05-23-coco-to-yolo-conversion/hero.png)
 
-## COCO and YOLO Store Different Things
+## What This Work Reduces
 
-A COCO annotation file is usually one JSON file with images, annotations, and categories.
-YOLO detection datasets usually use one `.txt` label file per image.
+A successful conversion message is not enough. After conversion, open samples and verify box positions and class names visually.
 
-YOLO line format:
+This topic is less about drawing more boxes and more about preserving **bbox origin** and **category mapping** consistently. In object detection, small coordinate errors, class-order changes, and folder mistakes can look like model failures. That is why tool usage and the dataset contract should be documented together.
 
-```text
-class_id center_x center_y width height
-```
+## Quality Signals To Check First
 
-The key differences:
+- **bbox origin**: record this during COCO to YOLO Conversion Mistakes: Avoid Broken Detection Labels so label drift can be checked later.
+- **category mapping**: record this during COCO to YOLO Conversion Mistakes: Avoid Broken Detection Labels so label drift can be checked later.
+- **converted txt**: record this during COCO to YOLO Conversion Mistakes: Avoid Broken Detection Labels so label drift can be checked later.
+- **visual overlay**: record this during COCO to YOLO Conversion Mistakes: Avoid Broken Detection Labels so label drift can be checked later.
 
-| Area | COCO | YOLO |
-| --- | --- | --- |
-| File shape | one JSON file | one text file per image |
-| Box format | top-left x, top-left y, width, height | center x, center y, width, height |
-| Coordinate unit | pixels | normalized ratios |
-| Category IDs | may be sparse | usually zero-based continuous |
-
-This is why a simple text rewrite is not enough.
-
-## 1. Remap Category IDs
-
-COCO category IDs are not always `0, 1, 2, 3`.
-They may start at `1`.
-They may skip numbers.
-
-YOLO class IDs should normally be continuous and zero-based:
-
-```text
-0 person
-1 car
-2 bicycle
-```
-
-Build an explicit mapping:
-
-```text
-COCO category 1 -> YOLO class 0
-COCO category 3 -> YOLO class 1
-COCO category 17 -> YOLO class 2
-```
-
-Do not use COCO category IDs directly unless they already match your YOLO class list.
-
-## 2. Convert Bounding Boxes Correctly
-
-COCO bbox:
-
-```text
-x_min, y_min, box_width, box_height
-```
-
-YOLO needs:
-
-```text
-center_x, center_y, width, height
-```
-
-Conversion:
-
-```text
-center_x = (x_min + box_width / 2) / image_width
-center_y = (y_min + box_height / 2) / image_height
-width    = box_width / image_width
-height   = box_height / image_height
-```
-
-After conversion, all four values should usually be between `0` and `1`.
-If you see large pixel values in the YOLO label file, the conversion is wrong.
-
-## 3. Match Image IDs to Filenames
-
-COCO annotations reference an `image_id`.
-You must join that ID to the correct image filename from the `images` list.
-
-Mistakes here create labels for the wrong image.
-That can be worse than missing labels because training appears to work while learning bad data.
-
-Check:
-
-```text
-annotation.image_id -> images[id].file_name -> labels/file_name.txt
-```
-
-Also preserve train, validation, and test split boundaries.
-Do not accidentally put validation labels into the training folder.
-
-## 4. Handle Empty Images
-
-Some images have no objects.
-Decide how your training pipeline expects empty images:
-
-- Empty `.txt` label file
-- No label file
-- Exclude the image
-
-Be consistent.
-If your tool expects empty files and they are missing, it may warn.
-If your tool expects missing files and you create invalid empty rows, training may fail.
-
-## 5. Validate Visually
-
-After conversion, open a sample of images and draw the converted boxes.
-Check:
-
-```text
-[ ] Boxes are on the correct objects.
-[ ] Boxes are not shifted.
-[ ] Boxes are not too large or too small.
-[ ] Classes match the objects.
-[ ] Empty images are handled correctly.
-```
-
-Visual validation catches errors that text validation cannot.
+![COCO to YOLO Conversion Mistakes: Avoid Broken Detection Labels labeling review checklist](/images/2026-05-23-coco-to-yolo-conversion/checklist.png)
 
 ## Easy Labeling Workflow
 
-If you use Easy Labeling, use it as a visual check after conversion.
+Start with a small pilot batch. First, confirm that coco `bbox` starts from the top-left corner. Then, reverse-check converted yolo center coordinates on sample images. Opening 20 to 50 sample images in Easy Labeling quickly exposes missing rules in the instruction document. Questions from this step should update the class dictionary or edge-case gallery rather than disappear in chat.
 
-```text
-1. Convert COCO annotations to YOLO files.
-2. Open the image folder.
-3. Load the class list.
-4. Load the YOLO labels.
-5. Inspect a sample from every class.
-```
-
-Try the tool here: [Easy Labeling](https://mouseball54.github.io/easy_labeling/).
-
-## Common Mistakes
-
-The first mistake is using COCO category IDs directly.
-That can shift every class.
-
-The second mistake is forgetting to normalize by image width and height.
-
-The third mistake is treating COCO bbox as `x_min y_min x_max y_max`.
-COCO detection bbox commonly stores width and height, not bottom-right coordinates.
-
-The fourth mistake is not checking images with unusual sizes.
-A converter that assumes one fixed resolution can break mixed-size datasets.
-
-## Easy Labeling Screen Example
-
-The screen below shows the basic flow: open an image, draw a box, and assign a class.
+Easy Labeling fits a browser-based local workflow for opening image folders and saving YOLO bounding boxes. It is especially useful for files that should not be uploaded casually, small review batches, and early datasets where class rules are still being tested. The tool does not replace project standards, so the instruction document before labeling and the QA routine after labeling still matter.
 
 ![Easy Labeling sample screen for drawing object detection boxes](/images/easy_labeling_sample.png)
 
-## Related Reading
+## Review Example
 
-- [YOLO Label Format](/en_easy_labeling/yolo-label-format/)
-- [Easy Labeling Guide: Loading Images and Labels](/en_easy_labeling/easy-labeling-guide-1/)
-- [COCO dataset format](https://cocodataset.org/#format-data)
-- [Ultralytics YOLO dataset format](https://docs.ultralytics.com/datasets/detect/)
+Reviewers do not need to relabel every image. Open samples and check whether **bbox origin** follows the rule, then confirm that **converted txt** matches the project standard. If the issue repeats, inspect the instruction document, example images, and save settings before blaming an individual labeler.
 
-## Final Checklist
+## Practical Checklist
 
-```text
-[ ] Category IDs are remapped to YOLO class IDs.
-[ ] COCO pixel boxes are converted to normalized YOLO center boxes.
-[ ] Image IDs match the correct filenames.
-[ ] Train and validation splits stay separate.
-[ ] Empty images are handled consistently.
-[ ] Converted labels are visually inspected before training.
-```
-
-COCO to YOLO conversion is simple only when the mapping is explicit.
-Make the class map and box formula visible, then validate with real images.
+- Before labeling, confirm the **bbox origin** rule in the instruction document.
+- After saving, spot-check that **category mapping** appears correctly in label files.
+- Turn questions from labeling into instruction updates before the next batch.
+- Before handoff, package images, labels, class files, and QA notes as one version.
 
 ## FAQ
 
-### When should I use this guide?
+### Does COCO to YOLO Conversion Mistakes: Avoid Broken Detection Labels become easy just by using Easy Labeling?
 
-Use it when you need a repeatable labeling workflow, cleaner dataset handoff, or clearer review rules for image annotation.
+No. Easy Labeling can make local images and YOLO boxes faster to handle, but the project must define the **bbox origin** rule. The tool and instruction document need to work together.
 
-### What should beginners verify first?
+### Do small datasets need this much QA?
 
-Start with class definitions, positive and negative examples, review criteria, and export format. The tool works best when the labeling rule is explicit.
+Yes. In a small dataset, one or two mistakes can move results visibly. At minimum, spot-check **category mapping** and class order before handing data to training.
 
-### Which keywords should I search next?
+### When should labels be redone?
 
-Search for "COCO to YOLO Conversion Mistakes: How to Avoid Broken Object Detection Labels" together with image labeling, dataset annotation, YOLO, COCO, review workflow, and labeling quality keywords.
+Relabel when the same error type repeats across images or model analysis shows a class keeps drifting. Fix the instruction document first, then review the batch under the updated rule.
+
+
+## Source Notes
+
+- [Ultralytics COCO to YOLO Conversion Guide](https://docs.ultralytics.com/guides/coco-to-yolo/)
+- [Ultralytics Simple Utilities](https://docs.ultralytics.com/usage/simple-utilities/)
+- [CVAT Dataset Formats](https://docs.cvat.ai/docs/dataset_management/formats/)
+
+## Related Reading
+
+- [Image Labeling Classes: Manage Names, IDs, and Dataset Consistency](/en_easy_labeling/image-labeling-classes/)
+- [Small Object Labeling Rules: Separate Visible Objects from Learnable Objects](/en_easy_labeling/small-object-labeling/)

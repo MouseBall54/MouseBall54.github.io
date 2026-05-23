@@ -1,7 +1,10 @@
 ---
 typora-root-url: ../
+layout: single
 header:
-  teaser: ../images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235507837.png
+  teaser: /images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235507837.png
+  overlay_image: /images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235507837.png
+  overlay_filter: 0.36
   image_description: >
     A visual summary explaining the main topic of this post: A Deep Dive into Easy Labeling's Features for YOLO Data Labeling
 title: "A Deep Dive into Easy Labeling's Features for YOLO Data Labeling"

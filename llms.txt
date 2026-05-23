@@ -67,13 +67,18 @@ Image sitemap: https://mouseball54.github.io/image-sitemap.xml
 - Global Growth Forecast Guide: https://mouseball54.github.io/en_economy/global-growth-forecast-how-to-read/
 - Local Image Labeling Workflow: https://mouseball54.github.io/en_easy_labeling/local-image-labeling-workflow/
 - YOLO Label Format: https://mouseball54.github.io/en_easy_labeling/yolo-label-format/
+- Bounding Box Quality Checklist: https://mouseball54.github.io/en_easy_labeling/bounding-box-quality-checklist/
+- Labeling Instructions Template: https://mouseball54.github.io/en_easy_labeling/labeling-instructions-template/
+- Train, Val, Test Dataset Split: https://mouseball54.github.io/en_easy_labeling/dataset-split-train-val-test/
+- Active Learning Labeling Loop: https://mouseball54.github.io/en_easy_labeling/active-learning-labeling-loop/
+- QA Before YOLO Training: https://mouseball54.github.io/en_easy_labeling/qa-before-yolo-training/
 - GitHub Actions Build Failed: https://mouseball54.github.io/en_troubleshooting/github-actions-build-failed/
 
 ## Content Notes
 
 - Economy content is educational and is not personal financial advice; it connects official macroeconomic data, interest rates, inflation, exchange rates, jobs, debt, budgeting, and household cost pressure.
 - Troubleshooting content is written around reproducible symptoms, causes, fixes, and verification steps.
-- Easy Labeling content supports image annotation, YOLO datasets, COCO conversion, and dataset quality workflows.
+- Easy Labeling content supports local-first image annotation, YOLO datasets, COCO conversion, class dictionaries, bounding box QA, train/val/test splits, review sampling, active learning loops, privacy checks, and training-ready handoff.
 - AI Trends content prioritizes official-source AI workflow governance: agent scopes, OpenAI API patterns, evals, structured outputs, RAG quality, LLM security, privacy, cost controls, and human review boundaries.
 - Global Affairs content uses official-source briefings to connect world events with growth, trade, energy, finance, security, climate, migration, and Korea-facing transmission channels.
 - Climate & Energy content uses official-source briefings to connect grids, AI electricity demand, renewables, batteries, critical minerals, carbon pricing, climate adaptation, and Korea-facing industrial or household cost channels.

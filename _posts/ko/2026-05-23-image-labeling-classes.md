@@ -1,243 +1,96 @@
 ---
-typora-root-url: ../
 layout: single
 title: >
   이미지 라벨링 클래스 관리법: class name, ID, dataset consistency 지키기
 seo_title: >
-  이미지 라벨링 클래스 관리법
-date: 2026-05-23T23:59:59+09:00
-last_modified_at: 2026-05-23T23:59:59+09:00
+  이미지 라벨링 클래스 관리법: class name, ID, dataset consistency 지키기
+date: 2026-05-23T08:34:00+09:00
+last_modified_at: 2026-05-23T23:59:00+09:00
 lang: ko
 translation_id: image-labeling-classes
 header:
-   teaser: /images/2026-05-23-image-labeling-classes/image-labeling-classes-hero.png
-   overlay_image: /images/2026-05-23-image-labeling-classes/image-labeling-classes-hero.png
-   overlay_filter: 0.35
-   image_description: >
-     이미지 라벨링 클래스 관리법: class name, ID, dataset consistency 지키기 주제를 한눈에 설명하는 시각 자료입니다.
+  teaser: /images/2026-05-23-image-labeling-classes/hero.png
+  overlay_image: /images/2026-05-23-image-labeling-classes/hero.png
+  overlay_filter: 0.36
+  image_description: >
+    이미지 라벨링 클래스 관리법: class name, ID, dataset consistency 지키기의 이미지 라벨링 흐름과 검수 기준을 요약한 이미지입니다.
 excerpt: >
-  이미지 라벨링 클래스 관리를 위해 안정적인 class ID, naming rule, merge/split 기준, reviewer check, train-validation consistency를 정리합니다.
+  클래스 관리는 모델 학습 전 가장 먼저 고정해야 하는 규칙이며, 이름보다 ID 순서와 예외 기준이 더 중요하다.
 seo_description: >
-  이미지 라벨링 클래스 관리를 위해 안정적인 class ID, naming rule, merge/split 기준, reviewer check, train-validation consistency를 정리합니다.
+  클래스 관리는 모델 학습 전 가장 먼저 고정해야 하는 규칙이며, 이름보다 ID 순서와 예외 기준이 더 중요하다.
 categories:
   - ko_easy_labeling
 tags:
-  - ImageLabeling
-  - ComputerVision
-  - DataLabeling
-  - YOLO
+  - Classes
   - Dataset
+  - YOLO
+  - QualityControl
 ---
 
-## 핵심 요약
+이미지 라벨링은 박스를 많이 그리는 일이 아니라 **나중에 학습 가능한 기준을 남기는 일**입니다. 이 글은 **이미지 라벨링 클래스 관리법: class name, ID, dataset consistency 지키기** 주제를 Easy Labeling 작업 흐름과 YOLO 데이터셋 검수 관점에서 정리합니다.
 
-이미지 라벨링 클래스 관리는 annotation을 시작하기 전에 정해야 합니다.
-class name, 안정적인 class ID, merge/split rule, 예시, 애매한 사례, review check를 먼저 정의해야 합니다.
-YOLO label은 numeric ID가 class 의미를 가지므로, 라벨링 후 class 순서를 바꾸면 label이 깨질 수 있습니다.
+클래스 관리는 모델 학습 전 가장 먼저 고정해야 하는 규칙이며, 이름보다 ID 순서와 예외 기준이 더 중요하다.
 
-![안정적인 class ID, sample object, color class, quality check를 보여주는 image labeling class taxonomy 이미지](/images/2026-05-23-image-labeling-classes/image-labeling-classes-hero.png)
+도구 실행: [Easy Labeling](https://mouseball54.github.io/easy_labeling/)
 
-이미지는 class management board를 보여줍니다.
-각 class에는 고정된 위치, sample example, review check, dataset consistency rule이 있습니다.
-이 구조가 나중의 대규모 relabeling을 막습니다.
+![이미지 라벨링 클래스 관리법: class name, ID, dataset consistency 지키기 라벨링 품질 흐름도](/images/2026-05-23-image-labeling-classes/hero.png)
 
-## 왜 Class 관리가 중요한가
+## 이 작업이 줄이는 문제
 
-object detection에서 box는 class가 맞을 때만 유용합니다.
-한 labeler는 `car`, 다른 labeler는 `vehicle`, 또 다른 labeler는 `sedan`을 사용한다면 model은 일관성 없는 데이터를 학습합니다.
+라벨러가 같은 물체를 다른 이름으로 부르거나 같은 이름을 다른 기준으로 쓰면 모델은 일관된 신호를 배울 수 없습니다.
 
-YOLO dataset에서는 문제가 더 엄격합니다.
-label file에는 class name이 아니라 numeric class ID가 저장됩니다.
-class list 순서가 바뀌면 기존 label이 조용히 다른 class를 가리킬 수 있습니다.
+이 주제는 라벨을 더 많이 그리는 방법보다 **클래스 사전**와 **포함 기준**를 안정적으로 남기는 방법에 가깝습니다. 객체 탐지 프로젝트에서는 작은 좌표 오류, 클래스 순서 변경, 폴더 구조 실수가 학습 실패처럼 보일 수 있습니다. 그래서 작업자는 도구 사용법과 함께 데이터셋 계약을 문서로 남겨야 합니다.
 
-예시:
+## 먼저 확인할 품질 신호
 
-```text
-Before:
-0 car
-1 truck
+- **클래스 사전**: 이미지 라벨링 클래스 관리법: class name, ID, dataset consistency 지키기 작업에서 이 항목을 기록하면 라벨 기준이 흔들렸는지 나중에 확인할 수 있습니다.
+- **포함 기준**: 이미지 라벨링 클래스 관리법: class name, ID, dataset consistency 지키기 작업에서 이 항목을 기록하면 라벨 기준이 흔들렸는지 나중에 확인할 수 있습니다.
+- **제외 기준**: 이미지 라벨링 클래스 관리법: class name, ID, dataset consistency 지키기 작업에서 이 항목을 기록하면 라벨 기준이 흔들렸는지 나중에 확인할 수 있습니다.
+- **ID 순서**: 이미지 라벨링 클래스 관리법: class name, ID, dataset consistency 지키기 작업에서 이 항목을 기록하면 라벨 기준이 흔들렸는지 나중에 확인할 수 있습니다.
 
-After:
-0 truck
-1 car
-```
+![이미지 라벨링 클래스 관리법: class name, ID, dataset consistency 지키기 라벨링 검수 체크리스트](/images/2026-05-23-image-labeling-classes/checklist.png)
 
-label text는 바뀌지 않았지만 의미는 바뀝니다.
-그래서 class ID는 안정적으로 유지해야 합니다.
+## Easy Labeling 적용 흐름
 
-## 1. 가장 작은 유용한 Class List로 시작
+작업은 작은 파일럿 배치에서 시작합니다. 먼저 클래스 이름, ID, 포함 기준, 제외 기준을 한 표에 적습니다. 그 다음 비슷한 클래스는 예시 이미지로 차이를 고정합니다. 20~50장 정도의 샘플을 Easy Labeling에서 열어 실제 박스를 그려 보면 지침서의 빈칸이 빨리 드러납니다. 이 단계에서 나온 질문은 채팅으로 흘려보내지 말고 클래스 사전이나 edge case gallery에 반영해야 합니다.
 
-처음부터 모든 subtype을 만들지 마세요.
-model의 실제 목적에 필요한 class부터 시작합니다.
+Easy Labeling은 브라우저에서 로컬 이미지 폴더를 열어 YOLO 박스를 작성하는 흐름에 맞춰져 있습니다. 업로드 기반 도구가 부담스러운 파일, 빠르게 확인해야 하는 샘플 배치, 클래스 기준을 실험하는 초기 데이터셋에 특히 잘 맞습니다. 다만 최종 품질은 도구가 자동으로 보장하지 않으므로 작업 전 지침서와 작업 후 검수 루틴이 필요합니다.
 
-질문:
+![Easy Labeling에서 객체 탐지 박스를 그리는 샘플 화면](/images/easy_labeling_sample.png)
 
-- model이 이 class들을 구분해야 하는가?
-- annotator가 일관되게 구분할 수 있는가?
-- class마다 충분한 예시가 있는가?
-- production image에도 이 class가 등장하는가?
+## 검수 예시
 
-답이 아니라면 class를 합치거나 나중으로 미룹니다.
+검수자는 전체 이미지를 다시 라벨링하지 않아도 됩니다. 샘플을 열고 **클래스 사전** 기준이 지켜졌는지, 그리고 **제외 기준**가 프로젝트 규칙과 맞는지 먼저 봅니다. 문제가 반복되면 해당 라벨러의 전체 배치를 의심하기보다 지침서가 충분히 구체적인지, 예시 이미지가 부족한지, 도구 저장 설정이 헷갈리게 되어 있는지 순서대로 확인합니다.
 
-## 2. Class Definition 작성
+## 실무 체크리스트
 
-각 class에는 아래 항목이 있어야 합니다.
-
-```text
-Class name:
-Class ID:
-Include:
-Exclude:
-Ambiguous examples:
-Minimum visible area:
-Occlusion rule:
-```
-
-예시:
-
-```text
-Class name: delivery_truck
-Include: 물류 운송용 box truck과 delivery van
-Exclude: passenger car, bus, bicycle
-Ambiguous: cargo 표시가 없는 작은 van
-```
-
-definition은 labeler 간 판단 차이를 줄입니다.
-
-## 3. Stable ID 사용
-
-라벨링이 시작된 뒤에는 class ID 순서를 바꾸지 않습니다.
-새 class가 필요하면 가능하면 마지막에 추가합니다.
-
-좋은 예:
-
-```text
-0 car
-1 truck
-2 bicycle
-3 traffic_light
-```
-
-추가:
-
-```text
-4 bus
-```
-
-위험한 예:
-
-```text
-0 bus
-1 car
-2 truck
-3 bicycle
-```
-
-이 방식은 모든 label을 migration하지 않으면 의미를 밀어버립니다.
-
-## 4. Merge와 Split Rule 결정
-
-어떤 class는 너무 넓고, 어떤 class는 너무 좁습니다.
-
-class를 split할 때:
-
-- 시각적 차이가 명확하다.
-- model이 다른 행동을 해야 한다.
-- 충분한 예시가 있다.
-- labeler가 rule을 일관되게 적용할 수 있다.
-
-class를 merge할 때:
-
-- labeler disagreement가 잦다.
-- model이 구분할 필요가 없다.
-- 한 class의 예시가 너무 적다.
-- image에서 차이가 보이지 않는다.
-
-결정은 문서화해야 합니다.
-각 annotator가 혼자 판단하게 두면 안 됩니다.
-
-## 5. Train과 Validation Consistency 확인
-
-train, validation, test split은 같은 class list를 사용해야 합니다.
-validation class order가 다르면 metric은 의미가 없어집니다.
-
-확인:
-
-```text
-[ ] 같은 class names
-[ ] 같은 class order
-[ ] 같은 class IDs
-[ ] 같은 merge/split rules
-[ ] 같은 empty-image policy
-```
-
-여러 source dataset을 합칠 때 특히 중요합니다.
-
-## Easy Labeling Workflow
-
-Easy Labeling에서는 class file을 의도적으로 관리합니다.
-
-```text
-1. 라벨링 전 class list를 준비한다.
-2. class list를 불러온다.
-3. 작은 pilot batch를 라벨링한다.
-4. class confusion을 review한다.
-5. 대량 작업 전에 class ID를 freeze한다.
-6. export 후 sample을 다시 열어 label을 확인한다.
-```
-
-도구는 여기에서 사용할 수 있습니다: [Easy Labeling](https://mouseball54.github.io/easy_labeling/).
-
-## 흔한 실수
-
-첫 번째 실수는 class definition 없이 annotation을 시작하는 것입니다.
-
-두 번째 실수는 기존 label migration 없이 class를 rename하거나 reorder하는 것입니다.
-
-세 번째 실수는 이론적으로만 다르고 실제 image에서는 구분되지 않는 class를 만드는 것입니다.
-
-네 번째 실수는 rare class를 방치하는 것입니다.
-예시가 너무 적다면 data를 더 모을지, merge할지, 제거할지 결정해야 합니다.
-
-다섯 번째 실수는 labeler disagreement를 보지 않는 것입니다.
-disagreement는 class rule이 불명확하다는 신호입니다.
-
-## Easy Labeling 화면 예시
-
-아래 화면처럼 image를 열고 box를 그린 뒤 class를 지정하는 흐름으로 작업합니다.
-
-![Object detection box를 그리는 Easy Labeling sample screen](/images/easy_labeling_sample.png)
-
-## 함께 보면 좋은 글
-
-- [YOLO Label Format 읽는 법](/ko_easy_labeling/yolo-label-format/)
-- [COCO to YOLO 변환 실수](/ko_easy_labeling/coco-to-yolo-conversion/)
-- [Easy Labeling 가이드: 이미지와 라벨 불러오기](/ko_easy_labeling/easy-labeling-guide-1/)
-
-## 최종 체크리스트
-
-```text
-[ ] Class ID가 안정적으로 유지된다.
-[ ] 모든 class에 include/exclude 예시가 있다.
-[ ] 애매한 사례에 대한 written rule이 있다.
-[ ] split별 class order가 동일하다.
-[ ] 새 class는 의도적으로 추가한다.
-[ ] 전체 라벨링 전에 pilot batch를 review했다.
-```
-
-좋은 라벨링은 첫 box를 그리기 전에 시작됩니다.
-class를 정의하고, ID를 고정하고, 애매한 사례를 초기에 review하세요.
+- 작업 전 **클래스 사전** 기준을 문서에서 확인합니다.
+- 파일 저장 후 **포함 기준**가 실제 라벨 파일에 반영됐는지 샘플로 확인합니다.
+- 라벨링 중 생긴 질문은 다음 배치 전에 지침서로 되돌립니다.
+- 학습팀에 넘기기 전 이미지, 라벨, 클래스 파일, 검수 기록을 같은 버전으로 묶습니다.
 
 ## 자주 묻는 질문
 
-### 이 글은 언제 먼저 적용하면 좋나요?
+### 이미지 라벨링 클래스 관리법: class name, ID, dataset consistency 지키기는 Easy Labeling만 쓰면 해결되나요?
 
-데이터셋을 만들거나 라벨 품질을 일정하게 유지해야 할 때 먼저 적용하면 좋습니다.
+아닙니다. Easy Labeling은 로컬 이미지와 YOLO 박스를 다루는 작업을 빠르게 만들 수 있지만, **클래스 사전** 기준은 프로젝트가 직접 정해야 합니다. 도구와 지침서를 같이 써야 재작업이 줄어듭니다.
 
-### 초보자가 가장 먼저 확인할 부분은 무엇인가요?
+### 작은 데이터셋도 이런 검수가 필요한가요?
 
-처음에는 클래스 정의, 예시 이미지, 검수 기준, 파일 내보내기 형식을 먼저 정하세요. 도구보다 라벨 기준이 먼저입니다.
+작은 데이터셋일수록 한두 개 오류가 결과에 크게 보일 수 있습니다. 최소한 **포함 기준**와 클래스 순서는 샘플로 확인한 뒤 학습으로 넘기는 편이 안전합니다.
 
-### 더 찾아볼 때 어떤 키워드를 쓰면 좋나요?
+### 언제 다시 라벨링해야 하나요?
 
-추가 검색할 때는 "이미지 라벨링 클래스 관리법: class name, ID, dataset consistency 지키기" 같은 핵심 문구와 image labeling, dataset, annotation workflow, YOLO, COCO 같은 키워드를 붙이면 도움이 됩니다.
+같은 유형의 오류가 여러 이미지에서 반복되거나 모델 오류 분석에서 특정 클래스가 계속 흔들리면 다시 라벨링해야 합니다. 단순히 박스 하나를 고치는 수준이 아니라 기준 문서를 고친 뒤 같은 기준으로 배치를 다시 보는 것이 좋습니다.
+
+
+## 참고할 자료
+
+- [Ultralytics Object Detection Dataset Docs](https://docs.ultralytics.com/datasets/detect/)
+- [Label Studio Bounding Box Template](https://labelstud.io/templates/image_bbox)
+- [FiftyOne Annotation Guide](https://docs.voxel51.com/getting_started/annotation/index.html)
+
+## 함께 보면 좋은 글
+
+- [로컬 이미지 라벨링 워크플로우: 이미지, 클래스, 라벨, 검수 정리법](/ko_easy_labeling/local-image-labeling-workflow/)
+- [가림과 잘림 객체 라벨링: occlusion, truncation 기준을 문서화하기](/ko_easy_labeling/occlusion-truncation-labeling/)

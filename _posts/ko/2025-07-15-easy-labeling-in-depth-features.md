@@ -1,7 +1,10 @@
 ---
 typora-root-url: ../
+layout: single
 header:
-  teaser: ../images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235507837.png
+  teaser: /images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235507837.png
+  overlay_image: /images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235507837.png
+  overlay_filter: 0.36
   image_description: >
     이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: YOLO 라벨링 끝판왕, Easy Labeling 주요 기능 파헤치기
 title: "YOLO 라벨링 끝판왕, Easy Labeling 주요 기능 파헤치기"
