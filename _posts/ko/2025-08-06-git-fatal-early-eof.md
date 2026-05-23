@@ -27,6 +27,8 @@ tags:
   - Fetch
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git 오류 해결: "fatal: early EOF](/images/header_images/overlay_image_git.png)
 ## 오류 이해하기
 
 Git의 `fatal: early EOF` 오류는 모든 데이터가 전송되기 전에 원격 서버와의 연결이 예기치 않게 종료되었음을 의미합니다. "EOF"는 End-Of-File(파일의 끝)을 의미합니다. 클라이언트는 서버로부터 더 많은 데이터를 기대했지만 연결이 중단되어 불완전한(또는 "조기") 종료가 발생했습니다.

@@ -23,6 +23,8 @@ tags:
   - Scope
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript 오류 'Uncaught ReferenceError: is not defined' 해결 방법](/images/header_images/overlay_image_js.png)
 ## 'Uncaught ReferenceError: ... is not defined' 오류란?
 
 `Uncaught ReferenceError: ... is not defined`는 JavaScript 코드를 실행할 때 특정 변수나 함수를 찾을 수 없을 때 발생하는 오류다.

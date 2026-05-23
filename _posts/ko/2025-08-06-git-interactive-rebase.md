@@ -27,6 +27,8 @@ tags:
   - Interactive
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git Interactive Rebase로 커밋 수정하는 방법](/images/header_images/overlay_image_git.png)
 ## Git Interactive Rebase란?
 
 Git interactive rebase는 강력한 도구입니다. 다양한 방법으로 커밋을 수정할 수 있게 해줍니다. 커밋의 순서를 바꾸거나, 메시지를 변경하거나, 수정하거나, 합치거나(squash), 삭제(drop)할 수 있습니다. 이를 통해 깨끗하고 논리적인 프로젝트 히스토리를 만들 수 있습니다.

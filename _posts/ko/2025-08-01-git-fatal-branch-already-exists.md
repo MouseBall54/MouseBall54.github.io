@@ -25,6 +25,8 @@ tags:
   - fatal error
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git 'fatal: A branch named '...' already exists' 오류 해결 방법](/images/header_images/overlay_image_git.png)
 `git branch <브랜치-이름>` 또는 `git checkout -b <브랜치-이름>`을 사용하여 Git에서 새 브랜치를 생성할 때 `fatal: A branch named '<브랜치-이름>' already exists.` 오류를 만날 수 있습니다.
 
 이는 사용하려는 이름이 로컬 저장소에서 이미 사용 중임을 나타내는 Git의 간단한 메시지입니다. 이 가이드에서는 이 상황을 처리하는 방법을 보여줍니다.

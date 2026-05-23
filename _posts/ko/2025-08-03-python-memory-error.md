@@ -25,6 +25,8 @@ tags:
     - Optimization
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python "MemoryError" 해결 방법](/images/header_images/overlay_image_python.png)
 ## Python "MemoryError"란 무엇인가?
 
 `MemoryError`는 Python 프로그램이 실행 중에 시스템의 메모리(RAM)를 모두 소진하여 더 이상 객체를 할당할 수 없을 때 발생하는 예외입니다. 이 오류는 주로 대용량 데이터를 처리하거나, 메모리 누수가 있거나, 비효율적인 알고리즘을 사용할 때 나타납니다.

@@ -23,6 +23,8 @@ tags:
   - Error Handling
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix Python's KeyError: '...](/images/header_images/overlay_image_python.png)
 ## What is a Python `KeyError`?
 
 A `KeyError` is an exception that occurs when you try to access a key in a dictionary that does not exist. Dictionaries store data in key-value pairs, and each key must be unique. When you request a value using a key that isn't in the dictionary, Python raises a `KeyError` to let you know it couldn't find what you were looking for.

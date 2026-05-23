@@ -26,6 +26,8 @@ tags:
   - Fetch
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Cross-Origin Read Blocking (CORB) 오류 해결 방법](/images/header_images/overlay_image_js.png)
 브라우저 개발자 콘솔에서 "Cross-Origin Read Blocking (CORB) blocked cross-origin response..."와 같은 경고 메시지를 본 적이 있을 것입니다. 이는 코드를 중단시키는 일반적인 오류가 아니라, 브라우저가 보안을 위해 응답을 차단했음을 알리는 보안 경고입니다.
 
 이 포스트에서는 CORB가 무엇인지, 왜 발생하는지, 그리고 어떻게 해결하는지 설명합니다.

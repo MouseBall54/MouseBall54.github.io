@@ -26,6 +26,8 @@ tags:
   - Unchecked Exception
   - Best Practices
 ---
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java 예외: Checked Exception vs. Unchecked Exception](/images/header_images/overlay_image_java.png)
 ## Java의 예외 계층 구조 이해하기
 
 Java에서 모든 예외와 에러 타입은 `Throwable` 클래스의 하위 클래스입니다. 이 클래스는 두 개의 주요 직접 하위 클래스인 `Error`와 `Exception`을 가집니다.

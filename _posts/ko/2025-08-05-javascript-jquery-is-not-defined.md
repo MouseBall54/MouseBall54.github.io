@@ -27,6 +27,8 @@ tags:
    - Troubleshooting
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript "jQuery is not defined" 오류 해결 방법](/images/header_images/overlay_image_js.png)
 ## 서론
 
 "Uncaught ReferenceError: jQuery is not defined" 또는 "$ is not defined"는 거의 모든 웹 개발자가 jQuery를 사용할 때 마주치는 고전적인 오류입니다. 이는 코드가 브라우저에서 jQuery 라이브러리가 로드되고 초기화되기 전에 사용하려고 시도했음을 의미합니다.

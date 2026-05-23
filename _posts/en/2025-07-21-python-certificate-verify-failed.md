@@ -23,6 +23,8 @@ tags:
   - Security
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix "SSL: CERTIFICATE_VERIFY_FAILED" Error in Python on Windows](/images/header_images/overlay_image_python.png)
 ## Introduction
 
 SSL errors often occur when Python cannot verify a server’s TLS certificate.

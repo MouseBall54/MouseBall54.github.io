@@ -27,6 +27,8 @@ tags:
    - Promise.race
 ---
 
+
+![A visual summary explaining the main topic of this post: JavaScript Promises: Promise.all vs. Promise.race](/images/header_images/overlay_image_js.png)
 ## Introduction
 
 JavaScript Promises are essential for managing asynchronous operations. While you often work with a single promise, there are many scenarios where you need to handle multiple promises at once. The `Promise` object provides two key static methods for this: `Promise.all()` and `Promise.race()`.

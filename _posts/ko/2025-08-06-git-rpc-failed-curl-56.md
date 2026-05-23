@@ -27,6 +27,8 @@ tags:
   - Push
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git 오류 해결: "error: RPC failed; curl 56 Recv failure](/images/header_images/overlay_image_git.png)
 ## 오류 이해하기
 
 `error: RPC failed; curl 56 Recv failure` 오류는 `git clone`, `git pull` 또는 `git push` 작업 중에 발생할 수 있는 일반적인 네트워크 관련 오류입니다. 컴퓨터와 원격 Git 서버 간의 데이터 전송에 문제가 있었음을 나타냅니다.

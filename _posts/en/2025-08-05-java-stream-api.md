@@ -25,6 +25,8 @@ tags:
   - Functional Programming
   - Collections
 ---
+
+![A visual summary explaining the main topic of this post: Processing Data with Java Stream API](/images/header_images/overlay_image_java.png)
 ## What is the Stream API?
 
 Introduced in Java 8, the **Stream API** is a powerful tool for processing sequences of elements, such as collections. A stream is not a data structure itself; instead, it takes input from collections, arrays, or I/O channels and allows you to perform complex data processing operations on that data in a functional, declarative style.

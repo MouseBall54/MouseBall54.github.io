@@ -28,6 +28,8 @@ tags:
   - Signal
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python KeyboardInterrupt 예외 처리 방법](/images/header_images/overlay_image_python.png)
 ## 문제 상황
 
 Python 스크립트가 실행 중일 때, 사용자가 터미널에서 `Ctrl+C`를 누르면 프로그램이 즉시 종료됩니다.

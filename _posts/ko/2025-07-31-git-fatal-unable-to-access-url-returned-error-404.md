@@ -23,6 +23,8 @@ tags:
   - Remote
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git 오류 해결: unable to access '...': The requested URL returned error: 404](/images/header_images/overlay_image_git.png)
 ## "unable to access '...': The requested URL returned error: 404" 오류란?
 
 `git clone`, `git pull`, `git push`와 같은 명령어로 원격 Git 저장소와 상호작용하려고 할 때 `fatal: unable to access '...': The requested URL returned error: 404` 오류를 만날 수 있다. 404 상태 코드는 "Not Found(찾을 수 없음)"를 의미한다. Git의 맥락에서 이 오류는 접근하려는 원격 저장소 URL이 존재하지 않거나, 비공개이거나, 클라이언트가 찾을 수 없음을 나타낸다.

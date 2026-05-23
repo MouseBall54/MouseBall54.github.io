@@ -23,6 +23,8 @@ tags:
   - Functions
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix \"TypeError: '...' is not a function\" in JavaScript](/images/header_images/overlay_image_js.png)
 ## Introduction
 
 The `TypeError: '...' is not a function` is a very common error in JavaScript. It occurs when you try to call something that is not a function. This can happen for several reasons, such as a typo in the function name, a variable having the same name as a function, or a method being called on an object that doesn't have it. This guide will walk you through the common causes and how to fix them.

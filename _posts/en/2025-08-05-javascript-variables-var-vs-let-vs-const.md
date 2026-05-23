@@ -27,6 +27,8 @@ tags:
    - const
 ---
 
+
+![A visual summary explaining the main topic of this post: JavaScript Variables: The Difference Between var, let, and const](/images/header_images/overlay_image_js.png)
 ## Introduction
 
 For many years, `var` was the only way to declare a variable in JavaScript. With the introduction of ES6 (ECMAScript 2015), two new keywords, `let` and `const`, were added, providing more control over variable scope and behavior. Understanding the differences between these three is crucial for writing modern, maintainable, and bug-free JavaScript.

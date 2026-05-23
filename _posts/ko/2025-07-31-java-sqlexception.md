@@ -24,6 +24,8 @@ tags:
   - Exception
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java \"java.sql.SQLException\" 예외 처리 방법](/images/header_images/overlay_image_java.png)
 ## 서론
 
 `java.sql.SQLException`은 데이터베이스 접근 오류나 기타 오류에 대한 정보를 제공하는 Java의 checked exception이다. JDBC(Java Database Connectivity)를 사용하여 데이터베이스 작업을 할 때마다 이 예외를 마주칠 가능성이 높다. 견고하고 신뢰할 수 있는 데이터베이스 애플리케이션을 구축하려면 적절한 처리가 매우 중요하다. 이 가이드에서는 `SQLException`의 일반적인 원인과 처리 모범 사례를 다룬다.

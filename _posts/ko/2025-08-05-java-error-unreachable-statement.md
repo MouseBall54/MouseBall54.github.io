@@ -25,6 +25,8 @@ tags:
   - Unreachable Code
   - Troubleshooting
 ---
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java "error: unreachable statement" 해결 방법](/images/header_images/overlay_image_java.png)
 ## "unreachable statement" 오류 이해하기
 
 "error: unreachable statement"는 Java의 컴파일 시간 오류로, 코드에 절대 실행될 수 없는 문장이 있음을 나타냅니다. Java 언어 명세는 모든 문장이 도달 가능해야 한다고 요구합니다. 만약 도달할 수 없는 코드가 있다면, 이는 종종 잘못된 로직을 가리키는 프로그래밍 오류로 간주됩니다.

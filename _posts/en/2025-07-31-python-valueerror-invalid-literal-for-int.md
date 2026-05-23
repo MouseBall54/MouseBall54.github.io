@@ -23,6 +23,8 @@ tags:
   - Exception Handling
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix Python's ValueError: invalid literal for int() with base 10](/images/header_images/overlay_image_python.png)
 ## What is "ValueError: invalid literal for int() with base 10"?
 
 This `ValueError` is one of the most common exceptions in Python, especially for beginners. It occurs when you try to convert a string to an integer using the `int()` function, but the string's content is not a valid number in base 10 (the standard decimal system).

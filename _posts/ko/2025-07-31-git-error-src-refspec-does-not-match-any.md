@@ -25,6 +25,8 @@ tags:
   - Version Control
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git 'error: src refspec ... does not match any' 오류 해결 방법](/images/header_images/overlay_image_git.png)
 원격 저장소로 변경 사항을 푸시하려고 할 때, `error: src refspec <브랜치-이름> does not match any.` 라는 당황스러운 오류를 만날 수 있습니다. 이 메시지는 Git이 푸시하려는 로컬 브랜치를 찾을 수 없다는 의미입니다.
 
 이 포스트에서는 이 오류의 일반적인 원인과 해결 방법을 설명합니다.

@@ -28,6 +28,8 @@ tags:
   - Array
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript TypeError: Reduce of empty array with no initial value 해결 방법](/images/header_images/overlay_image_js.png)
 ## 문제 상황
 
 JavaScript에서 배열의 `reduce()` 메서드를 사용할 때 `TypeError: Reduce of empty array with no initial value` 오류가 발생할 수 있습니다.

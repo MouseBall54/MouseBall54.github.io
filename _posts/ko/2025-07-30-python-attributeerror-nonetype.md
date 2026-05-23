@@ -23,6 +23,8 @@ tags:
   - Debugging
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python AttributeError: 'NoneType' object has no attribute '...' 해결 방법](/images/header_images/overlay_image_python.png)
 ## `AttributeError: 'NoneType' object has no attribute '...'`란 무엇인가?
 
 이 오류는 Python 개발자들이 가장 흔하게 마주하는 예외 중 하나다. 객체일 것으로 예상한 변수가 실제로는 `None`일 때, 그 변수의 메서드를 호출하거나 속성에 접근하려고 시도하면 발생한다.

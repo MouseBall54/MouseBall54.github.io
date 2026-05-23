@@ -23,6 +23,8 @@ tags:
   - Beginner
 ---
 
+
+![A visual summary explaining the main topic of this post: A Complete Guide to Python's SyntaxError: invalid syntax](/images/header_images/overlay_image_python.png)
 ## What is Python's `SyntaxError: invalid syntax`?
 
 One of the very first errors you'll likely encounter when learning Python is `SyntaxError: invalid syntax`. This error occurs when your code violates Python's grammatical rules. In simple terms, the Python interpreter cannot understand what you've written.

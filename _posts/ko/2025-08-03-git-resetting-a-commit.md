@@ -27,6 +27,8 @@ tags:
     - Hard
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git 커밋 되돌리기: git reset의 세 가지 옵션 (soft, mixed, hard) 완벽 가이드](/images/header_images/overlay_image_git.png)
 ## Git `reset`이란 무엇인가?
 
 `git reset`은 Git 저장소의 상태를 특정 커밋으로 되돌리는 데 사용되는 강력하고 다재다능한 명령어입니다. 이 명령은 주로 브랜치의 포인터(`HEAD`)를 과거의 특정 커밋으로 이동시키는 역할을 합니다. 하지만 `reset`은 어떤 옵션을 사용하느냐에 따라 인덱스(Staging Area)와 워킹 디렉터리(Working Directory)에 미치는 영향이 크게 달라지기 때문에, 각 옵션의 차이를 명확히 이해하고 사용해야 합니다.

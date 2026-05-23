@@ -25,6 +25,8 @@ tags:
     - Symbol
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix "Error: cannot find symbol" in Java](/images/header_images/overlay_image_java.png)
 ## What is "Error: cannot find symbol" in Java?
 
 The `cannot find symbol` error means that the Java compiler does not recognize the declaration for an identifier (a symbol) in your code. A "symbol" here refers to any name a developer defines and uses, such as a variable name, method name, class name, or interface name. The error is the compiler's way of saying, "I don't know what '...' is or where it is defined."

@@ -26,6 +26,8 @@ tags:
   - File I/O
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: 파이썬 "UnicodeDecodeError: 'utf-8' codec can't decode byte" 오류 해결 방법](/images/header_images/overlay_image_python.png)
 ## UnicodeDecodeError란?
 
 `UnicodeDecodeError`는 파이썬에서 발생합니다.

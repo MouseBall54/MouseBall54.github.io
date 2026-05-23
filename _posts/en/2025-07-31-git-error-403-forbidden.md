@@ -24,6 +24,8 @@ tags:
   - SSH
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix \"The requested URL returned error: 403\" in Git](/images/header_images/overlay_image_git.png)
 ## Introduction
 
 The `fatal: unable to access '...': The requested URL returned error: 403` is a common error in Git that indicates an authentication or permission problem. The "403 Forbidden" status code means that the server understood your request but is refusing to authorize it. Essentially, you are trying to do something (like `push`, `pull`, or `clone`) that you don't have permission for. This guide will cover the main reasons for this error and how to fix them.

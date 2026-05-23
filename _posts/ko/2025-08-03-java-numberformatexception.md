@@ -26,6 +26,8 @@ tags:
   - Debugging
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: java.lang.NumberFormatException 해결 방법](/images/header_images/overlay_image_java.png)
 ## NumberFormatException 이란?
 
 `java.lang.NumberFormatException`은 애플리케이션이 문자열을 숫자 타입(예: `int`, `float`, `double` 등)으로 변환하려고 할 때, 해당 문자열이 변환 가능한 형식이 아닐 경우 발생하는 `unchecked exception`입니다. 이 예외는 주로 `Integer.parseInt()`, `Double.parseDouble()`, `Float.parseFloat()`와 같은 메서드를 사용할 때 발생합니다.

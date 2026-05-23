@@ -25,6 +25,8 @@ tags:
   - Functional Programming
   - Best Practices
 ---
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java 람다 표현식(Lambda Expressions)으로 간결한 코드 작성하기](/images/header_images/overlay_image_java.png)
 ## 람다 표현식(Lambda Expressions)이란?
 
 Java 8에서 도입된 **람다 표현식**은 매개변수를 받아 값을 반환하는 짧은 코드 블록입니다. 람다 표현식은 메서드와 유사하지만, 이름이 필요 없으며 다른 메서드의 본문 안에서 바로 구현될 수 있습니다.

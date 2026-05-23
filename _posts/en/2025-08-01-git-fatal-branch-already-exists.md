@@ -25,6 +25,8 @@ tags:
   - fatal error
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix 'fatal: A branch named '...' already exists' in Git](/images/header_images/overlay_image_git.png)
 When creating a new branch in Git using `git branch <branch-name>` or `git checkout -b <branch-name>`, you might encounter the error: `fatal: A branch named '<branch-name>' already exists.`
 
 This is a straightforward message from Git indicating that you are trying to create a branch with a name that is already in use in your local repository. This guide will show you how to handle this situation.

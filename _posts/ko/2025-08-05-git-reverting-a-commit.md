@@ -28,6 +28,8 @@ tags:
   - VersionControl
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git에서 커밋을 되돌리는 방법 (git revert)](/images/header_images/overlay_image_git.png)
 ## 문제 상황
 
 Git으로 프로젝트를 관리하다 보면, 특정 커밋에 포함된 변경 사항이 문제를 일으키거나 더 이상 필요하지 않게 되는 경우가 있습니다.

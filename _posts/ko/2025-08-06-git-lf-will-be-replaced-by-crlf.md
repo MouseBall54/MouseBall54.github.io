@@ -27,6 +27,8 @@ tags:
   - Windows
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git 경고 해결: "LF will be replaced by CRLF](/images/header_images/overlay_image_git.png)
 ## 경고 이해하기
 
 `warning: LF will be replaced by CRLF in <filename>` 경고는 운영 체제가 텍스트 파일의 줄 바꿈을 처리하는 방식의 차이 때문에 나타납니다.

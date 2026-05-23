@@ -24,6 +24,8 @@ tags:
   - ErrorHandling
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix "ModuleNotFoundError: No module named '…'" in Python](/images/header_images/overlay_image_python.png)
 ## Introduction
 
 When you run a Python script, you may see:

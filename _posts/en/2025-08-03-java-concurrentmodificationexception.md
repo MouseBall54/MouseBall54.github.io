@@ -26,6 +26,8 @@ tags:
   - Collections
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Handle ConcurrentModificationException in Java](/images/header_images/overlay_image_java.png)
 ## What is ConcurrentModificationException?
 
 This exception occurs in Java.

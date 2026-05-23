@@ -22,6 +22,8 @@ tags:
   - Annotation
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Easy Labeling 가이드 (1) - 이미지와 라벨 불러오기](/images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png)
 <p><strong>Easy Labeling 프로젝트 페이지: <a href="https://mouseball54.github.io/easy_labeling/">https://mouseball54.github.io/easy_labeling/</a></strong></p>
 
 안녕하세요! 이번 포스트부터 **YOLO 데이터 라벨링 전용 툴, Easy Labeling** 사용법에 대해 자세히 설명해 드리겠습니다.

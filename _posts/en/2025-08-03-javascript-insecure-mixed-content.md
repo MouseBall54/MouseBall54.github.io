@@ -26,6 +26,8 @@ tags:
     - Mixed Content
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix "Insecure mixed content" Error in JavaScript](/images/header_images/overlay_image_js.png)
 ## What is "Insecure mixed content"?
 
 The "Mixed Content" error occurs when the initial HTML is loaded securely over HTTPS, but other resources on the page (such as images, videos, scripts, or stylesheets) are loaded over the insecure HTTP protocol. This weakens the security of the entire page, so modern browsers either block this content or display a warning.

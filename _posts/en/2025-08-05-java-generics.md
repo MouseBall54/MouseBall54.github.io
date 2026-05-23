@@ -25,6 +25,8 @@ tags:
   - Type Safety
   - Best Practices
 ---
+
+![A visual summary explaining the main topic of this post: Using Generics in Java for Type Safety](/images/header_images/overlay_image_java.png)
 ## What are Generics?
 
 Introduced in Java 5, **Generics** allow you to create classes, interfaces, and methods that can work with different data types while providing compile-time type safety. Instead of using the generic `Object` type and performing manual casts, you can specify the type that a class or method will work with. This is indicated by the angle bracket notation `<>`.

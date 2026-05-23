@@ -26,6 +26,8 @@ tags:
   - Fetch
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix Cross-Origin Read Blocking (CORB) Errors](/images/header_images/overlay_image_js.png)
 You may have encountered a warning message in your browser's developer console like "Cross-Origin Read Blocking (CORB) blocked cross-origin response..." This is not a traditional error that breaks your code, but a security warning indicating the browser has blocked a response for safety.
 
 This post will explain what CORB is, why it occurs, and how to fix it.

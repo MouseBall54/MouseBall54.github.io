@@ -21,6 +21,8 @@ tags:
   - ErrorHandling
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: ModuleNotFoundError: No module named ‘…’ 오류 해결 방법](/images/header_images/overlay_image_python.png)
 ## 소개
 
 Python 스크립트 실행 시 import 실패 에러.

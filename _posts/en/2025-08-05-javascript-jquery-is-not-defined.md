@@ -27,6 +27,8 @@ tags:
    - Troubleshooting
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix "jQuery is not defined" Error in JavaScript](/images/header_images/overlay_image_js.png)
 ## Introduction
 
 The "Uncaught ReferenceError: jQuery is not defined" or "$ is not defined" is a classic error that nearly every web developer encounters when using jQuery. It means that your code is trying to use the jQuery library before it has been loaded and initialized in the browser.

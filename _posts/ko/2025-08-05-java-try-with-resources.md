@@ -25,6 +25,8 @@ tags:
   - Memory Management
   - Best Practices
 ---
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java try-with-resources로 메모리 누수 방지하기](/images/header_images/overlay_image_java.png)
 ## 문제점: 리소스 누수
 
 Java에서 파일 스트림, 데이터베이스 커넥션, 네트워크 소켓과 같은 외부 리소스를 사용할 때는 작업이 끝나면 명시적으로 닫아야 합니다. 만약 그렇게 하지 않으면 리소스가 계속 열려 있어 시스템 메모리나 데이터베이스 커넥션을 소모하게 됩니다. 이를 **리소스 누수(resource leak)**라고 하며, 결국 `OutOfMemoryError`나 다른 심각한 장애를 일으켜 애플리케이션을 중단시킬 수 있습니다.

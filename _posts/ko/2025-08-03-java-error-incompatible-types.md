@@ -25,6 +25,8 @@ tags:
     - Type System
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java "Error: incompatible types" 해결 방법](/images/header_images/overlay_image_java.png)
 ## Java "Error: incompatible types"란?
 
 `Error: incompatible types`는 Java의 정적 타입 시스템(static type system)이 변수에 할당하려는 값의 타입이 변수 선언 시의 타입과 호환되지 않는다고 판단할 때 발생하는 컴파일 오류입니다. Java는 타입 안전성(type safety)을 중요하게 생각하므로, 컴파일러는 코드 실행 전에 타입 불일치 문제를 엄격하게 검사합니다.

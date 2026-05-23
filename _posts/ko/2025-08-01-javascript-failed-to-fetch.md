@@ -25,6 +25,8 @@ tags:
   - Network Error
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript 'Failed to fetch' 오류 해결 방법](/images/header_images/overlay_image_js.png)
 `TypeError: Failed to fetch` 오류는 JavaScript에서 Fetch API를 사용하는 개발자에게 흔한 문제입니다. 이는 네트워크 요청이 완료되지 못했음을 나타내는 일반적인 오류 메시지입니다. 원인은 간단한 네트워크 연결 문제부터 CORS와 같은 더 복잡한 서버 측 설정까지 다양할 수 있습니다.
 
 이 가이드에서는 가장 일반적인 원인과 해결 방법을 안내합니다.

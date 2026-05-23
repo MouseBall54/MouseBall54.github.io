@@ -23,6 +23,8 @@ tags:
   - Troubleshooting
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git 오류 해결: Permission Denied (publickey)](/images/header_images/overlay_image_git.png)
 ## "Permission denied (publickey)" 오류란 무엇인가?
 
 `Permission denied (publickey)` 오류는 SSH 프로토콜을 사용하여 원격 Git 저장소(예: GitHub, GitLab, Bitbucket)에 연결하려고 할 때 발생하는 일반적인 문제이다. 이는 원격 서버가 제공한 SSH 키로 사용자를 인증할 수 없었기 때문에 연결을 거부했음을 의미한다.

@@ -26,6 +26,8 @@ tags:
   - Debugging
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git "fatal: pathspec '...' did not match any files" 오류 해결 방법](/images/header_images/overlay_image_git.png)
 ## 서론
 
 Git에서 `fatal: pathspec '...' did not match any files` 오류는 `git add`, `git rm`, 또는 `git checkout`과 같은 명령을 Git이 찾을 수 없는 파일에 대해 실행하려고 할 때 나타나는 일반적인 메시지다. 이 가이드에서는 이 오류가 발생하는 간단한 이유와 신속하게 해결하는 방법을 안내한다.

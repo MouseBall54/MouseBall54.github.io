@@ -26,6 +26,8 @@ tags:
   - Debugging
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: 자바스크립트 SyntaxError: Unexpected end of input 해결 방법](/images/header_images/overlay_image_js.png)
 ## 문제 상황
 
 `SyntaxError: Unexpected end of input`는 자바스크립트 엔진이 코드를 해석(parsing)하던 중, 코드 블록이나 구문이 끝나기를 예상하지 않은 시점에서 파일의 끝(end of file)이나 입력의 끝(end of input)에 도달했을 때 발생하는 구문 오류입니다.

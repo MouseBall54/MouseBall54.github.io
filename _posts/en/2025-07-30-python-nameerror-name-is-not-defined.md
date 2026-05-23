@@ -23,6 +23,8 @@ tags:
   - Error Handling
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix Python's NameError: name '...' is not defined](/images/header_images/overlay_image_python.png)
 ## What is `NameError: name '...' is not defined`?
 
 This error occurs when the Python interpreter encounters a name (variable, function, class) that it doesn't recognize.

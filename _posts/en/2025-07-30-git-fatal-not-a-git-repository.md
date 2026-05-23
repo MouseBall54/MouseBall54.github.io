@@ -22,6 +22,8 @@ tags:
   - Version Control
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix 'fatal: not a git repository' Error](/images/header_images/overlay_image_git.png)
 ## What is the 'fatal: not a git repository' Error?
 
 The message `fatal: not a git repository (or any of the parent directories): .git` appears when the current directory or any of its parent paths do not contain a `.git` folder, meaning it is not recognized as a Git repository.

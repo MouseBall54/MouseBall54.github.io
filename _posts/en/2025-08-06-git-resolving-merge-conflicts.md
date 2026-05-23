@@ -26,6 +26,8 @@ tags:
   - Branch
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Resolve Merge Conflicts in Git](/images/header_images/overlay_image_git.png)
 ## What is a Merge Conflict?
 
 A merge conflict occurs when you try to merge two branches that have competing changes. Git is unable to automatically decide which change to keep. This typically happens when the same line of code in the same file is modified on both branches.

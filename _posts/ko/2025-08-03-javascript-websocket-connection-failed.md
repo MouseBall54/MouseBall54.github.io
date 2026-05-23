@@ -25,6 +25,8 @@ tags:
     - Network
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript "WebSocket connection to '...' failed" 해결 방법](/images/header_images/overlay_image_js.png)
 ## JavaScript "WebSocket connection to '...' failed"란?
 
 이 오류는 브라우저의 JavaScript 코드가 WebSocket 서버에 연결을 시도했지만 실패했을 때 발생하는 메시지입니다. WebSocket은 클라이언트와 서버 간의 실시간 양방향 통신을 가능하게 하는 프로토콜이며, 연결 실패는 네트워크, 서버 설정, 클라이언트 코드 등 다양한 원인에 의해 발생할 수 있습니다.

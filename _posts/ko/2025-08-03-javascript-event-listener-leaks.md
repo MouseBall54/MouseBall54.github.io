@@ -25,6 +25,8 @@ tags:
     - Event Listener
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript 이벤트 리스너 메모리 누수 (Event Listener Leaks) 해결 방법](/images/header_images/overlay_image_js.png)
 ## JavaScript 이벤트 리스너 누수란?
 
 이벤트 리스너 누수(Event Listener Leak)는 `addEventListener`로 등록한 이벤트 리스너를 더 이상 필요하지 않을 때 `removeEventListener`로 제거하지 않아 발생하는 메모리 누수 현상입니다. 이 문제는 특히 동적으로 DOM 요소를 추가하고 제거하는 단일 페이지 애플리케이션(SPA)에서 흔하게 발생하며, 애플리케이션의 반응성을 떨어뜨리고 심한 경우 브라우저를 멈추게 할 수 있습니다.

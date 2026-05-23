@@ -26,6 +26,8 @@ tags:
   - Debugging
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix "ReferenceError: assignment to undeclared variable" in JavaScript](/images/header_images/overlay_image_js.png)
 ## What is "ReferenceError: assignment to undeclared variable"?
 
 This JavaScript error is specific.

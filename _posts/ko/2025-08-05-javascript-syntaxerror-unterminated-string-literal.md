@@ -28,6 +28,8 @@ tags:
   - Error
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript SyntaxError: Unterminated string literal 해결 방법](/images/header_images/overlay_image_js.png)
 ## 문제 상황
 
 JavaScript 코드를 작성할 때 `SyntaxError: Unterminated string literal` (또는 일부 브라우저에서는 `Uncaught SyntaxError: Invalid or unexpected token`) 오류가 발생할 수 있습니다.

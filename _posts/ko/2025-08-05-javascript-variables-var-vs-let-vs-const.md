@@ -27,6 +27,8 @@ tags:
    - const
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript 변수: var, let, const의 차이점](/images/header_images/overlay_image_js.png)
 ## 서론
 
 오랫동안 `var`는 JavaScript에서 변수를 선언하는 유일한 방법이었습니다. ES6(ECMAScript 2015)가 도입되면서, 변수 스코프와 동작에 대한 더 많은 제어를 제공하는 `let`과 `const`라는 두 개의 새로운 키워드가 추가되었습니다. 이 세 가지의 차이점을 이해하는 것은 현대적이고 유지 관리하기 쉬우며 버그 없는 JavaScript를 작성하는 데 매우 중요합니다.

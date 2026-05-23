@@ -25,6 +25,8 @@ tags:
   - Version Control
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix 'error: src refspec ... does not match any' in Git](/images/header_images/overlay_image_git.png)
 When you try to push changes to a remote repository, you might encounter the frustrating error: `error: src refspec <branch-name> does not match any.` This message means Git cannot find the local branch you're trying to push.
 
 This post explains the common causes of this error and how to fix it.

@@ -23,6 +23,8 @@ tags:
   - Troubleshooting
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git에서 'fatal: refusing to merge unrelated histories' 오류 해결 방법](/images/header_images/overlay_image_git.png)
 ## "fatal: refusing to merge unrelated histories" 오류란 무엇인가?
 
 이 Git 오류는 공통 커밋 기록을 공유하지 않는 두 브랜치를 `git pull` 또는 `git merge`하려고 할 때 발생한다. 이는 사용자가 관련 없는 두 프로젝트를 실수로 병합하는 것을 방지하기 위해 Git 2.9 버전에 도입된 안전 기능이다.

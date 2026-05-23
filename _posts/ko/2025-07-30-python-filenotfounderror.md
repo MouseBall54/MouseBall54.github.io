@@ -23,6 +23,8 @@ tags:
   - Error Handling
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python FileNotFoundError 해결 방법](/images/header_images/overlay_image_python.png)
 ## `FileNotFoundError`란 무엇인가?
 
 `FileNotFoundError`는 지정된 경로에 존재하지 않는 파일에 접근하려고 할 때 발생하는 예외다. 이는 파일을 열거나, 읽거나, 쓰는 등 파일 입출력(I/O) 작업을 할 때 매우 흔하게 발생하는 오류다.

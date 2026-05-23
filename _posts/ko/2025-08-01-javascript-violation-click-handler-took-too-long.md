@@ -25,6 +25,8 @@ tags:
   - Optimization
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript 'Violation 'click' handler took ...ms' 경고 해결 방법](/images/header_images/overlay_image_js.png)
 콘솔에서 `[Violation] 'click' handler took <N>ms`라는 경고를 본 적이 있다면, 이는 클릭 이벤트 핸들러가 실행되는 데 너무 오랜 시간이 걸린다는 브라우저의 신호입니다. 이는 느리고 응답 없는 사용자 인터페이스로 이어져 좋지 않은 사용자 경험을 유발할 수 있습니다.
 
 이 글에서는 이 위반이 발생하는 이유와 이벤트 핸들러를 최적화하여 해결하는 방법을 설명합니다.

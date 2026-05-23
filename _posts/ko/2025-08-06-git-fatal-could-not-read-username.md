@@ -27,6 +27,8 @@ tags:
   - Credentials
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git 오류 해결: "fatal: could not read Username for 'https://...': terminal prompts disabled](/images/header_images/overlay_image_git.png)
 ## 오류 이해하기
 
 `fatal: could not read Username for 'https://...': terminal prompts disabled` 오류 메시지는 Git이 HTTPS를 통해 원격 저장소와 인증해야 하지만 사용자 이름과 암호를 묻는 메시지를 표시할 수 없는 환경에서 실행될 때 발생합니다.

@@ -27,6 +27,8 @@ tags:
    - Best Practices
 ---
 
+
+![A visual summary explaining the main topic of this post: JavaScript Equality: == vs. === (Loose vs. Strict)](/images/header_images/overlay_image_js.png)
 ## Introduction
 
 In JavaScript, comparing two values for equality can be done with two different operators: `==` (loose equality) and `===` (strict equality). For beginners, the distinction can be confusing, but understanding it is fundamental to writing predictable and bug-free code. The core difference lies in how they handle data types.

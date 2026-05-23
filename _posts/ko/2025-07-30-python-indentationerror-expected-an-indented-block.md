@@ -23,6 +23,8 @@ tags:
   - Beginner
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python IndentationError: expected an indented block 오류 해결법](/images/header_images/overlay_image_python.png)
 ## Python `IndentationError: expected an indented block` 오류란?
 
 Python은 다른 프로그래밍 언어와 달리 코드의 구조를 중괄호 `{}` 대신 **들여쓰기(indentation)** 로 구분합니다. `IndentationError: expected an indented block` 오류는 이러한 들여쓰기 규칙이 지켜지지 않았을 때 발생하는, Python의 매우 특징적인 오류입니다.

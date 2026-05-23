@@ -27,6 +27,8 @@ tags:
   - Credentials
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix "fatal: could not read Username for 'https://...': terminal prompts disabled" in Git](/images/header_images/overlay_image_git.png)
 ## Understanding the Error
 
 The error message `fatal: could not read Username for 'https://...': terminal prompts disabled` occurs when Git needs to authenticate with a remote repository over HTTPS, but it is running in an environment where it cannot prompt you for your username and password.

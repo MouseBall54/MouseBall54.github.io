@@ -26,6 +26,8 @@ tags:
   - Collections
   - Best Practices
 ---
+
+![A visual summary explaining the main topic of this post: Understanding equals() and hashCode() in Java](/images/header_images/overlay_image_java.png)
 ## The Contract Between `equals()` and `hashCode()`
 
 In Java, the `equals()` and `hashCode()` methods, both defined in the `Object` class, are fundamental for determining object equality. When you create custom classes, you often need to override `equals()` to define logical equality (based on object state) rather than reference equality (based on memory address).

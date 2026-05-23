@@ -27,6 +27,8 @@ tags:
    - Troubleshooting
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python PermissionError: Errno 13 Permission denied 오류 해결 방법](/images/header_images/overlay_image_python.png)
 ## 서론
 
 `PermissionError: [Errno 13] Permission denied`는 Python에서 스크립트가 필요한 권한 없이 파일이나 디렉터리에 접근하려고 할 때 발생하는 일반적인 오류입니다. 파일을 읽거나, 쓰거나, 실행할 때 발생할 수 있습니다. 근본 원인을 이해하는 것이 효율적인 해결의 핵심입니다.

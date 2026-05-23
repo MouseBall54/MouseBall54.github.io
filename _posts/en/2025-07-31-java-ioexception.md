@@ -24,6 +24,8 @@ tags:
   - Troubleshooting
 ---
 
+
+![A visual summary explaining the main topic of this post: Understanding and Handling java.io.IOException in Java](/images/header_images/overlay_image_java.png)
 ## What is `java.io.IOException`?
 
 `java.io.IOException` is a checked exception in Java that serves as a general-purpose signal for failed or interrupted I/O (Input/Output) operations. It is the superclass for many other specific I/O exceptions, such as `FileNotFoundException`, `EOFException`, and `SocketException`.

@@ -23,6 +23,8 @@ tags:
   - Best Practices
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java IllegalArgumentException 예외 처리 방법](/images/header_images/overlay_image_java.png)
 ## 서론
 
 `java.lang.IllegalArgumentException`은 메서드에 불법적이거나 부적절한 인수가 전달되었음을 나타내기 위해 발생하는 Java의 unchecked exception이다. 이는 메서드가 제공된 입력이 메서드의 사전 조건을 충족하지 않음을 호출자에게 알리는 방법이다. 외부 문제(네트워크나 파일 문제 등)를 알리는 다른 많은 예외와 달리, 이 예외는 거의 항상 프로그래머의 오류를 나타낸다—즉, 호출 코드가 호출하는 메서드의 계약을 존중하지 않고 있다는 것이다.

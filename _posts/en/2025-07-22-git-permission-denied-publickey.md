@@ -26,6 +26,8 @@ tags:
   - Authentication
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix "Permission denied (publickey)" Error with Git on Windows](/images/header_images/overlay_image_git.png)
 ## Introduction
 
 Git over SSH prevents password leaks.

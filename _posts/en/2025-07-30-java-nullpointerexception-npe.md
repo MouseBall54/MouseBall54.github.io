@@ -23,6 +23,8 @@ tags:
   - Exception
 ---
 
+
+![A visual summary explaining the main topic of this post: A Complete Guide to Conquering Java's NullPointerException (NPE)](/images/header_images/overlay_image_java.png)
 ## What is Java's `NullPointerException` (NPE)?
 
 The `NullPointerException`, or NPE, is the most common runtime exception that every Java developer has encountered countless times. This exception is thrown when you try to use a variable that holds a `null` reference to access an object's members (its fields or methods).

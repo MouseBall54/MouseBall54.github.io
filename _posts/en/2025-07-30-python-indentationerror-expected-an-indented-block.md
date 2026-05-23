@@ -23,6 +23,8 @@ tags:
   - Beginner
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix Python's IndentationError: expected an indented block](/images/header_images/overlay_image_python.png)
 ## What is Python's `IndentationError: expected an indented block`?
 
 Unlike many other programming languages that use braces `{}` to define code structure, Python uses **indentation**. The `IndentationError: expected an indented block` is a very Python-specific error that occurs when these indentation rules are not followed.

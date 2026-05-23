@@ -22,6 +22,8 @@ tags:
   - Version Control
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git 오류 'fatal: not a git repository' 해결 방법](/images/header_images/overlay_image_git.png)
 ## 'fatal: not a git repository' 오류란?
 
 `fatal: not a git repository (or any of the parent directories): .git` 메시지는 현재 디렉터리나 그 상위 경로에 `.git` 폴더가 없어 Git 저장소로 인식되지 않을 때 나타나는 오류다.

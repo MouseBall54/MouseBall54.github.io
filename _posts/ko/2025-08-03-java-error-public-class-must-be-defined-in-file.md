@@ -25,6 +25,8 @@ tags:
   - public class
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: 자바 Error: a public class ... must be defined in a file called ... .java 해결 방법](/images/header_images/overlay_image_java.png)
 ## 문제 상황
 
 자바 소스 코드를 컴파일할 때 다음과 같은 오류 메시지를 만날 수 있습니다.

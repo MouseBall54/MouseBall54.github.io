@@ -25,6 +25,8 @@ tags:
     - Class
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix "Error: a public class ... must be defined in a file called ... .java" in Java](/images/header_images/overlay_image_java.png)
 ## What is "Error: a public class ... must be defined in a file called ... .java" in Java?
 
 This error message is one of the most basic errors encountered when compiling Java source code with the Java compiler (javac). According to the Java Language Specification, a single source file (.java) can contain **at most one `public` class**. If a `public` class exists, the **name of the source file must exactly match the name of the `public` class, including case**.

@@ -23,6 +23,8 @@ tags:
   - Troubleshooting
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix 'fatal: refusing to merge unrelated histories' in Git](/images/header_images/overlay_image_git.png)
 ## What is the "fatal: refusing to merge unrelated histories" Error?
 
 This Git error occurs when you try to `git pull` or `git merge` two branches that do not share a common commit history. It's a safety feature introduced in Git 2.9 to prevent users from accidentally merging two unrelated projects.

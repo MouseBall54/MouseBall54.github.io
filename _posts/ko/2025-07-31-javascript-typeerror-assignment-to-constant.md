@@ -24,6 +24,8 @@ tags:
   - ES6
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript \"TypeError: Assignment to constant variable\" 오류 해결 방법](/images/header_images/overlay_image_js.png)
 ## 서론
 
 `TypeError: Assignment to constant variable`는 최신 JavaScript(ES6 이상)에서 흔히 발생하는 오류다. 이 오류는 `const` 키워드를 사용하여 선언된 변수에 값을 재할당하려고 할 때 발생한다. 이 가이드에서는 `const`의 동작 방식, 이 오류가 발생하는 이유, 그리고 이를 방지하기 위해 변수를 올바르게 관리하는 방법을 설명한다.

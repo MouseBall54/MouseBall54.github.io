@@ -25,6 +25,8 @@ tags:
   - Version Control
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git "error: Your local changes... would be overwritten by merge" 오류 해결 방법](/images/header_images/overlay_image_git.png)
 ## 서론
 
 Git 오류 메시지 `error: Your local changes to the following files would be overwritten by merge`는 사용자의 커밋되지 않은 작업을 보호하기 위한 조치다. 이 오류는 로컬 작업 디렉터리에 수정한 내용이 `git pull` 또는 `git merge` 작업으로 업데이트될 파일과 충돌할 때 발생한다. 이 가이드에서는 이 오류가 발생하는 이유를 설명하고 이를 해결하기 위한 세 가지 일반적인 방법을 제공한다.

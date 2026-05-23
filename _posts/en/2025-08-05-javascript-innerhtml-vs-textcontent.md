@@ -27,6 +27,8 @@ tags:
    - Security
 ---
 
+
+![A visual summary explaining the main topic of this post: JavaScript innerHTML vs. textContent: Which Should You Use?](/images/header_images/overlay_image_js.png)
 ## Introduction
 
 When you need to get or set the content of an HTML element using JavaScript, you'll quickly come across two common properties: `innerHTML` and `textContent`. While they might seem similar, they have crucial differences in how they handle content, which impacts security, performance, and behavior. Choosing the right one is essential for writing robust and secure code.

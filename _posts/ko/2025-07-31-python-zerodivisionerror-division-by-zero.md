@@ -23,6 +23,8 @@ tags:
   - Math
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python ZeroDivisionError: division by zero 해결 방법](/images/header_images/overlay_image_python.png)
 ## "ZeroDivisionError: division by zero"란?
 
 `ZeroDivisionError`는 Python에서 직관적이고 흔한 런타임 오류다. 숫자를 0으로 나누려고 시도할 때 발생한다. 수학에서 0으로 나누는 것은 정의되지 않으며, 대부분의 프로그래밍 언어와 마찬가지로 Python도 이 불법적인 연산이 발생했음을 알리기 위해 예외를 발생시킨다.

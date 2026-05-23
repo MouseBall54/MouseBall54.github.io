@@ -25,6 +25,8 @@ tags:
     - Syntax
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java "Error: ';' expected" 해결 방법](/images/header_images/overlay_image_java.png)
 ## Java "Error: ';' expected"란?
 
 `Error: ';' expected`는 Java 컴파일러가 문법적으로 문장(statement)이 끝나야 하는 위치에 세미콜론(`;`)을 찾지 못했을 때 발생하는 구문 오류입니다. Java에서 세미콜론은 각 명령문이나 선언문이 끝났음을 알리는 매우 중요한 문법 요소입니다.

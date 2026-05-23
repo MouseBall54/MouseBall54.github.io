@@ -24,6 +24,8 @@ tags:
   - Troubleshooting
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java에서 java.lang.ClassCastException 해결 방법](/images/header_images/overlay_image_java.png)
 ## `ClassCastException`이란 무엇인가?
 
 `java.lang.ClassCastException`은 JVM(Java Virtual Machine)이 객체를 해당 객체의 인스턴스가 아닌 타입으로 캐스팅하려고 할 때 발생하는 런타임 예외이다. 이 오류는 컴파일 시점에는 확인할 수 없는 잘못된 타입 변환을 나타내며, 종종 컬렉션이나 제네릭 타입과 함께 발생한다.

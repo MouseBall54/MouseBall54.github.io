@@ -28,6 +28,8 @@ tags:
   - Exception
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python FloatingPointError 해결 방법](/images/header_images/overlay_image_python.png)
 ## 문제 상황
 
 Python에서 부동 소수점 계산을 수행할 때 `FloatingPointError`가 발생할 수 있습니다.

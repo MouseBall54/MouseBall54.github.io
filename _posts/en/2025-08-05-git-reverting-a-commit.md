@@ -28,6 +28,8 @@ tags:
   - VersionControl
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Revert a Commit in Git (git revert)](/images/header_images/overlay_image_git.png)
 ## The Problem
 
 While managing a project with Git, you may find that changes included in a specific commit are causing issues or are no longer needed.

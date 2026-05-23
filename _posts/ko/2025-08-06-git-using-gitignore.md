@@ -26,6 +26,8 @@ tags:
   - Files
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: .gitignore 파일을 사용하여 Git 추적에서 파일 제외하는 방법](/images/header_images/overlay_image_git.png)
 ## `.gitignore`란?
 
 `.gitignore` 파일은 Git에게 프로젝트에서 어떤 파일이나 폴더를 무시할지 알려주는 텍스트 파일입니다. 무시된 파일은 Git에 의해 추적되지 않으므로 스테이징되거나 커밋되지 않습니다. 이는 로그 파일, 컴파일된 코드 또는 `node_modules`와 같은 의존성 폴더와 같이 컴퓨터나 빌드 프로세스에 의해 생성되는 파일에 유용합니다.

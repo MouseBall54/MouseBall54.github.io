@@ -26,6 +26,8 @@ tags:
   - Git Internals
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git "fatal: bad object" 오류 해결 방법](/images/header_images/overlay_image_git.png)
 ## "fatal: bad object" 오류란?
 
 이 Git 오류는 심각합니다.

@@ -25,6 +25,8 @@ tags:
   - Unreachable Code
   - Troubleshooting
 ---
+
+![A visual summary explaining the main topic of this post: How to Fix "error: unreachable statement" in Java](/images/header_images/overlay_image_java.png)
 ## Understanding the "unreachable statement" Error
 
 The "error: unreachable statement" is a compile-time error in Java that indicates there is a statement in your code that the compiler has determined can never be executed. The Java Language Specification requires that every statement be reachable; otherwise, it's considered a programming error, often pointing to flawed logic.

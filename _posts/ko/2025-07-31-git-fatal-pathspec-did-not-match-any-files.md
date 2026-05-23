@@ -23,6 +23,8 @@ tags:
   - Version Control
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git 오류 해결: pathspec '...' did not match any files](/images/header_images/overlay_image_git.png)
 ## "pathspec '...' did not match any files" 오류란?
 
 Git을 사용하다 보면 `fatal: pathspec '...' did not match any files`라는 오류 메시지를 마주칠 수 있다. 이 오류는 보통 `git add`나 `git rm` 같은 명령을 Git이 찾을 수 없는 파일에 대해 실행하려고 할 때 발생한다. 여기서 "pathspec"은 Git에게 작업을 지시하려는 파일이나 디렉터리의 경로를 의미한다.

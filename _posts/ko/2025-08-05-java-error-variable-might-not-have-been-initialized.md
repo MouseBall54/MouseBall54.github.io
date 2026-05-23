@@ -25,6 +25,8 @@ tags:
   - Variable Initialization
   - Troubleshooting
 ---
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java "error: variable ... might not have been initialized" 해결 방법](/images/header_images/overlay_image_java.png)
 ## "variable ... might not have been initialized" 오류 이해하기
 
 이 Java 컴파일 시간 오류는 안전장치 역할을 합니다. 값이 할당되지 않은 지역 변수를 사용하는 것을 방지하기 때문입니다. Java 컴파일러는 변수가 사용되기 전에 초기화되었음을 반드시 확인할 수 있어야 합니다. 그렇지 않으면 해당 변수는 예측할 수 없는 임의의 값을 가질 수 있습니다.

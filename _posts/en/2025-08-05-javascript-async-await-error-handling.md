@@ -27,6 +27,8 @@ tags:
    - try...catch
 ---
 
+
+![A visual summary explaining the main topic of this post: Mastering async/await Error Handling in JavaScript](/images/header_images/overlay_image_js.png)
 ## Introduction
 
 `async/await`, introduced in ES2017, provides a much cleaner and more readable syntax for working with Promises in JavaScript. It allows you to write asynchronous code that looks and behaves like synchronous code. However, one area that can trip up developers is error handling. A forgotten `.catch()` on a promise chain can lead to silent failures or unhandled promise rejections.

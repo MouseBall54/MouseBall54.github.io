@@ -22,6 +22,8 @@ tags:
   - Debugging
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: How to Fix "ModuleNotFoundError: No module named '…'" in Python](/images/header_images/overlay_image_java.png)
 ## 소개
 
 NullPointerException은 Java에서 가장 흔한 런타임 오류다.

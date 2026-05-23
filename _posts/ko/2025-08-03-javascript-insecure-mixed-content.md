@@ -26,6 +26,8 @@ tags:
     - Mixed Content
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript "Insecure mixed content" 오류 해결 방법](/images/header_images/overlay_image_js.png)
 ## "Insecure mixed content"란 무엇인가?
 
 "혼합 콘텐츠(Mixed Content)" 오류는 초기 HTML이 HTTPS를 통해 안전하게 로드되었지만, 페이지의 다른 리소스(예: 이미지, 비디오, 스크립트, 스타일시트)가 안전하지 않은 HTTP 프로토콜을 통해 로드될 때 발생합니다. 이는 전체 페이지의 보안을 약화시키기 때문에 최신 브라우저는 이를 차단하거나 경고를 표시합니다.

@@ -23,6 +23,8 @@ tags:
   - Debugging
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript 오류 'Uncaught SyntaxError: Unexpected token' 해결 방법](/images/header_images/overlay_image_js.png)
 ## 'Uncaught SyntaxError: Unexpected token' 오류란?
 
 `Uncaught SyntaxError: Unexpected token`은 JavaScript 코드가 언어의 문법 규칙을 따르지 않을 때 발생하는 가장 일반적인 구문 오류 중 하나다.

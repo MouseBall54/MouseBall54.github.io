@@ -25,6 +25,8 @@ tags:
     - Amend
 ---
 
+
+![A visual summary explaining the main topic of this post: Amending the Latest Commit in Git: A Complete Guide to git commit --amend](/images/header_images/overlay_image_git.png)
 ## What is `git commit --amend`?
 
 `git commit --amend` is a command used to amend (modify) the most recent commit. Instead of creating a new commit, this command **replaces the previous commit with a new one**. This allows you to maintain a clean history by fixing minor mistakes in the latest commit (e.g., a typo in the commit message, adding a forgotten file, or including an unnecessary file) without leaving a separate correction commit.

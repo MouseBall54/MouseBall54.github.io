@@ -26,6 +26,8 @@ tags:
   - Collections
   - Best Practices
 ---
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java에서 equals()와 hashCode() 이해하기](/images/header_images/overlay_image_java.png)
 ## `equals()`와 `hashCode()` 사이의 규약
 
 Java에서 `Object` 클래스에 정의된 `equals()`와 `hashCode()` 메서드는 객체의 동등성을 결정하는 데 기본이 됩니다. 사용자 정의 클래스를 만들 때, 참조 동등성(메모리 주소 기반)이 아닌 논리적 동등성(객체 상태 기반)을 정의하기 위해 종종 `equals()`를 오버라이드합니다.

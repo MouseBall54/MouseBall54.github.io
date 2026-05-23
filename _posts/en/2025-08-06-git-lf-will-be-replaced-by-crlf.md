@@ -27,6 +27,8 @@ tags:
   - Windows
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix "LF will be replaced by CRLF" Warning in Git](/images/header_images/overlay_image_git.png)
 ## Understanding the Warning
 
 The warning `warning: LF will be replaced by CRLF in <filename>` appears because of differences in how operating systems handle line endings in text files.

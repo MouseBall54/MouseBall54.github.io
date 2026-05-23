@@ -25,6 +25,8 @@ tags:
   - UnsupportedOperationException
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: java.lang.UnsupportedOperationException 처리 방법](/images/header_images/overlay_image_java.png)
 `java.lang.UnsupportedOperationException`은 요청된 작업이 지원되지 않음을 알리는 Java의 일반적인 런타임 예외입니다. 모든 메서드에서 발생할 수 있지만, Java 컬렉션 프레임워크로 작업할 때, 특히 수정 불가능한 컬렉션을 수정하려고 할 때 가장 자주 나타납니다.
 
 이 글에서는 이 예외의 일반적인 원인을 살펴보고 명확한 해결책을 제공합니다.

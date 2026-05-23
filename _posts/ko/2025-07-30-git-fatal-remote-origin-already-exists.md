@@ -23,6 +23,8 @@ tags:
   - Remote
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git 오류 'fatal: remote origin already exists' 해결 방법](/images/header_images/overlay_image_git.png)
 ## 'fatal: remote origin already exists' 오류란?
 
 `fatal: remote origin already exists` 오류는 `git remote add origin <저장소_URL>` 명령을 실행했을 때, 이미 `origin`이라는 이름의 원격 저장소가 설정되어 있는 경우에 발생한다.

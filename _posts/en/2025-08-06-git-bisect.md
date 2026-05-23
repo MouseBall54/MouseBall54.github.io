@@ -27,6 +27,8 @@ tags:
   - Commit
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Use git bisect to Find the Commit That Introduced a Bug](/images/header_images/overlay_image_git.png)
 ## What is `git bisect`?
 
 `git bisect` is a powerful debugging tool in Git. It helps you find the specific commit that introduced a bug by performing an automated binary search through your project's commit history. 

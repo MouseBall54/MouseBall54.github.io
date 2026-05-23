@@ -26,6 +26,8 @@ tags:
   - Branch
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Cherry-Pick a Commit from Another Branch in Git](/images/header_images/overlay_image_git.png)
 ## What is Git Cherry-Pick?
 
 `git cherry-pick` is a command that allows you to pick a commit from one branch and apply it onto another. This is useful when you need a specific change from another branch, but you don't want to merge the entire branch. It avoids introducing unrelated changes.

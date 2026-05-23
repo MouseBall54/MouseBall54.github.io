@@ -26,6 +26,8 @@ tags:
   - File I/O
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix Python's "UnicodeDecodeError: 'utf-8' codec can't decode byte](/images/header_images/overlay_image_python.png)
 ## What is UnicodeDecodeError?
 
 A `UnicodeDecodeError` happens in Python.

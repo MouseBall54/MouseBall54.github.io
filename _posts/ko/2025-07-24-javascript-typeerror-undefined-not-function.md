@@ -22,6 +22,8 @@ tags:
   - WebDev
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: TypeError: undefined is not a function 오류 해결 방법 (JavaScript)](/images/header_images/overlay_image_js.png)
 ## 소개
 
 JavaScript에서 함수가 아닌 값을 호출할 때 발생한다.

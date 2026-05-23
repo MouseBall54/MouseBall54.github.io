@@ -27,6 +27,8 @@ tags:
    - Promise.race
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript 프로미스: Promise.all vs. Promise.race](/images/header_images/overlay_image_js.png)
 ## 서론
 
 JavaScript 프로미스는 비동기 작업을 관리하는 데 필수적입니다. 종종 단일 프로미스로 작업하지만, 한 번에 여러 프로미스를 처리해야 하는 시나리오도 많습니다. `Promise` 객체는 이를 위해 `Promise.all()`과 `Promise.race()`라는 두 가지 주요 정적 메서드를 제공합니다.

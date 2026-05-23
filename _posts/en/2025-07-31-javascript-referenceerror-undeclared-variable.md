@@ -23,6 +23,8 @@ tags:
   - Strict Mode
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix \"ReferenceError: assignment to undeclared variable\" in JavaScript](/images/header_images/overlay_image_js.png)
 ## Introduction
 
 The `ReferenceError: assignment to undeclared variable "..."` is an error that occurs exclusively in JavaScript's **strict mode**. It acts as a safeguard, preventing you from accidentally creating global variables by assigning a value to a variable that has not been declared yet. This guide explains why this error happens and how to fix it.

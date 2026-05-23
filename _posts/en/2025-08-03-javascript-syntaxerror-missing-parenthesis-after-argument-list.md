@@ -25,6 +25,8 @@ tags:
   - Function Call
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix JavaScript SyntaxError: missing ) after argument list](/images/header_images/overlay_image_js.png)
 ## The Problem
 
 The `SyntaxError: missing ) after argument list` is a very common syntax error in JavaScript. As its name suggests, it means that the JavaScript parser expected a **closing parenthesis `)` after a function's argument list, but did not find one.**

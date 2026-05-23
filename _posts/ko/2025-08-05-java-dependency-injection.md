@@ -26,6 +26,8 @@ tags:
   - Design Patterns
   - Best Practices
 ---
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java 의존성 주입(Dependency Injection)으로 결합도 낮추기](/images/header_images/overlay_image_java.png)
 ## 의존성 주입(Dependency Injection)이란?
 
 **의존성 주입(DI)**은 **제어의 역전(IoC, Inversion of Control)**을 구현하는 데 사용되는 디자인 패턴입니다. 이는 종속적인 객체의 생성이 클래스 외부에서 일어나도록 하고, 이러한 의존성을 다양한 방식으로 클래스에 제공하는 것을 허용합니다. 간단히 말해, 클래스가 자신의 의존성을 직접 생성하는 대신, 외부 엔티티(종종 DI 프레임워크)에 의해 의존성이 "주입"됩니다.

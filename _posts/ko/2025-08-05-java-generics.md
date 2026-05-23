@@ -25,6 +25,8 @@ tags:
   - Type Safety
   - Best Practices
 ---
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java 제네릭(Generics)을 사용한 타입 안정성 확보](/images/header_images/overlay_image_java.png)
 ## 제네릭(Generics)이란?
 
 Java 5에서 도입된 **제네릭(Generics)**은 컴파일 시 타입 안정성을 제공하면서 다양한 데이터 타입과 함께 작동할 수 있는 클래스, 인터페이스, 메서드를 만들 수 있게 해줍니다. 일반적인 `Object` 타입을 사용하고 수동으로 형변환을 수행하는 대신, 클래스나 메서드가 사용할 타입을 지정할 수 있습니다. 이는 꺾쇠괄호 표기법 `<>`으로 나타냅니다.

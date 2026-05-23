@@ -26,6 +26,8 @@ tags:
   - Unchecked Exception
   - Best Practices
 ---
+
+![A visual summary explaining the main topic of this post: Java Exceptions: Checked vs. Unchecked](/images/header_images/overlay_image_java.png)
 ## Understanding Java's Exception Hierarchy
 
 In Java, all exception and error types are subclasses of the `Throwable` class. This class has two main direct subclasses: `Error` and `Exception`.

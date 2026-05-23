@@ -28,6 +28,8 @@ tags:
   - Exception
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix Python FloatingPointError](/images/header_images/overlay_image_python.png)
 ## The Problem
 
 When performing floating-point calculations in Python, you might encounter a `FloatingPointError`.

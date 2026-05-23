@@ -23,6 +23,8 @@ tags:
   - Troubleshooting
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java java.io.FileNotFoundException 해결 방법](/images/header_images/overlay_image_java.png)
 ## `FileNotFoundException`이란?
 
 `java.io.FileNotFoundException`은 Java에서 지정된 경로에 파일이 존재하지 않을 때 접근하려고 시도하면 발생하는 일반적인 체크 예외(checked exception)이다. 파일을 읽거나 쓰려고 할 때 발생할 수 있으며, `IOException`의 하위 클래스이다.

@@ -25,6 +25,8 @@ tags:
     - Disk Space
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python "OSError: Errno 28 No space left on device" 해결 방법](/images/header_images/overlay_image_python.png)
 ## Python "OSError: [Errno 28] No space left on device"란?
 
 `OSError: [Errno 28] No space left on device`는 Python 프로그램이 파일을 쓰려고 할 때 디스크의 저장 공간이 부족하여 더 이상 데이터를 기록할 수 없을 때 발생하는 운영 체제 수준의 오류입니다. 이 오류는 단순히 파일 쓰기 작업뿐만 아니라, 임시 파일을 생성하는 라이브러리나 프로세스에서도 발생할 수 있습니다.

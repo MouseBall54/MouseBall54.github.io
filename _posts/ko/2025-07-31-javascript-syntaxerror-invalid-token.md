@@ -23,6 +23,8 @@ tags:
   - Token
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript \"SyntaxError: Invalid or unexpected token\" 오류 해결 방법](/images/header_images/overlay_image_js.png)
 ## 서론
 
 `SyntaxError: Invalid or unexpected token`은 JavaScript 엔진이 구문 분석할 수 없는 코드를 만났을 때 발생하는 일반적인 오류다. 이 오류는 매우 포괄적이며, 단순한 오타부터 더 복잡한 구조적 문제에 이르기까지 다양한 구문 실수로 인해 발생할 수 있다. 이 가이드에서는 가장 빈번한 원인과 이를 식별하고 수정하는 방법을 다룬다.

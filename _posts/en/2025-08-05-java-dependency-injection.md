@@ -26,6 +26,8 @@ tags:
   - Design Patterns
   - Best Practices
 ---
+
+![A visual summary explaining the main topic of this post: Lowering Coupling with Dependency Injection in Java](/images/header_images/overlay_image_java.png)
 ## What is Dependency Injection?
 
 **Dependency Injection (DI)** is a design pattern used to implement **Inversion of Control (IoC)**. It allows the creation of dependent objects to occur outside of a class and provides those dependencies to the class in various ways. In simple terms, instead of a class creating its own dependencies, the dependencies are "injected" into it by an external entity (often a DI framework).

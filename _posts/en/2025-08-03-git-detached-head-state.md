@@ -26,6 +26,8 @@ tags:
   - Branching
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix Git "Detached HEAD" State](/images/header_images/overlay_image_git.png)
 ## What is a "Detached HEAD" State in Git?
 
 In Git, `HEAD` is a pointer that normally points to the latest commit of the branch you are currently on. For example, if you are on the `main` branch, `HEAD` points to `main`.

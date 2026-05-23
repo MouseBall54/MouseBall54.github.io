@@ -23,6 +23,8 @@ tags:
   - Recursion
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript 'Maximum call stack size exceeded' 오류 해결 방법](/images/header_images/overlay_image_js.png)
 ## "Uncaught RangeError: Maximum call stack size exceeded" 오류 이해하기
 
 이 오류는 JavaScript에서 함수가 자기 자신을 너무 많이 호출하여 스택 오버플로가 발생할 때 나타난다. 콜 스택(Call Stack)은 인터프리터가 여러 함수를 호출하는 스크립트에서 현재 위치를 추적하는 메커니즘이다. 스택의 크기에는 제한이 있으며, 이 한도를 초과하면 오류가 발생한다.

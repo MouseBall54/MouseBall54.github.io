@@ -25,6 +25,8 @@ tags:
   - Functional Programming
   - Collections
 ---
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java Stream API로 데이터 처리하기](/images/header_images/overlay_image_java.png)
 ## Stream API란?
 
 Java 8에서 도입된 **Stream API**는 컬렉션과 같은 요소의 시퀀스를 처리하기 위한 강력한 도구입니다. 스트림은 데이터 구조 자체가 아니며, 대신 컬렉션, 배열 또는 I/O 채널에서 입력을 받아 해당 데이터에 대해 함수형, 선언적 스타일로 복잡한 데이터 처리 연산을 수행할 수 있게 해줍니다.

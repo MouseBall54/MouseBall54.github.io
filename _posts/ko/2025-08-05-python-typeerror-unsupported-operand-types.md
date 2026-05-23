@@ -27,6 +27,8 @@ tags:
    - Troubleshooting
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python TypeError: unsupported operand type(s) for + 오류 해결 방법](/images/header_images/overlay_image_python.png)
 ## 서론
 
 `TypeError: unsupported operand type(s) for +: '...' and '...'`는 새로운 Python 프로그래머들이 가장 흔하게 접하는 오류 중 하나입니다. 이 오류는 덧셈 연산자(`+`)를 호환되지 않는 타입의 두 객체에 사용하려고 할 때 발생합니다. 예를 들어, 숫자와 문자열 또는 리스트와 딕셔너리를 직접 더할 수 없습니다.

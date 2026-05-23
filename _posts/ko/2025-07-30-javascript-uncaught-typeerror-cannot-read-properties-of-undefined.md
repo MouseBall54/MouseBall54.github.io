@@ -23,6 +23,8 @@ tags:
   - Debugging
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript 'undefined'의 속성을 읽을 수 없음(Uncaught TypeError) 오류 해결 방법](/images/header_images/overlay_image_js.png)
 ## 서론
 
 "Uncaught TypeError: Cannot read properties of undefined" 오류는 JavaScript에서 가장 흔하게 발생하는 문제 중 하나다. 이 오류는 `undefined` 값을 가진 변수의 속성이나 메서드에 접근하려고 할 때 발생한다. 이 가이드는 주요 원인과 해결 방법을 설명한다.

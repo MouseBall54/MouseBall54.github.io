@@ -23,6 +23,8 @@ tags:
   - Troubleshooting
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix java.lang.ArrayIndexOutOfBoundsException](/images/header_images/overlay_image_java.png)
 ## What is java.lang.ArrayIndexOutOfBoundsException?
 
 `java.lang.ArrayIndexOutOfBoundsException` is a very common runtime exception when working with arrays in Java.

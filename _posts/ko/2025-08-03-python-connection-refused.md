@@ -26,6 +26,8 @@ tags:
     - Socket
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python "ConnectionError: Errno 111 Connection refused" 해결 방법](/images/header_images/overlay_image_python.png)
 ## Python "ConnectionError: [Errno 111] Connection refused"란?
 
 `ConnectionError: [Errno 111] Connection refused`는 Python의 `socket`이나 `requests` 같은 네트워킹 라이브러리를 사용하여 원격 서버에 연결을 시도할 때, 대상 서버가 연결 요청을 거부했음을 나타내는 오류입니다. 숫자 `111`은 Linux 시스템에서 "Connection refused"를 의미하는 에러 코드입니다. (Windows나 다른 OS에서는 다른 에러 코드가 표시될 수 있습니다.)

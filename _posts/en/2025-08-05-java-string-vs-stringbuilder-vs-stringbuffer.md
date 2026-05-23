@@ -26,6 +26,8 @@ tags:
   - StringBuffer
   - Performance
 ---
+
+![A visual summary explaining the main topic of this post: Java: String vs. StringBuilder vs. StringBuffer](/images/header_images/overlay_image_java.png)
 ## String vs. StringBuilder vs. StringBuffer in Java
 
 In Java, strings seem simple, but how you work with them can have a significant impact on performance. Java provides three main classes for handling sequences of characters: `String`, `StringBuilder`, and `StringBuffer`. Understanding their differences is crucial for writing efficient code.

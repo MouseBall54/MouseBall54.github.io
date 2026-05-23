@@ -23,6 +23,8 @@ tags:
 ---
 
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: SSL: CERTIFICATE_VERIFY_FAILED 오류 해결 방법 (Windows Python)](/images/header_images/overlay_image_python.png)
 ## 소개
 
 SSL 인증서 검증 실패 오류를 해결합니다.

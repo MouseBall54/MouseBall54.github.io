@@ -25,6 +25,8 @@ tags:
     - Recursion
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix "RecursionError: maximum recursion depth exceeded" in Python](/images/header_images/overlay_image_python.png)
 ## What is "RecursionError: maximum recursion depth exceeded" in Python?
 
 A `RecursionError` is an exception raised when a function calls itself too many times, exceeding the maximum recursion depth set by the Python interpreter. This is a safety measure to prevent a stack overflow, which typically occurs due to infinite recursion or a flawed termination condition in a recursive function.

@@ -23,6 +23,8 @@ tags:
   - Troubleshooting
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: java.lang.ArrayIndexOutOfBoundsException 해결 방법](/images/header_images/overlay_image_java.png)
 ## java.lang.ArrayIndexOutOfBoundsException이란?
 
 `java.lang.ArrayIndexOutOfBoundsException`은 Java에서 배열을 다룰 때 매우 흔하게 발생하는 런타임 예외다.

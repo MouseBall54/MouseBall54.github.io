@@ -28,6 +28,8 @@ tags:
   - Signal
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Handle KeyboardInterrupt in Python](/images/header_images/overlay_image_python.png)
 ## The Problem
 
 When a Python script is running, pressing `Ctrl+C` in the terminal will immediately terminate the program.

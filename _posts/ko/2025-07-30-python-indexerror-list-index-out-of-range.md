@@ -23,6 +23,8 @@ tags:
   - Debugging
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python 'IndexError: list index out of range' 오류 해결 방법](/images/header_images/overlay_image_python.png)
 ## `IndexError: list index out of range` 오류 이해하기
 
 `IndexError: list index out of range`는 Python에서 흔히 발생하는 런타임 오류다. 이 오류는 리스트에 존재하지 않는 인덱스에 접근하려고 할 때 발생한다. 리스트는 0부터 시작하는 인덱스를 사용하므로, 첫 번째 요소는 인덱스 0에 있고 마지막 요소는 `n-1` 인덱스에 위치한다 (여기서 `n`은 리스트의 요소 개수다).

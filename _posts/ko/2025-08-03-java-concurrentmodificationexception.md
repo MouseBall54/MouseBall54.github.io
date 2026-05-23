@@ -26,6 +26,8 @@ tags:
   - Collections
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java ConcurrentModificationException 처리 방법](/images/header_images/overlay_image_java.png)
 ## ConcurrentModificationException이란?
 
 이 예외는 Java에서 발생합니다.

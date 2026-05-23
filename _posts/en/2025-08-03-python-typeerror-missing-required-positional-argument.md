@@ -26,6 +26,8 @@ tags:
   - Function Call
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix Python TypeError: missing 1 required positional argument](/images/header_images/overlay_image_python.png)
 ## The Problem
 
 When calling a function or a class method in Python, you might encounter an error like `TypeError: missing 1 required positional argument: '...'`. This error means that the function (or method) was expecting a **required positional argument**, but it was not provided when the function was called.

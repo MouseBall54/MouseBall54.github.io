@@ -26,6 +26,8 @@ tags:
     - undefined
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix "this is undefined" in JavaScript](/images/header_images/overlay_image_js.png)
 ## What is "this" in JavaScript?
 
 The `this` keyword in JavaScript is a special identifier that refers to the context in which a function is called. The value of `this` depends on how the function is invoked, and this behavior often causes confusion for developers. Problems with `this` are especially common within object methods, callback functions, and event handlers.

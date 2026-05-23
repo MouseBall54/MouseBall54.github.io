@@ -25,6 +25,8 @@ tags:
     - Type System
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix "Error: incompatible types" in Java](/images/header_images/overlay_image_java.png)
 ## What is "Error: incompatible types" in Java?
 
 `Error: incompatible types` is a compile-time error that occurs when Java's static type system determines that the type of a value you are trying to assign to a variable is not compatible with the variable's declared type. Java places a strong emphasis on type safety, so the compiler strictly checks for type mismatch issues before the code is executed.

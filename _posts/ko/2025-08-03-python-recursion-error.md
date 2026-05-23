@@ -25,6 +25,8 @@ tags:
     - Recursion
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python "RecursionError: maximum recursion depth exceeded" 해결 방법](/images/header_images/overlay_image_python.png)
 ## Python "RecursionError: maximum recursion depth exceeded"란?
 
 `RecursionError`는 Python 인터프리터가 설정한 최대 재귀 깊이 한도를 초과하여 함수가 계속해서 자신을 호출할 때 발생하는 예외입니다. 이는 무한 재귀에 빠지거나, 재귀의 종료 조건이 잘못 설정되었을 때 주로 발생하며, 시스템의 스택 오버플로를 방지하기 위한 안전장치입니다.

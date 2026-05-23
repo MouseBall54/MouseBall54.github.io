@@ -27,6 +27,8 @@ tags:
   - Version Control
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git revert와 reset 차이: 안전하게 커밋 되돌리기](/images/header_images/overlay_image_git.png)
 ## 문제 상황
 
 Git으로 프로젝트를 관리하다 보면, 특정 커밋에 문제가 있다는 것을 뒤늦게 발견하는 경우가 많습니다. 예를 들어, 버그를 유발하는 코드를 커밋했거나, 잘못된 파일을 포함하여 이미 원격 저장소(remote repository)에 `push`까지 완료했을 수 있습니다.

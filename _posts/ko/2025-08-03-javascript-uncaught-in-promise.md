@@ -26,6 +26,8 @@ tags:
   - Error Handling
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: 자바스크립트 Uncaught (in promise) 오류 해결 방법](/images/header_images/overlay_image_js.png)
 ## 문제 상황
 
 자바스크립트에서 비동기 작업을 처리하기 위해 프로미스(Promise)를 사용할 때, 콘솔에 `Uncaught (in promise)`라는 오류가 나타나는 경우가 있습니다. 이 오류는 프로미스가 `rejected` (거부) 상태가 되었지만, 이를 처리할 `.catch()` 블록이나 `try...catch` 구문이 없다는 것을 의미합니다.

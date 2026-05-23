@@ -24,6 +24,8 @@ tags:
   - Error Handling
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix ModuleNotFoundError in Python](/images/header_images/overlay_image_python.png)
 ## What is `ModuleNotFoundError`?
 
 A `ModuleNotFoundError` is an exception that Python raises when it cannot find a module you are trying to import. This error was introduced in Python 3.6; in older versions, it would raise an `ImportError`. It's one of the most common issues for beginners and experienced developers alike, especially when setting up a new project or environment.

@@ -26,6 +26,8 @@ tags:
   - Branch
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git에서 다른 브랜치의 특정 커밋 가져오기 (Cherry-Pick)](/images/header_images/overlay_image_git.png)
 ## Git Cherry-Pick이란?
 
 `git cherry-pick`은 한 브랜치에서 커밋을 선택하여 다른 브랜치에 적용하는 명령어입니다. 다른 브랜치의 특정 변경 사항이 필요하지만 전체 브랜치를 병합하고 싶지 않을 때 유용합니다. 관련 없는 변경 사항이 도입되는 것을 방지합니다.

@@ -25,6 +25,8 @@ tags:
     - Corruption
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git "error: object file ... is empty" 해결 방법](/images/header_images/overlay_image_git.png)
 ## Git "error: object file ... is empty"란?
 
 이 오류는 Git 저장소의 내부 데이터베이스에 있는 객체(object) 파일 중 하나가 비어 있거나 손상되었음을 의미합니다. Git은 모든 데이터를 `.git/objects` 디렉터리 내에 "객체"(커밋, 트리, 블롭 등)로 저장합니다. 어떤 이유로든 이 파일들 중 하나가 0바이트 크기의 빈 파일이 되면, Git은 해당 객체를 읽을 수 없으므로 이 오류를 보고합니다.

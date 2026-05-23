@@ -26,6 +26,8 @@ tags:
   - Authentication
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Permission denied (publickey) 오류 해결 방법 (Windows Git SSH)](/images/header_images/overlay_image_git.png)
 ## 소개
 
 SSH를 이용한 Git 인증 과정에서 비밀번호 대신 키를 사용함.

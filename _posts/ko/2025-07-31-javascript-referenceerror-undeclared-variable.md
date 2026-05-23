@@ -23,6 +23,8 @@ tags:
   - Strict Mode
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript \"ReferenceError: assignment to undeclared variable\" 오류 해결 방법](/images/header_images/overlay_image_js.png)
 ## 서론
 
 `ReferenceError: assignment to undeclared variable "..."`는 JavaScript의 **strict mode(엄격 모드)**에서만 발생하는 오류다. 이 오류는 아직 선언되지 않은 변수에 값을 할당하여 실수로 전역 변수를 생성하는 것을 방지하는 안전장치 역할을 한다. 이 가이드에서는 이 오류가 발생하는 이유와 해결 방법을 설명한다.

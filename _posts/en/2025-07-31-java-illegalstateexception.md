@@ -23,6 +23,8 @@ tags:
   - Troubleshooting
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix Java's IllegalStateException](/images/header_images/overlay_image_java.png)
 ## What is `IllegalStateException`?
 
 In Java, `IllegalStateException` is a runtime exception. It signals that a method has been invoked at an illegal or inappropriate time. In other words, the object is not in the correct state for the requested operation. This often happens when you misuse an object based on its lifecycle or state.

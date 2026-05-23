@@ -21,6 +21,8 @@ tags:
   - Annotation
 ---
 
+
+![A visual summary explaining the main topic of this post: Easy Labeling Guide (1) - Loading Images and Labels](/images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png)
 <p><strong>Easy Labeling Project Page: <a href="https://mouseball54.github.io/easy_labeling/">https://mouseball54.github.io/easy_labeling/</a></strong></p>
 
 Hello! Starting with this post, I will explain in detail how to use **Easy Labeling, a dedicated tool for YOLO data labeling**.

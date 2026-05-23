@@ -26,6 +26,8 @@ tags:
   - Iteration
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix Python RuntimeError: dictionary changed size during iteration](/images/header_images/overlay_image_python.png)
 ## The Problem
 
 When you try to add or remove items from a dictionary while iterating over it using a `for` loop in Python, you might encounter the following `RuntimeError`:

@@ -24,6 +24,8 @@ tags:
   - Debugging
   - WebDev
 ---
+
+![A visual summary explaining the main topic of this post: How to Fix "TypeError: undefined is not a function" in JavaScript](/images/header_images/overlay_image_js.png)
 ## Introduction
 
 JavaScript throws a `TypeError: undefined is not a function` when you invoke something that isn’t callable. This error often appears in browser console or Node.js logs and blocks your code execution. Understanding common patterns makes it easy to resolve.

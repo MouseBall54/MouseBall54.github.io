@@ -27,6 +27,8 @@ tags:
    - Troubleshooting
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix Python IsADirectoryError: Errno 21 Is a directory](/images/header_images/overlay_image_python.png)
 ## Introduction
 
 When performing file operations in Python, you might encounter the `IsADirectoryError: [Errno 21] Is a directory`. This error is raised when you attempt to perform a file-only operation, such as reading from or writing to a path that points to a directory, not a file.

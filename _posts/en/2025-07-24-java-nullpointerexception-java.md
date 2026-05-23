@@ -24,6 +24,8 @@ tags:
   - Debugging
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix "NullPointerException" Error in Java](/images/header_images/overlay_image_java.png)
 ## Introduction
 
 NullPointerException is one of the most common runtime errors in Java.

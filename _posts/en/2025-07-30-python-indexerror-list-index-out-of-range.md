@@ -23,6 +23,8 @@ tags:
   - Debugging
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix Python's IndexError: list index out of range](/images/header_images/overlay_image_python.png)
 ## Understanding `IndexError: list index out of range`
 
 The `IndexError: list index out of range` is a common runtime error in Python. It occurs when you try to access an index in a list that does not exist. Since lists are zero-indexed, the first element is at index 0, and the last element is at index `n-1`, where `n` is the number of elements in the list.

@@ -25,6 +25,8 @@ tags:
   - IllegalArgumentException
   - Best Practices
 ---
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java에서 IllegalArgumentException 처리하는 방법](/images/header_images/overlay_image_java.png)
 ## `IllegalArgumentException`이란 무엇인가?
 
 `IllegalArgumentException`은 메서드에 부적절하거나 잘못된 인수가 전달되었음을 나타내기 위해 발생하는 Java의 **unchecked exception**입니다. 이것은 `RuntimeException`의 하위 클래스로, 컴파일러가 `try-catch` 블록이나 `throws` 절로 처리하도록 강제하지 않는다는 의미입니다.

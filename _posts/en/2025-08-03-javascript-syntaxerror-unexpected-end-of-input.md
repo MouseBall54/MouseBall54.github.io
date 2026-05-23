@@ -26,6 +26,8 @@ tags:
   - Debugging
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix JavaScript SyntaxError: Unexpected end of input](/images/header_images/overlay_image_js.png)
 ## The Problem
 
 The `SyntaxError: Unexpected end of input` is a syntax error that occurs when the JavaScript engine is parsing your code and reaches the end of the file or input unexpectedly. This usually happens when a code block or statement is not properly closed.

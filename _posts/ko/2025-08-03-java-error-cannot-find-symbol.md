@@ -25,6 +25,8 @@ tags:
     - Symbol
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java "Error: cannot find symbol" 해결 방법](/images/header_images/overlay_image_java.png)
 ## Java "Error: cannot find symbol"이란?
 
 `cannot find symbol` 오류는 Java 컴파일러가 코드에 명시된 식별자(symbol)의 선언을 찾지 못했음을 의미합니다. 여기서 "심볼"은 변수 이름, 메서드 이름, 클래스 이름, 인터페이스 이름 등 개발자가 코드에서 정의하고 사용하는 모든 이름을 가리킵니다. 이 오류는 컴파일러에게 "당신이 사용한 '...'이 무엇인지, 어디에 정의되어 있는지 모르겠습니다"라고 말하는 것과 같습니다.

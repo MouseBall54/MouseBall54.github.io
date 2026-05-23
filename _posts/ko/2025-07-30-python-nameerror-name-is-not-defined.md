@@ -23,6 +23,8 @@ tags:
   - Troubleshooting
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python NameError: name '...' is not defined 오류 해결 방법](/images/header_images/overlay_image_python.png)
 ## `NameError: name '...' is not defined`란?
 
 이 오류는 Python 인터프리터가 인식할 수 없는 이름(변수, 함수, 클래스 등)을 만났을 때 발생한다.

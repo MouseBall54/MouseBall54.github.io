@@ -24,6 +24,8 @@ tags:
   - Exception
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Handle java.sql.SQLException in Java](/images/header_images/overlay_image_java.png)
 ## Introduction
 
 `java.sql.SQLException` is a checked exception in Java that provides information on a database access error or other errors. Any time you are working with a database using JDBC (Java Database Connectivity), you are likely to encounter this exception. Proper handling is crucial for building robust and reliable database applications. This guide covers the common causes of `SQLException` and the best practices for handling it.

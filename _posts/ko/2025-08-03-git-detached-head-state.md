@@ -26,6 +26,8 @@ tags:
   - Branching
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git "Detached HEAD" 상태 해결 방법](/images/header_images/overlay_image_git.png)
 ## Git의 "Detached HEAD" 상태란?
 
 Git에서 `HEAD`는 일반적으로 현재 작업 중인 브랜치의 최신 커밋을 가리키는 포인터입니다. 예를 들어, `main` 브랜치에 있다면 `HEAD`는 `main`을 가리킵니다.

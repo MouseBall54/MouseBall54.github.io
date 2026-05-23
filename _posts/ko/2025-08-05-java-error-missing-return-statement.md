@@ -25,6 +25,8 @@ tags:
   - Return Statement
   - Troubleshooting
 ---
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java "error: missing return statement" 해결 방법](/images/header_images/overlay_image_java.png)
 ## "missing return statement" 오류 이해하기
 
 "error: missing return statement"는 Java에서 흔히 발생하는 컴파일 시간 오류입니다. 이 오류는 메서드가 특정 타입의 값(`int`, `String`, `Object` 등)을 반환하도록 선언되었지만, 컴파일러가 분석했을 때 값을 반환하지 않고 메서드가 종료될 수 있는 경로가 하나 이상 존재할 때 발생합니다.

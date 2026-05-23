@@ -27,6 +27,8 @@ tags:
    - Troubleshooting
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix Python SystemError: <built-in function ...> returned NULL without setting an error](/images/header_images/overlay_image_python.png)
 ## Introduction
 
 The `SystemError: <built-in function ...> returned NULL without setting an error` is a particularly cryptic error in Python. Unlike more common errors like `TypeError` or `NameError`, this one suggests a problem deep within the Python interpreter itself or in a C extension module it's trying to use. It essentially means that a low-level C function failed but didn't properly report *why* it failed to the Python interpreter.

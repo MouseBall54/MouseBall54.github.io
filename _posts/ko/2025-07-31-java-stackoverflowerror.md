@@ -24,6 +24,8 @@ tags:
   - Troubleshooting
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java StackOverflowError 해결 방법](/images/header_images/overlay_image_java.png)
 ## `StackOverflowError`란?
 
 `java.lang.StackOverflowError`는 애플리케이션의 호출 스택이 소진되었음을 나타내는 Java의 런타임 오류다. 메서드가 호출될 때마다 새로운 "스택 프레임"이 호출 스택에 푸시된다. 이 프레임은 해당 메서드 호출의 지역 변수, 매개변수, 반환 주소를 저장한다. 중첩된 메서드 호출의 깊이가 너무 깊어지면 스택 공간이 부족해지고 JVM은 `StackOverflowError`를 발생시킨다.

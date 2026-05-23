@@ -27,6 +27,8 @@ tags:
    - Troubleshooting
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python TimeoutError: WinError 10060 연결 시도 실패 오류 해결 방법](/images/header_images/overlay_image_python.png)
 ## 서론
 
 Python으로 네트워크 프로그래밍을 할 때 `TimeoutError: [WinError 10060]` 오류를 마주칠 수 있습니다. 이 오류는 연결된 상대방이 일정 시간 동안 제대로 응답하지 않았거나, 연결된 호스트가 응답하지 않아 설정된 연결이 실패했음을 의미합니다. 웹 클라이언트, API, 데이터베이스 커넥터와 같이 네트워크 소켓에 의존하는 애플리케이션에서 흔히 발생하는 문제입니다.

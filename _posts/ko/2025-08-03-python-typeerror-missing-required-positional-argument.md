@@ -26,6 +26,8 @@ tags:
   - Function Call
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: 파이썬 TypeError: missing 1 required positional argument 해결 방법](/images/header_images/overlay_image_python.png)
 ## 문제 상황
 
 파이썬에서 함수나 클래스의 메서드를 호출할 때 `TypeError: missing 1 required positional argument: '...'` 와 같은 오류가 발생하는 경우가 있습니다. 이 오류는 함수(또는 메서드)가 필요로 하는 **필수 위치 인자(positional argument)가 호출 시에 전달되지 않았다**는 것을 의미합니다.

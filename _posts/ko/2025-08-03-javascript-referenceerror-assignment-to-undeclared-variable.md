@@ -26,6 +26,8 @@ tags:
   - Debugging
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript "ReferenceError: assignment to undeclared variable" 오류 해결 방법](/images/header_images/overlay_image_js.png)
 ## "ReferenceError: assignment to undeclared variable"란?
 
 이 JavaScript 오류는 특별합니다.

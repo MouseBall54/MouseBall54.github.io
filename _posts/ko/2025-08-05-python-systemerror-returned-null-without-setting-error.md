@@ -27,6 +27,8 @@ tags:
    - Troubleshooting
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python SystemError: <built-in function ...> returned NULL without setting an error 오류 해결 방법](/images/header_images/overlay_image_python.png)
 ## 서론
 
 `SystemError: <built-in function ...> returned NULL without setting an error`는 Python에서 특히 난해한 오류입니다. `TypeError`나 `NameError`와 같은 일반적인 오류와 달리, 이 오류는 Python 인터프리터 자체 또는 인터프리터가 사용하려는 C 확장 모듈 깊은 곳에 문제가 있음을 시사합니다. 본질적으로 이는 저수준 C 함수가 실패했지만, 왜 실패했는지 Python 인터프리터에 제대로 보고하지 않았다는 의미입니다.

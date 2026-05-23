@@ -23,6 +23,8 @@ tags:
   - Exception Handling
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix Python's UnboundLocalError: local variable referenced before assignment](/images/header_images/overlay_image_python.png)
 ## What is "UnboundLocalError: local variable '...' referenced before assignment"?
 
 `UnboundLocalError` is a specific type of `NameError` in Python. It occurs when you try to access a local variable within a function or method before a value has been assigned to it *within that same function or method*.

@@ -23,6 +23,8 @@ tags:
   - String
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python TypeError: can only concatenate str (not 'int') to str 해결 방법](/images/header_images/overlay_image_python.png)
 ## 'TypeError: can only concatenate str (not "int") to str' 오류란?
 
 이 `TypeError`는 Python에서 문자열(string)과 문자열이 아닌 다른 데이터 타입(예: 정수, 리스트)을 `+` 연산자로 연결하려고 할 때 발생하는 매우 흔한 오류다.

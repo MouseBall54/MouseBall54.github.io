@@ -25,6 +25,8 @@ tags:
   - Functional Programming
   - Best Practices
 ---
+
+![A visual summary explaining the main topic of this post: Writing Concise Code with Lambda Expressions in Java](/images/header_images/overlay_image_java.png)
 ## What are Lambda Expressions?
 
 Introduced in Java 8, a **lambda expression** is a short block of code that takes in parameters and returns a value. Lambda expressions are similar to methods, but they do not need a name, and they can be implemented right in the body of another method.

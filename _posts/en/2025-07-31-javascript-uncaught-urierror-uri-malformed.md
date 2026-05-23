@@ -24,6 +24,8 @@ tags:
   - Troubleshooting
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix Uncaught URIError: URI malformed in JavaScript](/images/header_images/overlay_image_js.png)
 ## What is `Uncaught URIError: URI malformed`?
 
 The `Uncaught URIError: URI malformed` error occurs in JavaScript when you use a URI (Uniform Resource Identifier) handling function like `decodeURI()` or `decodeURIComponent()` with a string that is not a valid URI component.

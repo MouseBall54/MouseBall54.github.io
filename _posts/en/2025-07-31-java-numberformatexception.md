@@ -24,6 +24,8 @@ tags:
   - Parsing
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Handle NumberFormatException in Java](/images/header_images/overlay_image_java.png)
 ## Introduction
 
 `java.lang.NumberFormatException` is a common unchecked exception in Java that occurs when you try to convert a string into a numeric type (like `int`, `float`, `double`, etc.), but the string does not have the appropriate format. Because it's an unchecked exception, the compiler doesn't force you to handle it, which can lead to unexpected program crashes if not managed properly. This guide explains the causes of `NumberFormatException` and how to handle it effectively.

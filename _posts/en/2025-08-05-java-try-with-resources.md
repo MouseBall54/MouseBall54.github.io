@@ -25,6 +25,8 @@ tags:
   - Memory Management
   - Best Practices
 ---
+
+![A visual summary explaining the main topic of this post: Prevent Memory Leaks with try-with-resources in Java](/images/header_images/overlay_image_java.png)
 ## The Problem: Resource Leaks
 
 In Java, when you work with external resources like file streams, database connections, or network sockets, you must explicitly close them when you are finished. If you fail to do so, the resource may remain open, consuming system memory or database connections. This is known as a **resource leak**, and it can eventually lead to your application crashing with an `OutOfMemoryError` or other critical failures.

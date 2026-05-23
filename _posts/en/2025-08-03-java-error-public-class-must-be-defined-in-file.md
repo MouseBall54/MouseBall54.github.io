@@ -25,6 +25,8 @@ tags:
   - public class
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix Java Error: a public class ... must be defined in a file called ... .java](/images/header_images/overlay_image_java.png)
 ## The Problem
 
 When you compile a Java source file, you might encounter the following error message:

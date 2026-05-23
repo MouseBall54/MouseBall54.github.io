@@ -25,6 +25,8 @@ tags:
   - Coding Style
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix 'TabError: inconsistent use of tabs and spaces in indentation' in Python](/images/header_images/overlay_image_python.png)
 Python is unique in its strict use of indentation to define code blocks. This reliance on whitespace can lead to a `TabError: inconsistent use of tabs and spaces in indentation`, one of the most common frustrations for newcomers.
 
 This error occurs when you mix tabs and spaces for indentation within the same code block. Python cannot reliably determine the indentation level when both are used. This guide will show you how to fix and prevent this error.

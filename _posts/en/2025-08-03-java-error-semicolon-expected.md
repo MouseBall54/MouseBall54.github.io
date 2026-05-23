@@ -25,6 +25,8 @@ tags:
     - Syntax
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix "Error: ';' expected" in Java](/images/header_images/overlay_image_java.png)
 ## What is "Error: ';' expected" in Java?
 
 `Error: ';' expected` is a syntax error that occurs when the Java compiler does not find a semicolon (`;`) where it syntactically expects a statement to end. In Java, the semicolon is a crucial piece of syntax that signals the end of each command or declaration.

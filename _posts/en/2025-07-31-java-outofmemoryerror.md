@@ -24,6 +24,8 @@ tags:
   - Troubleshooting
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix Java's OutOfMemoryError](/images/header_images/overlay_image_java.png)
 ## What is `OutOfMemoryError`?
 
 `java.lang.OutOfMemoryError` (OOM) is one of the most critical errors a Java developer can face. It's not an exception but an `Error`, indicating a severe problem that a typical application should not try to catch. This error is thrown by the Java Virtual Machine (JVM) when it cannot allocate an object because it is out of memory, and no more memory could be made available by the garbage collector.

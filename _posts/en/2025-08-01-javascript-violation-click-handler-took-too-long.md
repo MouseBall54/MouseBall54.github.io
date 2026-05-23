@@ -25,6 +25,8 @@ tags:
   - Optimization
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix 'Violation 'click' handler took ...ms' in JavaScript](/images/header_images/overlay_image_js.png)
 If you've ever seen the console warning `[Violation] 'click' handler took <N>ms`, it's your browser's way of telling you that a click event handler is taking too long to execute. This can lead to a sluggish, unresponsive user interface, creating a poor user experience.
 
 This article explains why this violation occurs and how to fix it by optimizing your event handlers.

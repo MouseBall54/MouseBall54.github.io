@@ -23,6 +23,8 @@ tags:
   - Error Handling
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python KeyError 해결 방법: 딕셔너리 키 오류](/images/header_images/overlay_image_python.png)
 ## Python `KeyError`란 무엇인가?
 
 `KeyError`는 딕셔너리(dictionary)에 존재하지 않는 키(key)로 값(value)에 접근하려고 할 때 발생하는 예외다. 딕셔너리는 데이터를 키-값 쌍으로 저장하며, 각 키는 고유해야 한다. 만약 딕셔너리에 없는 키를 사용해 값을 요청하면, Python은 `KeyError`를 발생시켜 찾으려는 키가 없음을 알린다.

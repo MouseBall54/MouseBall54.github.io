@@ -25,6 +25,8 @@ tags:
   - Return Statement
   - Troubleshooting
 ---
+
+![A visual summary explaining the main topic of this post: How to Fix "error: missing return statement" in Java](/images/header_images/overlay_image_java.png)
 ## Understanding the "missing return statement" Error
 
 The "error: missing return statement" is a common compile-time error in Java. It occurs when a method is declared to return a value (e.g., `int`, `String`, `Object`), but the compiler determines that there's at least one possible execution path through the method that does not end with a `return` statement.

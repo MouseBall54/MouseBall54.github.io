@@ -26,6 +26,8 @@ tags:
   - StringBuffer
   - Performance
 ---
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java: String vs. StringBuilder vs. StringBuffer 비교](/images/header_images/overlay_image_java.png)
 ## Java의 String vs. StringBuilder vs. StringBuffer
 
 Java에서 문자열은 단순해 보이지만, 어떻게 다루느냐에 따라 성능에 상당한 영향을 미칠 수 있습니다. Java는 문자열을 처리하기 위한 세 가지 주요 클래스인 `String`, `StringBuilder`, `StringBuffer`를 제공합니다. 이들의 차이점을 이해하는 것은 효율적인 코드를 작성하는 데 매우 중요합니다.

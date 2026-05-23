@@ -28,6 +28,8 @@ tags:
   - Error
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix JavaScript SyntaxError: Unterminated string literal](/images/header_images/overlay_image_js.png)
 ## The Problem
 
 When writing JavaScript code, you might encounter the `SyntaxError: Unterminated string literal` (or in some browsers, `Uncaught SyntaxError: Invalid or unexpected token`).

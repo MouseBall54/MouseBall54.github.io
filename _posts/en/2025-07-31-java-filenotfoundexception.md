@@ -23,6 +23,8 @@ tags:
   - Troubleshooting
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix java.io.FileNotFoundException in Java](/images/header_images/overlay_image_java.png)
 ## What is `FileNotFoundException`?
 
 The `java.io.FileNotFoundException` is a common checked exception in Java that occurs when an application tries to access a file that does not exist at the specified path. This can happen when reading from or writing to a file. It's a subclass of `IOException`.

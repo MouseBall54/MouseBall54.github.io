@@ -24,6 +24,8 @@ tags:
   - Troubleshooting
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java NoClassDefFoundError 해결 방법](/images/header_images/overlay_image_java.png)
 ## `NoClassDefFoundError`란?
 
 `java.lang.NoClassDefFoundError`는 Java에서 흔하고 종종 혼란스러운 오류다. 이는 Java 가상 머신(JVM)이 런타임에 클래스를 로드하려고 할 때, 해당 클래스가 컴파일 시점에는 있었지만 실행 중인 클래스패스에서 찾을 수 없을 때 발생한다.

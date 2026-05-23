@@ -24,6 +24,8 @@ tags:
   - Troubleshooting
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix Java's StackOverflowError](/images/header_images/overlay_image_java.png)
 ## What is `StackOverflowError`?
 
 `java.lang.StackOverflowError` is a runtime error in Java that indicates the application's call stack has been exhausted. Every time a method is called, a new "stack frame" is pushed onto the call stack. This frame stores local variables, parameters, and the return address for that method call. When the number of nested method calls becomes too deep, the stack runs out of space, and the JVM throws a `StackOverflowError`.

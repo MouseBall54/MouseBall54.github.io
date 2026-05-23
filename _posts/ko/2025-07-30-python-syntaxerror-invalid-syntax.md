@@ -23,6 +23,8 @@ tags:
   - Beginner
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python SyntaxError: invalid syntax 오류 완벽 가이드](/images/header_images/overlay_image_python.png)
 ## Python `SyntaxError: invalid syntax` 오류란?
 
 Python을 처음 배울 때 가장 먼저 마주치는 오류 중 하나는 바로 `SyntaxError: invalid syntax` 입니다. 이 오류는 작성한 코드가 Python의 문법 규칙을 따르지 않았을 때 발생합니다. 즉, Python 인터프리터가 코드를 이해할 수 없다는 의미입니다.

@@ -25,6 +25,8 @@ tags:
   - Function Call
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: 자바스크립트 SyntaxError: missing ) after argument list 해결 방법](/images/header_images/overlay_image_js.png)
 ## 문제 상황
 
 `SyntaxError: missing ) after argument list`는 자바스크립트에서 함수를 호출할 때 발생하는 매우 흔한 구문 오류입니다. 이 오류의 의미는 이름 그대로, **함수 호출 시 인자(argument) 목록 뒤에 닫는 괄호 `)`가 빠졌다**는 뜻입니다.

@@ -24,6 +24,8 @@ tags:
   - Troubleshooting
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript에서 Uncaught URIError: URI malformed 오류 해결 방법](/images/header_images/overlay_image_js.png)
 ## `Uncaught URIError: URI malformed`란 무엇인가?
 
 `Uncaught URIError: URI malformed` 오류는 JavaScript에서 `decodeURI()` 또는 `decodeURIComponent()`와 같은 URI(Uniform Resource Identifier) 처리 함수를 유효하지 않은 URI 구성 요소인 문자열과 함께 사용할 때 발생한다.

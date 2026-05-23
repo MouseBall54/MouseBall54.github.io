@@ -26,6 +26,8 @@ tags:
   - Repository
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git 서브모듈(Submodule)로 프로젝트 의존성 관리하기](/images/header_images/overlay_image_git.png)
 ## Git 서브모듈이란?
 
 Git 서브모듈을 사용하면 Git 저장소를 다른 Git 저장소의 하위 디렉터리로 유지할 수 있습니다. 이는 별도로 개발 및 유지 관리되는 외부 라이브러리나 다른 구성 요소에 대한 의존성을 포함하고 관리하는 좋은 방법입니다.

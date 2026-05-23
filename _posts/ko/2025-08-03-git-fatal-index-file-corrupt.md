@@ -25,6 +25,8 @@ tags:
     - Corruption
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git "fatal: index file corrupt" 해결 방법](/images/header_images/overlay_image_git.png)
 ## Git "fatal: index file corrupt"란?
 
 `fatal: index file corrupt` 오류는 Git의 핵심 파일 중 하나인 **인덱스(index) 파일**이 손상되었음을 의미합니다. 인덱스 파일(`.git/index`)은 "스테이징 영역(Staging Area)"이라고도 불리며, 다음 커밋에 포함될 변경 사항들의 목록을 추적하는 중요한 파일입니다. 이 파일이 손상되면 Git은 어떤 파일이 추적되고 있는지, 어떤 내용이 스테이징되었는지 알 수 없게 되어 대부분의 Git 명령이 실패하게 됩니다.

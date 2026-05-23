@@ -23,6 +23,8 @@ tags:
   - Best Practices
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Handle IllegalArgumentException in Java](/images/header_images/overlay_image_java.png)
 ## Introduction
 
 `java.lang.IllegalArgumentException` is an unchecked exception in Java that is thrown to indicate that a method has been passed an illegal or inappropriate argument. It's a way for a method to signal to the caller that the provided inputs do not meet the method's preconditions. Unlike many other exceptions that signal external problems (like network or file issues), this one almost always indicates a programmer error—the calling code is not respecting the contract of the method it's invoking.

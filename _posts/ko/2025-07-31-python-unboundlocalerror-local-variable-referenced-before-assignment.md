@@ -23,6 +23,8 @@ tags:
   - Exception Handling
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python UnboundLocalError: local variable referenced before assignment 해결 방법](/images/header_images/overlay_image_python.png)
 ## "UnboundLocalError: local variable '...' referenced before assignment"란?
 
 `UnboundLocalError`는 Python에서 `NameError`의 특정 유형이다. 함수나 메서드 내에서 지역 변수에 값이 할당되기 *전에* 해당 변수에 접근하려고 할 때 발생한다.

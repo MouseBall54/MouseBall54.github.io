@@ -27,6 +27,8 @@ tags:
   - Interactive
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Use Git Interactive Rebase to Modify Commits](/images/header_images/overlay_image_git.png)
 ## What is Git Interactive Rebase?
 
 Git interactive rebase is a powerful tool. It allows you to modify commits in various ways. You can reorder, reword, edit, squash (combine), or drop (delete) commits. This helps create a clean and logical project history.

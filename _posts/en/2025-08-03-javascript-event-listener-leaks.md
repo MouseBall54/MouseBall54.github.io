@@ -25,6 +25,8 @@ tags:
     - Event Listener
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix JavaScript Event Listener Leaks](/images/header_images/overlay_image_js.png)
 ## What is a JavaScript Event Listener Leak?
 
 An Event Listener Leak is a type of memory leak that occurs when an event listener registered with `addEventListener` is not removed with `removeEventListener` when it is no longer needed. This issue is especially common in Single Page Applications (SPAs) where DOM elements are dynamically added and removed. It can degrade application responsiveness and, in severe cases, cause the browser to freeze.

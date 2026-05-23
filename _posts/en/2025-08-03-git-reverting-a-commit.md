@@ -27,6 +27,8 @@ tags:
   - Version Control
 ---
 
+
+![A visual summary explaining the main topic of this post: Git revert vs reset: How to Safely Undo a Commit](/images/header_images/overlay_image_git.png)
 ## The Problem
 
 While managing a project with Git, you often realize that a specific commit introduced a problem. For example, you might have committed code that causes a bug, or included a wrong file, and already pushed it to the remote repository.

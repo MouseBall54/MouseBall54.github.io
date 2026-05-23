@@ -27,6 +27,8 @@ tags:
    - Security
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript innerHTML vs. textContent: 어느 것을 사용해야 할까요?](/images/header_images/overlay_image_js.png)
 ## 서론
 
 JavaScript를 사용하여 HTML 요소의 콘텐츠를 가져오거나 설정해야 할 때, `innerHTML`과 `textContent`라는 두 가지 일반적인 속성을 빠르게 접하게 됩니다. 비슷해 보일 수 있지만, 콘텐츠를 처리하는 방식에 중요한 차이가 있으며 이는 보안, 성능 및 동작에 영향을 미칩니다. 올바른 것을 선택하는 것은 강력하고 안전한 코드를 작성하는 데 필수적입니다.

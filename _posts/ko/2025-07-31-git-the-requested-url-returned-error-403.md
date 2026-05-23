@@ -23,6 +23,8 @@ tags:
   - Troubleshooting
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git 오류 해결: The requested URL returned error: 403](/images/header_images/overlay_image_git.png)
 ## "The requested URL returned error: 403" 오류란?
 
 원격 저장소에서 `git push`, `git pull`, 또는 `git clone`을 시도할 때 `fatal: The requested URL returned error: 403`이라는 오류 메시지가 나타날 수 있다. 이는 "Forbidden(금지됨)"을 의미하는 HTTP 상태 코드다. Git의 맥락에서는 제공한 자격 증명으로는 저장소에 접근할 권한이 없다는 것을 나타낸다.

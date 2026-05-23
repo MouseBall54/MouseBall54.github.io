@@ -27,6 +27,8 @@ tags:
     - Hard
 ---
 
+
+![A visual summary explaining the main topic of this post: Undoing a Commit in Git: A Complete Guide to the Three Options of git reset (soft, mixed, hard)](/images/header_images/overlay_image_git.png)
 ## What is `git reset`?
 
 `git reset` is a powerful and versatile command used to revert a Git repository's state to a specific commit. Its primary function is to move the `HEAD` pointer of a branch to a previous commit. However, the impact of `reset` on the index (Staging Area) and the working directory varies significantly depending on the option used, so it is crucial to understand the differences between each option.

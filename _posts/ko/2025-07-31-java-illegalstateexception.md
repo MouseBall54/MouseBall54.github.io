@@ -23,6 +23,8 @@ tags:
   - Troubleshooting
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java IllegalStateException 해결 방법](/images/header_images/overlay_image_java.png)
 ## `IllegalStateException`이란?
 
 Java에서 `IllegalStateException`은 런타임 예외이다. 이는 메서드가 부적절하거나 잘못된 시점에 호출되었음을 나타낸다. 즉, 객체가 요청된 작업을 수행하기에 올바른 상태가 아니라는 의미다. 이 문제는 객체의 생명주기나 상태에 맞지 않게 객체를 사용할 때 자주 발생한다.

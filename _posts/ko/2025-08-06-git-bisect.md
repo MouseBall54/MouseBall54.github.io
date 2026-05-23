@@ -27,6 +27,8 @@ tags:
   - Commit
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: git bisect를 사용하여 버그를 유발한 커밋 찾기](/images/header_images/overlay_image_git.png)
 ## `git bisect`란?
 
 `git bisect`는 Git의 강력한 디버깅 도구입니다. 프로젝트의 커밋 히스토리를 통해 자동화된 이진 검색을 수행하여 버그를 유발한 특정 커밋을 찾는 데 도움이 됩니다.

@@ -26,6 +26,8 @@ tags:
     - undefined
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript에서 "this is undefined" 문제 해결 방법](/images/header_images/overlay_image_js.png)
 ## JavaScript에서 "this"란 무엇인가?
 
 JavaScript에서 `this` 키워드는 함수가 호출될 때의 컨텍스트(context)를 참조하는 특별한 식별자입니다. `this`가 가리키는 값은 함수를 어떻게 호출했느냐에 따라 달라지며, 이 동작 방식은 종종 개발자들에게 혼란을 줍니다. 특히 객체의 메서드, 콜백 함수, 이벤트 핸들러 내에서 `this`를 사용할 때 문제가 발생하기 쉽습니다.

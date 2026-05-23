@@ -27,6 +27,8 @@ tags:
    - Troubleshooting
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python NotADirectoryError: Errno 20 Not a directory 오류 해결 방법](/images/header_images/overlay_image_python.png)
 ## 서론
 
 `NotADirectoryError: [Errno 20] Not a directory`는 `OSError`의 하위 클래스로, 디렉터리 경로가 필요한 컨텍스트에서 파일 경로를 사용하려고 할 때 발생합니다. 이것은 `IsADirectoryError`와 논리적으로 반대되는 오류입니다. 예를 들어, 파일의 내용을 디렉터리인 것처럼 나열하려고 하면 이 오류가 발생합니다.

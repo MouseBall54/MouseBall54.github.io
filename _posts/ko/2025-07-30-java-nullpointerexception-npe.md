@@ -23,6 +23,8 @@ tags:
   - Exception
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: 자바 NullPointerException (NPE) 완벽 정복 가이드](/images/header_images/overlay_image_java.png)
 ## 자바 `NullPointerException` (NPE) 이란?
 
 `NullPointerException`, 줄여서 NPE는 자바 개발자라면 누구나 한 번쯤, 혹은 수없이 마주쳤을 가장 흔한 런타임 예외입니다. 이 예외는 **`null` 참조를 가진 변수를 사용하여 객체의 멤버(필드나 메서드)에 접근하려고 시도할 때** 발생합니다.

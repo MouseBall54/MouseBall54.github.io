@@ -23,6 +23,8 @@ tags:
   - Push Error
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Git에서 'error: failed to push some refs to' 오류 해결 방법](/images/header_images/overlay_image_git.png)
 ## "error: failed to push some refs to"는 무엇을 의미할까?
 
 이 일반적인 Git 오류는 로컬 변경 사항을 원격 저장소로 `git push`하려고 할 때, 원격 저장소에는 있지만 로컬 기록에는 없는 커밋이 있을 때 발생한다. Git은 원격 변경 사항을 덮어쓰고 커밋 기록을 잃는 것을 방지하기 위해 푸시를 막는다.

@@ -23,6 +23,8 @@ tags:
   - Frontend
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript TypeError: Cannot read properties of null 오류 해결하기](/images/header_images/overlay_image_js.png)
 ## JavaScript `TypeError: Cannot read properties of null` 오류란?
 
 이 오류는 JavaScript에서 `null` 값을 가진 변수나 객체의 속성(property)에 접근하려고 할 때 발생합니다. `null`은 '값이 없음'을 의도적으로 나타내는 특별한 값입니다. 즉, 존재하지 않는 대상의 무언가를 읽으려고 시도했기 때문에 발생하는 `TypeError` 입니다.

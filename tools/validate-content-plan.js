@@ -645,6 +645,16 @@ function validatePosts() {
       warnings.push(`${relativePath}: no local image path found; every new post should include a meaningful image`);
     }
 
+    if (bodyImagePaths.length === 0) {
+      errors.push(`${relativePath}: post should include a local body image for reader context`);
+    }
+
+    bodyImageMatches.forEach((match) => {
+      if (match.alt.length < 12) {
+        errors.push(`${relativePath}: body image alt text is too short for ${match.path}`);
+      }
+    });
+
     if (imageDescription.length < 20 || imageDescription.length > 180) {
       errors.push(`${relativePath}: header.image_description should be 20-180 characters, found ${imageDescription.length}`);
     }
@@ -733,11 +743,6 @@ function validatePosts() {
       }
 
       const campaignBodyImageMatches = bodyImageMatches.filter((match) => match.path.startsWith("/images/2026-05-23-"));
-      campaignBodyImageMatches.forEach((match) => {
-        if (match.alt.length < 12) {
-          errors.push(`${relativePath}: campaign body image alt text is too short for ${match.path}`);
-        }
-      });
 
       [...new Set([...campaignHeaderImagePaths, ...campaignBodyImagePaths])].forEach((imagePath) => {
         if (!imageExists(imagePath)) return;

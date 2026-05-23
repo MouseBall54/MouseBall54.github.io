@@ -25,6 +25,8 @@ tags:
   - Iterable
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: 파이썬 TypeError: '...' object is not iterable 해결 방법](/images/header_images/overlay_image_python.png)
 ## 문제 상황
 
 파이썬에서 `for` 루프나 `in` 연산자처럼 반복(iteration)을 기대하는 구문에서 반복할 수 없는(non-iterable) 객체를 사용하면 `TypeError: '...' object is not iterable` 오류가 발생합니다. 여기서 `'...'` 부분에는 해당 객체의 타입이 표시됩니다(예: `int`, `NoneType`).

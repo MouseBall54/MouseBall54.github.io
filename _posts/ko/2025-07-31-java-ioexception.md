@@ -24,6 +24,8 @@ tags:
   - Troubleshooting
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Java에서 java.io.IOException 이해하고 처리하기](/images/header_images/overlay_image_java.png)
 ## `java.io.IOException`이란 무엇인가?
 
 `java.io.IOException`은 실패하거나 중단된 I/O(입출력) 작업을 위한 범용 신호 역할을 하는 Java의 체크 예외(checked exception)이다. 이는 `FileNotFoundException`, `EOFException`, `SocketException`과 같은 다른 많은 특정 I/O 예외의 상위 클래스이다.

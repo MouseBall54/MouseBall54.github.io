@@ -26,6 +26,8 @@ tags:
   - Functions
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: JavaScript "TypeError: '...' is not a function" 오류 해결 방법](/images/header_images/overlay_image_js.png)
 ## 서론
 
 `TypeError: '...' is not a function`은 JavaScript에서 매우 흔하게 발생하는 오류다. 이 오류는 함수가 아닌 것을 함수처럼 호출하려고 할 때 발생한다. 함수 이름의 오타, 변수가 함수 이름을 덮어쓰는 경우, 또는 객체에 존재하지 않는 메서드를 호출하는 등 여러 가지 이유로 발생할 수 있다. 이 가이드에서는 일반적인 원인과 해결 방법을 안내한다.

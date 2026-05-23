@@ -27,6 +27,8 @@ tags:
    - Troubleshooting
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Fix Python NotADirectoryError: Errno 20 Not a directory](/images/header_images/overlay_image_python.png)
 ## Introduction
 
 The `NotADirectoryError: [Errno 20] Not a directory` is an `OSError` subclass that occurs when you try to use a file path in a context where a directory path is expected. This is the logical opposite of the `IsADirectoryError`. For example, trying to list the contents of a file as if it were a directory will trigger this error.

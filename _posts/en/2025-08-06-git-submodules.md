@@ -26,6 +26,8 @@ tags:
   - Repository
 ---
 
+
+![A visual summary explaining the main topic of this post: How to Use Git Submodules to Manage Project Dependencies](/images/header_images/overlay_image_git.png)
 ## What are Git Submodules?
 
 A Git submodule allows you to keep a Git repository as a subdirectory of another Git repository. This is a great way to include and manage a dependency on an external library or another component that is developed and maintained separately.

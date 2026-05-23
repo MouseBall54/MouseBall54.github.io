@@ -25,6 +25,8 @@ tags:
   - Coding Style
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: 파이썬 'TabError: inconsistent use of tabs and spaces in indentation' 오류 해결 방법](/images/header_images/overlay_image_python.png)
 파이썬은 코드 블록을 정의하기 위해 들여쓰기를 엄격하게 사용하는 독특한 특징이 있습니다. 이러한 공백 의존성은 입문자들이 가장 흔하게 겪는 `TabError: inconsistent use of tabs and spaces in indentation` 오류로 이어질 수 있습니다.
 
 이 오류는 동일한 코드 블록 내에서 들여쓰기를 위해 탭과 공백을 혼용할 때 발생합니다. 파이썬은 둘 다 사용될 경우 들여쓰기 수준을 안정적으로 결정할 수 없습니다. 이 가이드에서는 이 오류를 해결하고 예방하는 방법을 보여줍니다.

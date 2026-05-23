@@ -26,6 +26,8 @@ tags:
   - Circular Import
 ---
 
+
+![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Python "ImportError: cannot import name '...' from '...'" 오류 해결 방법](/images/header_images/overlay_image_python.png)
 ## 서론
 
 `ImportError: cannot import name '...' from '...'`는 Python에서 import 구문이 실패할 때 발생하는 흔한 오류다. 이 오류는 주로 세 가지 원인, 즉 순환 참조, 임포트하려는 함수나 클래스 이름의 오타, 또는 잘못된 모듈 경로 때문에 발생한다. 이 가이드에서는 각 원인을 설명하고 해결책을 제공한다.
