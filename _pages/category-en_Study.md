@@ -23,7 +23,7 @@ Each article includes a routine, template, or decision rule that can be tested i
 
 ## Latest Articles
 
-{% assign posts = site.categories.en_Study %}
+{% assign posts = site.categories["en_Study"] %}
 {% for post in posts %}
   {% include archive-single.html type=page.entries_layout %}
 {% endfor %}

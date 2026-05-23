@@ -23,7 +23,7 @@ Troubleshooting 카테고리는 개발 중 자주 만나는 오류를 재현 가
 
 ## 최신 글
 
-{% assign posts = site.categories.ko_Troubleshooting %}
+{% assign posts = site.categories["ko_Troubleshooting"] %}
 {% for post in posts %}
   {% include archive-single.html type=page.entries_layout %}
 {% endfor %}

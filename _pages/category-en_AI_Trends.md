@@ -23,7 +23,7 @@ Each article is designed to move from concept to operational decision. Use these
 
 ## Latest Articles
 
-{% assign posts = site.categories.en_AI_Trends %}
+{% assign posts = site.categories["en_AI_Trends"] %}
 {% for post in posts %}
   {% include archive-single.html type=page.entries_layout %}
 {% endfor %}

@@ -45,5 +45,5 @@ A simple, installation-free tool to label YOLO datasets in your browser.
 </figure>
 
 ### 관련 포스트 / Related Posts
-{% assign posts = site.categories.ko_easy_labeling | concat: site.categories.en_easy_labeling | sort: "date" | reverse %}
+{% assign posts = site.categories["ko_easy_labeling"] | concat: site.categories["en_easy_labeling"] | sort: "date" | reverse %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

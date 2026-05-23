@@ -893,7 +893,7 @@ function validateHomePage() {
     "/en_easy_labeling/local-image-labeling-workflow/",
     "/en_Troubleshooting/github-actions-build-failed/",
   ].forEach((url) => {
-    if (!text.includes(`](${url})`)) {
+    if (!text.includes(`](${url})`) && !text.includes(`href="${url}"`)) {
       errors.push(`${relativePath}: homepage is missing required hub or starter link ${url}`);
     }
   });
@@ -925,7 +925,7 @@ function validateCategoryNavigation() {
       [`permalink: /${category}/`, "permalink"],
       'nav: "sidebar-category"',
       "seo_description:",
-      `site.categories.${category}`,
+      `site.categories["${category}"]`,
     ].forEach((term) => {
       const text = Array.isArray(term) ? term[0] : term;
       const label = Array.isArray(term) ? term[1] : term;

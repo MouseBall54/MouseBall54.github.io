@@ -158,9 +158,11 @@ rg "{% include" .
 
 Example problem:
 
+{% raw %}
 ```liquid
 {% include ad-banner.html %}
 ```
+{% endraw %}
 
 Jekyll expects:
 
@@ -176,19 +178,23 @@ Liquid errors often mention tags not being closed or terminated.
 
 Wrong:
 
+{% raw %}
 ```liquid
 {% if page.title %}
   {{ page.title }
 {% endif %}
 ```
+{% endraw %}
 
 Right:
 
+{% raw %}
 ```liquid
 {% if page.title %}
   {{ page.title }}
 {% endif %}
 ```
+{% endraw %}
 
 Check custom layouts and includes first because one broken layout can break many pages.
 

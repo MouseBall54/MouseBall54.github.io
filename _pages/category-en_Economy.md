@@ -23,7 +23,7 @@ These articles are educational and do not replace personal financial advice. Rea
 
 ## Latest Articles
 
-{% assign posts = site.categories.en_Economy %}
+{% assign posts = site.categories["en_Economy"] %}
 {% for post in posts %}
   {% include archive-single.html type=page.entries_layout %}
 {% endfor %}

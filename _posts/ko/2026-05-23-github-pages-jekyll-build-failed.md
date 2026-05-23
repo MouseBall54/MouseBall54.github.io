@@ -158,9 +158,11 @@ rg "{% include" .
 
 문제 예시:
 
+{% raw %}
 ```liquid
 {% include ad-banner.html %}
 ```
+{% endraw %}
 
 Jekyll은 아래 파일을 기대합니다.
 
@@ -176,19 +178,23 @@ Liquid 오류는 tag가 닫히지 않았거나 output tag가 끝나지 않았을
 
 잘못된 예:
 
+{% raw %}
 ```liquid
 {% if page.title %}
   {{ page.title }
 {% endif %}
 ```
+{% endraw %}
 
 올바른 예:
 
+{% raw %}
 ```liquid
 {% if page.title %}
   {{ page.title }}
 {% endif %}
 ```
+{% endraw %}
 
 Layout이나 include 하나가 깨지면 여러 page가 함께 실패할 수 있으므로 공통 파일부터 확인합니다.
 

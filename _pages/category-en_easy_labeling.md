@@ -23,7 +23,7 @@ Each article connects tool usage with dataset quality. Use the guides to define 
 
 ## Latest Articles
 
-{% assign posts = site.categories.en_easy_labeling %}
+{% assign posts = site.categories["en_easy_labeling"] %}
 {% for post in posts %}
   {% include archive-single.html type=page.entries_layout %}
 {% endfor %}

@@ -23,7 +23,7 @@ Easy Labeling 카테고리는 이미지 라벨링 작업을 더 빠르고 일관
 
 ## 최신 글
 
-{% assign posts = site.categories.ko_easy_labeling %}
+{% assign posts = site.categories["ko_easy_labeling"] %}
 {% for post in posts %}
   {% include archive-single.html type=page.entries_layout %}
 {% endfor %}

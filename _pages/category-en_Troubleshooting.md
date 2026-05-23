@@ -21,7 +21,7 @@ If you arrived from an exact error message, match the tool, version, and operati
 
 ## Latest Articles
 
-{% assign posts = site.categories.en_Troubleshooting %}
+{% assign posts = site.categories["en_Troubleshooting"] %}
 {% for post in posts %}
   {% include archive-single.html type=page.entries_layout %}
 {% endfor %}
