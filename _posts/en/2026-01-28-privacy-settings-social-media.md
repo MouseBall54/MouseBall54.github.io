@@ -26,12 +26,11 @@ tags:
   - Scams
   - Family Safety
 ---
-
-Digital security is not only for specialists. A small signal such as **public friend list** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+Public birthdays, schools, employers, family ties, and travel schedules help attackers write believable scenarios. Start with: reduce visibility for birthday, contact details, and friend lists. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 Public social media details are not just privacy trivia; they fuel impersonation, birthday-based guessing, location tracking, and tailored phishing.
 
-This guide is not a product recommendation. It turns **public friend list** into a response routine, starting with: reduce visibility for birthday, contact details, and friend lists.
+Use this as a response routine for **public friend list**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![Social Media Privacy Settings: Less Exposure Means Fewer Scam Angles core security flow](/images/2026-05-21-privacy-settings-social-media/hero.svg)
 
@@ -45,14 +44,10 @@ For **public friend list, live location**, the baseline is pause, verify separat
 
 ## Warning Signals To Check First
 
-- **public friend list**: pause immediately and verify through a trusted route.
-- **live location**: pause immediately and verify through a trusted route.
-- **family relationship exposure**: pause immediately and verify through a trusted route.
-- **public phone number**: pause immediately and verify through a trusted route.
-
-A signal such as **public friend list** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: reduce visibility for birthday, contact details, and friend lists.
-
-![Social Media Privacy Settings: Less Exposure Means Fewer Scam Angles response checklist](/images/2026-05-21-privacy-settings-social-media/checklist.svg)
+- **public friend list**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **live location**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **family relationship exposure**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **public phone number**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **public 
 
 ## Monthly Checkup
 
-- Confirm that you can: reduce visibility for birthday, contact details, and friend lists.
-- Confirm that you can: review old-post visibility in bulk.
-- Confirm that you can: share location after the fact, not live.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Reduce visibility for birthday, contact details, and friend lists.
+- Review old-post visibility in bulk.
+- Share location after the fact, not live.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

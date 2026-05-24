@@ -26,7 +26,7 @@ tags:
   - Project Memory
   - AI Workflow
 ---
-This guide is checked against official documentation on May 24, 2026. CLI behavior changes, so verify the version and linked source notes before copying a setting into a production workflow.
+Checked against official documentation on May 24, 2026, this post focuses on the setup and failure points behind **Claude Code CLAUDE.md Memory Setup: Write Useful Project Context**. The practical baseline is: Use `/init` for a starter file, then add human-only knowledge: release rules, forbidden actions, test gates, and review expectations.
 
 ## Quick Answer
 

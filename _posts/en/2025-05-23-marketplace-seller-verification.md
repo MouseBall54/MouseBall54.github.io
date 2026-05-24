@@ -29,7 +29,7 @@ tags:
 
 Marketplace purchases can split platform, seller, shipper, return address, and support desk, so identify the actual counterparty first.
 
-This article is educational information, not legal advice. It explains a practical workflow for **Marketplace Seller Verification: Do Not Trust the Platform Name Alone** using evidence, dates, deadlines, and official-source escalation references.
+This article is educational and does not provide legal advice for **Marketplace Seller Verification: Do Not Trust the Platform Name Alone**. It focuses on preserving evidence, checking dates and contract wording, and choosing the right seller, platform, payment-provider, carrier, or regulator channel.
 
 ![Marketplace Seller Verification: Do Not Trust the Platform Name Alone core flow summary](/images/2026-05-17-marketplace-seller-verification/hero.svg)
 

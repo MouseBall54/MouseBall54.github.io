@@ -26,8 +26,11 @@ tags:
   - Electricity
   - Korea
 ---
+Nuclear power is returning not only as climate policy but as a strategy for grid stability, industrial electricity, and lower import dependence.
 
-Global affairs can look abstract until **reactor restarts** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
+For Korean readers, the practical question is where **reactor restarts** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
+
+For Korean readers, the practical question is where **reactor restarts** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
 
 Nuclear power is returning not only as climate policy but as a strategy for grid stability, industrial electricity, and lower import dependence.
 
@@ -39,18 +42,14 @@ This briefing treats **The Nuclear Energy Comeback: A Realist Response to Securi
 
 In Korea, nuclear policy links power bills, industrial strategy, exportable reactors, and spent-fuel governance in one debate.
 
-For this issue, start with **reactor restarts**, then check whether **new capacity plans** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
+Start with **reactor restarts**, then check whether **new capacity plans** is moving through prices, physical supply, policy response, or financing conditions. A short market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
-- **reactor restarts**: watch the direction, policy response, and market pricing rather than the number alone.
-- **new capacity plans**: watch the direction, policy response, and market pricing rather than the number alone.
-- **power price stability**: watch the direction, policy response, and market pricing rather than the number alone.
-- **fuel-cycle policy**: watch the direction, policy response, and market pricing rather than the number alone.
-
-Do not read **reactor restarts** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
-
-![The Nuclear Energy Comeback: A Realist Response to Security and Power Demand signal checklist](/images/2026-05-22-nuclear-energy-comeback/signal-map.svg)
+- **reactor restarts**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
+- **new capacity plans**: Connect domestic headlines to external causes. Mark whether exports, import prices, exchange rates, energy costs, or security budgets move first.
+- **power price stability**: Check inventory and contract cushions. Market prices can look stable while shipping, insurance, or compliance costs pass through later.
+- **fuel-cycle policy**: Choose the next source to watch. Decide whether official statistics, institutional forecasts, or government releases would change the baseline.
 
 ## Korea-Facing Angle
 
@@ -68,11 +67,11 @@ Household readers can translate **reactor restarts** into living costs, loan rat
 
 ## Reader Checklist
 
-- Track whether reactor restarts first affects exports, prices, funding, or public budgets.
-- Track whether new capacity plans first affects exports, prices, funding, or public budgets.
-- Track whether power price stability first affects exports, prices, funding, or public budgets.
+- Decide whether **reactor restarts** is creating a price shock, a volume shock, or both.
+- Check whether **new capacity plans** is a short news cycle or a structural change that can last for quarters.
+- Mark the Korea-facing channel for **power price stability**: exports, import prices, financial markets, security costs, or household costs.
 - Separate official data from interpretation and commentary.
-- Check the release date, reference period, and assumptions before using any forecast.
+- Check release date, reference period, and assumptions before using any forecast.
 
 ## Source Notes
 

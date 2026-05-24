@@ -26,8 +26,7 @@ tags:
   - TestTaking
   - Stress
 ---
-
-A study method becomes useful when it leaves an observable signal such as **materials**. This guide turns **Exam Day Checklist: Prevent Mistakes Instead of Adding New Study** into a routine that can be tested in one session.
+The exam-day goal is not sudden improvement; it is protecting the ability already built. The goal is to leave **materials** and **arrival time** so the next review can start with a decision, not setup.
 
 On exam day, checking materials, timing, easy items, review order, and condition is safer than forcing new material.
 
@@ -39,14 +38,14 @@ This article is educational. **Exam Day Checklist: Prevent Mistakes Instead of A
 
 The exam-day goal is not sudden improvement; it is protecting the ability already built.
 
-This routine is not decoration for a longer study session. It should leave **materials** and **arrival time** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **materials** and **arrival time** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **materials**: for Exam Day Checklist: Prevent Mistakes Instead of Adding New Study, leave this as a record that can be checked in the next review.
-- **arrival time**: for Exam Day Checklist: Prevent Mistakes Instead of Adding New Study, leave this as a record that can be checked in the next review.
-- **light recall**: for Exam Day Checklist: Prevent Mistakes Instead of Adding New Study, leave this as a record that can be checked in the next review.
-- **review order**: for Exam Day Checklist: Prevent Mistakes Instead of Adding New Study, leave this as a record that can be checked in the next review.
+- **materials**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **arrival time**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **light recall**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **review order**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Exam Day Checklist: Prevent Mistakes Instead of Adding New Study action checklist](/images/2026-05-23-exam-day-checklist/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Check materials and arrival time 
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **materials**, **arrival time**, and **light recall**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `materials`, `arrival time`, and `light recall`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

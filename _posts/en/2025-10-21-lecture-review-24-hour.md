@@ -26,8 +26,7 @@ tags:
   - Recall
   - Review
 ---
-
-A study method becomes useful when it leaves an observable signal such as **same-day review**. This guide turns **24-Hour Lecture Review: Create Recall Questions Before Forgetting** into a routine that can be tested in one session.
+The purpose of post-lecture review is not prettier notes; it is creating the next retrieval task. The goal is to leave **same-day review** and **key sentence** so the next review can start with a decision, not setup.
 
 Reviewing lecture notes within 24 hours and turning them into questions makes the next session retrieval-based.
 
@@ -39,14 +38,14 @@ This article is educational. **24-Hour Lecture Review: Create Recall Questions B
 
 The purpose of post-lecture review is not prettier notes; it is creating the next retrieval task.
 
-This routine is not decoration for a longer study session. It should leave **same-day review** and **key sentence** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **same-day review** and **key sentence** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **same-day review**: for 24-Hour Lecture Review: Create Recall Questions Before Forgetting, leave this as a record that can be checked in the next review.
-- **key sentence**: for 24-Hour Lecture Review: Create Recall Questions Before Forgetting, leave this as a record that can be checked in the next review.
-- **recall question**: for 24-Hour Lecture Review: Create Recall Questions Before Forgetting, leave this as a record that can be checked in the next review.
-- **next class question**: for 24-Hour Lecture Review: Create Recall Questions Before Forgetting, leave this as a record that can be checked in the next review.
+- **same-day review**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **key sentence**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **recall question**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **next class question**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![24-Hour Lecture Review: Create Recall Questions Before Forgetting action checklist](/images/2026-05-23-lecture-review-24-hour/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Pick five key sentences the same 
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **same-day review**, **key sentence**, and **recall question**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `same-day review`, `key sentence`, and `recall question`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

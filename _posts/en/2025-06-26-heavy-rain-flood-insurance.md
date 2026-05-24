@@ -29,7 +29,7 @@ tags:
 
 Heavy-rain risk links flood losses, drainage infrastructure, insurance coverage, property values, and local public finance.
 
-This article is an educational briefing, not investment advice, legal advice, or a recommendation to buy a specific energy product. It gives readers a practical order for reading **Heavy Rain and Flood Insurance: From Disaster News to Financial Risk** with official-source context.
+This article is educational and does not provide investment, legal, or energy-product advice for **Heavy Rain and Flood Insurance: From Disaster News to Financial Risk**. It uses official-source context to connect the issue with costs, infrastructure, policy, and Korea-facing channels.
 
 ![Heavy Rain and Flood Insurance: From Disaster News to Financial Risk core flow summary](/images/2026-05-18-heavy-rain-flood-insurance/hero.svg)
 
@@ -37,27 +37,23 @@ This article is an educational briefing, not investment advice, legal advice, or
 
 IPCC and UNDRR explain disaster risk as a combination of hazard, exposure, vulnerability, and response capacity.
 
-Heavy Rain and Flood Insurance: From Disaster News to Financial Risk becomes economically relevant when flood history, insurance gap, and drainage capacity move together. In Korea, flood maps, semi-basement housing, underground parking, river-adjacent development, and insurance gaps need to be read together. The practical task is to read the sequence between signals rather than one headline.
+In Korea, flood maps, semi-basement housing, underground parking, river-adjacent development, and insurance gaps need to be read together. The domestic cost path becomes clearer when **flood history**, **insurance gap**, and **drainage capacity** are read as a sequence. Do not treat one monthly number or one headline as the whole story; separate demand, supply, price, and policy lag.
 
-This is why the topic should not be reduced to a simple for-or-against debate. If flood history changes without insurance gap, the result can be different. If drainage capacity looks stable while underground space worsens, costs can appear later.
+A simple for-or-against debate hides implementation risk. Demand can move before supply bottlenecks clear, and stable prices can still hide grid, permitting, or financing constraints.
 
 ## Core Structure
 
-- **Demand**: use flood history to locate where and when load or exposure is changing.
-- **Supply**: use insurance gap to test whether real supply capacity or a bottleneck is visible.
-- **Price**: use drainage capacity to trace the lag into tariffs, import costs, or industrial margins.
-- **Risk**: use underground space to separate policy, climate, and supply-chain risk.
+- **Demand**: use **flood history** to locate where and when exposure is changing.
+- **Supply**: use **insurance gap** to test whether the issue is real capacity or a bottleneck.
+- **Price**: use **drainage capacity** to trace the lag into tariffs, import costs, or industrial margins.
+- **Risk**: use **underground space** to separate policy, climate, and supply-chain risk.
 
 ## Signals To Watch
 
-- **flood history**: for Heavy Rain and Flood Insurance: From Disaster News to Financial Risk, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **insurance gap**: for Heavy Rain and Flood Insurance: From Disaster News to Financial Risk, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **drainage capacity**: for Heavy Rain and Flood Insurance: From Disaster News to Financial Risk, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **underground space**: for Heavy Rain and Flood Insurance: From Disaster News to Financial Risk, read direction, duration, and domestic cost channel before treating it as a standalone number.
-
-flood history alone can show direction while hiding the cause. Reading it with insurance gap and drainage capacity makes it easier to tell whether the issue is a price shock, infrastructure bottleneck, or policy lag.
-
-![Heavy Rain and Flood Insurance: From Disaster News to Financial Risk signal checklist map](/images/2026-05-18-heavy-rain-flood-insurance/signal-map.svg)
+- **flood history**: Read direction together with duration. A one-day price move and a multi-quarter volume shift require different decisions.
+- **insurance gap**: Write the domestic transmission channel. Mark whether it reaches tariffs, import prices, industrial costs, or local infrastructure first.
+- **drainage capacity**: Check the implementation bottleneck. Grid connection, permits, finance, equipment, labour, and local acceptance can delay headline targets.
+- **underground space**: Separate the policy assumption. Subsidies, regulation, taxes, and international rules can change the cost structure of the same technology.
 
 ## Korea-Facing Transmission
 
@@ -74,14 +70,14 @@ At implementation stage, the first question is: Check address-level flood histor
 - Check address-level flood history and terrain.
 - Read what flood and storm insurance actually covers.
 - Connect drainage and river works with local budgets.
-
-This checklist is not for predicting the next price move. For **Heavy Rain and Flood Insurance: From Disaster News to Financial Risk**, it is a baseline for checking what changed, what did not change, and which constraint matters most when a new policy, forecast, or company announcement appears.
+Check baseline year, geography, unit, and policy assumptions first.
+Translate the signal into Korea's import structure, grid geography, industrial exposure, or household cost channel.
 
 ## How To Read The Numbers
 
-The numbers in Heavy Rain and Flood Insurance: From Disaster News to Financial Risk change meaning when baseline year, region, or unit changes. For flood history and underground space, peaks, delays, and exceptions often matter more than averages.
+Climate and energy numbers can change meaning when baseline year, region, or unit changes. Peaks, delays, and exceptions often matter more than averages.
 
-Before using climate or energy data, check the **baseline, period, unit, geographic coverage, and policy assumptions**. Then translate flood history, insurance gap, and drainage capacity into Korea's import structure, grid geography, industrial exposure, or household cost channels.
+Check the **baseline, period, unit, geographic coverage, and policy assumptions** first. Then translate **flood history**, **insurance gap**, and **drainage capacity** into Korea's import structure, grid geography, industrial exposure, or household cost channels.
 
 ## Source Notes
 

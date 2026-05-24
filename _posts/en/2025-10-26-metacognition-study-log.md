@@ -26,8 +26,7 @@ tags:
   - SelfRegulation
   - Review
 ---
-
-A study method becomes useful when it leaves an observable signal such as **confidence score**. This guide turns **Metacognition Study Log: Compare Confidence with Recall** into a routine that can be tested in one session.
+Knowing what you do not know early saves study time. The goal is to leave **confidence score** and **recall score** so the next review can start with a decision, not setup.
 
 A metacognition log compares confidence with actual recall so overconfident topics and weak units become visible.
 
@@ -39,14 +38,14 @@ This article is educational. **Metacognition Study Log: Compare Confidence with 
 
 Knowing what you do not know early saves study time.
 
-This routine is not decoration for a longer study session. It should leave **confidence score** and **recall score** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **confidence score** and **recall score** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **confidence score**: for Metacognition Study Log: Compare Confidence with Recall, leave this as a record that can be checked in the next review.
-- **recall score**: for Metacognition Study Log: Compare Confidence with Recall, leave this as a record that can be checked in the next review.
-- **gap**: for Metacognition Study Log: Compare Confidence with Recall, leave this as a record that can be checked in the next review.
-- **next review**: for Metacognition Study Log: Compare Confidence with Recall, leave this as a record that can be checked in the next review.
+- **confidence score**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **recall score**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **gap**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **next review**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Metacognition Study Log: Compare Confidence with Recall action checklist](/images/2026-05-23-metacognition-study-log/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Write a confidence score before s
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **confidence score**, **recall score**, and **gap**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `confidence score`, `recall score`, and `gap`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

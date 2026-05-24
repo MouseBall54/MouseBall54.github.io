@@ -29,7 +29,7 @@ tags:
 
 Carbon pricing is a policy tool that reflects emissions costs in prices and investment decisions; carbon taxes and emissions trading work differently.
 
-This article is an educational briefing, not investment advice, legal advice, or a recommendation to buy a specific energy product. It gives readers a practical order for reading **Carbon Pricing and Emissions Trading: Understand the Mechanism Before the Tax Debate** with official-source context.
+This article is educational and does not provide investment, legal, or energy-product advice for **Carbon Pricing and Emissions Trading: Understand the Mechanism Before the Tax Debate**. It uses official-source context to connect the issue with costs, infrastructure, policy, and Korea-facing channels.
 
 ![Carbon Pricing and Emissions Trading: Understand the Mechanism Before the Tax Debate core flow summary](/images/2026-05-18-carbon-pricing-ets-basics/hero.svg)
 
@@ -37,27 +37,23 @@ This article is an educational briefing, not investment advice, legal advice, or
 
 World Bank and OECD materials describe carbon pricing as part of a policy package that works with subsidies, regulation, and innovation investment.
 
-Carbon Pricing and Emissions Trading: Understand the Mechanism Before the Tax Debate becomes economically relevant when allowance price, free allocation, and coverage move together. Korean companies should read allowance prices together with free allocation, indirect power emissions, export competitiveness, and carbon border rules. The practical task is to read the sequence between signals rather than one headline.
+Korean companies should read allowance prices together with free allocation, indirect power emissions, export competitiveness, and carbon border rules. The domestic cost path becomes clearer when **allowance price**, **free allocation**, and **coverage** are read as a sequence. Do not treat one monthly number or one headline as the whole story; separate demand, supply, price, and policy lag.
 
-This is why the topic should not be reduced to a simple for-or-against debate. If allowance price changes without free allocation, the result can be different. If coverage looks stable while carbon border adjustment worsens, costs can appear later.
+A simple for-or-against debate hides implementation risk. Demand can move before supply bottlenecks clear, and stable prices can still hide grid, permitting, or financing constraints.
 
 ## Core Structure
 
-- **Demand**: use allowance price to locate where and when load or exposure is changing.
-- **Supply**: use free allocation to test whether real supply capacity or a bottleneck is visible.
-- **Price**: use coverage to trace the lag into tariffs, import costs, or industrial margins.
-- **Risk**: use carbon border adjustment to separate policy, climate, and supply-chain risk.
+- **Demand**: use **allowance price** to locate where and when exposure is changing.
+- **Supply**: use **free allocation** to test whether the issue is real capacity or a bottleneck.
+- **Price**: use **coverage** to trace the lag into tariffs, import costs, or industrial margins.
+- **Risk**: use **carbon border adjustment** to separate policy, climate, and supply-chain risk.
 
 ## Signals To Watch
 
-- **allowance price**: for Carbon Pricing and Emissions Trading: Understand the Mechanism Before the Tax Debate, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **free allocation**: for Carbon Pricing and Emissions Trading: Understand the Mechanism Before the Tax Debate, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **coverage**: for Carbon Pricing and Emissions Trading: Understand the Mechanism Before the Tax Debate, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **carbon border adjustment**: for Carbon Pricing and Emissions Trading: Understand the Mechanism Before the Tax Debate, read direction, duration, and domestic cost channel before treating it as a standalone number.
-
-allowance price alone can show direction while hiding the cause. Reading it with free allocation and coverage makes it easier to tell whether the issue is a price shock, infrastructure bottleneck, or policy lag.
-
-![Carbon Pricing and Emissions Trading: Understand the Mechanism Before the Tax Debate signal checklist map](/images/2026-05-18-carbon-pricing-ets-basics/signal-map.svg)
+- **allowance price**: Read direction together with duration. A one-day price move and a multi-quarter volume shift require different decisions.
+- **free allocation**: Write the domestic transmission channel. Mark whether it reaches tariffs, import prices, industrial costs, or local infrastructure first.
+- **coverage**: Check the implementation bottleneck. Grid connection, permits, finance, equipment, labour, and local acceptance can delay headline targets.
+- **carbon border adjustment**: Separate the policy assumption. Subsidies, regulation, taxes, and international rules can change the cost structure of the same technology.
 
 ## Korea-Facing Transmission
 
@@ -74,14 +70,14 @@ At implementation stage, the first question is: Clarify the difference between t
 - Clarify the difference between taxes and ETS first.
 - Read coverage and free allocation before the price level.
 - Calculate effects on power bills and export rules.
-
-This checklist is not for predicting the next price move. For **Carbon Pricing and Emissions Trading: Understand the Mechanism Before the Tax Debate**, it is a baseline for checking what changed, what did not change, and which constraint matters most when a new policy, forecast, or company announcement appears.
+Check baseline year, geography, unit, and policy assumptions first.
+Translate the signal into Korea's import structure, grid geography, industrial exposure, or household cost channel.
 
 ## How To Read The Numbers
 
-The numbers in Carbon Pricing and Emissions Trading: Understand the Mechanism Before the Tax Debate change meaning when baseline year, region, or unit changes. For allowance price and carbon border adjustment, peaks, delays, and exceptions often matter more than averages.
+Climate and energy numbers can change meaning when baseline year, region, or unit changes. Peaks, delays, and exceptions often matter more than averages.
 
-Before using climate or energy data, check the **baseline, period, unit, geographic coverage, and policy assumptions**. Then translate allowance price, free allocation, and coverage into Korea's import structure, grid geography, industrial exposure, or household cost channels.
+Check the **baseline, period, unit, geographic coverage, and policy assumptions** first. Then translate **allowance price**, **free allocation**, and **coverage** into Korea's import structure, grid geography, industrial exposure, or household cost channels.
 
 ## Source Notes
 

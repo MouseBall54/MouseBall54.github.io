@@ -26,12 +26,11 @@ tags:
   - Resilience
   - Data Protection
 ---
-
-Digital security is not only for specialists. A small signal such as **sync-only backup** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+Always-connected drives and sync-only cloud folders can overwrite good files with encrypted or deleted versions. Start with: keep three copies, two media types, and one offline copy. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 Backup quality is about recoverability after ransomware, not just copied files. Offline or immutable copies matter.
 
-This guide is not a product recommendation. It turns **sync-only backup** into a response routine, starting with: keep three copies, two media types, and one offline copy.
+Use this as a response routine for **sync-only backup**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![3-2-1 Backup for Ransomware: How to Know Whether You Can Really Recover core security flow](/images/2026-05-21-backup-3-2-1-ransomware/hero.svg)
 
@@ -45,14 +44,10 @@ For **sync-only backup, no restore test**, the baseline is pause, verify separat
 
 ## Warning Signals To Check First
 
-- **sync-only backup**: pause immediately and verify through a trusted route.
-- **no restore test**: pause immediately and verify through a trusted route.
-- **no MFA on backup account**: pause immediately and verify through a trusted route.
-- **old external drive**: pause immediately and verify through a trusted route.
-
-A signal such as **sync-only backup** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: keep three copies, two media types, and one offline copy.
-
-![3-2-1 Backup for Ransomware: How to Know Whether You Can Really Recover response checklist](/images/2026-05-21-backup-3-2-1-ransomware/checklist.svg)
+- **sync-only backup**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **no restore test**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **no MFA on backup account**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **old external drive**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **sync-on
 
 ## Monthly Checkup
 
-- Confirm that you can: keep three copies, two media types, and one offline copy.
-- Confirm that you can: run recovery tests quarterly.
-- Confirm that you can: protect backup accounts with strong MFA.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Keep three copies, two media types, and one offline copy.
+- Run recovery tests quarterly.
+- Protect backup accounts with strong MFA.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

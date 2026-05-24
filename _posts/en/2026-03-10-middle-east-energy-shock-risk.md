@@ -26,8 +26,11 @@ tags:
   - Inflation
   - Oil
 ---
+A Middle East energy shock is not only about oil; it can move inflation expectations, shipping costs, fertilizer prices, and financial volatility at the same time.
 
-Global affairs can look abstract until **oil price curve** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
+For Korean readers, the practical question is where **oil price curve** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
+
+For Korean readers, the practical question is where **oil price curve** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
 
 A Middle East energy shock is not only about oil; it can move inflation expectations, shipping costs, fertilizer prices, and financial volatility at the same time.
 
@@ -39,18 +42,14 @@ This briefing treats **How a Middle East Energy Shock Moves Through the World Ec
 
 Korean readers should track energy import costs, refining and petrochemical margins, and air and sea freight costs, not just the Dubai crude headline.
 
-For this issue, start with **oil price curve**, then check whether **Hormuz disruption risk** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
+Start with **oil price curve**, then check whether **Hormuz disruption risk** is moving through prices, physical supply, policy response, or financing conditions. A short market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
-- **oil price curve**: watch the direction, policy response, and market pricing rather than the number alone.
-- **Hormuz disruption risk**: watch the direction, policy response, and market pricing rather than the number alone.
-- **energy import bill**: watch the direction, policy response, and market pricing rather than the number alone.
-- **inflation expectations**: watch the direction, policy response, and market pricing rather than the number alone.
-
-Do not read **oil price curve** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
-
-![How a Middle East Energy Shock Moves Through the World Economy signal checklist](/images/2026-05-22-middle-east-energy-shock-risk/signal-map.svg)
+- **oil price curve**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
+- **Hormuz disruption risk**: Connect domestic headlines to external causes. Mark whether exports, import prices, exchange rates, energy costs, or security budgets move first.
+- **energy import bill**: Check inventory and contract cushions. Market prices can look stable while shipping, insurance, or compliance costs pass through later.
+- **inflation expectations**: Choose the next source to watch. Decide whether official statistics, institutional forecasts, or government releases would change the baseline.
 
 ## Korea-Facing Angle
 
@@ -68,11 +67,11 @@ Household readers can translate **oil price curve** into living costs, loan rate
 
 ## Reader Checklist
 
-- Track whether oil price curve first affects exports, prices, funding, or public budgets.
-- Track whether Hormuz disruption risk first affects exports, prices, funding, or public budgets.
-- Track whether energy import bill first affects exports, prices, funding, or public budgets.
+- Decide whether **oil price curve** is creating a price shock, a volume shock, or both.
+- Check whether **Hormuz disruption risk** is a short news cycle or a structural change that can last for quarters.
+- Mark the Korea-facing channel for **energy import bill**: exports, import prices, financial markets, security costs, or household costs.
 - Separate official data from interpretation and commentary.
-- Check the release date, reference period, and assumptions before using any forecast.
+- Check release date, reference period, and assumptions before using any forecast.
 
 ## Source Notes
 

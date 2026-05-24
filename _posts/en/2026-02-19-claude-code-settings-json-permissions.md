@@ -26,7 +26,7 @@ tags:
   - Permissions
   - AI Security
 ---
-This guide is checked against official documentation on May 24, 2026. CLI behavior changes, so verify the version and linked source notes before copying a setting into a production workflow.
+Checked against official documentation on May 24, 2026, this post focuses on the setup and failure points behind **Claude Code settings.json Permissions: allow, ask, and deny Defaults**. The practical baseline is: Put team rules in `.claude/settings.json`, personal overrides in `.claude/settings.local.json`, and global defaults in `~/.claude/settings.json`.
 
 ## Quick Answer
 

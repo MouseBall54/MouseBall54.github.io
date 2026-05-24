@@ -26,12 +26,11 @@ tags:
   - Warning Signs
   - Health Literacy
 ---
-
-Health literacy is not self-diagnosis. It is the ability to track observable signs such as **chest pain**, know when rest is reasonable, and know when professional guidance is safer.
+Digestive and heart-related symptoms can be hard to separate, so warning signs should be handled conservatively. Track **chest pain** with start date, duration, daily-function impact, and safety concerns so the threshold for qualified help is clearer.
 
 Discomfort that feels like heartburn needs urgent attention if it appears with chest pain, shortness of breath, sweating, or arm or jaw pain.
 
-This article is educational and is not diagnosis or treatment advice for **Heartburn or Chest Pain: Questions for Repeating Discomfort**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
+This article is educational and does not diagnose, treat, or set dosage for **Heartburn or Chest Pain: Questions for Repeating Discomfort**. Sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, severe bleeding, or any immediate safety concern should be handled through local emergency services or qualified medical professionals.
 
 ![Heartburn or Chest Pain: Questions for Repeating Discomfort core health flow](/images/2026-05-19-heartburn-warning-signs/hero.svg)
 
@@ -45,14 +44,10 @@ For **chest pain, shortness of breath**, use patterns over one number, daily fun
 
 ## Signals To Check First
 
-- **chest pain**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **shortness of breath**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **sweating**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **arm or jaw pain**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-
-Do not interpret **chest pain** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
-
-![Heartburn or Chest Pain: Questions for Repeating Discomfort checklist](/images/2026-05-19-heartburn-warning-signs/checklist.svg)
+- **chest pain**: Record start date, duration, frequency, triggers, and relieving factors in the same format. Sudden worsening or safety concerns should move professional help first.
+- **shortness of breath**: Write the effect on daily function. Changes in school, work, sleep, eating, or mobility often matter more than a vague severity label.
+- **sweating**: Check age, pregnancy, existing conditions, medicines, recent infection, and injury. The same sign can mean different things under different conditions.
+- **arm or jaw pain**: For breathing trouble, chest pain, confusion, severe bleeding, self-harm risk, or other emergency signs, seeking urgent help comes before record keeping.
 
 ## Practical Order
 
@@ -70,9 +65,9 @@ Before a visit, write the start date, duration, triggers, relieving factors, rel
 
 ## Monthly Checkup
 
-- Confirm that you can: record location, relation to meals, and duration.
-- Confirm that you can: check for chest pain, shortness of breath, or sweating.
-- Confirm that you can: consider emergency help for new or severe chest symptoms.
+- Record location, relation to meals, and duration.
+- Check for chest pain, shortness of breath, or sweating.
+- Consider emergency help for new or severe chest symptoms.
 - Write how symptoms or habits affect daily function.
 - Recheck health information through official local guidance and qualified medical professionals.
 

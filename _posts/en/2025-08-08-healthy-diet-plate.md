@@ -26,12 +26,11 @@ tags:
   - Weight
   - Health Habits
 ---
-
-Health literacy is not self-diagnosis. It is the ability to track observable signs such as **low vegetables**, know when rest is reasonable, and know when professional guidance is safer.
+Extreme diets can look simple at first but often fail under social and long-term routines. Track **low vegetables** with start date, duration, daily-function impact, and safety concerns so the threshold for qualified help is clearer.
 
 A healthy diet starts with balanced vegetables, whole grains, protein, healthy fats, and fluids rather than demonizing one nutrient.
 
-This article is educational and is not diagnosis or treatment advice for **Healthy Plate Basics: Balance Before Cutting Entire Food Groups**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
+This article is educational and does not diagnose, treat, or set dosage for **Healthy Plate Basics: Balance Before Cutting Entire Food Groups**. Sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, severe bleeding, or any immediate safety concern should be handled through local emergency services or qualified medical professionals.
 
 ![Healthy Plate Basics: Balance Before Cutting Entire Food Groups core health flow](/images/2026-05-19-healthy-diet-plate/hero.svg)
 
@@ -45,14 +44,10 @@ For **low vegetables, missing protein**, use patterns over one number, daily fun
 
 ## Signals To Check First
 
-- **low vegetables**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **missing protein**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **drink calories**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **snack frequency**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-
-Do not interpret **low vegetables** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
-
-![Healthy Plate Basics: Balance Before Cutting Entire Food Groups checklist](/images/2026-05-19-healthy-diet-plate/checklist.svg)
+- **low vegetables**: Record start date, duration, frequency, triggers, and relieving factors in the same format. Sudden worsening or safety concerns should move professional help first.
+- **missing protein**: Write the effect on daily function. Changes in school, work, sleep, eating, or mobility often matter more than a vague severity label.
+- **drink calories**: Check age, pregnancy, existing conditions, medicines, recent infection, and injury. The same sign can mean different things under different conditions.
+- **snack frequency**: For breathing trouble, chest pain, confusion, severe bleeding, self-harm risk, or other emergency signs, seeking urgent help comes before record keeping.
 
 ## Practical Order
 
@@ -70,9 +65,9 @@ Before a visit, write the start date, duration, triggers, relieving factors, rel
 
 ## Monthly Checkup
 
-- Confirm that you can: give vegetables and protein a visible place first.
-- Confirm that you can: compare refined and whole-grain choices.
-- Confirm that you can: include drinks and snacks in the full-day view.
+- Give vegetables and protein a visible place first.
+- Compare refined and whole-grain choices.
+- Include drinks and snacks in the full-day view.
 - Write how symptoms or habits affect daily function.
 - Recheck health information through official local guidance and qualified medical professionals.
 

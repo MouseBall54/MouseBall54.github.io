@@ -26,7 +26,7 @@ tags:
   - Permissions
   - AI Security
 ---
-이 글은 2026년 5월 24일 기준 공식 문서를 확인해 작성했습니다. CLI 도구는 업데이트가 빠르므로 운영 환경에 복사하기 전 버전과 하단의 Source Notes를 다시 확인하세요.
+2026년 5월 24일 기준 공식 문서와 CLI 동작을 기준으로, 이 글은 **Claude Code sensitive file deny 설정: .env와 secrets 접근 차단**에서 먼저 확인할 설정과 실패 지점을 정리합니다. 핵심 판단은 프로젝트 `.claude/settings.json`에 팀 공통 deny 규칙을 넣고, 개인 로컬 설정에는 더 좁은 민감 경로를 추가합니다.
 
 ## 빠른 답
 

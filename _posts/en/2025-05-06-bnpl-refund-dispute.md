@@ -29,7 +29,7 @@ tags:
 
 BNPL refunds can split seller approval from payment-app repayment schedules, so refund approval and payment pause need separate tracking.
 
-This article is educational information, not legal advice. It explains a practical workflow for **BNPL Refund Dispute: Track the App and the Seller Separately** using evidence, dates, deadlines, and official-source escalation references.
+This article is educational and does not provide legal advice for **BNPL Refund Dispute: Track the App and the Seller Separately**. It focuses on preserving evidence, checking dates and contract wording, and choosing the right seller, platform, payment-provider, carrier, or regulator channel.
 
 ![BNPL Refund Dispute: Track the App and the Seller Separately core flow summary](/images/2026-05-17-bnpl-refund-dispute/hero.svg)
 

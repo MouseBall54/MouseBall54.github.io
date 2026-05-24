@@ -29,7 +29,7 @@ tags:
 
 Dark patterns steer choices through interface design, so check boxes, grey text, default selections, countdown language, and recurring-charge wording.
 
-This article is educational information, not legal advice. It explains a practical workflow for **Dark Pattern Checkout: Finding Hidden Consent and Recurring Charges** using evidence, dates, deadlines, and official-source escalation references.
+This article is educational and does not provide legal advice for **Dark Pattern Checkout: Finding Hidden Consent and Recurring Charges**. It focuses on preserving evidence, checking dates and contract wording, and choosing the right seller, platform, payment-provider, carrier, or regulator channel.
 
 ![Dark Pattern Checkout: Finding Hidden Consent and Recurring Charges core flow summary](/images/2026-05-17-dark-pattern-checkout/hero.svg)
 

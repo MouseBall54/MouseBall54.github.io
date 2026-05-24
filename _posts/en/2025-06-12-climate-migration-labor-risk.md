@@ -29,7 +29,7 @@ tags:
 
 Climate shocks can disrupt agriculture, construction, logistics, and care work, then move into supply-chain costs through migration and labour shortages.
 
-This article is an educational briefing, not investment advice, legal advice, or a recommendation to buy a specific energy product. It gives readers a practical order for reading **Climate Migration and Labour Risk: When Population Stress Becomes Supply-Chain Stress** with official-source context.
+This article is educational and does not provide investment, legal, or energy-product advice for **Climate Migration and Labour Risk: When Population Stress Becomes Supply-Chain Stress**. It uses official-source context to connect the issue with costs, infrastructure, policy, and Korea-facing channels.
 
 ![Climate Migration and Labour Risk: When Population Stress Becomes Supply-Chain Stress core flow summary](/images/2026-05-18-climate-migration-labor-risk/hero.svg)
 
@@ -37,27 +37,23 @@ This article is an educational briefing, not investment advice, legal advice, or
 
 IPCC and World Bank sources describe climate risk increasing socioeconomic vulnerability through livelihoods, health, mobility, and urban infrastructure.
 
-Climate Migration and Labour Risk: When Population Stress Becomes Supply-Chain Stress becomes economically relevant when livelihood shock, outdoor work, and regional migration move together. Korea already faces ageing and manufacturing labour shortages, so overseas labour supply and domestic outdoor-work safety standards need joint attention. The practical task is to read the sequence between signals rather than one headline.
+Korea already faces ageing and manufacturing labour shortages, so overseas labour supply and domestic outdoor-work safety standards need joint attention. The domestic cost path becomes clearer when **livelihood shock**, **outdoor work**, and **regional migration** are read as a sequence. Do not treat one monthly number or one headline as the whole story; separate demand, supply, price, and policy lag.
 
-This is why the topic should not be reduced to a simple for-or-against debate. If livelihood shock changes without outdoor work, the result can be different. If regional migration looks stable while labour shortage worsens, costs can appear later.
+A simple for-or-against debate hides implementation risk. Demand can move before supply bottlenecks clear, and stable prices can still hide grid, permitting, or financing constraints.
 
 ## Core Structure
 
-- **Demand**: use livelihood shock to locate where and when load or exposure is changing.
-- **Supply**: use outdoor work to test whether real supply capacity or a bottleneck is visible.
-- **Price**: use regional migration to trace the lag into tariffs, import costs, or industrial margins.
-- **Risk**: use labour shortage to separate policy, climate, and supply-chain risk.
+- **Demand**: use **livelihood shock** to locate where and when exposure is changing.
+- **Supply**: use **outdoor work** to test whether the issue is real capacity or a bottleneck.
+- **Price**: use **regional migration** to trace the lag into tariffs, import costs, or industrial margins.
+- **Risk**: use **labour shortage** to separate policy, climate, and supply-chain risk.
 
 ## Signals To Watch
 
-- **livelihood shock**: for Climate Migration and Labour Risk: When Population Stress Becomes Supply-Chain Stress, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **outdoor work**: for Climate Migration and Labour Risk: When Population Stress Becomes Supply-Chain Stress, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **regional migration**: for Climate Migration and Labour Risk: When Population Stress Becomes Supply-Chain Stress, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **labour shortage**: for Climate Migration and Labour Risk: When Population Stress Becomes Supply-Chain Stress, read direction, duration, and domestic cost channel before treating it as a standalone number.
-
-livelihood shock alone can show direction while hiding the cause. Reading it with outdoor work and regional migration makes it easier to tell whether the issue is a price shock, infrastructure bottleneck, or policy lag.
-
-![Climate Migration and Labour Risk: When Population Stress Becomes Supply-Chain Stress signal checklist map](/images/2026-05-18-climate-migration-labor-risk/signal-map.svg)
+- **livelihood shock**: Read direction together with duration. A one-day price move and a multi-quarter volume shift require different decisions.
+- **outdoor work**: Write the domestic transmission channel. Mark whether it reaches tariffs, import prices, industrial costs, or local infrastructure first.
+- **regional migration**: Check the implementation bottleneck. Grid connection, permits, finance, equipment, labour, and local acceptance can delay headline targets.
+- **labour shortage**: Separate the policy assumption. Subsidies, regulation, taxes, and international rules can change the cost structure of the same technology.
 
 ## Korea-Facing Transmission
 
@@ -74,14 +70,14 @@ At implementation stage, the first question is: Connect climate-hit regions with
 - Connect climate-hit regions with raw-material and labour supply.
 - Check outdoor-work stoppage rules and production disruption.
 - Treat migration and urban housing pressure as long-term risk.
-
-This checklist is not for predicting the next price move. For **Climate Migration and Labour Risk: When Population Stress Becomes Supply-Chain Stress**, it is a baseline for checking what changed, what did not change, and which constraint matters most when a new policy, forecast, or company announcement appears.
+Check baseline year, geography, unit, and policy assumptions first.
+Translate the signal into Korea's import structure, grid geography, industrial exposure, or household cost channel.
 
 ## How To Read The Numbers
 
-The numbers in Climate Migration and Labour Risk: When Population Stress Becomes Supply-Chain Stress change meaning when baseline year, region, or unit changes. For livelihood shock and labour shortage, peaks, delays, and exceptions often matter more than averages.
+Climate and energy numbers can change meaning when baseline year, region, or unit changes. Peaks, delays, and exceptions often matter more than averages.
 
-Before using climate or energy data, check the **baseline, period, unit, geographic coverage, and policy assumptions**. Then translate livelihood shock, outdoor work, and regional migration into Korea's import structure, grid geography, industrial exposure, or household cost channels.
+Check the **baseline, period, unit, geographic coverage, and policy assumptions** first. Then translate **livelihood shock**, **outdoor work**, and **regional migration** into Korea's import structure, grid geography, industrial exposure, or household cost channels.
 
 ## Source Notes
 

@@ -29,7 +29,7 @@ tags:
 
 Mobile plan changes should be read as total cost including contract term, device installment, plan discount, add-ons, and penalties.
 
-This article is educational information, not legal advice. It explains a practical workflow for **Mobile Plan Change: Calculate Penalties and Lost Discounts First** using evidence, dates, deadlines, and official-source escalation references.
+This article is educational and does not provide legal advice for **Mobile Plan Change: Calculate Penalties and Lost Discounts First**. It focuses on preserving evidence, checking dates and contract wording, and choosing the right seller, platform, payment-provider, carrier, or regulator channel.
 
 ![Mobile Plan Change: Calculate Penalties and Lost Discounts First core flow summary](/images/2026-05-17-mobile-plan-contract-change/hero.svg)
 

@@ -26,8 +26,7 @@ tags:
   - Trade
   - Business
 ---
-
-Economic news becomes useful when a signal such as **freight cost** is translated into prices, debt, income, and decisions. This guide explains **Supply Chain Shocks and Inflation: Freight, Inventories, and Substitutes** with official-source context and household-level checks.
+Supply-chain news can travel from ports to margins, product prices, and fewer consumer choices. Read **freight cost** and **delivery lag** with release date, reference period, and the path into prices, wages, interest payments, or exchange rates.
 
 Supply-chain shocks can move into consumer prices through freight, delays, inventory costs, and expensive substitute suppliers.
 
@@ -39,14 +38,14 @@ This article is educational and is not financial advice, investment advice, tax 
 
 Supply-chain news can travel from ports to margins, product prices, and fewer consumer choices.
 
-Indicators such as **freight cost** and **delivery lag** are easy to misuse when they are read as isolated numbers. Check the release date, reference period, month-over-month or year-over-year basis, and whether the number is nominal or real. For household decisions, income timing, debt rates, fixed costs, and currency exposure can matter more than the average economy when reading **Supply Chain Shocks and Inflation: Freight, Inventories, and Substitutes**.
+Signals such as **freight cost** and **delivery lag** are easy to misread as standalone numbers. Check the release date, reference period, month-over-month versus year-over-year basis, and nominal versus real terms first. For household use, write down whether the signal reaches prices, wages, interest payments, exchange rates, or savings capacity.
 
 ## Signals To Check First
 
-- **freight cost**: for Supply Chain Shocks and Inflation: Freight, Inventories, and Substitutes, record the latest value, direction, and effect on your budget or debt.
-- **delivery lag**: for Supply Chain Shocks and Inflation: Freight, Inventories, and Substitutes, record the latest value, direction, and effect on your budget or debt.
-- **inventory buffer**: for Supply Chain Shocks and Inflation: Freight, Inventories, and Substitutes, record the latest value, direction, and effect on your budget or debt.
-- **supplier concentration**: for Supply Chain Shocks and Inflation: Freight, Inventories, and Substitutes, record the latest value, direction, and effect on your budget or debt.
+- **freight cost**: Record the latest value together with the release date. A number without revision status, reference period, or seasonal adjustment can mislead later comparisons.
+- **delivery lag**: Separate direction from magnitude. The household question is not only whether it rose or fell, but whether the change reaches spending, wages, or debt rates.
+- **inventory buffer**: Read it with companion indicators. Inflation, jobs, rates, and exchange rates often explain why the average economy differs from one household's cash flow.
+- **supplier concentration**: Write the Korea-facing channel. Translate the signal into won exchange rates, imported energy, variable-rate loans, export jobs, or other concrete cost paths.
 
 ![Supply Chain Shocks and Inflation: Freight, Inventories, and Substitutes decision checklist](/images/2026-05-23-supply-chain-shock-inflation/checklist.png)
 

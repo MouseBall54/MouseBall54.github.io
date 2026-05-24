@@ -26,12 +26,11 @@ tags:
   - Vaccines
   - Prevention
 ---
-
-Health literacy is not self-diagnosis. It is the ability to track observable signs such as **medicine change**, know when rest is reasonable, and know when professional guidance is safer.
+The record does not need to be perfect. Location and last updated date matter most. Track **medicine change** with start date, duration, daily-function impact, and safety concerns so the threshold for qualified help is clearer.
 
 Family health records help emergencies and appointments when conditions, medicines, allergies, vaccinations, and family history are easy to find.
 
-This article is educational and is not diagnosis or treatment advice for **Family Health Records: Conditions, Medicines, Allergies, and Vaccines**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
+This article is educational and does not diagnose, treat, or set dosage for **Family Health Records: Conditions, Medicines, Allergies, and Vaccines**. Sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, severe bleeding, or any immediate safety concern should be handled through local emergency services or qualified medical professionals.
 
 ![Family Health Records: Conditions, Medicines, Allergies, and Vaccines core health flow](/images/2026-05-19-family-health-records/hero.svg)
 
@@ -45,14 +44,10 @@ For **medicine change, new allergy**, use patterns over one number, daily functi
 
 ## Signals To Check First
 
-- **medicine change**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **new allergy**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **vaccine record**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **family history**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-
-Do not interpret **medicine change** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
-
-![Family Health Records: Conditions, Medicines, Allergies, and Vaccines checklist](/images/2026-05-19-family-health-records/checklist.svg)
+- **medicine change**: Record start date, duration, frequency, triggers, and relieving factors in the same format. Sudden worsening or safety concerns should move professional help first.
+- **new allergy**: Write the effect on daily function. Changes in school, work, sleep, eating, or mobility often matter more than a vague severity label.
+- **vaccine record**: Check age, pregnancy, existing conditions, medicines, recent infection, and injury. The same sign can mean different things under different conditions.
+- **family history**: For breathing trouble, chest pain, confusion, severe bleeding, self-harm risk, or other emergency signs, seeking urgent help comes before record keeping.
 
 ## Practical Order
 
@@ -70,9 +65,9 @@ Before a visit, write the start date, duration, triggers, relieving factors, rel
 
 ## Monthly Checkup
 
-- Confirm that you can: create one page for each person's conditions, medicines, and allergies.
-- Confirm that you can: mark where vaccine and test records are stored.
-- Confirm that you can: add an update date whenever something changes.
+- Create one page for each person's conditions, medicines, and allergies.
+- Mark where vaccine and test records are stored.
+- Add an update date whenever something changes.
 - Write how symptoms or habits affect daily function.
 - Recheck health information through official local guidance and qualified medical professionals.
 

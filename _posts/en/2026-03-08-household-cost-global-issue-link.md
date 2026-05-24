@@ -26,8 +26,11 @@ tags:
   - FX
   - Energy
 ---
+Global affairs enter household budgets through oil, exchange rates, food prices, electricity bills, and insurance premiums.
 
-Global affairs can look abstract until **oil and gas prices** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
+For Korean readers, the practical question is where **oil and gas prices** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
+
+For Korean readers, the practical question is where **oil and gas prices** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
 
 Global affairs enter household budgets through oil, exchange rates, food prices, electricity bills, and insurance premiums.
 
@@ -39,18 +42,14 @@ This briefing treats **Linking Household Costs to Global Affairs: Oil, FX, and F
 
 Korean households benefit from a monthly view that links USD/KRW, global oil, food CPI, and electricity and gas tariff decisions.
 
-For this issue, start with **oil and gas prices**, then check whether **USD/KRW** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
+Start with **oil and gas prices**, then check whether **USD/KRW** is moving through prices, physical supply, policy response, or financing conditions. A short market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
-- **oil and gas prices**: watch the direction, policy response, and market pricing rather than the number alone.
-- **USD/KRW**: watch the direction, policy response, and market pricing rather than the number alone.
-- **food CPI**: watch the direction, policy response, and market pricing rather than the number alone.
-- **utility tariff schedules**: watch the direction, policy response, and market pricing rather than the number alone.
-
-Do not read **oil and gas prices** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
-
-![Linking Household Costs to Global Affairs: Oil, FX, and Food Prices in One View signal checklist](/images/2026-05-22-household-cost-global-issue-link/signal-map.svg)
+- **oil and gas prices**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
+- **USD/KRW**: Connect domestic headlines to external causes. Mark whether exports, import prices, exchange rates, energy costs, or security budgets move first.
+- **food CPI**: Check inventory and contract cushions. Market prices can look stable while shipping, insurance, or compliance costs pass through later.
+- **utility tariff schedules**: Choose the next source to watch. Decide whether official statistics, institutional forecasts, or government releases would change the baseline.
 
 ## Korea-Facing Angle
 
@@ -68,11 +67,11 @@ Household readers can translate **oil and gas prices** into living costs, loan r
 
 ## Reader Checklist
 
-- Track whether oil and gas prices first affects exports, prices, funding, or public budgets.
-- Track whether USD/KRW first affects exports, prices, funding, or public budgets.
-- Track whether food CPI first affects exports, prices, funding, or public budgets.
+- Decide whether **oil and gas prices** is creating a price shock, a volume shock, or both.
+- Check whether **USD/KRW** is a short news cycle or a structural change that can last for quarters.
+- Mark the Korea-facing channel for **food CPI**: exports, import prices, financial markets, security costs, or household costs.
 - Separate official data from interpretation and commentary.
-- Check the release date, reference period, and assumptions before using any forecast.
+- Check release date, reference period, and assumptions before using any forecast.
 
 ## Source Notes
 

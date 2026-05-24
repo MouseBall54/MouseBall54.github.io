@@ -26,8 +26,7 @@ tags:
   - CodingStudy
   - Reflection
 ---
-
-A study method becomes useful when it leaves an observable signal such as **project output**. This guide turns **Project-Based Learning Portfolio: Keep Output and Reflection Together** into a routine that can be tested in one session.
+Even a small project becomes learning evidence when it shows why it was built and what changed. The goal is to leave **project output** and **decision log** so the next review can start with a decision, not setup.
 
 Project-based study becomes a portfolio when the problem, implementation decisions, blockers, and next improvements are recorded.
 
@@ -39,14 +38,14 @@ This article is educational. **Project-Based Learning Portfolio: Keep Output and
 
 Even a small project becomes learning evidence when it shows why it was built and what changed.
 
-This routine is not decoration for a longer study session. It should leave **project output** and **decision log** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **project output** and **decision log** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **project output**: for Project-Based Learning Portfolio: Keep Output and Reflection Together, leave this as a record that can be checked in the next review.
-- **decision log**: for Project-Based Learning Portfolio: Keep Output and Reflection Together, leave this as a record that can be checked in the next review.
-- **blocker**: for Project-Based Learning Portfolio: Keep Output and Reflection Together, leave this as a record that can be checked in the next review.
-- **reflection**: for Project-Based Learning Portfolio: Keep Output and Reflection Together, leave this as a record that can be checked in the next review.
+- **project output**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **decision log**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **blocker**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **reflection**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Project-Based Learning Portfolio: Keep Output and Reflection Together action checklist](/images/2026-05-23-project-based-learning-portfolio/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Write the problem in three senten
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **project output**, **decision log**, and **blocker**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `project output`, `decision log`, and `blocker`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

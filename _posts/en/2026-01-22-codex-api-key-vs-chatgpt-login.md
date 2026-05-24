@@ -26,7 +26,7 @@ tags:
   - Authentication
   - OpenAI
 ---
-This guide is checked against official documentation on May 24, 2026. CLI behavior changes, so verify the version and linked source notes before copying a setting into a production workflow.
+Checked against official documentation on May 24, 2026, this post focuses on the setup and failure points behind **Codex API Key vs ChatGPT Login: Choose Auth for Team Workflows**. The practical baseline is: Use ChatGPT sign-in for personal interactive work, but prefer API-key governance for team automation, cost tracking, and policy control.
 
 ## Quick Answer
 

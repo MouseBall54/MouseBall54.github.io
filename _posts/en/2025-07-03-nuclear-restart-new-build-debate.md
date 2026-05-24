@@ -29,7 +29,7 @@ tags:
 
 Nuclear debates become clearer when existing fleet availability, new-build timelines, safety regulation, waste, and grid location are separated from slogans.
 
-This article is an educational briefing, not investment advice, legal advice, or a recommendation to buy a specific energy product. It gives readers a practical order for reading **Nuclear Restarts and New Builds: Separate Reliability from Timelines** with official-source context.
+This article is educational and does not provide investment, legal, or energy-product advice for **Nuclear Restarts and New Builds: Separate Reliability from Timelines**. It uses official-source context to connect the issue with costs, infrastructure, policy, and Korea-facing channels.
 
 ![Nuclear Restarts and New Builds: Separate Reliability from Timelines core flow summary](/images/2026-05-18-nuclear-restart-new-build-debate/hero.svg)
 
@@ -37,27 +37,23 @@ This article is an educational briefing, not investment advice, legal advice, or
 
 IEA energy outlooks show nuclear returning to energy-security debates, but timelines and costs remain decisive variables.
 
-Nuclear Restarts and New Builds: Separate Reliability from Timelines becomes economically relevant when capacity factor, construction timeline, and safety regulation move together. In Korea, nuclear and renewables should not be read only as substitutes; semiconductor and AI demand, grid location, and ageing assets also matter. The practical task is to read the sequence between signals rather than one headline.
+In Korea, nuclear and renewables should not be read only as substitutes; semiconductor and AI demand, grid location, and ageing assets also matter. The domestic cost path becomes clearer when **capacity factor**, **construction timeline**, and **safety regulation** are read as a sequence. Do not treat one monthly number or one headline as the whole story; separate demand, supply, price, and policy lag.
 
-This is why the topic should not be reduced to a simple for-or-against debate. If capacity factor changes without construction timeline, the result can be different. If safety regulation looks stable while waste management worsens, costs can appear later.
+A simple for-or-against debate hides implementation risk. Demand can move before supply bottlenecks clear, and stable prices can still hide grid, permitting, or financing constraints.
 
 ## Core Structure
 
-- **Demand**: use capacity factor to locate where and when load or exposure is changing.
-- **Supply**: use construction timeline to test whether real supply capacity or a bottleneck is visible.
-- **Price**: use safety regulation to trace the lag into tariffs, import costs, or industrial margins.
-- **Risk**: use waste management to separate policy, climate, and supply-chain risk.
+- **Demand**: use **capacity factor** to locate where and when exposure is changing.
+- **Supply**: use **construction timeline** to test whether the issue is real capacity or a bottleneck.
+- **Price**: use **safety regulation** to trace the lag into tariffs, import costs, or industrial margins.
+- **Risk**: use **waste management** to separate policy, climate, and supply-chain risk.
 
 ## Signals To Watch
 
-- **capacity factor**: for Nuclear Restarts and New Builds: Separate Reliability from Timelines, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **construction timeline**: for Nuclear Restarts and New Builds: Separate Reliability from Timelines, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **safety regulation**: for Nuclear Restarts and New Builds: Separate Reliability from Timelines, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **waste management**: for Nuclear Restarts and New Builds: Separate Reliability from Timelines, read direction, duration, and domestic cost channel before treating it as a standalone number.
-
-capacity factor alone can show direction while hiding the cause. Reading it with construction timeline and safety regulation makes it easier to tell whether the issue is a price shock, infrastructure bottleneck, or policy lag.
-
-![Nuclear Restarts and New Builds: Separate Reliability from Timelines signal checklist map](/images/2026-05-18-nuclear-restart-new-build-debate/signal-map.svg)
+- **capacity factor**: Read direction together with duration. A one-day price move and a multi-quarter volume shift require different decisions.
+- **construction timeline**: Write the domestic transmission channel. Mark whether it reaches tariffs, import prices, industrial costs, or local infrastructure first.
+- **safety regulation**: Check the implementation bottleneck. Grid connection, permits, finance, equipment, labour, and local acceptance can delay headline targets.
+- **waste management**: Separate the policy assumption. Subsidies, regulation, taxes, and international rules can change the cost structure of the same technology.
 
 ## Korea-Facing Transmission
 
@@ -74,14 +70,14 @@ At implementation stage, the first question is: Separate existing fleet availabi
 - Separate existing fleet availability from new-build schedules.
 - Treat safety regulation and local acceptance as costs.
 - Compare demand centres with plant locations.
-
-This checklist is not for predicting the next price move. For **Nuclear Restarts and New Builds: Separate Reliability from Timelines**, it is a baseline for checking what changed, what did not change, and which constraint matters most when a new policy, forecast, or company announcement appears.
+Check baseline year, geography, unit, and policy assumptions first.
+Translate the signal into Korea's import structure, grid geography, industrial exposure, or household cost channel.
 
 ## How To Read The Numbers
 
-The numbers in Nuclear Restarts and New Builds: Separate Reliability from Timelines change meaning when baseline year, region, or unit changes. For capacity factor and waste management, peaks, delays, and exceptions often matter more than averages.
+Climate and energy numbers can change meaning when baseline year, region, or unit changes. Peaks, delays, and exceptions often matter more than averages.
 
-Before using climate or energy data, check the **baseline, period, unit, geographic coverage, and policy assumptions**. Then translate capacity factor, construction timeline, and safety regulation into Korea's import structure, grid geography, industrial exposure, or household cost channels.
+Check the **baseline, period, unit, geographic coverage, and policy assumptions** first. Then translate **capacity factor**, **construction timeline**, and **safety regulation** into Korea's import structure, grid geography, industrial exposure, or household cost channels.
 
 ## Source Notes
 

@@ -9,9 +9,10 @@ header:
 layout: single
 title: "Easy Labeling 가이드 (1) - 이미지와 라벨 불러오기"
 date: 2025-07-20T00:00:00+09:00
-excerpt: "YOLO 라벨링 툴 Easy Labeling의 첫 번째 가이드입니다. PC에서 이미지 폴더와 라벨 파일을 불러오고, 클래스 파일을 활용하는 기본적인 방법을 안내합니다."
+last_modified_at: 2026-05-24T00:00:00+09:00
+excerpt: "Easy Labeling 첫 번째 가이드입니다. Detection용 이미지와 라벨 폴더를 불러오고, 클래스 파일을 관리하며, Segmentation 저장 형식도 함께 확인합니다."
 
-seo_description: "YOLO 라벨링 툴 Easy Labeling의 첫 번째 가이드입니다. PC에서 이미지 폴더와 라벨 파일을 불러오고, 클래스 파일을 활용하는 기본적인 방법을 안내합니다."
+seo_description: "Easy Labeling 첫 번째 가이드입니다. Detection용 이미지와 라벨 폴더를 불러오고, 클래스 파일을 관리하며, Segmentation 저장 형식도 함께 확인합니다."
 lang: ko
 translation_id: easy-labeling-guide-1
 categories:
@@ -28,7 +29,7 @@ tags:
 ![이 글의 핵심 주제를 한눈에 설명하는 이미지입니다: Easy Labeling 가이드 (1) - 이미지와 라벨 불러오기](/images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png)
 <p><strong>Easy Labeling 프로젝트 페이지: <a href="https://mouseball54.github.io/easy_labeling/">https://mouseball54.github.io/easy_labeling/</a></strong></p>
 
-안녕하세요! 이번 포스트부터 **YOLO 데이터 라벨링 전용 툴, Easy Labeling** 사용법에 대해 자세히 설명해 드리겠습니다.
+안녕하세요! 이번 글부터 **Easy Labeling** 사용법을 소개합니다. 현재 저장소 기준 Easy Labeling은 YOLO 박스를 다루는 Detection과 브러시 기반 마스크를 다루는 Segmentation을 함께 제공합니다.
 
 그 첫 번째 시간으로, **이미지와 라벨 파일을 불러오는 방법**과 **클래스 설명 파일을 활용하는 방법**을 알아보겠습니다.
 
@@ -40,7 +41,7 @@ tags:
 
 아래 환경에서 사용을 권장합니다.  
 > **운영체제**: Windows 10 이상, macOS 10.14 이상  
-> **브라우저**: Chrome 93+, Firefox 91+, Edge 93+  
+> **브라우저**: 로컬 폴더 읽기/쓰기에 File System Access API가 필요하므로 Desktop Chrome 또는 Edge 권장  
 > **화면 해상도**: 1280×720 이상  
 
 ### 1.2 웹사이트 접속
@@ -102,40 +103,40 @@ Easy Labeling은 빠른 작업을 위해 다양한 전환 방법을 제공합니
 
 ---
 
-- ## 3. 라벨 데이터 불러오기 및 관리
+## 3. 라벨 데이터 불러오기 및 관리
 
-  ### 3.1 라벨 폴더 불러오기
-  기존에 작업하던 라벨 데이터를 불러오거나 다른 위치의 폴더를 사용하려면 다음 방식을 참고하십시오.
+### 3.1 라벨 폴더 불러오기
+기존에 작업하던 라벨 데이터를 불러오거나 다른 위치의 폴더를 사용하려면 다음 방식을 참고하십시오.
 
-  1. <code>label</code> 폴더가 없으면 자동 생성 (<code>label (created)</code>)  
-  2. 폴더가 이미지 폴더 하위에 있으면 자동 불러오기 (<code>label (auto)</code>)  
-  3. 수동 지정: <code>Load Label Folder</code> 버튼 클릭
+1. <code>label</code> 폴더가 없으면 자동 생성 (<code>label (created)</code>)  
+2. 폴더가 이미지 폴더 하위에 있으면 자동 불러오기 (<code>label (auto)</code>)  
+3. 수동 지정: <code>Load Label Folder</code> 버튼 클릭
 
-  <figure>
-    <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png" alt="수동으로 라벨 폴더 지정하기">
-    <figcaption>Figure 6. 수동으로 라벨 폴더 지정 화면.</figcaption>
-  </figure>
-
-
-  - <code>Search files...</code>: 파일 이름 일부로 검색  
-  - <code>Labeled</code> / <code>Unlabeled</code> 필터로 라벨 유무별로 분류  
-
-  <figure>
-    <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250720233244263.png" alt="Labeled 필터 적용 화면">
-    <figcaption>Figure 7. <code>Labeled</code> 필터 적용 화면.</figcaption>
-  </figure>
+<figure>
+  <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png" alt="수동으로 라벨 폴더 지정하기">
+  <figcaption>Figure 6. 수동으로 라벨 폴더 지정 화면.</figcaption>
+</figure>
 
 
-  ### 3.2 라벨 데이터 관리 기능
-  <figure>
-    <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250721010743987.png" alt="라벨 데이터 관리 기능">
-    <figcaption>Figure 8. 라벨 데이터 관리 메뉴 (<code>Auto Save</code>, <code>Save Labels</code>, <code>Download Class Template</code>).</figcaption>
-  </figure>
+- <code>Search files...</code>: 파일 이름 일부로 검색  
+- <code>Labeled</code> / <code>Unlabeled</code> 필터로 라벨 유무별로 분류  
+
+<figure>
+  <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250720233244263.png" alt="Labeled 필터 적용 화면">
+  <figcaption>Figure 7. <code>Labeled</code> 필터 적용 화면.</figcaption>
+</figure>
 
 
-  - <code>Auto Save</code>: 이미지 전환 시 자동 저장  
-  - <code>Save Labels</code> (<code>Ctrl + S</code>): 수동 저장  
-  - <code>Download Class Template</code>: <code>custom-classes.yaml</code> 템플릿 다운로드  
+### 3.2 라벨 데이터 관리 기능
+<figure>
+  <img src="/images/2025-07-20-easy-labeling-guide-1/image-20250721010743987.png" alt="라벨 데이터 관리 기능">
+  <figcaption>Figure 8. 라벨 데이터 관리 메뉴 (<code>Auto Save</code>, <code>Save Labels</code>, <code>Download Class Template</code>).</figcaption>
+</figure>
+
+
+- <code>Auto Save</code>: 이미지 전환 시 자동 저장  
+- <code>Save Labels</code> (<code>Ctrl + S</code>): 수동 저장  
+- <code>Download Class Template</code>: <code>custom-classes.yaml</code> 템플릿 다운로드  
 
 ---
 
@@ -155,17 +156,13 @@ Easy Labeling은 빠른 작업을 위해 다양한 전환 방법을 제공합니
 10: traffic light
 ```
 
-이 파일을 수정하여 자신만의 클래스 목록을 만들면, 라벨링 시 클래스 번호 대신 지정한 이름(person, car 등)이 표시되어 훨씬 직관적으로 작업할 수 있습니다. Easy Labeling 내에서 직접 이 파일을 편집하는 기능도 추후 다른 가이드에서 자세히 다룰 예정입니다.
+이 파일을 수정하여 자신만의 클래스 목록을 만들면, 라벨링 시 클래스 번호 대신 지정한 이름(person, car 등)이 표시되어 훨씬 직관적으로 작업할 수 있습니다. 현재 저장소에는 클래스 파일 선택과 생성/편집 모달도 문서화되어 있으므로, 여러 데이터셋이 비슷한 클래스 이름을 쓸 때는 YAML 파일을 버전으로 관리하는 편이 좋습니다.
 
 
 
-이번 포스트에서는 Easy Labeling의 가장 기본적인 기능인 이미지와 라벨 파일 불러오기, 그리고 클래스 파일 활용법에 대해 알아보았습니다.
+이번 글에서는 이미지 폴더를 열고, Detection용 `label` 폴더를 만들거나 불러오며, 클래스 파일을 사용하는 기본 흐름을 정리했습니다. 프로젝트가 마스크를 필요로 한다면 Segmentation 워크플로우를 별도로 열고 `mask/<image>.png`, `mask/<image>.seg.json` 저장 여부를 확인해야 합니다.
 
-다음 가이드에서는 **본격적인 라벨링 작업 방법**에 대해 자세히 알려드릴 예정이니 많은 기대 부탁드립니다!
-
-궁금한 점이 있다면 언제든지 댓글로 질문해주세요.
-
-감사합니다.
+대량 작업 전에는 Desktop Chrome 또는 Edge에서 작은 파일럿 배치를 실행하고 저장 폴더가 예상대로 만들어지는지 먼저 확인하세요.
 
 ------
 
@@ -189,14 +186,17 @@ Easy Labeling은 빠른 작업을 위해 다양한 전환 방법을 제공합니
 
 ------
 
-▶️ [다음: 라벨링 작업 방법 가이드(예정)](easy-labeling-guide-2.md)
+## 참고할 자료
 
-
+- [Easy Labeling GitHub 저장소](https://github.com/MouseBall54/easy_labeling): 현재 기능 범위, Detection/Segmentation 워크플로우, 저장 형식, 브라우저 조건, Electron 빌드 참고 자료입니다.
+- [MDN File System Access API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API): 브라우저에서 로컬 폴더를 여는 방식의 기본 자료입니다.
+- [Ultralytics Object Detection Dataset Docs](https://docs.ultralytics.com/datasets/detect/): YOLO 폴더 구조, `data.yaml`, 라벨 형식을 확인할 때 참고할 공식 문서입니다.
+- [CVAT YOLO Format](https://docs.cvat.ai/docs/dataset_management/formats/format-yolo/): YOLO annotation 형식을 다른 도구와 비교할 때 참고할 수 있습니다.
 
 ---
 ## 함께 보면 좋은 글
 
 같은 주제 흐름에서 이어서 읽기 좋은 글입니다.
 
-- [YOLO 데이터 라벨링, 설치 없이 웹에서 바로! Easy Labeling 개발기](/ko_easy_labeling/easy-labeling-development/)
-- [YOLO 라벨링 끝판왕, Easy Labeling 주요 기능 파헤치기](/ko_easy_labeling/easy-labeling-in-depth-features/)
+- [Easy Labeling 개발기: 로컬 Detection과 Segmentation 주석 도구](/ko_easy_labeling/easy-labeling-development/)
+- [YOLO 라벨링을 위한 Easy Labeling 주요 기능](/ko_easy_labeling/easy-labeling-in-depth-features/)

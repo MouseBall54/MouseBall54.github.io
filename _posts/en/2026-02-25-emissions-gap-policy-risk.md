@@ -26,8 +26,11 @@ tags:
   - Emissions
   - Trade
 ---
+UNEP's Emissions Gap Report shows how the gap between current policy and targets is becoming a fight over carbon prices, subsidies, trade rules, and technology investment.
 
-Global affairs can look abstract until **NDC ambition** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
+For Korean readers, the practical question is where **NDC ambition** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
+
+For Korean readers, the practical question is where **NDC ambition** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
 
 UNEP's Emissions Gap Report shows how the gap between current policy and targets is becoming a fight over carbon prices, subsidies, trade rules, and technology investment.
 
@@ -39,18 +42,14 @@ This briefing treats **Reading the Emissions Gap: Why Climate Policy Has Become 
 
 Korean firms need to read customer emissions demands, power mix, carbon border rules, and process-transition costs together.
 
-For this issue, start with **NDC ambition**, then check whether **carbon prices** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
+Start with **NDC ambition**, then check whether **carbon prices** is moving through prices, physical supply, policy response, or financing conditions. A short market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
-- **NDC ambition**: watch the direction, policy response, and market pricing rather than the number alone.
-- **carbon prices**: watch the direction, policy response, and market pricing rather than the number alone.
-- **clean-tech subsidies**: watch the direction, policy response, and market pricing rather than the number alone.
-- **scope 3 requirements**: watch the direction, policy response, and market pricing rather than the number alone.
-
-Do not read **NDC ambition** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
-
-![Reading the Emissions Gap: Why Climate Policy Has Become Industrial Policy signal checklist](/images/2026-05-22-emissions-gap-policy-risk/signal-map.svg)
+- **NDC ambition**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
+- **carbon prices**: Connect domestic headlines to external causes. Mark whether exports, import prices, exchange rates, energy costs, or security budgets move first.
+- **clean-tech subsidies**: Check inventory and contract cushions. Market prices can look stable while shipping, insurance, or compliance costs pass through later.
+- **scope 3 requirements**: Choose the next source to watch. Decide whether official statistics, institutional forecasts, or government releases would change the baseline.
 
 ## Korea-Facing Angle
 
@@ -68,11 +67,11 @@ Household readers can translate **NDC ambition** into living costs, loan rates, 
 
 ## Reader Checklist
 
-- Track whether NDC ambition first affects exports, prices, funding, or public budgets.
-- Track whether carbon prices first affects exports, prices, funding, or public budgets.
-- Track whether clean-tech subsidies first affects exports, prices, funding, or public budgets.
+- Decide whether **NDC ambition** is creating a price shock, a volume shock, or both.
+- Check whether **carbon prices** is a short news cycle or a structural change that can last for quarters.
+- Mark the Korea-facing channel for **clean-tech subsidies**: exports, import prices, financial markets, security costs, or household costs.
 - Separate official data from interpretation and commentary.
-- Check the release date, reference period, and assumptions before using any forecast.
+- Check release date, reference period, and assumptions before using any forecast.
 
 ## Source Notes
 

@@ -26,8 +26,7 @@ tags:
   - CentralBanks
   - Rates
 ---
-
-Economic news becomes useful when a signal such as **current CPI** is translated into prices, debt, income, and decisions. This guide explains **Inflation Expectations: Why Beliefs About Prices Matter** with official-source context and household-level checks.
+Past inflation matters, but expectations about future inflation can change behavior today. Read **current CPI** and **short expectation** with release date, reference period, and the path into prices, wages, interest payments, or exchange rates.
 
 Inflation expectations influence wage bargaining, price setting, central-bank credibility, and long-term interest rates.
 
@@ -39,14 +38,14 @@ This article is educational and is not financial advice, investment advice, tax 
 
 Past inflation matters, but expectations about future inflation can change behavior today.
 
-Indicators such as **current CPI** and **short expectation** are easy to misuse when they are read as isolated numbers. Check the release date, reference period, month-over-month or year-over-year basis, and whether the number is nominal or real. For household decisions, income timing, debt rates, fixed costs, and currency exposure can matter more than the average economy when reading **Inflation Expectations: Why Beliefs About Prices Matter**.
+Signals such as **current CPI** and **short expectation** are easy to misread as standalone numbers. Check the release date, reference period, month-over-month versus year-over-year basis, and nominal versus real terms first. For household use, write down whether the signal reaches prices, wages, interest payments, exchange rates, or savings capacity.
 
 ## Signals To Check First
 
-- **current CPI**: for Inflation Expectations: Why Beliefs About Prices Matter, record the latest value, direction, and effect on your budget or debt.
-- **short expectation**: for Inflation Expectations: Why Beliefs About Prices Matter, record the latest value, direction, and effect on your budget or debt.
-- **long expectation**: for Inflation Expectations: Why Beliefs About Prices Matter, record the latest value, direction, and effect on your budget or debt.
-- **inflation target**: for Inflation Expectations: Why Beliefs About Prices Matter, record the latest value, direction, and effect on your budget or debt.
+- **current CPI**: Record the latest value together with the release date. A number without revision status, reference period, or seasonal adjustment can mislead later comparisons.
+- **short expectation**: Separate direction from magnitude. The household question is not only whether it rose or fell, but whether the change reaches spending, wages, or debt rates.
+- **long expectation**: Read it with companion indicators. Inflation, jobs, rates, and exchange rates often explain why the average economy differs from one household's cash flow.
+- **inflation target**: Write the Korea-facing channel. Translate the signal into won exchange rates, imported energy, variable-rate loans, export jobs, or other concrete cost paths.
 
 ![Inflation Expectations: Why Beliefs About Prices Matter decision checklist](/images/2026-05-23-inflation-expectations-guide/checklist.png)
 

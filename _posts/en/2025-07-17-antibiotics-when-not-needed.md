@@ -26,12 +26,11 @@ tags:
   - Respiratory Illness
   - Health Literacy
 ---
-
-Health literacy is not self-diagnosis. It is the ability to track observable signs such as **possible viral illness**, know when rest is reasonable, and know when professional guidance is safer.
+Wanting to recover quickly can lead to pressure for antibiotics, but unnecessary use can create side effects and resistance concerns. Track **possible viral illness** with start date, duration, daily-function impact, and safety concerns so the threshold for qualified help is clearer.
 
 Antibiotics treat bacterial infections and may not help viral illnesses such as common colds, so the right question is when they are actually needed.
 
-This article is educational and is not diagnosis or treatment advice for **When Antibiotics Are Not Needed: Asking Better Questions About Viral Illness**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
+This article is educational and does not diagnose, treat, or set dosage for **When Antibiotics Are Not Needed: Asking Better Questions About Viral Illness**. Sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, severe bleeding, or any immediate safety concern should be handled through local emergency services or qualified medical professionals.
 
 ![When Antibiotics Are Not Needed: Asking Better Questions About Viral Illness core health flow](/images/2026-05-19-antibiotics-when-not-needed/hero.svg)
 
@@ -45,14 +44,10 @@ For **possible viral illness, worsening symptoms**, use patterns over one number
 
 ## Signals To Check First
 
-- **possible viral illness**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **worsening symptoms**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **side effects**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **use instructions**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-
-Do not interpret **possible viral illness** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
-
-![When Antibiotics Are Not Needed: Asking Better Questions About Viral Illness checklist](/images/2026-05-19-antibiotics-when-not-needed/checklist.svg)
+- **possible viral illness**: Record start date, duration, frequency, triggers, and relieving factors in the same format. Sudden worsening or safety concerns should move professional help first.
+- **worsening symptoms**: Write the effect on daily function. Changes in school, work, sleep, eating, or mobility often matter more than a vague severity label.
+- **side effects**: Check age, pregnancy, existing conditions, medicines, recent infection, and injury. The same sign can mean different things under different conditions.
+- **use instructions**: For breathing trouble, chest pain, confusion, severe bleeding, self-harm risk, or other emergency signs, seeking urgent help comes before record keeping.
 
 ## Practical Order
 
@@ -70,9 +65,9 @@ Before a visit, write the start date, duration, triggers, relieving factors, rel
 
 ## Monthly Checkup
 
-- Confirm that you can: track duration, fever, and worsening pattern.
-- Confirm that you can: ask what evidence suggests antibiotics are needed.
-- Confirm that you can: if prescribed, take them as directed.
+- Track duration, fever, and worsening pattern.
+- Ask what evidence suggests antibiotics are needed.
+- If prescribed, take them as directed.
 - Write how symptoms or habits affect daily function.
 - Recheck health information through official local guidance and qualified medical professionals.
 

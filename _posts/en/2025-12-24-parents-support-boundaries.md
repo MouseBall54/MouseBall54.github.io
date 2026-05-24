@@ -31,7 +31,7 @@ Personal finance is less about guessing returns and more about managing how **mo
 
 Supporting parents can damage long-term finances if decided only emotionally. Separate regular support, emergencies, guarantees, and medical costs.
 
-This article is educational and is not individualized financial advice or a product recommendation for **Supporting Parents Without Breaking Your Own Financial Plan**. It uses official-source guidance and basic calculations so readers can start by checking **monthly support**.
+This article is educational and does not give individualized investment, tax, lending, or legal advice for **Supporting Parents Without Breaking Your Own Financial Plan**. Use it to organize questions, then verify local rules, fees, contracts, and personal risk capacity before acting.
 
 ![Supporting Parents Without Breaking Your Own Financial Plan core finance flow](/images/2026-05-20-parents-support-boundaries/hero.svg)
 
@@ -68,11 +68,11 @@ When **monthly support** touches both debt and investing decisions, separate sho
 
 ## Monthly Checkup
 
-- Confirm that you can: put monthly support in the budget.
-- Confirm that you can: treat loan guarantees as if you may owe the full amount.
-- Confirm that you can: divide medical and care roles with siblings when possible.
-- Write whether the decision affects budget, emergency cash, debt, or long-term goals.
-- Recheck tax and financial rules through official guidance for the country where they apply.
+- Put monthly support in the budget.
+- Treat loan guarantees as if you may owe the full amount.
+- Divide medical and care roles with siblings when possible.
+- Check fees, taxes, contract terms, and liquidity limits together.
+- Verify local financial and tax rules before applying the idea to your situation.
 
 ## Source Notes
 

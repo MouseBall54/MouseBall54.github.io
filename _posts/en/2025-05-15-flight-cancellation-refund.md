@@ -29,7 +29,7 @@ tags:
 
 Flight-cancellation refunds depend on who cancelled, whether an alternative was accepted, and what payment method was used.
 
-This article is educational information, not legal advice. It explains a practical workflow for **Flight Cancellation Refund: Separate Vouchers From Cash Refunds** using evidence, dates, deadlines, and official-source escalation references.
+This article is educational and does not provide legal advice for **Flight Cancellation Refund: Separate Vouchers From Cash Refunds**. It focuses on preserving evidence, checking dates and contract wording, and choosing the right seller, platform, payment-provider, carrier, or regulator channel.
 
 ![Flight Cancellation Refund: Separate Vouchers From Cash Refunds core flow summary](/images/2026-05-17-flight-cancellation-refund/hero.svg)
 

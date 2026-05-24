@@ -26,8 +26,7 @@ tags:
   - Recall
   - LanguageLearning
 ---
-
-A study method becomes useful when it leaves an observable signal such as **context sentence**. This guide turns **English Vocabulary System: Learn Words Through Context and Recall** into a routine that can be tested in one session.
+Knowing a word means being able to retrieve and use it in context, not only recognizing a translation. The goal is to leave **context sentence** and **self-made sentence** so the next review can start with a decision, not setup.
 
 A vocabulary system should keep examples, self-made sentences, recall dates, and wrong usage, not only translated meanings.
 
@@ -39,14 +38,14 @@ This article is educational. **English Vocabulary System: Learn Words Through Co
 
 Knowing a word means being able to retrieve and use it in context, not only recognizing a translation.
 
-This routine is not decoration for a longer study session. It should leave **context sentence** and **self-made sentence** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **context sentence** and **self-made sentence** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **context sentence**: for English Vocabulary System: Learn Words Through Context and Recall, leave this as a record that can be checked in the next review.
-- **self-made sentence**: for English Vocabulary System: Learn Words Through Context and Recall, leave this as a record that can be checked in the next review.
-- **recall date**: for English Vocabulary System: Learn Words Through Context and Recall, leave this as a record that can be checked in the next review.
-- **usage error**: for English Vocabulary System: Learn Words Through Context and Recall, leave this as a record that can be checked in the next review.
+- **context sentence**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **self-made sentence**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **recall date**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **usage error**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![English Vocabulary System: Learn Words Through Context and Recall action checklist](/images/2026-05-23-english-vocabulary-system/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Save an original example sentence
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **context sentence**, **self-made sentence**, and **recall date**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `context sentence`, `self-made sentence`, and `recall date`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

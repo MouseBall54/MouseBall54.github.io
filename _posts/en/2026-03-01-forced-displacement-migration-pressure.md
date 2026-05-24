@@ -26,8 +26,11 @@ tags:
   - Conflict
   - Labor
 ---
+UNHCR data show how conflict and violence create displacement, which then reshapes labor markets, housing, education, and politics.
 
-Global affairs can look abstract until **refugee flows** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
+For Korean readers, the practical question is where **refugee flows** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
+
+For Korean readers, the practical question is where **refugee flows** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
 
 UNHCR data show how conflict and violence create displacement, which then reshapes labor markets, housing, education, and politics.
 
@@ -39,18 +42,14 @@ This briefing treats **Forced Displacement and Migration Pressure: Labor, Housin
 
 Korea should connect displacement trends with ageing labor markets, overseas development work, and shifting global public opinion.
 
-For this issue, start with **refugee flows**, then check whether **return conditions** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
+Start with **refugee flows**, then check whether **return conditions** is moving through prices, physical supply, policy response, or financing conditions. A short market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
-- **refugee flows**: watch the direction, policy response, and market pricing rather than the number alone.
-- **return conditions**: watch the direction, policy response, and market pricing rather than the number alone.
-- **aid funding**: watch the direction, policy response, and market pricing rather than the number alone.
-- **urban absorption capacity**: watch the direction, policy response, and market pricing rather than the number alone.
-
-Do not read **refugee flows** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
-
-![Forced Displacement and Migration Pressure: Labor, Housing, and Political Risk Behind the Numbers signal checklist](/images/2026-05-22-forced-displacement-migration-pressure/signal-map.svg)
+- **refugee flows**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
+- **return conditions**: Connect domestic headlines to external causes. Mark whether exports, import prices, exchange rates, energy costs, or security budgets move first.
+- **aid funding**: Check inventory and contract cushions. Market prices can look stable while shipping, insurance, or compliance costs pass through later.
+- **urban absorption capacity**: Choose the next source to watch. Decide whether official statistics, institutional forecasts, or government releases would change the baseline.
 
 ## Korea-Facing Angle
 
@@ -68,11 +67,11 @@ Household readers can translate **refugee flows** into living costs, loan rates,
 
 ## Reader Checklist
 
-- Track whether refugee flows first affects exports, prices, funding, or public budgets.
-- Track whether return conditions first affects exports, prices, funding, or public budgets.
-- Track whether aid funding first affects exports, prices, funding, or public budgets.
+- Decide whether **refugee flows** is creating a price shock, a volume shock, or both.
+- Check whether **return conditions** is a short news cycle or a structural change that can last for quarters.
+- Mark the Korea-facing channel for **aid funding**: exports, import prices, financial markets, security costs, or household costs.
 - Separate official data from interpretation and commentary.
-- Check the release date, reference period, and assumptions before using any forecast.
+- Check release date, reference period, and assumptions before using any forecast.
 
 ## Source Notes
 

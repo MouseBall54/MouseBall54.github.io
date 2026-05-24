@@ -29,7 +29,7 @@ tags:
 
 Hotel comparison needs total stay cost including resort fees, taxes, cleaning fees, parking, deposits, and cancellation fees.
 
-This article is educational information, not legal advice. It explains a practical workflow for **Hotel Resort Fees and Add-Ons: Compare the Total Stay Cost** using evidence, dates, deadlines, and official-source escalation references.
+This article is educational and does not provide legal advice for **Hotel Resort Fees and Add-Ons: Compare the Total Stay Cost**. It focuses on preserving evidence, checking dates and contract wording, and choosing the right seller, platform, payment-provider, carrier, or regulator channel.
 
 ![Hotel Resort Fees and Add-Ons: Compare the Total Stay Cost core flow summary](/images/2026-05-17-hotel-resort-fee-check/hero.svg)
 

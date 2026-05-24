@@ -29,7 +29,7 @@ tags:
 
 Urban heat risk depends on humidity, nighttime minimums, shade, cooling access, and outdoor work hours, not only the headline temperature.
 
-This article is an educational briefing, not investment advice, legal advice, or a recommendation to buy a specific energy product. It gives readers a practical order for reading **Urban Heat Planning: Heat Index and Vulnerable Hours Before Temperature** with official-source context.
+This article is educational and does not provide investment, legal, or energy-product advice for **Urban Heat Planning: Heat Index and Vulnerable Hours Before Temperature**. It uses official-source context to connect the issue with costs, infrastructure, policy, and Korea-facing channels.
 
 ![Urban Heat Planning: Heat Index and Vulnerable Hours Before Temperature core flow summary](/images/2026-05-18-extreme-heat-city-planning/hero.svg)
 
@@ -37,27 +37,23 @@ This article is an educational briefing, not investment advice, legal advice, or
 
 WMO and KMA materials show recent heat and extreme climate affecting health, power demand, labour, and transport infrastructure at the same time.
 
-Urban Heat Planning: Heat Index and Vulnerable Hours Before Temperature becomes economically relevant when heat index, tropical nights, and cooling access move together. Korean cities combine heat islands, ageing, cooling costs, delivery work, and construction work, so heat response is both welfare and power policy. The practical task is to read the sequence between signals rather than one headline.
+Korean cities combine heat islands, ageing, cooling costs, delivery work, and construction work, so heat response is both welfare and power policy. The domestic cost path becomes clearer when **heat index**, **tropical nights**, and **cooling access** are read as a sequence. Do not treat one monthly number or one headline as the whole story; separate demand, supply, price, and policy lag.
 
-This is why the topic should not be reduced to a simple for-or-against debate. If heat index changes without tropical nights, the result can be different. If cooling access looks stable while outdoor work worsens, costs can appear later.
+A simple for-or-against debate hides implementation risk. Demand can move before supply bottlenecks clear, and stable prices can still hide grid, permitting, or financing constraints.
 
 ## Core Structure
 
-- **Demand**: use heat index to locate where and when load or exposure is changing.
-- **Supply**: use tropical nights to test whether real supply capacity or a bottleneck is visible.
-- **Price**: use cooling access to trace the lag into tariffs, import costs, or industrial margins.
-- **Risk**: use outdoor work to separate policy, climate, and supply-chain risk.
+- **Demand**: use **heat index** to locate where and when exposure is changing.
+- **Supply**: use **tropical nights** to test whether the issue is real capacity or a bottleneck.
+- **Price**: use **cooling access** to trace the lag into tariffs, import costs, or industrial margins.
+- **Risk**: use **outdoor work** to separate policy, climate, and supply-chain risk.
 
 ## Signals To Watch
 
-- **heat index**: for Urban Heat Planning: Heat Index and Vulnerable Hours Before Temperature, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **tropical nights**: for Urban Heat Planning: Heat Index and Vulnerable Hours Before Temperature, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **cooling access**: for Urban Heat Planning: Heat Index and Vulnerable Hours Before Temperature, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **outdoor work**: for Urban Heat Planning: Heat Index and Vulnerable Hours Before Temperature, read direction, duration, and domestic cost channel before treating it as a standalone number.
-
-heat index alone can show direction while hiding the cause. Reading it with tropical nights and cooling access makes it easier to tell whether the issue is a price shock, infrastructure bottleneck, or policy lag.
-
-![Urban Heat Planning: Heat Index and Vulnerable Hours Before Temperature signal checklist map](/images/2026-05-18-extreme-heat-city-planning/signal-map.svg)
+- **heat index**: Read direction together with duration. A one-day price move and a multi-quarter volume shift require different decisions.
+- **tropical nights**: Write the domestic transmission channel. Mark whether it reaches tariffs, import prices, industrial costs, or local infrastructure first.
+- **cooling access**: Check the implementation bottleneck. Grid connection, permits, finance, equipment, labour, and local acceptance can delay headline targets.
+- **outdoor work**: Separate the policy assumption. Subsidies, regulation, taxes, and international rules can change the cost structure of the same technology.
 
 ## Korea-Facing Transmission
 
@@ -74,14 +70,14 @@ At implementation stage, the first question is: Read heat index and nighttime lo
 - Read heat index and nighttime lows before daily highs.
 - Check cooling-centre access and operating hours.
 - Connect outdoor-work rules with electricity peaks.
-
-This checklist is not for predicting the next price move. For **Urban Heat Planning: Heat Index and Vulnerable Hours Before Temperature**, it is a baseline for checking what changed, what did not change, and which constraint matters most when a new policy, forecast, or company announcement appears.
+Check baseline year, geography, unit, and policy assumptions first.
+Translate the signal into Korea's import structure, grid geography, industrial exposure, or household cost channel.
 
 ## How To Read The Numbers
 
-The numbers in Urban Heat Planning: Heat Index and Vulnerable Hours Before Temperature change meaning when baseline year, region, or unit changes. For heat index and outdoor work, peaks, delays, and exceptions often matter more than averages.
+Climate and energy numbers can change meaning when baseline year, region, or unit changes. Peaks, delays, and exceptions often matter more than averages.
 
-Before using climate or energy data, check the **baseline, period, unit, geographic coverage, and policy assumptions**. Then translate heat index, tropical nights, and cooling access into Korea's import structure, grid geography, industrial exposure, or household cost channels.
+Check the **baseline, period, unit, geographic coverage, and policy assumptions** first. Then translate **heat index**, **tropical nights**, and **cooling access** into Korea's import structure, grid geography, industrial exposure, or household cost channels.
 
 ## Source Notes
 

@@ -26,12 +26,11 @@ tags:
   - Home Health
   - Public Health
 ---
-
-Health literacy is not self-diagnosis. It is the ability to track observable signs such as **cross-contamination**, know when rest is reasonable, and know when professional guidance is safer.
+Smell and taste are not reliable safety tests. Process and storage time are better controls. Track **cross-contamination** with start date, duration, daily-function impact, and safety concerns so the threshold for qualified help is clearer.
 
 Food safety depends on repeated habits: cleaning, preventing cross-contamination, cooking thoroughly, and chilling properly.
 
-This article is educational and is not diagnosis or treatment advice for **Four Food Safety Steps: Clean, Separate, Cook, and Chill**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
+This article is educational and does not diagnose, treat, or set dosage for **Four Food Safety Steps: Clean, Separate, Cook, and Chill**. Sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, severe bleeding, or any immediate safety concern should be handled through local emergency services or qualified medical professionals.
 
 ![Four Food Safety Steps: Clean, Separate, Cook, and Chill core health flow](/images/2026-05-19-food-safety-four-steps/hero.svg)
 
@@ -45,14 +44,10 @@ For **cross-contamination, room-temperature storage**, use patterns over one num
 
 ## Signals To Check First
 
-- **cross-contamination**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **room-temperature storage**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **undercooking**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **old leftovers**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-
-Do not interpret **cross-contamination** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
-
-![Four Food Safety Steps: Clean, Separate, Cook, and Chill checklist](/images/2026-05-19-food-safety-four-steps/checklist.svg)
+- **cross-contamination**: Record start date, duration, frequency, triggers, and relieving factors in the same format. Sudden worsening or safety concerns should move professional help first.
+- **room-temperature storage**: Write the effect on daily function. Changes in school, work, sleep, eating, or mobility often matter more than a vague severity label.
+- **undercooking**: Check age, pregnancy, existing conditions, medicines, recent infection, and injury. The same sign can mean different things under different conditions.
+- **old leftovers**: For breathing trouble, chest pain, confusion, severe bleeding, self-harm risk, or other emergency signs, seeking urgent help comes before record keeping.
 
 ## Practical Order
 
@@ -70,9 +65,9 @@ Before a visit, write the start date, duration, triggers, relieving factors, rel
 
 ## Monthly Checkup
 
-- Confirm that you can: separate cutting boards for raw meat and produce.
-- Confirm that you can: limit room-temperature time after cooking.
-- Confirm that you can: label leftovers with dates.
+- Separate cutting boards for raw meat and produce.
+- Limit room-temperature time after cooking.
+- Label leftovers with dates.
 - Write how symptoms or habits affect daily function.
 - Recheck health information through official local guidance and qualified medical professionals.
 

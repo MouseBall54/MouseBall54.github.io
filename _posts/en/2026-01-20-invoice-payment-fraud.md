@@ -26,12 +26,11 @@ tags:
   - Small Business
   - Fraud
 ---
-
-Digital security is not only for specialists. A small signal such as **sudden bank change** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+Attackers may compromise a real vendor mailbox or use a lookalike domain to send believable invoices. Start with: verify bank changes through a known phone number. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 Vendor bank-change fraud can move money with one email, so separate verification, dual approval, and change records are essential.
 
-This guide is not a product recommendation. It turns **sudden bank change** into a response routine, starting with: verify bank changes through a known phone number.
+Use this as a response routine for **sudden bank change**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![Invoice Payment Fraud: Verify Vendor Bank Changes Before Trusting Email core security flow](/images/2026-05-21-invoice-payment-fraud/hero.svg)
 
@@ -45,14 +44,10 @@ For **sudden bank change, reply-to mismatch**, the baseline is pause, verify sep
 
 ## Warning Signals To Check First
 
-- **sudden bank change**: pause immediately and verify through a trusted route.
-- **reply-to mismatch**: pause immediately and verify through a trusted route.
-- **urgent transfer pressure**: pause immediately and verify through a trusted route.
-- **subtle invoice difference**: pause immediately and verify through a trusted route.
-
-A signal such as **sudden bank change** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: verify bank changes through a known phone number.
-
-![Invoice Payment Fraud: Verify Vendor Bank Changes Before Trusting Email response checklist](/images/2026-05-21-invoice-payment-fraud/checklist.svg)
+- **sudden bank change**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **reply-to mismatch**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **urgent transfer pressure**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **subtle invoice difference**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **sudden 
 
 ## Monthly Checkup
 
-- Confirm that you can: verify bank changes through a known phone number.
-- Confirm that you can: use small test payments and dual approval for first transfers.
-- Confirm that you can: check domain spelling and reply-to addresses.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Verify bank changes through a known phone number.
+- Use small test payments and dual approval for first transfers.
+- Check domain spelling and reply-to addresses.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

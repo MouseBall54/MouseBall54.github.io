@@ -26,12 +26,11 @@ tags:
   - Passwords
   - Resilience
 ---
-
-Digital security is not only for specialists. A small signal such as **single auth device** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+Relying on one MFA device can strengthen security while lowering real recoverability. Start with: store recovery codes offline. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 Strong authentication needs recovery design. Plan for lost phones, number changes, and travel before they become account lockout events.
 
-This guide is not a product recommendation. It turns **single auth device** into a response routine, starting with: store recovery codes offline.
+Use this as a response routine for **single auth device**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![Account Recovery Plan: Avoiding Lockout After Losing a Phone core security flow](/images/2026-05-21-account-recovery-lockout-plan/hero.svg)
 
@@ -45,14 +44,10 @@ For **single auth device, old phone number**, the baseline is pause, verify sepa
 
 ## Warning Signals To Check First
 
-- **single auth device**: pause immediately and verify through a trusted route.
-- **old phone number**: pause immediately and verify through a trusted route.
-- **unverified recovery email**: pause immediately and verify through a trusted route.
-- **travel login limits**: pause immediately and verify through a trusted route.
-
-A signal such as **single auth device** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: store recovery codes offline.
-
-![Account Recovery Plan: Avoiding Lockout After Losing a Phone response checklist](/images/2026-05-21-account-recovery-lockout-plan/checklist.svg)
+- **single auth device**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **old phone number**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **unverified recovery email**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **travel login limits**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **single 
 
 ## Monthly Checkup
 
-- Confirm that you can: store recovery codes offline.
-- Confirm that you can: register backup email and backup factors.
-- Confirm that you can: test account recovery paths once a quarter.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Store recovery codes offline.
+- Register backup email and backup factors.
+- Test account recovery paths once a quarter.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

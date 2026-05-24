@@ -26,12 +26,11 @@ tags:
   - Privacy
   - Account Security
 ---
-
-Digital security is not only for specialists. A small signal such as **all-sites permission** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+Extensions with broad site access can expose inputs, cookies, and work-page content. Start with: remove extensions you no longer use. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 Browser extensions can access pages and sessions, so permissions, developer trust, and update history matter more than install count alone.
 
-This guide is not a product recommendation. It turns **all-sites permission** into a response routine, starting with: remove extensions you no longer use.
+Use this as a response routine for **all-sites permission**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![Browser Extension Security: Where Convenience Turns Into Account Risk core security flow](/images/2026-05-21-browser-extension-security/hero.svg)
 
@@ -45,14 +44,10 @@ For **all-sites permission, developer change**, the baseline is pause, verify se
 
 ## Warning Signals To Check First
 
-- **all-sites permission**: pause immediately and verify through a trusted route.
-- **developer change**: pause immediately and verify through a trusted route.
-- **review swing**: pause immediately and verify through a trusted route.
-- **shared work browser**: pause immediately and verify through a trusted route.
-
-A signal such as **all-sites permission** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: remove extensions you no longer use.
-
-![Browser Extension Security: Where Convenience Turns Into Account Risk response checklist](/images/2026-05-21-browser-extension-security/checklist.svg)
+- **all-sites permission**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **developer change**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **review swing**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **shared work browser**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **all-sit
 
 ## Monthly Checkup
 
-- Confirm that you can: remove extensions you no longer use.
-- Confirm that you can: separate broad-permission extensions from work browsers.
-- Confirm that you can: review developer changes and recent reviews.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Remove extensions you no longer use.
+- Separate broad-permission extensions from work browsers.
+- Review developer changes and recent reviews.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

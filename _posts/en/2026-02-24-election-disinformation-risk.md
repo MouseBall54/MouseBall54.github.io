@@ -26,8 +26,11 @@ tags:
   - Elections
   - Democracy
 ---
+As AI-generated content spreads, election risk moves beyond fact-checking into source verification, distribution speed, platform response, and trust-repair costs.
 
-Global affairs can look abstract until **content provenance** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
+For Korean readers, the practical question is where **content provenance** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
+
+For Korean readers, the practical question is where **content provenance** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
 
 As AI-generated content spreads, election risk moves beyond fact-checking into source verification, distribution speed, platform response, and trust-repair costs.
 
@@ -39,18 +42,14 @@ This briefing treats **Election Disinformation and AI: A Practical Standard for 
 
 Korean elections also need verification routines because deepfakes, polling narratives, foreign platforms, and media trust interact.
 
-For this issue, start with **content provenance**, then check whether **platform takedown speed** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
+Start with **content provenance**, then check whether **platform takedown speed** is moving through prices, physical supply, policy response, or financing conditions. A short market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
-- **content provenance**: watch the direction, policy response, and market pricing rather than the number alone.
-- **platform takedown speed**: watch the direction, policy response, and market pricing rather than the number alone.
-- **official election notices**: watch the direction, policy response, and market pricing rather than the number alone.
-- **cross-border amplification**: watch the direction, policy response, and market pricing rather than the number alone.
-
-Do not read **content provenance** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
-
-![Election Disinformation and AI: A Practical Standard for Reading Democratic Risk signal checklist](/images/2026-05-22-election-disinformation-risk/signal-map.svg)
+- **content provenance**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
+- **platform takedown speed**: Connect domestic headlines to external causes. Mark whether exports, import prices, exchange rates, energy costs, or security budgets move first.
+- **official election notices**: Check inventory and contract cushions. Market prices can look stable while shipping, insurance, or compliance costs pass through later.
+- **cross-border amplification**: Choose the next source to watch. Decide whether official statistics, institutional forecasts, or government releases would change the baseline.
 
 ## Korea-Facing Angle
 
@@ -68,11 +67,11 @@ Household readers can translate **content provenance** into living costs, loan r
 
 ## Reader Checklist
 
-- Track whether content provenance first affects exports, prices, funding, or public budgets.
-- Track whether platform takedown speed first affects exports, prices, funding, or public budgets.
-- Track whether official election notices first affects exports, prices, funding, or public budgets.
+- Decide whether **content provenance** is creating a price shock, a volume shock, or both.
+- Check whether **platform takedown speed** is a short news cycle or a structural change that can last for quarters.
+- Mark the Korea-facing channel for **official election notices**: exports, import prices, financial markets, security costs, or household costs.
 - Separate official data from interpretation and commentary.
-- Check the release date, reference period, and assumptions before using any forecast.
+- Check release date, reference period, and assumptions before using any forecast.
 
 ## Source Notes
 

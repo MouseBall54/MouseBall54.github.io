@@ -29,7 +29,7 @@ tags:
 
 Energy security is not one oil-price headline; it is a combined cost problem across crude oil, LNG, electricity, exchange rates, inventories, and geopolitical risk.
 
-This article is an educational briefing, not investment advice, legal advice, or a recommendation to buy a specific energy product. It gives readers a practical order for reading **Reading Energy Security: Separate Oil and Gas Price Shocks** with official-source context.
+This article is educational and does not provide investment, legal, or energy-product advice for **Reading Energy Security: Separate Oil and Gas Price Shocks**. It uses official-source context to connect the issue with costs, infrastructure, policy, and Korea-facing channels.
 
 ![Reading Energy Security: Separate Oil and Gas Price Shocks core flow summary](/images/2026-05-18-energy-security-oil-gas-shocks/hero.svg)
 
@@ -37,27 +37,23 @@ This article is an educational briefing, not investment advice, legal advice, or
 
 IEA and EIA data repeatedly show that energy prices need to be separated into supply shocks, demand slowdown, inventories, and transport risk.
 
-Reading Energy Security: Separate Oil and Gas Price Shocks becomes economically relevant when Brent and Dubai crude, LNG spot price, and KRW/USD exchange rate move together. Because Korea depends heavily on imported energy, a weaker won combined with higher fuel prices can hit corporate costs and household utility debates together. The practical task is to read the sequence between signals rather than one headline.
+Because Korea depends heavily on imported energy, a weaker won combined with higher fuel prices can hit corporate costs and household utility debates together. The domestic cost path becomes clearer when **Brent and Dubai crude**, **LNG spot price**, and **KRW/USD exchange rate** are read as a sequence. Do not treat one monthly number or one headline as the whole story; separate demand, supply, price, and policy lag.
 
-This is why the topic should not be reduced to a simple for-or-against debate. If Brent and Dubai crude changes without LNG spot price, the result can be different. If KRW/USD exchange rate looks stable while commercial inventories worsens, costs can appear later.
+A simple for-or-against debate hides implementation risk. Demand can move before supply bottlenecks clear, and stable prices can still hide grid, permitting, or financing constraints.
 
 ## Core Structure
 
-- **Demand**: use Brent and Dubai crude to locate where and when load or exposure is changing.
-- **Supply**: use LNG spot price to test whether real supply capacity or a bottleneck is visible.
-- **Price**: use KRW/USD exchange rate to trace the lag into tariffs, import costs, or industrial margins.
-- **Risk**: use commercial inventories to separate policy, climate, and supply-chain risk.
+- **Demand**: use **Brent and Dubai crude** to locate where and when exposure is changing.
+- **Supply**: use **LNG spot price** to test whether the issue is real capacity or a bottleneck.
+- **Price**: use **KRW/USD exchange rate** to trace the lag into tariffs, import costs, or industrial margins.
+- **Risk**: use **commercial inventories** to separate policy, climate, and supply-chain risk.
 
 ## Signals To Watch
 
-- **Brent and Dubai crude**: for Reading Energy Security: Separate Oil and Gas Price Shocks, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **LNG spot price**: for Reading Energy Security: Separate Oil and Gas Price Shocks, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **KRW/USD exchange rate**: for Reading Energy Security: Separate Oil and Gas Price Shocks, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **commercial inventories**: for Reading Energy Security: Separate Oil and Gas Price Shocks, read direction, duration, and domestic cost channel before treating it as a standalone number.
-
-Brent and Dubai crude alone can show direction while hiding the cause. Reading it with LNG spot price and KRW/USD exchange rate makes it easier to tell whether the issue is a price shock, infrastructure bottleneck, or policy lag.
-
-![Reading Energy Security: Separate Oil and Gas Price Shocks signal checklist map](/images/2026-05-18-energy-security-oil-gas-shocks/signal-map.svg)
+- **Brent and Dubai crude**: Read direction together with duration. A one-day price move and a multi-quarter volume shift require different decisions.
+- **LNG spot price**: Write the domestic transmission channel. Mark whether it reaches tariffs, import prices, industrial costs, or local infrastructure first.
+- **KRW/USD exchange rate**: Check the implementation bottleneck. Grid connection, permits, finance, equipment, labour, and local acceptance can delay headline targets.
+- **commercial inventories**: Separate the policy assumption. Subsidies, regulation, taxes, and international rules can change the cost structure of the same technology.
 
 ## Korea-Facing Transmission
 
@@ -74,14 +70,14 @@ At implementation stage, the first question is: Put oil, LNG, and exchange rates
 - Put oil, LNG, and exchange rates in one table.
 - Separate spot prices from long-term contract prices.
 - Check whether inventories absorb the shock or prices do all the adjustment.
-
-This checklist is not for predicting the next price move. For **Reading Energy Security: Separate Oil and Gas Price Shocks**, it is a baseline for checking what changed, what did not change, and which constraint matters most when a new policy, forecast, or company announcement appears.
+Check baseline year, geography, unit, and policy assumptions first.
+Translate the signal into Korea's import structure, grid geography, industrial exposure, or household cost channel.
 
 ## How To Read The Numbers
 
-The numbers in Reading Energy Security: Separate Oil and Gas Price Shocks change meaning when baseline year, region, or unit changes. For Brent and Dubai crude and commercial inventories, peaks, delays, and exceptions often matter more than averages.
+Climate and energy numbers can change meaning when baseline year, region, or unit changes. Peaks, delays, and exceptions often matter more than averages.
 
-Before using climate or energy data, check the **baseline, period, unit, geographic coverage, and policy assumptions**. Then translate Brent and Dubai crude, LNG spot price, and KRW/USD exchange rate into Korea's import structure, grid geography, industrial exposure, or household cost channels.
+Check the **baseline, period, unit, geographic coverage, and policy assumptions** first. Then translate **Brent and Dubai crude**, **LNG spot price**, and **KRW/USD exchange rate** into Korea's import structure, grid geography, industrial exposure, or household cost channels.
 
 ## Source Notes
 

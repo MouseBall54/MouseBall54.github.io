@@ -29,7 +29,7 @@ tags:
 
 Flight delays should be documented with cause, delay time, announcements, meals or lodging offered, missed connections, and extra-cost receipts.
 
-This article is educational information, not legal advice. It explains a practical workflow for **Flight Delay Documentation: Evidence Before Compensation Claims** using evidence, dates, deadlines, and official-source escalation references.
+This article is educational and does not provide legal advice for **Flight Delay Documentation: Evidence Before Compensation Claims**. It focuses on preserving evidence, checking dates and contract wording, and choosing the right seller, platform, payment-provider, carrier, or regulator channel.
 
 ![Flight Delay Documentation: Evidence Before Compensation Claims core flow summary](/images/2026-05-17-flight-delay-documentation/hero.svg)
 

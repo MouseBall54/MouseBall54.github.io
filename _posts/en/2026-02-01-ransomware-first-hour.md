@@ -26,12 +26,11 @@ tags:
   - Small Business
   - Backup
 ---
-
-Digital security is not only for specialists. A small signal such as **mass extension change** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+Random rebooting or cleanup tools can erase logs and make scope assessment harder. Start with: disconnect suspected devices from the network. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 When ransomware is suspected, the first priority is network isolation, evidence preservation, internal escalation, and reporting paths, not random cleanup.
 
-This guide is not a product recommendation. It turns **mass extension change** into a response routine, starting with: disconnect suspected devices from the network.
+Use this as a response routine for **mass extension change**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![The First Hour of Suspected Ransomware: Power, Network, and Reporting Order core security flow](/images/2026-05-21-ransomware-first-hour/hero.svg)
 
@@ -45,14 +44,10 @@ For **mass extension change, ransom note**, the baseline is pause, verify separa
 
 ## Warning Signals To Check First
 
-- **mass extension change**: pause immediately and verify through a trusted route.
-- **ransom note**: pause immediately and verify through a trusted route.
-- **encrypted shared folders**: pause immediately and verify through a trusted route.
-- **admin account anomaly**: pause immediately and verify through a trusted route.
-
-A signal such as **mass extension change** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: disconnect suspected devices from the network.
-
-![The First Hour of Suspected Ransomware: Power, Network, and Reporting Order response checklist](/images/2026-05-21-ransomware-first-hour/checklist.svg)
+- **mass extension change**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **ransom note**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **encrypted shared folders**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **admin account anomaly**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **mass ex
 
 ## Monthly Checkup
 
-- Confirm that you can: disconnect suspected devices from the network.
-- Confirm that you can: record screenshots, filenames, time, and accounts.
-- Confirm that you can: escalate internally and use official reporting channels.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Disconnect suspected devices from the network.
+- Record screenshots, filenames, time, and accounts.
+- Escalate internally and use official reporting channels.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

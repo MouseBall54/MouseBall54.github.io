@@ -26,12 +26,11 @@ tags:
   - Health Records
   - Public Health
 ---
-
-Health literacy is not self-diagnosis. It is the ability to track observable signs such as **record gap**, know when rest is reasonable, and know when professional guidance is safer.
+Vaccination is both personal protection and a way to reduce risk for family and community. Track **record gap** with start date, duration, daily-function impact, and safety concerns so the threshold for qualified help is clearer.
 
 Adult vaccination needs can change with age, work, travel, medical conditions, and pregnancy; memory alone is not enough.
 
-This article is educational and is not diagnosis or treatment advice for **Adult Vaccination Record Review: Use Records, Not Memory**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
+This article is educational and does not diagnose, treat, or set dosage for **Adult Vaccination Record Review: Use Records, Not Memory**. Sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, severe bleeding, or any immediate safety concern should be handled through local emergency services or qualified medical professionals.
 
 ![Adult Vaccination Record Review: Use Records, Not Memory core health flow](/images/2026-05-19-vaccination-record-review/hero.svg)
 
@@ -45,14 +44,10 @@ For **record gap, travel plan**, use patterns over one number, daily function ov
 
 ## Signals To Check First
 
-- **record gap**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **travel plan**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **work exposure**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **medical condition**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-
-Do not interpret **record gap** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
-
-![Adult Vaccination Record Review: Use Records, Not Memory checklist](/images/2026-05-19-vaccination-record-review/checklist.svg)
+- **record gap**: Record start date, duration, frequency, triggers, and relieving factors in the same format. Sudden worsening or safety concerns should move professional help first.
+- **travel plan**: Write the effect on daily function. Changes in school, work, sleep, eating, or mobility often matter more than a vague severity label.
+- **work exposure**: Check age, pregnancy, existing conditions, medicines, recent infection, and injury. The same sign can mean different things under different conditions.
+- **medical condition**: For breathing trouble, chest pain, confusion, severe bleeding, self-harm risk, or other emergency signs, seeking urgent help comes before record keeping.
 
 ## Practical Order
 
@@ -70,9 +65,9 @@ Before a visit, write the start date, duration, triggers, relieving factors, rel
 
 ## Monthly Checkup
 
-- Confirm that you can: gather vaccination records in one place.
-- Confirm that you can: check recommendations by age and situation.
-- Confirm that you can: tell clinicians about medical conditions or pregnancy possibility.
+- Gather vaccination records in one place.
+- Check recommendations by age and situation.
+- Tell clinicians about medical conditions or pregnancy possibility.
 - Write how symptoms or habits affect daily function.
 - Recheck health information through official local guidance and qualified medical professionals.
 

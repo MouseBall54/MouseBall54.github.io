@@ -26,8 +26,7 @@ tags:
   - Collaboration
   - ExamPrep
 ---
-
-A study method becomes useful when it leaves an observable signal such as **prework**. This guide turns **Study Group Rules: Leave Problem Solving and Feedback** into a routine that can be tested in one session.
+The structure for explaining and checking matters more than the feeling of studying together. The goal is to leave **prework** and **explanation turn** so the next review can start with a decision, not setup.
 
 A study group works when it leaves solved problems, explanations, feedback, and next tasks, not only attendance.
 
@@ -39,14 +38,14 @@ This article is educational. **Study Group Rules: Leave Problem Solving and Feed
 
 The structure for explaining and checking matters more than the feeling of studying together.
 
-This routine is not decoration for a longer study session. It should leave **prework** and **explanation turn** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **prework** and **explanation turn** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **prework**: for Study Group Rules: Leave Problem Solving and Feedback, leave this as a record that can be checked in the next review.
-- **explanation turn**: for Study Group Rules: Leave Problem Solving and Feedback, leave this as a record that can be checked in the next review.
-- **peer feedback**: for Study Group Rules: Leave Problem Solving and Feedback, leave this as a record that can be checked in the next review.
-- **next task**: for Study Group Rules: Leave Problem Solving and Feedback, leave this as a record that can be checked in the next review.
+- **prework**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **explanation turn**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **peer feedback**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **next task**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Study Group Rules: Leave Problem Solving and Feedback action checklist](/images/2026-05-23-study-group-rules/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Assign problems before the meetin
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **prework**, **explanation turn**, and **peer feedback**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `prework`, `explanation turn`, and `peer feedback`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

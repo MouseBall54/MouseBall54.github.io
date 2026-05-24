@@ -29,7 +29,7 @@ tags:
 
 Fake reviews are hard to spot from stars alone; timing, repeated wording, photo specificity, verified purchases, and seller responses need to be read together.
 
-This article is educational information, not legal advice. It explains a practical workflow for **Fake Review Triage: Patterns and Evidence Before Star Ratings** using evidence, dates, deadlines, and official-source escalation references.
+This article is educational and does not provide legal advice for **Fake Review Triage: Patterns and Evidence Before Star Ratings**. It focuses on preserving evidence, checking dates and contract wording, and choosing the right seller, platform, payment-provider, carrier, or regulator channel.
 
 ![Fake Review Triage: Patterns and Evidence Before Star Ratings core flow summary](/images/2026-05-17-fake-review-triage/hero.svg)
 

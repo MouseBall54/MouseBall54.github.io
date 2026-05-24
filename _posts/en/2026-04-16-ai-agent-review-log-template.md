@@ -26,7 +26,7 @@ tags:
   - Verification
   - Workflow
 ---
-This guide is checked against official documentation on May 24, 2026. CLI behavior changes, so verify the version and linked source notes before copying a setting into a production workflow.
+Checked against official documentation on May 24, 2026, this post focuses on the setup and failure points behind **AI Agent Review Log Template: Leave Evidence Humans Can Check**. The practical baseline is: At the end of work, ask for verification logs, tests not run, and human-review risks before a general summary.
 
 ## Quick Answer
 

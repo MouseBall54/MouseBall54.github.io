@@ -26,8 +26,7 @@ tags:
   - API Design
   - Structured Outputs
 ---
-
-AI trends are not only model-name news. They are signals such as **input type** that change real workflow quality. This guide reads **OpenAI Responses API Practical Guide: Inputs, Tools, and Structured Outputs** through adoption, verification, and operating responsibility.
+API selection is not about chasing the newest name; it is about how state, tools, and output validation fit together. Before adoption, document **input type** and **tool call** so review, cost control, and accountability are not pushed downstream.
 
 The Responses API is easier to understand when model output, tools, structured output, and multimodal input are designed as one workflow.
 
@@ -43,10 +42,10 @@ For this topic, start with **input type** and **tool call**. If either is vague,
 
 ## Signals To Check First
 
-- **input type**: for OpenAI Responses API Practical Guide: Inputs, Tools, and Structured Outputs, record the standard, owner, and failure response for this item.
-- **tool call**: for OpenAI Responses API Practical Guide: Inputs, Tools, and Structured Outputs, record the standard, owner, and failure response for this item.
-- **structured output**: for OpenAI Responses API Practical Guide: Inputs, Tools, and Structured Outputs, record the standard, owner, and failure response for this item.
-- **retry rule**: for OpenAI Responses API Practical Guide: Inputs, Tools, and Structured Outputs, record the standard, owner, and failure response for this item.
+- **input type**: Define the tools, data, and execution rights the agent can actually use. Separate read, draft, and external execution permissions, and write down prohibited actions explicitly.
+- **tool call**: Define where a human must approve the workflow. Costly actions, user-impacting output, external transfer, and file deletion should remain blocked until this gate passes.
+- **structured output**: Keep enough evidence for later review. Store the input, tool call, decision reason, and failure class together so the next run can be compared against the same standard.
+- **retry rule**: Define the recovery path before the workflow runs. Name the previous version, owner, stop condition, and user-notice rule so a failed automation can be reversed quickly.
 
 ![OpenAI Responses API Practical Guide: Inputs, Tools, and Structured Outputs verification checklist](/images/2026-05-23-openai-responses-api-guide/checklist.png)
 

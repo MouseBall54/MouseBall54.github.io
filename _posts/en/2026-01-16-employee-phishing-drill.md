@@ -26,12 +26,11 @@ tags:
   - Small Business
   - Incident Response
 ---
-
-Digital security is not only for specialists. A small signal such as **unclear reporting path** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+Punitive drills make people hide mistakes and slow down real incident response. Start with: make the report button or mailbox obvious. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 The goal of phishing drills is not public blame. It is a fast reporting habit that reduces repeat harm across the organization.
 
-This guide is not a product recommendation. It turns **unclear reporting path** into a response routine, starting with: make the report button or mailbox obvious.
+Use this as a response routine for **unclear reporting path**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![Employee Phishing Drills: Build Reporting Habits, Not Blame core security flow](/images/2026-05-21-employee-phishing-drill/hero.svg)
 
@@ -45,14 +44,10 @@ For **unclear reporting path, public shaming**, the baseline is pause, verify se
 
 ## Warning Signals To Check First
 
-- **unclear reporting path**: pause immediately and verify through a trusted route.
-- **public shaming**: pause immediately and verify through a trusted route.
-- **drill without education**: pause immediately and verify through a trusted route.
-- **delayed real reports**: pause immediately and verify through a trusted route.
-
-A signal such as **unclear reporting path** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: make the report button or mailbox obvious.
-
-![Employee Phishing Drills: Build Reporting Habits, Not Blame response checklist](/images/2026-05-21-employee-phishing-drill/checklist.svg)
+- **unclear reporting path**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **public shaming**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **drill without education**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **delayed real reports**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **unclear
 
 ## Monthly Checkup
 
-- Confirm that you can: make the report button or mailbox obvious.
-- Confirm that you can: explain signals after drills, not only answers.
-- Confirm that you can: give positive feedback to reporters.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Make the report button or mailbox obvious.
+- Explain signals after drills, not only answers.
+- Give positive feedback to reporters.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

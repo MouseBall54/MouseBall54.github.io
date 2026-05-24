@@ -26,12 +26,11 @@ tags:
   - MFA
   - Phishing
 ---
-
-Digital security is not only for specialists. A small signal such as **forwarding rules** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+Once email is compromised, attackers can reset other services and hide warning messages. Start with: use the strongest factor on email. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 Email receives resets and alerts, so it needs long unique passwords, MFA, and recovery checks before most other accounts.
 
-This guide is not a product recommendation. It turns **forwarding rules** into a response routine, starting with: use the strongest factor on email.
+Use this as a response routine for **forwarding rules**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![Email Account Security Baseline: Protecting the Key to Every Account core security flow](/images/2026-05-21-email-account-security-baseline/hero.svg)
 
@@ -45,14 +44,10 @@ For **forwarding rules, unknown login**, the baseline is pause, verify separatel
 
 ## Warning Signals To Check First
 
-- **forwarding rules**: pause immediately and verify through a trusted route.
-- **unknown login**: pause immediately and verify through a trusted route.
-- **password reset email**: pause immediately and verify through a trusted route.
-- **recovery method change**: pause immediately and verify through a trusted route.
-
-A signal such as **forwarding rules** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: use the strongest factor on email.
-
-![Email Account Security Baseline: Protecting the Key to Every Account response checklist](/images/2026-05-21-email-account-security-baseline/checklist.svg)
+- **forwarding rules**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **unknown login**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **password reset email**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **recovery method change**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **forward
 
 ## Monthly Checkup
 
-- Confirm that you can: use the strongest factor on email.
-- Confirm that you can: review forwarding rules and login history.
-- Confirm that you can: keep recovery email and phone number current.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Use the strongest factor on email.
+- Review forwarding rules and login history.
+- Keep recovery email and phone number current.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

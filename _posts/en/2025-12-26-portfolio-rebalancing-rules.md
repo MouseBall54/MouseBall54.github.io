@@ -31,7 +31,7 @@ Personal finance is less about guessing returns and more about managing how **al
 
 Rebalancing is not return prediction; it is a process for returning to target risk. Without rules, emotions take over.
 
-This article is educational and is not individualized financial advice or a product recommendation for **Portfolio Rebalancing Rules: Why Selling Winners Feels Hard**. It uses official-source guidance and basic calculations so readers can start by checking **allocation drift**.
+This article is educational and does not give individualized investment, tax, lending, or legal advice for **Portfolio Rebalancing Rules: Why Selling Winners Feels Hard**. Use it to organize questions, then verify local rules, fees, contracts, and personal risk capacity before acting.
 
 ![Portfolio Rebalancing Rules: Why Selling Winners Feels Hard core finance flow](/images/2026-05-20-portfolio-rebalancing-rules/hero.svg)
 
@@ -68,11 +68,11 @@ When **allocation drift** touches both debt and investing decisions, separate sh
 
 ## Monthly Checkup
 
-- Confirm that you can: record target allocation.
-- Confirm that you can: set a review date or drift threshold.
-- Confirm that you can: use new contributions first when taxes or fees matter.
-- Write whether the decision affects budget, emergency cash, debt, or long-term goals.
-- Recheck tax and financial rules through official guidance for the country where they apply.
+- Record target allocation.
+- Set a review date or drift threshold.
+- Use new contributions first when taxes or fees matter.
+- Check fees, taxes, contract terms, and liquidity limits together.
+- Verify local financial and tax rules before applying the idea to your situation.
 
 ## Source Notes
 

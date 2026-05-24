@@ -29,7 +29,7 @@ tags:
 
 Coal phase-down is central to emissions reduction, but closure dates need to align with replacement supply, grids, local jobs, and reserve margins.
 
-This article is an educational briefing, not investment advice, legal advice, or a recommendation to buy a specific energy product. It gives readers a practical order for reading **Coal Phase-Down and Reliability: What Closure Dates Miss** with official-source context.
+This article is educational and does not provide investment, legal, or energy-product advice for **Coal Phase-Down and Reliability: What Closure Dates Miss**. It uses official-source context to connect the issue with costs, infrastructure, policy, and Korea-facing channels.
 
 ![Coal Phase-Down and Reliability: What Closure Dates Miss core flow summary](/images/2026-05-18-coal-phase-down-reliability/hero.svg)
 
@@ -37,27 +37,23 @@ This article is an educational briefing, not investment advice, legal advice, or
 
 IEA and UNEP materials underline the need for faster emissions reduction while still designing transitions that protect electricity reliability.
 
-Coal Phase-Down and Reliability: What Closure Dates Miss becomes economically relevant when closure schedule, replacement supply, and reserve margin move together. Korea can reduce social cost only if coal phase-down is read with tariffs, local economies, LNG dependence, and renewable grid connection. The practical task is to read the sequence between signals rather than one headline.
+Korea can reduce social cost only if coal phase-down is read with tariffs, local economies, LNG dependence, and renewable grid connection. The domestic cost path becomes clearer when **closure schedule**, **replacement supply**, and **reserve margin** are read as a sequence. Do not treat one monthly number or one headline as the whole story; separate demand, supply, price, and policy lag.
 
-This is why the topic should not be reduced to a simple for-or-against debate. If closure schedule changes without replacement supply, the result can be different. If reserve margin looks stable while local jobs worsens, costs can appear later.
+A simple for-or-against debate hides implementation risk. Demand can move before supply bottlenecks clear, and stable prices can still hide grid, permitting, or financing constraints.
 
 ## Core Structure
 
-- **Demand**: use closure schedule to locate where and when load or exposure is changing.
-- **Supply**: use replacement supply to test whether real supply capacity or a bottleneck is visible.
-- **Price**: use reserve margin to trace the lag into tariffs, import costs, or industrial margins.
-- **Risk**: use local jobs to separate policy, climate, and supply-chain risk.
+- **Demand**: use **closure schedule** to locate where and when exposure is changing.
+- **Supply**: use **replacement supply** to test whether the issue is real capacity or a bottleneck.
+- **Price**: use **reserve margin** to trace the lag into tariffs, import costs, or industrial margins.
+- **Risk**: use **local jobs** to separate policy, climate, and supply-chain risk.
 
 ## Signals To Watch
 
-- **closure schedule**: for Coal Phase-Down and Reliability: What Closure Dates Miss, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **replacement supply**: for Coal Phase-Down and Reliability: What Closure Dates Miss, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **reserve margin**: for Coal Phase-Down and Reliability: What Closure Dates Miss, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **local jobs**: for Coal Phase-Down and Reliability: What Closure Dates Miss, read direction, duration, and domestic cost channel before treating it as a standalone number.
-
-closure schedule alone can show direction while hiding the cause. Reading it with replacement supply and reserve margin makes it easier to tell whether the issue is a price shock, infrastructure bottleneck, or policy lag.
-
-![Coal Phase-Down and Reliability: What Closure Dates Miss signal checklist map](/images/2026-05-18-coal-phase-down-reliability/signal-map.svg)
+- **closure schedule**: Read direction together with duration. A one-day price move and a multi-quarter volume shift require different decisions.
+- **replacement supply**: Write the domestic transmission channel. Mark whether it reaches tariffs, import prices, industrial costs, or local infrastructure first.
+- **reserve margin**: Check the implementation bottleneck. Grid connection, permits, finance, equipment, labour, and local acceptance can delay headline targets.
+- **local jobs**: Separate the policy assumption. Subsidies, regulation, taxes, and international rules can change the cost structure of the same technology.
 
 ## Korea-Facing Transmission
 
@@ -74,14 +70,14 @@ At implementation stage, the first question is: Compare retiring capacity with r
 - Compare retiring capacity with replaceable capacity in the same units.
 - Check local employment and tax-base impacts.
 - Read reserve margin together with peak demand.
-
-This checklist is not for predicting the next price move. For **Coal Phase-Down and Reliability: What Closure Dates Miss**, it is a baseline for checking what changed, what did not change, and which constraint matters most when a new policy, forecast, or company announcement appears.
+Check baseline year, geography, unit, and policy assumptions first.
+Translate the signal into Korea's import structure, grid geography, industrial exposure, or household cost channel.
 
 ## How To Read The Numbers
 
-The numbers in Coal Phase-Down and Reliability: What Closure Dates Miss change meaning when baseline year, region, or unit changes. For closure schedule and local jobs, peaks, delays, and exceptions often matter more than averages.
+Climate and energy numbers can change meaning when baseline year, region, or unit changes. Peaks, delays, and exceptions often matter more than averages.
 
-Before using climate or energy data, check the **baseline, period, unit, geographic coverage, and policy assumptions**. Then translate closure schedule, replacement supply, and reserve margin into Korea's import structure, grid geography, industrial exposure, or household cost channels.
+Check the **baseline, period, unit, geographic coverage, and policy assumptions** first. Then translate **closure schedule**, **replacement supply**, and **reserve margin** into Korea's import structure, grid geography, industrial exposure, or household cost channels.
 
 ## Source Notes
 

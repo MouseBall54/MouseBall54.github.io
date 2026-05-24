@@ -26,8 +26,7 @@ tags:
   - ExamPrep
   - Feedback
 ---
-
-A study method becomes useful when it leaves an observable signal such as **given condition**. This guide turns **Math Problem-Solving Routine: Read Conditions Before Formulas** into a routine that can be tested in one session.
+A formula is a tool; the problem conditions tell when it applies. The goal is to leave **given condition** and **target value** so the next review can start with a decision, not setup.
 
 Math study improves when conditions, method choice, checking, and error causes are recorded in a stable order.
 
@@ -39,14 +38,14 @@ This article is educational. **Math Problem-Solving Routine: Read Conditions Bef
 
 A formula is a tool; the problem conditions tell when it applies.
 
-This routine is not decoration for a longer study session. It should leave **given condition** and **target value** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **given condition** and **target value** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **given condition**: for Math Problem-Solving Routine: Read Conditions Before Formulas, leave this as a record that can be checked in the next review.
-- **target value**: for Math Problem-Solving Routine: Read Conditions Before Formulas, leave this as a record that can be checked in the next review.
-- **method choice**: for Math Problem-Solving Routine: Read Conditions Before Formulas, leave this as a record that can be checked in the next review.
-- **check step**: for Math Problem-Solving Routine: Read Conditions Before Formulas, leave this as a record that can be checked in the next review.
+- **given condition**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **target value**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **method choice**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **check step**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Math Problem-Solving Routine: Read Conditions Before Formulas action checklist](/images/2026-05-23-math-problem-solving-routine/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Separate given conditions from th
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **given condition**, **target value**, and **method choice**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `given condition`, `target value`, and `method choice`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

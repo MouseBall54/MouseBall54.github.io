@@ -26,8 +26,7 @@ tags:
   - Retrieval
   - AI Quality
 ---
-
-AI trends are not only model-name news. They are signals such as **retrieval hit rate** that change real workflow quality. This guide reads **RAG Evaluation Checklist: Separate Retrieval Quality from Answer Quality** through adoption, verification, and operating responsibility.
+RAG failures are dangerous because the answer can sound plausible. Separate retrieval failure from generation failure. Before adoption, document **retrieval hit rate** and **citation span** so review, cost control, and accountability are not pushed downstream.
 
 RAG quality requires separate checks for retrieved documents, citation location, missing questions, and answer faithfulness.
 
@@ -43,10 +42,10 @@ For this topic, start with **retrieval hit rate** and **citation span**. If eith
 
 ## Signals To Check First
 
-- **retrieval hit rate**: for RAG Evaluation Checklist: Separate Retrieval Quality from Answer Quality, record the standard, owner, and failure response for this item.
-- **citation span**: for RAG Evaluation Checklist: Separate Retrieval Quality from Answer Quality, record the standard, owner, and failure response for this item.
-- **unsupported claim**: for RAG Evaluation Checklist: Separate Retrieval Quality from Answer Quality, record the standard, owner, and failure response for this item.
-- **missing source**: for RAG Evaluation Checklist: Separate Retrieval Quality from Answer Quality, record the standard, owner, and failure response for this item.
+- **retrieval hit rate**: Define the tools, data, and execution rights the agent can actually use. Separate read, draft, and external execution permissions, and write down prohibited actions explicitly.
+- **citation span**: Define where a human must approve the workflow. Costly actions, user-impacting output, external transfer, and file deletion should remain blocked until this gate passes.
+- **unsupported claim**: Keep enough evidence for later review. Store the input, tool call, decision reason, and failure class together so the next run can be compared against the same standard.
+- **missing source**: Define the recovery path before the workflow runs. Name the previous version, owner, stop condition, and user-notice rule so a failed automation can be reversed quickly.
 
 ![RAG Evaluation Checklist: Separate Retrieval Quality from Answer Quality verification checklist](/images/2026-05-23-rag-evaluation-checklist/checklist.png)
 

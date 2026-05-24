@@ -26,12 +26,11 @@ tags:
   - SMS
   - Account Security
 ---
-
-Digital security is not only for specialists. A small signal such as **SIM swap** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+SMS codes can be exposed through SIM swap fraud, malware, or phishing pages. Start with: upgrade email and financial accounts first. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 Turning on MFA matters, but method choice matters too. Critical accounts should move from SMS toward authenticator apps, passkeys, or security keys.
 
-This guide is not a product recommendation. It turns **SIM swap** into a response routine, starting with: upgrade email and financial accounts first.
+Use this as a response routine for **SIM swap**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![Authenticator Apps vs SMS MFA: Which Accounts to Upgrade First core security flow](/images/2026-05-21-mfa-authenticator-vs-sms/hero.svg)
 
@@ -45,14 +44,10 @@ For **SIM swap, push bombing**, the baseline is pause, verify separately, preser
 
 ## Warning Signals To Check First
 
-- **SIM swap**: pause immediately and verify through a trusted route.
-- **push bombing**: pause immediately and verify through a trusted route.
-- **missing recovery codes**: pause immediately and verify through a trusted route.
-- **lost device**: pause immediately and verify through a trusted route.
-
-A signal such as **SIM swap** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: upgrade email and financial accounts first.
-
-![Authenticator Apps vs SMS MFA: Which Accounts to Upgrade First response checklist](/images/2026-05-21-mfa-authenticator-vs-sms/checklist.svg)
+- **SIM swap**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **push bombing**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **missing recovery codes**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **lost device**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **SIM swa
 
 ## Monthly Checkup
 
-- Confirm that you can: upgrade email and financial accounts first.
-- Confirm that you can: save recovery codes and register a backup factor.
-- Confirm that you can: check request location and time before approving push prompts.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Upgrade email and financial accounts first.
+- Save recovery codes and register a backup factor.
+- Check request location and time before approving push prompts.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

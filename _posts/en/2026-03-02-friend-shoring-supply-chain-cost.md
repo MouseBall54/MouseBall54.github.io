@@ -26,8 +26,11 @@ tags:
   - Supply Chains
   - Trade
 ---
+Moving supply chains toward trusted partners can reduce political risk, but it adds duplication, higher unit costs, and market fragmentation.
 
-Global affairs can look abstract until **FDI project counts** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
+For Korean readers, the practical question is where **FDI project counts** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
+
+For Korean readers, the practical question is where **FDI project counts** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
 
 Moving supply chains toward trusted partners can reduce political risk, but it adds duplication, higher unit costs, and market fragmentation.
 
@@ -39,18 +42,14 @@ This briefing treats **The Cost of Friend-Shoring: Resilient Supply Chains Are N
 
 Korean firms need portfolio design across the US, China, EU, and ASEAN rather than a simple replacement of one production base with another.
 
-For this issue, start with **FDI project counts**, then check whether **local-content rules** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
+Start with **FDI project counts**, then check whether **local-content rules** is moving through prices, physical supply, policy response, or financing conditions. A short market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
-- **FDI project counts**: watch the direction, policy response, and market pricing rather than the number alone.
-- **local-content rules**: watch the direction, policy response, and market pricing rather than the number alone.
-- **supplier redundancy**: watch the direction, policy response, and market pricing rather than the number alone.
-- **unit production cost**: watch the direction, policy response, and market pricing rather than the number alone.
-
-Do not read **FDI project counts** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
-
-![The Cost of Friend-Shoring: Resilient Supply Chains Are Not Free signal checklist](/images/2026-05-22-friend-shoring-supply-chain-cost/signal-map.svg)
+- **FDI project counts**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
+- **local-content rules**: Connect domestic headlines to external causes. Mark whether exports, import prices, exchange rates, energy costs, or security budgets move first.
+- **supplier redundancy**: Check inventory and contract cushions. Market prices can look stable while shipping, insurance, or compliance costs pass through later.
+- **unit production cost**: Choose the next source to watch. Decide whether official statistics, institutional forecasts, or government releases would change the baseline.
 
 ## Korea-Facing Angle
 
@@ -68,11 +67,11 @@ Household readers can translate **FDI project counts** into living costs, loan r
 
 ## Reader Checklist
 
-- Track whether FDI project counts first affects exports, prices, funding, or public budgets.
-- Track whether local-content rules first affects exports, prices, funding, or public budgets.
-- Track whether supplier redundancy first affects exports, prices, funding, or public budgets.
+- Decide whether **FDI project counts** is creating a price shock, a volume shock, or both.
+- Check whether **local-content rules** is a short news cycle or a structural change that can last for quarters.
+- Mark the Korea-facing channel for **supplier redundancy**: exports, import prices, financial markets, security costs, or household costs.
 - Separate official data from interpretation and commentary.
-- Check the release date, reference period, and assumptions before using any forecast.
+- Check release date, reference period, and assumptions before using any forecast.
 
 ## Source Notes
 

@@ -29,7 +29,7 @@ tags:
 
 If identity theft is suspected after shopping, payment reversal is not enough; accounts, cards, credit records, and reports need a staged response.
 
-This article is educational information, not legal advice. It explains a practical workflow for **Identity Theft After Shopping: Separate Payment Dispute From Identity Recovery** using evidence, dates, deadlines, and official-source escalation references.
+This article is educational and does not provide legal advice for **Identity Theft After Shopping: Separate Payment Dispute From Identity Recovery**. It focuses on preserving evidence, checking dates and contract wording, and choosing the right seller, platform, payment-provider, carrier, or regulator channel.
 
 ![Identity Theft After Shopping: Separate Payment Dispute From Identity Recovery core flow summary](/images/2026-05-17-identity-theft-after-shopping/hero.svg)
 

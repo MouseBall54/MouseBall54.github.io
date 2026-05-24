@@ -26,8 +26,7 @@ tags:
   - Productivity
   - Quality Control
 ---
-
-AI trends are not only model-name news. They are signals such as **task goal** that change real workflow quality. This guide reads **Prompt Engineering Checklist: Build Repeatable Input Structure** through adoption, verification, and operating responsibility.
+A strong prompt is closer to a reusable task brief than a clever one-off instruction. Before adoption, document **task goal** and **context boundary** so review, cost control, and accountability are not pushed downstream.
 
 Prompt quality improves when role, goal, context, constraints, and output format appear in a stable order.
 
@@ -43,10 +42,10 @@ For this topic, start with **task goal** and **context boundary**. If either is 
 
 ## Signals To Check First
 
-- **task goal**: for Prompt Engineering Checklist: Build Repeatable Input Structure, record the standard, owner, and failure response for this item.
-- **context boundary**: for Prompt Engineering Checklist: Build Repeatable Input Structure, record the standard, owner, and failure response for this item.
-- **output format**: for Prompt Engineering Checklist: Build Repeatable Input Structure, record the standard, owner, and failure response for this item.
-- **review rule**: for Prompt Engineering Checklist: Build Repeatable Input Structure, record the standard, owner, and failure response for this item.
+- **task goal**: Define the tools, data, and execution rights the agent can actually use. Separate read, draft, and external execution permissions, and write down prohibited actions explicitly.
+- **context boundary**: Define where a human must approve the workflow. Costly actions, user-impacting output, external transfer, and file deletion should remain blocked until this gate passes.
+- **output format**: Keep enough evidence for later review. Store the input, tool call, decision reason, and failure class together so the next run can be compared against the same standard.
+- **review rule**: Define the recovery path before the workflow runs. Name the previous version, owner, stop condition, and user-notice rule so a failed automation can be reversed quickly.
 
 ![Prompt Engineering Checklist: Build Repeatable Input Structure verification checklist](/images/2026-05-23-prompt-engineering-checklist/checklist.png)
 

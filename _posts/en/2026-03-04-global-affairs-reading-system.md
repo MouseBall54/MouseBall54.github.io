@@ -26,8 +26,11 @@ tags:
   - Risk
   - Strategy
 ---
+To read global affairs consistently, classify events across growth, energy, trade, finance, and social stability instead of memorizing headlines.
 
-Global affairs can look abstract until **growth shock** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
+For Korean readers, the practical question is where **growth shock** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
+
+For Korean readers, the practical question is where **growth shock** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
 
 To read global affairs consistently, classify events across growth, energy, trade, finance, and social stability instead of memorizing headlines.
 
@@ -39,19 +42,15 @@ This briefing treats **A Global Affairs Reading System: Five Axes to Check Befor
 
 Korean readers can translate the five axes into exports, FX, prices, security, and jobs to compare domestic and international news in one table.
 
-For this issue, start with **growth shock**, then check whether **energy shock** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
+Start with **growth shock**, then check whether **energy shock** is moving through prices, physical supply, policy response, or financing conditions. A short market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
-- **growth shock**: watch the direction, policy response, and market pricing rather than the number alone.
-- **energy shock**: watch the direction, policy response, and market pricing rather than the number alone.
-- **trade shock**: watch the direction, policy response, and market pricing rather than the number alone.
-- **funding shock**: watch the direction, policy response, and market pricing rather than the number alone.
-- **social stability shock**: watch the direction, policy response, and market pricing rather than the number alone.
-
-Do not read **growth shock** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
-
-![A Global Affairs Reading System: Five Axes to Check Before the Headline signal checklist](/images/2026-05-22-global-affairs-reading-system/signal-map.svg)
+- **growth shock**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
+- **energy shock**: Connect domestic headlines to external causes. Mark whether exports, import prices, exchange rates, energy costs, or security budgets move first.
+- **trade shock**: Check inventory and contract cushions. Market prices can look stable while shipping, insurance, or compliance costs pass through later.
+- **funding shock**: Choose the next source to watch. Decide whether official statistics, institutional forecasts, or government releases would change the baseline.
+- **social stability shock**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
 
 ## Korea-Facing Angle
 
@@ -69,11 +68,11 @@ Household readers can translate **growth shock** into living costs, loan rates, 
 
 ## Reader Checklist
 
-- Track whether growth shock first affects exports, prices, funding, or public budgets.
-- Track whether energy shock first affects exports, prices, funding, or public budgets.
-- Track whether trade shock first affects exports, prices, funding, or public budgets.
+- Decide whether **growth shock** is creating a price shock, a volume shock, or both.
+- Check whether **energy shock** is a short news cycle or a structural change that can last for quarters.
+- Mark the Korea-facing channel for **trade shock**: exports, import prices, financial markets, security costs, or household costs.
 - Separate official data from interpretation and commentary.
-- Check the release date, reference period, and assumptions before using any forecast.
+- Check release date, reference period, and assumptions before using any forecast.
 
 ## Source Notes
 

@@ -26,7 +26,7 @@ tags:
   - Environment
   - Security
 ---
-This guide is checked against official documentation on May 24, 2026. CLI behavior changes, so verify the version and linked source notes before copying a setting into a production workflow.
+Checked against official documentation on May 24, 2026, this post focuses on the setup and failure points behind **AI Agent Env and Secret Hygiene: Reduce Environment Variable Exposure**. The practical baseline is: Inject keys from shell, CI, or a secret manager, and keep deny rules plus environment allowlists in agent configuration.
 
 ## Quick Answer
 

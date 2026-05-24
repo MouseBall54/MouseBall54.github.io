@@ -26,8 +26,11 @@ tags:
   - FX
   - Capital Flows
 ---
+The BIS highlights trade tensions, non-bank finance, and monetary-system change. Dollar funding costs are one of the fastest signals of that connectivity.
 
-Global affairs can look abstract until **cross-currency basis** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
+For Korean readers, the practical question is where **cross-currency basis** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
+
+For Korean readers, the practical question is where **cross-currency basis** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
 
 The BIS highlights trade tensions, non-bank finance, and monetary-system change. Dollar funding costs are one of the fastest signals of that connectivity.
 
@@ -39,18 +42,14 @@ This briefing treats **Dollar Funding and Financial Stability: How Geopolitics G
 
 For Korea, global pressure rises when USD/KRW, foreign portfolio flows, and corporate dollar debt move in the same direction.
 
-For this issue, start with **cross-currency basis**, then check whether **Treasury yields** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
+Start with **cross-currency basis**, then check whether **Treasury yields** is moving through prices, physical supply, policy response, or financing conditions. A short market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
-- **cross-currency basis**: watch the direction, policy response, and market pricing rather than the number alone.
-- **Treasury yields**: watch the direction, policy response, and market pricing rather than the number alone.
-- **portfolio flows**: watch the direction, policy response, and market pricing rather than the number alone.
-- **bank dollar liquidity**: watch the direction, policy response, and market pricing rather than the number alone.
-
-Do not read **cross-currency basis** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
-
-![Dollar Funding and Financial Stability: How Geopolitics Gets Translated Into FX signal checklist](/images/2026-05-22-dollar-funding-financial-stability/signal-map.svg)
+- **cross-currency basis**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
+- **Treasury yields**: Connect domestic headlines to external causes. Mark whether exports, import prices, exchange rates, energy costs, or security budgets move first.
+- **portfolio flows**: Check inventory and contract cushions. Market prices can look stable while shipping, insurance, or compliance costs pass through later.
+- **bank dollar liquidity**: Choose the next source to watch. Decide whether official statistics, institutional forecasts, or government releases would change the baseline.
 
 ## Korea-Facing Angle
 
@@ -68,11 +67,11 @@ Household readers can translate **cross-currency basis** into living costs, loan
 
 ## Reader Checklist
 
-- Track whether cross-currency basis first affects exports, prices, funding, or public budgets.
-- Track whether Treasury yields first affects exports, prices, funding, or public budgets.
-- Track whether portfolio flows first affects exports, prices, funding, or public budgets.
+- Decide whether **cross-currency basis** is creating a price shock, a volume shock, or both.
+- Check whether **Treasury yields** is a short news cycle or a structural change that can last for quarters.
+- Mark the Korea-facing channel for **portfolio flows**: exports, import prices, financial markets, security costs, or household costs.
 - Separate official data from interpretation and commentary.
-- Check the release date, reference period, and assumptions before using any forecast.
+- Check release date, reference period, and assumptions before using any forecast.
 
 ## Source Notes
 

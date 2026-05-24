@@ -29,7 +29,7 @@ tags:
 
 Critical-minerals risk depends not only on mine reserves but also on where refining and processing are concentrated and where export controls emerge.
 
-This article is an educational briefing, not investment advice, legal advice, or a recommendation to buy a specific energy product. It gives readers a practical order for reading **Critical Minerals Refining Risk: Processing Concentration Before Reserves** with official-source context.
+This article is educational and does not provide investment, legal, or energy-product advice for **Critical Minerals Refining Risk: Processing Concentration Before Reserves**. It uses official-source context to connect the issue with costs, infrastructure, policy, and Korea-facing channels.
 
 ![Critical Minerals Refining Risk: Processing Concentration Before Reserves core flow summary](/images/2026-05-18-critical-minerals-refining-risk/hero.svg)
 
@@ -37,27 +37,23 @@ This article is an educational briefing, not investment advice, legal advice, or
 
 IEA critical-minerals analysis shows rising demand from batteries, grids, EVs, and advanced manufacturing, making refining concentration a security issue.
 
-Critical Minerals Refining Risk: Processing Concentration Before Reserves becomes economically relevant when refining concentration, export controls, and long-term contracts move together. Korea's battery and semiconductor sectors need to examine refining dependence and alternative procurement before looking only at raw material prices. The practical task is to read the sequence between signals rather than one headline.
+Korea's battery and semiconductor sectors need to examine refining dependence and alternative procurement before looking only at raw material prices. The domestic cost path becomes clearer when **refining concentration**, **export controls**, and **long-term contracts** are read as a sequence. Do not treat one monthly number or one headline as the whole story; separate demand, supply, price, and policy lag.
 
-This is why the topic should not be reduced to a simple for-or-against debate. If refining concentration changes without export controls, the result can be different. If long-term contracts looks stable while recycling volumes worsens, costs can appear later.
+A simple for-or-against debate hides implementation risk. Demand can move before supply bottlenecks clear, and stable prices can still hide grid, permitting, or financing constraints.
 
 ## Core Structure
 
-- **Demand**: use refining concentration to locate where and when load or exposure is changing.
-- **Supply**: use export controls to test whether real supply capacity or a bottleneck is visible.
-- **Price**: use long-term contracts to trace the lag into tariffs, import costs, or industrial margins.
-- **Risk**: use recycling volumes to separate policy, climate, and supply-chain risk.
+- **Demand**: use **refining concentration** to locate where and when exposure is changing.
+- **Supply**: use **export controls** to test whether the issue is real capacity or a bottleneck.
+- **Price**: use **long-term contracts** to trace the lag into tariffs, import costs, or industrial margins.
+- **Risk**: use **recycling volumes** to separate policy, climate, and supply-chain risk.
 
 ## Signals To Watch
 
-- **refining concentration**: for Critical Minerals Refining Risk: Processing Concentration Before Reserves, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **export controls**: for Critical Minerals Refining Risk: Processing Concentration Before Reserves, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **long-term contracts**: for Critical Minerals Refining Risk: Processing Concentration Before Reserves, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **recycling volumes**: for Critical Minerals Refining Risk: Processing Concentration Before Reserves, read direction, duration, and domestic cost channel before treating it as a standalone number.
-
-refining concentration alone can show direction while hiding the cause. Reading it with export controls and long-term contracts makes it easier to tell whether the issue is a price shock, infrastructure bottleneck, or policy lag.
-
-![Critical Minerals Refining Risk: Processing Concentration Before Reserves signal checklist map](/images/2026-05-18-critical-minerals-refining-risk/signal-map.svg)
+- **refining concentration**: Read direction together with duration. A one-day price move and a multi-quarter volume shift require different decisions.
+- **export controls**: Write the domestic transmission channel. Mark whether it reaches tariffs, import prices, industrial costs, or local infrastructure first.
+- **long-term contracts**: Check the implementation bottleneck. Grid connection, permits, finance, equipment, labour, and local acceptance can delay headline targets.
+- **recycling volumes**: Separate the policy assumption. Subsidies, regulation, taxes, and international rules can change the cost structure of the same technology.
 
 ## Korea-Facing Transmission
 
@@ -74,14 +70,14 @@ At implementation stage, the first question is: Separate mining countries from r
 - Separate mining countries from refining countries.
 - Map export controls and tariff rules onto the supply chain.
 - Check how much recycling and long-term contracts reduce risk.
-
-This checklist is not for predicting the next price move. For **Critical Minerals Refining Risk: Processing Concentration Before Reserves**, it is a baseline for checking what changed, what did not change, and which constraint matters most when a new policy, forecast, or company announcement appears.
+Check baseline year, geography, unit, and policy assumptions first.
+Translate the signal into Korea's import structure, grid geography, industrial exposure, or household cost channel.
 
 ## How To Read The Numbers
 
-The numbers in Critical Minerals Refining Risk: Processing Concentration Before Reserves change meaning when baseline year, region, or unit changes. For refining concentration and recycling volumes, peaks, delays, and exceptions often matter more than averages.
+Climate and energy numbers can change meaning when baseline year, region, or unit changes. Peaks, delays, and exceptions often matter more than averages.
 
-Before using climate or energy data, check the **baseline, period, unit, geographic coverage, and policy assumptions**. Then translate refining concentration, export controls, and long-term contracts into Korea's import structure, grid geography, industrial exposure, or household cost channels.
+Check the **baseline, period, unit, geographic coverage, and policy assumptions** first. Then translate **refining concentration**, **export controls**, and **long-term contracts** into Korea's import structure, grid geography, industrial exposure, or household cost channels.
 
 ## Source Notes
 

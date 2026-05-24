@@ -26,7 +26,7 @@ tags:
   - JSON
   - CLI
 ---
-This guide is checked against official documentation on May 24, 2026. CLI behavior changes, so verify the version and linked source notes before copying a setting into a production workflow.
+Checked against official documentation on May 24, 2026, this post focuses on the setup and failure points behind **Claude Code Print JSON Automation: Basics of claude -p Output**. The practical baseline is: For automation, combine `claude -p`, `--output-format json`, narrow input files, and low-permission modes so output is verifiable.
 
 ## Quick Answer
 

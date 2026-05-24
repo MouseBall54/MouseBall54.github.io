@@ -26,8 +26,7 @@ tags:
   - Compliance
   - Business
 ---
-
-AI trends are not only model-name news. They are signals such as **system purpose** that change real workflow quality. This guide reads **EU AI Act Business Checklist: Why Non-EU Teams Should Watch It** through adoption, verification, and operating responsibility.
+Regulation can reach non-EU teams first as customer requirements and procurement checklists. Before adoption, document **system purpose** and **risk class** so review, cost control, and accountability are not pushed downstream.
 
 The EU AI Act can affect global customers, supply chains, vendor contracts, and product documentation beyond EU-only teams.
 
@@ -43,10 +42,10 @@ For this topic, start with **system purpose** and **risk class**. If either is v
 
 ## Signals To Check First
 
-- **system purpose**: for EU AI Act Business Checklist: Why Non-EU Teams Should Watch It, record the standard, owner, and failure response for this item.
-- **risk class**: for EU AI Act Business Checklist: Why Non-EU Teams Should Watch It, record the standard, owner, and failure response for this item.
-- **user notice**: for EU AI Act Business Checklist: Why Non-EU Teams Should Watch It, record the standard, owner, and failure response for this item.
-- **vendor documentation**: for EU AI Act Business Checklist: Why Non-EU Teams Should Watch It, record the standard, owner, and failure response for this item.
+- **system purpose**: Define the tools, data, and execution rights the agent can actually use. Separate read, draft, and external execution permissions, and write down prohibited actions explicitly.
+- **risk class**: Define where a human must approve the workflow. Costly actions, user-impacting output, external transfer, and file deletion should remain blocked until this gate passes.
+- **user notice**: Keep enough evidence for later review. Store the input, tool call, decision reason, and failure class together so the next run can be compared against the same standard.
+- **vendor documentation**: Define the recovery path before the workflow runs. Name the previous version, owner, stop condition, and user-notice rule so a failed automation can be reversed quickly.
 
 ![EU AI Act Business Checklist: Why Non-EU Teams Should Watch It verification checklist](/images/2026-05-23-eu-ai-act-business-checklist/checklist.png)
 

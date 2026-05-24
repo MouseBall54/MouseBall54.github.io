@@ -31,7 +31,7 @@ Personal finance is less about guessing returns and more about managing how **em
 
 Retirement saving should be decided with emergency cash, high-rate debt, tax benefits, and long-term goals in one priority map.
 
-This article is educational and is not individualized financial advice or a product recommendation for **Retirement Contribution Order: Emergency Cash, High-Rate Debt, Then Long-Term Investing**. It uses official-source guidance and basic calculations so readers can start by checking **emergency cash**.
+This article is educational and does not give individualized investment, tax, lending, or legal advice for **Retirement Contribution Order: Emergency Cash, High-Rate Debt, Then Long-Term Investing**. Use it to organize questions, then verify local rules, fees, contracts, and personal risk capacity before acting.
 
 ![Retirement Contribution Order: Emergency Cash, High-Rate Debt, Then Long-Term Investing core finance flow](/images/2026-05-20-retirement-contribution-order/hero.svg)
 
@@ -68,11 +68,11 @@ When **emergency cash** touches both debt and investing decisions, separate shor
 
 ## Monthly Checkup
 
-- Confirm that you can: fund the starter emergency tier first.
-- Confirm that you can: compare high-rate debt payoff with long-term investing.
-- Confirm that you can: review tax benefits and withdrawal limits of accounts.
-- Write whether the decision affects budget, emergency cash, debt, or long-term goals.
-- Recheck tax and financial rules through official guidance for the country where they apply.
+- Fund the starter emergency tier first.
+- Compare high-rate debt payoff with long-term investing.
+- Review tax benefits and withdrawal limits of accounts.
+- Check fees, taxes, contract terms, and liquidity limits together.
+- Verify local financial and tax rules before applying the idea to your situation.
 
 ## Source Notes
 

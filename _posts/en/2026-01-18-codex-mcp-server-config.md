@@ -26,7 +26,7 @@ tags:
   - Tool Use
   - AI Security
 ---
-This guide is checked against official documentation on May 24, 2026. CLI behavior changes, so verify the version and linked source notes before copying a setting into a production workflow.
+Checked against official documentation on May 24, 2026, this post focuses on the setup and failure points behind **Codex MCP Server config.toml Setup: mcp_servers and Tool Approval**. The practical baseline is: Register the server under `[mcp_servers.<name>]`, then limit tools with `enabled_tools`, `disabled_tools`, and default approval mode.
 
 ## Quick Answer
 

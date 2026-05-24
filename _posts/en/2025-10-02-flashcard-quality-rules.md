@@ -26,8 +26,7 @@ tags:
   - Recall
   - Memory
 ---
-
-A study method becomes useful when it leaves an observable signal such as **single prompt**. This guide turns **Flashcard Quality Rules: One Card, One Question** into a routine that can be tested in one session.
+A good card prompts retrieval; a bad card becomes another rereading note. The goal is to leave **single prompt** and **short answer** so the next review can start with a decision, not setup.
 
 Flashcards work better when each card keeps one question, a short answer, context, and failure history.
 
@@ -39,14 +38,14 @@ This article is educational. **Flashcard Quality Rules: One Card, One Question**
 
 A good card prompts retrieval; a bad card becomes another rereading note.
 
-This routine is not decoration for a longer study session. It should leave **single prompt** and **short answer** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **single prompt** and **short answer** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **single prompt**: for Flashcard Quality Rules: One Card, One Question, leave this as a record that can be checked in the next review.
-- **short answer**: for Flashcard Quality Rules: One Card, One Question, leave this as a record that can be checked in the next review.
-- **context**: for Flashcard Quality Rules: One Card, One Question, leave this as a record that can be checked in the next review.
-- **miss history**: for Flashcard Quality Rules: One Card, One Question, leave this as a record that can be checked in the next review.
+- **single prompt**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **short answer**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **context**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **miss history**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Flashcard Quality Rules: One Card, One Question action checklist](/images/2026-05-23-flashcard-quality-rules/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Keep one question per card'. Then
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **single prompt**, **short answer**, and **context**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `single prompt`, `short answer`, and `context`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

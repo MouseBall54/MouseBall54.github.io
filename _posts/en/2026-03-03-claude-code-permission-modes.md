@@ -26,7 +26,7 @@ tags:
   - AI Safety
   - Workflow
 ---
-This guide is checked against official documentation on May 24, 2026. CLI behavior changes, so verify the version and linked source notes before copying a setting into a production workflow.
+Checked against official documentation on May 24, 2026, this post focuses on the setup and failure points behind **Claude Code Permission Modes: plan, acceptEdits, auto, and bypassPermissions**. The practical baseline is: Use `plan` for unfamiliar repos, `acceptEdits` for normal work, reserve `auto` for trusted setups, and disable bypass where policy matters.
 
 ## Quick Answer
 

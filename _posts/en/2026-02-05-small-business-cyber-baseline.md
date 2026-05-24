@@ -26,12 +26,11 @@ tags:
   - MFA
   - Backup
 ---
-
-Digital security is not only for specialists. A small signal such as **shared password** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+One account, one laptop, or one shared password can stop payments, bookings, and customer records for a small operation. Start with: enable mfa on owner email. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 Small business security starts with email MFA, backups, updates, payment separation, and phishing training before expensive tools.
 
-This guide is not a product recommendation. It turns **shared password** into a response routine, starting with: enable MFA on owner email.
+Use this as a response routine for **shared password**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![Small Business Cyber Baseline: Ten Things to Do Before Buying More Tools core security flow](/images/2026-05-21-small-business-cyber-baseline/hero.svg)
 
@@ -45,14 +44,10 @@ For **shared password, no backup**, the baseline is pause, verify separately, pr
 
 ## Warning Signals To Check First
 
-- **shared password**: pause immediately and verify through a trusted route.
-- **no backup**: pause immediately and verify through a trusted route.
-- **single-owner approval**: pause immediately and verify through a trusted route.
-- **stale former-employee account**: pause immediately and verify through a trusted route.
-
-A signal such as **shared password** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: enable MFA on owner email.
-
-![Small Business Cyber Baseline: Ten Things to Do Before Buying More Tools response checklist](/images/2026-05-21-small-business-cyber-baseline/checklist.svg)
+- **shared password**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **no backup**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **single-owner approval**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **stale former-employee account**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **shared 
 
 ## Monthly Checkup
 
-- Confirm that you can: enable MFA on owner email.
-- Confirm that you can: keep recoverable backups for sales and customer files.
-- Confirm that you can: require two-person approval for payment changes.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Enable MFA on owner email.
+- Keep recoverable backups for sales and customer files.
+- Require two-person approval for payment changes.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

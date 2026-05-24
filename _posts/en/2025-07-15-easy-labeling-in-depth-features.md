@@ -6,9 +6,10 @@ header:
   overlay_image: /images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235507837.png
   overlay_filter: 0.36
   image_description: >
-    A visual summary explaining the main topic of this post: A Deep Dive into Easy Labeling's Features for YOLO Data Labeling
-title: "A Deep Dive into Easy Labeling's Features for YOLO Data Labeling"
+    A visual summary explaining the main topic of this post: Easy Labeling Features for YOLO Data Labeling
+title: "Easy Labeling Features for YOLO Data Labeling"
 date: 2025-07-15T00:00:00+09:00
+last_modified_at: 2026-05-24T00:00:00+09:00
 excerpt: "Unlock maximum efficiency in your YOLO data labeling workflow. This guide explores Easy Labeling's powerful features, from local file access and advanced annotation tools to smart label management for object detection. Everything you need for efficient dataset creation is here."
 
 seo_description: "Unlock maximum efficiency in your YOLO data labeling workflow. This guide explores Easy Labeling's powerful features, from local file access and advanced annotation tools to smart label management for object detection. Everything you need for efficient dataset creation is here."
@@ -26,7 +27,7 @@ tags:
 
 Hello! Today, I want to take you on a deep dive into the key features of **Easy Labeling**, a powerful image annotation tool designed to revolutionize the process of creating object detection datasets.
 
-Optimized especially for the YOLO format, Easy Labeling focuses on streamlining the user's workflow with a rich set of features that make the repetitive task of labeling faster, easier, and more accurate.
+The current repository documents Easy Labeling as a local annotation tool with two workflow tabs: Detection for YOLO bounding boxes and Segmentation for brush-based masks. This post focuses on the Detection-heavy productivity features, then notes where mask work follows a different flow.
 
 ![image-20250715235317783](/images/2025-07-15-easy-labeling-in-depth-features/image-20250715235317783.png)
 
@@ -41,11 +42,11 @@ One of the most significant advantages of Easy Labeling is its ability to work d
 
 ## 2. Intuitive and Powerful Annotation Tools
 
-Easy Labeling is equipped with all the essential tools for precise and rapid annotation.
+Easy Labeling includes separate tools for box annotation and mask annotation.
 
--   **Flexible Bounding Box Editing:** Intuitively draw bounding boxes with your mouse, resize them by dragging edges or corners, and easily move or delete them.
--   **Precision Control:** Freely zoom in and out, pan across the image to examine details, and get real-time coordinate displays for high-precision work.
--   **Drawing/Edit Mode Toggling:** Boost your efficiency by quickly switching between drawing and editing modes with the `Ctrl+Q` shortcut.
+-   **Detection Box Editing:** Draw, resize, move, delete, copy, paste, align, distribute, and change classes for YOLO boxes.
+-   **Segmentation Mask Editing:** Paint and erase masks, adjust brush size, move connected regions, and change the selected region class.
+-   **Precision Control:** Zoom, pan, use crosshair guidance, and switch draw/edit modes with `Ctrl+Q`.
 
 ![image-20250715235507837](/images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235507837.png)
 
@@ -83,14 +84,24 @@ Go beyond simple annotation with advanced features for managing your dataset sys
 
 ![image-20250715235825197](/images/2025-07-15-introducing-easy-labeling-in-depth-features/image-20250715235825197.png)
 
-## Try It Now!
+## Try It Now
 
-Easy Labeling is an open-source project that is continuously evolving with feedback from developers and researchers. Visit the GitHub page today to try it out and elevate your data labeling workflow to the next level!
+Easy Labeling is an open-source project that is continuously evolving with feedback from developers and researchers. Start from the launch page, and use the GitHub repository when you want to inspect the source or follow development.
 
-**[Visit the Easy Labeling GitHub Page](https://github.com/MouseBall54/easy_labeling)**
+**[Open Easy Labeling](https://mouseball54.github.io/easy_labeling/)**
+
+**[Visit the Easy Labeling GitHub repository](https://github.com/MouseBall54/easy_labeling)**
+
+## Source Notes
+
+- [Easy Labeling GitHub Repository](https://github.com/MouseBall54/easy_labeling): current tool scope, Detection/Segmentation workflows, save formats, browser requirements, and Electron build notes.
+- [MDN File System Access API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API): browser-side local folder access background.
+- [Ultralytics Object Detection Dataset Docs](https://docs.ultralytics.com/datasets/detect/): YOLO dataset and label-format reference.
+- [Label Studio Bounding Box Template](https://labelstud.io/templates/image_bbox): bounding-box annotation concepts used across labeling tools.
+
 ## Related Reading
 
 Continue with these related posts from the same topic area.
 
-- [Introducing Easy Labeling: A Free Web-Based Tool for YOLO Object Detection](/en_easy_labeling/easy-labeling-development/)
+- [Introducing Easy Labeling: Local Detection and Segmentation Annotation Tool](/en_easy_labeling/easy-labeling-development/)
 - [Easy Labeling Guide (1) - Loading Images and Labels](/en_easy_labeling/easy-labeling-guide-1/)

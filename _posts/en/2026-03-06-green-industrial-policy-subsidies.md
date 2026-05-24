@@ -26,8 +26,11 @@ tags:
   - Subsidies
   - Trade
 ---
+Clean-tech subsidies can accelerate decarbonisation, but they also create trade disputes, fiscal costs, and overcapacity debates.
 
-Global affairs can look abstract until **subsidy rules** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
+For Korean readers, the practical question is where **subsidy rules** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
+
+For Korean readers, the practical question is where **subsidy rules** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
 
 Clean-tech subsidies can accelerate decarbonisation, but they also create trade disputes, fiscal costs, and overcapacity debates.
 
@@ -39,18 +42,14 @@ This briefing treats **Green Industrial Policy and Subsidy Competition: Where Cl
 
 Korean battery, solar, and power-equipment firms should track origin rules, carbon footprint rules, and local production requirements together.
 
-For this issue, start with **subsidy rules**, then check whether **local content** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
+Start with **subsidy rules**, then check whether **local content** is moving through prices, physical supply, policy response, or financing conditions. A short market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
-- **subsidy rules**: watch the direction, policy response, and market pricing rather than the number alone.
-- **local content**: watch the direction, policy response, and market pricing rather than the number alone.
-- **carbon border measures**: watch the direction, policy response, and market pricing rather than the number alone.
-- **factory utilisation**: watch the direction, policy response, and market pricing rather than the number alone.
-
-Do not read **subsidy rules** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
-
-![Green Industrial Policy and Subsidy Competition: Where Climate Meets Protectionism signal checklist](/images/2026-05-22-green-industrial-policy-subsidies/signal-map.svg)
+- **subsidy rules**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
+- **local content**: Connect domestic headlines to external causes. Mark whether exports, import prices, exchange rates, energy costs, or security budgets move first.
+- **carbon border measures**: Check inventory and contract cushions. Market prices can look stable while shipping, insurance, or compliance costs pass through later.
+- **factory utilisation**: Choose the next source to watch. Decide whether official statistics, institutional forecasts, or government releases would change the baseline.
 
 ## Korea-Facing Angle
 
@@ -68,11 +67,11 @@ Household readers can translate **subsidy rules** into living costs, loan rates,
 
 ## Reader Checklist
 
-- Track whether subsidy rules first affects exports, prices, funding, or public budgets.
-- Track whether local content first affects exports, prices, funding, or public budgets.
-- Track whether carbon border measures first affects exports, prices, funding, or public budgets.
+- Decide whether **subsidy rules** is creating a price shock, a volume shock, or both.
+- Check whether **local content** is a short news cycle or a structural change that can last for quarters.
+- Mark the Korea-facing channel for **carbon border measures**: exports, import prices, financial markets, security costs, or household costs.
 - Separate official data from interpretation and commentary.
-- Check the release date, reference period, and assumptions before using any forecast.
+- Check release date, reference period, and assumptions before using any forecast.
 
 ## Source Notes
 

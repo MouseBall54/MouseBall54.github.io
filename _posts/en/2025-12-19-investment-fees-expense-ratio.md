@@ -31,7 +31,7 @@ Personal finance is less about guessing returns and more about managing how **ex
 
 Investment fees can look small each year, but over long horizons they compound against returns. Compare expense ratios and transaction costs together.
 
-This article is educational and is not individualized financial advice or a product recommendation for **Investment Fees and Expense Ratios: Small Numbers That Compound Against You**. It uses official-source guidance and basic calculations so readers can start by checking **expense ratio**.
+This article is educational and does not give individualized investment, tax, lending, or legal advice for **Investment Fees and Expense Ratios: Small Numbers That Compound Against You**. Use it to organize questions, then verify local rules, fees, contracts, and personal risk capacity before acting.
 
 ![Investment Fees and Expense Ratios: Small Numbers That Compound Against You core finance flow](/images/2026-05-20-investment-fees-expense-ratio/hero.svg)
 
@@ -68,11 +68,11 @@ When **expense ratio** touches both debt and investing decisions, separate short
 
 ## Monthly Checkup
 
-- Confirm that you can: check fund expense ratios and sales charges.
-- Confirm that you can: include trading frequency and tax effects.
-- Confirm that you can: compare total costs across similar products.
-- Write whether the decision affects budget, emergency cash, debt, or long-term goals.
-- Recheck tax and financial rules through official guidance for the country where they apply.
+- Check fund expense ratios and sales charges.
+- Include trading frequency and tax effects.
+- Compare total costs across similar products.
+- Check fees, taxes, contract terms, and liquidity limits together.
+- Verify local financial and tax rules before applying the idea to your situation.
 
 ## Source Notes
 

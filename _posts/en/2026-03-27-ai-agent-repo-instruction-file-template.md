@@ -26,7 +26,7 @@ tags:
   - CLAUDE.md
   - Workflow
 ---
-This guide is checked against official documentation on May 24, 2026. CLI behavior changes, so verify the version and linked source notes before copying a setting into a production workflow.
+Checked against official documentation on May 24, 2026, this post focuses on the setup and failure points behind **AI Agent Repo Instruction File Template: AGENTS.md and CLAUDE.md Structure**. The practical baseline is: Use `AGENTS.md` for Codex and `CLAUDE.md` for Claude, but keep the same repository expectations in both and put permissions in settings files.
 
 ## Quick Answer
 

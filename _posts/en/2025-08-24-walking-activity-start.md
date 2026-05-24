@@ -26,12 +26,11 @@ tags:
   - Health Habits
   - Weight
 ---
-
-Health literacy is not self-diagnosis. It is the ability to track observable signs such as **current activity level**, know when rest is reasonable, and know when professional guidance is safer.
+A perfect plan can fail quickly. In the first week, repeatable time and place matter more than intensity. Track **current activity level** with start date, duration, daily-function impact, and safety concerns so the threshold for qualified help is clearer.
 
 Physical activity is easier to sustain when you build small walking blocks from your current baseline instead of starting with an intimidating target.
 
-This article is educational and is not diagnosis or treatment advice for **Starting a Walking Plan: Build the First Sustainable Week**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
+This article is educational and does not diagnose, treat, or set dosage for **Starting a Walking Plan: Build the First Sustainable Week**. Sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, severe bleeding, or any immediate safety concern should be handled through local emergency services or qualified medical professionals.
 
 ![Starting a Walking Plan: Build the First Sustainable Week core health flow](/images/2026-05-19-walking-activity-start/hero.svg)
 
@@ -45,14 +44,10 @@ For **current activity level, fixed time block**, use patterns over one number, 
 
 ## Signals To Check First
 
-- **current activity level**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **fixed time block**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **breathlessness**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **pain change**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-
-Do not interpret **current activity level** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
-
-![Starting a Walking Plan: Build the First Sustainable Week checklist](/images/2026-05-19-walking-activity-start/checklist.svg)
+- **current activity level**: Record start date, duration, frequency, triggers, and relieving factors in the same format. Sudden worsening or safety concerns should move professional help first.
+- **fixed time block**: Write the effect on daily function. Changes in school, work, sleep, eating, or mobility often matter more than a vague severity label.
+- **breathlessness**: Check age, pregnancy, existing conditions, medicines, recent infection, and injury. The same sign can mean different things under different conditions.
+- **pain change**: For breathing trouble, chest pain, confusion, severe bleeding, self-harm risk, or other emergency signs, seeking urgent help comes before record keeping.
 
 ## Practical Order
 
@@ -70,9 +65,9 @@ Before a visit, write the start date, duration, triggers, relieving factors, rel
 
 ## Monthly Checkup
 
-- Confirm that you can: record current steps or walking minutes.
-- Confirm that you can: create a fixed block such as 10 minutes after lunch.
-- Confirm that you can: track pain and breathlessness as context.
+- Record current steps or walking minutes.
+- Create a fixed block such as 10 minutes after lunch.
+- Track pain and breathlessness as context.
 - Write how symptoms or habits affect daily function.
 - Recheck health information through official local guidance and qualified medical professionals.
 

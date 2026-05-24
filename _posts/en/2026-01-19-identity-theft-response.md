@@ -26,12 +26,11 @@ tags:
   - Incident Response
   - Accounts
 ---
-
-Digital security is not only for specialists. A small signal such as **unknown verification** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+Names, phone numbers, birth dates, and email addresses can be reused across telecom, shopping, finance, and marketplace verification. Start with: change email and financial account passwords first. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 Identity theft response is not one report. It requires account locks, password changes, payment review, and official records at the same time.
 
-This guide is not a product recommendation. It turns **unknown verification** into a response routine, starting with: change email and financial account passwords first.
+Use this as a response routine for **unknown verification**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![Identity Theft Response Order: What to Do the Day You Learn About Exposure core security flow](/images/2026-05-21-identity-theft-response/hero.svg)
 
@@ -45,14 +44,10 @@ For **unknown verification, new shipping address**, the baseline is pause, verif
 
 ## Warning Signals To Check First
 
-- **unknown verification**: pause immediately and verify through a trusted route.
-- **new shipping address**: pause immediately and verify through a trusted route.
-- **small card charge**: pause immediately and verify through a trusted route.
-- **mobile-carrier change alert**: pause immediately and verify through a trusted route.
-
-A signal such as **unknown verification** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: change email and financial account passwords first.
-
-![Identity Theft Response Order: What to Do the Day You Learn About Exposure response checklist](/images/2026-05-21-identity-theft-response/checklist.svg)
+- **unknown verification**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **new shipping address**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **small card charge**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **mobile-carrier change alert**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **unknown
 
 ## Monthly Checkup
 
-- Confirm that you can: change email and financial account passwords first.
-- Confirm that you can: review card and mobile-carrier alerts.
-- Confirm that you can: file a record through official identity-theft or privacy channels.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Change email and financial account passwords first.
+- Review card and mobile-carrier alerts.
+- File a record through official identity-theft or privacy channels.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

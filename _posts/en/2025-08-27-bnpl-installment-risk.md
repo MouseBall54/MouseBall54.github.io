@@ -31,7 +31,7 @@ Personal finance is less about guessing returns and more about managing how **st
 
 BNPL and installments lower purchase friction, but stacked small payments can hide the real monthly fixed-spending load.
 
-This article is educational and is not individualized financial advice or a product recommendation for **BNPL and Installment Risk: The Illusion of Many Small Payments**. It uses official-source guidance and basic calculations so readers can start by checking **stacked payments**.
+This article is educational and does not give individualized investment, tax, lending, or legal advice for **BNPL and Installment Risk: The Illusion of Many Small Payments**. Use it to organize questions, then verify local rules, fees, contracts, and personal risk capacity before acting.
 
 ![BNPL and Installment Risk: The Illusion of Many Small Payments core finance flow](/images/2026-05-20-bnpl-installment-risk/hero.svg)
 
@@ -68,11 +68,11 @@ When **stacked payments** touches both debt and investing decisions, separate sh
 
 ## Monthly Checkup
 
-- Confirm that you can: put all installment and BNPL due dates on one calendar.
-- Confirm that you can: check existing balances before a new plan.
-- Confirm that you can: after returns, confirm both cancellation and remaining charges.
-- Write whether the decision affects budget, emergency cash, debt, or long-term goals.
-- Recheck tax and financial rules through official guidance for the country where they apply.
+- Put all installment and BNPL due dates on one calendar.
+- Check existing balances before a new plan.
+- After returns, confirm both cancellation and remaining charges.
+- Check fees, taxes, contract terms, and liquidity limits together.
+- Verify local financial and tax rules before applying the idea to your situation.
 
 ## Source Notes
 

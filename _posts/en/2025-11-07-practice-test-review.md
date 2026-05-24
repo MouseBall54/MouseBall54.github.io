@@ -26,8 +26,7 @@ tags:
   - Feedback
   - StudyPlan
 ---
-
-A study method becomes useful when it leaves an observable signal such as **score section**. This guide turns **Practice Test Review: Break Down Evidence Before Chasing Scores** into a routine that can be tested in one session.
+A score alone does not tell the next action; each item must become a study decision. The goal is to leave **score section** and **guessed item** so the next review can start with a decision, not setup.
 
 Practice tests improve future scores when timing, error causes, guessed items, and confused concepts are separated.
 
@@ -39,14 +38,14 @@ This article is educational. **Practice Test Review: Break Down Evidence Before 
 
 A score alone does not tell the next action; each item must become a study decision.
 
-This routine is not decoration for a longer study session. It should leave **score section** and **guessed item** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **score section** and **guessed item** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **score section**: for Practice Test Review: Break Down Evidence Before Chasing Scores, leave this as a record that can be checked in the next review.
-- **guessed item**: for Practice Test Review: Break Down Evidence Before Chasing Scores, leave this as a record that can be checked in the next review.
-- **time pressure**: for Practice Test Review: Break Down Evidence Before Chasing Scores, leave this as a record that can be checked in the next review.
-- **retest date**: for Practice Test Review: Break Down Evidence Before Chasing Scores, leave this as a record that can be checked in the next review.
+- **score section**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **guessed item**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **time pressure**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **retest date**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Practice Test Review: Break Down Evidence Before Chasing Scores action checklist](/images/2026-05-23-practice-test-review/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Mark wrong and guessed items sepa
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **score section**, **guessed item**, and **time pressure**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `score section`, `guessed item`, and `time pressure`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

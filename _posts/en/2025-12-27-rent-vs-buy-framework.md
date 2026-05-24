@@ -31,7 +31,7 @@ Personal finance is less about guessing returns and more about managing how **ti
 
 Rent-vs-buy decisions should compare time horizon, upfront cost, debt load, mobility, and repair responsibility before price forecasts.
 
-This article is educational and is not individualized financial advice or a product recommendation for **Rent vs Buy Framework: Cash Flow Before Price Forecasts**. It uses official-source guidance and basic calculations so readers can start by checking **time horizon**.
+This article is educational and does not give individualized investment, tax, lending, or legal advice for **Rent vs Buy Framework: Cash Flow Before Price Forecasts**. Use it to organize questions, then verify local rules, fees, contracts, and personal risk capacity before acting.
 
 ![Rent vs Buy Framework: Cash Flow Before Price Forecasts core finance flow](/images/2026-05-20-rent-vs-buy-framework/hero.svg)
 
@@ -68,11 +68,11 @@ When **time horizon** touches both debt and investing decisions, separate short-
 
 ## Monthly Checkup
 
-- Confirm that you can: define the minimum expected stay first.
-- Confirm that you can: calculate upfront costs and opportunity costs.
-- Confirm that you can: put repair risk and mobility into numbers.
-- Write whether the decision affects budget, emergency cash, debt, or long-term goals.
-- Recheck tax and financial rules through official guidance for the country where they apply.
+- Define the minimum expected stay first.
+- Calculate upfront costs and opportunity costs.
+- Put repair risk and mobility into numbers.
+- Check fees, taxes, contract terms, and liquidity limits together.
+- Verify local financial and tax rules before applying the idea to your situation.
 
 ## Source Notes
 

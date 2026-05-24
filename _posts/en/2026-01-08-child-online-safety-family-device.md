@@ -26,12 +26,11 @@ tags:
   - Privacy
   - Mobile Security
 ---
-
-Digital security is not only for specialists. A small signal such as **free item lure** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+Game chats, free-item offers, friend requests, and location sharing can become entry points for scams and privacy exposure. Start with: require guardian approval for installs and payments. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 Children's device safety is not solved by one blocking app. Payments, location, photo sharing, stranger chats, and account recovery need family rules.
 
-This guide is not a product recommendation. It turns **free item lure** into a response routine, starting with: require guardian approval for installs and payments.
+Use this as a response routine for **free item lure**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![Child Online Safety Settings: Rules and Conversation Before Blocking core security flow](/images/2026-05-21-child-online-safety-family-device/hero.svg)
 
@@ -45,14 +44,10 @@ For **free item lure, unknown DM**, the baseline is pause, verify separately, pr
 
 ## Warning Signals To Check First
 
-- **free item lure**: pause immediately and verify through a trusted route.
-- **unknown DM**: pause immediately and verify through a trusted route.
-- **location sharing**: pause immediately and verify through a trusted route.
-- **hidden payment**: pause immediately and verify through a trusted route.
-
-A signal such as **free item lure** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: require guardian approval for installs and payments.
-
-![Child Online Safety Settings: Rules and Conversation Before Blocking response checklist](/images/2026-05-21-child-online-safety-family-device/checklist.svg)
+- **free item lure**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **unknown DM**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **location sharing**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **hidden payment**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **free it
 
 ## Monthly Checkup
 
-- Confirm that you can: require guardian approval for installs and payments.
-- Confirm that you can: set rules against sharing real name, school, and location.
-- Confirm that you can: agree on a phrase children can use when something feels wrong.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Require guardian approval for installs and payments.
+- Set rules against sharing real name, school, and location.
+- Agree on a phrase children can use when something feels wrong.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

@@ -26,8 +26,7 @@ tags:
   - Feedback
   - Review
 ---
-
-A study method becomes useful when it leaves an observable signal such as **error type**. This guide turns **Exam Mistake Note System: Turn Wrong Answers into Review Tasks** into a routine that can be tested in one session.
+The value of a mistake note comes from identifying why the wrong choice looked plausible. The goal is to leave **error type** and **correct condition** so the next review can start with a decision, not setup.
 
 A mistake note is not a copied solution; it records the error cause, correct condition, and next retrieval question.
 
@@ -39,14 +38,14 @@ This article is educational. **Exam Mistake Note System: Turn Wrong Answers into
 
 The value of a mistake note comes from identifying why the wrong choice looked plausible.
 
-This routine is not decoration for a longer study session. It should leave **error type** and **correct condition** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **error type** and **correct condition** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **error type**: for Exam Mistake Note System: Turn Wrong Answers into Review Tasks, leave this as a record that can be checked in the next review.
-- **correct condition**: for Exam Mistake Note System: Turn Wrong Answers into Review Tasks, leave this as a record that can be checked in the next review.
-- **retest question**: for Exam Mistake Note System: Turn Wrong Answers into Review Tasks, leave this as a record that can be checked in the next review.
-- **repeat mistake**: for Exam Mistake Note System: Turn Wrong Answers into Review Tasks, leave this as a record that can be checked in the next review.
+- **error type**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **correct condition**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **retest question**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **repeat mistake**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Exam Mistake Note System: Turn Wrong Answers into Review Tasks action checklist](/images/2026-05-23-exam-mistake-note-system/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Classify the error as concept, ca
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **error type**, **correct condition**, and **retest question**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `error type`, `correct condition`, and `retest question`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

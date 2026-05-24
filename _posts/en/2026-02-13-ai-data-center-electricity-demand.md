@@ -26,8 +26,11 @@ tags:
   - Data Centers
   - Infrastructure
 ---
+IEA Electricity 2026 shows electricity demand can outpace economic growth as data centres, industry, cooling, and EVs reshape the load profile.
 
-Global affairs can look abstract until **data-center load** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
+For Korean readers, the practical question is where **data-center load** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
+
+For Korean readers, the practical question is where **data-center load** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
 
 IEA Electricity 2026 shows electricity demand can outpace economic growth as data centres, industry, cooling, and EVs reshape the load profile.
 
@@ -39,18 +42,14 @@ This briefing treats **AI Data-Center Electricity Demand: Why Tech News Is Becom
 
 Korea is both an AI chip supplier and a power-intensive manufacturing economy, so grid bottlenecks can become an export-competitiveness issue.
 
-For this issue, start with **data-center load**, then check whether **grid connection queues** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
+Start with **data-center load**, then check whether **grid connection queues** is moving through prices, physical supply, policy response, or financing conditions. A short market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
-- **data-center load**: watch the direction, policy response, and market pricing rather than the number alone.
-- **grid connection queues**: watch the direction, policy response, and market pricing rather than the number alone.
-- **power prices**: watch the direction, policy response, and market pricing rather than the number alone.
-- **renewables and nuclear output**: watch the direction, policy response, and market pricing rather than the number alone.
-
-Do not read **data-center load** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
-
-![AI Data-Center Electricity Demand: Why Tech News Is Becoming Grid News signal checklist](/images/2026-05-22-ai-data-center-electricity-demand/signal-map.svg)
+- **data-center load**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
+- **grid connection queues**: Connect domestic headlines to external causes. Mark whether exports, import prices, exchange rates, energy costs, or security budgets move first.
+- **power prices**: Check inventory and contract cushions. Market prices can look stable while shipping, insurance, or compliance costs pass through later.
+- **renewables and nuclear output**: Choose the next source to watch. Decide whether official statistics, institutional forecasts, or government releases would change the baseline.
 
 ## Korea-Facing Angle
 
@@ -68,11 +67,11 @@ Household readers can translate **data-center load** into living costs, loan rat
 
 ## Reader Checklist
 
-- Track whether data-center load first affects exports, prices, funding, or public budgets.
-- Track whether grid connection queues first affects exports, prices, funding, or public budgets.
-- Track whether power prices first affects exports, prices, funding, or public budgets.
+- Decide whether **data-center load** is creating a price shock, a volume shock, or both.
+- Check whether **grid connection queues** is a short news cycle or a structural change that can last for quarters.
+- Mark the Korea-facing channel for **power prices**: exports, import prices, financial markets, security costs, or household costs.
 - Separate official data from interpretation and commentary.
-- Check the release date, reference period, and assumptions before using any forecast.
+- Check release date, reference period, and assumptions before using any forecast.
 
 ## Source Notes
 

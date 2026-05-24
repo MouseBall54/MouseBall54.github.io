@@ -26,8 +26,7 @@ tags:
   - Feedback
   - Verification
 ---
-
-A study method becomes useful when it leaves an observable signal such as **own answer**. This guide turns **Learning with AI Safely: Use It for Questions and Feedback** into a routine that can be tested in one session.
+AI answers can be fast, but they can remove the retrieval effort that learning needs. The goal is to leave **own answer** and **hint stage** so the next review can start with a decision, not setup.
 
 AI study tools are more useful for recall prompts, explanation checks, staged hints, and mistake analysis than for instant answers.
 
@@ -39,14 +38,14 @@ This article is educational. **Learning with AI Safely: Use It for Questions and
 
 AI answers can be fast, but they can remove the retrieval effort that learning needs.
 
-This routine is not decoration for a longer study session. It should leave **own answer** and **hint stage** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **own answer** and **hint stage** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **own answer**: for Learning with AI Safely: Use It for Questions and Feedback, leave this as a record that can be checked in the next review.
-- **hint stage**: for Learning with AI Safely: Use It for Questions and Feedback, leave this as a record that can be checked in the next review.
-- **source check**: for Learning with AI Safely: Use It for Questions and Feedback, leave this as a record that can be checked in the next review.
-- **mistake analysis**: for Learning with AI Safely: Use It for Questions and Feedback, leave this as a record that can be checked in the next review.
+- **own answer**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **hint stage**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **source check**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **mistake analysis**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Learning with AI Safely: Use It for Questions and Feedback action checklist](/images/2026-05-23-learning-with-ai-safely/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Write your answer before asking f
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **own answer**, **hint stage**, and **source check**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `own answer`, `hint stage`, and `source check`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

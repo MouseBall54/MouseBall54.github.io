@@ -26,8 +26,11 @@ tags:
   - Resilience
   - Risk
 ---
+CISA treats critical infrastructure as the systems that sustain daily functions such as power, communications, water, and transport. Cyber risk is service-continuity risk.
 
-Global affairs can look abstract until **incident recovery time** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
+For Korean readers, the practical question is where **incident recovery time** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
+
+For Korean readers, the practical question is where **incident recovery time** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
 
 CISA treats critical infrastructure as the systems that sustain daily functions such as power, communications, water, and transport. Cyber risk is service-continuity risk.
 
@@ -39,18 +42,14 @@ This briefing treats **Cyber Resilience for Critical Infrastructure: Why Hacking
 
 Korean readers should read ransomware news through recovery time for hospitals, logistics, ports, and payment networks rather than victim count alone.
 
-For this issue, start with **incident recovery time**, then check whether **OT exposure** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
+Start with **incident recovery time**, then check whether **OT exposure** is moving through prices, physical supply, policy response, or financing conditions. A short market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
-- **incident recovery time**: watch the direction, policy response, and market pricing rather than the number alone.
-- **OT exposure**: watch the direction, policy response, and market pricing rather than the number alone.
-- **backup testing**: watch the direction, policy response, and market pricing rather than the number alone.
-- **supplier access controls**: watch the direction, policy response, and market pricing rather than the number alone.
-
-Do not read **incident recovery time** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
-
-![Cyber Resilience for Critical Infrastructure: Why Hacking News Becomes Daily-Life Risk signal checklist](/images/2026-05-22-cyber-resilience-critical-infrastructure/signal-map.svg)
+- **incident recovery time**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
+- **OT exposure**: Connect domestic headlines to external causes. Mark whether exports, import prices, exchange rates, energy costs, or security budgets move first.
+- **backup testing**: Check inventory and contract cushions. Market prices can look stable while shipping, insurance, or compliance costs pass through later.
+- **supplier access controls**: Choose the next source to watch. Decide whether official statistics, institutional forecasts, or government releases would change the baseline.
 
 ## Korea-Facing Angle
 
@@ -68,11 +67,11 @@ Household readers can translate **incident recovery time** into living costs, lo
 
 ## Reader Checklist
 
-- Track whether incident recovery time first affects exports, prices, funding, or public budgets.
-- Track whether OT exposure first affects exports, prices, funding, or public budgets.
-- Track whether backup testing first affects exports, prices, funding, or public budgets.
+- Decide whether **incident recovery time** is creating a price shock, a volume shock, or both.
+- Check whether **OT exposure** is a short news cycle or a structural change that can last for quarters.
+- Mark the Korea-facing channel for **backup testing**: exports, import prices, financial markets, security costs, or household costs.
 - Separate official data from interpretation and commentary.
-- Check the release date, reference period, and assumptions before using any forecast.
+- Check release date, reference period, and assumptions before using any forecast.
 
 ## Source Notes
 

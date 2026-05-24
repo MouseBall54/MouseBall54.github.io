@@ -26,8 +26,7 @@ tags:
   - Memory
   - Planning
 ---
-
-A study method becomes useful when it leaves an observable signal such as **review interval**. This guide turns **Spaced Repetition Schedule: Design Gaps Instead of Cramming** into a routine that can be tested in one session.
+A spacing plan should work as a calendar for retrieval, not as a perfect formula. The goal is to leave **review interval** and **recall score** so the next review can start with a decision, not setup.
 
 Spaced repetition spreads review across days and weeks so the same study time is aimed at longer-term retention.
 
@@ -39,14 +38,14 @@ This article is educational. **Spaced Repetition Schedule: Design Gaps Instead o
 
 A spacing plan should work as a calendar for retrieval, not as a perfect formula.
 
-This routine is not decoration for a longer study session. It should leave **review interval** and **recall score** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **review interval** and **recall score** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **review interval**: for Spaced Repetition Schedule: Design Gaps Instead of Cramming, leave this as a record that can be checked in the next review.
-- **recall score**: for Spaced Repetition Schedule: Design Gaps Instead of Cramming, leave this as a record that can be checked in the next review.
-- **easy item**: for Spaced Repetition Schedule: Design Gaps Instead of Cramming, leave this as a record that can be checked in the next review.
-- **missed item**: for Spaced Repetition Schedule: Design Gaps Instead of Cramming, leave this as a record that can be checked in the next review.
+- **review interval**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **recall score**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **easy item**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **missed item**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Spaced Repetition Schedule: Design Gaps Instead of Cramming action checklist](/images/2026-05-23-spaced-repetition-schedule/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Review on the study day, next day
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **review interval**, **recall score**, and **easy item**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `review interval`, `recall score`, and `easy item`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

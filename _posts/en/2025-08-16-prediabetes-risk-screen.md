@@ -26,12 +26,11 @@ tags:
   - Prevention
   - Health Tracking
 ---
-
-Health literacy is not self-diagnosis. It is the ability to track observable signs such as **family history**, know when rest is reasonable, and know when professional guidance is safer.
+No symptoms does not always mean no risk. Screening and habit tracking are the starting point for early action. Track **family history** with start date, duration, daily-function impact, and safety concerns so the threshold for qualified help is clearer.
 
 Prediabetes risk cannot be read from weight alone; family history, activity, blood pressure, age, and test results all matter.
 
-This article is educational and is not diagnosis or treatment advice for **Prediabetes Risk: Look Beyond Weight to Family History and Screening**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
+This article is educational and does not diagnose, treat, or set dosage for **Prediabetes Risk: Look Beyond Weight to Family History and Screening**. Sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, severe bleeding, or any immediate safety concern should be handled through local emergency services or qualified medical professionals.
 
 ![Prediabetes Risk: Look Beyond Weight to Family History and Screening core health flow](/images/2026-05-19-prediabetes-risk-screen/hero.svg)
 
@@ -45,14 +44,10 @@ For **family history, low activity**, use patterns over one number, daily functi
 
 ## Signals To Check First
 
-- **family history**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **low activity**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **blood pressure**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **test results**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-
-Do not interpret **family history** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
-
-![Prediabetes Risk: Look Beyond Weight to Family History and Screening checklist](/images/2026-05-19-prediabetes-risk-screen/checklist.svg)
+- **family history**: Record start date, duration, frequency, triggers, and relieving factors in the same format. Sudden worsening or safety concerns should move professional help first.
+- **low activity**: Write the effect on daily function. Changes in school, work, sleep, eating, or mobility often matter more than a vague severity label.
+- **blood pressure**: Check age, pregnancy, existing conditions, medicines, recent infection, and injury. The same sign can mean different things under different conditions.
+- **test results**: For breathing trouble, chest pain, confusion, severe bleeding, self-harm risk, or other emergency signs, seeking urgent help comes before record keeping.
 
 ## Practical Order
 
@@ -70,9 +65,9 @@ Before a visit, write the start date, duration, triggers, relieving factors, rel
 
 ## Monthly Checkup
 
-- Confirm that you can: collect family history and recent test results.
-- Confirm that you can: track activity and eating patterns for two weeks.
-- Confirm that you can: discuss screening interval with a clinician.
+- Collect family history and recent test results.
+- Track activity and eating patterns for two weeks.
+- Discuss screening interval with a clinician.
 - Write how symptoms or habits affect daily function.
 - Recheck health information through official local guidance and qualified medical professionals.
 

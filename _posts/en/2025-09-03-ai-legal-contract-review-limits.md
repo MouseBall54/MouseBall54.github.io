@@ -26,8 +26,7 @@ tags:
   - Risk
   - Document Review
 ---
-
-AI trends are not only model-name news. They are signals such as **clause version** that change real workflow quality. This guide reads **AI Contract Review Limits: Separate Clause Summary from Legal Judgment** through adoption, verification, and operating responsibility.
+For contracts, AI should be a review assistant that finds issues faster, not the final legal decision-maker. Before adoption, document **clause version** and **jurisdiction** so review, cost control, and accountability are not pushed downstream.
 
 Contract-review AI can summarize clauses, flag omissions, and draft questions, but it cannot replace legal judgment or negotiation responsibility.
 
@@ -43,10 +42,10 @@ For this topic, start with **clause version** and **jurisdiction**. If either is
 
 ## Signals To Check First
 
-- **clause version**: for AI Contract Review Limits: Separate Clause Summary from Legal Judgment, record the standard, owner, and failure response for this item.
-- **jurisdiction**: for AI Contract Review Limits: Separate Clause Summary from Legal Judgment, record the standard, owner, and failure response for this item.
-- **missing term**: for AI Contract Review Limits: Separate Clause Summary from Legal Judgment, record the standard, owner, and failure response for this item.
-- **expert review**: for AI Contract Review Limits: Separate Clause Summary from Legal Judgment, record the standard, owner, and failure response for this item.
+- **clause version**: Define the tools, data, and execution rights the agent can actually use. Separate read, draft, and external execution permissions, and write down prohibited actions explicitly.
+- **jurisdiction**: Define where a human must approve the workflow. Costly actions, user-impacting output, external transfer, and file deletion should remain blocked until this gate passes.
+- **missing term**: Keep enough evidence for later review. Store the input, tool call, decision reason, and failure class together so the next run can be compared against the same standard.
+- **expert review**: Define the recovery path before the workflow runs. Name the previous version, owner, stop condition, and user-notice rule so a failed automation can be reversed quickly.
 
 ![AI Contract Review Limits: Separate Clause Summary from Legal Judgment verification checklist](/images/2026-05-23-ai-legal-contract-review-limits/checklist.png)
 

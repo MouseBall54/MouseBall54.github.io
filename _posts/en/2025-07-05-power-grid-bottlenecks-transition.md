@@ -29,7 +29,7 @@ tags:
 
 As renewables and electrification grow, grid investment, connection queues, transformer supply, and local acceptance can determine the real transition speed.
 
-This article is an educational briefing, not investment advice, legal advice, or a recommendation to buy a specific energy product. It gives readers a practical order for reading **The Energy Transition Bottleneck Is the Grid, Not Only Generation** with official-source context.
+This article is educational and does not provide investment, legal, or energy-product advice for **The Energy Transition Bottleneck Is the Grid, Not Only Generation**. It uses official-source context to connect the issue with costs, infrastructure, policy, and Korea-facing channels.
 
 ![The Energy Transition Bottleneck Is the Grid, Not Only Generation core flow summary](/images/2026-05-18-power-grid-bottlenecks-transition/hero.svg)
 
@@ -37,27 +37,23 @@ This article is an educational briefing, not investment advice, legal advice, or
 
 The IEA warns that clean-power growth can become constrained if grid investment fails to keep up with generation additions.
 
-The Energy Transition Bottleneck Is the Grid, Not Only Generation becomes economically relevant when connection queue, transmission investment, and transformer supply move together. In Korea, solar expansion debates need to include transmission, distribution, and system-stability costs rather than only generation capacity. The practical task is to read the sequence between signals rather than one headline.
+In Korea, solar expansion debates need to include transmission, distribution, and system-stability costs rather than only generation capacity. The domestic cost path becomes clearer when **connection queue**, **transmission investment**, and **transformer supply** are read as a sequence. Do not treat one monthly number or one headline as the whole story; separate demand, supply, price, and policy lag.
 
-This is why the topic should not be reduced to a simple for-or-against debate. If connection queue changes without transmission investment, the result can be different. If transformer supply looks stable while curtailment worsens, costs can appear later.
+A simple for-or-against debate hides implementation risk. Demand can move before supply bottlenecks clear, and stable prices can still hide grid, permitting, or financing constraints.
 
 ## Core Structure
 
-- **Demand**: use connection queue to locate where and when load or exposure is changing.
-- **Supply**: use transmission investment to test whether real supply capacity or a bottleneck is visible.
-- **Price**: use transformer supply to trace the lag into tariffs, import costs, or industrial margins.
-- **Risk**: use curtailment to separate policy, climate, and supply-chain risk.
+- **Demand**: use **connection queue** to locate where and when exposure is changing.
+- **Supply**: use **transmission investment** to test whether the issue is real capacity or a bottleneck.
+- **Price**: use **transformer supply** to trace the lag into tariffs, import costs, or industrial margins.
+- **Risk**: use **curtailment** to separate policy, climate, and supply-chain risk.
 
 ## Signals To Watch
 
-- **connection queue**: for The Energy Transition Bottleneck Is the Grid, Not Only Generation, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **transmission investment**: for The Energy Transition Bottleneck Is the Grid, Not Only Generation, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **transformer supply**: for The Energy Transition Bottleneck Is the Grid, Not Only Generation, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **curtailment**: for The Energy Transition Bottleneck Is the Grid, Not Only Generation, read direction, duration, and domestic cost channel before treating it as a standalone number.
-
-connection queue alone can show direction while hiding the cause. Reading it with transmission investment and transformer supply makes it easier to tell whether the issue is a price shock, infrastructure bottleneck, or policy lag.
-
-![The Energy Transition Bottleneck Is the Grid, Not Only Generation signal checklist map](/images/2026-05-18-power-grid-bottlenecks-transition/signal-map.svg)
+- **connection queue**: Read direction together with duration. A one-day price move and a multi-quarter volume shift require different decisions.
+- **transmission investment**: Write the domestic transmission channel. Mark whether it reaches tariffs, import prices, industrial costs, or local infrastructure first.
+- **transformer supply**: Check the implementation bottleneck. Grid connection, permits, finance, equipment, labour, and local acceptance can delay headline targets.
+- **curtailment**: Separate the policy assumption. Subsidies, regulation, taxes, and international rules can change the cost structure of the same technology.
 
 ## Korea-Facing Transmission
 
@@ -74,14 +70,14 @@ At implementation stage, the first question is: Check available grid capacity be
 - Check available grid capacity before new generation capacity.
 - Include transmission build time and community acceptance in the timeline.
 - Estimate how storage and demand response reduce bottlenecks.
-
-This checklist is not for predicting the next price move. For **The Energy Transition Bottleneck Is the Grid, Not Only Generation**, it is a baseline for checking what changed, what did not change, and which constraint matters most when a new policy, forecast, or company announcement appears.
+Check baseline year, geography, unit, and policy assumptions first.
+Translate the signal into Korea's import structure, grid geography, industrial exposure, or household cost channel.
 
 ## How To Read The Numbers
 
-The numbers in The Energy Transition Bottleneck Is the Grid, Not Only Generation change meaning when baseline year, region, or unit changes. For connection queue and curtailment, peaks, delays, and exceptions often matter more than averages.
+Climate and energy numbers can change meaning when baseline year, region, or unit changes. Peaks, delays, and exceptions often matter more than averages.
 
-Before using climate or energy data, check the **baseline, period, unit, geographic coverage, and policy assumptions**. Then translate connection queue, transmission investment, and transformer supply into Korea's import structure, grid geography, industrial exposure, or household cost channels.
+Check the **baseline, period, unit, geographic coverage, and policy assumptions** first. Then translate **connection queue**, **transmission investment**, and **transformer supply** into Korea's import structure, grid geography, industrial exposure, or household cost channels.
 
 ## Source Notes
 

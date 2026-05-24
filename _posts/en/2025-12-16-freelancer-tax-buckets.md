@@ -31,7 +31,7 @@ Personal finance is less about guessing returns and more about managing how **gr
 
 Freelancers and side earners should not treat gross receipts as spendable income. Separate tax, business cost, and living expense buckets.
 
-This article is educational and is not individualized financial advice or a product recommendation for **Freelancer Tax Buckets: Separating Revenue From Your Own Money**. It uses official-source guidance and basic calculations so readers can start by checking **gross receipts**.
+This article is educational and does not give individualized investment, tax, lending, or legal advice for **Freelancer Tax Buckets: Separating Revenue From Your Own Money**. Use it to organize questions, then verify local rules, fees, contracts, and personal risk capacity before acting.
 
 ![Freelancer Tax Buckets: Separating Revenue From Your Own Money core finance flow](/images/2026-05-20-freelancer-tax-buckets/hero.svg)
 
@@ -68,11 +68,11 @@ When **gross receipts** touches both debt and investing decisions, separate shor
 
 ## Monthly Checkup
 
-- Confirm that you can: move estimated tax money to a separate account when paid.
-- Confirm that you can: separate business and personal payment methods.
-- Confirm that you can: compare estimated taxes with actual profit quarterly.
-- Write whether the decision affects budget, emergency cash, debt, or long-term goals.
-- Recheck tax and financial rules through official guidance for the country where they apply.
+- Move estimated tax money to a separate account when paid.
+- Separate business and personal payment methods.
+- Compare estimated taxes with actual profit quarterly.
+- Check fees, taxes, contract terms, and liquidity limits together.
+- Verify local financial and tax rules before applying the idea to your situation.
 
 ## Source Notes
 

@@ -26,12 +26,11 @@ tags:
   - Scams
   - Verification
 ---
-
-Digital security is not only for specialists. A small signal such as **urgent accident claim** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+AI voice, stolen messengers, and caller-ID manipulation can make voice-only verification unreliable. Start with: set a short family-only verification question. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 Impersonation calls move fast emotionally, so families need a pre-agreed verification question and a no-transfer pause rule.
 
-This guide is not a product recommendation. It turns **urgent accident claim** into a response routine, starting with: set a short family-only verification question.
+Use this as a response routine for **urgent accident claim**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![Family Code Words for Voice Phishing: One Sentence to Verify Urgent Calls core security flow](/images/2026-05-21-voice-phishing-family-code/hero.svg)
 
@@ -45,14 +44,10 @@ For **urgent accident claim, pressure not to hang up**, the baseline is pause, v
 
 ## Warning Signals To Check First
 
-- **urgent accident claim**: pause immediately and verify through a trusted route.
-- **pressure not to hang up**: pause immediately and verify through a trusted route.
-- **cash or gift-card demand**: pause immediately and verify through a trusted route.
-- **secrecy demand**: pause immediately and verify through a trusted route.
-
-A signal such as **urgent accident claim** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: set a short family-only verification question.
-
-![Family Code Words for Voice Phishing: One Sentence to Verify Urgent Calls response checklist](/images/2026-05-21-voice-phishing-family-code/checklist.svg)
+- **urgent accident claim**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **pressure not to hang up**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **cash or gift-card demand**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **secrecy demand**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **urgent 
 
 ## Monthly Checkup
 
-- Confirm that you can: set a short family-only verification question.
-- Confirm that you can: use a 10-minute hold and callback rule before any transfer.
-- Confirm that you can: share the rule that agencies do not demand urgent transfers.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Set a short family-only verification question.
+- Use a 10-minute hold and callback rule before any transfer.
+- Share the rule that agencies do not demand urgent transfers.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

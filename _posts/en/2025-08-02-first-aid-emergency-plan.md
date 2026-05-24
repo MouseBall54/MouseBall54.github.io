@@ -26,12 +26,11 @@ tags:
   - Family Health
   - Health Records
 ---
-
-Health literacy is not self-diagnosis. It is the ability to track observable signs such as **confusion or unconsciousness**, know when rest is reasonable, and know when professional guidance is safer.
+Emergencies move fast, so visible documents and shared locations are more useful than verbal plans. Track **confusion or unconsciousness** with start date, duration, daily-function impact, and safety concerns so the threshold for qualified help is clearer.
 
 In emergencies, prepared information beats memory: contacts, medicines, conditions, allergies, hospitals, and exit routes should be organized.
 
-This article is educational and is not diagnosis or treatment advice for **Home First Aid Plan: Contacts, Medicines, Conditions, and Exit Routes**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
+This article is educational and does not diagnose, treat, or set dosage for **Home First Aid Plan: Contacts, Medicines, Conditions, and Exit Routes**. Sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, severe bleeding, or any immediate safety concern should be handled through local emergency services or qualified medical professionals.
 
 ![Home First Aid Plan: Contacts, Medicines, Conditions, and Exit Routes core health flow](/images/2026-05-19-first-aid-emergency-plan/hero.svg)
 
@@ -45,14 +44,10 @@ For **confusion or unconsciousness, breathing difficulty**, use patterns over on
 
 ## Signals To Check First
 
-- **confusion or unconsciousness**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **breathing difficulty**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **severe bleeding**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **allergic reaction**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-
-Do not interpret **confusion or unconsciousness** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
-
-![Home First Aid Plan: Contacts, Medicines, Conditions, and Exit Routes checklist](/images/2026-05-19-first-aid-emergency-plan/checklist.svg)
+- **confusion or unconsciousness**: Record start date, duration, frequency, triggers, and relieving factors in the same format. Sudden worsening or safety concerns should move professional help first.
+- **breathing difficulty**: Write the effect on daily function. Changes in school, work, sleep, eating, or mobility often matter more than a vague severity label.
+- **severe bleeding**: Check age, pregnancy, existing conditions, medicines, recent infection, and injury. The same sign can mean different things under different conditions.
+- **allergic reaction**: For breathing trouble, chest pain, confusion, severe bleeding, self-harm risk, or other emergency signs, seeking urgent help comes before record keeping.
 
 ## Practical Order
 
@@ -70,9 +65,9 @@ Before a visit, write the start date, duration, triggers, relieving factors, rel
 
 ## Monthly Checkup
 
-- Confirm that you can: create a one-page list of medicines, allergies, and conditions.
-- Confirm that you can: keep emergency contacts in phone and paper form.
-- Confirm that you can: use local emergency services for serious symptoms or safety threats.
+- Create a one-page list of medicines, allergies, and conditions.
+- Keep emergency contacts in phone and paper form.
+- Use local emergency services for serious symptoms or safety threats.
 - Write how symptoms or habits affect daily function.
 - Recheck health information through official local guidance and qualified medical professionals.
 

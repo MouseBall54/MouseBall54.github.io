@@ -26,12 +26,11 @@ tags:
   - Accounts
   - Backup
 ---
-
-Digital security is not only for specialists. A small signal such as **unknown device** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+Neglected settings accumulate into old devices, stale accounts, reused passwords, and broken backups. Start with: review login history and connected devices. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 Security improves through repeatable monthly routines. A 30-minute review of accounts, devices, backups, and payment alerts is enough to reduce many risks.
 
-This guide is not a product recommendation. It turns **unknown device** into a response routine, starting with: review login history and connected devices.
+Use this as a response routine for **unknown device**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![Monthly Security Checkup: A 30-Minute Routine for Accounts and Devices core security flow](/images/2026-05-21-security-checkup-monthly-routine/hero.svg)
 
@@ -45,14 +44,10 @@ For **unknown device, failed backup**, the baseline is pause, verify separately,
 
 ## Warning Signals To Check First
 
-- **unknown device**: pause immediately and verify through a trusted route.
-- **failed backup**: pause immediately and verify through a trusted route.
-- **pending update**: pause immediately and verify through a trusted route.
-- **unknown subscription**: pause immediately and verify through a trusted route.
-
-A signal such as **unknown device** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: review login history and connected devices.
-
-![Monthly Security Checkup: A 30-Minute Routine for Accounts and Devices response checklist](/images/2026-05-21-security-checkup-monthly-routine/checklist.svg)
+- **unknown device**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **failed backup**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **pending update**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **unknown subscription**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **unknown
 
 ## Monthly Checkup
 
-- Confirm that you can: review login history and connected devices.
-- Confirm that you can: check auto-updates and backup success.
-- Confirm that you can: review card alerts and subscriptions.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Review login history and connected devices.
+- Check auto-updates and backup success.
+- Review card alerts and subscriptions.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

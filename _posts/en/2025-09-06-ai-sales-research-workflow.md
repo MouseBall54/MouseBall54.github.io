@@ -26,8 +26,7 @@ tags:
   - Automation
   - Data Quality
 ---
-
-AI trends are not only model-name news. They are signals such as **source date** that change real workflow quality. This guide reads **AI Sales Research Workflow: Check Evidence and Freshness** through adoption, verification, and operating responsibility.
+The risk in sales automation is not only wrong contact data; it is losing trust through stale claims. Before adoption, document **source date** and **company event** so review, cost control, and accountability are not pushed downstream.
 
 Sales research AI should check source dates, company changes, contact evidence, and do-not-contact rules before scoring leads.
 
@@ -43,10 +42,10 @@ For this topic, start with **source date** and **company event**. If either is v
 
 ## Signals To Check First
 
-- **source date**: for AI Sales Research Workflow: Check Evidence and Freshness, record the standard, owner, and failure response for this item.
-- **company event**: for AI Sales Research Workflow: Check Evidence and Freshness, record the standard, owner, and failure response for this item.
-- **contact evidence**: for AI Sales Research Workflow: Check Evidence and Freshness, record the standard, owner, and failure response for this item.
-- **outreach rule**: for AI Sales Research Workflow: Check Evidence and Freshness, record the standard, owner, and failure response for this item.
+- **source date**: Define the tools, data, and execution rights the agent can actually use. Separate read, draft, and external execution permissions, and write down prohibited actions explicitly.
+- **company event**: Define where a human must approve the workflow. Costly actions, user-impacting output, external transfer, and file deletion should remain blocked until this gate passes.
+- **contact evidence**: Keep enough evidence for later review. Store the input, tool call, decision reason, and failure class together so the next run can be compared against the same standard.
+- **outreach rule**: Define the recovery path before the workflow runs. Name the previous version, owner, stop condition, and user-notice rule so a failed automation can be reversed quickly.
 
 ![AI Sales Research Workflow: Check Evidence and Freshness verification checklist](/images/2026-05-23-ai-sales-research-workflow/checklist.png)
 

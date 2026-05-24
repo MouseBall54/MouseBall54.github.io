@@ -26,8 +26,7 @@ tags:
   - Memory
   - Focus
 ---
-
-A study method becomes useful when it leaves an observable signal such as **sleep duration**. This guide turns **Sleep and Study Performance: Protect Memory and Attention** into a routine that can be tested in one session.
+Sleep is not wasted study time; it is a condition for retaining and using what was learned. The goal is to leave **sleep duration** and **bedtime routine** so the next review can start with a decision, not setup.
 
 Sleep affects learning, memory, and attention, so all-nighters can add study time while weakening next-day performance.
 
@@ -39,14 +38,14 @@ This article is educational. **Sleep and Study Performance: Protect Memory and A
 
 Sleep is not wasted study time; it is a condition for retaining and using what was learned.
 
-This routine is not decoration for a longer study session. It should leave **sleep duration** and **bedtime routine** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **sleep duration** and **bedtime routine** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **sleep duration**: for Sleep and Study Performance: Protect Memory and Attention, leave this as a record that can be checked in the next review.
-- **bedtime routine**: for Sleep and Study Performance: Protect Memory and Attention, leave this as a record that can be checked in the next review.
-- **caffeine timing**: for Sleep and Study Performance: Protect Memory and Attention, leave this as a record that can be checked in the next review.
-- **next-day focus**: for Sleep and Study Performance: Protect Memory and Attention, leave this as a record that can be checked in the next review.
+- **sleep duration**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **bedtime routine**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **caffeine timing**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **next-day focus**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Sleep and Study Performance: Protect Memory and Attention action checklist](/images/2026-05-23-sleep-study-performance/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Narrow review scope instead of ad
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **sleep duration**, **bedtime routine**, and **caffeine timing**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `sleep duration`, `bedtime routine`, and `caffeine timing`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

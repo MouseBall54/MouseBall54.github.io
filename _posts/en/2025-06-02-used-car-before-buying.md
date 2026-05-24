@@ -29,7 +29,7 @@ tags:
 
 Used-car buying should start with history, warranty coverage, accident or flood records, repair records, finance terms, and contract wording before price.
 
-This article is educational information, not legal advice. It explains a practical workflow for **Used Car Before Buying: History and Contract Terms Before Price** using evidence, dates, deadlines, and official-source escalation references.
+This article is educational and does not provide legal advice for **Used Car Before Buying: History and Contract Terms Before Price**. It focuses on preserving evidence, checking dates and contract wording, and choosing the right seller, platform, payment-provider, carrier, or regulator channel.
 
 ![Used Car Before Buying: History and Contract Terms Before Price core flow summary](/images/2026-05-17-used-car-before-buying/hero.svg)
 

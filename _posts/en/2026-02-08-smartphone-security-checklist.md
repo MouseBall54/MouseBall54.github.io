@@ -26,12 +26,11 @@ tags:
   - Privacy
   - Cyber Hygiene
 ---
-
-Digital security is not only for specialists. A small signal such as **accessibility permission** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+Malicious or over-permissioned apps can expose texts, notifications, contacts, and files. Start with: review sms, notification, and accessibility permissions first. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 A phone is an authenticator, wallet, photo archive, and work notification center, so permissions and lock screen settings are account security basics.
 
-This guide is not a product recommendation. It turns **accessibility permission** into a response routine, starting with: review SMS, notification, and accessibility permissions first.
+Use this as a response routine for **accessibility permission**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![Smartphone Security Checklist: Start With App Permissions and Lock Screen core security flow](/images/2026-05-21-smartphone-security-checklist/hero.svg)
 
@@ -45,14 +44,10 @@ For **accessibility permission, notification access**, the baseline is pause, ve
 
 ## Warning Signals To Check First
 
-- **accessibility permission**: pause immediately and verify through a trusted route.
-- **notification access**: pause immediately and verify through a trusted route.
-- **unknown-source app**: pause immediately and verify through a trusted route.
-- **no lock screen**: pause immediately and verify through a trusted route.
-
-A signal such as **accessibility permission** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: review SMS, notification, and accessibility permissions first.
-
-![Smartphone Security Checklist: Start With App Permissions and Lock Screen response checklist](/images/2026-05-21-smartphone-security-checklist/checklist.svg)
+- **accessibility permission**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **notification access**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **unknown-source app**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **no lock screen**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **accessi
 
 ## Monthly Checkup
 
-- Confirm that you can: review SMS, notification, and accessibility permissions first.
-- Confirm that you can: enable screen lock and find-my-device features.
-- Confirm that you can: block installation outside official app stores.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Review SMS, notification, and accessibility permissions first.
+- Enable screen lock and find-my-device features.
+- Block installation outside official app stores.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

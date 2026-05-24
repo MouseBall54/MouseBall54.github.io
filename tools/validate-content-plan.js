@@ -34,23 +34,38 @@ function imageExists(sitePath) {
   return exists(sitePathToRelativePath(sitePath));
 }
 
-function readPngDimensions(sitePath) {
+function readImageDimensions(sitePath) {
   const relativePath = sitePathToRelativePath(sitePath);
   const buffer = fs.readFileSync(path.join(root, relativePath));
   const pngSignature = "89504e470d0a1a0a";
 
-  if (buffer.length < 24 || buffer.subarray(0, 8).toString("hex") !== pngSignature) {
-    return null;
+  if (buffer.length >= 24 && buffer.subarray(0, 8).toString("hex") === pngSignature) {
+    return {
+      width: buffer.readUInt32BE(16),
+      height: buffer.readUInt32BE(20),
+    };
   }
 
-  return {
-    width: buffer.readUInt32BE(16),
-    height: buffer.readUInt32BE(20),
-  };
+  if (relativePath.endsWith(".svg")) {
+    const svg = buffer.toString("utf8", 0, Math.min(buffer.length, 2048));
+    const widthMatch = svg.match(/\swidth="(\d+)"/);
+    const heightMatch = svg.match(/\sheight="(\d+)"/);
+    if (widthMatch && heightMatch) {
+      return {
+        width: Number(widthMatch[1]),
+        height: Number(heightMatch[1]),
+      };
+    }
+  }
+
+  return null;
 }
 
-function isCampaignPost(relativePath) {
-  return path.basename(relativePath).startsWith("2026-05-23-");
+function isCampaignPost(frontMatterText) {
+  return (
+    frontMatterText.includes("translation_id: ai-agent-cli-") ||
+    frontMatterText.includes("/images/2026-05-23-")
+  );
 }
 
 function normalizeInternalPostUrl(url) {
@@ -556,7 +571,7 @@ function validatePosts() {
     });
 
     const expectedLang = relativePath.includes("/ko/") ? "ko" : "en";
-    const campaignPost = isCampaignPost(relativePath);
+    const campaignPost = isCampaignPost(frontMatterText);
     const lang = normalizeYamlValue(frontMatter.lang);
     if (lang !== expectedLang) {
       errors.push(`${relativePath}: expected lang "${expectedLang}", found "${lang}"`);
@@ -732,24 +747,19 @@ function validatePosts() {
         }
       }
 
-      const campaignHeaderImagePaths = headerImagePaths.filter((imagePath) => imagePath.startsWith("/images/2026-05-23-"));
-      const campaignBodyImagePaths = bodyImagePaths.filter((imagePath) => imagePath.startsWith("/images/2026-05-23-"));
-
-      if (campaignHeaderImagePaths.length === 0) {
-        errors.push(`${relativePath}: campaign post must include a campaign-specific local header image`);
+      if (headerImagePaths.length === 0) {
+        errors.push(`${relativePath}: campaign post must include a local header image`);
       }
 
-      if (campaignBodyImagePaths.length === 0) {
-        errors.push(`${relativePath}: campaign post must include a campaign-specific local body image`);
+      if (bodyImagePaths.length === 0) {
+        errors.push(`${relativePath}: campaign post must include a local body image`);
       }
 
-      const campaignBodyImageMatches = bodyImageMatches.filter((match) => match.path.startsWith("/images/2026-05-23-"));
-
-      [...new Set([...campaignHeaderImagePaths, ...campaignBodyImagePaths])].forEach((imagePath) => {
+      [...new Set([...headerImagePaths, ...bodyImagePaths])].forEach((imagePath) => {
         if (!imageExists(imagePath)) return;
-        const dimensions = readPngDimensions(imagePath);
+        const dimensions = readImageDimensions(imagePath);
         if (!dimensions) {
-          errors.push(`${relativePath}: campaign image should be a valid PNG: ${imagePath}`);
+          errors.push(`${relativePath}: campaign image should expose dimensions: ${imagePath}`);
           return;
         }
 

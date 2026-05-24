@@ -26,7 +26,7 @@ tags:
   - CLAUDE.md
   - Workflow
 ---
-이 글은 2026년 5월 24일 기준 공식 문서를 확인해 작성했습니다. CLI 도구는 업데이트가 빠르므로 운영 환경에 복사하기 전 버전과 하단의 Source Notes를 다시 확인하세요.
+2026년 5월 24일 기준 공식 문서와 CLI 동작을 기준으로, 이 글은 **AI agent repo instruction file template: AGENTS.md와 CLAUDE.md 공통 구조**에서 먼저 확인할 설정과 실패 지점을 정리합니다. 핵심 판단은 Codex에는 `AGENTS.md`, Claude에는 `CLAUDE.md`를 쓰되 같은 저장소 원칙을 공유하고 도구별 설정 파일에는 권한과 환경만 둡니다.
 
 ## 빠른 답
 

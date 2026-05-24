@@ -26,12 +26,11 @@ tags:
   - Blood Pressure
   - Food Labels
 ---
-
-Health literacy is not self-diagnosis. It is the ability to track observable signs such as **serving size**, know when rest is reasonable, and know when professional guidance is safer.
+Daily sauces and processed foods can matter more than one occasional restaurant meal. Track **serving size** with start date, duration, daily-function impact, and safety concerns so the threshold for qualified help is clearer.
 
 Sodium does not come only from obviously salty foods; it can accumulate through bread, sauces, and processed foods eaten often.
 
-This article is educational and is not diagnosis or treatment advice for **Reading Sodium Labels: Daily Total Before Salty Taste**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
+This article is educational and does not diagnose, treat, or set dosage for **Reading Sodium Labels: Daily Total Before Salty Taste**. Sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, severe bleeding, or any immediate safety concern should be handled through local emergency services or qualified medical professionals.
 
 ![Reading Sodium Labels: Daily Total Before Salty Taste core health flow](/images/2026-05-19-sodium-label-reading/hero.svg)
 
@@ -45,14 +44,10 @@ For **serving size, sauce amount**, use patterns over one number, daily function
 
 ## Signals To Check First
 
-- **serving size**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **sauce amount**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **processed food frequency**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **broth intake**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-
-Do not interpret **serving size** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
-
-![Reading Sodium Labels: Daily Total Before Salty Taste checklist](/images/2026-05-19-sodium-label-reading/checklist.svg)
+- **serving size**: Record start date, duration, frequency, triggers, and relieving factors in the same format. Sudden worsening or safety concerns should move professional help first.
+- **sauce amount**: Write the effect on daily function. Changes in school, work, sleep, eating, or mobility often matter more than a vague severity label.
+- **processed food frequency**: Check age, pregnancy, existing conditions, medicines, recent infection, and injury. The same sign can mean different things under different conditions.
+- **broth intake**: For breathing trouble, chest pain, confusion, severe bleeding, self-harm risk, or other emergency signs, seeking urgent help comes before record keeping.
 
 ## Practical Order
 
@@ -70,9 +65,9 @@ Before a visit, write the start date, duration, triggers, relieving factors, rel
 
 ## Monthly Checkup
 
-- Confirm that you can: check serving size before the sodium number.
-- Confirm that you can: track sauce and broth frequency.
-- Confirm that you can: compare sodium across similar products.
+- Check serving size before the sodium number.
+- Track sauce and broth frequency.
+- Compare sodium across similar products.
 - Write how symptoms or habits affect daily function.
 - Recheck health information through official local guidance and qualified medical professionals.
 

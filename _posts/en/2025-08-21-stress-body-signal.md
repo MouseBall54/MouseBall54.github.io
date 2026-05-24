@@ -26,12 +26,11 @@ tags:
   - Health Tracking
   - Sleep
 ---
-
-Health literacy is not self-diagnosis. It is the ability to track observable signs such as **sleep change**, know when rest is reasonable, and know when professional guidance is safer.
+Treating stress only as willpower delays recovery. Tracking body signals can reveal patterns of overload. Track **sleep change** with start date, duration, daily-function impact, and safety concerns so the threshold for qualified help is clearer.
 
 Stress is not only a mood issue; it can show up through sleep, appetite, digestion, pain, and concentration changes.
 
-This article is educational and is not diagnosis or treatment advice for **Reading Body Signals of Stress: Fatigue, Sleep, Appetite, and Pain**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
+This article is educational and does not diagnose, treat, or set dosage for **Reading Body Signals of Stress: Fatigue, Sleep, Appetite, and Pain**. Sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, severe bleeding, or any immediate safety concern should be handled through local emergency services or qualified medical professionals.
 
 ![Reading Body Signals of Stress: Fatigue, Sleep, Appetite, and Pain core health flow](/images/2026-05-19-stress-body-signal/hero.svg)
 
@@ -45,14 +44,10 @@ For **sleep change, appetite change**, use patterns over one number, daily funct
 
 ## Signals To Check First
 
-- **sleep change**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **appetite change**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **digestive discomfort**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **low concentration**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-
-Do not interpret **sleep change** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
-
-![Reading Body Signals of Stress: Fatigue, Sleep, Appetite, and Pain checklist](/images/2026-05-19-stress-body-signal/checklist.svg)
+- **sleep change**: Record start date, duration, frequency, triggers, and relieving factors in the same format. Sudden worsening or safety concerns should move professional help first.
+- **appetite change**: Write the effect on daily function. Changes in school, work, sleep, eating, or mobility often matter more than a vague severity label.
+- **digestive discomfort**: Check age, pregnancy, existing conditions, medicines, recent infection, and injury. The same sign can mean different things under different conditions.
+- **low concentration**: For breathing trouble, chest pain, confusion, severe bleeding, self-harm risk, or other emergency signs, seeking urgent help comes before record keeping.
 
 ## Practical Order
 
@@ -70,9 +65,9 @@ Before a visit, write the start date, duration, triggers, relieving factors, rel
 
 ## Monthly Checkup
 
-- Confirm that you can: track sleep, appetite, digestion, and pain for a week.
-- Confirm that you can: look at timing between stressors and body responses.
-- Confirm that you can: ask for help when daily function starts breaking down.
+- Track sleep, appetite, digestion, and pain for a week.
+- Look at timing between stressors and body responses.
+- Ask for help when daily function starts breaking down.
 - Write how symptoms or habits affect daily function.
 - Recheck health information through official local guidance and qualified medical professionals.
 

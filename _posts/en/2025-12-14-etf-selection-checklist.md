@@ -31,7 +31,7 @@ Personal finance is less about guessing returns and more about managing how **in
 
 ETFs with similar names can differ sharply by index, holdings, cost, liquidity, and currency hedging.
 
-This article is educational and is not individualized financial advice or a product recommendation for **ETF Selection Checklist: Index, Cost, Liquidity, and Holdings Before the Name**. It uses official-source guidance and basic calculations so readers can start by checking **index methodology**.
+This article is educational and does not give individualized investment, tax, lending, or legal advice for **ETF Selection Checklist: Index, Cost, Liquidity, and Holdings Before the Name**. Use it to organize questions, then verify local rules, fees, contracts, and personal risk capacity before acting.
 
 ![ETF Selection Checklist: Index, Cost, Liquidity, and Holdings Before the Name core finance flow](/images/2026-05-20-etf-selection-checklist/hero.svg)
 
@@ -68,11 +68,11 @@ When **index methodology** touches both debt and investing decisions, separate s
 
 ## Monthly Checkup
 
-- Confirm that you can: check the index and top holdings.
-- Confirm that you can: review expense ratio and trading volume.
-- Confirm that you can: measure overlap with your current portfolio.
-- Write whether the decision affects budget, emergency cash, debt, or long-term goals.
-- Recheck tax and financial rules through official guidance for the country where they apply.
+- Check the index and top holdings.
+- Review expense ratio and trading volume.
+- Measure overlap with your current portfolio.
+- Check fees, taxes, contract terms, and liquidity limits together.
+- Verify local financial and tax rules before applying the idea to your situation.
 
 ## Source Notes
 

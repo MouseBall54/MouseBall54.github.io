@@ -26,7 +26,7 @@ tags:
   - Automation
   - Governance
 ---
-This guide is checked against official documentation on May 24, 2026. CLI behavior changes, so verify the version and linked source notes before copying a setting into a production workflow.
+Checked against official documentation on May 24, 2026, this post focuses on the setup and failure points behind **AI Agent Human Approval Gates: Where Automation Must Pause**. The practical baseline is: Design approval gates by business risk rather than tool name, and record approver, evidence, and rollback path.
 
 ## Quick Answer
 

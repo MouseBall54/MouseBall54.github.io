@@ -15,9 +15,9 @@ header:
   image_description: >
     AI agent CLI setup guide image for Codex, Claude Code, permissions, and verification workflow.
 excerpt: >
-  Codex MCP 설정은 서버 실행 명령, 환경변수, 노출 도구, 도구별 승인 방식을 분리해야 안전하다.
+  Codex MCP 설정은 서버 실행 명령, 환경변수, 노출 도구, 도구별 승인 방식을 분리해야 운영이 안전하다.
 seo_description: >
-  Codex MCP 설정은 서버 실행 명령, 환경변수, 노출 도구, 도구별 승인 방식을 분리해야 안전하다.
+  Codex MCP 설정은 서버 실행 명령, 환경변수, 노출 도구, 도구별 승인 방식을 분리해야 운영이 안전하다.
 categories:
   - ko_AI_Trends
 tags:
@@ -26,7 +26,7 @@ tags:
   - Tool Use
   - AI Security
 ---
-이 글은 2026년 5월 24일 기준 공식 문서를 확인해 작성했습니다. CLI 도구는 업데이트가 빠르므로 운영 환경에 복사하기 전 버전과 하단의 Source Notes를 다시 확인하세요.
+2026년 5월 24일 기준 공식 문서와 CLI 동작을 기준으로, 이 글은 **Codex MCP server config.toml 설정: mcp_servers와 도구 승인 분리**에서 먼저 확인할 설정과 실패 지점을 정리합니다. 핵심 판단은 `[mcp_servers.<name>]`에 서버를 등록하되, `enabled_tools`, `disabled_tools`, `default_tools_approval_mode`로 처음부터 최소 권한을 둡니다.
 
 ## 빠른 답
 
@@ -38,7 +38,7 @@ tags:
 
 ## 언제 중요한가
 
-Codex MCP 설정은 서버 실행 명령, 환경변수, 노출 도구, 도구별 승인 방식을 분리해야 안전하다. 이 설정은 긴 프롬프트 하나로 모든 일을 맡기려는 상황보다, 반복 가능한 AI agent 작업 흐름을 만들 때 중요합니다. 좋은 설정은 세 가지를 분명히 합니다. agent가 읽어도 되는 것, 바꿔도 되는 것, 사람이 검증할 방법입니다.
+Codex MCP 설정은 서버 실행 명령, 환경변수, 노출 도구, 도구별 승인 방식을 분리해야 운영이 안전하다. 이 설정은 긴 프롬프트 하나로 모든 일을 맡기려는 상황보다, 반복 가능한 AI agent 작업 흐름을 만들 때 중요합니다. 좋은 설정은 세 가지를 분명히 합니다. agent가 읽어도 되는 것, 바꿔도 되는 것, 사람이 검증할 방법입니다.
 
 팀에 도입한다면 넓게 쓰기 전에 결정을 문서화하세요. 어떤 계정이나 인증 방식을 쓸지, 어느 디렉터리에서 시작할지, 어떤 파일은 건드리면 안 되는지, 어떤 명령이 통과 기준인지 먼저 정해야 합니다.
 

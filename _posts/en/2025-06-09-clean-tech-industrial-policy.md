@@ -29,7 +29,7 @@ tags:
 
 Clean-tech industrial policy depends less on subsidy size than on where a country sits in solar, batteries, grid equipment, EVs, and hydrogen equipment supply chains.
 
-This article is an educational briefing, not investment advice, legal advice, or a recommendation to buy a specific energy product. It gives readers a practical order for reading **Clean-Tech Industrial Policy: Supply-Chain Position Before Subsidy Headlines** with official-source context.
+This article is educational and does not provide investment, legal, or energy-product advice for **Clean-Tech Industrial Policy: Supply-Chain Position Before Subsidy Headlines**. It uses official-source context to connect the issue with costs, infrastructure, policy, and Korea-facing channels.
 
 ![Clean-Tech Industrial Policy: Supply-Chain Position Before Subsidy Headlines core flow summary](/images/2026-05-18-clean-tech-industrial-policy/hero.svg)
 
@@ -37,27 +37,23 @@ This article is an educational briefing, not investment advice, legal advice, or
 
 IEA outlooks show the energy transition becoming an industrial contest across manufacturing, trade, minerals, and grid equipment, not only technology deployment.
 
-Clean-Tech Industrial Policy: Supply-Chain Position Before Subsidy Headlines becomes economically relevant when supply-chain stage, subsidy conditions, and grid equipment move together. Korea has strengths in batteries and electrical equipment but remains exposed to raw materials and market-access rules, so policy needs a full supply-chain view. The practical task is to read the sequence between signals rather than one headline.
+Korea has strengths in batteries and electrical equipment but remains exposed to raw materials and market-access rules, so policy needs a full supply-chain view. The domestic cost path becomes clearer when **supply-chain stage**, **subsidy conditions**, and **grid equipment** are read as a sequence. Do not treat one monthly number or one headline as the whole story; separate demand, supply, price, and policy lag.
 
-This is why the topic should not be reduced to a simple for-or-against debate. If supply-chain stage changes without subsidy conditions, the result can be different. If grid equipment looks stable while market access worsens, costs can appear later.
+A simple for-or-against debate hides implementation risk. Demand can move before supply bottlenecks clear, and stable prices can still hide grid, permitting, or financing constraints.
 
 ## Core Structure
 
-- **Demand**: use supply-chain stage to locate where and when load or exposure is changing.
-- **Supply**: use subsidy conditions to test whether real supply capacity or a bottleneck is visible.
-- **Price**: use grid equipment to trace the lag into tariffs, import costs, or industrial margins.
-- **Risk**: use market access to separate policy, climate, and supply-chain risk.
+- **Demand**: use **supply-chain stage** to locate where and when exposure is changing.
+- **Supply**: use **subsidy conditions** to test whether the issue is real capacity or a bottleneck.
+- **Price**: use **grid equipment** to trace the lag into tariffs, import costs, or industrial margins.
+- **Risk**: use **market access** to separate policy, climate, and supply-chain risk.
 
 ## Signals To Watch
 
-- **supply-chain stage**: for Clean-Tech Industrial Policy: Supply-Chain Position Before Subsidy Headlines, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **subsidy conditions**: for Clean-Tech Industrial Policy: Supply-Chain Position Before Subsidy Headlines, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **grid equipment**: for Clean-Tech Industrial Policy: Supply-Chain Position Before Subsidy Headlines, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **market access**: for Clean-Tech Industrial Policy: Supply-Chain Position Before Subsidy Headlines, read direction, duration, and domestic cost channel before treating it as a standalone number.
-
-supply-chain stage alone can show direction while hiding the cause. Reading it with subsidy conditions and grid equipment makes it easier to tell whether the issue is a price shock, infrastructure bottleneck, or policy lag.
-
-![Clean-Tech Industrial Policy: Supply-Chain Position Before Subsidy Headlines signal checklist map](/images/2026-05-18-clean-tech-industrial-policy/signal-map.svg)
+- **supply-chain stage**: Read direction together with duration. A one-day price move and a multi-quarter volume shift require different decisions.
+- **subsidy conditions**: Write the domestic transmission channel. Mark whether it reaches tariffs, import prices, industrial costs, or local infrastructure first.
+- **grid equipment**: Check the implementation bottleneck. Grid connection, permits, finance, equipment, labour, and local acceptance can delay headline targets.
+- **market access**: Separate the policy assumption. Subsidies, regulation, taxes, and international rules can change the cost structure of the same technology.
 
 ## Korea-Facing Transmission
 
@@ -74,14 +70,14 @@ At implementation stage, the first question is: Read the supported supply-chain 
 - Read the supported supply-chain stage before the total subsidy amount.
 - Compare rules for domestic and overseas production.
 - Include labour, electricity, and mineral bottlenecks in policy analysis.
-
-This checklist is not for predicting the next price move. For **Clean-Tech Industrial Policy: Supply-Chain Position Before Subsidy Headlines**, it is a baseline for checking what changed, what did not change, and which constraint matters most when a new policy, forecast, or company announcement appears.
+Check baseline year, geography, unit, and policy assumptions first.
+Translate the signal into Korea's import structure, grid geography, industrial exposure, or household cost channel.
 
 ## How To Read The Numbers
 
-The numbers in Clean-Tech Industrial Policy: Supply-Chain Position Before Subsidy Headlines change meaning when baseline year, region, or unit changes. For supply-chain stage and market access, peaks, delays, and exceptions often matter more than averages.
+Climate and energy numbers can change meaning when baseline year, region, or unit changes. Peaks, delays, and exceptions often matter more than averages.
 
-Before using climate or energy data, check the **baseline, period, unit, geographic coverage, and policy assumptions**. Then translate supply-chain stage, subsidy conditions, and grid equipment into Korea's import structure, grid geography, industrial exposure, or household cost channels.
+Check the **baseline, period, unit, geographic coverage, and policy assumptions** first. Then translate **supply-chain stage**, **subsidy conditions**, and **grid equipment** into Korea's import structure, grid geography, industrial exposure, or household cost channels.
 
 ## Source Notes
 

@@ -26,8 +26,7 @@ tags:
   - Risk Management
   - Team Process
 ---
-
-AI trends are not only model-name news. They are signals such as **mapped use case** that change real workflow quality. This guide reads **NIST AI RMF Team Checklist: Turn Governance into Operating Routines** through adoption, verification, and operating responsibility.
+AI governance should be a recurring question set before and after release, not a single policy document. Before adoption, document **mapped use case** and **measured metric** so review, cost control, and accountability are not pushed downstream.
 
 The NIST AI RMF helps teams translate AI risk into mapping, measuring, managing, and governance routines.
 
@@ -43,10 +42,10 @@ For this topic, start with **mapped use case** and **measured metric**. If eithe
 
 ## Signals To Check First
 
-- **mapped use case**: for NIST AI RMF Team Checklist: Turn Governance into Operating Routines, record the standard, owner, and failure response for this item.
-- **measured metric**: for NIST AI RMF Team Checklist: Turn Governance into Operating Routines, record the standard, owner, and failure response for this item.
-- **managed risk**: for NIST AI RMF Team Checklist: Turn Governance into Operating Routines, record the standard, owner, and failure response for this item.
-- **governance owner**: for NIST AI RMF Team Checklist: Turn Governance into Operating Routines, record the standard, owner, and failure response for this item.
+- **mapped use case**: Define the tools, data, and execution rights the agent can actually use. Separate read, draft, and external execution permissions, and write down prohibited actions explicitly.
+- **measured metric**: Define where a human must approve the workflow. Costly actions, user-impacting output, external transfer, and file deletion should remain blocked until this gate passes.
+- **managed risk**: Keep enough evidence for later review. Store the input, tool call, decision reason, and failure class together so the next run can be compared against the same standard.
+- **governance owner**: Define the recovery path before the workflow runs. Name the previous version, owner, stop condition, and user-notice rule so a failed automation can be reversed quickly.
 
 ![NIST AI RMF Team Checklist: Turn Governance into Operating Routines verification checklist](/images/2026-05-23-nist-ai-rmf-team-checklist/checklist.png)
 

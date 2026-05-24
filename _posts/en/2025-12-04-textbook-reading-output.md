@@ -26,8 +26,7 @@ tags:
   - Summarizing
   - StudyRoutine
 ---
-
-A study method becomes useful when it leaves an observable signal such as **pre-question**. This guide turns **Textbook Reading Routine: Leave Questions, Summary, and Examples** into a routine that can be tested in one session.
+Feeling familiar with a page is different from being able to explain it. The goal is to leave **pre-question** and **section summary** so the next review can start with a decision, not setup.
 
 Textbook reading becomes study when it leaves pre-questions, post-reading summaries, and self-made examples.
 
@@ -39,14 +38,14 @@ This article is educational. **Textbook Reading Routine: Leave Questions, Summar
 
 Feeling familiar with a page is different from being able to explain it.
 
-This routine is not decoration for a longer study session. It should leave **pre-question** and **section summary** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **pre-question** and **section summary** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **pre-question**: for Textbook Reading Routine: Leave Questions, Summary, and Examples, leave this as a record that can be checked in the next review.
-- **section summary**: for Textbook Reading Routine: Leave Questions, Summary, and Examples, leave this as a record that can be checked in the next review.
-- **self example**: for Textbook Reading Routine: Leave Questions, Summary, and Examples, leave this as a record that can be checked in the next review.
-- **unclear term**: for Textbook Reading Routine: Leave Questions, Summary, and Examples, leave this as a record that can be checked in the next review.
+- **pre-question**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **section summary**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **self example**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **unclear term**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Textbook Reading Routine: Leave Questions, Summary, and Examples action checklist](/images/2026-05-23-textbook-reading-output/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Turn headings into questions befo
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **pre-question**, **section summary**, and **self example**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `pre-question`, `section summary`, and `self example`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

@@ -31,7 +31,7 @@ Personal finance is less about guessing returns and more about managing how **ti
 
 An investment's fit depends on time horizon and loss tolerance. Short-term money and long-term money should not carry the same risk.
 
-This article is educational and is not individualized financial advice or a product recommendation for **Risk Tolerance and Time Horizon: The Same ETF Looks Different by Goal**. It uses official-source guidance and basic calculations so readers can start by checking **time horizon**.
+This article is educational and does not give individualized investment, tax, lending, or legal advice for **Risk Tolerance and Time Horizon: The Same ETF Looks Different by Goal**. Use it to organize questions, then verify local rules, fees, contracts, and personal risk capacity before acting.
 
 ![Risk Tolerance and Time Horizon: The Same ETF Looks Different by Goal core finance flow](/images/2026-05-20-risk-tolerance-time-horizon/hero.svg)
 
@@ -68,11 +68,11 @@ When **time horizon** touches both debt and investing decisions, separate short-
 
 ## Monthly Checkup
 
-- Confirm that you can: write the spending date for each goal.
-- Confirm that you can: define what you would do after a large loss.
-- Confirm that you can: separate short-, medium-, and long-term money in accounts or tables.
-- Write whether the decision affects budget, emergency cash, debt, or long-term goals.
-- Recheck tax and financial rules through official guidance for the country where they apply.
+- Write the spending date for each goal.
+- Define what you would do after a large loss.
+- Separate short-, medium-, and long-term money in accounts or tables.
+- Check fees, taxes, contract terms, and liquidity limits together.
+- Verify local financial and tax rules before applying the idea to your situation.
 
 ## Source Notes
 

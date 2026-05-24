@@ -215,7 +215,7 @@
 
 - 1차 목표 큐 50쌍 작성은 완료했고, 현재는 주요 성장 카테고리 대부분이 30쌍 이상이다.
 - 현재 완성 규모: Troubleshooting 150쌍, AI Trends 60쌍, Global Affairs 30쌍, Climate & Energy 38쌍, Consumer Rights 30쌍, Digital Security 30쌍, Personal Finance 30쌍, Health Literacy 30쌍, Study 32쌍, Economy 36쌍, Easy Labeling 37쌍.
-- `2026-05-23`에 몰려 있던 기존 대량 작성 글은 검증용 50쌍만 남기고 나머지는 2025-01-06부터 2026-05-22까지의 빈 날짜로 재분배했다.
+- `2026-05-23`에 몰려 있던 기존 대량 작성 글은 검증 스크립트의 날짜 하드코딩을 제거한 뒤 2024-10-01부터 2026-05-22까지의 빈 날짜로 재분배했다.
 - 신규 캠페인 글은 각 글마다 이미지 2개 이상, 내부 링크, 출처 또는 검수 기준, category hub 연결을 유지한다.
 
 운영 기준:
@@ -430,7 +430,7 @@ Auto ads 운영:
 - [x] Health Literacy 30쌍 작성 및 category hub 구성
 - [x] AI Trends 30쌍, Study 32쌍, Economy 36쌍, Easy Labeling 37쌍으로 확장
 - [x] Codex CLI, Claude Code, MCP, permission, agent 운영 포스트 30쌍 추가
-- [x] 기존 대량 작성 포스트 날짜 재분배: `2026-05-23`은 50쌍만 유지하고 그 외 8쌍 초과 날짜 제거
+- [x] 기존 대량 작성 포스트 날짜 재분배: 언어별 하루 8개 초과 날짜 제거
 - [x] 각 글에 `lang`, `translation_id`, category, English tags 확인: `npm run validate:content-plan`
 - [x] 신규 글마다 내부 링크 최소 2개 추가
 - [x] Easy Labeling 글은 실제 화면과 launch link 포함

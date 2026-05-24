@@ -26,8 +26,7 @@ tags:
   - Governance
   - Fairness
 ---
-
-AI trends are not only model-name news. They are signals such as **job criterion** that change real workflow quality. This guide reads **AI HR Screening Risk: Watch Explainability and Discrimination** through adoption, verification, and operating responsibility.
+AI that affects employment opportunities cannot be justified by internal efficiency alone. Before adoption, document **job criterion** and **proxy variable** so review, cost control, and accountability are not pushed downstream.
 
 Hiring AI needs criteria, bias checks, explainability, and appeal paths before speed.
 
@@ -43,10 +42,10 @@ For this topic, start with **job criterion** and **proxy variable**. If either i
 
 ## Signals To Check First
 
-- **job criterion**: for AI HR Screening Risk: Watch Explainability and Discrimination, record the standard, owner, and failure response for this item.
-- **proxy variable**: for AI HR Screening Risk: Watch Explainability and Discrimination, record the standard, owner, and failure response for this item.
-- **bias test**: for AI HR Screening Risk: Watch Explainability and Discrimination, record the standard, owner, and failure response for this item.
-- **appeal process**: for AI HR Screening Risk: Watch Explainability and Discrimination, record the standard, owner, and failure response for this item.
+- **job criterion**: Define the tools, data, and execution rights the agent can actually use. Separate read, draft, and external execution permissions, and write down prohibited actions explicitly.
+- **proxy variable**: Define where a human must approve the workflow. Costly actions, user-impacting output, external transfer, and file deletion should remain blocked until this gate passes.
+- **bias test**: Keep enough evidence for later review. Store the input, tool call, decision reason, and failure class together so the next run can be compared against the same standard.
+- **appeal process**: Define the recovery path before the workflow runs. Name the previous version, owner, stop condition, and user-notice rule so a failed automation can be reversed quickly.
 
 ![AI HR Screening Risk: Watch Explainability and Discrimination verification checklist](/images/2026-05-23-ai-hr-screening-risk/checklist.png)
 

@@ -26,7 +26,7 @@ tags:
   - Terminal
   - Developer Setup
 ---
-이 글은 2026년 5월 24일 기준 공식 문서를 확인해 작성했습니다. CLI 도구는 업데이트가 빠르므로 운영 환경에 복사하기 전 버전과 하단의 Source Notes를 다시 확인하세요.
+2026년 5월 24일 기준 공식 문서와 CLI 동작을 기준으로, 이 글은 **Claude Code VS Code terminal setup: IDE와 CLI 작업 위치 맞추기**에서 먼저 확인할 설정과 실패 지점을 정리합니다. 핵심 판단은 VS Code의 통합 터미널에서 `pwd`, `git status`, 테스트 명령을 확인한 뒤 `claude`를 실행하고, IDE 확장 자동 설치 여부는 settings에서 통제합니다.
 
 ## 빠른 답
 

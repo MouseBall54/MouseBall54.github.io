@@ -26,8 +26,11 @@ tags:
   - Electricity
   - Industry
 ---
+As renewables and electrification expand, the main question shifts from how much electricity can be generated to where and when it can be delivered reliably.
 
-Global affairs can look abstract until **transmission investment** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
+For Korean readers, the practical question is where **transmission investment** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
+
+For Korean readers, the practical question is where **transmission investment** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
 
 As renewables and electrification expand, the main question shifts from how much electricity can be generated to where and when it can be delivered reliably.
 
@@ -39,18 +42,14 @@ This briefing treats **The Energy Transition Bottleneck Is the Grid, Not Only Ge
 
 Korea's industrial parks, semiconductor clusters, and data-centre plans need to be evaluated alongside grid investment speed.
 
-For this issue, start with **transmission investment**, then check whether **curtailment rates** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
+Start with **transmission investment**, then check whether **curtailment rates** is moving through prices, physical supply, policy response, or financing conditions. A short market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
-- **transmission investment**: watch the direction, policy response, and market pricing rather than the number alone.
-- **curtailment rates**: watch the direction, policy response, and market pricing rather than the number alone.
-- **peak demand**: watch the direction, policy response, and market pricing rather than the number alone.
-- **industrial power contracts**: watch the direction, policy response, and market pricing rather than the number alone.
-
-Do not read **transmission investment** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
-
-![The Energy Transition Bottleneck Is the Grid, Not Only Generation signal checklist](/images/2026-05-22-energy-transition-grid-bottlenecks/signal-map.svg)
+- **transmission investment**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
+- **curtailment rates**: Connect domestic headlines to external causes. Mark whether exports, import prices, exchange rates, energy costs, or security budgets move first.
+- **peak demand**: Check inventory and contract cushions. Market prices can look stable while shipping, insurance, or compliance costs pass through later.
+- **industrial power contracts**: Choose the next source to watch. Decide whether official statistics, institutional forecasts, or government releases would change the baseline.
 
 ## Korea-Facing Angle
 
@@ -68,11 +67,11 @@ Household readers can translate **transmission investment** into living costs, l
 
 ## Reader Checklist
 
-- Track whether transmission investment first affects exports, prices, funding, or public budgets.
-- Track whether curtailment rates first affects exports, prices, funding, or public budgets.
-- Track whether peak demand first affects exports, prices, funding, or public budgets.
+- Decide whether **transmission investment** is creating a price shock, a volume shock, or both.
+- Check whether **curtailment rates** is a short news cycle or a structural change that can last for quarters.
+- Mark the Korea-facing channel for **peak demand**: exports, import prices, financial markets, security costs, or household costs.
 - Separate official data from interpretation and commentary.
-- Check the release date, reference period, and assumptions before using any forecast.
+- Check release date, reference period, and assumptions before using any forecast.
 
 ## Source Notes
 

@@ -26,7 +26,7 @@ tags:
   - Environment
   - Security
 ---
-이 글은 2026년 5월 24일 기준 공식 문서를 확인해 작성했습니다. CLI 도구는 업데이트가 빠르므로 운영 환경에 복사하기 전 버전과 하단의 Source Notes를 다시 확인하세요.
+2026년 5월 24일 기준 공식 문서와 CLI 동작을 기준으로, 이 글은 **AI agent env and secret hygiene: 환경변수와 키 노출을 줄이는 법**에서 먼저 확인할 설정과 실패 지점을 정리합니다. 핵심 판단은 키는 셸·CI·secret manager에서 주입하고, 에이전트 설정에는 deny 규칙과 env allowlist를 둡니다.
 
 ## 빠른 답
 

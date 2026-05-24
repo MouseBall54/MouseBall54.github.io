@@ -26,8 +26,7 @@ tags:
   - Debugging
   - Programming
 ---
-
-A study method becomes useful when it leaves an observable signal such as **syntax reuse**. This guide turns **Spaced Review for Coding Concepts: Reuse Syntax in Projects** into a routine that can be tested in one session.
+The evidence of coding knowledge is whether you can rewrite and debug it, not only explain syntax. The goal is to leave **syntax reuse** and **mini feature** so the next review can start with a decision, not setup.
 
 Coding review works well when a concept is reused in a small feature days later, combining syntax with context.
 
@@ -39,14 +38,14 @@ This article is educational. **Spaced Review for Coding Concepts: Reuse Syntax i
 
 The evidence of coding knowledge is whether you can rewrite and debug it, not only explain syntax.
 
-This routine is not decoration for a longer study session. It should leave **syntax reuse** and **mini feature** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **syntax reuse** and **mini feature** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **syntax reuse**: for Spaced Review for Coding Concepts: Reuse Syntax in Projects, leave this as a record that can be checked in the next review.
-- **mini feature**: for Spaced Review for Coding Concepts: Reuse Syntax in Projects, leave this as a record that can be checked in the next review.
-- **debug log**: for Spaced Review for Coding Concepts: Reuse Syntax in Projects, leave this as a record that can be checked in the next review.
-- **review card**: for Spaced Review for Coding Concepts: Reuse Syntax in Projects, leave this as a record that can be checked in the next review.
+- **syntax reuse**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **mini feature**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **debug log**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **review card**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Spaced Review for Coding Concepts: Reuse Syntax in Projects action checklist](/images/2026-05-23-spaced-review-for-coding/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Use today’s syntax in a small e
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **syntax reuse**, **mini feature**, and **debug log**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `syntax reuse`, `mini feature`, and `debug log`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

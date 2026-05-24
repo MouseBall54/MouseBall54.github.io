@@ -26,12 +26,11 @@ tags:
   - Family Security
   - Mobile Security
 ---
-
-Digital security is not only for specialists. A small signal such as **agency impersonation** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+Agency impersonation, family impersonation, remote-control apps, and gift-card payment requests repeatedly target older adults. Start with: create a family confirmation rule before transfers. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 Security for older adults lasts longer when families build a shared check routine for calls, texts, app installs, and transfer requests.
 
-This guide is not a product recommendation. It turns **agency impersonation** into a response routine, starting with: create a family confirmation rule before transfers.
+Use this as a response routine for **agency impersonation**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![Digital Scam Prevention for Older Adults: Build a Shared Check Routine core security flow](/images/2026-05-21-elderly-scam-prevention/hero.svg)
 
@@ -45,14 +44,10 @@ For **agency impersonation, remote-control app**, the baseline is pause, verify 
 
 ## Warning Signals To Check First
 
-- **agency impersonation**: pause immediately and verify through a trusted route.
-- **remote-control app**: pause immediately and verify through a trusted route.
-- **gift-card demand**: pause immediately and verify through a trusted route.
-- **pressure to stay on call**: pause immediately and verify through a trusted route.
-
-A signal such as **agency impersonation** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: create a family confirmation rule before transfers.
-
-![Digital Scam Prevention for Older Adults: Build a Shared Check Routine response checklist](/images/2026-05-21-elderly-scam-prevention/checklist.svg)
+- **agency impersonation**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **remote-control app**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **gift-card demand**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **pressure to stay on call**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **agency 
 
 ## Monthly Checkup
 
-- Confirm that you can: create a family confirmation rule before transfers.
-- Confirm that you can: put remote-control app installation on a do-not-install list.
-- Confirm that you can: keep only trusted agency apps on the home screen.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Create a family confirmation rule before transfers.
+- Put remote-control app installation on a do-not-install list.
+- Keep only trusted agency apps on the home screen.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

@@ -26,8 +26,11 @@ tags:
   - Demographics
   - Policy
 ---
+Migration policy is not only border control; it changes care work, manufacturing, construction, education, and urban housing at once.
 
-Global affairs can look abstract until **work visa quotas** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
+For Korean readers, the practical question is where **work visa quotas** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
+
+For Korean readers, the practical question is where **work visa quotas** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
 
 Migration policy is not only border control; it changes care work, manufacturing, construction, education, and urban housing at once.
 
@@ -39,18 +42,14 @@ This briefing treats **Migration Policy and Labor Markets: A Competitiveness Var
 
 Korea faces both skilled and lower-wage labor shortages, so student visas, regional settlement, and integration costs need one design.
 
-For this issue, start with **work visa quotas**, then check whether **wage gaps** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
+Start with **work visa quotas**, then check whether **wage gaps** is moving through prices, physical supply, policy response, or financing conditions. A short market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
-- **work visa quotas**: watch the direction, policy response, and market pricing rather than the number alone.
-- **wage gaps**: watch the direction, policy response, and market pricing rather than the number alone.
-- **housing pressure**: watch the direction, policy response, and market pricing rather than the number alone.
-- **integration budgets**: watch the direction, policy response, and market pricing rather than the number alone.
-
-Do not read **work visa quotas** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
-
-![Migration Policy and Labor Markets: A Competitiveness Variable in the Ageing Era signal checklist](/images/2026-05-22-migration-policy-labor-market/signal-map.svg)
+- **work visa quotas**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
+- **wage gaps**: Connect domestic headlines to external causes. Mark whether exports, import prices, exchange rates, energy costs, or security budgets move first.
+- **housing pressure**: Check inventory and contract cushions. Market prices can look stable while shipping, insurance, or compliance costs pass through later.
+- **integration budgets**: Choose the next source to watch. Decide whether official statistics, institutional forecasts, or government releases would change the baseline.
 
 ## Korea-Facing Angle
 
@@ -68,11 +67,11 @@ Household readers can translate **work visa quotas** into living costs, loan rat
 
 ## Reader Checklist
 
-- Track whether work visa quotas first affects exports, prices, funding, or public budgets.
-- Track whether wage gaps first affects exports, prices, funding, or public budgets.
-- Track whether housing pressure first affects exports, prices, funding, or public budgets.
+- Decide whether **work visa quotas** is creating a price shock, a volume shock, or both.
+- Check whether **wage gaps** is a short news cycle or a structural change that can last for quarters.
+- Mark the Korea-facing channel for **housing pressure**: exports, import prices, financial markets, security costs, or household costs.
 - Separate official data from interpretation and commentary.
-- Check the release date, reference period, and assumptions before using any forecast.
+- Check release date, reference period, and assumptions before using any forecast.
 
 ## Source Notes
 

@@ -26,8 +26,7 @@ tags:
   - AI Notes
   - Workflow
 ---
-
-AI trends are not only model-name news. They are signals such as **decision** that change real workflow quality. This guide reads **AI Meeting Notes Workflow: Turn Calls into Decisions, Owners, and Deadlines** through adoption, verification, and operating responsibility.
+Meeting-note automation is not compression; it is a record system that prevents next actions from disappearing. Before adoption, document **decision** and **owner** so review, cost control, and accountability are not pushed downstream.
 
 AI meeting notes are valuable when they separate decisions, owners, deadlines, and unresolved questions, not when they only summarize.
 
@@ -43,10 +42,10 @@ For this topic, start with **decision** and **owner**. If either is vague, the w
 
 ## Signals To Check First
 
-- **decision**: for AI Meeting Notes Workflow: Turn Calls into Decisions, Owners, and Deadlines, record the standard, owner, and failure response for this item.
-- **owner**: for AI Meeting Notes Workflow: Turn Calls into Decisions, Owners, and Deadlines, record the standard, owner, and failure response for this item.
-- **deadline**: for AI Meeting Notes Workflow: Turn Calls into Decisions, Owners, and Deadlines, record the standard, owner, and failure response for this item.
-- **open question**: for AI Meeting Notes Workflow: Turn Calls into Decisions, Owners, and Deadlines, record the standard, owner, and failure response for this item.
+- **decision**: Define the tools, data, and execution rights the agent can actually use. Separate read, draft, and external execution permissions, and write down prohibited actions explicitly.
+- **owner**: Define where a human must approve the workflow. Costly actions, user-impacting output, external transfer, and file deletion should remain blocked until this gate passes.
+- **deadline**: Keep enough evidence for later review. Store the input, tool call, decision reason, and failure class together so the next run can be compared against the same standard.
+- **open question**: Define the recovery path before the workflow runs. Name the previous version, owner, stop condition, and user-notice rule so a failed automation can be reversed quickly.
 
 ![AI Meeting Notes Workflow: Turn Calls into Decisions, Owners, and Deadlines verification checklist](/images/2026-05-23-ai-meeting-notes-workflow/checklist.png)
 

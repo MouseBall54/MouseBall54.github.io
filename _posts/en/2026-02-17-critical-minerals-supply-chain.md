@@ -26,8 +26,11 @@ tags:
   - Energy Security
   - Semiconductors
 ---
+The IEA frames critical minerals as a strategic risk that reaches beyond EVs and renewables into AI chips, defense, aerospace, and advanced manufacturing.
 
-Global affairs can look abstract until **refining concentration** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
+For Korean readers, the practical question is where **refining concentration** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
+
+For Korean readers, the practical question is where **refining concentration** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
 
 The IEA frames critical minerals as a strategic risk that reaches beyond EVs and renewables into AI chips, defense, aerospace, and advanced manufacturing.
 
@@ -39,18 +42,14 @@ This briefing treats **Critical Minerals Supply Chains: The New Energy Security 
 
 Korea's batteries, semiconductors, and autos are all exposed, so refining concentration and export controls matter more than spot prices alone.
 
-For this issue, start with **refining concentration**, then check whether **export controls** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
+Start with **refining concentration**, then check whether **export controls** is moving through prices, physical supply, policy response, or financing conditions. A short market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
-- **refining concentration**: watch the direction, policy response, and market pricing rather than the number alone.
-- **export controls**: watch the direction, policy response, and market pricing rather than the number alone.
-- **battery metal prices**: watch the direction, policy response, and market pricing rather than the number alone.
-- **recycling capacity**: watch the direction, policy response, and market pricing rather than the number alone.
-
-Do not read **refining concentration** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
-
-![Critical Minerals Supply Chains: The New Energy Security Layer for Batteries and AI signal checklist](/images/2026-05-22-critical-minerals-supply-chain/signal-map.svg)
+- **refining concentration**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
+- **export controls**: Connect domestic headlines to external causes. Mark whether exports, import prices, exchange rates, energy costs, or security budgets move first.
+- **battery metal prices**: Check inventory and contract cushions. Market prices can look stable while shipping, insurance, or compliance costs pass through later.
+- **recycling capacity**: Choose the next source to watch. Decide whether official statistics, institutional forecasts, or government releases would change the baseline.
 
 ## Korea-Facing Angle
 
@@ -68,11 +67,11 @@ Household readers can translate **refining concentration** into living costs, lo
 
 ## Reader Checklist
 
-- Track whether refining concentration first affects exports, prices, funding, or public budgets.
-- Track whether export controls first affects exports, prices, funding, or public budgets.
-- Track whether battery metal prices first affects exports, prices, funding, or public budgets.
+- Decide whether **refining concentration** is creating a price shock, a volume shock, or both.
+- Check whether **export controls** is a short news cycle or a structural change that can last for quarters.
+- Mark the Korea-facing channel for **battery metal prices**: exports, import prices, financial markets, security costs, or household costs.
 - Separate official data from interpretation and commentary.
-- Check the release date, reference period, and assumptions before using any forecast.
+- Check release date, reference period, and assumptions before using any forecast.
 
 ## Source Notes
 

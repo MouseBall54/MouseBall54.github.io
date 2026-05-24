@@ -26,8 +26,7 @@ tags:
   - User Experience
   - Safety
 ---
-
-AI trends are not only model-name news. They are signals such as **latency target** that change real workflow quality. This guide reads **Voice and Realtime AI Use Cases: Stop Rules Before Speed** through adoption, verification, and operating responsibility.
+Voice interfaces reduce review time, so boundaries against mistaken execution are essential. Before adoption, document **latency target** and **sensitive action** so review, cost control, and accountability are not pushed downstream.
 
 Realtime voice AI benefits from low latency, but stop rules matter more in payment, medical, legal, or identity contexts.
 
@@ -43,10 +42,10 @@ For this topic, start with **latency target** and **sensitive action**. If eithe
 
 ## Signals To Check First
 
-- **latency target**: for Voice and Realtime AI Use Cases: Stop Rules Before Speed, record the standard, owner, and failure response for this item.
-- **sensitive action**: for Voice and Realtime AI Use Cases: Stop Rules Before Speed, record the standard, owner, and failure response for this item.
-- **identity check**: for Voice and Realtime AI Use Cases: Stop Rules Before Speed, record the standard, owner, and failure response for this item.
-- **transcript record**: for Voice and Realtime AI Use Cases: Stop Rules Before Speed, record the standard, owner, and failure response for this item.
+- **latency target**: Define the tools, data, and execution rights the agent can actually use. Separate read, draft, and external execution permissions, and write down prohibited actions explicitly.
+- **sensitive action**: Define where a human must approve the workflow. Costly actions, user-impacting output, external transfer, and file deletion should remain blocked until this gate passes.
+- **identity check**: Keep enough evidence for later review. Store the input, tool call, decision reason, and failure class together so the next run can be compared against the same standard.
+- **transcript record**: Define the recovery path before the workflow runs. Name the previous version, owner, stop condition, and user-notice rule so a failed automation can be reversed quickly.
 
 ![Voice and Realtime AI Use Cases: Stop Rules Before Speed verification checklist](/images/2026-05-23-voice-realtime-ai-use-cases/checklist.png)
 

@@ -26,12 +26,11 @@ tags:
   - Public Health
   - Family Care
 ---
-
-Health literacy is not self-diagnosis. It is the ability to track observable signs such as **heat alert**, know when rest is reasonable, and know when professional guidance is safer.
+Heat stress can build gradually, so adjusting before you feel unwell is safer. Track **heat alert** with start date, duration, daily-function impact, and safety concerns so the threshold for qualified help is clearer.
 
 Heat safety requires activity timing, shade, rest, clothing, existing conditions, and care for vulnerable people, not only drinking water.
 
-This article is educational and is not diagnosis or treatment advice for **Heat Illness Prevention: Water, Shade, Rest, and Timing Together**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
+This article is educational and does not diagnose, treat, or set dosage for **Heat Illness Prevention: Water, Shade, Rest, and Timing Together**. Sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, severe bleeding, or any immediate safety concern should be handled through local emergency services or qualified medical professionals.
 
 ![Heat Illness Prevention: Water, Shade, Rest, and Timing Together core health flow](/images/2026-05-19-heat-illness-prevention/hero.svg)
 
@@ -45,14 +44,10 @@ For **heat alert, dizziness**, use patterns over one number, daily function over
 
 ## Signals To Check First
 
-- **heat alert**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **dizziness**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **heavy sweating**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **older adult alone**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-
-Do not interpret **heat alert** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
-
-![Heat Illness Prevention: Water, Shade, Rest, and Timing Together checklist](/images/2026-05-19-heat-illness-prevention/checklist.svg)
+- **heat alert**: Record start date, duration, frequency, triggers, and relieving factors in the same format. Sudden worsening or safety concerns should move professional help first.
+- **dizziness**: Write the effect on daily function. Changes in school, work, sleep, eating, or mobility often matter more than a vague severity label.
+- **heavy sweating**: Check age, pregnancy, existing conditions, medicines, recent infection, and injury. The same sign can mean different things under different conditions.
+- **older adult alone**: For breathing trouble, chest pain, confusion, severe bleeding, self-harm risk, or other emergency signs, seeking urgent help comes before record keeping.
 
 ## Practical Order
 
@@ -70,9 +65,9 @@ Before a visit, write the start date, duration, triggers, relieving factors, rel
 
 ## Monthly Checkup
 
-- Confirm that you can: reduce outdoor activity during the hottest hours.
-- Confirm that you can: set rest intervals and shade locations.
-- Confirm that you can: check on family or neighbors living alone.
+- Reduce outdoor activity during the hottest hours.
+- Set rest intervals and shade locations.
+- Check on family or neighbors living alone.
 - Write how symptoms or habits affect daily function.
 - Recheck health information through official local guidance and qualified medical professionals.
 

@@ -29,7 +29,7 @@ tags:
 
 Small add-ons on phone bills become costly when repeated, so service name, enrollment date, authorization record, and cancellation confirmation should be checked.
 
-This article is educational information, not legal advice. It explains a practical workflow for **Telecom Bill Cramming: Check Small Monthly Add-Ons** using evidence, dates, deadlines, and official-source escalation references.
+This article is educational and does not provide legal advice for **Telecom Bill Cramming: Check Small Monthly Add-Ons**. It focuses on preserving evidence, checking dates and contract wording, and choosing the right seller, platform, payment-provider, carrier, or regulator channel.
 
 ![Telecom Bill Cramming: Check Small Monthly Add-Ons core flow summary](/images/2026-05-17-telecom-bill-cramming/hero.svg)
 

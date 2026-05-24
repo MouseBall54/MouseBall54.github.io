@@ -8,6 +8,7 @@ header:
     A visual summary explaining the main topic of this post: Easy Labeling Guide (1) - Loading Images and Labels
 title: "Easy Labeling Guide (1) - Loading Images and Labels"
 date: 2025-07-20T00:00:00+09:00
+last_modified_at: 2026-05-24T00:00:00+09:00
 excerpt: "This is the first guide for the YOLO labeling tool, Easy Labeling. It provides basic instructions on how to load image folders and label files from your PC and how to use class files."
 
 seo_description: "This is the first guide for the YOLO labeling tool, Easy Labeling. It provides basic instructions on how to load image folders and label files from your PC and how to use class files."
@@ -27,7 +28,7 @@ tags:
 ![A visual summary explaining the main topic of this post: Easy Labeling Guide (1) - Loading Images and Labels](/images/2025-07-20-easy-labeling-guide-1/image-20250720232427171.png)
 <p><strong>Easy Labeling Project Page: <a href="https://mouseball54.github.io/easy_labeling/">https://mouseball54.github.io/easy_labeling/</a></strong></p>
 
-Hello! Starting with this post, I will explain in detail how to use **Easy Labeling, a dedicated tool for YOLO data labeling**.
+Hello! Starting with this post, I will explain how to use **Easy Labeling**, a local annotation tool that currently supports Detection for YOLO boxes and Segmentation for brush-based masks.
 
 For this first session, we will learn **how to load image and label files** and **how to use class description files**.
 
@@ -39,7 +40,7 @@ For this first session, we will learn **how to load image and label files** and 
 
 We recommend using the following environment:  
 > **Operating System**: Windows 10 or higher, macOS 10.14 or higher  
-> **Browser**: Chrome 93+, Firefox 91+, Edge 93+  
+> **Browser**: Desktop Chrome or Edge recommended because local folder read/write uses the File System Access API  
 > **Screen Resolution**: 1280×720 or higher  
 
 ### 1.2 Accessing the Website
@@ -154,15 +155,11 @@ The downloaded <code>custom-classes.yaml</code> file is provided in the followin
 10: traffic light
 ```
 
-By modifying this file to create your own class list, you can work more intuitively as the specified names (person, car, etc.) will be displayed instead of class numbers during labeling. The feature to edit this file directly within Easy Labeling will be covered in detail in a future guide.
+By modifying this file to create your own class list, you can work more intuitively as the specified names (person, car, etc.) will be displayed instead of class numbers during labeling. The current repository also documents class-file selection and create/edit modals, so keep class YAML files versioned when multiple datasets share similar names.
 
-In this post, we have covered the most basic features of Easy Labeling: loading image and label files, and using class files.
+In this post, we covered the most basic setup: loading image folders, loading or creating the `label` folder for Detection, and using class files. If your project needs masks, use the Segmentation workflow separately and check that `mask/<image>.png` and `mask/<image>.seg.json` are created as expected.
 
-In the next guide, we will provide a detailed explanation of **how to perform the actual labeling work**, so please look forward to it!
-
-If you have any questions, feel free to ask in the comments.
-
-Thank you.
+Before a large batch, run one small pilot in Desktop Chrome or Edge and confirm that saves happen in the expected folder.
 
 ------
 
@@ -183,10 +180,16 @@ Thank you.
 
 ------
 
-▶️ [Next: Guide to Labeling Work (Coming Soon)](easy-labeling-guide-2.md)
+## Source Notes
+
+- [Easy Labeling GitHub Repository](https://github.com/MouseBall54/easy_labeling): current tool scope, Detection/Segmentation workflows, save formats, browser requirements, and Electron build notes.
+- [MDN File System Access API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API): browser local-folder access background.
+- [Ultralytics Object Detection Dataset Docs](https://docs.ultralytics.com/datasets/detect/): YOLO folder structure, `data.yaml`, and label-format reference.
+- [CVAT YOLO Format](https://docs.cvat.ai/docs/dataset_management/formats/format-yolo/): YOLO annotation-format comparison point.
+
 ## Related Reading
 
 Continue with these related posts from the same topic area.
 
-- [Introducing Easy Labeling: A Free Web-Based Tool for YOLO Object Detection](/en_easy_labeling/easy-labeling-development/)
-- [A Deep Dive into Easy Labeling's Features for YOLO Data Labeling](/en_easy_labeling/easy-labeling-in-depth-features/)
+- [Introducing Easy Labeling: Local Detection and Segmentation Annotation Tool](/en_easy_labeling/easy-labeling-development/)
+- [Easy Labeling Features for YOLO Data Labeling](/en_easy_labeling/easy-labeling-in-depth-features/)

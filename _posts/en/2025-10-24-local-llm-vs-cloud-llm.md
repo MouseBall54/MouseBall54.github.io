@@ -26,8 +26,7 @@ tags:
   - Model Selection
   - Infrastructure
 ---
-
-AI trends are not only model-name news. They are signals such as **data boundary** that change real workflow quality. This guide reads **Local LLM vs Cloud LLM: Compare Data, Latency, and Operations First** through adoption, verification, and operating responsibility.
+Local models provide control, but the team also owns deployment, monitoring, updates, and security. Before adoption, document **data boundary** and **latency target** so review, cost control, and accountability are not pushed downstream.
 
 Choosing local or cloud LLMs is a balance of data sensitivity, latency, quality, and operating responsibility, not only price.
 
@@ -43,10 +42,10 @@ For this topic, start with **data boundary** and **latency target**. If either i
 
 ## Signals To Check First
 
-- **data boundary**: for Local LLM vs Cloud LLM: Compare Data, Latency, and Operations First, record the standard, owner, and failure response for this item.
-- **latency target**: for Local LLM vs Cloud LLM: Compare Data, Latency, and Operations First, record the standard, owner, and failure response for this item.
-- **quality benchmark**: for Local LLM vs Cloud LLM: Compare Data, Latency, and Operations First, record the standard, owner, and failure response for this item.
-- **ops owner**: for Local LLM vs Cloud LLM: Compare Data, Latency, and Operations First, record the standard, owner, and failure response for this item.
+- **data boundary**: Define the tools, data, and execution rights the agent can actually use. Separate read, draft, and external execution permissions, and write down prohibited actions explicitly.
+- **latency target**: Define where a human must approve the workflow. Costly actions, user-impacting output, external transfer, and file deletion should remain blocked until this gate passes.
+- **quality benchmark**: Keep enough evidence for later review. Store the input, tool call, decision reason, and failure class together so the next run can be compared against the same standard.
+- **ops owner**: Define the recovery path before the workflow runs. Name the previous version, owner, stop condition, and user-notice rule so a failed automation can be reversed quickly.
 
 ![Local LLM vs Cloud LLM: Compare Data, Latency, and Operations First verification checklist](/images/2026-05-23-local-llm-vs-cloud-llm/checklist.png)
 

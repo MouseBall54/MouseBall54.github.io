@@ -29,7 +29,7 @@ tags:
 
 Solar curtailment does not mean renewables are useless; it is an operating signal that timing, location, demand, and grids are mismatched.
 
-This article is an educational briefing, not investment advice, legal advice, or a recommendation to buy a specific energy product. It gives readers a practical order for reading **Solar Curtailment: Not Too Much Power, but Power in the Wrong Place** with official-source context.
+This article is educational and does not provide investment, legal, or energy-product advice for **Solar Curtailment: Not Too Much Power, but Power in the Wrong Place**. It uses official-source context to connect the issue with costs, infrastructure, policy, and Korea-facing channels.
 
 ![Solar Curtailment: Not Too Much Power, but Power in the Wrong Place core flow summary](/images/2026-05-18-solar-pv-curtailment-grid/hero.svg)
 
@@ -37,27 +37,23 @@ This article is an educational briefing, not investment advice, legal advice, or
 
 Grid-focused reports interpret curtailment as a signal for reinforcement, storage, and load shifting rather than as proof that added generation failed.
 
-Solar Curtailment: Not Too Much Power, but Power in the Wrong Place becomes economically relevant when curtailment rate, daytime demand, and distribution headroom move together. Korea's regional solar expansion should be read with daytime industrial load, distribution capacity, batteries, and long-distance transmission plans. The practical task is to read the sequence between signals rather than one headline.
+Korea's regional solar expansion should be read with daytime industrial load, distribution capacity, batteries, and long-distance transmission plans. The domestic cost path becomes clearer when **curtailment rate**, **daytime demand**, and **distribution headroom** are read as a sequence. Do not treat one monthly number or one headline as the whole story; separate demand, supply, price, and policy lag.
 
-This is why the topic should not be reduced to a simple for-or-against debate. If curtailment rate changes without daytime demand, the result can be different. If distribution headroom looks stable while battery siting worsens, costs can appear later.
+A simple for-or-against debate hides implementation risk. Demand can move before supply bottlenecks clear, and stable prices can still hide grid, permitting, or financing constraints.
 
 ## Core Structure
 
-- **Demand**: use curtailment rate to locate where and when load or exposure is changing.
-- **Supply**: use daytime demand to test whether real supply capacity or a bottleneck is visible.
-- **Price**: use distribution headroom to trace the lag into tariffs, import costs, or industrial margins.
-- **Risk**: use battery siting to separate policy, climate, and supply-chain risk.
+- **Demand**: use **curtailment rate** to locate where and when exposure is changing.
+- **Supply**: use **daytime demand** to test whether the issue is real capacity or a bottleneck.
+- **Price**: use **distribution headroom** to trace the lag into tariffs, import costs, or industrial margins.
+- **Risk**: use **battery siting** to separate policy, climate, and supply-chain risk.
 
 ## Signals To Watch
 
-- **curtailment rate**: for Solar Curtailment: Not Too Much Power, but Power in the Wrong Place, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **daytime demand**: for Solar Curtailment: Not Too Much Power, but Power in the Wrong Place, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **distribution headroom**: for Solar Curtailment: Not Too Much Power, but Power in the Wrong Place, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **battery siting**: for Solar Curtailment: Not Too Much Power, but Power in the Wrong Place, read direction, duration, and domestic cost channel before treating it as a standalone number.
-
-curtailment rate alone can show direction while hiding the cause. Reading it with daytime demand and distribution headroom makes it easier to tell whether the issue is a price shock, infrastructure bottleneck, or policy lag.
-
-![Solar Curtailment: Not Too Much Power, but Power in the Wrong Place signal checklist map](/images/2026-05-18-solar-pv-curtailment-grid/signal-map.svg)
+- **curtailment rate**: Read direction together with duration. A one-day price move and a multi-quarter volume shift require different decisions.
+- **daytime demand**: Write the domestic transmission channel. Mark whether it reaches tariffs, import prices, industrial costs, or local infrastructure first.
+- **distribution headroom**: Check the implementation bottleneck. Grid connection, permits, finance, equipment, labour, and local acceptance can delay headline targets.
+- **battery siting**: Separate the policy assumption. Subsidies, regulation, taxes, and international rules can change the cost structure of the same technology.
 
 ## Korea-Facing Transmission
 
@@ -74,14 +70,14 @@ At implementation stage, the first question is: Break curtailment by season and 
 - Break curtailment by season and time of day.
 - Compare project location with demand centres.
 - Check whether storage and demand response are in the same region.
-
-This checklist is not for predicting the next price move. For **Solar Curtailment: Not Too Much Power, but Power in the Wrong Place**, it is a baseline for checking what changed, what did not change, and which constraint matters most when a new policy, forecast, or company announcement appears.
+Check baseline year, geography, unit, and policy assumptions first.
+Translate the signal into Korea's import structure, grid geography, industrial exposure, or household cost channel.
 
 ## How To Read The Numbers
 
-The numbers in Solar Curtailment: Not Too Much Power, but Power in the Wrong Place change meaning when baseline year, region, or unit changes. For curtailment rate and battery siting, peaks, delays, and exceptions often matter more than averages.
+Climate and energy numbers can change meaning when baseline year, region, or unit changes. Peaks, delays, and exceptions often matter more than averages.
 
-Before using climate or energy data, check the **baseline, period, unit, geographic coverage, and policy assumptions**. Then translate curtailment rate, daytime demand, and distribution headroom into Korea's import structure, grid geography, industrial exposure, or household cost channels.
+Check the **baseline, period, unit, geographic coverage, and policy assumptions** first. Then translate **curtailment rate**, **daytime demand**, and **distribution headroom** into Korea's import structure, grid geography, industrial exposure, or household cost channels.
 
 ## Source Notes
 

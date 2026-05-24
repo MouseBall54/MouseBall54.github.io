@@ -26,7 +26,7 @@ tags:
   - Automation
   - AI Safety
 ---
-This guide is checked against official documentation on May 24, 2026. CLI behavior changes, so verify the version and linked source notes before copying a setting into a production workflow.
+Checked against official documentation on May 24, 2026, this post focuses on the setup and failure points behind **Codex Non-Interactive CI Checklist: Risks to Block Before Automation**. The practical baseline is: Start non-interactive use with read-only review, limited tests, and explicit output files because no one can interrupt a bad action quickly.
 
 ## Quick Answer
 

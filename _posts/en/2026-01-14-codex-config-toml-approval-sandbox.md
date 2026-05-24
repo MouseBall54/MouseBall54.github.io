@@ -26,7 +26,7 @@ tags:
   - Sandbox
   - Permissions
 ---
-This guide is checked against official documentation on May 24, 2026. CLI behavior changes, so verify the version and linked source notes before copying a setting into a production workflow.
+Checked against official documentation on May 24, 2026, this post focuses on the setup and failure points behind **Codex config.toml approval_policy and sandbox_mode Setup Guide**. The practical baseline is: Start with interactive approvals and workspace-limited writes, then create narrower profiles only after tests and review rules are stable.
 
 ## Quick Answer
 

@@ -26,12 +26,11 @@ tags:
   - Warning Signs
   - Support
 ---
-
-Health literacy is not self-diagnosis. It is the ability to track observable signs such as **increased avoidance**, know when rest is reasonable, and know when professional guidance is safer.
+The size of fear matters less than how much life has narrowed around it. Track **increased avoidance** with start date, duration, daily-function impact, and safety concerns so the threshold for qualified help is clearer.
 
 Anxiety is common, but persistent avoidance, sleep problems, physical symptoms, or impaired daily function are reasons to seek support.
 
-This article is educational and is not diagnosis or treatment advice for **When Anxiety Disrupts Life: A Practical Threshold for Seeking Help**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
+This article is educational and does not diagnose, treat, or set dosage for **When Anxiety Disrupts Life: A Practical Threshold for Seeking Help**. Sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, severe bleeding, or any immediate safety concern should be handled through local emergency services or qualified medical professionals.
 
 ![When Anxiety Disrupts Life: A Practical Threshold for Seeking Help core health flow](/images/2026-05-19-anxiety-seek-help/hero.svg)
 
@@ -45,14 +44,10 @@ For **increased avoidance, sleep disruption**, use patterns over one number, dai
 
 ## Signals To Check First
 
-- **increased avoidance**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **sleep disruption**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **racing heart**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **impaired daily function**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-
-Do not interpret **increased avoidance** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
-
-![When Anxiety Disrupts Life: A Practical Threshold for Seeking Help checklist](/images/2026-05-19-anxiety-seek-help/checklist.svg)
+- **increased avoidance**: Record start date, duration, frequency, triggers, and relieving factors in the same format. Sudden worsening or safety concerns should move professional help first.
+- **sleep disruption**: Write the effect on daily function. Changes in school, work, sleep, eating, or mobility often matter more than a vague severity label.
+- **racing heart**: Check age, pregnancy, existing conditions, medicines, recent infection, and injury. The same sign can mean different things under different conditions.
+- **impaired daily function**: For breathing trouble, chest pain, confusion, severe bleeding, self-harm risk, or other emergency signs, seeking urgent help comes before record keeping.
 
 ## Practical Order
 
@@ -70,9 +65,9 @@ Before a visit, write the start date, duration, triggers, relieving factors, rel
 
 ## Monthly Checkup
 
-- Confirm that you can: list places or tasks you started avoiding.
-- Confirm that you can: track sleep, eating, and physical symptoms together.
-- Confirm that you can: seek immediate help for self-harm thoughts or safety concerns.
+- List places or tasks you started avoiding.
+- Track sleep, eating, and physical symptoms together.
+- Seek immediate help for self-harm thoughts or safety concerns.
 - Write how symptoms or habits affect daily function.
 - Recheck health information through official local guidance and qualified medical professionals.
 

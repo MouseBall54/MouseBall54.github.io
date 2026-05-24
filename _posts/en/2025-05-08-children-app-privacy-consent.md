@@ -29,7 +29,7 @@ tags:
 
 Children's apps may look free while combining location, contacts, ad identifiers, in-app purchases, and subscription consent, so guardian settings matter first.
 
-This article is educational information, not legal advice. It explains a practical workflow for **Children's App Privacy Consent: Permissions and Purchases Together** using evidence, dates, deadlines, and official-source escalation references.
+This article is educational and does not provide legal advice for **Children's App Privacy Consent: Permissions and Purchases Together**. It focuses on preserving evidence, checking dates and contract wording, and choosing the right seller, platform, payment-provider, carrier, or regulator channel.
 
 ![Children's App Privacy Consent: Permissions and Purchases Together core flow summary](/images/2026-05-17-children-app-privacy-consent/hero.svg)
 

@@ -26,7 +26,7 @@ tags:
   - Browser Testing
   - Verification
 ---
-This guide is checked against official documentation on May 24, 2026. CLI behavior changes, so verify the version and linked source notes before copying a setting into a production workflow.
+Checked against official documentation on May 24, 2026, this post focuses on the setup and failure points behind **AI Agent Browser Tool Verification: Check UI Changes Visually**. The practical baseline is: Run the dev server and verify key routes, console errors, network 404s, mobile width, and primary calls to action.
 
 ## Quick Answer
 

@@ -29,7 +29,7 @@ tags:
 
 Climate risk is driven less by average temperature or rainfall than by extremes, compound shocks, fragile infrastructure, and recovery capacity.
 
-This article is an educational briefing, not investment advice, legal advice, or a recommendation to buy a specific energy product. It gives readers a practical order for reading **Climate-Risk Scenario Planning: Tail Risks Before Average Forecasts** with official-source context.
+This article is educational and does not provide investment, legal, or energy-product advice for **Climate-Risk Scenario Planning: Tail Risks Before Average Forecasts**. It uses official-source context to connect the issue with costs, infrastructure, policy, and Korea-facing channels.
 
 ![Climate-Risk Scenario Planning: Tail Risks Before Average Forecasts core flow summary](/images/2026-05-18-climate-risk-scenario-planning/hero.svg)
 
@@ -37,27 +37,23 @@ This article is an educational briefing, not investment advice, legal advice, or
 
 IPCC and Korea's climate-risk assessment show impacts and adaptation should be read through regional vulnerability and exposure, not only average change.
 
-Climate-Risk Scenario Planning: Tail Risks Before Average Forecasts becomes economically relevant when extreme values, compound events, and recovery time move together. Korean companies and local governments need to put tail risks such as flooding, heat, wildfire, and supply-chain interruption into operating plans. The practical task is to read the sequence between signals rather than one headline.
+Korean companies and local governments need to put tail risks such as flooding, heat, wildfire, and supply-chain interruption into operating plans. The domestic cost path becomes clearer when **extreme values**, **compound events**, and **recovery time** are read as a sequence. Do not treat one monthly number or one headline as the whole story; separate demand, supply, price, and policy lag.
 
-This is why the topic should not be reduced to a simple for-or-against debate. If extreme values changes without compound events, the result can be different. If recovery time looks stable while alternative supply chain worsens, costs can appear later.
+A simple for-or-against debate hides implementation risk. Demand can move before supply bottlenecks clear, and stable prices can still hide grid, permitting, or financing constraints.
 
 ## Core Structure
 
-- **Demand**: use extreme values to locate where and when load or exposure is changing.
-- **Supply**: use compound events to test whether real supply capacity or a bottleneck is visible.
-- **Price**: use recovery time to trace the lag into tariffs, import costs, or industrial margins.
-- **Risk**: use alternative supply chain to separate policy, climate, and supply-chain risk.
+- **Demand**: use **extreme values** to locate where and when exposure is changing.
+- **Supply**: use **compound events** to test whether the issue is real capacity or a bottleneck.
+- **Price**: use **recovery time** to trace the lag into tariffs, import costs, or industrial margins.
+- **Risk**: use **alternative supply chain** to separate policy, climate, and supply-chain risk.
 
 ## Signals To Watch
 
-- **extreme values**: for Climate-Risk Scenario Planning: Tail Risks Before Average Forecasts, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **compound events**: for Climate-Risk Scenario Planning: Tail Risks Before Average Forecasts, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **recovery time**: for Climate-Risk Scenario Planning: Tail Risks Before Average Forecasts, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **alternative supply chain**: for Climate-Risk Scenario Planning: Tail Risks Before Average Forecasts, read direction, duration, and domestic cost channel before treating it as a standalone number.
-
-extreme values alone can show direction while hiding the cause. Reading it with compound events and recovery time makes it easier to tell whether the issue is a price shock, infrastructure bottleneck, or policy lag.
-
-![Climate-Risk Scenario Planning: Tail Risks Before Average Forecasts signal checklist map](/images/2026-05-18-climate-risk-scenario-planning/signal-map.svg)
+- **extreme values**: Read direction together with duration. A one-day price move and a multi-quarter volume shift require different decisions.
+- **compound events**: Write the domestic transmission channel. Mark whether it reaches tariffs, import prices, industrial costs, or local infrastructure first.
+- **recovery time**: Check the implementation bottleneck. Grid connection, permits, finance, equipment, labour, and local acceptance can delay headline targets.
+- **alternative supply chain**: Separate the policy assumption. Subsidies, regulation, taxes, and international rules can change the cost structure of the same technology.
 
 ## Korea-Facing Transmission
 
@@ -74,14 +70,14 @@ At implementation stage, the first question is: Put averages and extremes in sep
 - Put averages and extremes in separate tables.
 - Test compound events, not only single disasters.
 - Set recovery times and alternative supply routes.
-
-This checklist is not for predicting the next price move. For **Climate-Risk Scenario Planning: Tail Risks Before Average Forecasts**, it is a baseline for checking what changed, what did not change, and which constraint matters most when a new policy, forecast, or company announcement appears.
+Check baseline year, geography, unit, and policy assumptions first.
+Translate the signal into Korea's import structure, grid geography, industrial exposure, or household cost channel.
 
 ## How To Read The Numbers
 
-The numbers in Climate-Risk Scenario Planning: Tail Risks Before Average Forecasts change meaning when baseline year, region, or unit changes. For extreme values and alternative supply chain, peaks, delays, and exceptions often matter more than averages.
+Climate and energy numbers can change meaning when baseline year, region, or unit changes. Peaks, delays, and exceptions often matter more than averages.
 
-Before using climate or energy data, check the **baseline, period, unit, geographic coverage, and policy assumptions**. Then translate extreme values, compound events, and recovery time into Korea's import structure, grid geography, industrial exposure, or household cost channels.
+Check the **baseline, period, unit, geographic coverage, and policy assumptions** first. Then translate **extreme values**, **compound events**, and **recovery time** into Korea's import structure, grid geography, industrial exposure, or household cost channels.
 
 ## Source Notes
 

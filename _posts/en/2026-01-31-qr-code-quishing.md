@@ -26,12 +26,11 @@ tags:
   - Payments
   - Mobile Security
 ---
-
-Digital security is not only for specialists. A small signal such as **sticker overlay** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+Stickered QR codes or unfamiliar notices can point to phishing pages that look like normal services. Start with: check the domain before opening after scanning. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 QR codes are convenient, but they make it easy to skip URL checking, leading to fake payments, fake parking fees, or fake login pages.
 
-This guide is not a product recommendation. It turns **sticker overlay** into a response routine, starting with: check the domain before opening after scanning.
+Use this as a response routine for **sticker overlay**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![QR Code Phishing: Check the Destination and Context Before Scanning core security flow](/images/2026-05-21-qr-code-quishing/hero.svg)
 
@@ -45,14 +44,10 @@ For **sticker overlay, short URL**, the baseline is pause, verify separately, pr
 
 ## Warning Signals To Check First
 
-- **sticker overlay**: pause immediately and verify through a trusted route.
-- **short URL**: pause immediately and verify through a trusted route.
-- **instant payment demand**: pause immediately and verify through a trusted route.
-- **login re-entry**: pause immediately and verify through a trusted route.
-
-A signal such as **sticker overlay** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: check the domain before opening after scanning.
-
-![QR Code Phishing: Check the Destination and Context Before Scanning response checklist](/images/2026-05-21-qr-code-quishing/checklist.svg)
+- **sticker overlay**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **short URL**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **instant payment demand**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **login re-entry**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **sticker
 
 ## Monthly Checkup
 
-- Confirm that you can: check the domain before opening after scanning.
-- Confirm that you can: pay through the official app directly.
-- Confirm that you can: look for tampering or stickers on public QR codes.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Check the domain before opening after scanning.
+- Pay through the official app directly.
+- Look for tampering or stickers on public QR codes.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

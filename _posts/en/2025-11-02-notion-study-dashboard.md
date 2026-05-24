@@ -26,8 +26,7 @@ tags:
   - Review
   - Productivity
 ---
-
-A study method becomes useful when it leaves an observable signal such as **today review**. This guide turns **Notion Study Dashboard: Track Review and Mistakes Before Design** into a routine that can be tested in one session.
+A dashboard fails if it only collects tasks; reviews and mistakes must resurface automatically. The goal is to leave **today review** and **overdue item** so the next review can start with a decision, not setup.
 
 A study dashboard should show today’s recall tasks, overdue reviews, mistakes, and weekly output before visual design.
 
@@ -39,14 +38,14 @@ This article is educational. **Notion Study Dashboard: Track Review and Mistakes
 
 A dashboard fails if it only collects tasks; reviews and mistakes must resurface automatically.
 
-This routine is not decoration for a longer study session. It should leave **today review** and **overdue item** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **today review** and **overdue item** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **today review**: for Notion Study Dashboard: Track Review and Mistakes Before Design, leave this as a record that can be checked in the next review.
-- **overdue item**: for Notion Study Dashboard: Track Review and Mistakes Before Design, leave this as a record that can be checked in the next review.
-- **mistake status**: for Notion Study Dashboard: Track Review and Mistakes Before Design, leave this as a record that can be checked in the next review.
-- **weekly score**: for Notion Study Dashboard: Track Review and Mistakes Before Design, leave this as a record that can be checked in the next review.
+- **today review**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **overdue item**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **mistake status**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **weekly score**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Notion Study Dashboard: Track Review and Mistakes Before Design action checklist](/images/2026-05-23-notion-study-dashboard/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Put today’s recall items at the
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **today review**, **overdue item**, and **mistake status**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `today review`, `overdue item`, and `mistake status`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

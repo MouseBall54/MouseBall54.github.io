@@ -26,8 +26,7 @@ tags:
   - DeepWork
   - StudyRoutine
 ---
-
-A study method becomes useful when it leaves an observable signal such as **focus output**. This guide turns **Pomodoro and Deep Work: Block Distractions Before Timing** into a routine that can be tested in one session.
+A timer does not create focus by itself; the rule for what not to do protects the work block. The goal is to leave **focus output** and **distraction trigger** so the next review can start with a decision, not setup.
 
 A focus routine works better when start conditions, distraction blocking, breaks, and completion logs are designed together.
 
@@ -39,14 +38,14 @@ This article is educational. **Pomodoro and Deep Work: Block Distractions Before
 
 A timer does not create focus by itself; the rule for what not to do protects the work block.
 
-This routine is not decoration for a longer study session. It should leave **focus output** and **distraction trigger** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **focus output** and **distraction trigger** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **focus output**: for Pomodoro and Deep Work: Block Distractions Before Timing, leave this as a record that can be checked in the next review.
-- **distraction trigger**: for Pomodoro and Deep Work: Block Distractions Before Timing, leave this as a record that can be checked in the next review.
-- **break rule**: for Pomodoro and Deep Work: Block Distractions Before Timing, leave this as a record that can be checked in the next review.
-- **completion log**: for Pomodoro and Deep Work: Block Distractions Before Timing, leave this as a record that can be checked in the next review.
+- **focus output**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **distraction trigger**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **break rule**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **completion log**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Pomodoro and Deep Work: Block Distractions Before Timing action checklist](/images/2026-05-23-pomodoro-deep-work/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Write the output for one block'. 
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **focus output**, **distraction trigger**, and **break rule**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `focus output`, `distraction trigger`, and `break rule`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

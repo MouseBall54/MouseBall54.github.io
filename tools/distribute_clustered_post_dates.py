@@ -10,8 +10,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-KEEP_CLUSTER_DATE = "2026-05-23"
-TARGET_START = date(2025, 1, 6)
+TARGET_START = date(2024, 10, 1)
 TARGET_END = date(2026, 5, 22)
 MAX_NON_CAMPAIGN_POSTS_PER_LANG_PER_DAY = 8
 
@@ -63,9 +62,7 @@ def main() -> None:
     en_posts = sorted(en_dir.glob("*.md"), key=lambda path: (post_date_for(path), slug_for(path)))
     counts = Counter(post_date_for(path) for path in en_posts)
     cluster_dates = {
-        current_date
-        for current_date, count in counts.items()
-        if current_date != KEEP_CLUSTER_DATE and count > MAX_NON_CAMPAIGN_POSTS_PER_LANG_PER_DAY
+        current_date for current_date, count in counts.items() if count > MAX_NON_CAMPAIGN_POSTS_PER_LANG_PER_DAY
     }
 
     used_dates = {post_date_for(path) for path in en_posts if post_date_for(path) not in cluster_dates}

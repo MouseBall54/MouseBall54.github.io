@@ -26,7 +26,7 @@ tags:
   - AI Safety
   - Workflow
 ---
-이 글은 2026년 5월 24일 기준 공식 문서를 확인해 작성했습니다. CLI 도구는 업데이트가 빠르므로 운영 환경에 복사하기 전 버전과 하단의 Source Notes를 다시 확인하세요.
+2026년 5월 24일 기준 공식 문서와 CLI 동작을 기준으로, 이 글은 **Claude Code permission modes: plan, acceptEdits, auto, bypassPermissions 차이**에서 먼저 확인할 설정과 실패 지점을 정리합니다. 핵심 판단은 새 저장소는 `plan`, 일반 수정은 `acceptEdits`, 자동 모드는 신뢰된 환경에서만 사용하고 `bypassPermissions`는 조직 정책으로 막는 것을 기본값으로 둡니다.
 
 ## 빠른 답
 

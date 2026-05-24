@@ -26,7 +26,7 @@ tags:
   - Tools
   - Team Workflow
 ---
-이 글은 2026년 5월 24일 기준 공식 문서를 확인해 작성했습니다. CLI 도구는 업데이트가 빠르므로 운영 환경에 복사하기 전 버전과 하단의 Source Notes를 다시 확인하세요.
+2026년 5월 24일 기준 공식 문서와 CLI 동작을 기준으로, 이 글은 **Claude Code MCP project scope: .mcp.json을 팀과 공유하는 기준**에서 먼저 확인할 설정과 실패 지점을 정리합니다. 핵심 판단은 팀이 같은 도구를 써야 하면 project scope로 `.mcp.json`에 저장하고, 개인 토큰이나 실험 서버는 local 또는 user scope로 둡니다.
 
 ## 빠른 답
 

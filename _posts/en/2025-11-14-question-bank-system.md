@@ -26,8 +26,7 @@ tags:
   - Notes
   - Review
 ---
-
-A study method becomes useful when it leaves an observable signal such as **recall prompt**. This guide turns **Question Bank System: Convert Notes into Recall Prompts** into a routine that can be tested in one session.
+A good prompt makes you retrieve the answer, not search for it again. The goal is to leave **recall prompt** and **answer key** so the next review can start with a decision, not setup.
 
 A question bank is not a note archive; it stores prompts you must answer in later review sessions.
 
@@ -39,14 +38,14 @@ This article is educational. **Question Bank System: Convert Notes into Recall P
 
 A good prompt makes you retrieve the answer, not search for it again.
 
-This routine is not decoration for a longer study session. It should leave **recall prompt** and **answer key** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **recall prompt** and **answer key** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **recall prompt**: for Question Bank System: Convert Notes into Recall Prompts, leave this as a record that can be checked in the next review.
-- **answer key**: for Question Bank System: Convert Notes into Recall Prompts, leave this as a record that can be checked in the next review.
-- **missed prompt**: for Question Bank System: Convert Notes into Recall Prompts, leave this as a record that can be checked in the next review.
-- **review queue**: for Question Bank System: Convert Notes into Recall Prompts, leave this as a record that can be checked in the next review.
+- **recall prompt**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **answer key**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **missed prompt**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **review queue**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Question Bank System: Convert Notes into Recall Prompts action checklist](/images/2026-05-23-question-bank-system/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Turn lecture headings into questi
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **recall prompt**, **answer key**, and **missed prompt**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `recall prompt`, `answer key`, and `missed prompt`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

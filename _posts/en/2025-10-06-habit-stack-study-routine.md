@@ -26,8 +26,7 @@ tags:
   - Motivation
   - Planning
 ---
-
-A study method becomes useful when it leaves an observable signal such as **start cue**. This guide turns **Habit Stack Study Routine: Start Signal and First Ten Minutes** into a routine that can be tested in one session.
+The goal of a habit system is reducing start friction, not forcing long sessions immediately. The goal is to leave **start cue** and **first task** so the next review can start with a decision, not setup.
 
 A study habit is easier to keep when time, start signal, first ten-minute task, and completion log repeat.
 
@@ -39,14 +38,14 @@ This article is educational. **Habit Stack Study Routine: Start Signal and First
 
 The goal of a habit system is reducing start friction, not forcing long sessions immediately.
 
-This routine is not decoration for a longer study session. It should leave **start cue** and **first task** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **start cue** and **first task** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **start cue**: for Habit Stack Study Routine: Start Signal and First Ten Minutes, leave this as a record that can be checked in the next review.
-- **first task**: for Habit Stack Study Routine: Start Signal and First Ten Minutes, leave this as a record that can be checked in the next review.
-- **completion mark**: for Habit Stack Study Routine: Start Signal and First Ten Minutes, leave this as a record that can be checked in the next review.
-- **next start**: for Habit Stack Study Routine: Start Signal and First Ten Minutes, leave this as a record that can be checked in the next review.
+- **start cue**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **first task**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **completion mark**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **next start**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Habit Stack Study Routine: Start Signal and First Ten Minutes action checklist](/images/2026-05-23-habit-stack-study-routine/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Choose one start signal'. Then re
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **start cue**, **first task**, and **completion mark**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `start cue`, `first task`, and `completion mark`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

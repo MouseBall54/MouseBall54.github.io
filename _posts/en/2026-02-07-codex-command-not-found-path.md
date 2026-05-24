@@ -26,7 +26,7 @@ tags:
   - Troubleshooting
   - Install Error
 ---
-This guide is checked against official documentation on May 24, 2026. CLI behavior changes, so verify the version and linked source notes before copying a setting into a production workflow.
+Checked against official documentation on May 24, 2026, this post focuses on the setup and failure points behind **Fix codex Command Not Found: PATH, Install Location, and Duplicate Binaries**. The practical baseline is: Open a fresh terminal, check `which codex` or `command -v codex`, verify the installer path, and keep only one install method.
 
 ## Quick Answer
 

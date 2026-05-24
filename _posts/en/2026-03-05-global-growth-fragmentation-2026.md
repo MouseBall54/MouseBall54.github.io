@@ -26,8 +26,11 @@ tags:
   - Inflation
   - Trade
 ---
+Read IMF and World Bank projections together and the central issue is not a single recession call, but the combined pressure of slower growth, uncertainty, and policy credibility.
 
-Global affairs can look abstract until **global growth forecast** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
+For Korean readers, the practical question is where **global growth forecast** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
+
+For Korean readers, the practical question is where **global growth forecast** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
 
 Read IMF and World Bank projections together and the central issue is not a single recession call, but the combined pressure of slower growth, uncertainty, and policy credibility.
 
@@ -39,18 +42,14 @@ This briefing treats **Global Growth and Fragmentation in 2026: How to Read the 
 
 For open economies such as Korea, the growth headline matters less than the mix of trade volumes, commodity prices, and dollar funding conditions.
 
-For this issue, start with **global growth forecast**, then check whether **inflation path** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
+Start with **global growth forecast**, then check whether **inflation path** is moving through prices, physical supply, policy response, or financing conditions. A short market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
-- **global growth forecast**: watch the direction, policy response, and market pricing rather than the number alone.
-- **inflation path**: watch the direction, policy response, and market pricing rather than the number alone.
-- **trade policy uncertainty**: watch the direction, policy response, and market pricing rather than the number alone.
-- **public debt stress**: watch the direction, policy response, and market pricing rather than the number alone.
-
-Do not read **global growth forecast** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
-
-![Global Growth and Fragmentation in 2026: How to Read the New Baseline signal checklist](/images/2026-05-22-global-growth-fragmentation-2026/signal-map.svg)
+- **global growth forecast**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
+- **inflation path**: Connect domestic headlines to external causes. Mark whether exports, import prices, exchange rates, energy costs, or security budgets move first.
+- **trade policy uncertainty**: Check inventory and contract cushions. Market prices can look stable while shipping, insurance, or compliance costs pass through later.
+- **public debt stress**: Choose the next source to watch. Decide whether official statistics, institutional forecasts, or government releases would change the baseline.
 
 ## Korea-Facing Angle
 
@@ -68,11 +67,11 @@ Household readers can translate **global growth forecast** into living costs, lo
 
 ## Reader Checklist
 
-- Track whether global growth forecast first affects exports, prices, funding, or public budgets.
-- Track whether inflation path first affects exports, prices, funding, or public budgets.
-- Track whether trade policy uncertainty first affects exports, prices, funding, or public budgets.
+- Decide whether **global growth forecast** is creating a price shock, a volume shock, or both.
+- Check whether **inflation path** is a short news cycle or a structural change that can last for quarters.
+- Mark the Korea-facing channel for **trade policy uncertainty**: exports, import prices, financial markets, security costs, or household costs.
 - Separate official data from interpretation and commentary.
-- Check the release date, reference period, and assumptions before using any forecast.
+- Check release date, reference period, and assumptions before using any forecast.
 
 ## Source Notes
 

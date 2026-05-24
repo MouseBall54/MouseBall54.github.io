@@ -26,12 +26,11 @@ tags:
   - Mobile Security
   - Privacy
 ---
-
-Digital security is not only for specialists. A small signal such as **lookalike SSID** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+Fake hotspots, captive-portal phishing, unencrypted connections, and auto-join are the main risks. Start with: confirm the exact network name with staff. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 Public Wi-Fi is best handled with network-name verification, HTTPS, disabled auto-join, and avoiding sensitive tasks rather than vague fear.
 
-This guide is not a product recommendation. It turns **lookalike SSID** into a response routine, starting with: confirm the exact network name with staff.
+Use this as a response routine for **lookalike SSID**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![Public Wi-Fi and VPNs: The Real Risk Moments and Safer Use core security flow](/images/2026-05-21-public-wifi-vpn-real-risk/hero.svg)
 
@@ -45,14 +44,10 @@ For **lookalike SSID, portal payment request**, the baseline is pause, verify se
 
 ## Warning Signals To Check First
 
-- **lookalike SSID**: pause immediately and verify through a trusted route.
-- **portal payment request**: pause immediately and verify through a trusted route.
-- **HTTPS warning**: pause immediately and verify through a trusted route.
-- **auto-join**: pause immediately and verify through a trusted route.
-
-A signal such as **lookalike SSID** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: confirm the exact network name with staff.
-
-![Public Wi-Fi and VPNs: The Real Risk Moments and Safer Use response checklist](/images/2026-05-21-public-wifi-vpn-real-risk/checklist.svg)
+- **lookalike SSID**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **portal payment request**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **HTTPS warning**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **auto-join**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **lookali
 
 ## Monthly Checkup
 
-- Confirm that you can: confirm the exact network name with staff.
-- Confirm that you can: disable auto-join and use mobile data for banking.
-- Confirm that you can: use VPNs from trusted providers and according to work policy.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Confirm the exact network name with staff.
+- Disable auto-join and use mobile data for banking.
+- Use VPNs from trusted providers and according to work policy.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

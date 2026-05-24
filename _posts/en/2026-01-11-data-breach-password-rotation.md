@@ -26,12 +26,11 @@ tags:
   - Credential Stuffing
   - Privacy
 ---
-
-Digital security is not only for specialists. A small signal such as **breach notice** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+Leaving reused passwords in place enables credential-stuffing attacks across other services. Start with: find accounts that shared the breached password. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 After a breach notice, prioritize email, financial accounts, and reused-password accounts instead of randomly changing everything.
 
-This guide is not a product recommendation. It turns **breach notice** into a response routine, starting with: find accounts that shared the breached password.
+Use this as a response routine for **breach notice**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![Password Rotation After a Breach: Do Not Change Every Account at Random core security flow](/images/2026-05-21-data-breach-password-rotation/hero.svg)
 
@@ -45,14 +44,10 @@ For **breach notice, failed login alert**, the baseline is pause, verify separat
 
 ## Warning Signals To Check First
 
-- **breach notice**: pause immediately and verify through a trusted route.
-- **failed login alert**: pause immediately and verify through a trusted route.
-- **password reuse**: pause immediately and verify through a trusted route.
-- **unknown device registration**: pause immediately and verify through a trusted route.
-
-A signal such as **breach notice** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: find accounts that shared the breached password.
-
-![Password Rotation After a Breach: Do Not Change Every Account at Random response checklist](/images/2026-05-21-data-breach-password-rotation/checklist.svg)
+- **breach notice**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **failed login alert**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **password reuse**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **unknown device registration**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **breach 
 
 ## Monthly Checkup
 
-- Confirm that you can: find accounts that shared the breached password.
-- Confirm that you can: secure email first.
-- Confirm that you can: move accounts into a password manager with unique passwords.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Find accounts that shared the breached password.
+- Secure email first.
+- Move accounts into a password manager with unique passwords.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

@@ -26,8 +26,7 @@ tags:
   - Calendar
   - TimeManagement
 ---
-
-A study method becomes useful when it leaves an observable signal such as **deadline**. This guide turns **Semester Study Calendar: Plan Backward from Exams and Deadlines** into a routine that can be tested in one session.
+Motivation the night before is not a plan; review and drafts need space weeks earlier. The goal is to leave **deadline** and **backward milestone** so the next review can start with a decision, not setup.
 
 A semester calendar is a risk-management tool that schedules exams, assignments, review, rest, and buffers backward.
 
@@ -39,14 +38,14 @@ This article is educational. **Semester Study Calendar: Plan Backward from Exams
 
 Motivation the night before is not a plan; review and drafts need space weeks earlier.
 
-This routine is not decoration for a longer study session. It should leave **deadline** and **backward milestone** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **deadline** and **backward milestone** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **deadline**: for Semester Study Calendar: Plan Backward from Exams and Deadlines, leave this as a record that can be checked in the next review.
-- **backward milestone**: for Semester Study Calendar: Plan Backward from Exams and Deadlines, leave this as a record that can be checked in the next review.
-- **review block**: for Semester Study Calendar: Plan Backward from Exams and Deadlines, leave this as a record that can be checked in the next review.
-- **buffer day**: for Semester Study Calendar: Plan Backward from Exams and Deadlines, leave this as a record that can be checked in the next review.
+- **deadline**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **backward milestone**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **review block**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **buffer day**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Semester Study Calendar: Plan Backward from Exams and Deadlines action checklist](/images/2026-05-23-semester-study-calendar/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Mark exams and deadlines first'. 
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **deadline**, **backward milestone**, and **review block**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `deadline`, `backward milestone`, and `review block`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

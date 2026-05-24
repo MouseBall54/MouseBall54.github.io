@@ -26,8 +26,11 @@ tags:
   - Climate Risk
   - Households
 ---
+FAO's SOFI 2025 explains how food price inflation directly weakens low-income access to healthy diets and affects child nutrition.
 
-Global affairs can look abstract until **grain prices** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
+For Korean readers, the practical question is where **grain prices** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
+
+For Korean readers, the practical question is where **grain prices** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
 
 FAO's SOFI 2025 explains how food price inflation directly weakens low-income access to healthy diets and affects child nutrition.
 
@@ -39,18 +42,14 @@ This briefing treats **Food Security and Food Prices: The Global Issue That Reac
 
 Korean households should track how global grains, exchange rates, energy prices, and distribution costs combine into grocery prices.
 
-For this issue, start with **grain prices**, then check whether **fertilizer costs** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
+Start with **grain prices**, then check whether **fertilizer costs** is moving through prices, physical supply, policy response, or financing conditions. A short market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
-- **grain prices**: watch the direction, policy response, and market pricing rather than the number alone.
-- **fertilizer costs**: watch the direction, policy response, and market pricing rather than the number alone.
-- **food CPI**: watch the direction, policy response, and market pricing rather than the number alone.
-- **import dependency**: watch the direction, policy response, and market pricing rather than the number alone.
-
-Do not read **grain prices** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
-
-![Food Security and Food Prices: The Global Issue That Reaches Wallets First signal checklist](/images/2026-05-22-food-security-price-risk/signal-map.svg)
+- **grain prices**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
+- **fertilizer costs**: Connect domestic headlines to external causes. Mark whether exports, import prices, exchange rates, energy costs, or security budgets move first.
+- **food CPI**: Check inventory and contract cushions. Market prices can look stable while shipping, insurance, or compliance costs pass through later.
+- **import dependency**: Choose the next source to watch. Decide whether official statistics, institutional forecasts, or government releases would change the baseline.
 
 ## Korea-Facing Angle
 
@@ -68,11 +67,11 @@ Household readers can translate **grain prices** into living costs, loan rates, 
 
 ## Reader Checklist
 
-- Track whether grain prices first affects exports, prices, funding, or public budgets.
-- Track whether fertilizer costs first affects exports, prices, funding, or public budgets.
-- Track whether food CPI first affects exports, prices, funding, or public budgets.
+- Decide whether **grain prices** is creating a price shock, a volume shock, or both.
+- Check whether **fertilizer costs** is a short news cycle or a structural change that can last for quarters.
+- Mark the Korea-facing channel for **food CPI**: exports, import prices, financial markets, security costs, or household costs.
 - Separate official data from interpretation and commentary.
-- Check the release date, reference period, and assumptions before using any forecast.
+- Check release date, reference period, and assumptions before using any forecast.
 
 ## Source Notes
 

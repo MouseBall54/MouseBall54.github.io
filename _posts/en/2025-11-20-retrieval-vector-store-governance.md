@@ -26,8 +26,7 @@ tags:
   - RAG
   - Governance
 ---
-
-AI trends are not only model-name news. They are signals such as **source version** that change real workflow quality. This guide reads **Retrieval and Vector Store Governance: Version and Delete, Not Only Upload** through adoption, verification, and operating responsibility.
+A RAG store is not a static knowledge vault; it is an operating database that keeps changing. Before adoption, document **source version** and **deleted file** so review, cost control, and accountability are not pushed downstream.
 
 Vector stores become trustworthy when source versions, deletion lag, access rights, and search quality are managed.
 
@@ -43,10 +42,10 @@ For this topic, start with **source version** and **deleted file**. If either is
 
 ## Signals To Check First
 
-- **source version**: for Retrieval and Vector Store Governance: Version and Delete, Not Only Upload, record the standard, owner, and failure response for this item.
-- **deleted file**: for Retrieval and Vector Store Governance: Version and Delete, Not Only Upload, record the standard, owner, and failure response for this item.
-- **permission filter**: for Retrieval and Vector Store Governance: Version and Delete, Not Only Upload, record the standard, owner, and failure response for this item.
-- **stale answer**: for Retrieval and Vector Store Governance: Version and Delete, Not Only Upload, record the standard, owner, and failure response for this item.
+- **source version**: Define the tools, data, and execution rights the agent can actually use. Separate read, draft, and external execution permissions, and write down prohibited actions explicitly.
+- **deleted file**: Define where a human must approve the workflow. Costly actions, user-impacting output, external transfer, and file deletion should remain blocked until this gate passes.
+- **permission filter**: Keep enough evidence for later review. Store the input, tool call, decision reason, and failure class together so the next run can be compared against the same standard.
+- **stale answer**: Define the recovery path before the workflow runs. Name the previous version, owner, stop condition, and user-notice rule so a failed automation can be reversed quickly.
 
 ![Retrieval and Vector Store Governance: Version and Delete, Not Only Upload verification checklist](/images/2026-05-23-retrieval-vector-store-governance/checklist.png)
 

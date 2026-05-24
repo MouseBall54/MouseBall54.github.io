@@ -26,7 +26,7 @@ tags:
   - Project Rules
   - AI Workflow
 ---
-This guide is checked against official documentation on May 24, 2026. CLI behavior changes, so verify the version and linked source notes before copying a setting into a production workflow.
+Checked against official documentation on May 24, 2026, this post focuses on the setup and failure points behind **Codex AGENTS.md Setup: Make Project Instructions Load Correctly**. The practical baseline is: Put shared rules in the repository root, narrower rules near specialized folders, and temporary overrides in `AGENTS.override.md` only while needed.
 
 ## Quick Answer
 

@@ -26,8 +26,7 @@ tags:
   - TestTaking
   - Planning
 ---
-
-A study method becomes useful when it leaves an observable signal such as **target time**. This guide turns **Exam Time Management: Find Where Time Leaks Before Hard Problems** into a routine that can be tested in one session.
+Running out of time is often an operating-rule problem, not only a knowledge problem. The goal is to leave **target time** and **skip rule** so the next review can start with a decision, not setup.
 
 Exam timing is not a speed trick; it sets per-question limits, skip rules, and review order before the test.
 
@@ -39,14 +38,14 @@ This article is educational. **Exam Time Management: Find Where Time Leaks Befor
 
 Running out of time is often an operating-rule problem, not only a knowledge problem.
 
-This routine is not decoration for a longer study session. It should leave **target time** and **skip rule** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **target time** and **skip rule** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **target time**: for Exam Time Management: Find Where Time Leaks Before Hard Problems, leave this as a record that can be checked in the next review.
-- **skip rule**: for Exam Time Management: Find Where Time Leaks Before Hard Problems, leave this as a record that can be checked in the next review.
-- **review order**: for Exam Time Management: Find Where Time Leaks Before Hard Problems, leave this as a record that can be checked in the next review.
-- **time leak**: for Exam Time Management: Find Where Time Leaks Before Hard Problems, leave this as a record that can be checked in the next review.
+- **target time**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **skip rule**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **review order**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **time leak**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Exam Time Management: Find Where Time Leaks Before Hard Problems action checklist](/images/2026-05-23-exam-time-management/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Set target time by problem type'.
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **target time**, **skip rule**, and **review order**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `target time`, `skip rule`, and `review order`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

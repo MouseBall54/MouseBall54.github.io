@@ -26,7 +26,7 @@ tags:
   - CLI
   - Developer Setup
 ---
-This guide is checked against official documentation on May 24, 2026. CLI behavior changes, so verify the version and linked source notes before copying a setting into a production workflow.
+Checked against official documentation on May 24, 2026, this post focuses on the setup and failure points behind **Claude Code Install, Login, and Doctor: First Verification Steps**. The practical baseline is: Install from an official method, then verify version, login, and doctor output in the same terminal before starting project work.
 
 ## Quick Answer
 

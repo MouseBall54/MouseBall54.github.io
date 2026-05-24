@@ -26,12 +26,11 @@ tags:
   - Health Literacy
   - Warning Signs
 ---
-
-Health literacy is not self-diagnosis. It is the ability to track observable signs such as **leg weakness**, know when rest is reasonable, and know when professional guidance is safer.
+Pain intensity alone is not enough. Record onset, movement triggers, nerve symptoms, and daily limitation. Track **leg weakness** with start date, duration, daily-function impact, and safety concerns so the threshold for qualified help is clearer.
 
 Back pain is common, but warning signals such as leg weakness, numbness, bladder problems, or pain after injury need careful attention.
 
-This article is educational and is not diagnosis or treatment advice for **Back Pain Tracking: When to Watch and When to Seek Care**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
+This article is educational and does not diagnose, treat, or set dosage for **Back Pain Tracking: When to Watch and When to Seek Care**. Sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, severe bleeding, or any immediate safety concern should be handled through local emergency services or qualified medical professionals.
 
 ![Back Pain Tracking: When to Watch and When to Seek Care core health flow](/images/2026-05-19-back-pain-seek-care/hero.svg)
 
@@ -45,14 +44,10 @@ For **leg weakness, numbness**, use patterns over one number, daily function ove
 
 ## Signals To Check First
 
-- **leg weakness**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **numbness**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **injury**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **bladder change**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-
-Do not interpret **leg weakness** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
-
-![Back Pain Tracking: When to Watch and When to Seek Care checklist](/images/2026-05-19-back-pain-seek-care/checklist.svg)
+- **leg weakness**: Record start date, duration, frequency, triggers, and relieving factors in the same format. Sudden worsening or safety concerns should move professional help first.
+- **numbness**: Write the effect on daily function. Changes in school, work, sleep, eating, or mobility often matter more than a vague severity label.
+- **injury**: Check age, pregnancy, existing conditions, medicines, recent infection, and injury. The same sign can mean different things under different conditions.
+- **bladder change**: For breathing trouble, chest pain, confusion, severe bleeding, self-harm risk, or other emergency signs, seeking urgent help comes before record keeping.
 
 ## Practical Order
 
@@ -70,9 +65,9 @@ Before a visit, write the start date, duration, triggers, relieving factors, rel
 
 ## Monthly Checkup
 
-- Confirm that you can: write when and how pain started.
-- Confirm that you can: check for leg numbness, weakness, or bladder changes.
-- Confirm that you can: seek clinical guidance if worsening or nerve symptoms appear.
+- Write when and how pain started.
+- Check for leg numbness, weakness, or bladder changes.
+- Seek clinical guidance if worsening or nerve symptoms appear.
 - Write how symptoms or habits affect daily function.
 - Recheck health information through official local guidance and qualified medical professionals.
 

@@ -26,7 +26,7 @@ tags:
   - Prompting
   - Code Quality
 ---
-This guide is checked against official documentation on May 24, 2026. CLI behavior changes, so verify the version and linked source notes before copying a setting into a production workflow.
+Checked against official documentation on May 24, 2026, this post focuses on the setup and failure points behind **AI Agent Test-First Task Brief: Give the Failure Condition First**. The practical baseline is: Write the prompt in this order: problem, reproduce command, allowed scope, forbidden files, verification command, and report format.
 
 ## Quick Answer
 

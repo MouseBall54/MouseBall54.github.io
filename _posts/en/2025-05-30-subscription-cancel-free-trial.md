@@ -29,7 +29,7 @@ tags:
 
 Free trials become safer when the trial period, renewal date, cancellation path, and confirmation email are recorded together.
 
-This article is educational information, not legal advice. It explains a practical workflow for **Free Trial and Auto-Renewal Cancellation: Calendar and Evidence First** using evidence, dates, deadlines, and official-source escalation references.
+This article is educational and does not provide legal advice for **Free Trial and Auto-Renewal Cancellation: Calendar and Evidence First**. It focuses on preserving evidence, checking dates and contract wording, and choosing the right seller, platform, payment-provider, carrier, or regulator channel.
 
 ![Free Trial and Auto-Renewal Cancellation: Calendar and Evidence First core flow summary](/images/2026-05-17-subscription-cancel-free-trial/hero.svg)
 

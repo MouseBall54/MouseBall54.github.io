@@ -26,8 +26,7 @@ tags:
   - LaborMarket
   - Growth
 ---
-
-Economic news becomes useful when a signal such as **productivity** is translated into prices, debt, income, and decisions. This guide explains **Productivity and Wages: Why Pay Can Lag a Better Economy** with official-source context and household-level checks.
+Even when the economy becomes more productive, gains do not reach every worker at the same speed. Read **productivity** and **real wage** with release date, reference period, and the path into prices, wages, interest payments, or exchange rates.
 
 Productivity growth can support wages over time, but industry structure, bargaining power, inflation, and job type shape the pass-through.
 
@@ -39,14 +38,14 @@ This article is educational and is not financial advice, investment advice, tax 
 
 Even when the economy becomes more productive, gains do not reach every worker at the same speed.
 
-Indicators such as **productivity** and **real wage** are easy to misuse when they are read as isolated numbers. Check the release date, reference period, month-over-month or year-over-year basis, and whether the number is nominal or real. For household decisions, income timing, debt rates, fixed costs, and currency exposure can matter more than the average economy when reading **Productivity and Wages: Why Pay Can Lag a Better Economy**.
+Signals such as **productivity** and **real wage** are easy to misread as standalone numbers. Check the release date, reference period, month-over-month versus year-over-year basis, and nominal versus real terms first. For household use, write down whether the signal reaches prices, wages, interest payments, exchange rates, or savings capacity.
 
 ## Signals To Check First
 
-- **productivity**: for Productivity and Wages: Why Pay Can Lag a Better Economy, record the latest value, direction, and effect on your budget or debt.
-- **real wage**: for Productivity and Wages: Why Pay Can Lag a Better Economy, record the latest value, direction, and effect on your budget or debt.
-- **industry mix**: for Productivity and Wages: Why Pay Can Lag a Better Economy, record the latest value, direction, and effect on your budget or debt.
-- **labor share**: for Productivity and Wages: Why Pay Can Lag a Better Economy, record the latest value, direction, and effect on your budget or debt.
+- **productivity**: Record the latest value together with the release date. A number without revision status, reference period, or seasonal adjustment can mislead later comparisons.
+- **real wage**: Separate direction from magnitude. The household question is not only whether it rose or fell, but whether the change reaches spending, wages, or debt rates.
+- **industry mix**: Read it with companion indicators. Inflation, jobs, rates, and exchange rates often explain why the average economy differs from one household's cash flow.
+- **labor share**: Write the Korea-facing channel. Translate the signal into won exchange rates, imported energy, variable-rate loans, export jobs, or other concrete cost paths.
 
 ![Productivity and Wages: Why Pay Can Lag a Better Economy decision checklist](/images/2026-05-23-productivity-wage-growth/checklist.png)
 

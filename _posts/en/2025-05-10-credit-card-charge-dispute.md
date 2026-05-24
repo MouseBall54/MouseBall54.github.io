@@ -29,7 +29,7 @@ tags:
 
 Credit card disputes require separating billing errors, non-delivery, failed cancellation, and duplicate charges, then submitting evidence within issuer deadlines.
 
-This article is educational information, not legal advice. It explains a practical workflow for **Credit Card Charge Dispute: What to Check Before a Chargeback** using evidence, dates, deadlines, and official-source escalation references.
+This article is educational and does not provide legal advice for **Credit Card Charge Dispute: What to Check Before a Chargeback**. It focuses on preserving evidence, checking dates and contract wording, and choosing the right seller, platform, payment-provider, carrier, or regulator channel.
 
 ![Credit Card Charge Dispute: What to Check Before a Chargeback core flow summary](/images/2026-05-17-credit-card-charge-dispute/hero.svg)
 

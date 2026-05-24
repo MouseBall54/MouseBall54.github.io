@@ -29,7 +29,7 @@ tags:
 
 Extreme-weather supply-chain planning requires mapping ports, roads, rail, power, warehouses, and supplier recovery capacity, not only factory locations.
 
-This article is an educational briefing, not investment advice, legal advice, or a recommendation to buy a specific energy product. It gives readers a practical order for reading **Extreme-Weather Supply-Chain Map: Ports, Roads, and Power Before Factories** with official-source context.
+This article is educational and does not provide investment, legal, or energy-product advice for **Extreme-Weather Supply-Chain Map: Ports, Roads, and Power Before Factories**. It uses official-source context to connect the issue with costs, infrastructure, policy, and Korea-facing channels.
 
 ![Extreme-Weather Supply-Chain Map: Ports, Roads, and Power Before Factories core flow summary](/images/2026-05-18-extreme-weather-supply-chain-map/hero.svg)
 
@@ -37,27 +37,23 @@ This article is an educational briefing, not investment advice, legal advice, or
 
 WMO and UNDRR sources show extreme weather increasing economic damage through logistics delays, power outages, and stress on social systems.
 
-Extreme-Weather Supply-Chain Map: Ports, Roads, and Power Before Factories becomes economically relevant when port exposure, outage duration, and road closure move together. Korean exporters should include domestic ports, component suppliers, cold logistics, and power-restoration time in supply-chain risk. The practical task is to read the sequence between signals rather than one headline.
+Korean exporters should include domestic ports, component suppliers, cold logistics, and power-restoration time in supply-chain risk. The domestic cost path becomes clearer when **port exposure**, **outage duration**, and **road closure** are read as a sequence. Do not treat one monthly number or one headline as the whole story; separate demand, supply, price, and policy lag.
 
-This is why the topic should not be reduced to a simple for-or-against debate. If port exposure changes without outage duration, the result can be different. If road closure looks stable while supplier recovery worsens, costs can appear later.
+A simple for-or-against debate hides implementation risk. Demand can move before supply bottlenecks clear, and stable prices can still hide grid, permitting, or financing constraints.
 
 ## Core Structure
 
-- **Demand**: use port exposure to locate where and when load or exposure is changing.
-- **Supply**: use outage duration to test whether real supply capacity or a bottleneck is visible.
-- **Price**: use road closure to trace the lag into tariffs, import costs, or industrial margins.
-- **Risk**: use supplier recovery to separate policy, climate, and supply-chain risk.
+- **Demand**: use **port exposure** to locate where and when exposure is changing.
+- **Supply**: use **outage duration** to test whether the issue is real capacity or a bottleneck.
+- **Price**: use **road closure** to trace the lag into tariffs, import costs, or industrial margins.
+- **Risk**: use **supplier recovery** to separate policy, climate, and supply-chain risk.
 
 ## Signals To Watch
 
-- **port exposure**: for Extreme-Weather Supply-Chain Map: Ports, Roads, and Power Before Factories, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **outage duration**: for Extreme-Weather Supply-Chain Map: Ports, Roads, and Power Before Factories, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **road closure**: for Extreme-Weather Supply-Chain Map: Ports, Roads, and Power Before Factories, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **supplier recovery**: for Extreme-Weather Supply-Chain Map: Ports, Roads, and Power Before Factories, read direction, duration, and domestic cost channel before treating it as a standalone number.
-
-port exposure alone can show direction while hiding the cause. Reading it with outage duration and road closure makes it easier to tell whether the issue is a price shock, infrastructure bottleneck, or policy lag.
-
-![Extreme-Weather Supply-Chain Map: Ports, Roads, and Power Before Factories signal checklist map](/images/2026-05-18-extreme-weather-supply-chain-map/signal-map.svg)
+- **port exposure**: Read direction together with duration. A one-day price move and a multi-quarter volume shift require different decisions.
+- **outage duration**: Write the domestic transmission channel. Mark whether it reaches tariffs, import prices, industrial costs, or local infrastructure first.
+- **road closure**: Check the implementation bottleneck. Grid connection, permits, finance, equipment, labour, and local acceptance can delay headline targets.
+- **supplier recovery**: Separate the policy assumption. Subsidies, regulation, taxes, and international rules can change the cost structure of the same technology.
 
 ## Korea-Facing Transmission
 
@@ -74,14 +70,14 @@ At implementation stage, the first question is: Map critical bottleneck infrastr
 - Map critical bottleneck infrastructure before tier-one suppliers.
 - Set alternative routes for outages, floods, and road closures.
 - Put supplier recovery-time objectives into contracts.
-
-This checklist is not for predicting the next price move. For **Extreme-Weather Supply-Chain Map: Ports, Roads, and Power Before Factories**, it is a baseline for checking what changed, what did not change, and which constraint matters most when a new policy, forecast, or company announcement appears.
+Check baseline year, geography, unit, and policy assumptions first.
+Translate the signal into Korea's import structure, grid geography, industrial exposure, or household cost channel.
 
 ## How To Read The Numbers
 
-The numbers in Extreme-Weather Supply-Chain Map: Ports, Roads, and Power Before Factories change meaning when baseline year, region, or unit changes. For port exposure and supplier recovery, peaks, delays, and exceptions often matter more than averages.
+Climate and energy numbers can change meaning when baseline year, region, or unit changes. Peaks, delays, and exceptions often matter more than averages.
 
-Before using climate or energy data, check the **baseline, period, unit, geographic coverage, and policy assumptions**. Then translate port exposure, outage duration, and road closure into Korea's import structure, grid geography, industrial exposure, or household cost channels.
+Check the **baseline, period, unit, geographic coverage, and policy assumptions** first. Then translate **port exposure**, **outage duration**, and **road closure** into Korea's import structure, grid geography, industrial exposure, or household cost channels.
 
 ## Source Notes
 

@@ -26,8 +26,7 @@ tags:
   - Triage
   - AI Risk
 ---
-
-AI trends are not only model-name news. They are signals such as **symptom timeline** that change real workflow quality. This guide reads **AI Health Information Triage Limits: Separate Symptom Explanation from Diagnosis** through adoption, verification, and operating responsibility.
+Health AI can reduce confusion, but false reassurance can create serious risk. Before adoption, document **symptom timeline** and **red flag** so review, cost control, and accountability are not pushed downstream.
 
 Health-information AI can organize questions and general information, but diagnosis, treatment, and dosage decisions require medical professionals.
 
@@ -43,10 +42,10 @@ For this topic, start with **symptom timeline** and **red flag**. If either is v
 
 ## Signals To Check First
 
-- **symptom timeline**: for AI Health Information Triage Limits: Separate Symptom Explanation from Diagnosis, record the standard, owner, and failure response for this item.
-- **red flag**: for AI Health Information Triage Limits: Separate Symptom Explanation from Diagnosis, record the standard, owner, and failure response for this item.
-- **medical claim**: for AI Health Information Triage Limits: Separate Symptom Explanation from Diagnosis, record the standard, owner, and failure response for this item.
-- **care referral**: for AI Health Information Triage Limits: Separate Symptom Explanation from Diagnosis, record the standard, owner, and failure response for this item.
+- **symptom timeline**: Define the tools, data, and execution rights the agent can actually use. Separate read, draft, and external execution permissions, and write down prohibited actions explicitly.
+- **red flag**: Define where a human must approve the workflow. Costly actions, user-impacting output, external transfer, and file deletion should remain blocked until this gate passes.
+- **medical claim**: Keep enough evidence for later review. Store the input, tool call, decision reason, and failure class together so the next run can be compared against the same standard.
+- **care referral**: Define the recovery path before the workflow runs. Name the previous version, owner, stop condition, and user-notice rule so a failed automation can be reversed quickly.
 
 ![AI Health Information Triage Limits: Separate Symptom Explanation from Diagnosis verification checklist](/images/2026-05-23-ai-health-information-triage-limits/checklist.png)
 

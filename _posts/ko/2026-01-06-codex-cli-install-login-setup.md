@@ -26,7 +26,7 @@ tags:
   - Developer Setup
   - OpenAI
 ---
-이 글은 2026년 5월 24일 기준 공식 문서를 확인해 작성했습니다. CLI 도구는 업데이트가 빠르므로 운영 환경에 복사하기 전 버전과 하단의 Source Notes를 다시 확인하세요.
+2026년 5월 24일 기준 공식 문서와 CLI 동작을 기준으로, 이 글은 **Codex CLI install and login setup: 설치, 로그인, 버전 확인 순서**에서 먼저 확인할 설정과 실패 지점을 정리합니다. 핵심 판단은 Mac/Linux는 공식 설치 스크립트나 npm/Homebrew 중 하나를 선택하고, Windows는 PowerShell 설치 또는 npm을 사용한 뒤 `codex` 실행, 로그인, 버전 확인을 같은 터미널에서 끝냅니다.
 
 ## 빠른 답
 

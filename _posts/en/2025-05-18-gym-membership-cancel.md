@@ -29,7 +29,7 @@ tags:
 
 Gym membership disputes depend on contract term, auto-renewal, early cancellation fee, transferability, and written cancellation confirmation.
 
-This article is educational information, not legal advice. It explains a practical workflow for **Gym Membership Cancellation: Contract and Confirmation Over Verbal Promises** using evidence, dates, deadlines, and official-source escalation references.
+This article is educational and does not provide legal advice for **Gym Membership Cancellation: Contract and Confirmation Over Verbal Promises**. It focuses on preserving evidence, checking dates and contract wording, and choosing the right seller, platform, payment-provider, carrier, or regulator channel.
 
 ![Gym Membership Cancellation: Contract and Confirmation Over Verbal Promises core flow summary](/images/2026-05-17-gym-membership-cancel/hero.svg)
 

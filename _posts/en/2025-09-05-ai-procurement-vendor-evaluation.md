@@ -26,8 +26,7 @@ tags:
   - Security
   - Governance
 ---
-
-AI trends are not only model-name news. They are signals such as **data use** that change real workflow quality. This guide reads **AI Vendor Evaluation: Ask About Data, Security, and Exit Cost** through adoption, verification, and operating responsibility.
+If procurement questions are weak, data export, quality drift, and pricing changes become difficult to negotiate later. Before adoption, document **data use** and **model change** so review, cost control, and accountability are not pushed downstream.
 
 AI vendor evaluation should check data handling, model changes, security controls, logs, and exit cost before demo polish.
 
@@ -43,10 +42,10 @@ For this topic, start with **data use** and **model change**. If either is vague
 
 ## Signals To Check First
 
-- **data use**: for AI Vendor Evaluation: Ask About Data, Security, and Exit Cost, record the standard, owner, and failure response for this item.
-- **model change**: for AI Vendor Evaluation: Ask About Data, Security, and Exit Cost, record the standard, owner, and failure response for this item.
-- **security control**: for AI Vendor Evaluation: Ask About Data, Security, and Exit Cost, record the standard, owner, and failure response for this item.
-- **exit path**: for AI Vendor Evaluation: Ask About Data, Security, and Exit Cost, record the standard, owner, and failure response for this item.
+- **data use**: Define the tools, data, and execution rights the agent can actually use. Separate read, draft, and external execution permissions, and write down prohibited actions explicitly.
+- **model change**: Define where a human must approve the workflow. Costly actions, user-impacting output, external transfer, and file deletion should remain blocked until this gate passes.
+- **security control**: Keep enough evidence for later review. Store the input, tool call, decision reason, and failure class together so the next run can be compared against the same standard.
+- **exit path**: Define the recovery path before the workflow runs. Name the previous version, owner, stop condition, and user-notice rule so a failed automation can be reversed quickly.
 
 ![AI Vendor Evaluation: Ask About Data, Security, and Exit Cost verification checklist](/images/2026-05-23-ai-procurement-vendor-evaluation/checklist.png)
 

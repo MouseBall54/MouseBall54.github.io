@@ -29,7 +29,7 @@ tags:
 
 Safety recalls can appear after purchase, so receipts, model numbers, and serial numbers should be saved and checked against recall databases.
 
-This article is educational information, not legal advice. It explains a practical workflow for **Product Recall Check Routine: Keep Checking After You Buy** using evidence, dates, deadlines, and official-source escalation references.
+This article is educational and does not provide legal advice for **Product Recall Check Routine: Keep Checking After You Buy**. It focuses on preserving evidence, checking dates and contract wording, and choosing the right seller, platform, payment-provider, carrier, or regulator channel.
 
 ![Product Recall Check Routine: Keep Checking After You Buy core flow summary](/images/2026-05-17-product-recall-check-routine/hero.svg)
 

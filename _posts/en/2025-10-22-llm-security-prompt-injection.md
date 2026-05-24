@@ -26,8 +26,7 @@ tags:
   - OWASP
   - AI Risk
 ---
-
-AI trends are not only model-name news. They are signals such as **untrusted text** that change real workflow quality. This guide reads **LLM Prompt Injection Defense: Bound Permissions and Data First** through adoption, verification, and operating responsibility.
+The security goal is not that the model never sees hostile text; it is that hostile text cannot grant power. Before adoption, document **untrusted text** and **tool permission** so review, cost control, and accountability are not pushed downstream.
 
 Prompt injection cannot be solved by text filters alone; tool permissions, retrieved data, output handling, and approvals must be bounded.
 
@@ -43,10 +42,10 @@ For this topic, start with **untrusted text** and **tool permission**. If either
 
 ## Signals To Check First
 
-- **untrusted text**: for LLM Prompt Injection Defense: Bound Permissions and Data First, record the standard, owner, and failure response for this item.
-- **tool permission**: for LLM Prompt Injection Defense: Bound Permissions and Data First, record the standard, owner, and failure response for this item.
-- **output handling**: for LLM Prompt Injection Defense: Bound Permissions and Data First, record the standard, owner, and failure response for this item.
-- **data exfiltration**: for LLM Prompt Injection Defense: Bound Permissions and Data First, record the standard, owner, and failure response for this item.
+- **untrusted text**: Define the tools, data, and execution rights the agent can actually use. Separate read, draft, and external execution permissions, and write down prohibited actions explicitly.
+- **tool permission**: Define where a human must approve the workflow. Costly actions, user-impacting output, external transfer, and file deletion should remain blocked until this gate passes.
+- **output handling**: Keep enough evidence for later review. Store the input, tool call, decision reason, and failure class together so the next run can be compared against the same standard.
+- **data exfiltration**: Define the recovery path before the workflow runs. Name the previous version, owner, stop condition, and user-notice rule so a failed automation can be reversed quickly.
 
 ![LLM Prompt Injection Defense: Bound Permissions and Data First verification checklist](/images/2026-05-23-llm-security-prompt-injection/checklist.png)
 

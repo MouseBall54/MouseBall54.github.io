@@ -26,7 +26,7 @@ tags:
   - Code Review
   - Testing
 ---
-This guide is checked against official documentation on May 24, 2026. CLI behavior changes, so verify the version and linked source notes before copying a setting into a production workflow.
+Checked against official documentation on May 24, 2026, this post focuses on the setup and failure points behind **Codex Safe Git Workflow: Small Diffs, Tests, and Commit Boundaries**. The practical baseline is: Give Codex the current Git state and test command, ask for one failure condition, and require a human-readable diff explanation.
 
 ## Quick Answer
 

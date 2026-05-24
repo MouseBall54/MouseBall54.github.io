@@ -26,12 +26,11 @@ tags:
   - Warning Signs
   - Support
 ---
-
-Health literacy is not self-diagnosis. It is the ability to track observable signs such as **loss of interest**, know when rest is reasonable, and know when professional guidance is safer.
+Even if the feeling is hard to name, declining function is enough reason to seek help. Track **loss of interest** with start date, duration, daily-function impact, and safety concerns so the threshold for qualified help is clearer.
 
 Depression can show up as loss of interest, sleep or appetite change, fatigue, poor concentration, or thoughts of self-harm, not only sadness.
 
-This article is educational and is not diagnosis or treatment advice for **Depression Warning Signs: Function and Safety Before Mood Labels**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
+This article is educational and does not diagnose, treat, or set dosage for **Depression Warning Signs: Function and Safety Before Mood Labels**. Sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, severe bleeding, or any immediate safety concern should be handled through local emergency services or qualified medical professionals.
 
 ![Depression Warning Signs: Function and Safety Before Mood Labels core health flow](/images/2026-05-19-depression-warning-signs/hero.svg)
 
@@ -45,14 +44,10 @@ For **loss of interest, sleep or appetite change**, use patterns over one number
 
 ## Signals To Check First
 
-- **loss of interest**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **sleep or appetite change**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **poor concentration**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **self-harm thoughts**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-
-Do not interpret **loss of interest** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
-
-![Depression Warning Signs: Function and Safety Before Mood Labels checklist](/images/2026-05-19-depression-warning-signs/checklist.svg)
+- **loss of interest**: Record start date, duration, frequency, triggers, and relieving factors in the same format. Sudden worsening or safety concerns should move professional help first.
+- **sleep or appetite change**: Write the effect on daily function. Changes in school, work, sleep, eating, or mobility often matter more than a vague severity label.
+- **poor concentration**: Check age, pregnancy, existing conditions, medicines, recent infection, and injury. The same sign can mean different things under different conditions.
+- **self-harm thoughts**: For breathing trouble, chest pain, confusion, severe bleeding, self-harm risk, or other emergency signs, seeking urgent help comes before record keeping.
 
 ## Practical Order
 
@@ -70,9 +65,9 @@ Before a visit, write the start date, duration, triggers, relieving factors, rel
 
 ## Monthly Checkup
 
-- Confirm that you can: track interest, sleep, appetite, and energy changes.
-- Confirm that you can: write the impact on work, school, or relationships.
-- Confirm that you can: seek urgent crisis support for self-harm thoughts.
+- Track interest, sleep, appetite, and energy changes.
+- Write the impact on work, school, or relationships.
+- Seek urgent crisis support for self-harm thoughts.
 - Write how symptoms or habits affect daily function.
 - Recheck health information through official local guidance and qualified medical professionals.
 

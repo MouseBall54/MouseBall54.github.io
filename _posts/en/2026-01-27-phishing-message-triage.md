@@ -26,12 +26,11 @@ tags:
   - Scams
   - Cyber Hygiene
 ---
-
-Digital security is not only for specialists. A small signal such as **urgent payment request** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+Attackers start with urgency: delivery, tax, card payment, account suspension, or a limited-time warning. Start with: separate the sender name from the actual domain. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 Phishing risk drops when users have a short routine: pause, verify the sender, and open the service through a trusted route instead of the message link.
 
-This guide is not a product recommendation. It turns **urgent payment request** into a response routine, starting with: separate the sender name from the actual domain.
+Use this as a response routine for **urgent payment request**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![A 30-Second Phishing Triage: What to Check Before You Click core security flow](/images/2026-05-21-phishing-message-triage/hero.svg)
 
@@ -45,14 +44,10 @@ For **urgent payment request, unknown short link**, the baseline is pause, verif
 
 ## Warning Signals To Check First
 
-- **urgent payment request**: pause immediately and verify through a trusted route.
-- **unknown short link**: pause immediately and verify through a trusted route.
-- **odd agency name**: pause immediately and verify through a trusted route.
-- **attachment execution request**: pause immediately and verify through a trusted route.
-
-A signal such as **urgent payment request** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: separate the sender name from the actual domain.
-
-![A 30-Second Phishing Triage: What to Check Before You Click response checklist](/images/2026-05-21-phishing-message-triage/checklist.svg)
+- **urgent payment request**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **unknown short link**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **odd agency name**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **attachment execution request**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **urgent 
 
 ## Monthly Checkup
 
-- Confirm that you can: separate the sender name from the actual domain.
-- Confirm that you can: open the service through the official app or bookmark.
-- Confirm that you can: confirm attachments through a separate channel.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Separate the sender name from the actual domain.
+- Open the service through the official app or bookmark.
+- Confirm attachments through a separate channel.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

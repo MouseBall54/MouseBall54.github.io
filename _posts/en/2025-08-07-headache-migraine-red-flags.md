@@ -26,12 +26,11 @@ tags:
   - Warning Signs
   - Health Tracking
 ---
-
-Health literacy is not self-diagnosis. It is the ability to track observable signs such as **sudden severe headache**, know when rest is reasonable, and know when professional guidance is safer.
+Recurring headaches become easier to discuss with patterns, but a different or severe headache needs attention before journaling. Track **sudden severe headache** with start date, duration, daily-function impact, and safety concerns so the threshold for qualified help is clearer.
 
 Headaches are common, but sudden severe pain, neurologic symptoms, fever, or headache after injury should be treated differently from a usual pattern.
 
-This article is educational and is not diagnosis or treatment advice for **Headache and Migraine Tracking: Spotting What Is Different**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
+This article is educational and does not diagnose, treat, or set dosage for **Headache and Migraine Tracking: Spotting What Is Different**. Sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, severe bleeding, or any immediate safety concern should be handled through local emergency services or qualified medical professionals.
 
 ![Headache and Migraine Tracking: Spotting What Is Different core health flow](/images/2026-05-19-headache-migraine-red-flags/hero.svg)
 
@@ -45,14 +44,10 @@ For **sudden severe headache, vision changes**, use patterns over one number, da
 
 ## Signals To Check First
 
-- **sudden severe headache**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **vision changes**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **weakness or speech trouble**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **fever**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-
-Do not interpret **sudden severe headache** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
-
-![Headache and Migraine Tracking: Spotting What Is Different checklist](/images/2026-05-19-headache-migraine-red-flags/checklist.svg)
+- **sudden severe headache**: Record start date, duration, frequency, triggers, and relieving factors in the same format. Sudden worsening or safety concerns should move professional help first.
+- **vision changes**: Write the effect on daily function. Changes in school, work, sleep, eating, or mobility often matter more than a vague severity label.
+- **weakness or speech trouble**: Check age, pregnancy, existing conditions, medicines, recent infection, and injury. The same sign can mean different things under different conditions.
+- **fever**: For breathing trouble, chest pain, confusion, severe bleeding, self-harm risk, or other emergency signs, seeking urgent help comes before record keeping.
 
 ## Practical Order
 
@@ -70,9 +65,9 @@ Before a visit, write the start date, duration, triggers, relieving factors, rel
 
 ## Monthly Checkup
 
-- Confirm that you can: record start time, location, intensity, and symptoms.
-- Confirm that you can: track sleep, meals, stress, and screen time.
-- Confirm that you can: seek urgent help for sudden severe headache or neurologic symptoms.
+- Record start time, location, intensity, and symptoms.
+- Track sleep, meals, stress, and screen time.
+- Seek urgent help for sudden severe headache or neurologic symptoms.
 - Write how symptoms or habits affect daily function.
 - Recheck health information through official local guidance and qualified medical professionals.
 

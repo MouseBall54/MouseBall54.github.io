@@ -26,8 +26,7 @@ tags:
   - API
   - AI Security
 ---
-
-AI trends are not only model-name news. They are signals such as **schema field** that change real workflow quality. This guide reads **AI Tool Calling vs Function Calling: Separate Model Output from Execution** through adoption, verification, and operating responsibility.
+Function calling is useful, but treating a model suggestion as a real system action creates security and data risk. Before adoption, document **schema field** and **permission level** so review, cost control, and accountability are not pushed downstream.
 
 Tool calling connects a model to external systems, so schema, permissions, validation, and logs must be designed together.
 
@@ -43,10 +42,10 @@ For this topic, start with **schema field** and **permission level**. If either 
 
 ## Signals To Check First
 
-- **schema field**: for AI Tool Calling vs Function Calling: Separate Model Output from Execution, record the standard, owner, and failure response for this item.
-- **permission level**: for AI Tool Calling vs Function Calling: Separate Model Output from Execution, record the standard, owner, and failure response for this item.
-- **validation failure**: for AI Tool Calling vs Function Calling: Separate Model Output from Execution, record the standard, owner, and failure response for this item.
-- **tool result**: for AI Tool Calling vs Function Calling: Separate Model Output from Execution, record the standard, owner, and failure response for this item.
+- **schema field**: Define the tools, data, and execution rights the agent can actually use. Separate read, draft, and external execution permissions, and write down prohibited actions explicitly.
+- **permission level**: Define where a human must approve the workflow. Costly actions, user-impacting output, external transfer, and file deletion should remain blocked until this gate passes.
+- **validation failure**: Keep enough evidence for later review. Store the input, tool call, decision reason, and failure class together so the next run can be compared against the same standard.
+- **tool result**: Define the recovery path before the workflow runs. Name the previous version, owner, stop condition, and user-notice rule so a failed automation can be reversed quickly.
 
 ![AI Tool Calling vs Function Calling: Separate Model Output from Execution verification checklist](/images/2026-05-23-ai-tools-function-calling/checklist.png)
 

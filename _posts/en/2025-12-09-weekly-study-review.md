@@ -26,8 +26,7 @@ tags:
   - Metacognition
   - Progress
 ---
-
-A study method becomes useful when it leaves an observable signal such as **weekly output**. This guide turns **Weekly Study Review: Track Recall and Output, Not Only Hours** into a routine that can be tested in one session.
+Hours are only a starting point; recall rate, problem accuracy, written code, or drafts are stronger evidence. The goal is to leave **weekly output** and **recall rate** so the next review can start with a decision, not setup.
 
 A weekly review should check what you can retrieve and where failure repeats, not only how many hours you studied.
 
@@ -39,14 +38,14 @@ This article is educational. **Weekly Study Review: Track Recall and Output, Not
 
 Hours are only a starting point; recall rate, problem accuracy, written code, or drafts are stronger evidence.
 
-This routine is not decoration for a longer study session. It should leave **weekly output** and **recall rate** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **weekly output** and **recall rate** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **weekly output**: for Weekly Study Review: Track Recall and Output, Not Only Hours, leave this as a record that can be checked in the next review.
-- **recall rate**: for Weekly Study Review: Track Recall and Output, Not Only Hours, leave this as a record that can be checked in the next review.
-- **missed item**: for Weekly Study Review: Track Recall and Output, Not Only Hours, leave this as a record that can be checked in the next review.
-- **next bottleneck**: for Weekly Study Review: Track Recall and Output, Not Only Hours, leave this as a record that can be checked in the next review.
+- **weekly output**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **recall rate**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **missed item**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **next bottleneck**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Weekly Study Review: Track Recall and Output, Not Only Hours action checklist](/images/2026-05-23-weekly-study-review/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Compare weekly goals with actual 
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **weekly output**, **recall rate**, and **missed item**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `weekly output`, `recall rate`, and `missed item`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 

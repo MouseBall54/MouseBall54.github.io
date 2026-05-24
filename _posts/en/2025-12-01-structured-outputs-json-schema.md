@@ -26,8 +26,7 @@ tags:
   - Validation
   - API
 ---
-
-AI trends are not only model-name news. They are signals such as **required field** that change real workflow quality. This guide reads **Structured Outputs and JSON Schema: Validate Meaning, Not Only Parsing** through adoption, verification, and operating responsibility.
+A schema can fix output shape, but it does not prove that the values are correct for the business task. Before adoption, document **required field** and **enum value** so review, cost control, and accountability are not pushed downstream.
 
 Structured outputs reduce parsing failures, but meaning, missing fields, and business-rule violations still need validation.
 
@@ -43,10 +42,10 @@ For this topic, start with **required field** and **enum value**. If either is v
 
 ## Signals To Check First
 
-- **required field**: for Structured Outputs and JSON Schema: Validate Meaning, Not Only Parsing, record the standard, owner, and failure response for this item.
-- **enum value**: for Structured Outputs and JSON Schema: Validate Meaning, Not Only Parsing, record the standard, owner, and failure response for this item.
-- **semantic mismatch**: for Structured Outputs and JSON Schema: Validate Meaning, Not Only Parsing, record the standard, owner, and failure response for this item.
-- **retry count**: for Structured Outputs and JSON Schema: Validate Meaning, Not Only Parsing, record the standard, owner, and failure response for this item.
+- **required field**: Define the tools, data, and execution rights the agent can actually use. Separate read, draft, and external execution permissions, and write down prohibited actions explicitly.
+- **enum value**: Define where a human must approve the workflow. Costly actions, user-impacting output, external transfer, and file deletion should remain blocked until this gate passes.
+- **semantic mismatch**: Keep enough evidence for later review. Store the input, tool call, decision reason, and failure class together so the next run can be compared against the same standard.
+- **retry count**: Define the recovery path before the workflow runs. Name the previous version, owner, stop condition, and user-notice rule so a failed automation can be reversed quickly.
 
 ![Structured Outputs and JSON Schema: Validate Meaning, Not Only Parsing verification checklist](/images/2026-05-23-structured-outputs-json-schema/checklist.png)
 

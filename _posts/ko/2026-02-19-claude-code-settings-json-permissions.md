@@ -26,7 +26,7 @@ tags:
   - Permissions
   - AI Security
 ---
-이 글은 2026년 5월 24일 기준 공식 문서를 확인해 작성했습니다. CLI 도구는 업데이트가 빠르므로 운영 환경에 복사하기 전 버전과 하단의 Source Notes를 다시 확인하세요.
+2026년 5월 24일 기준 공식 문서와 CLI 동작을 기준으로, 이 글은 **Claude Code settings.json permissions: allow, ask, deny 기본값**에서 먼저 확인할 설정과 실패 지점을 정리합니다. 핵심 판단은 팀 공유 설정은 `.claude/settings.json`, 개인 실험은 `.claude/settings.local.json`, 전역 기본값은 `~/.claude/settings.json`에 나눠 둡니다.
 
 ## 빠른 답
 

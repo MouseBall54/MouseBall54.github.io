@@ -26,12 +26,11 @@ tags:
   - Small Business
   - DNS
 ---
-
-Digital security is not only for specialists. A small signal such as **domain spoofing** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+Without domain authentication, attackers can send invoices and login links that appear to come from your company domain. Start with: set spf and dkim in dns first. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 SPF, DKIM, and DMARC do not make email perfect, but they reduce and detect mail that spoofs your domain.
 
-This guide is not a product recommendation. It turns **domain spoofing** into a response routine, starting with: set SPF and DKIM in DNS first.
+Use this as a response routine for **domain spoofing**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![Stopping Domain Email Spoofing: A Practical View of SPF, DKIM, and DMARC core security flow](/images/2026-05-21-domain-email-spoofing-dmarc/hero.svg)
 
@@ -45,14 +44,10 @@ For **domain spoofing, missing DMARC**, the baseline is pause, verify separately
 
 ## Warning Signals To Check First
 
-- **domain spoofing**: pause immediately and verify through a trusted route.
-- **missing DMARC**: pause immediately and verify through a trusted route.
-- **lost marketing mail**: pause immediately and verify through a trusted route.
-- **unread reports**: pause immediately and verify through a trusted route.
-
-A signal such as **domain spoofing** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: set SPF and DKIM in DNS first.
-
-![Stopping Domain Email Spoofing: A Practical View of SPF, DKIM, and DMARC response checklist](/images/2026-05-21-domain-email-spoofing-dmarc/checklist.svg)
+- **domain spoofing**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **missing DMARC**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **lost marketing mail**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **unread reports**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **domain 
 
 ## Monthly Checkup
 
-- Confirm that you can: set SPF and DKIM in DNS first.
-- Confirm that you can: start DMARC in monitoring mode and read reports.
-- Confirm that you can: move to stricter policies after confirming legitimate mail flow.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Set SPF and DKIM in DNS first.
+- Start DMARC in monitoring mode and read reports.
+- Move to stricter policies after confirming legitimate mail flow.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

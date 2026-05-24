@@ -26,12 +26,11 @@ tags:
   - Public Health
   - Vaccines
 ---
-
-Health literacy is not self-diagnosis. It is the ability to track observable signs such as **cough or fever**, know when rest is reasonable, and know when professional guidance is safer.
+Even mild symptoms can matter for others. Personal convenience and community protection need to be weighed together. Track **cough or fever** with start date, duration, daily-function impact, and safety concerns so the threshold for qualified help is clearer.
 
 Respiratory virus prevention is layered: hand hygiene, ventilation, staying home when sick, masks, and vaccines depending on context.
 
-This article is educational and is not diagnosis or treatment advice for **Respiratory Virus Prevention: Hands, Air, Masks, and Staying Home**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
+This article is educational and does not diagnose, treat, or set dosage for **Respiratory Virus Prevention: Hands, Air, Masks, and Staying Home**. Sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, severe bleeding, or any immediate safety concern should be handled through local emergency services or qualified medical professionals.
 
 ![Respiratory Virus Prevention: Hands, Air, Masks, and Staying Home core health flow](/images/2026-05-19-respiratory-virus-prevention/hero.svg)
 
@@ -45,14 +44,10 @@ For **cough or fever, crowded indoor setting**, use patterns over one number, da
 
 ## Signals To Check First
 
-- **cough or fever**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **crowded indoor setting**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **higher-risk contact**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **poor ventilation**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-
-Do not interpret **cough or fever** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
-
-![Respiratory Virus Prevention: Hands, Air, Masks, and Staying Home checklist](/images/2026-05-19-respiratory-virus-prevention/checklist.svg)
+- **cough or fever**: Record start date, duration, frequency, triggers, and relieving factors in the same format. Sudden worsening or safety concerns should move professional help first.
+- **crowded indoor setting**: Write the effect on daily function. Changes in school, work, sleep, eating, or mobility often matter more than a vague severity label.
+- **higher-risk contact**: Check age, pregnancy, existing conditions, medicines, recent infection, and injury. The same sign can mean different things under different conditions.
+- **poor ventilation**: For breathing trouble, chest pain, confusion, severe bleeding, self-harm risk, or other emergency signs, seeking urgent help comes before record keeping.
 
 ## Practical Order
 
@@ -70,9 +65,9 @@ Before a visit, write the start date, duration, triggers, relieving factors, rel
 
 ## Monthly Checkup
 
-- Confirm that you can: reduce contacts and plans when symptomatic.
-- Confirm that you can: make ventilation and hand hygiene routine.
-- Confirm that you can: add layers when meeting higher-risk people.
+- Reduce contacts and plans when symptomatic.
+- Make ventilation and hand hygiene routine.
+- Add layers when meeting higher-risk people.
 - Write how symptoms or habits affect daily function.
 - Recheck health information through official local guidance and qualified medical professionals.
 

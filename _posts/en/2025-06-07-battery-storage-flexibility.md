@@ -29,7 +29,7 @@ tags:
 
 Battery storage does not create electricity; it shifts peak load, smooths renewable variability, and supports frequency stability as a flexibility asset.
 
-This article is an educational briefing, not investment advice, legal advice, or a recommendation to buy a specific energy product. It gives readers a practical order for reading **Battery Storage: Read It as Grid Flexibility, Not Just Generation** with official-source context.
+This article is educational and does not provide investment, legal, or energy-product advice for **Battery Storage: Read It as Grid Flexibility, Not Just Generation**. It uses official-source context to connect the issue with costs, infrastructure, policy, and Korea-facing channels.
 
 ![Battery Storage: Read It as Grid Flexibility, Not Just Generation core flow summary](/images/2026-05-18-battery-storage-flexibility/hero.svg)
 
@@ -37,27 +37,23 @@ This article is an educational briefing, not investment advice, legal advice, or
 
 IEA battery analysis frames storage as important not only for EVs but also for grid stability and renewable integration.
 
-Battery Storage: Read It as Grid Flexibility, Not Just Generation becomes economically relevant when storage duration, peak load, and frequency stability move together. In Korea, ESS should be read not only as a subsidy item but as an asset that can reduce grid delays and support industrial power quality. The practical task is to read the sequence between signals rather than one headline.
+In Korea, ESS should be read not only as a subsidy item but as an asset that can reduce grid delays and support industrial power quality. The domestic cost path becomes clearer when **storage duration**, **peak load**, and **frequency stability** are read as a sequence. Do not treat one monthly number or one headline as the whole story; separate demand, supply, price, and policy lag.
 
-This is why the topic should not be reduced to a simple for-or-against debate. If storage duration changes without peak load, the result can be different. If frequency stability looks stable while battery safety worsens, costs can appear later.
+A simple for-or-against debate hides implementation risk. Demand can move before supply bottlenecks clear, and stable prices can still hide grid, permitting, or financing constraints.
 
 ## Core Structure
 
-- **Demand**: use storage duration to locate where and when load or exposure is changing.
-- **Supply**: use peak load to test whether real supply capacity or a bottleneck is visible.
-- **Price**: use frequency stability to trace the lag into tariffs, import costs, or industrial margins.
-- **Risk**: use battery safety to separate policy, climate, and supply-chain risk.
+- **Demand**: use **storage duration** to locate where and when exposure is changing.
+- **Supply**: use **peak load** to test whether the issue is real capacity or a bottleneck.
+- **Price**: use **frequency stability** to trace the lag into tariffs, import costs, or industrial margins.
+- **Risk**: use **battery safety** to separate policy, climate, and supply-chain risk.
 
 ## Signals To Watch
 
-- **storage duration**: for Battery Storage: Read It as Grid Flexibility, Not Just Generation, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **peak load**: for Battery Storage: Read It as Grid Flexibility, Not Just Generation, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **frequency stability**: for Battery Storage: Read It as Grid Flexibility, Not Just Generation, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **battery safety**: for Battery Storage: Read It as Grid Flexibility, Not Just Generation, read direction, duration, and domestic cost channel before treating it as a standalone number.
-
-storage duration alone can show direction while hiding the cause. Reading it with peak load and frequency stability makes it easier to tell whether the issue is a price shock, infrastructure bottleneck, or policy lag.
-
-![Battery Storage: Read It as Grid Flexibility, Not Just Generation signal checklist map](/images/2026-05-18-battery-storage-flexibility/signal-map.svg)
+- **storage duration**: Read direction together with duration. A one-day price move and a multi-quarter volume shift require different decisions.
+- **peak load**: Write the domestic transmission channel. Mark whether it reaches tariffs, import prices, industrial costs, or local infrastructure first.
+- **frequency stability**: Check the implementation bottleneck. Grid connection, permits, finance, equipment, labour, and local acceptance can delay headline targets.
+- **battery safety**: Separate the policy assumption. Subsidies, regulation, taxes, and international rules can change the cost structure of the same technology.
 
 ## Korea-Facing Transmission
 
@@ -74,14 +70,14 @@ At implementation stage, the first question is: Separate duration, power rating,
 - Separate duration, power rating, and use case.
 - Check whether the goal is peak reduction or renewable integration.
 - Review safety standards and operating-data transparency.
-
-This checklist is not for predicting the next price move. For **Battery Storage: Read It as Grid Flexibility, Not Just Generation**, it is a baseline for checking what changed, what did not change, and which constraint matters most when a new policy, forecast, or company announcement appears.
+Check baseline year, geography, unit, and policy assumptions first.
+Translate the signal into Korea's import structure, grid geography, industrial exposure, or household cost channel.
 
 ## How To Read The Numbers
 
-The numbers in Battery Storage: Read It as Grid Flexibility, Not Just Generation change meaning when baseline year, region, or unit changes. For storage duration and battery safety, peaks, delays, and exceptions often matter more than averages.
+Climate and energy numbers can change meaning when baseline year, region, or unit changes. Peaks, delays, and exceptions often matter more than averages.
 
-Before using climate or energy data, check the **baseline, period, unit, geographic coverage, and policy assumptions**. Then translate storage duration, peak load, and frequency stability into Korea's import structure, grid geography, industrial exposure, or household cost channels.
+Check the **baseline, period, unit, geographic coverage, and policy assumptions** first. Then translate **storage duration**, **peak load**, and **frequency stability** into Korea's import structure, grid geography, industrial exposure, or household cost channels.
 
 ## Source Notes
 

@@ -26,12 +26,11 @@ tags:
   - Heat
   - Health Habits
 ---
-
-Health literacy is not self-diagnosis. It is the ability to track observable signs such as **dark urine**, know when rest is reasonable, and know when professional guidance is safer.
+Thirst is useful, but it may be delayed during heat, exercise, older age, or illness. Track **dark urine** with start date, duration, daily-function impact, and safety concerns so the threshold for qualified help is clearer.
 
 Hydration is not a contest to drink the most water; it is reading heat, activity, illness, urine color, dizziness, and context together.
 
-This article is educational and is not diagnosis or treatment advice for **Hydration and Dehydration Signs: Context Beyond Thirst**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
+This article is educational and does not diagnose, treat, or set dosage for **Hydration and Dehydration Signs: Context Beyond Thirst**. Sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, severe bleeding, or any immediate safety concern should be handled through local emergency services or qualified medical professionals.
 
 ![Hydration and Dehydration Signs: Context Beyond Thirst core health flow](/images/2026-05-19-hydration-dehydration-signs/hero.svg)
 
@@ -45,14 +44,10 @@ For **dark urine, dry mouth**, use patterns over one number, daily function over
 
 ## Signals To Check First
 
-- **dark urine**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **dry mouth**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **dizziness**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **vomiting or diarrhea**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-
-Do not interpret **dark urine** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
-
-![Hydration and Dehydration Signs: Context Beyond Thirst checklist](/images/2026-05-19-hydration-dehydration-signs/checklist.svg)
+- **dark urine**: Record start date, duration, frequency, triggers, and relieving factors in the same format. Sudden worsening or safety concerns should move professional help first.
+- **dry mouth**: Write the effect on daily function. Changes in school, work, sleep, eating, or mobility often matter more than a vague severity label.
+- **dizziness**: Check age, pregnancy, existing conditions, medicines, recent infection, and injury. The same sign can mean different things under different conditions.
+- **vomiting or diarrhea**: For breathing trouble, chest pain, confusion, severe bleeding, self-harm risk, or other emergency signs, seeking urgent help comes before record keeping.
 
 ## Practical Order
 
@@ -70,9 +65,9 @@ Before a visit, write the start date, duration, triggers, relieving factors, rel
 
 ## Monthly Checkup
 
-- Confirm that you can: plan fluids before heat and exercise.
-- Confirm that you can: read urine color, dizziness, and dry mouth together.
-- Confirm that you can: seek medical guidance when illness includes vomiting or diarrhea.
+- Plan fluids before heat and exercise.
+- Read urine color, dizziness, and dry mouth together.
+- Seek medical guidance when illness includes vomiting or diarrhea.
 - Write how symptoms or habits affect daily function.
 - Recheck health information through official local guidance and qualified medical professionals.
 

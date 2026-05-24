@@ -26,8 +26,7 @@ tags:
   - Verification
   - Content
 ---
-
-AI trends are not only model-name news. They are signals such as **input modality** that change real workflow quality. This guide reads **Multimodal AI Workflow: Verify Text, Image, and Audio Separately** through adoption, verification, and operating responsibility.
+Images and audio can make answers feel more factual while adding caption errors, missing context, and rights issues. Before adoption, document **input modality** and **caption claim** so review, cost control, and accountability are not pushed downstream.
 
 Multimodal AI adds value and error paths, so text, image, and audio need separate verification rules.
 
@@ -43,10 +42,10 @@ For this topic, start with **input modality** and **caption claim**. If either i
 
 ## Signals To Check First
 
-- **input modality**: for Multimodal AI Workflow: Verify Text, Image, and Audio Separately, record the standard, owner, and failure response for this item.
-- **caption claim**: for Multimodal AI Workflow: Verify Text, Image, and Audio Separately, record the standard, owner, and failure response for this item.
-- **transcript error**: for Multimodal AI Workflow: Verify Text, Image, and Audio Separately, record the standard, owner, and failure response for this item.
-- **rights issue**: for Multimodal AI Workflow: Verify Text, Image, and Audio Separately, record the standard, owner, and failure response for this item.
+- **input modality**: Define the tools, data, and execution rights the agent can actually use. Separate read, draft, and external execution permissions, and write down prohibited actions explicitly.
+- **caption claim**: Define where a human must approve the workflow. Costly actions, user-impacting output, external transfer, and file deletion should remain blocked until this gate passes.
+- **transcript error**: Keep enough evidence for later review. Store the input, tool call, decision reason, and failure class together so the next run can be compared against the same standard.
+- **rights issue**: Define the recovery path before the workflow runs. Name the previous version, owner, stop condition, and user-notice rule so a failed automation can be reversed quickly.
 
 ![Multimodal AI Workflow: Verify Text, Image, and Audio Separately verification checklist](/images/2026-05-23-multimodal-ai-workflow/checklist.png)
 

@@ -690,18 +690,16 @@ def seo_description(topic: dict[str, object], lang: str) -> str:
 
 
 def ko_intro(topic: dict[str, object]) -> str:
-    first = topic["ko_signals"][0]
     return (
-        f"AI 트렌드는 모델 이름을 따라가는 뉴스가 아니라 **{first}**처럼 실제 업무 품질을 바꾸는 신호를 읽는 일입니다. "
-        f"이 글은 **{topic['ko_title']}** 주제를 도입 전 의사결정, 검증, 운영 책임 관점에서 정리합니다."
+        f"이 글은 **{topic['ko_title']}**를 유행어가 아니라 운영 설계 문제로 다룹니다. "
+        "그래서 먼저 정해야 할 것은 모델 이름이 아니라 사용 범위, 검증 기준, 사람이 멈춰야 할 지점입니다."
     )
 
 
 def en_intro(topic: dict[str, object]) -> str:
-    first = topic["signals"][0]
     return (
-        f"AI trends are not only model-name news. They are signals such as **{first}** that change real workflow quality. "
-        f"This guide reads **{topic['en_title']}** through adoption, verification, and operating responsibility."
+        f"This guide treats **{topic['en_title']}** as an operating-design problem, not a trend label. "
+        "The first decision is therefore not which model to use, but where scope, verification, and human stop points are defined."
     )
 
 
@@ -724,18 +722,28 @@ def en_risk_frame(topic: dict[str, object]) -> str:
 
 
 def ko_signal_items(topic: dict[str, object]) -> str:
-    title = topic["ko_title"]
+    templates = [
+        "이 기준은 에이전트가 실제로 접근할 수 있는 도구, 데이터, 실행 권한을 정합니다. 읽기, 초안 작성, 외부 실행을 분리해 적고 금지 작업을 예외 없이 표시합니다.",
+        "이 기준은 사람이 반드시 확인해야 하는 지점을 정합니다. 비용 발생, 사용자 영향, 외부 전송, 파일 삭제처럼 되돌리기 어려운 행동은 승인 전에는 실행하지 않게 둡니다.",
+        "이 기준은 사후 검토가 가능한 기록을 남깁니다. 입력 자료, 사용한 도구, 판단 근거, 실패 원인을 같은 위치에 남겨 다음 실험과 비교할 수 있어야 합니다.",
+        "이 기준은 실패 후 복구 방법을 정합니다. 이전 버전, 담당자, 중단 조건, 사용자 알림 필요 여부를 미리 적어 자동화가 멈췄을 때 바로 되돌릴 수 있게 합니다.",
+    ]
     return "\n".join(
-        f"- **{signal}**: {title} 주제에서 이 항목의 기준, 책임자, 실패 시 대응을 함께 기록합니다."
-        for signal in topic["ko_signals"]
+        f"- **{signal}**: {templates[index % len(templates)]}"
+        for index, signal in enumerate(topic["ko_signals"])
     )
 
 
 def en_signal_items(topic: dict[str, object]) -> str:
-    title = topic["en_title"]
+    templates = [
+        "Define the tools, data, and execution rights the agent can actually use. Separate read, draft, and external execution permissions, and write down prohibited actions explicitly.",
+        "Define where a human must approve the workflow. Costly actions, user-impacting output, external transfer, and file deletion should remain blocked until this gate passes.",
+        "Keep enough evidence for later review. Store the input, tool call, decision reason, and failure class together so the next run can be compared against the same standard.",
+        "Define the recovery path before the workflow runs. Name the previous version, owner, stop condition, and user-notice rule so a failed automation can be reversed quickly.",
+    ]
     return "\n".join(
-        f"- **{signal}**: for {title}, record the standard, owner, and failure response for this item."
-        for signal in topic["signals"]
+        f"- **{signal}**: {templates[index % len(templates)]}"
+        for index, signal in enumerate(topic["signals"])
     )
 
 

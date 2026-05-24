@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Redistribute a portion of the 2026-05-23 growth posts across prior dates."""
+"""First-pass redistribution for the original 2026-05-23 growth-post cluster."""
 
 from __future__ import annotations
 
@@ -12,9 +12,9 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DATE = "2026-05-23"
 START_DATE = date(2025, 9, 1)
 
-# Keep exactly 50 paired topics on 2026-05-23 so the existing growth-campaign
-# validator still has a stable sample, while moving the rest out of one-day
-# publication clustering.
+# Historical helper kept for repeatability of the first redistribution pass.
+# The final cluster cleanup is handled by distribute_clustered_post_dates.py,
+# which no longer preserves a 2026-05-23 exception.
 LEAVE_QUOTAS = {
     "en_Troubleshooting": 20,
     "en_AI_Trends": 10,

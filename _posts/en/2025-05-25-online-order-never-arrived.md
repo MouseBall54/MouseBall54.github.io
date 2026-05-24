@@ -29,7 +29,7 @@ tags:
 
 Online order disputes move faster when order date, promised delivery, seller responses, tracking status, and payment method are placed on a timeline.
 
-This article is educational information, not legal advice. It explains a practical workflow for **Online Order Never Arrived: Separate Delay From Non-Delivery** using evidence, dates, deadlines, and official-source escalation references.
+This article is educational and does not provide legal advice for **Online Order Never Arrived: Separate Delay From Non-Delivery**. It focuses on preserving evidence, checking dates and contract wording, and choosing the right seller, platform, payment-provider, carrier, or regulator channel.
 
 ![Online Order Never Arrived: Separate Delay From Non-Delivery core flow summary](/images/2026-05-17-online-order-never-arrived/hero.svg)
 

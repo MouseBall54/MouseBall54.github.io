@@ -115,7 +115,7 @@ TOPICS = [
         "slug": "codex-mcp-server-config",
         "ko_title": "Codex MCP server config.toml 설정: mcp_servers와 도구 승인 분리",
         "en_title": "Codex MCP Server config.toml Setup: mcp_servers and Tool Approval",
-        "ko_summary": "Codex MCP 설정은 서버 실행 명령, 환경변수, 노출 도구, 도구별 승인 방식을 분리해야 안전하다.",
+        "ko_summary": "Codex MCP 설정은 서버 실행 명령, 환경변수, 노출 도구, 도구별 승인 방식을 분리해야 운영이 안전하다.",
         "en_summary": "Codex MCP setup should separate server command, environment variables, exposed tools, and per-tool approval behavior.",
         "ko_answer": "`[mcp_servers.<name>]`에 서버를 등록하되, `enabled_tools`, `disabled_tools`, `default_tools_approval_mode`로 처음부터 최소 권한을 둡니다.",
         "en_answer": "Register the server under `[mcp_servers.<name>]`, then limit tools with `enabled_tools`, `disabled_tools`, and default approval mode.",

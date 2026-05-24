@@ -29,7 +29,7 @@ tags:
 
 Cross-border shopping adds language, jurisdiction, return shipping, customs, and payment-dispute differences, so seller location and complaint channels matter before ordering.
 
-This article is educational information, not legal advice. It explains a practical workflow for **Cross-Border Shopping Complaint: When It Does Not Work Like a Local Store** using evidence, dates, deadlines, and official-source escalation references.
+This article is educational and does not provide legal advice for **Cross-Border Shopping Complaint: When It Does Not Work Like a Local Store**. It focuses on preserving evidence, checking dates and contract wording, and choosing the right seller, platform, payment-provider, carrier, or regulator channel.
 
 ![Cross-Border Shopping Complaint: When It Does Not Work Like a Local Store core flow summary](/images/2026-05-17-cross-border-shopping-complaint/hero.svg)
 

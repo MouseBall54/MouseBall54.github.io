@@ -29,7 +29,7 @@ tags:
 
 Energy efficiency is not merely using less; it delivers the same output and comfort with less energy, reducing import bills, grid investment, and emissions together.
 
-This article is an educational briefing, not investment advice, legal advice, or a recommendation to buy a specific energy product. It gives readers a practical order for reading **Energy Efficiency as the First Fuel: Productivity, Not Just Saving** with official-source context.
+This article is educational and does not provide investment, legal, or energy-product advice for **Energy Efficiency as the First Fuel: Productivity, Not Just Saving**. It uses official-source context to connect the issue with costs, infrastructure, policy, and Korea-facing channels.
 
 ![Energy Efficiency as the First Fuel: Productivity, Not Just Saving core flow summary](/images/2026-05-18-energy-efficiency-first-fuel/hero.svg)
 
@@ -37,27 +37,23 @@ This article is an educational briefing, not investment advice, legal advice, or
 
 IEA energy outlooks frame efficiency improvement as a key tool that supports both energy security and emissions reduction amid demand growth.
 
-Energy Efficiency as the First Fuel: Productivity, Not Just Saving becomes economically relevant when payback period, peak reduction, and equipment efficiency move together. Because Korea imports energy and has power-intensive manufacturing, efficiency investment links fuel-cost savings with industrial competitiveness and the trade balance. The practical task is to read the sequence between signals rather than one headline.
+Because Korea imports energy and has power-intensive manufacturing, efficiency investment links fuel-cost savings with industrial competitiveness and the trade balance. The domestic cost path becomes clearer when **payback period**, **peak reduction**, and **equipment efficiency** are read as a sequence. Do not treat one monthly number or one headline as the whole story; separate demand, supply, price, and policy lag.
 
-This is why the topic should not be reduced to a simple for-or-against debate. If payback period changes without peak reduction, the result can be different. If equipment efficiency looks stable while operational optimization worsens, costs can appear later.
+A simple for-or-against debate hides implementation risk. Demand can move before supply bottlenecks clear, and stable prices can still hide grid, permitting, or financing constraints.
 
 ## Core Structure
 
-- **Demand**: use payback period to locate where and when load or exposure is changing.
-- **Supply**: use peak reduction to test whether real supply capacity or a bottleneck is visible.
-- **Price**: use equipment efficiency to trace the lag into tariffs, import costs, or industrial margins.
-- **Risk**: use operational optimization to separate policy, climate, and supply-chain risk.
+- **Demand**: use **payback period** to locate where and when exposure is changing.
+- **Supply**: use **peak reduction** to test whether the issue is real capacity or a bottleneck.
+- **Price**: use **equipment efficiency** to trace the lag into tariffs, import costs, or industrial margins.
+- **Risk**: use **operational optimization** to separate policy, climate, and supply-chain risk.
 
 ## Signals To Watch
 
-- **payback period**: for Energy Efficiency as the First Fuel: Productivity, Not Just Saving, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **peak reduction**: for Energy Efficiency as the First Fuel: Productivity, Not Just Saving, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **equipment efficiency**: for Energy Efficiency as the First Fuel: Productivity, Not Just Saving, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **operational optimization**: for Energy Efficiency as the First Fuel: Productivity, Not Just Saving, read direction, duration, and domestic cost channel before treating it as a standalone number.
-
-payback period alone can show direction while hiding the cause. Reading it with peak reduction and equipment efficiency makes it easier to tell whether the issue is a price shock, infrastructure bottleneck, or policy lag.
-
-![Energy Efficiency as the First Fuel: Productivity, Not Just Saving signal checklist map](/images/2026-05-18-energy-efficiency-first-fuel/signal-map.svg)
+- **payback period**: Read direction together with duration. A one-day price move and a multi-quarter volume shift require different decisions.
+- **peak reduction**: Write the domestic transmission channel. Mark whether it reaches tariffs, import prices, industrial costs, or local infrastructure first.
+- **equipment efficiency**: Check the implementation bottleneck. Grid connection, permits, finance, equipment, labour, and local acceptance can delay headline targets.
+- **operational optimization**: Separate the policy assumption. Subsidies, regulation, taxes, and international rules can change the cost structure of the same technology.
 
 ## Korea-Facing Transmission
 
@@ -74,14 +70,14 @@ At implementation stage, the first question is: Read payback and operational rel
 - Read payback and operational reliability before headline savings.
 - Separate equipment efficiency from operating practice.
 - Calculate how efficiency investment reduces peak demand.
-
-This checklist is not for predicting the next price move. For **Energy Efficiency as the First Fuel: Productivity, Not Just Saving**, it is a baseline for checking what changed, what did not change, and which constraint matters most when a new policy, forecast, or company announcement appears.
+Check baseline year, geography, unit, and policy assumptions first.
+Translate the signal into Korea's import structure, grid geography, industrial exposure, or household cost channel.
 
 ## How To Read The Numbers
 
-The numbers in Energy Efficiency as the First Fuel: Productivity, Not Just Saving change meaning when baseline year, region, or unit changes. For payback period and operational optimization, peaks, delays, and exceptions often matter more than averages.
+Climate and energy numbers can change meaning when baseline year, region, or unit changes. Peaks, delays, and exceptions often matter more than averages.
 
-Before using climate or energy data, check the **baseline, period, unit, geographic coverage, and policy assumptions**. Then translate payback period, peak reduction, and equipment efficiency into Korea's import structure, grid geography, industrial exposure, or household cost channels.
+Check the **baseline, period, unit, geographic coverage, and policy assumptions** first. Then translate **payback period**, **peak reduction**, and **equipment efficiency** into Korea's import structure, grid geography, industrial exposure, or household cost channels.
 
 ## Source Notes
 

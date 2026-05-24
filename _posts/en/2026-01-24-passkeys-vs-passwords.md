@@ -26,12 +26,11 @@ tags:
   - MFA
   - Phishing
 ---
-
-Digital security is not only for specialists. A small signal such as **passkey support** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+Passwords and SMS codes can be exposed through fake login pages, SIM attacks, or adversary-in-the-middle flows. Start with: enable passkeys first on email, cloud, and developer accounts. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 Passkeys let users sign in with device-based authentication instead of memorized passwords, reducing the risk of typing secrets into phishing sites.
 
-This guide is not a product recommendation. It turns **passkey support** into a response routine, starting with: enable passkeys first on email, cloud, and developer accounts.
+Use this as a response routine for **passkey support**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![Passkeys vs Passwords: Moving Toward Phishing-Resistant Sign-In core security flow](/images/2026-05-21-passkeys-vs-passwords/hero.svg)
 
@@ -45,14 +44,10 @@ For **passkey support, security key registration**, the baseline is pause, verif
 
 ## Warning Signals To Check First
 
-- **passkey support**: pause immediately and verify through a trusted route.
-- **security key registration**: pause immediately and verify through a trusted route.
-- **limited recovery devices**: pause immediately and verify through a trusted route.
-- **SMS-only 2FA**: pause immediately and verify through a trusted route.
-
-A signal such as **passkey support** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: enable passkeys first on email, cloud, and developer accounts.
-
-![Passkeys vs Passwords: Moving Toward Phishing-Resistant Sign-In response checklist](/images/2026-05-21-passkeys-vs-passwords/checklist.svg)
+- **passkey support**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **security key registration**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **limited recovery devices**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **SMS-only 2FA**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **passkey
 
 ## Monthly Checkup
 
-- Confirm that you can: enable passkeys first on email, cloud, and developer accounts.
-- Confirm that you can: keep a spare device or security key as recovery.
-- Confirm that you can: check passkey support in account security settings.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Enable passkeys first on email, cloud, and developer accounts.
+- Keep a spare device or security key as recovery.
+- Check passkey support in account security settings.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

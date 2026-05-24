@@ -26,7 +26,7 @@ tags:
   - Troubleshooting
   - Install Error
 ---
-이 글은 2026년 5월 24일 기준 공식 문서를 확인해 작성했습니다. CLI 도구는 업데이트가 빠르므로 운영 환경에 복사하기 전 버전과 하단의 Source Notes를 다시 확인하세요.
+2026년 5월 24일 기준 공식 문서와 CLI 동작을 기준으로, 이 글은 **codex command not found 해결: PATH, 설치 위치, 중복 바이너리 점검**에서 먼저 확인할 설정과 실패 지점을 정리합니다. 핵심 판단은 설치 직후 새 터미널을 열고 `which codex`, `command -v codex`, 설치 관리자별 위치를 확인한 뒤 한 가지 설치 방식만 남깁니다.
 
 ## 빠른 답
 

@@ -26,12 +26,11 @@ tags:
   - Weight
   - Health Habits
 ---
-
-Health literacy is not self-diagnosis. It is the ability to track observable signs such as **sweet coffee**, know when rest is reasonable, and know when professional guidance is safer.
+Drinks are easy to underestimate because they do not feel like food. Start with the cup you repeat most often. Track **sweet coffee** with start date, duration, daily-function impact, and safety concerns so the threshold for qualified help is clearer.
 
 Added sugars can rise quickly through coffee drinks, juice, soda, and energy drinks, not only desserts.
 
-This article is educational and is not diagnosis or treatment advice for **Reducing Sugary Drinks: Check the Cup Before the Snack**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
+This article is educational and does not diagnose, treat, or set dosage for **Reducing Sugary Drinks: Check the Cup Before the Snack**. Sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, severe bleeding, or any immediate safety concern should be handled through local emergency services or qualified medical professionals.
 
 ![Reducing Sugary Drinks: Check the Cup Before the Snack core health flow](/images/2026-05-19-added-sugar-drinks/hero.svg)
 
@@ -45,14 +44,10 @@ For **sweet coffee, juice**, use patterns over one number, daily function over v
 
 ## Signals To Check First
 
-- **sweet coffee**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **juice**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **energy drinks**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **late-night drinks**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-
-Do not interpret **sweet coffee** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
-
-![Reducing Sugary Drinks: Check the Cup Before the Snack checklist](/images/2026-05-19-added-sugar-drinks/checklist.svg)
+- **sweet coffee**: Record start date, duration, frequency, triggers, and relieving factors in the same format. Sudden worsening or safety concerns should move professional help first.
+- **juice**: Write the effect on daily function. Changes in school, work, sleep, eating, or mobility often matter more than a vague severity label.
+- **energy drinks**: Check age, pregnancy, existing conditions, medicines, recent infection, and injury. The same sign can mean different things under different conditions.
+- **late-night drinks**: For breathing trouble, chest pain, confusion, severe bleeding, self-harm risk, or other emergency signs, seeking urgent help comes before record keeping.
 
 ## Practical Order
 
@@ -70,9 +65,9 @@ Before a visit, write the start date, duration, triggers, relieving factors, rel
 
 ## Monthly Checkup
 
-- Confirm that you can: list daily drinks.
-- Confirm that you can: choose unsweetened, smaller size, or water replacement.
-- Confirm that you can: separate fatigue drinks from habit drinks.
+- List daily drinks.
+- Choose unsweetened, smaller size, or water replacement.
+- Separate fatigue drinks from habit drinks.
 - Write how symptoms or habits affect daily function.
 - Recheck health information through official local guidance and qualified medical professionals.
 

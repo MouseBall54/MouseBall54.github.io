@@ -26,12 +26,11 @@ tags:
   - Consumer Security
   - Payments
 ---
-
-Digital security is not only for specialists. A small signal such as **off-platform messaging** can affect money, privacy, family safety, and business continuity, so the routine has to be simple enough to use under pressure.
+Moving off-platform, upfront-payment pressure, and reused shipping proof are common warning signs. Start with: keep chat and payment inside the platform. Then preserve evidence, verify through a separate route, and recover accounts in order.
 
 In secondhand marketplaces, keeping chat records, payment trails, seller reputation, and item-verification steps improves your response options.
 
-This guide is not a product recommendation. It turns **off-platform messaging** into a response routine, starting with: keep chat and payment inside the platform.
+Use this as a response routine for **off-platform messaging**: act through official routes, keep records, and involve the right owner when money, work, or family accounts are exposed.
 
 ![Secondhand Marketplace Scam Prevention: Records Matter More Than Speed core security flow](/images/2026-05-21-marketplace-secondhand-scam/hero.svg)
 
@@ -45,14 +44,10 @@ For **off-platform messaging, below-market price**, the baseline is pause, verif
 
 ## Warning Signals To Check First
 
-- **off-platform messaging**: pause immediately and verify through a trusted route.
-- **below-market price**: pause immediately and verify through a trusted route.
-- **upfront pressure**: pause immediately and verify through a trusted route.
-- **reused photo**: pause immediately and verify through a trusted route.
-
-A signal such as **off-platform messaging** does not always mean you should delete everything immediately. Capture evidence first, then apply this rule: keep chat and payment inside the platform.
-
-![Secondhand Marketplace Scam Prevention: Records Matter More Than Speed response checklist](/images/2026-05-21-marketplace-secondhand-scam/checklist.svg)
+- **off-platform messaging**: Do not fix the issue inside the message or app that triggered it. Recheck through a saved bookmark, official app, or another trusted route.
+- **below-market price**: Preserve screenshots, sender details, payment requests, and login history first. Evidence makes blocking, reporting, and recovery more reliable.
+- **upfront pressure**: Define the recovery order: password change, MFA reset, connected-device review, and payment alert checks. Handle important accounts one at a time.
+- **reused photo**: If family, work, customer data, or payment authority is involved, tell the responsible person quickly. Fast reporting limits the damage.
 
 ## Practical Setup Order
 
@@ -70,10 +65,10 @@ If work accounts, customer data, or payment authority are connected to **off-pla
 
 ## Monthly Checkup
 
-- Confirm that you can: keep chat and payment inside the platform.
-- Confirm that you can: ask for a dated photo with a requested phrase.
-- Confirm that you can: use public places and a companion for in-person trades.
-- Review login history, connected devices, recovery email, and payment alerts together.
+- Keep chat and payment inside the platform.
+- Ask for a dated photo with a requested phrase.
+- Use public places and a companion for in-person trades.
+- Review login history and connected devices together.
 - Record the date and reason when you change a security setting.
 
 ## Source Notes

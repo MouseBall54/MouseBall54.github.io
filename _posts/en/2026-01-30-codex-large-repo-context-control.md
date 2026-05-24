@@ -26,7 +26,7 @@ tags:
   - Context
   - Developer Workflow
 ---
-This guide is checked against official documentation on May 24, 2026. CLI behavior changes, so verify the version and linked source notes before copying a setting into a production workflow.
+Checked against official documentation on May 24, 2026, this post focuses on the setup and failure points behind **Codex Large Repo Context Control: Narrow What the Agent Reads**. The practical baseline is: Use launch directory, nested instruction files, explicit file lists, and deny rules to shrink the agent's working context.
 
 ## Quick Answer
 

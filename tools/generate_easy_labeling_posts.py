@@ -698,18 +698,28 @@ def normalize_markdown(text: str) -> str:
 
 
 def ko_signal_items(topic: dict[str, object]) -> str:
-    title = topic["ko_title"]
+    templates = [
+        "작업 전에 기준을 문서로 고정합니다. 라벨러가 같은 이미지를 봤을 때 같은 결정을 내릴 수 있도록 포함 기준, 제외 기준, 예외 예시를 함께 둡니다.",
+        "파일럿 배치에서 바로 확인합니다. 전체 데이터를 열기 전에 20~50장 샘플로 좌표, 클래스, 저장 경로가 학습 폴더와 맞는지 봅니다.",
+        "애매한 사례를 질문 로그나 edge case gallery에 남깁니다. 반복 질문이 생기면 개인 판단으로 넘기지 말고 지침서 버전을 올립니다.",
+        "학습팀에 넘기기 전 검수 기록과 함께 묶습니다. 이미지, 라벨, 클래스 파일, 변환 스크립트, 검수 샘플이 같은 버전을 가리켜야 합니다.",
+    ]
     return "\n".join(
-        f"- **{signal}**: {title} 작업에서 이 항목을 기록하면 라벨 기준이 흔들렸는지 나중에 확인할 수 있습니다."
-        for signal in topic["ko_signals"]
+        f"- **{signal}**: {templates[index % len(templates)]}"
+        for index, signal in enumerate(topic["ko_signals"])
     )
 
 
 def en_signal_items(topic: dict[str, object]) -> str:
-    title = topic["en_title"]
+    templates = [
+        "Freeze the rule before labeling starts. Include positive examples, exclusion rules, and edge cases so two labelers can make the same decision on the same image.",
+        "Check it in a pilot batch first. Before opening the full dataset, use 20 to 50 samples to verify coordinates, classes, and save paths against the training folder.",
+        "Capture ambiguous cases in a question log or edge-case gallery. When the same question repeats, update the instruction version instead of relying on individual judgment.",
+        "Package it with the QA record before handoff. Images, labels, class files, conversion scripts, and reviewed samples should point to the same dataset version.",
+    ]
     return "\n".join(
-        f"- **{signal}**: record this during {title} so label drift can be checked later."
-        for signal in topic["signals"]
+        f"- **{signal}**: {templates[index % len(templates)]}"
+        for index, signal in enumerate(topic["signals"])
     )
 
 
@@ -873,7 +883,7 @@ def ko_post(topic: dict[str, object], index: int) -> str:
     {yaml_list(topic["tags"])}
     ---
 
-    이미지 라벨링은 박스를 많이 그리는 일이 아니라 **나중에 학습 가능한 기준을 남기는 일**입니다. 이 글은 **{topic["ko_title"]}** 주제를 Easy Labeling 작업 흐름과 YOLO 데이터셋 검수 관점에서 정리합니다.
+    이 글은 **{topic["ko_title"]}**를 라벨링 속도가 아니라 데이터셋 품질 기준으로 정리합니다. Easy Labeling은 작업을 빠르게 만들 수 있지만, 학습 가능한 데이터는 클래스 규칙과 검수 루틴이 함께 있을 때 만들어집니다.
 
     {topic["ko_summary"]}
 
@@ -953,7 +963,7 @@ def en_post(topic: dict[str, object], index: int) -> str:
     {yaml_list(topic["tags"])}
     ---
 
-    Image labeling is not only drawing more boxes. It is **leaving a standard that can still be trained, reviewed, and reproduced later**. This guide turns **{topic["en_title"]}** into an Easy Labeling and YOLO dataset QA workflow.
+    This guide frames **{topic["en_title"]}** as a dataset-quality workflow rather than a labeling-speed trick. Easy Labeling can make the work faster, but trainable data still depends on class rules and review routines.
 
     {topic["en_summary"]}
 

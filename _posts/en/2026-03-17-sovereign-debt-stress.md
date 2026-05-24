@@ -26,8 +26,11 @@ tags:
   - Dollar
   - Development
 ---
+World Bank and IMF updates show sovereign debt is not just a fiscal ratio; it shapes development investment, currencies, and food and energy support.
 
-Global affairs can look abstract until **debt service** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
+For Korean readers, the practical question is where **debt service** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
+
+For Korean readers, the practical question is where **debt service** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
 
 World Bank and IMF updates show sovereign debt is not just a fiscal ratio; it shapes development investment, currencies, and food and energy support.
 
@@ -39,18 +42,14 @@ This briefing treats **Sovereign Debt Stress: The Second Shock After High Intere
 
 Korean readers should connect emerging-market debt stress with commodity demand, export-market stability, and dollar strength.
 
-For this issue, start with **debt service**, then check whether **currency depreciation** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
+Start with **debt service**, then check whether **currency depreciation** is moving through prices, physical supply, policy response, or financing conditions. A short market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
-- **debt service**: watch the direction, policy response, and market pricing rather than the number alone.
-- **currency depreciation**: watch the direction, policy response, and market pricing rather than the number alone.
-- **IMF programs**: watch the direction, policy response, and market pricing rather than the number alone.
-- **capital outflows**: watch the direction, policy response, and market pricing rather than the number alone.
-
-Do not read **debt service** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
-
-![Sovereign Debt Stress: The Second Shock After High Interest Rates signal checklist](/images/2026-05-22-sovereign-debt-stress/signal-map.svg)
+- **debt service**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
+- **currency depreciation**: Connect domestic headlines to external causes. Mark whether exports, import prices, exchange rates, energy costs, or security budgets move first.
+- **IMF programs**: Check inventory and contract cushions. Market prices can look stable while shipping, insurance, or compliance costs pass through later.
+- **capital outflows**: Choose the next source to watch. Decide whether official statistics, institutional forecasts, or government releases would change the baseline.
 
 ## Korea-Facing Angle
 
@@ -68,11 +67,11 @@ Household readers can translate **debt service** into living costs, loan rates, 
 
 ## Reader Checklist
 
-- Track whether debt service first affects exports, prices, funding, or public budgets.
-- Track whether currency depreciation first affects exports, prices, funding, or public budgets.
-- Track whether IMF programs first affects exports, prices, funding, or public budgets.
+- Decide whether **debt service** is creating a price shock, a volume shock, or both.
+- Check whether **currency depreciation** is a short news cycle or a structural change that can last for quarters.
+- Mark the Korea-facing channel for **IMF programs**: exports, import prices, financial markets, security costs, or household costs.
 - Separate official data from interpretation and commentary.
-- Check the release date, reference period, and assumptions before using any forecast.
+- Check release date, reference period, and assumptions before using any forecast.
 
 ## Source Notes
 

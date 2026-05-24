@@ -26,8 +26,7 @@ tags:
   - IMF
   - OECD
 ---
-
-Economic news becomes useful when a signal such as **forecast date** is translated into prices, debt, income, and decisions. This guide explains **How to Read Global Growth Forecasts from IMF, OECD, and World Bank** with official-source context and household-level checks.
+A forecast is not a fact; it is a scenario with assumptions and a data cut-off date. Read **forecast date** and **baseline** with release date, reference period, and the path into prices, wages, interest payments, or exchange rates.
 
 Global growth forecasts differ because institutions use different cut-off dates, country coverage, exchange-rate assumptions, and risk scenarios.
 
@@ -39,14 +38,14 @@ This article is educational and is not financial advice, investment advice, tax 
 
 A forecast is not a fact; it is a scenario with assumptions and a data cut-off date.
 
-Indicators such as **forecast date** and **baseline** are easy to misuse when they are read as isolated numbers. Check the release date, reference period, month-over-month or year-over-year basis, and whether the number is nominal or real. For household decisions, income timing, debt rates, fixed costs, and currency exposure can matter more than the average economy when reading **How to Read Global Growth Forecasts from IMF, OECD, and World Bank**.
+Signals such as **forecast date** and **baseline** are easy to misread as standalone numbers. Check the release date, reference period, month-over-month versus year-over-year basis, and nominal versus real terms first. For household use, write down whether the signal reaches prices, wages, interest payments, exchange rates, or savings capacity.
 
 ## Signals To Check First
 
-- **forecast date**: for How to Read Global Growth Forecasts from IMF, OECD, and World Bank, record the latest value, direction, and effect on your budget or debt.
-- **baseline**: for How to Read Global Growth Forecasts from IMF, OECD, and World Bank, record the latest value, direction, and effect on your budget or debt.
-- **downside risk**: for How to Read Global Growth Forecasts from IMF, OECD, and World Bank, record the latest value, direction, and effect on your budget or debt.
-- **Korea channel**: for How to Read Global Growth Forecasts from IMF, OECD, and World Bank, record the latest value, direction, and effect on your budget or debt.
+- **forecast date**: Record the latest value together with the release date. A number without revision status, reference period, or seasonal adjustment can mislead later comparisons.
+- **baseline**: Separate direction from magnitude. The household question is not only whether it rose or fell, but whether the change reaches spending, wages, or debt rates.
+- **downside risk**: Read it with companion indicators. Inflation, jobs, rates, and exchange rates often explain why the average economy differs from one household's cash flow.
+- **Korea channel**: Write the Korea-facing channel. Translate the signal into won exchange rates, imported energy, variable-rate loans, export jobs, or other concrete cost paths.
 
 ![How to Read Global Growth Forecasts from IMF, OECD, and World Bank decision checklist](/images/2026-05-23-global-growth-forecast-how-to-read/checklist.png)
 

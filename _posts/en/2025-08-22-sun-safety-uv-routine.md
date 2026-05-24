@@ -26,12 +26,11 @@ tags:
   - Prevention
   - Outdoor Health
 ---
-
-Health literacy is not self-diagnosis. It is the ability to track observable signs such as **midday outdoor time**, know when rest is reasonable, and know when professional guidance is safer.
+Cloudy weather can still involve UV exposure, so outdoor time and exposed skin matter more than how the day feels. Track **midday outdoor time** with start date, duration, daily-function impact, and safety concerns so the threshold for qualified help is clearer.
 
 Sun protection is not only sunscreen; it includes timing, shade, hats, protective clothing, and reapplication habits.
 
-This article is educational and is not diagnosis or treatment advice for **Sun Safety Routine: Sunscreen, Timing, Clothing, and Shade**. If symptoms become severe or are accompanied by sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, or any immediate safety concern, contact local emergency services or a medical professional.
+This article is educational and does not diagnose, treat, or set dosage for **Sun Safety Routine: Sunscreen, Timing, Clothing, and Shade**. Sudden worsening, breathing trouble, chest pain, confusion, self-harm thoughts, severe bleeding, or any immediate safety concern should be handled through local emergency services or qualified medical professionals.
 
 ![Sun Safety Routine: Sunscreen, Timing, Clothing, and Shade core health flow](/images/2026-05-19-sun-safety-uv-routine/hero.svg)
 
@@ -45,14 +44,10 @@ For **midday outdoor time, limited shade**, use patterns over one number, daily 
 
 ## Signals To Check First
 
-- **midday outdoor time**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **limited shade**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **exposed skin**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-- **missed reapplication**: record it under comparable conditions, and seek professional guidance if the pattern changes suddenly or raises safety concerns.
-
-Do not interpret **midday outdoor time** in isolation. Age, pregnancy, existing conditions, medicines, recent infection, and injury can change what the same sign means, so pair records with professional guidance when safety is unclear.
-
-![Sun Safety Routine: Sunscreen, Timing, Clothing, and Shade checklist](/images/2026-05-19-sun-safety-uv-routine/checklist.svg)
+- **midday outdoor time**: Record start date, duration, frequency, triggers, and relieving factors in the same format. Sudden worsening or safety concerns should move professional help first.
+- **limited shade**: Write the effect on daily function. Changes in school, work, sleep, eating, or mobility often matter more than a vague severity label.
+- **exposed skin**: Check age, pregnancy, existing conditions, medicines, recent infection, and injury. The same sign can mean different things under different conditions.
+- **missed reapplication**: For breathing trouble, chest pain, confusion, severe bleeding, self-harm risk, or other emergency signs, seeking urgent help comes before record keeping.
 
 ## Practical Order
 
@@ -70,9 +65,9 @@ Before a visit, write the start date, duration, triggers, relieving factors, rel
 
 ## Monthly Checkup
 
-- Confirm that you can: plan outdoor timing and shade first.
-- Confirm that you can: use hats, sunglasses, and protective clothing.
-- Confirm that you can: plan enough sunscreen and reapplication.
+- Plan outdoor timing and shade first.
+- Use hats, sunglasses, and protective clothing.
+- Plan enough sunscreen and reapplication.
 - Write how symptoms or habits affect daily function.
 - Recheck health information through official local guidance and qualified medical professionals.
 

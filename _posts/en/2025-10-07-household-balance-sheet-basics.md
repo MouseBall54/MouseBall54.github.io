@@ -26,8 +26,7 @@ tags:
   - Liquidity
   - Debt
 ---
-
-Economic news becomes useful when a signal such as **cash buffer** is translated into prices, debt, income, and decisions. This guide explains **Household Balance Sheet Basics: Assets, Debt, and Liquidity** with official-source context and household-level checks.
+High income can still be fragile when cash is low and debt payments are large. Read **cash buffer** and **investment asset** with release date, reference period, and the path into prices, wages, interest payments, or exchange rates.
 
 Household resilience depends on cash, deposits, investments, debt, insurance, and liquidity, not only monthly income.
 
@@ -39,14 +38,14 @@ This article is educational and is not financial advice, investment advice, tax 
 
 High income can still be fragile when cash is low and debt payments are large.
 
-Indicators such as **cash buffer** and **investment asset** are easy to misuse when they are read as isolated numbers. Check the release date, reference period, month-over-month or year-over-year basis, and whether the number is nominal or real. For household decisions, income timing, debt rates, fixed costs, and currency exposure can matter more than the average economy when reading **Household Balance Sheet Basics: Assets, Debt, and Liquidity**.
+Signals such as **cash buffer** and **investment asset** are easy to misread as standalone numbers. Check the release date, reference period, month-over-month versus year-over-year basis, and nominal versus real terms first. For household use, write down whether the signal reaches prices, wages, interest payments, exchange rates, or savings capacity.
 
 ## Signals To Check First
 
-- **cash buffer**: for Household Balance Sheet Basics: Assets, Debt, and Liquidity, record the latest value, direction, and effect on your budget or debt.
-- **investment asset**: for Household Balance Sheet Basics: Assets, Debt, and Liquidity, record the latest value, direction, and effect on your budget or debt.
-- **debt maturity**: for Household Balance Sheet Basics: Assets, Debt, and Liquidity, record the latest value, direction, and effect on your budget or debt.
-- **liquidity**: for Household Balance Sheet Basics: Assets, Debt, and Liquidity, record the latest value, direction, and effect on your budget or debt.
+- **cash buffer**: Record the latest value together with the release date. A number without revision status, reference period, or seasonal adjustment can mislead later comparisons.
+- **investment asset**: Separate direction from magnitude. The household question is not only whether it rose or fell, but whether the change reaches spending, wages, or debt rates.
+- **debt maturity**: Read it with companion indicators. Inflation, jobs, rates, and exchange rates often explain why the average economy differs from one household's cash flow.
+- **liquidity**: Write the Korea-facing channel. Translate the signal into won exchange rates, imported energy, variable-rate loans, export jobs, or other concrete cost paths.
 
 ![Household Balance Sheet Basics: Assets, Debt, and Liquidity decision checklist](/images/2026-05-23-household-balance-sheet-basics/checklist.png)
 

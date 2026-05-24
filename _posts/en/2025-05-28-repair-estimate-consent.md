@@ -29,7 +29,7 @@ tags:
 
 Repair disputes are easier to manage when initial estimate, approval for extra work, parts replaced, warranty status, and pre-payment explanation are recorded.
 
-This article is educational information, not legal advice. It explains a practical workflow for **Repair Estimates and Consent Records: Reducing Surprise Bills** using evidence, dates, deadlines, and official-source escalation references.
+This article is educational and does not provide legal advice for **Repair Estimates and Consent Records: Reducing Surprise Bills**. It focuses on preserving evidence, checking dates and contract wording, and choosing the right seller, platform, payment-provider, carrier, or regulator channel.
 
 ![Repair Estimates and Consent Records: Reducing Surprise Bills core flow summary](/images/2026-05-17-repair-estimate-consent/hero.svg)
 

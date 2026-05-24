@@ -26,7 +26,7 @@ tags:
   - WSL
   - Developer Setup
 ---
-이 글은 2026년 5월 24일 기준 공식 문서를 확인해 작성했습니다. CLI 도구는 업데이트가 빠르므로 운영 환경에 복사하기 전 버전과 하단의 Source Notes를 다시 확인하세요.
+2026년 5월 24일 기준 공식 문서와 CLI 동작을 기준으로, 이 글은 **Codex Windows WSL setup: PowerShell, WSL, Git 경로를 나눠 쓰는 법**에서 먼저 확인할 설정과 실패 지점을 정리합니다. 핵심 판단은 Windows 네이티브 프로젝트는 PowerShell 설치를, Linux 도구체인 프로젝트는 WSL 내부 설치를 사용하고 같은 저장소를 두 환경에서 동시에 수정하지 않습니다.
 
 ## 빠른 답
 

@@ -26,8 +26,11 @@ tags:
   - Disasters
   - Finance
 ---
+Read WMO and UNEP together and climate risk shifts from weather statistics to insurance, property, local budgets, and corporate disclosure.
 
-Global affairs can look abstract until **insured losses** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
+For Korean readers, the practical question is where **insured losses** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
+
+For Korean readers, the practical question is where **insured losses** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
 
 Read WMO and UNEP together and climate risk shifts from weather statistics to insurance, property, local budgets, and corporate disclosure.
 
@@ -39,18 +42,14 @@ This briefing treats **Climate Risk and the Insurance Gap: Why Disasters Become 
 
 In Korea, heavy rain, heat, coastal exposure, and food prices can all become living-cost issues through insurance and public budgets.
 
-For this issue, start with **insured losses**, then check whether **premium repricing** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
+Start with **insured losses**, then check whether **premium repricing** is moving through prices, physical supply, policy response, or financing conditions. A short market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
-- **insured losses**: watch the direction, policy response, and market pricing rather than the number alone.
-- **premium repricing**: watch the direction, policy response, and market pricing rather than the number alone.
-- **municipal budgets**: watch the direction, policy response, and market pricing rather than the number alone.
-- **heat and flood alerts**: watch the direction, policy response, and market pricing rather than the number alone.
-
-Do not read **insured losses** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
-
-![Climate Risk and the Insurance Gap: Why Disasters Become Financial Problems signal checklist](/images/2026-05-22-climate-risk-insurance-gap/signal-map.svg)
+- **insured losses**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
+- **premium repricing**: Connect domestic headlines to external causes. Mark whether exports, import prices, exchange rates, energy costs, or security budgets move first.
+- **municipal budgets**: Check inventory and contract cushions. Market prices can look stable while shipping, insurance, or compliance costs pass through later.
+- **heat and flood alerts**: Choose the next source to watch. Decide whether official statistics, institutional forecasts, or government releases would change the baseline.
 
 ## Korea-Facing Angle
 
@@ -68,11 +67,11 @@ Household readers can translate **insured losses** into living costs, loan rates
 
 ## Reader Checklist
 
-- Track whether insured losses first affects exports, prices, funding, or public budgets.
-- Track whether premium repricing first affects exports, prices, funding, or public budgets.
-- Track whether municipal budgets first affects exports, prices, funding, or public budgets.
+- Decide whether **insured losses** is creating a price shock, a volume shock, or both.
+- Check whether **premium repricing** is a short news cycle or a structural change that can last for quarters.
+- Mark the Korea-facing channel for **municipal budgets**: exports, import prices, financial markets, security costs, or household costs.
 - Separate official data from interpretation and commentary.
-- Check the release date, reference period, and assumptions before using any forecast.
+- Check release date, reference period, and assumptions before using any forecast.
 
 ## Source Notes
 

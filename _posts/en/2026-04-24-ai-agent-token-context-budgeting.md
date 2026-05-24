@@ -26,7 +26,7 @@ tags:
   - Planning
   - Productivity
 ---
-This guide is checked against official documentation on May 24, 2026. CLI behavior changes, so verify the version and linked source notes before copying a setting into a production workflow.
+Checked against official documentation on May 24, 2026, this post focuses on the setup and failure points behind **AI Agent Token Context Budgeting: Split Large Work Before Context Fails**. The practical baseline is: Split discovery, design, implementation, verification, and commit into separate phases with explicit inputs and outputs.
 
 ## Quick Answer
 

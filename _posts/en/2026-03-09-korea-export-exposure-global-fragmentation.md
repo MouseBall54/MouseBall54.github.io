@@ -26,8 +26,11 @@ tags:
   - Semiconductors
   - Trade
 ---
+Korea's March 2026 export release shows the strength of the semiconductor boom, but also the way energy, logistics, and protectionism raise export uncertainty.
 
-Global affairs can look abstract until **semiconductor export share** changes and flows into export orders, exchange rates, energy costs, insurance premiums, security budgets, or household prices. This briefing breaks that chain into practical signals.
+For Korean readers, the practical question is where **semiconductor export share** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
+
+For Korean readers, the practical question is where **semiconductor export share** flows first: exports, import prices, exchange rates, energy costs, or security budgets. Keep official data separate from commentary so the next update can be read with a clearer baseline.
 
 Korea's March 2026 export release shows the strength of the semiconductor boom, but also the way energy, logistics, and protectionism raise export uncertainty.
 
@@ -39,18 +42,14 @@ This briefing treats **Korea's Export Exposure to Global Fragmentation: Vulnerab
 
 Korean readers should track semiconductor concentration, regional demand, Middle East logistics risk, and the won exchange rate together.
 
-For this issue, start with **semiconductor export share**, then check whether **China and US demand** is moving through prices, physical supply, regulation, or financing conditions. A short-lived market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
+Start with **semiconductor export share**, then check whether **China and US demand** is moving through prices, physical supply, policy response, or financing conditions. A short market shock, a quarter-long supply disruption, and a permanent rule change require different decisions.
 
 ## Current Signals To Watch
 
-- **semiconductor export share**: watch the direction, policy response, and market pricing rather than the number alone.
-- **China and US demand**: watch the direction, policy response, and market pricing rather than the number alone.
-- **Middle East route disruption**: watch the direction, policy response, and market pricing rather than the number alone.
-- **KRW exchange rate**: watch the direction, policy response, and market pricing rather than the number alone.
-
-Do not read **semiconductor export share** alone. Check the reference date, inventory cushion, policy lag, and whether insurance, compliance, or shipping costs are being passed through with a delay.
-
-![Korea's Export Exposure to Global Fragmentation: Vulnerabilities Behind the Semiconductor Boom signal checklist](/images/2026-05-22-korea-export-exposure-global-fragmentation/signal-map.svg)
+- **semiconductor export share**: Read direction, reference date, and policy response together. A different cutoff date can make the same event look different.
+- **China and US demand**: Connect domestic headlines to external causes. Mark whether exports, import prices, exchange rates, energy costs, or security budgets move first.
+- **Middle East route disruption**: Check inventory and contract cushions. Market prices can look stable while shipping, insurance, or compliance costs pass through later.
+- **KRW exchange rate**: Choose the next source to watch. Decide whether official statistics, institutional forecasts, or government releases would change the baseline.
 
 ## Korea-Facing Angle
 
@@ -68,11 +67,11 @@ Household readers can translate **semiconductor export share** into living costs
 
 ## Reader Checklist
 
-- Track whether semiconductor export share first affects exports, prices, funding, or public budgets.
-- Track whether China and US demand first affects exports, prices, funding, or public budgets.
-- Track whether Middle East route disruption first affects exports, prices, funding, or public budgets.
+- Decide whether **semiconductor export share** is creating a price shock, a volume shock, or both.
+- Check whether **China and US demand** is a short news cycle or a structural change that can last for quarters.
+- Mark the Korea-facing channel for **Middle East route disruption**: exports, import prices, financial markets, security costs, or household costs.
 - Separate official data from interpretation and commentary.
-- Check the release date, reference period, and assumptions before using any forecast.
+- Check release date, reference period, and assumptions before using any forecast.
 
 ## Source Notes
 

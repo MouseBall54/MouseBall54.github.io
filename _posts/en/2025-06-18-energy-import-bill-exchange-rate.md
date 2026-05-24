@@ -29,7 +29,7 @@ tags:
 
 Even when global energy prices stabilize, a weaker won can raise import bills and utility cost pressure, so fuel prices and exchange rates belong together.
 
-This article is an educational briefing, not investment advice, legal advice, or a recommendation to buy a specific energy product. It gives readers a practical order for reading **Energy Import Bills and Exchange Rates: How a Weaker Won Reaches Power and Gas Costs** with official-source context.
+This article is educational and does not provide investment, legal, or energy-product advice for **Energy Import Bills and Exchange Rates: How a Weaker Won Reaches Power and Gas Costs**. It uses official-source context to connect the issue with costs, infrastructure, policy, and Korea-facing channels.
 
 ![Energy Import Bills and Exchange Rates: How a Weaker Won Reaches Power and Gas Costs core flow summary](/images/2026-05-18-energy-import-bill-exchange-rate/hero.svg)
 
@@ -37,27 +37,23 @@ This article is an educational briefing, not investment advice, legal advice, or
 
 Energy-market outlooks show that currencies, inventories, and contracts change the actual cost for importing countries, not only commodity prices.
 
-Energy Import Bills and Exchange Rates: How a Weaker Won Reaches Power and Gas Costs becomes economically relevant when won-denominated price, fuel-cost adjustment, and utility finances move together. Korea's power and gas tariff debates combine global prices, exchange rates, utility finances, and inflation policy, so one month of prices is too narrow. The practical task is to read the sequence between signals rather than one headline.
+Korea's power and gas tariff debates combine global prices, exchange rates, utility finances, and inflation policy, so one month of prices is too narrow. The domestic cost path becomes clearer when **won-denominated price**, **fuel-cost adjustment**, and **utility finances** are read as a sequence. Do not treat one monthly number or one headline as the whole story; separate demand, supply, price, and policy lag.
 
-This is why the topic should not be reduced to a simple for-or-against debate. If won-denominated price changes without fuel-cost adjustment, the result can be different. If utility finances looks stable while industrial tariff worsens, costs can appear later.
+A simple for-or-against debate hides implementation risk. Demand can move before supply bottlenecks clear, and stable prices can still hide grid, permitting, or financing constraints.
 
 ## Core Structure
 
-- **Demand**: use won-denominated price to locate where and when load or exposure is changing.
-- **Supply**: use fuel-cost adjustment to test whether real supply capacity or a bottleneck is visible.
-- **Price**: use utility finances to trace the lag into tariffs, import costs, or industrial margins.
-- **Risk**: use industrial tariff to separate policy, climate, and supply-chain risk.
+- **Demand**: use **won-denominated price** to locate where and when exposure is changing.
+- **Supply**: use **fuel-cost adjustment** to test whether the issue is real capacity or a bottleneck.
+- **Price**: use **utility finances** to trace the lag into tariffs, import costs, or industrial margins.
+- **Risk**: use **industrial tariff** to separate policy, climate, and supply-chain risk.
 
 ## Signals To Watch
 
-- **won-denominated price**: for Energy Import Bills and Exchange Rates: How a Weaker Won Reaches Power and Gas Costs, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **fuel-cost adjustment**: for Energy Import Bills and Exchange Rates: How a Weaker Won Reaches Power and Gas Costs, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **utility finances**: for Energy Import Bills and Exchange Rates: How a Weaker Won Reaches Power and Gas Costs, read direction, duration, and domestic cost channel before treating it as a standalone number.
-- **industrial tariff**: for Energy Import Bills and Exchange Rates: How a Weaker Won Reaches Power and Gas Costs, read direction, duration, and domestic cost channel before treating it as a standalone number.
-
-won-denominated price alone can show direction while hiding the cause. Reading it with fuel-cost adjustment and utility finances makes it easier to tell whether the issue is a price shock, infrastructure bottleneck, or policy lag.
-
-![Energy Import Bills and Exchange Rates: How a Weaker Won Reaches Power and Gas Costs signal checklist map](/images/2026-05-18-energy-import-bill-exchange-rate/signal-map.svg)
+- **won-denominated price**: Read direction together with duration. A one-day price move and a multi-quarter volume shift require different decisions.
+- **fuel-cost adjustment**: Write the domestic transmission channel. Mark whether it reaches tariffs, import prices, industrial costs, or local infrastructure first.
+- **utility finances**: Check the implementation bottleneck. Grid connection, permits, finance, equipment, labour, and local acceptance can delay headline targets.
+- **industrial tariff**: Separate the policy assumption. Subsidies, regulation, taxes, and international rules can change the cost structure of the same technology.
 
 ## Korea-Facing Transmission
 
@@ -74,14 +70,14 @@ At implementation stage, the first question is: Calculate energy prices in won t
 - Calculate energy prices in won terms.
 - Check the lag in utility fuel-cost adjustments.
 - Separate household and industrial tariff effects.
-
-This checklist is not for predicting the next price move. For **Energy Import Bills and Exchange Rates: How a Weaker Won Reaches Power and Gas Costs**, it is a baseline for checking what changed, what did not change, and which constraint matters most when a new policy, forecast, or company announcement appears.
+Check baseline year, geography, unit, and policy assumptions first.
+Translate the signal into Korea's import structure, grid geography, industrial exposure, or household cost channel.
 
 ## How To Read The Numbers
 
-The numbers in Energy Import Bills and Exchange Rates: How a Weaker Won Reaches Power and Gas Costs change meaning when baseline year, region, or unit changes. For won-denominated price and industrial tariff, peaks, delays, and exceptions often matter more than averages.
+Climate and energy numbers can change meaning when baseline year, region, or unit changes. Peaks, delays, and exceptions often matter more than averages.
 
-Before using climate or energy data, check the **baseline, period, unit, geographic coverage, and policy assumptions**. Then translate won-denominated price, fuel-cost adjustment, and utility finances into Korea's import structure, grid geography, industrial exposure, or household cost channels.
+Check the **baseline, period, unit, geographic coverage, and policy assumptions** first. Then translate **won-denominated price**, **fuel-cost adjustment**, and **utility finances** into Korea's import structure, grid geography, industrial exposure, or household cost channels.
 
 ## Source Notes
 

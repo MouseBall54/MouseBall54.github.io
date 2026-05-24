@@ -26,8 +26,7 @@ tags:
   - Speaking
   - Feedback
 ---
-
-A study method becomes useful when it leaves an observable signal such as **source clip**. This guide turns **Language Shadowing Routine: Turn Repetition into Recorded Feedback** into a routine that can be tested in one session.
+The key is hearing where your output differs from the model, not only repeating more times. The goal is to leave **source clip** and **recording** so the next review can start with a decision, not setup.
 
 Shadowing becomes useful when the original, your recording, gap notes, and rerecording form a feedback loop.
 
@@ -39,14 +38,14 @@ This article is educational. **Language Shadowing Routine: Turn Repetition into 
 
 The key is hearing where your output differs from the model, not only repeating more times.
 
-This routine is not decoration for a longer study session. It should leave **source clip** and **recording** so the next session can decide what to repeat and what to reduce. Start with one subject and one unit before scaling it across a full schedule.
+Start small: one subject, one unit, and one retrieval question. A closing record with **source clip** and **recording** is enough to decide what to repeat or reduce next time.
 
 ## Signals To Check First
 
-- **source clip**: for Language Shadowing Routine: Turn Repetition into Recorded Feedback, leave this as a record that can be checked in the next review.
-- **recording**: for Language Shadowing Routine: Turn Repetition into Recorded Feedback, leave this as a record that can be checked in the next review.
-- **gap note**: for Language Shadowing Routine: Turn Repetition into Recorded Feedback, leave this as a record that can be checked in the next review.
-- **rerecording**: for Language Shadowing Routine: Turn Repetition into Recorded Feedback, leave this as a record that can be checked in the next review.
+- **source clip**: Define the target before studying. A one-sentence standard for what you should recall, solve, or explain makes the result interpretable.
+- **recording**: Check it with the book closed. Record the answer, solution, or explanation you actually produced, not the feeling that the page looked familiar.
+- **gap note**: Classify the miss briefly. Use fixable causes such as missing concept, condition error, calculation slip, or time pressure.
+- **rerecording**: Schedule the next review action. Decide whether to reread, solve a different problem, or rebuild the explanation so the record turns into work.
 
 ![Language Shadowing Routine: Turn Repetition into Recorded Feedback action checklist](/images/2026-05-23-language-shadowing-routine/checklist.png)
 
@@ -62,7 +61,7 @@ If you only have 40 minutes today, start with 'Choose a 30-second source'. Then 
 
 ## Record Example
 
-The record does not need to be long. Filling three fields, **source clip**, **recording**, and **gap note**, is enough for one session. Move correct items to a longer interval, tag confused items with a short reason, and put missed items at the top of the next session. This keeps the next study block from starting with setup work.
+The record can stay short. Three fields, `source clip`, `recording`, and `gap note`, are enough to make today's judgment visible in the next session. Move correct items to a longer interval, tag confused items with a reason, and put missed items at the top of the next session.
 
 ## Checklist
 
