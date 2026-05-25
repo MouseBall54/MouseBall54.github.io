@@ -286,6 +286,14 @@ npm start
 - [Node.js CommonJS modules documentation](https://nodejs.org/api/modules.html)
 - [Node.js ECMAScript modules documentation](https://nodejs.org/api/esm.html)
 
+## 전문 보완 체크
+
+**Node.js Cannot find module 오류 해결 방법**에서 중요한 기준은 독자가 한 번 따라 해서 성공했는지가 아닙니다. 이 주제는 재현 가능한 디버깅 절차로 다루는 편이 안전합니다. 결론을 내리기 전에 브라우저 또는 Node 버전, 번들러 설정, 비동기 경계, DOM 또는 API 상태를 확인해야 합니다. 또한 나중에 같은 문제가 반복될 수 있으므로, 관찰한 사실과 사용한 가정, 결론이 바뀔 조건을 짧은 결정 기록으로 남기는 것이 좋습니다.
+
+### 신뢰도를 높이는 증거
+
+작업을 바꾸기 전에는 객관적인 증거를 먼저 확인해야 합니다. 쓸 만한 증거에는 콘솔 stack trace, `node --version`, Network 탭 출력, 최소 재현 예제가 포함됩니다. 증거가 서로 맞지 않으면 억지로 하나의 이야기로 합치지 말고 충돌 자체를 남겨야 합니다. 빠른 해결이 한 번 성공했더라도 같은 입력, 계정, 의존성, 기기 상태에서 다시 확인하지 않았다면 아직 확정된 해결책이라고 보기 어렵습니다.
+
 ## 관련 글
 
 - [JavaScript 오류 'Uncaught ReferenceError: is not defined' 해결 방법](/ko_troubleshooting/javascript-uncaught-referenceerror-is-not-defined/)

@@ -84,6 +84,23 @@ Yes, if the short session still checks **overdue item** and leaves a closing rec
 
 No. **Notion Study Dashboard: Track Review and Mistakes Before Design** first becomes valuable by revealing repeated failure points. Keep the same **today review** measure for two or three weeks before changing the system.
 
+## Professional Depth Check
+
+For **Notion Study Dashboard: Track Review and Mistakes Before Design**, the practical standard is not whether the reader can repeat one instruction once. Treat the topic as an evidence-informed study routine: verify retrieval practice, spacing interval, error log, and feedback source before drawing a conclusion. The result should be written as a small decision record, because future readers need to know which fact was observed, which assumption was used, and which condition would change the answer.
+
+### Evidence That Makes the Guidance Reliable
+
+Use objective evidence before changing a workflow. Good evidence includes quiz results, mistake categories, review dates, and teacher or peer comments. If two pieces of evidence conflict, keep the conflict visible instead of smoothing it over. For example, a successful quick fix is still weak evidence if the same input, account, dependency, or device state has not been tested again. A durable article should help the reader distinguish a confirmed fix from a plausible fix.
+
+### Review Table
+
+| Review Item | What To Confirm | Why It Matters |
+| --- | --- | --- |
+| Scope | The exact case covered by this article | Prevents over-applying the advice |
+| Baseline | The state before any change | Makes rollback and comparison possible |
+| Change | The smallest action taken | Reduces hidden side effects |
+| Result | The observed output after the change | Separates evidence from expectation |
+| Recheck | When to revisit the conclusion | Keeps the post accurate over time |
 
 ## Source Notes
 

@@ -73,7 +73,11 @@ Production labeling also needs an instruction document. Class names such as “p
 
 Before handing the dataset to training, check the `images/train`, `images/val`, `labels/train`, and `labels/val` structure, then verify the `data.yaml` class order. Many problems that look like model failures actually begin with missing label files, filename mismatches, or class order changes.
 
+## Professional Depth Check
 
+For **Introducing Easy Labeling: Local Detection and Segmentation Annotation Tool**, the practical standard is not whether the reader can repeat one instruction once. Treat the topic as a computer-vision dataset quality workflow: verify class dictionary, annotation consistency, train/validation/test split, and export format before drawing a conclusion. The result should be written as a small decision record, because future readers need to know which fact was observed, which assumption was used, and which condition would change the answer.
+
+### Evidence That Makes the Guidance Reliable
 
 ## Source Notes
 

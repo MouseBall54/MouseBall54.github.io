@@ -89,6 +89,11 @@ Yes. In a small dataset, one or two mistakes can move results visibly. At minimu
 
 Relabel when the same error type repeats across images or model analysis shows a class keeps drifting. Fix the instruction document first, then review the batch under the updated rule.
 
+## Professional Depth Check
+
+For **Sensitive Image Labeling and Local-First Work: Security Checks Before Uploads**, the practical standard is not whether the reader can repeat one instruction once. Treat the topic as a computer-vision dataset quality workflow: verify class dictionary, annotation consistency, train/validation/test split, and export format before drawing a conclusion. The result should be written as a small decision record, because future readers need to know which fact was observed, which assumption was used, and which condition would change the answer.
+
+### Evidence That Makes the Guidance Reliable
 
 ## Source Notes
 

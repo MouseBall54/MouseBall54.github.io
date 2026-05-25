@@ -195,6 +195,24 @@ The third mistake is lowering the compiler target while dependencies still requi
 The fourth mistake is fixing local Java but forgetting CI.
 Update CI images and setup actions too.
 
+## Professional Depth Check
+
+For **Unsupported Class File Major Version: How to Fix Java JDK Mismatch**, the practical standard is not whether the reader can repeat one instruction once. Treat the topic as a reproducible debugging procedure: verify JDK version, build tool configuration, classpath or module path, and runtime stack trace before drawing a conclusion. The result should be written as a small decision record, because future readers need to know which fact was observed, which assumption was used, and which condition would change the answer.
+
+### Evidence That Makes the Guidance Reliable
+
+Use objective evidence before changing a workflow. Good evidence includes `java -version`, `javac -version`, Maven or Gradle output, and the smallest failing class. If two pieces of evidence conflict, keep the conflict visible instead of smoothing it over. For example, a successful quick fix is still weak evidence if the same input, account, dependency, or device state has not been tested again. A durable article should help the reader distinguish a confirmed fix from a plausible fix.
+
+### Review Table
+
+| Review Item | What To Confirm | Why It Matters |
+| --- | --- | --- |
+| Scope | The exact case covered by this article | Prevents over-applying the advice |
+| Baseline | The state before any change | Makes rollback and comparison possible |
+| Change | The smallest action taken | Reduces hidden side effects |
+| Result | The observed output after the change | Separates evidence from expectation |
+| Recheck | When to revisit the conclusion | Keeps the post accurate over time |
+
 ## Related Reading
 
 - [Gradle Build Failed](/en_troubleshooting/gradle-build-failed/)

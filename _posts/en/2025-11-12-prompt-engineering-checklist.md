@@ -85,6 +85,13 @@ The **task goal** rule should be written down, and another reviewer should be ab
 
 Keep the input evidence, model or tool setting, **task goal** reviewer decision, and correction result together. This lets the team see whether later changes reduce the same error and gives a way to explain or reverse user-impacting output.
 
+## Professional Depth Check
+
+For **Prompt Engineering Checklist: Build Repeatable Input Structure**, the practical standard is not whether the reader can repeat one instruction once. Treat the topic as an AI governance and workflow decision: verify task boundary, evaluation data, human review trigger, and cost and latency budget before drawing a conclusion. The result should be written as a small decision record, because future readers need to know which fact was observed, which assumption was used, and which condition would change the answer.
+
+### Evidence That Makes the Guidance Reliable
+
+Use objective evidence before changing a workflow. Good evidence includes eval results, sample prompts, tool traces, and failure examples. If two pieces of evidence conflict, keep the conflict visible instead of smoothing it over. For example, a successful quick fix is still weak evidence if the same input, account, dependency, or device state has not been tested again. A durable article should help the reader distinguish a confirmed fix from a plausible fix.
 
 ## Source Notes
 

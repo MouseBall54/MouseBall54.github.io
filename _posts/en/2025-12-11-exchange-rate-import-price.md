@@ -82,6 +82,32 @@ Official sources provide the baseline. Real decisions also depend on internal co
 
 Short-term clicks may reward bold claims, but durable search traffic comes from verifiable standards, source notes, and concrete workflows.
 
+## Professional Depth Check
+
+For **Exchange Rate and Import Prices: How Dollar Moves Reach Baskets**, the practical standard is not whether the reader can repeat one instruction once. Treat the topic as a macro-to-household interpretation framework: verify price channel, wage or income channel, interest-payment channel, and exchange-rate or import channel before drawing a conclusion. The result should be written as a small decision record, because future readers need to know which fact was observed, which assumption was used, and which condition would change the answer.
+
+### Evidence That Makes the Guidance Reliable
+
+Use objective evidence before changing a workflow. Good evidence includes official statistics, central-bank releases, household budget lines, and revision dates. If two pieces of evidence conflict, keep the conflict visible instead of smoothing it over. For example, a successful quick fix is still weak evidence if the same input, account, dependency, or device state has not been tested again. A durable article should help the reader distinguish a confirmed fix from a plausible fix.
+
+### Review Table
+
+| Review Item | What To Confirm | Why It Matters |
+| --- | --- | --- |
+| Scope | The exact case covered by this article | Prevents over-applying the advice |
+| Baseline | The state before any change | Makes rollback and comparison possible |
+| Change | The smallest action taken | Reduces hidden side effects |
+| Result | The observed output after the change | Separates evidence from expectation |
+| Recheck | When to revisit the conclusion | Keeps the post accurate over time |
+
+### Edge Cases and Failure Modes
+
+The main risks are treating one indicator as a forecast, and forgetting that data revisions can change the story. When the situation involves production data, personal information, money, health, legal rights, or security recovery, the conservative path is to stop and collect evidence before applying a broad fix. The same title can describe very different cases, so the reader should compare their environment with the assumptions in the post before copying commands or decisions.
+
+### Maintenance Standard
+
+Recheck this guidance after major data releases, central-bank meetings, budget changes, or exchange-rate shocks. A useful update does not need to rewrite the entire post; it should confirm whether the examples, links, commands, screenshots, and decision criteria still match current behavior. If the old conclusion remains valid, record the check date. If it changes, explain what changed and why the previous advice is no longer enough.
+
 ## Source Notes
 
 - [IMF Data and Reports](https://www.imf.org/en/Data)

@@ -89,6 +89,13 @@ Yes. In a small dataset, one or two mistakes can move results visibly. At minimu
 
 Relabel when the same error type repeats across images or model analysis shows a class keeps drifting. Fix the instruction document first, then review the batch under the updated rule.
 
+## Professional Depth Check
+
+For **Video Frame Labeling: Extract Frames Without Flooding the Dataset**, the practical standard is not whether the reader can repeat one instruction once. Treat the topic as a computer-vision dataset quality workflow: verify class dictionary, annotation consistency, train/validation/test split, and export format before drawing a conclusion. The result should be written as a small decision record, because future readers need to know which fact was observed, which assumption was used, and which condition would change the answer.
+
+### Evidence That Makes the Guidance Reliable
+
+Use objective evidence before changing a workflow. Good evidence includes sample review notes, YOLO or COCO files, labeler disagreement records, and training error examples. If two pieces of evidence conflict, keep the conflict visible instead of smoothing it over. For example, a successful quick fix is still weak evidence if the same input, account, dependency, or device state has not been tested again. A durable article should help the reader distinguish a confirmed fix from a plausible fix.
 
 ## Source Notes
 

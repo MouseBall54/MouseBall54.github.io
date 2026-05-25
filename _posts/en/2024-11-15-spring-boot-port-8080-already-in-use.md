@@ -223,6 +223,14 @@ The app starts, but API calls fail.
 The fourth mistake is forgetting Docker port mappings.
 A stopped Java process does not help if a container still owns host port `8080`.
 
+## Professional Depth Check
+
+For **Spring Boot Port 8080 Already in Use: How to Find the Process and Change the Port**, the practical standard is not whether the reader can repeat one instruction once. Treat the topic as a reproducible debugging procedure: verify JDK version, build tool configuration, classpath or module path, and runtime stack trace before drawing a conclusion. The result should be written as a small decision record, because future readers need to know which fact was observed, which assumption was used, and which condition would change the answer.
+
+### Evidence That Makes the Guidance Reliable
+
+Use objective evidence before changing a workflow. Good evidence includes `java -version`, `javac -version`, Maven or Gradle output, and the smallest failing class. If two pieces of evidence conflict, keep the conflict visible instead of smoothing it over. For example, a successful quick fix is still weak evidence if the same input, account, dependency, or device state has not been tested again. A durable article should help the reader distinguish a confirmed fix from a plausible fix.
+
 ## Related Reading
 
 - [Java Error: Cannot Find Symbol](/en_troubleshooting/java-error-cannot-find-symbol/)

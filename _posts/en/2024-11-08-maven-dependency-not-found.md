@@ -203,6 +203,14 @@ Use `settings.xml` or secure CI secrets.
 The fourth mistake is deleting the entire Maven cache immediately.
 Use `mvn -U` or remove the specific artifact first.
 
+## Professional Depth Check
+
+For **Maven Dependency Not Found: How to Fix Could Not Resolve Artifact**, the practical standard is not whether the reader can repeat one instruction once. Treat the topic as a reproducible debugging procedure: verify JDK version, build tool configuration, classpath or module path, and runtime stack trace before drawing a conclusion. The result should be written as a small decision record, because future readers need to know which fact was observed, which assumption was used, and which condition would change the answer.
+
+### Evidence That Makes the Guidance Reliable
+
+Use objective evidence before changing a workflow. Good evidence includes `java -version`, `javac -version`, Maven or Gradle output, and the smallest failing class. If two pieces of evidence conflict, keep the conflict visible instead of smoothing it over. For example, a successful quick fix is still weak evidence if the same input, account, dependency, or device state has not been tested again. A durable article should help the reader distinguish a confirmed fix from a plausible fix.
+
 ## Related Reading
 
 - [Gradle Build Failed](/en_troubleshooting/gradle-build-failed/)

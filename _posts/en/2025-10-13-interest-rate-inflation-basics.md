@@ -82,6 +82,15 @@ Usually no. Direction and context matter more than one release. Compare **policy
 
 For **Interest Rates and Inflation: Read Central Bank News in Household Terms**, Korean readers should also check the won exchange rate, imported energy costs, household loan rates, local taxes, and domestic financial-product rules. Global data is useful, but application depends on local costs and institutions.
 
+## Professional Depth Check
+
+For **Interest Rates and Inflation: Read Central Bank News in Household Terms**, the practical standard is not whether the reader can repeat one instruction once. Treat the topic as a macro-to-household interpretation framework: verify price channel, wage or income channel, interest-payment channel, and exchange-rate or import channel before drawing a conclusion. The result should be written as a small decision record, because future readers need to know which fact was observed, which assumption was used, and which condition would change the answer.
+
+### Evidence That Makes the Guidance Reliable
+
+Use objective evidence before changing a workflow. Good evidence includes official statistics, central-bank releases, household budget lines, and revision dates. If two pieces of evidence conflict, keep the conflict visible instead of smoothing it over. For example, a successful quick fix is still weak evidence if the same input, account, dependency, or device state has not been tested again. A durable article should help the reader distinguish a confirmed fix from a plausible fix.
+
+### Review Table
 
 ## Source Notes
 

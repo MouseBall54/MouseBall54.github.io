@@ -74,6 +74,28 @@ A short structured complaint usually works better than a long frustrated message
 3. State one requested remedy: refund, replacement, repair, or charge reversal.
 4. Attach evidence for insurance terms and use return confirmation as the next deadline.
 
+## Professional Depth Check
+
+For **Rental Car Damage Fees: Pickup and Return Photos Are Core Evidence**, the practical standard is not whether the reader can repeat one instruction once. Treat the topic as an evidence-based consumer dispute workflow: verify contract language, payment trail, seller response, and platform or regulator escalation before drawing a conclusion. The result should be written as a small decision record, because future readers need to know which fact was observed, which assumption was used, and which condition would change the answer.
+
+### Evidence That Makes the Guidance Reliable
+
+Use objective evidence before changing a workflow. Good evidence includes receipts, screenshots, dates, and case numbers. If two pieces of evidence conflict, keep the conflict visible instead of smoothing it over. For example, a successful quick fix is still weak evidence if the same input, account, dependency, or device state has not been tested again. A durable article should help the reader distinguish a confirmed fix from a plausible fix.
+
+### Review Table
+
+| Review Item | What To Confirm | Why It Matters |
+| --- | --- | --- |
+| Scope | The exact case covered by this article | Prevents over-applying the advice |
+| Baseline | The state before any change | Makes rollback and comparison possible |
+| Change | The smallest action taken | Reduces hidden side effects |
+| Result | The observed output after the change | Separates evidence from expectation |
+| Recheck | When to revisit the conclusion | Keeps the post accurate over time |
+
+### Edge Cases and Failure Modes
+
+The main risks are missing refund deadlines, and sending emotional messages without evidence. When the situation involves production data, personal information, money, health, legal rights, or security recovery, the conservative path is to stop and collect evidence before applying a broad fix. The same title can describe very different cases, so the reader should compare their environment with the assumptions in the post before copying commands or decisions.
+
 ## Source Notes
 
 - [FTC Online Orders and Unordered Merchandise](https://consumer.ftc.gov/articles/what-do-if-youre-billed-things-you-never-got-or-you-get-unordered-products)
