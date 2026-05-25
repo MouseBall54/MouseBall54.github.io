@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f7f8f3"/>
+  <rect x="56" y="54" width="1088" height="522" rx="18" fill="#ffffff" stroke="#263238" stroke-width="3"/>
+  <text x="92" y="142" font-size="42" font-weight="700" fill="#263238" font-family="Arial">Added Sugar Drink Swap: Build Replacement Routines</text>
+  <text x="92" y="200" font-size="27" fill="#455a64" font-family="Arial">가당음료 줄이기: 금지보다 대체 루틴 만들기</text>
+  <path d="M92 292 H1088" stroke="#d5dad6" stroke-width="4"/>
+  <circle cx="180" cy="292" r="18" fill="#1f7a8c"/>
+  <circle cx="452" cy="292" r="18" fill="#bf4342"/>
+  <circle cx="724" cy="292" r="18" fill="#4f772d"/>
+  <circle cx="996" cy="292" r="18" fill="#8d6a9f"/>
+  <rect x="88" y="390" width="210" height="92" rx="8" fill="#1f7a8c" opacity="0.92"/><text x="193" y="440" text-anchor="middle" font-size="24" fill="#fff" font-family="Arial">sugar grams</text><rect x="348" y="390" width="210" height="92" rx="8" fill="#bf4342" opacity="0.92"/><text x="453" y="440" text-anchor="middle" font-size="24" fill="#fff" font-family="Arial">replacement</text><rect x="608" y="390" width="210" height="92" rx="8" fill="#4f772d" opacity="0.92"/><text x="713" y="440" text-anchor="middle" font-size="24" fill="#fff" font-family="Arial">source</text><rect x="868" y="390" width="210" height="92" rx="8" fill="#8d6a9f" opacity="0.92"/><text x="973" y="440" text-anchor="middle" font-size="24" fill="#fff" font-family="Arial">action</text>
+  <text x="92" y="548" font-size="22" fill="#607d8b" font-family="Arial">Korean and English paired guide</text>
+</svg>
